@@ -98,44 +98,56 @@
       "checkedAt": "2026-06-12T14:34:04.133Z"
     },
     "bgy-012802022": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:01:24.096Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:34:59.873Z"
     },
     "bgy-012802042": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:01:26.502Z"
+      "month": 10,
+      "dayStart": 7,
+      "dayEnd": 7,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "History of the Philippines",
+      "query": "\"Sangil\" \"Bacarra\" Philippines barangay"
     },
     "bgy-012802050": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:01:28.928Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:36:05.224Z"
     },
     "bgy-012802051": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:01:31.324Z"
+      "checkedAt": "2026-06-12T14:36:14.267Z"
     },
     "bgy-012802052": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:01:33.708Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:37:10.055Z"
     },
     "bgy-012803001": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:01:36.112Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:38:10.599Z"
     },
     "bgy-012803002": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:01:38.513Z"
+      "month": 10,
+      "dayStart": 18,
+      "dayEnd": 18,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Badoc",
+      "query": "\"Alogoog\" \"Badoc\" Philippines barangay"
     },
     "bgy-012803003": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:12.641Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:39:15.207Z"
     },
     "bgy-012803004": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:15.033Z"
+      "month": 10,
+      "dayStart": 18,
+      "dayEnd": 18,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Badoc",
+      "query": "\"Aring\" \"Badoc\" Philippines barangay"
     },
     "bgy-012803005": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:02:17.466Z"
+      "checkedAt": "2026-06-12T14:40:03.979Z"
     },
     "bgy-012803006": {
       "notFound": true,

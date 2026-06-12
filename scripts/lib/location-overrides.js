@@ -50,7 +50,49 @@ export const CITY_ALIASES = {
   ormoc: "Ormoc City",
   "san fernando": "City of San Fernando",
   "city of san fernando": "City of San Fernando",
+  mandaue: "Mandaue City",
+  "mandaue city": "Mandaue City",
+  "city of mandaue": "Mandaue City",
+  "lapu-lapu": "Lapu-Lapu City",
+  "lapu lapu": "Lapu-Lapu City",
+  "lapu-lapu city": "Lapu-Lapu City",
+  "city of lapu-lapu": "Lapu-Lapu City",
+  "city of lapu-lapu (opon)": "Lapu-Lapu City",
+  "cebu city": "Cebu City",
+  "city of cebu": "Cebu City",
+  tagbilaran: "City of Tagbilaran",
+  "tagbilaran city": "City of Tagbilaran",
+  "city of tagbilaran": "City of Tagbilaran",
+  "cotabato city": "City of Cotabato",
+  cotabato: "City of Cotabato",
+  samal: "Island Garden City of Samal",
+  "island garden city of samal": "Island Garden City of Samal",
 };
+
+/** PSGC / legacy spellings → canonical municipality name in the index */
+export const MUNICIPALITY_ALIASES = {
+  "pio v corpuz": "Pio V. Corpus",
+  "pio v corpuz limbuhan": "Pio V. Corpus",
+  "pres carlos p garcia": "President Carlos P. Garcia",
+  "pres carlos p garcia pitogo": "President Carlos P. Garcia",
+  "bacungan leon t postigo": "Leon T. Postigo",
+  bumbaran: "Amai Manabilang",
+  "city of sto tomas": "City of Sto. Tomas",
+  "sto tomas": "City of Sto. Tomas",
+};
+
+export function resolveMunicipalityAlias(name) {
+  if (!name) return null;
+  const key = String(name)
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[()]/g, " ")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return MUNICIPALITY_ALIASES[key] ?? null;
+}
 
 /** Region text aliases → adm1 PSGC */
 export const REGION_ALIASES = {
@@ -144,6 +186,12 @@ export const FESTIVAL_LOCATION_HINTS = {
     municipality: "Calapan City",
     province: "Oriental Mindoro",
   },
+  "mantawi festival": { municipality: "Mandaue City", province: "Cebu" },
+  "kadaugan sa mactan": { municipality: "Lapu-Lapu City", province: "Cebu" },
+  "virgen de la regla festival": { municipality: "Lapu-Lapu City", province: "Cebu" },
+  "virgin of the rule fiesta": { municipality: "Lapu-Lapu City", province: "Cebu" },
+  "sandugo festival": { municipality: "City of Tagbilaran", province: "Bohol" },
+  "mandaue charter day celebration": { municipality: "Mandaue City", province: "Cebu" },
 };
 
 /** National / regionwide events — no municipality polygon */

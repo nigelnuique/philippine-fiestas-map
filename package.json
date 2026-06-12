@@ -4,7 +4,7 @@
   "description": "Exhaustive zoomable map of Philippine fiestas and festivals",
   "type": "module",
   "scripts": {
-    "data:fetch-boundaries": "node scripts/fetch-boundaries.js && node scripts/build-huc-boundaries.js",
+    "data:fetch-boundaries": "node scripts/fetch-boundaries.js && node scripts/build-huc-boundaries.js && node scripts/build-huc-barangay-boundaries.js",
     "data:fetch-psgc": "node scripts/fetch-psgc.js",
     "data:fetch-festivals": "node scripts/fetch-festivals.js",
     "data:enrich-dates": "node scripts/enrich-festival-dates-online.js",
@@ -15,13 +15,20 @@
     "data:fetch-barangay-fiestas": "node scripts/fetch-barangay-fiestas.js",
     "data:build": "node scripts/build-dataset.js",
     "data:build-barangay": "node scripts/build-barangay-fiestas.js",
-    "data:all": "npm run data:fetch-boundaries && npm run data:fetch-psgc && npm run data:fetch-festivals && npm run data:build-barangay && npm run data:build",
+    "data:backfill-barangay-dates": "node scripts/backfill-barangay-fiesta-dates.js && npm run data:build-barangay",
+    "data:enrich-barangay-dates": "node scripts/enrich-barangay-fiesta-dates-online.js",
+    "data:fetch-lgu-barangay-schedules": "node scripts/fetch-lgu-barangay-schedules-online.js",
+    "data:all": "npm run data:fetch-boundaries && npm run data:fetch-psgc && npm run data:fetch-festivals && npm run data:fetch-barangay-fiestas && npm run data:fetch-lgu-barangay-schedules && npm run data:backfill-barangay-dates && npm run data:build",
     "map:sync": "node scripts/sync-map-boundaries.js",
     "predev": "npm run map:sync",
     "dev": "vite",
     "prebuild": "npm run map:sync",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "check:page": "node scripts/check-page.mjs",
+    "check:e2e": "node scripts/e2e-map.mjs",
+    "check:go-live": "node scripts/go-live-checks.mjs",
+    "data:analyze-missing-barangays": "node scripts/analyze-missing-barangay-boundaries.js"
   },
   "keywords": [
     "philippines",
@@ -38,5 +45,12 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "vite": "^8.0.16"
+  },
+  "devDependencies": {
+    "@turf/simplify": "^7.2.0",
+    "adm-zip": "^0.5.16",
+    "playwright": "^1.60.0",
+    "proj4": "^2.15.0",
+    "shapefile": "^0.6.6"
   }
 }

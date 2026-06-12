@@ -7,6 +7,7 @@ import {
   getRegionFromText,
   inferMunicipalityFromFestivalName,
   resolveAliasMunicipality,
+  resolveMunicipalityAlias,
 } from "./location-overrides.js";
 
 const PROVINCE_ALIASES = {
@@ -21,6 +22,7 @@ const PROVINCE_ALIASES = {
   "compostela valley province": "davao de oro",
   "compostela valley": "davao de oro",
   "davao de oro": "davao de oro",
+  "davao del norte": "davao del norte",
   "davao oriental": "davao oriental",
   "ncr": "metro manila",
   "national capital region": "metro manila",
@@ -38,8 +40,8 @@ export function normalize(text) {
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[()]/g, " ")
     .replace(/\s+/g, " ")
-    .replace(/[()]/g, "")
     .replace(/\bcity of\b/g, "")
     .replace(/\bmunicipality of\b/g, "")
     .trim();
@@ -131,6 +133,34 @@ export function parseVenueParts(raw) {
 function expandProvince(text) {
   const n = normalize(text).replace(/\.$/, "").replace(/\s+province$/, "");
   return PROVINCE_ALIASES[n] ?? PROVINCE_ALIASES[`${n} province`] ?? n;
+}
+
+function stripCitySuffix(name) {
+  return name.replace(/\s+city$/, "").trim();
+}
+
+/** Avoid false positives like Mandaue→Anda or Tagbilaran→Bilar. */
+function municipalityNamesMatch(candidateNorm, candidateCompact, muni) {
+  const muniNorm = muni.normalizedName;
+  const muniCompact = compact(muni.name);
+  const muniCore = stripCitySuffix(muniNorm.replace(/^city of\s+/, ""));
+  const candCore = stripCitySuffix(candidateNorm.replace(/^city of\s+/, ""));
+
+  if (candidateNorm === muniNorm) return true;
+  if (candCore === muniCore) return true;
+  if (candidateCompact && candidateCompact === muniCompact) return true;
+  if (candidateNorm === stripCitySuffix(muniNorm)) return true;
+
+  // Prefix containment only (e.g. "santa maria" vs "santa maria aurora")
+  const MIN_CONTAIN_LEN = 6;
+  if (muniCore.length >= MIN_CONTAIN_LEN && candidateNorm.startsWith(`${muniCore} `)) {
+    return true;
+  }
+  if (candCore.length >= MIN_CONTAIN_LEN && muniCore.startsWith(`${candCore} `)) {
+    return true;
+  }
+
+  return false;
 }
 
 function provinceNamesInText(rawNorm, provincesByName) {
@@ -243,7 +273,10 @@ export function resolveFestivalLocation(festival, lookups) {
   }
 
   if (muniCandidate) {
-    muniCandidate = resolveAliasMunicipality(muniCandidate) ?? muniCandidate;
+    muniCandidate =
+      resolveMunicipalityAlias(muniCandidate) ??
+      resolveAliasMunicipality(muniCandidate) ??
+      muniCandidate;
   }
 
   if (hint?.regionPsgc) {
@@ -286,13 +319,8 @@ export function resolveFestivalLocation(festival, lookups) {
   if (muniCandidate) {
     const norm = normalize(muniCandidate);
     const compactNorm = compact(muniCandidate);
-    const hits = municipalities.filter(
-      (m) =>
-        m.normalizedName === norm ||
-        compact(m.name) === compactNorm ||
-        m.normalizedName === normalize(muniCandidate.replace(/\s+city$/i, "")) ||
-        normalize(m.name).includes(norm) ||
-        norm.includes(normalize(m.name.replace(/^city of\s+/i, "")))
+    const hits = municipalities.filter((m) =>
+      municipalityNamesMatch(norm, compactNorm, m)
     );
 
     if (hits.length === 1) {

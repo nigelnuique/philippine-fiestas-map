@@ -54,6 +54,10 @@ function main() {
     path.join(SRC, "municities", "lowres"),
     path.join(DEST, "municities", "lowres")
   );
+  const hucBarangays = copyDir(
+    path.join(ROOT, "data", "processed", "boundaries", "huc-barangays"),
+    path.join(DEST, "municities", "lowres")
+  );
   fs.mkdirSync(path.join(DEST, "country", "lowres"), { recursive: true });
   fs.copyFileSync(
     path.join(SRC, "country", "lowres", "country.0.001.json"),
@@ -63,7 +67,7 @@ function main() {
   copyDirRecursive(PROCESSED_SRC, PROCESSED_DEST);
 
   console.log(
-    `Synced GeoJSON to public/geojson/ (${regions} region, ${provdist} province, ${municities} barangay files)`
+    `Synced GeoJSON to public/geojson/ (${regions} region, ${provdist} province, ${municities + hucBarangays} barangay files)`
   );
   console.log(`Synced processed data to public/data/processed/`);
 }

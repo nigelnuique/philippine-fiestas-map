@@ -64,8 +64,9 @@ See [docs/data-pipeline.md](docs/data-pipeline.md) for full pipeline details.
 
 | Doc | Contents |
 |-----|----------|
-| [docs/architecture.md](docs/architecture.md) | App structure, map layers, selection state, module reference |
+| [docs/data-sources.md](docs/data-sources.md) | **Data provenance** — sources, licenses, how each dataset was obtained |
 | [docs/data-pipeline.md](docs/data-pipeline.md) | Scripts, data files, PSGC codes, known gaps |
+| [docs/architecture.md](docs/architecture.md) | App structure, map layers, selection state, module reference |
 | [docs/map-interaction.md](docs/map-interaction.md) | Click rules, navigation, festival filtering |
 
 ## Project structure
@@ -95,9 +96,12 @@ philippine-fiestas-map/
 |------|--------|---------|
 | Admin boundaries | [faeldon/philippines-json-maps](https://github.com/faeldon/philippines-json-maps) (PSGC Dec 2023) | MIT |
 | HUC city polygons | [geoBoundaries](https://www.geoboundaries.org/) PHL ADM3 | CC-BY 4.0 |
+| HUC barangay patches | [altcoder/philippines-psgc-shapefiles](https://github.com/altcoder/philippines-psgc-shapefiles) ADM4 | See upstream |
 | Admin names / PSGC | [xemasiv/psgc2](https://github.com/xemasiv/psgc2) | CC-BY 4.0 |
 | Named festivals | TPB calendar, Wikipedia, curated seeds | varies |
-| Barangay fiestas | PSGC patron-saint fields | CC-BY 4.0 |
+| Barangay fiestas | PSGC hierarchy + date backfill (LGU schedules, patron-saint calendar) | CC-BY 4.0 |
+
+See **[docs/data-sources.md](docs/data-sources.md)** for full provenance: how each dataset was cloned, scraped, or inferred, plus coverage limits and attribution requirements.
 
 ## Administrative drill-down
 

@@ -1,5 +1,10 @@
 import { CITY_MAP_FOCUS } from "./constants.js";
-import { psaToAdm } from "./psgc.js";
+import {
+  getFestivalLocationHint,
+  mapFocusForMunicipality,
+  resolveCityAlias,
+} from "./locationHints.js";
+import { municipalityIndexKeys, normalizePsgc, psaToAdm } from "./psgc.js";
 
 export function boundsFromFeature(feature) {
   const coords = [];
@@ -145,8 +150,6 @@ export function findMunicipalityByName(municipalitiesIndex, municipalityName, pr
       const name = normalizePlaceName(m.name);
       return (
         name === target ||
-        name.includes(target) ||
-        target.includes(name) ||
         name.replace(/\s+city$/, "") === target.replace(/\s+city$/, "")
       );
     });
@@ -181,10 +184,33 @@ export function findMunicipalityByPsgc(municipalitiesIndex, psgc) {
   return null;
 }
 
-function hasBarangayBoundary(barangaysIndex, municipalityPsgc, barangayPsgc) {
-  if (!barangaysIndex || !municipalityPsgc || !barangayPsgc) return false;
-  const entry = barangaysIndex[String(municipalityPsgc)];
-  return entry?.barangays?.some((b) => Number(b.psgc) === Number(barangayPsgc));
+function lookupBarangaysEntry(barangaysIndex, municipalityPsgc) {
+  if (!barangaysIndex || municipalityPsgc == null) return null;
+  for (const key of municipalityIndexKeys(municipalityPsgc)) {
+    if (barangaysIndex[key]) return barangaysIndex[key];
+  }
+  return null;
+}
+
+function buildMunicipalitySelection({
+  regionPsgc,
+  regionName,
+  provincePsgc,
+  provinceName,
+  municipalityPsgc,
+  municipalityName,
+}) {
+  const focus = mapFocusForMunicipality(municipalityName);
+  return {
+    level: "municipality",
+    regionPsgc: normalizePsgc(regionPsgc),
+    regionName,
+    provincePsgc: normalizePsgc(provincePsgc),
+    provinceName,
+    municipalityPsgc: normalizePsgc(municipalityPsgc),
+    municipalityName,
+    ...(focus ? { mapFocusFallback: focus } : {}),
+  };
 }
 
 export function selectionFromFestival(
@@ -194,6 +220,8 @@ export function selectionFromFestival(
   municipalitiesIndex = null,
   barangaysIndex = null
 ) {
+  const nameHint = getFestivalLocationHint(festival.name);
+
   if (festival.barangayPsgc) {
     const loc = festival.location ?? {};
     const barangayPsgc = psaToAdm(festival.barangayPsgc);
@@ -212,15 +240,12 @@ export function selectionFromFestival(
       festivalIndex.provinceToRegion.get(provincePsgc) ??
       null;
 
-    const bgyEntry = barangaysIndex?.[String(municipalityPsgc)]?.barangays?.find(
-      (b) => Number(b.psgc) === barangayPsgc
-    );
+    const bgyEntry = lookupBarangaysEntry(
+      barangaysIndex,
+      municipalityPsgc
+    )?.barangays?.find((b) => Number(b.psgc) === barangayPsgc);
 
-    if (
-      hasBarangayBoundary(barangaysIndex, municipalityPsgc, barangayPsgc) &&
-      municipalityPsgc &&
-      provincePsgc
-    ) {
+    if (municipalityPsgc && provincePsgc) {
       const regionName = regionPsgc ? findRegionName(manifest, regionPsgc) : null;
       return {
         level: "barangay",
@@ -239,21 +264,30 @@ export function selectionFromFestival(
   }
 
   const loc = festival.location ?? {};
-  let municipalityPsgc = loc.psgc ?? null;
-  let provincePsgc = loc.provincePsgc ?? null;
-  let regionPsgc =
-    loc.regionPsgc ?? festivalIndex.provinceToRegion.get(provincePsgc) ?? null;
-  let municipalityName = loc.municipality ?? null;
+  let municipalityPsgc = normalizePsgc(loc.psgc);
+  let provincePsgc = normalizePsgc(loc.provincePsgc);
+  let regionPsgc = normalizePsgc(
+    loc.regionPsgc ?? festivalIndex.provinceToRegion.get(provincePsgc) ?? null
+  );
+  let municipalityName =
+    resolveCityAlias(loc.municipality) ??
+    loc.municipality ??
+    nameHint?.municipality ??
+    null;
+  let provinceName = loc.province ?? nameHint?.province ?? null;
 
   if (municipalityPsgc) {
     const resolved = findMunicipalityByPsgc(municipalitiesIndex, municipalityPsgc);
-    provincePsgc = provincePsgc ?? resolved?.provincePsgc ?? null;
+    provincePsgc = provincePsgc ?? normalizePsgc(resolved?.provincePsgc) ?? null;
     regionPsgc =
       regionPsgc ??
-      resolved?.regionPsgc ??
-      festivalIndex.provinceToRegion.get(provincePsgc) ??
+      normalizePsgc(resolved?.regionPsgc) ??
+      normalizePsgc(festivalIndex.provinceToRegion.get(provincePsgc)) ??
       null;
     municipalityName = municipalityName ?? resolved?.name ?? null;
+    provinceName =
+      provinceName ??
+      (provincePsgc ? findProvinceName(manifest, provincePsgc) : null);
   } else if (municipalityName) {
     const resolved = findMunicipalityByName(
       municipalitiesIndex,
@@ -261,31 +295,46 @@ export function selectionFromFestival(
       provincePsgc
     );
     if (resolved) {
-      municipalityPsgc = resolved.psgc;
-      provincePsgc = provincePsgc ?? resolved.provincePsgc ?? null;
+      municipalityPsgc = normalizePsgc(resolved.psgc);
+      provincePsgc = provincePsgc ?? normalizePsgc(resolved.provincePsgc) ?? null;
       regionPsgc =
         regionPsgc ??
-        resolved.regionPsgc ??
-        festivalIndex.provinceToRegion.get(provincePsgc) ??
+        normalizePsgc(resolved?.regionPsgc) ??
+        normalizePsgc(festivalIndex.provinceToRegion.get(provincePsgc)) ??
         null;
       municipalityName = resolved.name ?? municipalityName;
+      provinceName =
+        provinceName ??
+        (provincePsgc ? findProvinceName(manifest, provincePsgc) : null);
+    }
+  }
+
+  if (!provincePsgc && provinceName) {
+    for (const region of manifest.regions) {
+      const prov = region.provinceLayer?.provinces?.find(
+        (p) => p.name.toLowerCase() === provinceName.toLowerCase()
+      );
+      if (prov) {
+        provincePsgc = normalizePsgc(prov.psgc);
+        regionPsgc = regionPsgc ?? normalizePsgc(region.psgc);
+        break;
+      }
     }
   }
 
   const regionName = regionPsgc ? findRegionName(manifest, regionPsgc) : null;
-  const provinceName =
-    loc.province ?? (provincePsgc ? findProvinceName(manifest, provincePsgc) : null);
+  provinceName =
+    provinceName ?? (provincePsgc ? findProvinceName(manifest, provincePsgc) : null);
 
   if (municipalityPsgc && provincePsgc) {
-    return {
-      level: "municipality",
+    return buildMunicipalitySelection({
       regionPsgc,
       regionName,
       provincePsgc,
       provinceName,
       municipalityPsgc,
       municipalityName,
-    };
+    });
   }
 
   const focus = municipalityName ? cityMapFocus(municipalityName) : null;
@@ -299,6 +348,7 @@ export function selectionFromFestival(
       municipalityPsgc: null,
       municipalityName,
       mapFocus: focus,
+      mapFocusFallback: focus,
     };
   }
 

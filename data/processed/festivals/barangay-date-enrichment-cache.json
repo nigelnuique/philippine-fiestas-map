@@ -1,0 +1,338 @@
+{
+  "version": 1,
+  "entries": {
+    "bgy-012801001": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:23:55.531Z"
+    },
+    "bgy-012802001": {
+      "month": 12,
+      "dayStart": 31,
+      "dayEnd": 31,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Bacarra",
+      "query": "\"Bani\" \"Bacarra\" Philippines barangay"
+    },
+    "bgy-012802002": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:25:00.086Z"
+    },
+    "bgy-012802003": {
+      "month": 12,
+      "dayStart": 31,
+      "dayEnd": 31,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Bacarra",
+      "query": "\"Cabaruan\" \"Bacarra\" Philippines barangay"
+    },
+    "bgy-012802004": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:26:04.709Z"
+    },
+    "bgy-012802005": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:26:13.777Z"
+    },
+    "bgy-012802006": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:27:09.533Z"
+    },
+    "bgy-012802007": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:27:18.531Z"
+    },
+    "bgy-012802008": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:28:14.281Z"
+    },
+    "bgy-012802009": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:28:23.370Z"
+    },
+    "bgy-012802011": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:29:04.224Z"
+    },
+    "bgy-012802012": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:29:59.982Z"
+    },
+    "bgy-012802013": {
+      "month": 12,
+      "dayStart": 31,
+      "dayEnd": 31,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Bacarra",
+      "query": "\"Libtong\" \"Bacarra\" Philippines barangay"
+    },
+    "bgy-012802014": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:31:04.513Z"
+    },
+    "bgy-012802015": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:31:13.682Z"
+    },
+    "bgy-012802016": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:32:09.430Z"
+    },
+    "bgy-012802017": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:32:18.518Z"
+    },
+    "bgy-012802018": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:01:14.217Z"
+    },
+    "bgy-012802019": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:33:14.268Z"
+    },
+    "bgy-012802020": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:33:23.298Z"
+    },
+    "bgy-012802021": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:34:04.133Z"
+    },
+    "bgy-012802022": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:24.096Z"
+    },
+    "bgy-012802042": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:26.502Z"
+    },
+    "bgy-012802050": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:28.928Z"
+    },
+    "bgy-012802051": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:31.324Z"
+    },
+    "bgy-012802052": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:33.708Z"
+    },
+    "bgy-012803001": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:36.112Z"
+    },
+    "bgy-012803002": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:01:38.513Z"
+    },
+    "bgy-012803003": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:12.641Z"
+    },
+    "bgy-012803004": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:15.033Z"
+    },
+    "bgy-012803005": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:17.466Z"
+    },
+    "bgy-012803006": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:19.888Z"
+    },
+    "bgy-012803007": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:22.306Z"
+    },
+    "bgy-012803008": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:24.704Z"
+    },
+    "bgy-012803009": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:27.124Z"
+    },
+    "bgy-012803011": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:29.530Z"
+    },
+    "bgy-012803012": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:31.947Z"
+    },
+    "bgy-012803013": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:02:34.347Z"
+    },
+    "bgy-012803016": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:08.471Z"
+    },
+    "bgy-012803017": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:10.868Z"
+    },
+    "bgy-012803018": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:13.259Z"
+    },
+    "bgy-012803020": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:15.678Z"
+    },
+    "bgy-012803021": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:18.093Z"
+    },
+    "bgy-012803022": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:20.482Z"
+    },
+    "bgy-012803023": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:22.889Z"
+    },
+    "bgy-012803025": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:25.294Z"
+    },
+    "bgy-012803026": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:27.700Z"
+    },
+    "bgy-012803028": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:03:30.119Z"
+    },
+    "bgy-012803029": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:04.222Z"
+    },
+    "bgy-012803030": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:06.629Z"
+    },
+    "bgy-012803031": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:09.047Z"
+    },
+    "bgy-012803032": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:11.446Z"
+    },
+    "bgy-012803036": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:13.886Z"
+    },
+    "bgy-012803037": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:16.304Z"
+    },
+    "bgy-012804001": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:18.721Z"
+    },
+    "bgy-012804002": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:21.504Z"
+    },
+    "bgy-012804003": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:23.907Z"
+    },
+    "bgy-012804004": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:04:57.999Z"
+    },
+    "bgy-012804005": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:00.395Z"
+    },
+    "bgy-012804006": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:02.790Z"
+    },
+    "bgy-012804007": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:05.239Z"
+    },
+    "bgy-012804008": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:07.638Z"
+    },
+    "bgy-012804009": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:10.031Z"
+    },
+    "bgy-012804010": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:12.439Z"
+    },
+    "bgy-012804011": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:14.849Z"
+    },
+    "bgy-012804014": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:17.265Z"
+    },
+    "bgy-012804015": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:05:19.695Z"
+    },
+    "bgy-012805001": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:06:13.733Z"
+    },
+    "bgy-012805002": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:06:16.772Z"
+    },
+    "bgy-012805003": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:06:20.136Z"
+    },
+    "bgy-012805004": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:06:22.911Z"
+    },
+    "bgy-012805005": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:06:25.682Z"
+    },
+    "bgy-012805006": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:06:28.476Z"
+    },
+    "bgy-012805007": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:07:02.572Z"
+    },
+    "bgy-012805009": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:07:04.970Z"
+    },
+    "bgy-012805010": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:07:07.765Z"
+    },
+    "bgy-012805011": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:07:10.559Z"
+    },
+    "bgy-012805012": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:07:12.937Z"
+    },
+    "bgy-012805013": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T14:07:15.744Z"
+    },
+    "bgy-012805014": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:08:10.216Z"
+    }
+  },
+  "updatedAt": "2026-06-12T14:08:12.218Z"
+}

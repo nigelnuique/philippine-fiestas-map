@@ -2,6 +2,8 @@
 
 How raw sources become the JSON and GeoJSON files the map app consumes.
 
+For **where data comes from, licenses, and how it was obtained**, see [data-sources.md](data-sources.md).
+
 ## Overview
 
 ```
@@ -51,6 +53,8 @@ This clones into `data/raw/`:
 | `psgc2` | PSA PSGC codes, city classes, barangay patron fields |
 
 HUC boundary shapes are downloaded automatically by `build-huc-boundaries.js` from geoBoundaries on first run.
+
+HUC **barangay** shapes (where missing from philippines-json-maps) are built by `build-huc-barangay-boundaries.js` from altcoder ADM4 shapefiles — see [data-sources.md §1.3](data-sources.md#13-altcoder-shapefiles-huc-barangay-patches).
 
 ## Script reference
 
@@ -119,7 +123,7 @@ npm run data:enrich
 
 ### `fetch-barangay-fiestas.js` + `build-barangay-fiestas.js`
 
-Extracts one patron fiesta per barangay from PSGC fields. Output:
+Extracts one patron fiesta per barangay from the PSGC hierarchy (not feast dates). Output:
 
 | File | Description |
 |------|-------------|
@@ -127,6 +131,17 @@ Extracts one patron fiesta per barangay from PSGC fields. Output:
 | `barangay-fiestas-raw.json` | Intermediate raw extraction |
 
 Barangay fiestas use **PSA PSGC codes** (9-digit). The app converts these to admin codes via `psaToAdm()` in `src/lib/psgc.js`.
+
+### `backfill-barangay-fiesta-dates.js`
+
+Adds month/day where possible (see [data-sources.md §4.2](data-sources.md#42-fiesta-date-backfill)):
+
+1. Curated LGU overrides (`scripts/lib/barangay-fiesta-date-overrides.js`)
+2. Imported LGU schedules (`scripts/lib/lgu-fiesta-schedules/` — Siargao, Biliran, etc.)
+3. Patron-saint name inference (`scripts/lib/patron-saint-calendar.js`)
+4. Optional Wikipedia cache (`data:enrich-barangay-dates` → `barangay-date-enrichment-cache.json`)
+
+Runs automatically in `npm run data:all` after `fetch-barangay-fiestas`.
 
 ### `build-dataset.js`
 
@@ -196,7 +211,7 @@ Region codes use 9 trailing zeros (`700000000` = Region VII). Province codes use
 |-----|--------|------------|
 | **32 HUC cities** missing barangay GeoJSON | No barangay drill-down for Cebu City, Manila, etc. | Municipality-level view still works; HUC polygons patched at ADM3 |
 | **Manila** empty geometry in source | No municipality polygon | `CITY_MAP_FOCUS` in `constants.js` for camera fallback |
-| **Barangay feast dates** not in PSGC | Barangay fiestas show name only, no calendar date | Future crowdsource / parish data |
+| **Barangay feast dates** mostly missing | ~10% have dates after backfill; rest are name/location only | Add LGU schedules to `lgu-fiesta-schedules/` |
 | **Festival location confidence** varies | Some festivals unmatched or low-confidence | `location.confidence` field in `festivals.json` |
 
 To check HUC barangay gaps:

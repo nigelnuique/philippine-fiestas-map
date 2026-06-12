@@ -1,0 +1,858 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-06-12T14:22:00.596Z",
+  "sources": {
+    "dagupan": {
+      "url": "https://www.dagupan.gov.ph/the-city/calendar-of-activities/",
+      "entries": 28,
+      "matched": 28,
+      "missed": 0,
+      "missedSamples": []
+    },
+    "siquijor": {
+      "url": "https://siquijor-secrets.com/siquijor-fiestas/",
+      "entries": 141,
+      "matched": 134,
+      "missed": 7,
+      "missedSamples": [
+        "Minalunan / Maria",
+        "Liloan / Maria",
+        "Poblacion Sur / Larena",
+        "Poblacion Norte / Larena",
+        "Cang-inte / Lazi",
+        "Cangtugbas / Maria",
+        "Licoan / Maria"
+      ]
+    }
+  },
+  "byPsgc": {
+    "015518001": {
+      "month": 4,
+      "dayStart": 23,
+      "dayEnd": 24,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518017": {
+      "month": 12,
+      "dayStart": 25,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518002": {
+      "month": 4,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518018": {
+      "month": 4,
+      "dayStart": 1,
+      "dayEnd": 30,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518024": {
+      "month": 4,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518019": {
+      "month": 12,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518021": {
+      "month": 10,
+      "dayStart": 1,
+      "dayEnd": 31,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518006": {
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 25,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518022": {
+      "month": 5,
+      "dayStart": 1,
+      "dayEnd": 31,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518007": {
+      "month": 5,
+      "dayStart": 7,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518023": {
+      "month": 5,
+      "dayStart": 25,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518008": {
+      "month": 3,
+      "dayStart": 23,
+      "dayEnd": 24,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518025": {
+      "month": 3,
+      "dayStart": 1,
+      "dayEnd": 31,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518026": {
+      "month": 5,
+      "dayStart": 16,
+      "dayEnd": 17,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518010": {
+      "month": 4,
+      "dayStart": 9,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518027": {
+      "month": 5,
+      "dayStart": 25,
+      "dayEnd": 26,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518011": {
+      "month": 4,
+      "dayStart": 25,
+      "dayEnd": 26,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518028": {
+      "month": 3,
+      "dayStart": 1,
+      "dayEnd": 31,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518012": {
+      "month": 5,
+      "dayStart": 7,
+      "dayEnd": 8,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518029": {
+      "month": 5,
+      "dayStart": 8,
+      "dayEnd": 9,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518013": {
+      "month": 5,
+      "dayStart": 26,
+      "dayEnd": 29,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518030": {
+      "month": 4,
+      "dayStart": 1,
+      "dayEnd": 30,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518014": {
+      "month": 5,
+      "dayStart": 6,
+      "dayEnd": 8,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518031": {
+      "month": 12,
+      "dayStart": 2,
+      "dayEnd": 4,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518015": {
+      "month": 5,
+      "dayStart": 1,
+      "dayEnd": 5,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518032": {
+      "month": 5,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "015518016": {
+      "month": 5,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-dagupan-gov-ph"
+    },
+    "076103004": {
+      "month": 1,
+      "dayStart": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102008": {
+      "month": 1,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106029": {
+      "month": 1,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106012": {
+      "month": 1,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106042": {
+      "month": 1,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106041": {
+      "month": 1,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106020": {
+      "month": 1,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102014": {
+      "month": 1,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104021": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106015": {
+      "month": 1,
+      "dayStart": 23,
+      "dayEnd": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106028": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106022": {
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103003": {
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104003": {
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105012": {
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106018": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102002": {
+      "month": 3,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101001": {
+      "month": 3,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105015": {
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105002": {
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105004": {
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106011": {
+      "month": 4,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106005": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105009": {
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102001": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102017": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102011": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102016": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102013": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102005": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102021": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102009": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104018": {
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106003": {
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106016": {
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103001": {
+      "month": 12,
+      "dayStart": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103015": {
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103005": {
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103002": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103013": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102006": {
+      "month": 5,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105008": {
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104001": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104016": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104019": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104020": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104012": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104007": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104008": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104022": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104005": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104017": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106019": {
+      "month": 6,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106035": {
+      "month": 6,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103006": {
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "041023029": {
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102012": {
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102022": {
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101013": {
+      "month": 10,
+      "dayStart": 12,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101008": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101014": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101004": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101002": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101005": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101012": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101011": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101006": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101009": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104002": {
+      "month": 8,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101003": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106034": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106024": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106001": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106030": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106026": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106038": {
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105011": {
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105006": {
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105007": {
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105003": {
+      "month": 9,
+      "dayStart": 8,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106006": {
+      "month": 9,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106013": {
+      "month": 9,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106023": {
+      "month": 9,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103010": {
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103016": {
+      "month": 9,
+      "dayStart": 20,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106025": {
+      "month": 9,
+      "dayStart": 26,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106017": {
+      "month": 9,
+      "dayStart": 26,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106010": {
+      "month": 9,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106033": {
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105014": {
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106031": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106037": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106036": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106002": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106007": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106027": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106009": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106008": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106004": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106021": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103014": {
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103009": {
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102020": {
+      "month": 10,
+      "dayStart": 11,
+      "dayEnd": 12,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105005": {
+      "month": 10,
+      "dayStart": 13,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103008": {
+      "month": 10,
+      "dayStart": 20,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104013": {
+      "month": 10,
+      "dayStart": 20,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103011": {
+      "month": 11,
+      "dayStart": 17,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103007": {
+      "month": 11,
+      "dayStart": 20,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104015": {
+      "month": 11,
+      "dayStart": 25,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102010": {
+      "month": 11,
+      "dayStart": 1,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102007": {
+      "month": 11,
+      "dayStart": 27,
+      "dayEnd": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102004": {
+      "month": 11,
+      "dayStart": 27,
+      "dayEnd": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102003": {
+      "month": 11,
+      "dayStart": 27,
+      "dayEnd": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102015": {
+      "month": 11,
+      "dayStart": 27,
+      "dayEnd": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103018": {
+      "month": 12,
+      "dayStart": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103017": {
+      "month": 12,
+      "dayStart": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076103012": {
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104004": {
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104006": {
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106039": {
+      "month": 12,
+      "dayStart": 17,
+      "dayEnd": 18,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105013": {
+      "month": 12,
+      "dayStart": 18,
+      "dateSource": "lgu-siquijor-secrets"
+    }
+  }
+}

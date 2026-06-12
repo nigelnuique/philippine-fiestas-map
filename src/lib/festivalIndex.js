@@ -1,5 +1,33 @@
 import { MONTH_NAMES } from "./constants.js";
-import { psaToAdm } from "./psgc.js";
+import { normalizePsgc, psaToAdm } from "./psgc.js";
+
+function festivalsAtPsgc(byPsgc, psgc) {
+  const key = normalizePsgc(psgc);
+  if (key == null) return [];
+  return byPsgc.get(key) ?? byPsgc.get(String(key)) ?? [];
+}
+
+function normalizePlaceName(name) {
+  return String(name)
+    .toLowerCase()
+    .replace(/\bcity of\b/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function festivalsForMunicipalityName(index, municipalityName, provincePsgc) {
+  const target = normalizePlaceName(municipalityName);
+  const stripCity = (s) => s.replace(/\s+city$/, "");
+  const pool = provincePsgc
+    ? festivalsAtPsgc(index.byProvincePsgc, provincePsgc)
+    : index.festivals;
+  return pool.filter((f) => {
+    const muni = f.location?.municipality;
+    if (!muni) return false;
+    const name = normalizePlaceName(muni);
+    return name === target || stripCity(name) === stripCity(target);
+  });
+}
 
 export function buildFestivalIndex(festivalData, manifest) {
   const festivals = festivalData.festivals ?? [];
@@ -20,21 +48,24 @@ export function buildFestivalIndex(festivalData, manifest) {
     const regionPsgc =
       loc.regionPsgc ?? provinceToRegion.get(loc.provincePsgc) ?? null;
 
-    if (loc.psgc) {
-      const list = byPsgc.get(loc.psgc) ?? [];
+    const muniPsgc = normalizePsgc(loc.psgc);
+    if (muniPsgc != null) {
+      const list = byPsgc.get(muniPsgc) ?? [];
       list.push(f);
-      byPsgc.set(loc.psgc, list);
+      byPsgc.set(muniPsgc, list);
     }
 
-    if (loc.provincePsgc) {
-      const list = byProvincePsgc.get(loc.provincePsgc) ?? [];
+    const provPsgc = normalizePsgc(loc.provincePsgc);
+    if (provPsgc != null) {
+      const list = byProvincePsgc.get(provPsgc) ?? [];
       list.push(f);
-      byProvincePsgc.set(loc.provincePsgc, list);
+      byProvincePsgc.set(provPsgc, list);
 
-      if (regionPsgc) {
-        const rList = byRegionPsgc.get(regionPsgc) ?? [];
+      const regPsgc = normalizePsgc(regionPsgc);
+      if (regPsgc != null) {
+        const rList = byRegionPsgc.get(regPsgc) ?? [];
         if (!rList.includes(f)) rList.push(f);
-        byRegionPsgc.set(regionPsgc, rList);
+        byRegionPsgc.set(regPsgc, rList);
       }
     }
   }
@@ -48,13 +79,18 @@ export function festivalsForSelection(index, selection, barangayFestivals = []) 
   const { level, regionPsgc, provincePsgc, municipalityPsgc, barangayPsgc } =
     selection;
 
-  if (level === "barangay" && barangayPsgc) {
+  const muniPsgc = normalizePsgc(municipalityPsgc);
+  const bgyPsgc = normalizePsgc(barangayPsgc);
+  const provPsgc = normalizePsgc(provincePsgc);
+  const regPsgc = normalizePsgc(regionPsgc);
+
+  if (level === "barangay" && bgyPsgc) {
     const bgyFestivals = barangayFestivals.filter(
-      (f) => psaToAdm(f.barangayPsgc) === barangayPsgc
+      (f) => psaToAdm(f.barangayPsgc) === bgyPsgc
     );
-    if (municipalityPsgc) {
-      const named = (index.byPsgc.get(municipalityPsgc) ?? []).filter(
-        (f) => f.barangayPsgc && psaToAdm(f.barangayPsgc) === barangayPsgc
+    if (muniPsgc) {
+      const named = festivalsAtPsgc(index.byPsgc, muniPsgc).filter(
+        (f) => f.barangayPsgc && psaToAdm(f.barangayPsgc) === bgyPsgc
       );
       if (!named.length) return bgyFestivals;
       const seen = new Set(bgyFestivals.map((f) => f.id));
@@ -68,8 +104,8 @@ export function festivalsForSelection(index, selection, barangayFestivals = []) 
   }
 
   if (level === "municipality") {
-    if (municipalityPsgc) {
-      const named = index.byPsgc.get(municipalityPsgc) ?? [];
+    if (muniPsgc) {
+      const named = festivalsAtPsgc(index.byPsgc, muniPsgc);
       if (!barangayFestivals.length) return named;
       const seen = new Set(named.map((f) => f.id));
       const merged = [...named];
@@ -78,21 +114,34 @@ export function festivalsForSelection(index, selection, barangayFestivals = []) 
       }
       return merged;
     }
-    if (provincePsgc) {
-      return index.byProvincePsgc.get(provincePsgc) ?? [];
+    if (selection.municipalityName) {
+      return festivalsForMunicipalityName(
+        index,
+        selection.municipalityName,
+        provPsgc
+      );
+    }
+    if (provPsgc) {
+      return festivalsAtPsgc(index.byProvincePsgc, provPsgc);
     }
   }
 
-  if (level === "province" && provincePsgc) {
-    const direct = index.byProvincePsgc.get(provincePsgc) ?? [];
-    return direct;
+  if (level === "province" && provPsgc) {
+    return festivalsAtPsgc(index.byProvincePsgc, provPsgc);
   }
 
-  if (level === "region" && regionPsgc) {
-    return index.byRegionPsgc.get(regionPsgc) ?? [];
+  if (level === "region" && regPsgc) {
+    return festivalsAtPsgc(index.byRegionPsgc, regPsgc);
   }
 
   return index.festivals;
+}
+
+/** First festival shown in the sidebar for a barangay selection (list order). */
+export function defaultBarangayFestival(index, selection, barangayFestivals = []) {
+  if (!index || selection?.level !== "barangay") return null;
+  const festivals = festivalsForSelection(index, selection, barangayFestivals);
+  return festivals[0] ?? null;
 }
 
 export function formatFestivalDate(f) {
@@ -108,9 +157,9 @@ export function formatFestivalDate(f) {
 }
 
 export function festivalCountByPsgc(index, psgc) {
-  return (index.byPsgc.get(psgc) ?? []).length;
+  return festivalsAtPsgc(index.byPsgc, psgc).length;
 }
 
 export function festivalCountByProvince(index, provincePsgc) {
-  return (index.byProvincePsgc.get(provincePsgc) ?? []).length;
+  return festivalsAtPsgc(index.byProvincePsgc, provincePsgc).length;
 }

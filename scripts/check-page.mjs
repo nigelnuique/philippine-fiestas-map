@@ -9,8 +9,8 @@ page.on("console", (msg) => {
   if (msg.type() === "error") errors.push(msg.text());
 });
 
-await page.goto(url, { waitUntil: "networkidle", timeout: 30000 });
-await page.waitForTimeout(3000);
+await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
+await page.waitForSelector(".map-container canvas", { timeout: 20000 });
 
 const text = await page.locator("body").innerText();
 const hasTitle = await page.locator("h1").count();

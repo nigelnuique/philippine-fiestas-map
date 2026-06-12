@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T11:03:09.677Z",
+  "generatedAt": "2026-06-12T14:35:30.230Z",
   "source": "faeldon/philippines-json-maps (PSGC Dec 2023)",
   "resolution": "lowres",
   "country": {
@@ -1054,5 +1054,5 @@
     }
   ],
   "municipalityLayerCount": 88,
-  "barangayLayerCount": 1639
+  "barangayLayerCount": 1672
 }

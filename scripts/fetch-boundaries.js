@@ -10,6 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const RAW = path.join(ROOT, "data", "raw", "philippines-json-maps", "2023", "geojson");
 const OUT = path.join(ROOT, "data", "processed", "boundaries");
+const HUC_BGY_DIR = path.join(OUT, "huc-barangays");
 
 const REGION_NAMES = {
   100000000: "Region I – Ilocos",
@@ -109,19 +110,15 @@ function main() {
   const municitiesDir = path.join(RAW, "municities", resolution);
   const barangaysByMunicipality = {};
 
-  for (const file of listJsonFiles(municitiesDir)) {
-    const match = file.match(/bgysubmuns-municity-(\d+)\./);
-    if (!match) continue;
-    const municipalityPsgc = Number(match[1]);
-    const filePath = path.join(municitiesDir, file);
+  function indexBarangayFile(filePath, municipalityPsgc) {
     const raw = fs.readFileSync(filePath, "utf8");
     let fc;
     try {
       fc = JSON.parse(raw);
     } catch {
-      continue;
+      return;
     }
-    if (!Array.isArray(fc.features)) continue;
+    if (!Array.isArray(fc.features)) return;
 
     const barangays = fc.features
       .filter((f) => f.geometry)
@@ -131,7 +128,7 @@ function main() {
       }))
       .filter((b) => b.psgc);
 
-    if (!barangays.length) continue;
+    if (!barangays.length) return;
 
     barangaysByMunicipality[municipalityPsgc] = {
       municipalityPsgc,
@@ -139,6 +136,20 @@ function main() {
       featureCount: barangays.length,
       barangays,
     };
+  }
+
+  for (const file of listJsonFiles(municitiesDir)) {
+    const match = file.match(/bgysubmuns-municity-(\d+)\./);
+    if (!match) continue;
+    indexBarangayFile(path.join(municitiesDir, file), Number(match[1]));
+  }
+
+  for (const file of listJsonFiles(HUC_BGY_DIR)) {
+    const match = file.match(/bgysubmuns-municity-(\d+)\./);
+    if (!match) continue;
+    const municipalityPsgc = Number(match[1]);
+    if (barangaysByMunicipality[municipalityPsgc]) continue;
+    indexBarangayFile(path.join(HUC_BGY_DIR, file), municipalityPsgc);
   }
 
   const muniFiles = listJsonFiles(provdistDir);

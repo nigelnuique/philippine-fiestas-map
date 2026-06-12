@@ -176,6 +176,42 @@ const SEED_FESTIVALS = [
     description: "Giant parol lanterns competition.",
     source: "seed",
   },
+  {
+    name: "Mantawi Festival",
+    month: 5,
+    dayStart: 8,
+    locationText: "Mandaue City, Cebu",
+    province: "Cebu",
+    municipality: "Mandaue City",
+    type: "cultural",
+    description:
+      "Cultural festival celebrating Mandaue's history, trade, and craftsmanship.",
+    source: "seed",
+  },
+  {
+    name: "Kadaugan sa Mactan",
+    month: 4,
+    dayStart: 27,
+    locationText: "Lapu-Lapu City, Cebu",
+    province: "Cebu",
+    municipality: "Lapu-Lapu City",
+    type: "historical",
+    description:
+      "Reenactment of the Battle of Mactan and tribute to Datu Lapu-Lapu.",
+    source: "seed",
+  },
+  {
+    name: "Virgen de la Regla Festival",
+    month: 11,
+    dayStart: 21,
+    locationText: "Lapu-Lapu City, Cebu",
+    province: "Cebu",
+    municipality: "Lapu-Lapu City",
+    type: "religious",
+    description:
+      "Fluvial procession and novena honoring Our Lady of the Rule in Opon.",
+    source: "seed",
+  },
 ];
 
 function parseTpbRow(cells, currentMonth) {

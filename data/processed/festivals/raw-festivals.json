@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T10:48:05.941Z",
+  "generatedAt": "2026-06-12T12:17:00.379Z",
   "sources": [
     {
       "id": "tpb",
@@ -24,11 +24,11 @@
   ],
   "counts": {
     "tpb": 118,
-    "seed": 12,
+    "seed": 15,
     "wikipedia": 1043,
     "barangay": 42044,
-    "totalNamed": 1173,
-    "totalWithBarangay": 43217
+    "totalNamed": 1176,
+    "totalWithBarangay": 43220
   },
   "festivals": {
     "tpb": [
@@ -1604,6 +1604,45 @@
         "municipality": "San Fernando City",
         "type": "cultural",
         "description": "Giant parol lanterns competition.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-mantawi-festival",
+        "name": "Mantawi Festival",
+        "month": 5,
+        "dayStart": 8,
+        "dayEnd": null,
+        "locationText": "Mandaue City, Cebu",
+        "province": "Cebu",
+        "municipality": "Mandaue City",
+        "type": "cultural",
+        "description": "Cultural festival celebrating Mandaue's history, trade, and craftsmanship.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-kadaugan-sa-mactan",
+        "name": "Kadaugan sa Mactan",
+        "month": 4,
+        "dayStart": 27,
+        "dayEnd": null,
+        "locationText": "Lapu-Lapu City, Cebu",
+        "province": "Cebu",
+        "municipality": "Lapu-Lapu City",
+        "type": "historical",
+        "description": "Reenactment of the Battle of Mactan and tribute to Datu Lapu-Lapu.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-virgen-de-la-regla-festival",
+        "name": "Virgen de la Regla Festival",
+        "month": 11,
+        "dayStart": 21,
+        "dayEnd": null,
+        "locationText": "Lapu-Lapu City, Cebu",
+        "province": "Cebu",
+        "municipality": "Lapu-Lapu City",
+        "type": "religious",
+        "description": "Fluvial procession and novena honoring Our Lady of the Rule in Opon.",
         "source": "seed"
       }
     ],

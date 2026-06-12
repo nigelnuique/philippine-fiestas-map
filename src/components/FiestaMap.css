@@ -9,6 +9,22 @@
   height: 100%;
 }
 
+.map-tooltip {
+  position: fixed;
+  z-index: 5;
+  pointer-events: none;
+  transform: translate(14px, 14px);
+  background: rgba(15, 20, 25, 0.94);
+  border: 1px solid #475569;
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #f1f5f9;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
 .map-hint {
   position: absolute;
   bottom: 12px;
@@ -22,6 +38,40 @@
   pointer-events: none;
   max-width: 320px;
   line-height: 1.4;
+}
+
+.map-legend {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.65rem;
+  background: rgba(15, 20, 25, 0.88);
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.4rem 0.65rem;
+  font-size: 0.68rem;
+  color: #64748b;
+  pointer-events: none;
+}
+
+.map-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.map-legend-active {
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.map-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 768px) {

@@ -1,4 +1,5 @@
 import { boundsFromFeature, mergeBounds } from "./mapUtils.js";
+import { municipalityIndexKeys, normalizePsgc } from "./psgc.js";
 
 async function fetchJson(url, label) {
   const res = await fetch(url);
@@ -113,9 +114,14 @@ export async function loadMunicipalities(provincePsgc) {
   const hucIds = byProvince[String(provincePsgc)] ?? [];
   if (!hucIds.length) return base;
 
-  const hucFeatures = cities.features.filter((f) =>
-    hucIds.includes(f.properties?.adm3_psgc)
+  const existingIds = new Set(
+    (base.features ?? []).map((f) => Number(f.properties?.adm3_psgc))
   );
+  const hucIdSet = new Set(hucIds.map((id) => Number(id)));
+  const hucFeatures = cities.features.filter((f) => {
+    const id = Number(f.properties?.adm3_psgc);
+    return hucIdSet.has(id) && !existingIds.has(id);
+  });
   if (!hucFeatures.length) return base;
 
   return {
@@ -153,10 +159,29 @@ export async function loadBarangayFiestaIndex() {
   return barangayIndexCache;
 }
 
+export function lookupMunicipalityIndex(index, municipalityPsgc) {
+  if (!index || municipalityPsgc == null) return null;
+  const byMuni = index.byMunicipalityPsgc ?? index;
+  for (const key of municipalityIndexKeys(municipalityPsgc)) {
+    const hit = byMuni[key];
+    if (hit) return hit;
+  }
+  return null;
+}
+
+export function lookupBarangaysForMunicipality(barangaysIndex, municipalityPsgc) {
+  if (!barangaysIndex || municipalityPsgc == null) return null;
+  for (const key of municipalityIndexKeys(municipalityPsgc)) {
+    const hit = barangaysIndex[key];
+    if (hit) return hit;
+  }
+  return null;
+}
+
 export async function loadBarangayFiestasForMunicipality(municipalityPsgc) {
   if (!municipalityPsgc) return [];
   const index = await loadBarangayFiestaIndex();
-  return index.byMunicipalityPsgc?.[String(municipalityPsgc)] ?? [];
+  return lookupMunicipalityIndex(index, municipalityPsgc) ?? [];
 }
 
 export async function loadBarangays(municipalityPsgc) {
@@ -181,6 +206,14 @@ function findGeoFeature(features, prop, value) {
   );
 }
 
+/** Bounds for a municipality polygon (includes HUC city patches). */
+export async function resolveMunicipalityBounds(provincePsgc, municipalityPsgc) {
+  if (!provincePsgc || !municipalityPsgc) return null;
+  const fc = await loadMunicipalities(provincePsgc);
+  const feat = findGeoFeature(fc?.features, "adm3_psgc", municipalityPsgc);
+  return boundsFromFeature(feat);
+}
+
 /** Load GeoJSON bounds for the deepest available selection level. */
 export async function resolveSelectionFlyBounds(selection) {
   if (!selection) return null;
@@ -196,13 +229,10 @@ export async function resolveSelectionFlyBounds(selection) {
   }
 
   if (selection.municipalityPsgc && selection.provincePsgc) {
-    const fc = await loadMunicipalities(selection.provincePsgc);
-    const feat = findGeoFeature(
-      fc?.features,
-      "adm3_psgc",
+    return resolveMunicipalityBounds(
+      selection.provincePsgc,
       selection.municipalityPsgc
     );
-    if (feat) return boundsFromFeature(feat);
   }
 
   if (selection.level === "province" && selection.provincePsgc && provincesCache) {

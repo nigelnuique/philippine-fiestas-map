@@ -32,7 +32,7 @@ This document describes how the Philippine Fiestas Map web app is structured: Re
               └─────────────────────────┘
 ```
 
-The app is a single-page React application with no backend. All boundary GeoJSON and festival JSON are served statically from `public/` after `npm run map:sync`.
+The app is a single-page React application with no backend. All boundary GeoJSON and festival JSON are served statically from `public/` after `npm run map:sync`. Upstream datasets, licenses, and acquisition methods are documented in [data-sources.md](data-sources.md).
 
 ## Selection model
 

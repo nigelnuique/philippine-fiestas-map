@@ -31,6 +31,7 @@ function main() {
   const byMunicipalityPsgc = {};
   let matched = 0;
   let unmatched = 0;
+  let withDates = 0;
 
   for (const f of raw.festivals) {
     const location = resolveFestivalLocation(f, lookups);
@@ -43,6 +44,11 @@ function main() {
       source: f.source,
       barangayPsgc: f.barangayPsgc,
       barangayName: f.locationText?.split(",")[0]?.trim() ?? null,
+      ...(f.month ? { month: f.month } : {}),
+      ...(f.dayStart ? { dayStart: f.dayStart } : {}),
+      ...(f.dayEnd ? { dayEnd: f.dayEnd } : {}),
+      ...(f.dateSource ? { dateSource: f.dateSource } : {}),
+      ...(f.patronSaint ? { patronSaint: f.patronSaint } : {}),
       location: {
         text: f.locationText,
         municipality: location.municipality ?? f.municipality,
@@ -54,6 +60,8 @@ function main() {
         confidence: location.confidence,
       },
     };
+
+    if (record.month && record.dayStart) withDates++;
 
     if (muniPsgc) {
       matched++;
@@ -72,6 +80,7 @@ function main() {
       matchedMunicipality: matched,
       unmatched,
       municipalitiesWithBarangays: Object.keys(byMunicipalityPsgc).length,
+      withDates,
     },
     byMunicipalityPsgc,
   };
@@ -83,6 +92,7 @@ function main() {
   console.log(`  Total barangay fiestas: ${output.stats.total}`);
   console.log(`  Matched to municipality: ${matched}`);
   console.log(`  Municipalities covered: ${output.stats.municipalitiesWithBarangays}`);
+  console.log(`  With feast dates: ${withDates}`);
 }
 
 main();

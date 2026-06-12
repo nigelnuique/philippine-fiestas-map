@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
+import { flushSync } from "react-dom";
 import FiestaMap from "./components/FiestaMap.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 import {
@@ -7,11 +8,17 @@ import {
   loadAllProvinces,
   loadMunicipalitiesIndex,
   loadBarangaysIndex,
+  loadBarangayFiestaIndex,
   loadBarangayFiestasForMunicipality,
+  resolveMunicipalityBounds,
   resolveSelectionFlyBounds,
 } from "./lib/data.js";
-import { buildFestivalIndex } from "./lib/festivalIndex.js";
-import { selectionFromFestival } from "./lib/mapUtils.js";
+import {
+  buildFestivalIndex,
+  defaultBarangayFestival,
+} from "./lib/festivalIndex.js";
+import { boundsForSelection, selectionFromFestival } from "./lib/mapUtils.js";
+import { normalizePsgc } from "./lib/psgc.js";
 import "./App.css";
 
 export default function App() {
@@ -24,9 +31,14 @@ export default function App() {
   const [barangaysIndex, setBarangaysIndex] = useState(null);
   const [selection, setSelection] = useState(null);
   const [activeFestivalId, setActiveFestivalId] = useState(null);
-  const [mapFlyTrigger, setMapFlyTrigger] = useState(0);
+  const [selectionRevision, setSelectionRevision] = useState(0);
   const [barangayFestivals, setBarangayFestivals] = useState([]);
+  const [barangayFestivalsLoading, setBarangayFestivalsLoading] = useState(false);
+  const [festivalSelectNotice, setFestivalSelectNotice] = useState(null);
   const selectionSeqRef = useRef(0);
+  const autoSelectedBarangayRef = useRef(null);
+  const provincesGeoJsonRef = useRef(null);
+  provincesGeoJsonRef.current = provincesGeoJson;
 
   useEffect(() => {
     let cancelled = false;
@@ -38,6 +50,7 @@ export default function App() {
           loadFestivals(),
           loadMunicipalitiesIndex(),
           loadBarangaysIndex(),
+          loadBarangayFiestaIndex().catch(() => null),
         ]);
         const provinces = await loadAllProvinces(m);
         if (!cancelled) {
@@ -72,39 +85,140 @@ export default function App() {
 
   useEffect(() => {
     let cancelled = false;
-    const muniPsgc = selection?.municipalityPsgc;
+    const muniPsgc = normalizePsgc(selection?.municipalityPsgc);
+    const atMunicipality =
+      selection?.level === "municipality" || selection?.level === "barangay";
 
-    if (!muniPsgc) {
+    if (!muniPsgc || !atMunicipality) {
       setBarangayFestivals([]);
+      setBarangayFestivalsLoading(false);
       return;
     }
 
-    loadBarangayFiestasForMunicipality(muniPsgc).then((list) => {
-      if (!cancelled) setBarangayFestivals(list);
-    });
+    setBarangayFestivals([]);
+    setBarangayFestivalsLoading(true);
+
+    loadBarangayFiestasForMunicipality(muniPsgc)
+      .then((list) => {
+        if (!cancelled) {
+          setBarangayFestivals(list);
+          setBarangayFestivalsLoading(false);
+        }
+      })
+      .catch(() => {
+        if (!cancelled) {
+          setBarangayFestivals([]);
+          setBarangayFestivalsLoading(false);
+        }
+      });
 
     return () => {
       cancelled = true;
     };
-  }, [selection?.municipalityPsgc]);
+  }, [selection?.municipalityPsgc, selection?.level]);
+
+  useEffect(() => {
+    const bgyPsgc = normalizePsgc(selection?.barangayPsgc);
+
+    if (selection?.level !== "barangay" || !festivalIndex || barangayFestivalsLoading) {
+      if (selection?.level !== "barangay") {
+        autoSelectedBarangayRef.current = null;
+      }
+      return;
+    }
+
+    if (bgyPsgc == null) return;
+
+    const festival = defaultBarangayFestival(
+      festivalIndex,
+      selection,
+      barangayFestivals
+    );
+
+    const alreadyHandled = autoSelectedBarangayRef.current === bgyPsgc;
+    if (alreadyHandled && (activeFestivalId || !festival)) return;
+
+    autoSelectedBarangayRef.current = bgyPsgc;
+    setActiveFestivalId(festival?.id ?? null);
+  }, [
+    selection,
+    festivalIndex,
+    barangayFestivals,
+    barangayFestivalsLoading,
+    activeFestivalId,
+  ]);
+
+  const normalizeSelection = useCallback((sel) => {
+    if (!sel) return null;
+    return {
+      ...sel,
+      regionPsgc: normalizePsgc(sel.regionPsgc),
+      provincePsgc: normalizePsgc(sel.provincePsgc),
+      municipalityPsgc: normalizePsgc(sel.municipalityPsgc),
+      barangayPsgc: normalizePsgc(sel.barangayPsgc),
+    };
+  }, []);
 
   const applyMapSelection = useCallback(async (sel, { festivalId = null } = {}) => {
     const seq = ++selectionSeqRef.current;
     setActiveFestivalId(festivalId);
+    if (!festivalId) setFestivalSelectNotice(null);
     if (!sel) {
-      setSelection(null);
-      setMapFlyTrigger((n) => n + 1);
+      flushSync(() => {
+        setSelection(null);
+        setSelectionRevision((n) => n + 1);
+      });
       return;
     }
-    const flyBounds = sel.flyBounds ?? (await resolveSelectionFlyBounds(sel));
-    if (seq !== selectionSeqRef.current) return;
-    setSelection({
-      ...sel,
-      ...(festivalId ? { festivalId } : {}),
-      ...(flyBounds ? { flyBounds } : {}),
+
+    const normalized = normalizeSelection(sel);
+    const immediateFlyBounds =
+      boundsForSelection(normalized, provincesGeoJsonRef.current, null, null) ??
+      normalized.flyBounds;
+    flushSync(() => {
+      setSelection({
+        ...normalized,
+        ...(festivalId ? { festivalId } : {}),
+        ...(immediateFlyBounds ? { flyBounds: immediateFlyBounds } : {}),
+      });
+      setSelectionRevision((n) => n + 1);
     });
-    setMapFlyTrigger((n) => n + 1);
-  }, []);
+
+    try {
+      let flyBounds = immediateFlyBounds;
+      if (
+        !flyBounds &&
+        normalized.municipalityPsgc &&
+        normalized.provincePsgc &&
+        (normalized.level === "municipality" || normalized.level === "barangay")
+      ) {
+        flyBounds = await resolveMunicipalityBounds(
+          normalized.provincePsgc,
+          normalized.municipalityPsgc
+        );
+      }
+      if (!flyBounds) {
+        flyBounds = await resolveSelectionFlyBounds(normalized);
+      }
+      if (seq !== selectionSeqRef.current) return;
+      if (!flyBounds) return;
+      const boundsUnchanged =
+        immediateFlyBounds &&
+        flyBounds[0][0] === immediateFlyBounds[0][0] &&
+        flyBounds[0][1] === immediateFlyBounds[0][1] &&
+        flyBounds[1][0] === immediateFlyBounds[1][0] &&
+        flyBounds[1][1] === immediateFlyBounds[1][1];
+      if (boundsUnchanged) return;
+      setSelection((prev) =>
+        prev && seq === selectionSeqRef.current
+          ? { ...prev, flyBounds }
+          : prev
+      );
+      setSelectionRevision((n) => n + 1);
+    } catch {
+      // Selection already applied; bounds resolution is best-effort.
+    }
+  }, [normalizeSelection]);
 
   const handleNavigate = useCallback(
     (crumb) => {
@@ -193,7 +307,13 @@ export default function App() {
         municipalitiesIndex,
         barangaysIndex
       );
-      if (!sel) return;
+      if (!sel) {
+        setFestivalSelectNotice(
+          `Could not locate “${festival.name}” on the map — location data is incomplete.`
+        );
+        return;
+      }
+      setFestivalSelectNotice(null);
       await applyMapSelection(sel, { festivalId: festival.id });
     },
     [festivalIndex, manifest, municipalitiesIndex, barangaysIndex, applyMapSelection]
@@ -218,6 +338,7 @@ export default function App() {
         selection={selection}
         festivalIndex={festivalIndex}
         barangayFestivals={barangayFestivals}
+        barangayFestivalsLoading={barangayFestivalsLoading}
         manifest={manifest}
         municipalitiesIndex={municipalitiesIndex}
         barangaysIndex={barangaysIndex}
@@ -229,6 +350,7 @@ export default function App() {
         onBarangaySelect={handleBarangaySelect}
         onFestivalSelect={handleFestivalSelect}
         activeFestivalId={activeFestivalId}
+        festivalSelectNotice={festivalSelectNotice}
         stats={festivalData?.stats}
       />
       {provincesGeoJson && manifest ? (
@@ -237,7 +359,7 @@ export default function App() {
           manifest={manifest}
           barangaysIndex={barangaysIndex}
           selection={selection}
-          flyTrigger={mapFlyTrigger}
+          selectionRevision={selectionRevision}
           onSelect={(sel) => {
             applyMapSelection(sel);
           }}

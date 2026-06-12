@@ -129,6 +129,11 @@ export default function App() {
 
     if (bgyPsgc == null) return;
 
+    if (activeFestivalId) {
+      autoSelectedBarangayRef.current = bgyPsgc;
+      return;
+    }
+
     const festival = defaultBarangayFestival(
       festivalIndex,
       selection,
@@ -219,27 +224,6 @@ export default function App() {
       // Selection already applied; bounds resolution is best-effort.
     }
   }, [normalizeSelection]);
-
-  const handleNavigate = useCallback(
-    (crumb) => {
-      if (crumb.level === "country") {
-        applyMapSelection(null);
-        return;
-      }
-      applyMapSelection({
-        level: crumb.level,
-        regionPsgc: crumb.regionPsgc,
-        regionName: crumb.regionName,
-        provincePsgc: crumb.provincePsgc,
-        provinceName: crumb.provinceName,
-        municipalityPsgc: crumb.municipalityPsgc,
-        municipalityName: crumb.municipalityName,
-        barangayPsgc: crumb.barangayPsgc,
-        barangayName: crumb.barangayName,
-      });
-    },
-    [applyMapSelection]
-  );
 
   const handleRegionSelect = useCallback(
     (region) => {
@@ -343,8 +327,8 @@ export default function App() {
         municipalitiesIndex={municipalitiesIndex}
         barangaysIndex={barangaysIndex}
         loading={loading}
-        onNavigate={handleNavigate}
         onRegionSelect={handleRegionSelect}
+        onCountrySelect={() => applyMapSelection(null)}
         onProvinceSelect={handleProvinceSelect}
         onMunicipalitySelect={handleMunicipalitySelect}
         onBarangaySelect={handleBarangaySelect}

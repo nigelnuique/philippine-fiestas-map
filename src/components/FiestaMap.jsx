@@ -921,7 +921,7 @@ export default function FiestaMap({
 
     map.on("load", () => {
       mapReadyRef.current = true;
-      if (import.meta.env.DEV) {
+      if (import.meta.env.DEV || window.location.hostname === "localhost") {
         window.__fiestaMap = map;
       }
       setMapLoadId((n) => n + 1);
@@ -962,7 +962,7 @@ export default function FiestaMap({
   const hint = !selection
     ? "Click a province to zoom into its region"
     : selection.level === "barangay"
-      ? "Barangay selected · click sea or breadcrumb to go back"
+      ? "Barangay selected · click the sea or use sidebar chips to go back"
       : selection.level === "municipality" && muniHasBarangayMap
         ? "Click a barangay to drill down, or the sea to reset"
         : selection.level === "municipality"

@@ -4,7 +4,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
-import { resolveFestivalLocation, buildLookups } from "./lib/location-parser.js";
+import { resolveBarangayFiestaLocation, buildLookups } from "./lib/location-parser.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -34,7 +34,7 @@ function main() {
   let withDates = 0;
 
   for (const f of raw.festivals) {
-    const location = resolveFestivalLocation(f, lookups);
+    const location = resolveBarangayFiestaLocation(f, lookups);
     const muniPsgc = location.psgc ?? null;
 
     const record = {

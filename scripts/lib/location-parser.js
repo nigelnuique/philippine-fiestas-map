@@ -2,6 +2,9 @@
  * Parses TPB-style date/venue strings and matches to PSGC municipalities.
  */
 
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 import {
   getFestivalLocationHint,
   getRegionFromText,
@@ -9,6 +12,13 @@ import {
   resolveAliasMunicipality,
   resolveMunicipalityAlias,
 } from "./location-overrides.js";
+import { psaToAdm3 } from "./psgc-adm.js";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const HUC_CITIES_FILE = path.resolve(
+  __dirname,
+  "../../data/processed/boundaries/huc-cities.json"
+);
 
 const PROVINCE_ALIASES = {
   "mis or": "misamis oriental",
@@ -230,6 +240,41 @@ export function buildLookups(muniIndex, manifest) {
     }
   }
 
+  if (fs.existsSync(HUC_CITIES_FILE)) {
+    try {
+      const huc = JSON.parse(fs.readFileSync(HUC_CITIES_FILE, "utf8"));
+      for (const feature of huc.features ?? []) {
+        const props = feature.properties ?? {};
+        const psgc = props.adm3_psgc;
+        if (!psgc || municipalities.some((m) => m.psgc === psgc)) continue;
+
+        const prov = provincesByPsgc.get(props.adm2_psgc);
+        const entry = {
+          psgc,
+          name: props.adm3_en,
+          normalizedName: normalize(props.adm3_en),
+          provincePsgc: props.adm2_psgc,
+          provinceName: prov?.name ?? "",
+          regionPsgc: props.adm1_psgc,
+        };
+        municipalities.push(entry);
+
+        const keys = new Set([
+          slug(entry.name),
+          slug(entry.name.replace(/^city of\s+/i, "")),
+          `${slug(entry.provinceName)}::${slug(entry.name)}`,
+        ]);
+        for (const k of keys) {
+          if (!provincesByName.has(`muni::${k}`)) {
+            provincesByName.set(`muni::${k}`, entry);
+          }
+        }
+      }
+    } catch {
+      // HUC index optional during early pipeline runs
+    }
+  }
+
   return { provincesByName, provincesByPsgc, municipalities };
 }
 
@@ -398,6 +443,39 @@ export function resolveFestivalLocation(festival, lookups) {
     matchMethod: null,
     confidence: "unmatched",
   };
+}
+
+/** Resolves barangay patron fiesta records (PSGC hierarchy includes municipality code). */
+export function resolveBarangayFiestaLocation(festival, lookups) {
+  if (festival.municipalityPsgcPsa) {
+    const psgc = psaToAdm3(festival.municipalityPsgcPsa);
+    const muni = lookups.municipalities.find((m) => m.psgc === psgc);
+    if (muni) {
+      return matchResult(muni, "psgc-municipality-code", "high");
+    }
+
+    let provincePsgc = null;
+    let regionPsgc = null;
+    if (festival.province) {
+      const prov =
+        lookups.provincesByName.get(normalize(festival.province)) ??
+        lookups.provincesByName.get(expandProvince(festival.province));
+      provincePsgc = prov?.psgc ?? null;
+      regionPsgc = prov?.regionPsgc ?? null;
+    }
+
+    return {
+      psgc,
+      municipality: festival.municipality ?? null,
+      province: festival.province ?? null,
+      provincePsgc,
+      regionPsgc,
+      matchMethod: "psgc-municipality-code",
+      confidence: "high",
+    };
+  }
+
+  return resolveFestivalLocation(festival, lookups);
 }
 
 function matchResult(m, method, confidence) {

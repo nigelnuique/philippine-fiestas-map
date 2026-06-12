@@ -253,6 +253,35 @@ export function parseBiliranAprilBlock(text) {
   return dedupeEntries(entries);
 }
 
+/** "April 1-2 Ali-is" lines from Bayawan City tourism page. */
+export function parseBayawanFiestaBlock(text) {
+  const entries = [];
+  const lineRe =
+    /^(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2})(?:-(\d{1,2}))?\s+(.+)$/i;
+
+  for (const rawLine of text.split("\n")) {
+    const line = rawLine.trim();
+    if (!line) continue;
+    const m = line.match(lineRe);
+    if (!m) continue;
+
+    const month = MONTHS[m[1].slice(0, 3).toLowerCase()];
+    const dayStart = Number(m[2]);
+    const dayEnd = m[3] ? Number(m[3]) : dayStart;
+
+    entries.push({
+      month,
+      dayStart,
+      dayEnd: dayEnd !== dayStart ? dayEnd : undefined,
+      barangay: m[4].trim(),
+      municipality: "City of Bayawan",
+      dateSource: "lgu-bayawan-city",
+    });
+  }
+
+  return dedupeEntries(entries);
+}
+
 export function parseBiliranMayBlock(text) {
   const entries = [];
   const blocks = text.split(/(?=May\s+\d{1,2}-\d{1,2})/i);

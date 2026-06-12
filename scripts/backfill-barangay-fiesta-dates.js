@@ -1,7 +1,8 @@
 /**
  * Backfill month/day on barangay fiesta records:
- * 1. Curated LGU overrides (barangay-fiesta-date-overrides.js)
- * 2. Patron-saint feast inference from barangay name (patron-saint-calendar.js)
+ * 1. Curated overrides and LGU schedule imports (barangay-fiesta-date-overrides.js)
+ * 2. Wikipedia enrichment cache (enrich-barangay-fiesta-dates-online.js)
+ * 3. Patron-saint feast inference from barangay name (patron-saint-calendar.js)
  */
 import fs from "fs";
 import path from "path";
@@ -105,6 +106,9 @@ function main() {
       "lgu-dagupan-gov-ph",
       "lgu-siquijor-secrets",
       "lgu-gma-cavite",
+      "lgu-bayawan-city",
+      "lgu-pinamungajan-gov-ph",
+      "lgu-cabatuan-parish",
       "wikipedia-search-cache",
       "patron-saint-calendar",
     ],

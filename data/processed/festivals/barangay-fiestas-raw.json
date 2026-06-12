@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T14:26:59.913Z",
+  "generatedAt": "2026-06-12T23:09:20.116Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -27,7 +27,10 @@
       "municipalityPsgcPsa": "012802000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bani, Bacarra."
+      "description": "Barangay patronal fiesta for Bani, Bacarra.",
+      "month": 12,
+      "dayStart": 31,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012802002",
@@ -53,7 +56,10 @@
       "municipalityPsgcPsa": "012802000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabaruan, Bacarra."
+      "description": "Barangay patronal fiesta for Cabaruan, Bacarra.",
+      "month": 12,
+      "dayStart": 31,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012802004",
@@ -170,7 +176,10 @@
       "municipalityPsgcPsa": "012802000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Libtong, Bacarra."
+      "description": "Barangay patronal fiesta for Libtong, Bacarra.",
+      "month": 12,
+      "dayStart": 31,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012802014",
@@ -521,7 +530,10 @@
       "municipalityPsgcPsa": "012802000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sangil, Bacarra."
+      "description": "Barangay patronal fiesta for Sangil, Bacarra.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012802044",
@@ -671,7 +683,10 @@
       "municipalityPsgcPsa": "012803000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alogoog, Badoc."
+      "description": "Barangay patronal fiesta for Alogoog, Badoc.",
+      "month": 10,
+      "dayStart": 18,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012803003",
@@ -697,7 +712,10 @@
       "municipalityPsgcPsa": "012803000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aring, Badoc."
+      "description": "Barangay patronal fiesta for Aring, Badoc.",
+      "month": 10,
+      "dayStart": 18,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012803005",
@@ -1073,7 +1091,10 @@
       "municipalityPsgcPsa": "012804000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Abaca, Bangui."
+      "description": "Barangay patronal fiesta for Abaca, Bangui.",
+      "month": 9,
+      "dayStart": 3,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012804002",
@@ -1086,7 +1107,10 @@
       "municipalityPsgcPsa": "012804000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bacsil, Bangui."
+      "description": "Barangay patronal fiesta for Bacsil, Bangui.",
+      "month": 10,
+      "dayStart": 6,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012804003",
@@ -1099,7 +1123,10 @@
       "municipalityPsgcPsa": "012804000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banban, Bangui."
+      "description": "Barangay patronal fiesta for Banban, Bangui.",
+      "month": 1,
+      "dayStart": 20,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012804004",
@@ -1125,7 +1152,10 @@
       "municipalityPsgcPsa": "012804000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dadaor, Bangui."
+      "description": "Barangay patronal fiesta for Dadaor, Bangui.",
+      "month": 3,
+      "dayStart": 18,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012804006",
@@ -1151,7 +1181,10 @@
       "municipalityPsgcPsa": "012804000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malasin, Bangui."
+      "description": "Barangay patronal fiesta for Malasin, Bangui.",
+      "month": 9,
+      "dayStart": 3,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012804008",
@@ -1571,7 +1604,10 @@
       "municipalityPsgcPsa": "012805000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Magnuang, City Of Batac."
+      "description": "Barangay patronal fiesta for Magnuang, City Of Batac.",
+      "month": 4,
+      "dayStart": 2,
+      "dateSource": "wikipedia-search"
     },
     {
       "id": "bgy-012805027",
@@ -101946,7 +101982,11 @@
       "municipalityPsgcPsa": "035410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Batasan, Macabebe."
+      "description": "Barangay patronal fiesta for Batasan, Macabebe.",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "lgu-pampanga-tourism",
+      "patronSaint": "Nuestra Senora de Candelaria"
     },
     {
       "id": "bgy-035410002",
@@ -101959,7 +101999,11 @@
       "municipalityPsgcPsa": "035410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caduang Tete, Macabebe."
+      "description": "Barangay patronal fiesta for Caduang Tete, Macabebe.",
+      "month": 5,
+      "dayStart": 11,
+      "dateSource": "lgu-pampanga-tourism",
+      "patronSaint": "Saint Gabriel"
     },
     {
       "id": "bgy-035410003",
@@ -101972,7 +102016,11 @@
       "municipalityPsgcPsa": "035410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Candelaria, Macabebe."
+      "description": "Barangay patronal fiesta for Candelaria, Macabebe.",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "lgu-pampanga-tourism",
+      "patronSaint": "Nuestra Senora de Candelaria"
     },
     {
       "id": "bgy-035410004",
@@ -101985,7 +102033,11 @@
       "municipalityPsgcPsa": "035410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Castuli, Macabebe."
+      "description": "Barangay patronal fiesta for Castuli, Macabebe.",
+      "month": 2,
+      "dayStart": 22,
+      "dateSource": "lgu-pampanga-tourism",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-035410005",
@@ -237485,7 +237537,10 @@
       "municipalityPsgcPsa": "056211000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Biton, Magallanes."
+      "description": "Barangay patronal fiesta for Biton, Magallanes.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-magallanes-sorsogon"
     },
     {
       "id": "bgy-056211012",
@@ -237498,7 +237553,10 @@
       "municipalityPsgcPsa": "056211000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulala, Magallanes."
+      "description": "Barangay patronal fiesta for Bulala, Magallanes.",
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-magallanes-sorsogon"
     },
     {
       "id": "bgy-056211013",
@@ -237579,7 +237637,10 @@
       "municipalityPsgcPsa": "056211000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cawit Extension, Magallanes."
+      "description": "Barangay patronal fiesta for Cawit Extension, Magallanes.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "lgu-magallanes-sorsogon"
     },
     {
       "id": "bgy-056211018",
@@ -237847,7 +237908,10 @@
       "municipalityPsgcPsa": "056211000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tulatula Norte, Magallanes."
+      "description": "Barangay patronal fiesta for Tulatula Norte, Magallanes.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "lgu-magallanes-sorsogon"
     },
     {
       "id": "bgy-056211034",
@@ -237860,7 +237924,10 @@
       "municipalityPsgcPsa": "056211000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tulatula Sur, Magallanes."
+      "description": "Barangay patronal fiesta for Tulatula Sur, Magallanes.",
+      "month": 6,
+      "dayStart": 3,
+      "dateSource": "lgu-magallanes-sorsogon"
     },
     {
       "id": "bgy-056212001",
@@ -262559,7 +262626,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Acao, Cabatuan."
+      "description": "Barangay patronal fiesta for Acao, Cabatuan.",
+      "month": 2,
+      "dayStart": 10,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012002",
@@ -262572,7 +262642,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Amerang, Cabatuan."
+      "description": "Barangay patronal fiesta for Amerang, Cabatuan.",
+      "month": 12,
+      "dayStart": 19,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012003",
@@ -262585,7 +262658,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Amurao, Cabatuan."
+      "description": "Barangay patronal fiesta for Amurao, Cabatuan.",
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012004",
@@ -262611,7 +262687,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ayaman, Cabatuan."
+      "description": "Barangay patronal fiesta for Ayaman, Cabatuan.",
+      "month": 11,
+      "dayStart": 30,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012006",
@@ -262624,7 +262703,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ayong, Cabatuan."
+      "description": "Barangay patronal fiesta for Ayong, Cabatuan.",
+      "month": 2,
+      "dayStart": 5,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012007",
@@ -262637,7 +262719,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bacan, Cabatuan."
+      "description": "Barangay patronal fiesta for Bacan, Cabatuan.",
+      "month": 1,
+      "dayStart": 31,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012008",
@@ -262663,7 +262748,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baluyan, Cabatuan."
+      "description": "Barangay patronal fiesta for Baluyan, Cabatuan.",
+      "month": 11,
+      "dayStart": 21,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012010",
@@ -262689,7 +262777,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulay, Cabatuan."
+      "description": "Barangay patronal fiesta for Bulay, Cabatuan.",
+      "month": 1,
+      "dayStart": 22,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012012",
@@ -262741,7 +262832,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calayo, Cabatuan."
+      "description": "Barangay patronal fiesta for Calayo, Cabatuan.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012016",
@@ -262754,7 +262848,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Duyanduyan, Cabatuan."
+      "description": "Barangay patronal fiesta for Duyanduyan, Cabatuan.",
+      "month": 5,
+      "dayStart": 4,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012017",
@@ -262767,7 +262864,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gaub, Cabatuan."
+      "description": "Barangay patronal fiesta for Gaub, Cabatuan.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012018",
@@ -262780,7 +262880,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gines Interior, Cabatuan."
+      "description": "Barangay patronal fiesta for Gines Interior, Cabatuan.",
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012019",
@@ -262793,7 +262896,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gines Patag, Cabatuan."
+      "description": "Barangay patronal fiesta for Gines Patag, Cabatuan.",
+      "month": 4,
+      "dayStart": 11,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012020",
@@ -262806,7 +262912,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guibuangan Tigbauan, Cabatuan."
+      "description": "Barangay patronal fiesta for Guibuangan Tigbauan, Cabatuan.",
+      "month": 3,
+      "dayStart": 5,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012021",
@@ -262819,7 +262928,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Inabasan, Cabatuan."
+      "description": "Barangay patronal fiesta for Inabasan, Cabatuan.",
+      "month": 2,
+      "dayStart": 27,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012022",
@@ -262832,7 +262944,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Inaca, Cabatuan."
+      "description": "Barangay patronal fiesta for Inaca, Cabatuan.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012023",
@@ -262858,7 +262973,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ingas, Cabatuan."
+      "description": "Barangay patronal fiesta for Ingas, Cabatuan.",
+      "month": 2,
+      "dayStart": 12,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012025",
@@ -262871,7 +262989,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ito Norte, Cabatuan."
+      "description": "Barangay patronal fiesta for Ito Norte, Cabatuan.",
+      "month": 4,
+      "dayStart": 18,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012026",
@@ -262884,7 +263005,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ito Sur, Cabatuan."
+      "description": "Barangay patronal fiesta for Ito Sur, Cabatuan.",
+      "month": 1,
+      "dayStart": 3,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012027",
@@ -262975,7 +263099,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lag-An, Cabatuan."
+      "description": "Barangay patronal fiesta for Lag-An, Cabatuan.",
+      "month": 2,
+      "dayStart": 3,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012034",
@@ -262988,7 +263115,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Leong, Cabatuan."
+      "description": "Barangay patronal fiesta for Leong, Cabatuan.",
+      "month": 3,
+      "dayStart": 12,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012035",
@@ -263001,7 +263131,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lutac, Cabatuan."
+      "description": "Barangay patronal fiesta for Lutac, Cabatuan.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012036",
@@ -263014,7 +263147,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Manguna, Cabatuan."
+      "description": "Barangay patronal fiesta for Manguna, Cabatuan.",
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012037",
@@ -263027,7 +263163,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maraguit, Cabatuan."
+      "description": "Barangay patronal fiesta for Maraguit, Cabatuan.",
+      "month": 3,
+      "dayStart": 6,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012038",
@@ -263040,7 +263179,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Morubuan, Cabatuan."
+      "description": "Barangay patronal fiesta for Morubuan, Cabatuan.",
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012039",
@@ -263066,7 +263208,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pagotpot, Cabatuan."
+      "description": "Barangay patronal fiesta for Pagotpot, Cabatuan.",
+      "month": 11,
+      "dayStart": 28,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012041",
@@ -263079,7 +263224,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pamul-Ogan, Cabatuan."
+      "description": "Barangay patronal fiesta for Pamul-Ogan, Cabatuan.",
+      "month": 2,
+      "dayStart": 21,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012042",
@@ -263092,7 +263240,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pamuringao Proper, Cabatuan."
+      "description": "Barangay patronal fiesta for Pamuringao Proper, Cabatuan.",
+      "month": 10,
+      "dayStart": 31,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012043",
@@ -263105,7 +263256,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pamuringao Garrido, Cabatuan."
+      "description": "Barangay patronal fiesta for Pamuringao Garrido, Cabatuan.",
+      "month": 5,
+      "dayStart": 2,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012044",
@@ -263261,7 +263415,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pungtod, Cabatuan."
+      "description": "Barangay patronal fiesta for Pungtod, Cabatuan.",
+      "month": 3,
+      "dayStart": 10,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012056",
@@ -263287,7 +263444,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Salacay, Cabatuan."
+      "description": "Barangay patronal fiesta for Salacay, Cabatuan.",
+      "month": 12,
+      "dayStart": 23,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012059",
@@ -263300,7 +263460,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sulanga, Cabatuan."
+      "description": "Barangay patronal fiesta for Sulanga, Cabatuan.",
+      "month": 1,
+      "dayStart": 17,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012060",
@@ -263313,7 +263476,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabucan, Cabatuan."
+      "description": "Barangay patronal fiesta for Tabucan, Cabatuan.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012061",
@@ -263326,7 +263492,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tacdangan, Cabatuan."
+      "description": "Barangay patronal fiesta for Tacdangan, Cabatuan.",
+      "month": 12,
+      "dayStart": 31,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012062",
@@ -263339,7 +263508,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Talanghauan, Cabatuan."
+      "description": "Barangay patronal fiesta for Talanghauan, Cabatuan.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012063",
@@ -263352,7 +263524,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tigbauan Road, Cabatuan."
+      "description": "Barangay patronal fiesta for Tigbauan Road, Cabatuan.",
+      "month": 12,
+      "dayStart": 30,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012064",
@@ -263365,7 +263540,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinio-An, Cabatuan."
+      "description": "Barangay patronal fiesta for Tinio-An, Cabatuan.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012065",
@@ -263378,7 +263556,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tiring, Cabatuan."
+      "description": "Barangay patronal fiesta for Tiring, Cabatuan.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012066",
@@ -263391,7 +263572,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tupol Central, Cabatuan."
+      "description": "Barangay patronal fiesta for Tupol Central, Cabatuan.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012067",
@@ -263404,7 +263588,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tupol Este, Cabatuan."
+      "description": "Barangay patronal fiesta for Tupol Este, Cabatuan.",
+      "month": 8,
+      "dayStart": 29,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012068",
@@ -263417,7 +263604,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tupol Oeste, Cabatuan."
+      "description": "Barangay patronal fiesta for Tupol Oeste, Cabatuan.",
+      "month": 3,
+      "dayStart": 11,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063012069",
@@ -263430,7 +263620,10 @@
       "municipalityPsgcPsa": "063012000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tuy-An, Cabatuan."
+      "description": "Barangay patronal fiesta for Tuy-An, Cabatuan.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "lgu-cabatuan-parish"
     },
     {
       "id": "bgy-063013002",
@@ -320055,7 +320248,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Anislag, Pinamungahan."
+      "description": "Barangay patronal fiesta for Anislag, Pinamungahan.",
+      "month": 9,
+      "dayStart": 15,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237002",
@@ -320068,7 +320264,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Anopog, Pinamungahan."
+      "description": "Barangay patronal fiesta for Anopog, Pinamungahan.",
+      "month": 5,
+      "dayStart": 18,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237003",
@@ -320081,7 +320280,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binabag, Pinamungahan."
+      "description": "Barangay patronal fiesta for Binabag, Pinamungahan.",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-pinamungajan-gov-ph",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-072237004",
@@ -320107,7 +320310,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Busay, Pinamungahan."
+      "description": "Barangay patronal fiesta for Busay, Pinamungahan.",
+      "month": 8,
+      "dayStart": 25,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237006",
@@ -320120,7 +320326,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Butong, Pinamungahan."
+      "description": "Barangay patronal fiesta for Butong, Pinamungahan.",
+      "month": 10,
+      "dayStart": 17,
+      "dayEnd": 18,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237007",
@@ -320133,7 +320343,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabiangon, Pinamungahan."
+      "description": "Barangay patronal fiesta for Cabiangon, Pinamungahan.",
+      "month": 12,
+      "dayStart": 17,
+      "dayEnd": 18,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237008",
@@ -320146,7 +320360,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Camugao, Pinamungahan."
+      "description": "Barangay patronal fiesta for Camugao, Pinamungahan.",
+      "month": 9,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237009",
@@ -320159,7 +320377,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Duangan, Pinamungahan."
+      "description": "Barangay patronal fiesta for Duangan, Pinamungahan.",
+      "month": 1,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237010",
@@ -320172,7 +320394,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guimbawian, Pinamungahan."
+      "description": "Barangay patronal fiesta for Guimbawian, Pinamungahan.",
+      "month": 4,
+      "dayStart": 25,
+      "dayEnd": 26,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237011",
@@ -320185,7 +320411,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lamac, Pinamungahan."
+      "description": "Barangay patronal fiesta for Lamac, Pinamungahan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237012",
@@ -320198,7 +320428,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lut-Od, Pinamungahan."
+      "description": "Barangay patronal fiesta for Lut-Od, Pinamungahan.",
+      "month": 1,
+      "dayStart": 2,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237013",
@@ -320211,7 +320444,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mangoto, Pinamungahan."
+      "description": "Barangay patronal fiesta for Mangoto, Pinamungahan.",
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237014",
@@ -320224,7 +320460,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Opao, Pinamungahan."
+      "description": "Barangay patronal fiesta for Opao, Pinamungahan.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-pinamungajan-gov-ph",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-072237015",
@@ -320237,7 +320477,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pandacan, Pinamungahan."
+      "description": "Barangay patronal fiesta for Pandacan, Pinamungahan.",
+      "month": 9,
+      "dayStart": 20,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237016",
@@ -320250,7 +320493,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Pinamungahan."
+      "description": "Barangay patronal fiesta for Poblacion, Pinamungahan.",
+      "month": 8,
+      "dayStart": 22,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237017",
@@ -320263,7 +320509,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Punod, Pinamungahan."
+      "description": "Barangay patronal fiesta for Punod, Pinamungahan.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237018",
@@ -320276,7 +320525,10 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Rizal, Pinamungahan."
+      "description": "Barangay patronal fiesta for Rizal, Pinamungahan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237019",
@@ -320289,7 +320541,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sacsac, Pinamungahan."
+      "description": "Barangay patronal fiesta for Sacsac, Pinamungahan.",
+      "month": 10,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237020",
@@ -320302,7 +320558,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sambagon, Pinamungahan."
+      "description": "Barangay patronal fiesta for Sambagon, Pinamungahan.",
+      "month": 1,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237021",
@@ -320315,7 +320575,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sibago, Pinamungahan."
+      "description": "Barangay patronal fiesta for Sibago, Pinamungahan.",
+      "month": 4,
+      "dayStart": 25,
+      "dayEnd": 26,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237022",
@@ -320328,7 +320592,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tajao, Pinamungahan."
+      "description": "Barangay patronal fiesta for Tajao, Pinamungahan.",
+      "month": 6,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237023",
@@ -320341,7 +320609,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tangub, Pinamungahan."
+      "description": "Barangay patronal fiesta for Tangub, Pinamungahan.",
+      "month": 9,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237024",
@@ -320354,7 +320626,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tanibag, Pinamungahan."
+      "description": "Barangay patronal fiesta for Tanibag, Pinamungahan.",
+      "month": 9,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237025",
@@ -320367,7 +320643,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tupas, Pinamungahan."
+      "description": "Barangay patronal fiesta for Tupas, Pinamungahan.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072237026",
@@ -320380,7 +320660,11 @@
       "municipalityPsgcPsa": "072237000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tutay, Pinamungahan."
+      "description": "Barangay patronal fiesta for Tutay, Pinamungahan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-pinamungajan-gov-ph"
     },
     {
       "id": "bgy-072238001",
@@ -326092,7 +326376,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ali-Is, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Ali-Is, City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 1,
+      "dayEnd": 2,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606002",
@@ -326105,7 +326393,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banaybanay, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Banaybanay, City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606003",
@@ -326118,7 +326410,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banga, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Banga, City Of Bayawan (Tulong).",
+      "month": 12,
+      "dayStart": 27,
+      "dayEnd": 28,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606004",
@@ -326131,7 +326427,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Villasol (Bato), City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Villasol (Bato), City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606005",
@@ -326157,7 +326457,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bugay, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Bugay, City Of Bayawan (Tulong).",
+      "month": 3,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606007",
@@ -326170,7 +326474,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cansumalig, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Cansumalig, City Of Bayawan (Tulong).",
+      "month": 3,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606008",
@@ -326183,7 +326491,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dawis, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Dawis, City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 10,
+      "dayEnd": 11,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606009",
@@ -326196,7 +326508,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kalamtukan, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Kalamtukan, City Of Bayawan (Tulong).",
+      "month": 1,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606010",
@@ -326209,7 +326525,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kalumboyan, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Kalumboyan, City Of Bayawan (Tulong).",
+      "month": 3,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606011",
@@ -326222,7 +326542,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malabugas, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Malabugas, City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606012",
@@ -326235,7 +326559,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mandu-Ao, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Mandu-Ao, City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606013",
@@ -326248,7 +326576,10 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maninihon, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Maninihon, City Of Bayawan (Tulong).",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606014",
@@ -326261,7 +326592,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Minaba, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Minaba, City Of Bayawan (Tulong).",
+      "month": 5,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606015",
@@ -326274,7 +326609,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Nangka, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Nangka, City Of Bayawan (Tulong).",
+      "month": 3,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606016",
@@ -326287,7 +326626,10 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Narra, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Narra, City Of Bayawan (Tulong).",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606017",
@@ -326300,7 +326642,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pagatban, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Pagatban, City Of Bayawan (Tulong).",
+      "month": 5,
+      "dayStart": 24,
+      "dayEnd": 25,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606018",
@@ -326313,7 +326659,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Poblacion, City Of Bayawan (Tulong).",
+      "month": 8,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606019",
@@ -326377,7 +326727,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Suba (Pob.), City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Suba (Pob.), City Of Bayawan (Tulong).",
+      "month": 6,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606023",
@@ -326390,7 +326744,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabuan, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Tabuan, City Of Bayawan (Tulong).",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606024",
@@ -326403,7 +326761,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tayawan, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Tayawan, City Of Bayawan (Tulong).",
+      "month": 1,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606025",
@@ -326416,7 +326778,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinago (Pob.), City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Tinago (Pob.), City Of Bayawan (Tulong).",
+      "month": 5,
+      "dayStart": 19,
+      "dayEnd": 20,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606026",
@@ -326429,7 +326795,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ubos (Pob.), City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Ubos (Pob.), City Of Bayawan (Tulong).",
+      "month": 1,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606027",
@@ -326442,7 +326812,11 @@
       "municipalityPsgcPsa": "074606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Villareal, City Of Bayawan (Tulong)."
+      "description": "Barangay patronal fiesta for Villareal, City Of Bayawan (Tulong).",
+      "month": 12,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-bayawan-city"
     },
     {
       "id": "bgy-074606028",
@@ -565452,14 +565826,14 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-12T14:26:59.913Z",
+    "appliedAt": "2026-06-12T23:09:20.116Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4687,
+      "alreadyHadDate": 4797,
       "fromOverride": 0,
       "fromPatronSaint": 0,
-      "fromOnline": 0,
-      "stillMissing": 37357
+      "fromOnline": 1,
+      "stillMissing": 37246
     },
     "lguScheduleStats": {
       "siargao": {
@@ -565482,6 +565856,26 @@
         "matched": 22,
         "missed": 0
       },
+      "bayawan": {
+        "entries": 26,
+        "matched": 26,
+        "missed": 0
+      },
+      "pinamungahan": {
+        "entries": 26,
+        "matched": 26,
+        "missed": 0
+      },
+      "macabebe": {
+        "entries": 12,
+        "matched": 12,
+        "missed": 0
+      },
+      "cabatuan": {
+        "entries": 44,
+        "matched": 44,
+        "missed": 0
+      },
       "wikipedia": {
         "entries": 1,
         "matched": 0,
@@ -565497,6 +565891,11 @@
           "entries": 141,
           "matched": 134,
           "missed": 7
+        },
+        "magallanes": {
+          "entries": 46,
+          "matched": 46,
+          "missed": 0
         }
       },
       "fetchedOnline": {
@@ -565532,6 +565931,9 @@
       "lgu-dagupan-gov-ph",
       "lgu-siquijor-secrets",
       "lgu-gma-cavite",
+      "lgu-bayawan-city",
+      "lgu-pinamungajan-gov-ph",
+      "lgu-cabatuan-parish",
       "wikipedia-search-cache",
       "patron-saint-calendar"
     ]

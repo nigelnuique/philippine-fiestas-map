@@ -152,6 +152,10 @@ Client-side data loaders. Fetches from `/data/processed/` and `/geojson/`:
 - `selectionFromFestival()` — resolve a festival record to a map selection (including barangay level when boundaries exist)
 - `findMunicipalityByName()`, `findMunicipalityByPsgc()` — name/PSGC lookup helpers
 
+### `locationHints.js`
+
+Runtime festival navigation hints — Sinulog/Cebu, HUC city aliases, and other cases where TPB venue strings need manual disambiguation. Used by `selectionFromFestival()` in `mapUtils.js`.
+
 ### `psgc.js`
 
 Converts PSA 9-digit PSGC codes (used in barangay fiesta data) to philippines-json-maps admin codes:

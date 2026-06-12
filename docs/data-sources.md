@@ -203,18 +203,20 @@ PSGC provides **names and codes**, not feast dates or patron saint names for mos
 
 | Priority | Method | Source | `dateSource` field |
 |----------|--------|--------|-------------------|
-| 1 | Curated PSGC overrides | `scripts/lib/barangay-fiesta-date-overrides.js` | `lgu-magallanes-sorsogon`, etc. |
-| 2 | LGU schedule imports | `scripts/lib/lgu-fiesta-schedules/` | `lgu-siargao-islands`, `lgu-biliran-latagaw` |
+| 1 | Curated overrides + LGU schedules | `barangay-fiesta-date-overrides.js`, `lgu-fiesta-schedules/` | `lgu-magallanes-sorsogon`, `lgu-siargao-islands`, etc. |
+| 2 | Wikipedia search cache | `scripts/enrich-barangay-fiesta-dates-online.js` | `wikipedia-search` |
 | 3 | Patron-saint inference | `scripts/lib/patron-saint-calendar.js` | `patron-saint-calendar` |
-| 4 | Wikipedia search cache | `scripts/enrich-barangay-fiesta-dates-online.js` | `wikipedia-search` |
 
 **LGU schedule sources currently imported**
 
 | Region / area | Source | URL |
 |---------------|--------|-----|
 | Siargao Islands, Surigao del Norte | Fiesta directory | [siargaoislands.net/p/fiesta.html](https://www.siargaoislands.net/p/fiesta.html) |
-| Biliran Province (May fiestas) | Travel calendar | [latagaw.com — Biliran May fiesta guide](https://latagaw.com/complete-guide-month-of-may-fiesta-schedules-biliran-province/) |
+| Biliran Province | Island + travel calendars | [biliranisland.com/festivals](https://www.biliranisland.com/festivals/), [latagaw.com May guide](https://latagaw.com/complete-guide-month-of-may-fiesta-schedules-biliran-province/) |
+| Dagupan City, Pangasinan | Official city calendar | [dagupan.gov.ph](https://www.dagupan.gov.ph/the-city/calendar-of-activities/) |
+| Siquijor Province | Province-wide guide | [siquijor-secrets.com/siquijor-fiestas](https://siquijor-secrets.com/siquijor-fiestas/) |
 | Magallanes, Sorsogon | LGU feast-day table | [magallanessorsogon.gov.ph](https://magallanessorsogon.gov.ph) (29 barangays, hand-entered) |
+| General Mariano Alvarez, Cavite | Official city page | [genmarianoalvarez.gov.ph/barangay-feast](https://genmarianoalvarez.gov.ph/barangay-feast/) |
 
 **Patron-saint calendar**
 
@@ -277,7 +279,7 @@ When publishing or redistributing this project or its data derivatives, credit t
 | **TPB / DOT calendar** | [Tourism Promotions Board](https://tpb.gov.ph/) — verify terms for commercial reuse |
 | **LGU schedules** | Respective local government units and publishers cited in `scripts/lib/lgu-fiesta-schedules/` |
 
-The web app sidebar footer shows an unofficial-use tagline, inline **Map** and **Fiestas** source links, expandable **Terms & disclaimers** (including a **Fiesta data references** section with full attribution), and **Map & place data**. Configure legal text in `src/lib/disclaimers.js`, sources in `src/lib/attribution.js`, and layout in `src/components/DataAttribution.jsx`.
+The web app sidebar footer shows an unofficial-use tagline, inline **Map** and **Fiestas** source links, expandable **Data sources & references** (full provenance list), and **Terms & disclaimers** (legal text derived from the same source list). Configure sources in `src/lib/attribution.js`, legal sections in `src/lib/disclaimers.js`, and layout in `src/components/DataAttribution.jsx`.
 
 **App license:** MIT (see [LICENSE](../LICENSE)).
 

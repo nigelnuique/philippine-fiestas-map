@@ -8,6 +8,7 @@ import { fileURLToPath } from "url";
 import { resolveFestivalLocation, buildLookups } from "./lib/location-parser.js";
 import { mergeSeedAndTpb, dedupeFestivals } from "./lib/dedupe-festivals.js";
 import { enrichFestivalDates } from "./lib/date-parser.js";
+import { lookupMajorFestivalDescription } from "./lib/major-festival-descriptions.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -39,6 +40,9 @@ function loadDescriptionEnrichmentCache() {
 }
 
 function applyDescriptionEnrichment(festival, descCache) {
+  const curated = lookupMajorFestivalDescription(festival);
+  if (curated) return curated;
+
   if (festival.description && festival.description.length >= 40) {
     return festival.description;
   }

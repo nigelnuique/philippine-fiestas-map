@@ -53,6 +53,87 @@ export function parseDagupanFiestaTable(html) {
   return entries;
 }
 
+const MAGALLANES_BARANGAY_ALIASES = {
+  "tula tula norte": "Tulatula Norte",
+  "tula tula sur": "Tulatula Sur",
+  "sta elena": "Santa Elena",
+  "binisitahan norte": "Binisitahan del Norte",
+  "binisitahan sur": "Binisitahan del Sur",
+  "sitio bayawas salvacion": "Salvacion",
+  "sitio dumalwa incarizan": "Incarizan",
+  "sitio san isidro salvacion": "Salvacion",
+  "sitio maransas pili": "Pili",
+  "sitio binalyuhan caditaan": "Caditaan",
+  "sitio balagting hubo": "Hubo",
+  "sitio looc cagbolo": "Cagbolo",
+  "sitio pangpang caditaan": "Caditaan",
+  "sitio sua caditaan": "Caditaan",
+  "sitio gibalon siuton": "Siuton",
+  "sitio sagpan siuton": "Siuton",
+  "sitio tinago": null,
+  "sitio sta lourdes": null,
+  "sitio telegrapo": null,
+};
+
+function normalizeMagallanesBarangay(name) {
+  const cleaned = String(name ?? "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const fromSitio = /^sitio\b/i.test(cleaned);
+  const key = cleaned
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\b(sta|sto)\b/g, (m) => (m === "sta" ? "santa" : "santo"))
+    .replace(/\s+/g, " ")
+    .trim();
+  if (MAGALLANES_BARANGAY_ALIASES[key] === null) return null;
+  if (MAGALLANES_BARANGAY_ALIASES[key]) {
+    return { barangay: MAGALLANES_BARANGAY_ALIASES[key], fromSitio };
+  }
+  const barangay =
+    cleaned.replace(/^sitio\s+/i, "").replace(/\s*\([^)]+\)\s*$/, "").trim() || cleaned;
+  return { barangay, fromSitio };
+}
+
+/** Magallanes, Sorsogon LGU feast-day table. */
+export function parseMagallanesFiestaTable(html) {
+  const $ = cheerio.load(html);
+  const entries = [];
+  const seen = new Set();
+
+  $("table tr").each((_, tr) => {
+    const cells = $(tr)
+      .find("td")
+      .map((__, td) => cleanCell($(td).html()))
+      .get();
+    if (cells.length < 2) return;
+    const [barangayRaw, dateRaw] = cells;
+    if (/barangay|feast day|patron saint/i.test(barangayRaw)) return;
+
+    const normalized = normalizeMagallanesBarangay(barangayRaw);
+    if (!normalized) return;
+
+    const row = entryFromDate(
+      normalized.barangay,
+      "Magallanes",
+      dateRaw,
+      "lgu-magallanes-sorsogon"
+    );
+    if (!row) return;
+    row.fromSitio = normalized.fromSitio;
+
+    const key = `${row.barangay}|${row.month}|${row.dayStart}|${row.fromSitio}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    entries.push(row);
+  });
+
+  return entries;
+}
+
 /** Siquijor Secrets fiesta calendar table. */
 export function parseSiquijorFiestaTable(html) {
   const $ = cheerio.load(html);

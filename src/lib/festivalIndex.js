@@ -155,11 +155,3 @@ export function formatFestivalDate(f) {
   if (f.month) return MONTH_NAMES[f.month] ?? "";
   return f.dateVenueRaw?.split(/\s+/).slice(0, 3).join(" ") ?? "Date TBA";
 }
-
-export function festivalCountByPsgc(index, psgc) {
-  return festivalsAtPsgc(index.byPsgc, psgc).length;
-}
-
-export function festivalCountByProvince(index, provincePsgc) {
-  return festivalsAtPsgc(index.byProvincePsgc, provincePsgc).length;
-}

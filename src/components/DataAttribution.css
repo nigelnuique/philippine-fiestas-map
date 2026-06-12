@@ -138,21 +138,10 @@
   color: #64748b;
 }
 
-.sidebar-footer-refs-heading {
-  margin-top: 0.75rem !important;
-  padding-top: 0.55rem;
+.sidebar-source-category-divider {
+  margin: 0.65rem 0;
+  border: 0;
   border-top: 1px solid #243044;
-}
-
-.sidebar-footer-refs-heading h3 {
-  color: #cbd5e1;
-}
-
-.sidebar-footer-refs-intro {
-  margin: 0 !important;
-  font-size: 0.62rem;
-  line-height: 1.45;
-  color: #64748b;
 }
 
 .sidebar-footer-footnote {

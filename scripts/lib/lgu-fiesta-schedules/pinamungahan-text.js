@@ -1,0 +1,32 @@
+/**
+ * Pinamungahan, Cebu — barangay fiesta schedule.
+ * Source: http://pinamungajan.gov.ph/ (Barangay Fiestas article, 2018)
+ */
+export const PINAMUNGAHAN_FIESTA_ENTRIES = [
+  { barangay: "Lut-od", municipality: "Pinamungahan", month: 1, dayStart: 2, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Duangan", municipality: "Pinamungahan", month: 1, dayStart: 26, dayEnd: 27, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Sambagon", municipality: "Pinamungahan", month: 1, dayStart: 29, dayEnd: 30, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Binabag", municipality: "Pinamungahan", month: 4, dayStart: 26, dateSource: "lgu-pinamungajan-gov-ph", patronSaint: "San Vicente Ferrer" },
+  { barangay: "Guimbawian", municipality: "Pinamungahan", month: 4, dayStart: 25, dayEnd: 26, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Sibago", municipality: "Pinamungahan", month: 4, dayStart: 25, dayEnd: 26, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Punod", municipality: "Pinamungahan", month: 5, dayStart: 10, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Lamac", municipality: "Pinamungahan", month: 5, dayStart: 14, dayEnd: 15, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Tutay", municipality: "Pinamungahan", month: 5, dayStart: 14, dayEnd: 15, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Rizal", municipality: "Pinamungahan", month: 5, dayStart: 15, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Opao", municipality: "Pinamungahan", month: 5, dayStart: 16, dateSource: "lgu-pinamungajan-gov-ph", patronSaint: "San Isidro Labrador" },
+  { barangay: "Anopog", municipality: "Pinamungahan", month: 5, dayStart: 18, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Poblacion", municipality: "Pinamungahan", month: 5, dayStart: 3, dayEnd: 4, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Tajao", municipality: "Pinamungahan", month: 6, dayStart: 28, dayEnd: 29, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Pandacan", municipality: "Pinamungahan", month: 9, dayStart: 20, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Anislag", municipality: "Pinamungahan", month: 9, dayStart: 15, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Mangoto", municipality: "Pinamungahan", month: 9, dayStart: 27, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Tangub", municipality: "Pinamungahan", month: 9, dayStart: 28, dayEnd: 29, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Tanibag", municipality: "Pinamungahan", month: 9, dayStart: 29, dayEnd: 30, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Camugao", municipality: "Pinamungahan", month: 9, dayStart: 29, dayEnd: 30, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Sacsac", municipality: "Pinamungahan", month: 10, dayStart: 12, dayEnd: 13, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Butong", municipality: "Pinamungahan", month: 10, dayStart: 17, dayEnd: 18, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Tupas", municipality: "Pinamungahan", month: 8, dayStart: 15, dayEnd: 16, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Busay", municipality: "Pinamungahan", month: 8, dayStart: 25, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Buhing Tubig", municipality: "Pinamungahan", month: 8, dayStart: 22, dateSource: "lgu-pinamungajan-gov-ph" },
+  { barangay: "Cabiangon", municipality: "Pinamungahan", month: 12, dayStart: 17, dayEnd: 18, dateSource: "lgu-pinamungajan-gov-ph" },
+];

@@ -1,6 +1,6 @@
 import { chromium } from "playwright";
 
-const url = process.env.MAP_URL ?? "http://localhost:5177/";
+const url = process.env.MAP_URL ?? "http://localhost:4173/";
 const browser = await chromium.launch({ headless: true });
 const page = await browser.newPage();
 
@@ -16,16 +16,17 @@ page.on("response", (r) => {
 
 await page.goto(url, { waitUntil: "domcontentloaded", timeout: 20000 });
 await page.waitForSelector(".map-container", { timeout: 15000 });
-await page.waitForTimeout(5000);
+await page.waitForFunction(() => window.__fiestaMap?.project, { timeout: 30000 });
+await page.waitForTimeout(1500);
 
 const mapBox = await page.locator(".map-container").boundingBox();
 if (!mapBox) throw new Error("no map container");
 
-// Cebu area approximate
-async function clickLngLat(page, mapBox, lng, lat, label) {
+async function clickLngLat(page, _mapBox, lng, lat, label) {
   const pt = await page.evaluate(
     ({ lng, lat }) => {
       const m = window.__fiestaMap;
+      if (!m?.project) throw new Error("__fiestaMap not available");
       const p = m.project([lng, lat]);
       const rect = m.getContainer().getBoundingClientRect();
       return { x: rect.left + p.x, y: rect.top + p.y };

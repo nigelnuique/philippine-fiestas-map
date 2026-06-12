@@ -14,6 +14,8 @@ import { MONTH_NAMES } from "../lib/constants.js";
 
 import { normalizePsgc } from "../lib/psgc.js";
 import DataAttribution from "./DataAttribution.jsx";
+import BiringanEasterEgg from "./BiringanEasterEgg.jsx";
+import { isBiringanEasterEggQuery } from "../lib/biringanEasterEgg.js";
 
 import "./Sidebar.css";
 
@@ -30,50 +32,6 @@ const LEVEL_META = {
   barangay: { label: "Barangay", color: "#4ade80" },
 
 };
-
-
-
-function Breadcrumb({ crumbs, onNavigate }) {
-
-  return (
-
-    <nav className="breadcrumb" aria-label="Location">
-
-      {crumbs.map((crumb, i) => (
-
-        <span key={crumb.key} className="breadcrumb-item">
-
-          {i > 0 && <span className="breadcrumb-sep" aria-hidden="true">›</span>}
-
-          <button
-
-            type="button"
-
-            className={
-
-              i === crumbs.length - 1 ? "breadcrumb-current" : "breadcrumb-link"
-
-            }
-
-            onClick={() => onNavigate(crumb)}
-
-            disabled={i === crumbs.length - 1 && crumb.level !== "country"}
-
-          >
-
-            {crumb.label}
-
-          </button>
-
-        </span>
-
-      ))}
-
-    </nav>
-
-  );
-
-}
 
 
 
@@ -139,9 +97,9 @@ export default function Sidebar({
 
   loading,
 
-  onNavigate,
-
   onRegionSelect,
+
+  onCountrySelect,
 
   onProvinceSelect,
 
@@ -161,7 +119,8 @@ export default function Sidebar({
 
   const [festivalSearch, setFestivalSearch] = useState("");
 
-
+  const showBiringanEgg =
+    !selection && isBiringanEasterEggQuery(festivalSearch);
 
   const areaFestivals = festivalIndex
 
@@ -183,7 +142,7 @@ export default function Sidebar({
 
     if (!query) return [];
 
-
+    if (isBiringanEasterEggQuery(query)) return [];
 
     return festivalIndex.festivals
 
@@ -237,108 +196,6 @@ export default function Sidebar({
 
   const atCountryView = !selection || selection.level === "country";
 
-  const crumbs = atCountryView
-    ? []
-    : [{ key: "ph", label: "Philippines", level: "country" }];
-
-  if (selection?.regionPsgc && selection.regionName) {
-
-    crumbs.push({
-
-      key: `r-${selection.regionPsgc}`,
-
-      label: selection.regionName,
-
-      level: "region",
-
-      regionPsgc: selection.regionPsgc,
-
-      regionName: selection.regionName,
-
-    });
-
-  }
-
-  if (selection?.provincePsgc && selection.provinceName) {
-
-    crumbs.push({
-
-      key: `p-${selection.provincePsgc}`,
-
-      label: selection.provinceName,
-
-      level: "province",
-
-      regionPsgc: selection.regionPsgc,
-
-      regionName: selection.regionName,
-
-      provincePsgc: selection.provincePsgc,
-
-      provinceName: selection.provinceName,
-
-    });
-
-  }
-
-  if (selection?.municipalityPsgc && selection.municipalityName) {
-
-    crumbs.push({
-
-      key: `m-${selection.municipalityPsgc}`,
-
-      label: selection.municipalityName,
-
-      level: "municipality",
-
-      regionPsgc: selection.regionPsgc,
-
-      regionName: selection.regionName,
-
-      provincePsgc: selection.provincePsgc,
-
-      provinceName: selection.provinceName,
-
-      municipalityPsgc: selection.municipalityPsgc,
-
-      municipalityName: selection.municipalityName,
-
-    });
-
-  }
-
-  if (selection?.barangayPsgc && selection.barangayName) {
-
-    crumbs.push({
-
-      key: `b-${selection.barangayPsgc}`,
-
-      label: selection.barangayName,
-
-      level: "barangay",
-
-      regionPsgc: selection.regionPsgc,
-
-      regionName: selection.regionName,
-
-      provincePsgc: selection.provincePsgc,
-
-      provinceName: selection.provinceName,
-
-      municipalityPsgc: selection.municipalityPsgc,
-
-      municipalityName: selection.municipalityName,
-
-      barangayPsgc: selection.barangayPsgc,
-
-      barangayName: selection.barangayName,
-
-    });
-
-  }
-
-
-
   const title = atCountryView
     ? null
     : selection?.barangayName ??
@@ -355,7 +212,10 @@ export default function Sidebar({
 
     manifest &&
 
-    (selection.level === "region" || selection.level === "province")
+    (selection.level === "region" ||
+      selection.level === "province" ||
+      selection.level === "municipality" ||
+      selection.level === "barangay")
 
       ? manifest.regions.find((r) => r.psgc === selection.regionPsgc)
 
@@ -453,14 +313,6 @@ export default function Sidebar({
 
         </header>
 
-
-
-        {crumbs.length > 0 && (
-          <Breadcrumb crumbs={crumbs} onNavigate={onNavigate} />
-        )}
-
-
-
         <div className="sidebar-area">
 
           {!atCountryView && (
@@ -502,7 +354,22 @@ export default function Sidebar({
 
       <div className="sidebar-body">
 
-        {manifest && !selection && (
+        {selection && onCountrySelect && (
+          <div className="region-picker" style={chipStyle("region")}>
+            <p className="region-picker-label">Navigate</p>
+            <div className="region-picker-list">
+              <button
+                type="button"
+                className="region-chip"
+                onClick={() => onCountrySelect()}
+              >
+                Philippines
+              </button>
+            </div>
+          </div>
+        )}
+
+        {manifest && (
 
           <div className="region-picker" style={chipStyle("region")}>
 
@@ -518,7 +385,12 @@ export default function Sidebar({
 
                   type="button"
 
-                  className={`region-chip${normalizePsgc(selection?.regionPsgc) === normalizePsgc(region.psgc) && selection?.level === "region" ? " region-chip-active" : ""}`}
+                  className={`region-chip${
+                    normalizePsgc(selection?.regionPsgc) === normalizePsgc(region.psgc) &&
+                    selection?.regionPsgc
+                      ? " region-chip-active"
+                      : ""
+                  }`}
 
                   onClick={() => onRegionSelect(region)}
 
@@ -554,7 +426,12 @@ export default function Sidebar({
 
                   type="button"
 
-                  className={`region-chip${normalizePsgc(selection.provincePsgc) === normalizePsgc(prov.psgc) ? " region-chip-active" : ""}`}
+                  className={`region-chip${
+                    normalizePsgc(selection.provincePsgc) === normalizePsgc(prov.psgc) &&
+                    selection.provincePsgc
+                      ? " region-chip-active"
+                      : ""
+                  }`}
 
                   onClick={() => onProvinceSelect(prov, selection)}
 
@@ -728,10 +605,14 @@ export default function Sidebar({
 
         )}
 
-        {!loading && !selection && festivalSearch.trim() && visibleFestivals.length === 0 && (
+        {!loading && showBiringanEgg && <BiringanEasterEgg />}
 
+        {!loading &&
+          !selection &&
+          festivalSearch.trim() &&
+          visibleFestivals.length === 0 &&
+          !showBiringanEgg && (
           <p className="festival-empty">No festivals match that search.</p>
-
         )}
 
         {!loading &&

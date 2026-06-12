@@ -9,19 +9,22 @@ For **where data comes from, licenses, and how it was obtained**, see [data-sour
 ```
 data/raw/                          scripts/                         data/processed/
 ─────────────                      ────────                         ────────────────
-philippines-json-maps/    ──►  fetch-boundaries.js        ──►  boundaries/manifest.json
-  geojson/...                       build-huc-boundaries.js         municipalities-index.json
-                                                                    barangays-index.json
-                                                                    huc-cities.json
-                                                                    huc-by-province.json
+philippines-json-maps/    ──►  fetch-boundaries.js              ──►  boundaries/manifest.json
+  geojson/...                       build-huc-boundaries.js           municipalities-index.json
+                                    build-huc-barangay-boundaries.js  barangays-index.json
+                                                                      huc-cities.json
+                                                                      huc-by-province.json
+                                                                      huc-barangays/*.json
 
-psgc2/                    ──►  fetch-psgc.js              ──►  psgc/admin-index.json
-                              fetch-barangay-fiestas.js  ──►  festivals/barangay-fiestas-raw.json
+psgc2/                    ──►  fetch-psgc.js                    ──►  psgc/admin-index.json
+                              fetch-barangay-fiestas.js        ──►  festivals/barangay-fiestas-raw.json
+                              fetch-lgu-barangay-schedules-online
+                              backfill-barangay-fiesta-dates.js
 
-TPB + Wikipedia + seeds   ──►  fetch-festivals.js         ──►  festivals/raw-festivals.json
-                              enrich-festival-dates-online     date-enrichment-cache.json
+TPB + Wikipedia + seeds   ──►  fetch-festivals.js               ──►  festivals/raw-festivals.json
+                              enrich-festival-dates-online           date-enrichment-cache.json
 
-barangay raw              ──►  build-barangay-fiestas.js  ──►  festivals/barangay-fiestas.json
+barangay raw              ──►  build-barangay-fiestas.js        ──►  festivals/barangay-fiestas.json
 
 raw festivals + indexes   ──►  build-dataset.js           ──►  festivals/festivals.json
 
@@ -163,6 +166,7 @@ Copies files needed at runtime into `public/`:
 | `raw/.../regions/lowres/*.json` | `public/geojson/regions/lowres/` | 17 |
 | `raw/.../provdists/lowres/*.json` | `public/geojson/provdists/lowres/` | 88 |
 | `raw/.../municities/lowres/bgysubmuns-*.json` | `public/geojson/municities/lowres/` | ~1,642 |
+| `processed/boundaries/huc-barangays/*.json` | `public/geojson/municities/lowres/` (overrides) | 33 HUC cities |
 | `data/processed/` | `public/data/processed/` | all JSON |
 
 Runs automatically before `dev` and `build` via npm `predev` / `prebuild` hooks.
@@ -178,6 +182,7 @@ Runs automatically before `dev` and `build` via npm `predev` / `prebuild` hooks.
 | `barangays-index.json` | Sidebar chips, barangay layer decision | Barangay names + PSGC per municipality |
 | `huc-cities.json` | `loadMunicipalities()` | HUC polygon features |
 | `huc-by-province.json` | `loadMunicipalities()` | Which HUC PSGCs belong to each province |
+| `huc-barangays/*.json` | `loadBarangays()`, `barangays-index.json` | Barangay polygons for HUC cities |
 
 ### Festivals (`data/processed/festivals/`)
 
@@ -209,21 +214,15 @@ Region codes use 9 trailing zeros (`700000000` = Region VII). Province codes use
 
 | Gap | Impact | Workaround |
 |-----|--------|------------|
-| **32 HUC cities** missing barangay GeoJSON | No barangay drill-down for Cebu City, Manila, etc. | Municipality-level view still works; HUC polygons patched at ADM3 |
+| **HUC barangay name mismatches** | A few barangays missing in Makati, Iligan, Angeles, Olongapo (~95% HUC coverage) | Run `npm run data:analyze-missing-barangays`; add altcoder/name overrides |
 | **Manila** empty geometry in source | No municipality polygon | `CITY_MAP_FOCUS` in `constants.js` for camera fallback |
 | **Barangay feast dates** mostly missing | ~10% have dates after backfill; rest are name/location only | Add LGU schedules to `lgu-fiesta-schedules/` |
 | **Festival location confidence** varies | Some festivals unmatched or low-confidence | `location.confidence` field in `festivals.json` |
 
-To check HUC barangay gaps:
+To analyze barangay boundary gaps:
 
 ```powershell
-node -e "
-const bi=require('./data/processed/boundaries/barangays-index.json');
-const huc=require('./data/processed/boundaries/huc-by-province.json').byProvincePsgc;
-let n=0;
-for (const ids of Object.values(huc)) for (const id of ids) if (!bi[String(id)]) n++;
-console.log('HUCs without barangay index:', n);
-"
+npm run data:analyze-missing-barangays
 ```
 
 ## Refreshing data

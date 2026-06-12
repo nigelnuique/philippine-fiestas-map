@@ -135,8 +135,3 @@ export function listAllHucBarangayConfigs() {
 export function listHucBarangayBackfillTargets() {
   return listAllHucBarangayConfigs().filter((c) => c.needsBuild);
 }
-
-/** @deprecated Use listHucBarangayBackfillTargets */
-export function listMissingHucBarangayCities() {
-  return listHucBarangayBackfillTargets();
-}

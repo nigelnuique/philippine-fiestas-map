@@ -147,9 +147,8 @@ function main() {
   for (const file of listJsonFiles(HUC_BGY_DIR)) {
     const match = file.match(/bgysubmuns-municity-(\d+)\./);
     if (!match) continue;
-    const municipalityPsgc = Number(match[1]);
-    if (barangaysByMunicipality[municipalityPsgc]) continue;
-    indexBarangayFile(path.join(HUC_BGY_DIR, file), municipalityPsgc);
+    // HUC backfill polygons override incomplete philippines-json-maps barangay layers.
+    indexBarangayFile(path.join(HUC_BGY_DIR, file), Number(match[1]));
   }
 
   const muniFiles = listJsonFiles(provdistDir);

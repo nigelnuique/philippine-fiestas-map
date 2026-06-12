@@ -1,8 +1,10 @@
 /**
- * Gathers festival data from:
+ * Gathers named festival data from:
  * 1. Tourism Promotions Board (DOT) calendar page (scraped)
  * 2. Curated seed list of major national festivals
+ * 3. Wikipedia festival list
  *
+ * Barangay patron fiestas are generated separately by fetch-barangay-fiestas.js.
  * Output: data/processed/festivals/raw-festivals.json
  */
 import fs from "fs";
@@ -12,7 +14,7 @@ import * as cheerio from "cheerio";
 import { slugify } from "./lib/slugify.js";
 import { enrichFestivalDates } from "./lib/date-parser.js";
 import { fetchWikipediaFestivals } from "./fetch-wikipedia-festivals.js";
-import { buildBarangayFiestasFromPsgc } from "./fetch-barangay-fiestas.js";
+import { MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID } from "./lib/major-festival-descriptions.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -46,8 +48,7 @@ const SEED_FESTIVALS = [
     province: "Cebu",
     municipality: "Cebu City",
     type: "religious-cultural",
-    description:
-      "Grand festival honoring the Santo Niño with street dancing and fluvial parade.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-sinulog-festival"],
     source: "seed",
   },
   {
@@ -58,7 +59,7 @@ const SEED_FESTIVALS = [
     province: "Aklan",
     municipality: "Kalibo",
     type: "religious-cultural",
-    description: "Street festival with tribal face paint honoring the Santo Niño.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-ati-atihan-festival"],
     source: "seed",
   },
   {
@@ -69,7 +70,7 @@ const SEED_FESTIVALS = [
     province: "Iloilo",
     municipality: "Iloilo City",
     type: "religious-cultural",
-    description: "Warrior-painted tribes dance in honor of the Santo Niño.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-dinagyang-festival"],
     source: "seed",
   },
   {
@@ -80,7 +81,7 @@ const SEED_FESTIVALS = [
     province: "Metro Manila",
     municipality: "Manila",
     type: "religious",
-    description: "Procession honoring the Black Nazarene in Quiapo.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-feast-of-the-black-nazarene"],
     source: "seed",
   },
   {
@@ -92,7 +93,7 @@ const SEED_FESTIVALS = [
     province: "Benguet",
     municipality: "Baguio City",
     type: "cultural",
-    description: "Flower festival with floats and street dancing.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-panagbenga-festival"],
     source: "seed",
   },
   {
@@ -104,7 +105,7 @@ const SEED_FESTIVALS = [
     province: "Marinduque",
     municipality: null,
     type: "religious-cultural",
-    description: "Holy Week reenactment with Roman centurion masks.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-moriones-festival"],
     source: "seed",
   },
   {
@@ -115,7 +116,7 @@ const SEED_FESTIVALS = [
     province: "Quezon",
     municipality: "Lucban",
     type: "harvest",
-    description: "Homes decorated with colorful kiping rice wafers.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-pahiyas-festival"],
     source: "seed",
   },
   {
@@ -126,7 +127,7 @@ const SEED_FESTIVALS = [
     province: "Leyte",
     municipality: "Tacloban City",
     type: "cultural",
-    description: "Body-paint festival honoring pre-colonial warrior traditions.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-pintados-kasadyaan-festival"],
     source: "seed",
   },
   {
@@ -138,7 +139,7 @@ const SEED_FESTIVALS = [
     province: "Bohol",
     municipality: "Tagbilaran City",
     type: "historical",
-    description: "Commemorates the blood compact between Sikatuna and Legazpi.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-sandugo-festival"],
     source: "seed",
   },
   {
@@ -150,7 +151,7 @@ const SEED_FESTIVALS = [
     province: "Davao del Sur",
     municipality: "Davao City",
     type: "harvest-cultural",
-    description: "Thanksgiving festival celebrating tribal heritage and harvest.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-kadayawan-festival"],
     source: "seed",
   },
   {
@@ -162,7 +163,7 @@ const SEED_FESTIVALS = [
     province: "Negros Occidental",
     municipality: "Bacolod City",
     type: "cultural",
-    description: "Festival of smiling masks and street dancing.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-masskara-festival"],
     source: "seed",
   },
   {
@@ -173,7 +174,7 @@ const SEED_FESTIVALS = [
     province: "Pampanga",
     municipality: "San Fernando City",
     type: "cultural",
-    description: "Giant parol lanterns competition.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-giant-lantern-festival"],
     source: "seed",
   },
   {
@@ -184,8 +185,7 @@ const SEED_FESTIVALS = [
     province: "Cebu",
     municipality: "Mandaue City",
     type: "cultural",
-    description:
-      "Cultural festival celebrating Mandaue's history, trade, and craftsmanship.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-mantawi-festival"],
     source: "seed",
   },
   {
@@ -196,8 +196,7 @@ const SEED_FESTIVALS = [
     province: "Cebu",
     municipality: "Lapu-Lapu City",
     type: "historical",
-    description:
-      "Reenactment of the Battle of Mactan and tribute to Datu Lapu-Lapu.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-kadaugan-sa-mactan"],
     source: "seed",
   },
   {
@@ -208,8 +207,7 @@ const SEED_FESTIVALS = [
     province: "Cebu",
     municipality: "Lapu-Lapu City",
     type: "religious",
-    description:
-      "Fluvial procession and novena honoring Our Lady of the Rule in Opon.",
+    description: MAJOR_FESTIVAL_DESCRIPTIONS_BY_ID["seed-virgen-de-la-regla-festival"],
     source: "seed",
   },
 ];
@@ -347,16 +345,6 @@ async function main() {
     console.warn(`  Wikipedia scrape failed: ${err.message}`);
   }
 
-  let barangayFestivals = [];
-  const rawPsgc = path.join(ROOT, "data", "raw", "psgc2", "raw.json");
-  if (fs.existsSync(rawPsgc)) {
-    const psgcRaw = JSON.parse(fs.readFileSync(rawPsgc, "utf8"));
-    barangayFestivals = buildBarangayFiestasFromPsgc(psgcRaw);
-    console.log(`  Generated ${barangayFestivals.length} barangay fiestas from PSGC`);
-  } else {
-    console.warn("  PSGC raw.json missing — skip barangay fiestas. Clone psgc2.");
-  }
-
   const output = {
     generatedAt: new Date().toISOString(),
     sources: [
@@ -367,20 +355,12 @@ async function main() {
         name: "Wikipedia festival list",
         url: "https://en.wikipedia.org/wiki/List_of_festivals_in_the_Philippines",
       },
-      {
-        id: "psgc-barangay",
-        name: "PSGC barangay patron fiestas (one per barangay)",
-        url: "https://github.com/xemasiv/psgc2",
-      },
     ],
     counts: {
       tpb: tpbFestivals.length,
       seed: seedFestivals.length,
       wikipedia: wikiFestivals.length,
-      barangay: barangayFestivals.length,
       totalNamed: tpbFestivals.length + seedFestivals.length + wikiFestivals.length,
-      totalWithBarangay:
-        tpbFestivals.length + seedFestivals.length + wikiFestivals.length + barangayFestivals.length,
     },
     festivals: {
       tpb: tpbFestivals,
@@ -392,24 +372,6 @@ async function main() {
   const outFile = path.join(OUT_DIR, "raw-festivals.json");
   fs.writeFileSync(outFile, JSON.stringify(output, null, 2));
   console.log(`Festival data written to ${path.relative(ROOT, outFile)}`);
-
-  if (barangayFestivals.length > 0) {
-    const bgyOut = path.join(OUT_DIR, "barangay-fiestas-raw.json");
-    fs.writeFileSync(
-      bgyOut,
-      JSON.stringify(
-        {
-          generatedAt: new Date().toISOString(),
-          source: "xemasiv/psgc2 raw.json",
-          count: barangayFestivals.length,
-          festivals: barangayFestivals,
-        },
-        null,
-        2
-      )
-    );
-    console.log(`  Barangay fiestas: ${path.relative(ROOT, bgyOut)}`);
-  }
 }
 
 main().catch((err) => {

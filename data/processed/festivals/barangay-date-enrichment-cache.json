@@ -3,7 +3,7 @@
   "entries": {
     "bgy-012801001": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:23:55.531Z"
+      "checkedAt": "2026-06-12T14:57:17.970Z"
     },
     "bgy-012802001": {
       "month": 12,
@@ -30,28 +30,28 @@
       "checkedAt": "2026-06-12T14:26:04.709Z"
     },
     "bgy-012802005": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:26:13.777Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:58:15.750Z"
     },
     "bgy-012802006": {
       "error": "Wikipedia API rate limited",
       "checkedAt": "2026-06-12T14:27:09.533Z"
     },
     "bgy-012802007": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:27:18.531Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:59:13.751Z"
     },
     "bgy-012802008": {
       "error": "Wikipedia API rate limited",
       "checkedAt": "2026-06-12T14:28:14.281Z"
     },
     "bgy-012802009": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:28:23.370Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:00:14.799Z"
     },
     "bgy-012802011": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:29:04.224Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:01:16.033Z"
     },
     "bgy-012802012": {
       "error": "Wikipedia API rate limited",
@@ -71,15 +71,15 @@
     },
     "bgy-012802015": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:31:13.682Z"
+      "checkedAt": "2026-06-12T15:01:26.919Z"
     },
     "bgy-012802016": {
       "error": "Wikipedia API rate limited",
       "checkedAt": "2026-06-12T14:32:09.430Z"
     },
     "bgy-012802017": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:32:18.518Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:02:24.732Z"
     },
     "bgy-012802018": {
       "error": "Wikipedia API rate limited",
@@ -90,12 +90,12 @@
       "checkedAt": "2026-06-12T14:33:14.268Z"
     },
     "bgy-012802020": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:33:23.298Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:03:57.967Z"
     },
     "bgy-012802021": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:34:04.133Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:04:59.087Z"
     },
     "bgy-012802022": {
       "error": "Wikipedia API rate limited",
@@ -114,8 +114,8 @@
       "checkedAt": "2026-06-12T14:36:05.224Z"
     },
     "bgy-012802051": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:36:14.267Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:06:00.192Z"
     },
     "bgy-012802052": {
       "error": "Wikipedia API rate limited",
@@ -146,128 +146,148 @@
       "query": "\"Aring\" \"Badoc\" Philippines barangay"
     },
     "bgy-012803005": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:40:03.979Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:06:58.466Z"
     },
     "bgy-012803006": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:19.888Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:41:00.840Z"
     },
     "bgy-012803007": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:22.306Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:07:59.512Z"
     },
     "bgy-012803008": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:24.704Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:42:05.947Z"
     },
     "bgy-012803009": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:27.124Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:09:00.612Z"
     },
     "bgy-012803011": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:29.530Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:43:10.749Z"
     },
     "bgy-012803012": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:31.947Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:09:58.828Z"
     },
     "bgy-012803013": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:02:34.347Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:44:15.497Z"
     },
     "bgy-012803016": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:08.471Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:10:59.870Z"
     },
     "bgy-012803017": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:10.868Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:12:00.907Z"
     },
     "bgy-012803018": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:13.259Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:46:02.049Z"
     },
     "bgy-012803020": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:15.678Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:13:01.978Z"
     },
     "bgy-012803021": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:18.093Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:47:06.797Z"
     },
     "bgy-012803022": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:20.482Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:13:59.742Z"
     },
     "bgy-012803023": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:22.889Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:48:11.791Z"
     },
     "bgy-012803025": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:25.294Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:15:04.114Z"
     },
     "bgy-012803026": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:27.700Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:49:16.606Z"
     },
     "bgy-012803028": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:03:30.119Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:16:05.197Z"
     },
     "bgy-012803029": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:04:04.222Z"
+      "checkedAt": "2026-06-12T14:50:06.633Z"
     },
     "bgy-012803030": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:06.629Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:51:02.356Z"
     },
     "bgy-012803031": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:04:09.047Z"
+      "checkedAt": "2026-06-12T14:51:11.462Z"
     },
     "bgy-012803032": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:11.446Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:52:07.215Z"
     },
     "bgy-012803036": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:04:13.886Z"
+      "checkedAt": "2026-06-12T14:52:16.327Z"
     },
     "bgy-012803037": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:16.304Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:53:12.076Z"
     },
     "bgy-012804001": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:18.721Z"
+      "month": 9,
+      "dayStart": 3,
+      "dayEnd": 3,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Caparispisan Wind Farm",
+      "query": "\"Abaca\" \"Bangui\" Philippines barangay"
     },
     "bgy-012804002": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:21.504Z"
+      "month": 10,
+      "dayStart": 6,
+      "dayEnd": 6,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "The Amazing Race Philippines 2",
+      "query": "Bacsil barangay Bangui Ilocos Norte Philippines fiesta"
     },
     "bgy-012804003": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:23.907Z"
+      "month": 1,
+      "dayStart": 20,
+      "dayEnd": 20,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "MacArthur Highway",
+      "query": "\"Banban\" \"Bangui\" Philippines barangay"
     },
     "bgy-012804004": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:04:57.999Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:55:02.060Z"
     },
     "bgy-012804005": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:05:00.395Z"
+      "month": 3,
+      "dayStart": 18,
+      "dayEnd": 18,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Bangui, Ilocos Norte",
+      "query": "\"Dadaor\" \"Bangui\" Philippines barangay"
     },
     "bgy-012804006": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:05:02.790Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T14:56:06.744Z"
     },
     "bgy-012804007": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T14:05:05.239Z"
+      "month": 9,
+      "dayStart": 3,
+      "dayEnd": 3,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Caparispisan Wind Farm",
+      "query": "\"Malasin\" \"Bangui\" Philippines barangay"
     },
     "bgy-012804008": {
       "notFound": true,
@@ -344,6 +364,130 @@
     "bgy-012805014": {
       "error": "Wikipedia API rate limited",
       "checkedAt": "2026-06-12T14:08:10.216Z"
+    },
+    "bgy-012805015": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T15:17:10.500Z"
+    },
+    "bgy-012805016": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:18:09.255Z"
+    },
+    "bgy-012805017": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:19:08.015Z"
+    },
+    "bgy-012805018": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:20:06.756Z"
+    },
+    "bgy-012805019": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:21:05.488Z"
+    },
+    "bgy-012805020": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:22:07.621Z"
+    },
+    "bgy-012805021": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:23:06.338Z"
+    },
+    "bgy-012805022": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:24:05.541Z"
+    },
+    "bgy-012805023": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:25:07.593Z"
+    },
+    "bgy-012805024": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T15:26:06.363Z"
+    },
+    "bgy-012805025": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T22:58:46.894Z"
+    },
+    "bgy-012805026": {
+      "month": 4,
+      "dayStart": 2,
+      "dayEnd": 2,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Timeline of the COVID-19 pandemic in the Philippines (2020)",
+      "query": "Barangay Magnuang City Of Batac Philippines"
+    },
+    "bgy-012805027": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T22:59:14.734Z"
+    },
+    "bgy-012805028": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T22:59:27.945Z"
+    },
+    "bgy-012805029": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:00:13.537Z"
+    },
+    "bgy-012805030": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:00:30.099Z"
+    },
+    "bgy-012805031": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:01:15.481Z"
+    },
+    "bgy-012805032": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:01:28.706Z"
+    },
+    "bgy-012805033": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:02:14.497Z"
+    },
+    "bgy-012805034": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:02:27.829Z"
+    },
+    "bgy-012805035": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:02:40.884Z"
+    },
+    "bgy-012805036": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:03:10.470Z"
+    },
+    "bgy-012805037": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:03:25.712Z"
+    },
+    "bgy-012805038": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:04:11.214Z"
+    },
+    "bgy-012805042": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:04:24.280Z"
+    },
+    "bgy-012805043": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:04:37.949Z"
+    },
+    "bgy-012805044": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:05:07.719Z"
+    },
+    "bgy-012806001": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:05:24.646Z"
+    },
+    "bgy-012806002": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:06:15.752Z"
+    },
+    "bgy-012806005": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:07:05.722Z"
     }
   },
   "updatedAt": "2026-06-12T14:08:12.218Z"

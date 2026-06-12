@@ -239,7 +239,7 @@ async function main() {
     if (f.month) return false;
     const cached = cache.entries[f.id];
     if (!cached) return true;
-    if (RETRY_FAILED && cached.notFound) return true;
+    if (RETRY_FAILED && (cached.notFound || cached.error)) return true;
     return false;
   });
 

@@ -28,7 +28,9 @@
     "check:page": "node scripts/check-page.mjs",
     "check:e2e": "node scripts/e2e-map.mjs",
     "check:go-live": "node scripts/go-live-checks.mjs",
-    "data:analyze-missing-barangays": "node scripts/analyze-missing-barangay-boundaries.js"
+    "data:analyze-missing-barangays": "node scripts/analyze-missing-barangay-boundaries.js",
+    "data:report-gaps": "node scripts/report-data-gaps.js",
+    "data:audit-missing-dates": "node scripts/audit-missing-dates.js"
   },
   "keywords": [
     "philippines",

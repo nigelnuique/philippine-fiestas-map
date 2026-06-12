@@ -1802,8 +1802,15 @@
   "305400000": {
     "provincePsgc": 305400000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-305400000.0.001.json",
-    "featureCount": 21,
+    "featureCount": 22,
     "municipalities": [
+      {
+        "psgc": 305401000,
+        "name": "Angeles City",
+        "adm1Psgc": 300000000,
+        "adm2Psgc": 305400000,
+        "huc": true
+      },
       {
         "psgc": 305402000,
         "name": "Apalit",
@@ -1825,6 +1832,12 @@
       {
         "psgc": 305405000,
         "name": "Candaba",
+        "adm1Psgc": 300000000,
+        "adm2Psgc": 305400000
+      },
+      {
+        "psgc": 305416000,
+        "name": "City of San Fernando",
         "adm1Psgc": 300000000,
         "adm2Psgc": 305400000
       },
@@ -1889,12 +1902,6 @@
         "adm2Psgc": 305400000
       },
       {
-        "psgc": 305416000,
-        "name": "City of San Fernando",
-        "adm1Psgc": 300000000,
-        "adm2Psgc": 305400000
-      },
-      {
         "psgc": 305417000,
         "name": "San Luis",
         "adm1Psgc": 300000000,
@@ -1919,14 +1926,14 @@
         "adm2Psgc": 305400000
       },
       {
-        "psgc": 305421000,
-        "name": "Sto. Tomas",
+        "psgc": 305422000,
+        "name": "Sasmuan",
         "adm1Psgc": 300000000,
         "adm2Psgc": 305400000
       },
       {
-        "psgc": 305422000,
-        "name": "Sasmuan",
+        "psgc": 305421000,
+        "name": "Sto. Tomas",
         "adm1Psgc": 300000000,
         "adm2Psgc": 305400000
       }
@@ -2050,7 +2057,7 @@
   "307100000": {
     "provincePsgc": 307100000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-307100000.0.001.json",
-    "featureCount": 13,
+    "featureCount": 14,
     "municipalities": [
       {
         "psgc": 307101000,
@@ -2087,6 +2094,13 @@
         "name": "Masinloc",
         "adm1Psgc": 300000000,
         "adm2Psgc": 307100000
+      },
+      {
+        "psgc": 307107000,
+        "name": "Olongapo City",
+        "adm1Psgc": 300000000,
+        "adm2Psgc": 307100000,
+        "huc": true
       },
       {
         "psgc": 307108000,
@@ -2733,7 +2747,7 @@
   "405600000": {
     "provincePsgc": 405600000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-405600000.0.001.json",
-    "featureCount": 40,
+    "featureCount": 41,
     "municipalities": [
       {
         "psgc": 405601000,
@@ -2780,6 +2794,12 @@
       {
         "psgc": 405610000,
         "name": "Catanauan",
+        "adm1Psgc": 400000000,
+        "adm2Psgc": 405600000
+      },
+      {
+        "psgc": 405647000,
+        "name": "City of Tayabas",
         "adm1Psgc": 400000000,
         "adm2Psgc": 405600000
       },
@@ -2836,6 +2856,13 @@
         "name": "Lucban",
         "adm1Psgc": 400000000,
         "adm2Psgc": 405600000
+      },
+      {
+        "psgc": 405624000,
+        "name": "Lucena City",
+        "adm1Psgc": 400000000,
+        "adm2Psgc": 405600000,
+        "huc": true
       },
       {
         "psgc": 405625000,
@@ -2954,12 +2981,6 @@
       {
         "psgc": 405646000,
         "name": "Tagkawayan",
-        "adm1Psgc": 400000000,
-        "adm2Psgc": 405600000
-      },
-      {
-        "psgc": 405647000,
-        "name": "City of Tayabas",
         "adm1Psgc": 400000000,
         "adm2Psgc": 405600000
       },
@@ -4130,7 +4151,7 @@
   "603000000": {
     "provincePsgc": 603000000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-603000000.0.001.json",
-    "featureCount": 43,
+    "featureCount": 44,
     "municipalities": [
       {
         "psgc": 603001000,
@@ -4211,6 +4232,12 @@
         "adm2Psgc": 603000000
       },
       {
+        "psgc": 603035000,
+        "name": "City of Passi",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 603000000
+      },
+      {
         "psgc": 603015000,
         "name": "Concepcion",
         "adm1Psgc": 600000000,
@@ -4251,6 +4278,13 @@
         "name": "Igbaras",
         "adm1Psgc": 600000000,
         "adm2Psgc": 603000000
+      },
+      {
+        "psgc": 603022000,
+        "name": "Iloilo City",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 603000000,
+        "huc": true
       },
       {
         "psgc": 603023000,
@@ -4309,12 +4343,6 @@
       {
         "psgc": 603034000,
         "name": "Oton",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 603000000
-      },
-      {
-        "psgc": 603035000,
-        "name": "City of Passi",
         "adm1Psgc": 600000000,
         "adm2Psgc": 603000000
       },
@@ -4395,23 +4423,18 @@
   "604500000": {
     "provincePsgc": 604500000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-604500000.0.001.json",
-    "featureCount": 31,
+    "featureCount": 32,
     "municipalities": [
       {
-        "psgc": 604502000,
-        "name": "City of Bago",
+        "psgc": 604501000,
+        "name": "Bacolod City",
         "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
+        "adm2Psgc": 604500000,
+        "huc": true
       },
       {
         "psgc": 604503000,
         "name": "Binalbagan",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604504000,
-        "name": "City of Cadiz",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       },
@@ -4434,8 +4457,14 @@
         "adm2Psgc": 604500000
       },
       {
-        "psgc": 604508000,
-        "name": "Enrique B. Magalona",
+        "psgc": 604502000,
+        "name": "City of Bago",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604504000,
+        "name": "City of Cadiz",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       },
@@ -4448,6 +4477,60 @@
       {
         "psgc": 604510000,
         "name": "City of Himamaylan",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604515000,
+        "name": "City of Kabankalan",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604516000,
+        "name": "City of La Carlota",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604523000,
+        "name": "City of Sagay",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604524000,
+        "name": "City of San Carlos",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604526000,
+        "name": "City of Silay",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604527000,
+        "name": "City of Sipalay",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604528000,
+        "name": "City of Talisay",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604531000,
+        "name": "City of Victorias",
+        "adm1Psgc": 600000000,
+        "adm2Psgc": 604500000
+      },
+      {
+        "psgc": 604508000,
+        "name": "Enrique B. Magalona",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       },
@@ -4472,18 +4555,6 @@
       {
         "psgc": 604514000,
         "name": "Isabela",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604515000,
-        "name": "City of Kabankalan",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604516000,
-        "name": "City of La Carlota",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       },
@@ -4524,38 +4595,14 @@
         "adm2Psgc": 604500000
       },
       {
-        "psgc": 604523000,
-        "name": "City of Sagay",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604524000,
-        "name": "City of San Carlos",
+        "psgc": 604532000,
+        "name": "Salvador Benedicto",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       },
       {
         "psgc": 604525000,
         "name": "San Enrique",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604526000,
-        "name": "City of Silay",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604527000,
-        "name": "City of Sipalay",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604528000,
-        "name": "City of Talisay",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       },
@@ -4568,18 +4615,6 @@
       {
         "psgc": 604530000,
         "name": "Valladolid",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604531000,
-        "name": "City of Victorias",
-        "adm1Psgc": 600000000,
-        "adm2Psgc": 604500000
-      },
-      {
-        "psgc": 604532000,
-        "name": "Salvador Benedicto",
         "adm1Psgc": 600000000,
         "adm2Psgc": 604500000
       }
@@ -4920,7 +4955,7 @@
   "702200000": {
     "provincePsgc": 702200000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-702200000.0.001.json",
-    "featureCount": 50,
+    "featureCount": 53,
     "municipalities": [
       {
         "psgc": 702201000,
@@ -4983,12 +5018,6 @@
         "adm2Psgc": 702200000
       },
       {
-        "psgc": 702211000,
-        "name": "City of Bogo",
-        "adm1Psgc": 700000000,
-        "adm2Psgc": 702200000
-      },
-      {
         "psgc": 702212000,
         "name": "Boljoon",
         "adm1Psgc": 700000000,
@@ -5001,12 +5030,6 @@
         "adm2Psgc": 702200000
       },
       {
-        "psgc": 702214000,
-        "name": "City of Carcar",
-        "adm1Psgc": 700000000,
-        "adm2Psgc": 702200000
-      },
-      {
         "psgc": 702215000,
         "name": "Carmen",
         "adm1Psgc": 700000000,
@@ -5015,6 +5038,43 @@
       {
         "psgc": 702216000,
         "name": "Catmon",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000
+      },
+      {
+        "psgc": 702217000,
+        "name": "Cebu City",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000,
+        "huc": true
+      },
+      {
+        "psgc": 702211000,
+        "name": "City of Bogo",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000
+      },
+      {
+        "psgc": 702214000,
+        "name": "City of Carcar",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000
+      },
+      {
+        "psgc": 702234000,
+        "name": "City of Naga",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000
+      },
+      {
+        "psgc": 702250000,
+        "name": "City of Talisay",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000
+      },
+      {
+        "psgc": 702251000,
+        "name": "City of Toledo",
         "adm1Psgc": 700000000,
         "adm2Psgc": 702200000
       },
@@ -5067,6 +5127,13 @@
         "adm2Psgc": 702200000
       },
       {
+        "psgc": 702226000,
+        "name": "Lapu-Lapu City",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000,
+        "huc": true
+      },
+      {
         "psgc": 702227000,
         "name": "Liloan",
         "adm1Psgc": 700000000,
@@ -5085,6 +5152,13 @@
         "adm2Psgc": 702200000
       },
       {
+        "psgc": 702230000,
+        "name": "Mandaue City",
+        "adm1Psgc": 700000000,
+        "adm2Psgc": 702200000,
+        "huc": true
+      },
+      {
         "psgc": 702231000,
         "name": "Medellin",
         "adm1Psgc": 700000000,
@@ -5099,12 +5173,6 @@
       {
         "psgc": 702233000,
         "name": "Moalboal",
-        "adm1Psgc": 700000000,
-        "adm2Psgc": 702200000
-      },
-      {
-        "psgc": 702234000,
-        "name": "City of Naga",
         "adm1Psgc": 700000000,
         "adm2Psgc": 702200000
       },
@@ -5195,18 +5263,6 @@
       {
         "psgc": 702249000,
         "name": "Tabuelan",
-        "adm1Psgc": 700000000,
-        "adm2Psgc": 702200000
-      },
-      {
-        "psgc": 702250000,
-        "name": "City of Talisay",
-        "adm1Psgc": 700000000,
-        "adm2Psgc": 702200000
-      },
-      {
-        "psgc": 702251000,
-        "name": "City of Toledo",
         "adm1Psgc": 700000000,
         "adm2Psgc": 702200000
       },
@@ -5572,7 +5628,7 @@
   "803700000": {
     "provincePsgc": 803700000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-803700000.0.001.json",
-    "featureCount": 42,
+    "featureCount": 43,
     "municipalities": [
       {
         "psgc": 803701000,
@@ -5611,12 +5667,6 @@
         "adm2Psgc": 803700000
       },
       {
-        "psgc": 803708000,
-        "name": "City of Baybay",
-        "adm1Psgc": 800000000,
-        "adm2Psgc": 803700000
-      },
-      {
         "psgc": 803710000,
         "name": "Burauen",
         "adm1Psgc": 800000000,
@@ -5637,6 +5687,12 @@
       {
         "psgc": 803715000,
         "name": "Carigara",
+        "adm1Psgc": 800000000,
+        "adm2Psgc": 803700000
+      },
+      {
+        "psgc": 803708000,
+        "name": "City of Baybay",
         "adm1Psgc": 800000000,
         "adm2Psgc": 803700000
       },
@@ -5801,6 +5857,13 @@
         "name": "Tabontabon",
         "adm1Psgc": 800000000,
         "adm2Psgc": 803700000
+      },
+      {
+        "psgc": 803747000,
+        "name": "Tacloban City",
+        "adm1Psgc": 800000000,
+        "adm2Psgc": 803700000,
+        "huc": true
       },
       {
         "psgc": 803748000,
@@ -6490,7 +6553,7 @@
   "907300000": {
     "provincePsgc": 907300000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-907300000.0.001.json",
-    "featureCount": 27,
+    "featureCount": 28,
     "municipalities": [
       {
         "psgc": 907302000,
@@ -6501,6 +6564,12 @@
       {
         "psgc": 907303000,
         "name": "Bayog",
+        "adm1Psgc": 900000000,
+        "adm2Psgc": 907300000
+      },
+      {
+        "psgc": 907322000,
+        "name": "City of Pagadian",
         "adm1Psgc": 900000000,
         "adm2Psgc": 907300000
       },
@@ -6529,6 +6598,18 @@
         "adm2Psgc": 907300000
       },
       {
+        "psgc": 907343000,
+        "name": "Guipos",
+        "adm1Psgc": 900000000,
+        "adm2Psgc": 907300000
+      },
+      {
+        "psgc": 907337000,
+        "name": "Josefina",
+        "adm1Psgc": 900000000,
+        "adm2Psgc": 907300000
+      },
+      {
         "psgc": 907311000,
         "name": "Kumalarang",
         "adm1Psgc": 900000000,
@@ -6537,6 +6618,12 @@
       {
         "psgc": 907312000,
         "name": "Labangan",
+        "adm1Psgc": 900000000,
+        "adm2Psgc": 907300000
+      },
+      {
+        "psgc": 907333000,
+        "name": "Lakewood",
         "adm1Psgc": 900000000,
         "adm2Psgc": 907300000
       },
@@ -6571,8 +6658,8 @@
         "adm2Psgc": 907300000
       },
       {
-        "psgc": 907322000,
-        "name": "City of Pagadian",
+        "psgc": 907338000,
+        "name": "Pitogo",
         "adm1Psgc": 900000000,
         "adm2Psgc": 907300000
       },
@@ -6595,6 +6682,12 @@
         "adm2Psgc": 907300000
       },
       {
+        "psgc": 907340000,
+        "name": "Sominot",
+        "adm1Psgc": 900000000,
+        "adm2Psgc": 907300000
+      },
+      {
         "psgc": 907327000,
         "name": "Tabina",
         "adm1Psgc": 900000000,
@@ -6607,32 +6700,14 @@
         "adm2Psgc": 907300000
       },
       {
+        "psgc": 907344000,
+        "name": "Tigbao",
+        "adm1Psgc": 900000000,
+        "adm2Psgc": 907300000
+      },
+      {
         "psgc": 907330000,
         "name": "Tukuran",
-        "adm1Psgc": 900000000,
-        "adm2Psgc": 907300000
-      },
-      {
-        "psgc": 907333000,
-        "name": "Lakewood",
-        "adm1Psgc": 900000000,
-        "adm2Psgc": 907300000
-      },
-      {
-        "psgc": 907337000,
-        "name": "Josefina",
-        "adm1Psgc": 900000000,
-        "adm2Psgc": 907300000
-      },
-      {
-        "psgc": 907338000,
-        "name": "Pitogo",
-        "adm1Psgc": 900000000,
-        "adm2Psgc": 907300000
-      },
-      {
-        "psgc": 907340000,
-        "name": "Sominot",
         "adm1Psgc": 900000000,
         "adm2Psgc": 907300000
       },
@@ -6643,16 +6718,11 @@
         "adm2Psgc": 907300000
       },
       {
-        "psgc": 907343000,
-        "name": "Guipos",
+        "psgc": 907332000,
+        "name": "Zamboanga City",
         "adm1Psgc": 900000000,
-        "adm2Psgc": 907300000
-      },
-      {
-        "psgc": 907344000,
-        "name": "Tigbao",
-        "adm1Psgc": 900000000,
-        "adm2Psgc": 907300000
+        "adm2Psgc": 907300000,
+        "huc": true
       }
     ]
   },
@@ -6951,7 +7021,7 @@
   "1003500000": {
     "provincePsgc": 1003500000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1003500000.0.001.json",
-    "featureCount": 22,
+    "featureCount": 23,
     "municipalities": [
       {
         "psgc": 1003501000,
@@ -6972,14 +7042,15 @@
         "adm2Psgc": 1003500000
       },
       {
-        "psgc": 1003505000,
-        "name": "Kapatagan",
-        "adm1Psgc": 1000000000,
-        "adm2Psgc": 1003500000
+        "psgc": 13504000,
+        "name": "Iligan City",
+        "adm1Psgc": 10000000,
+        "adm2Psgc": 1003500000,
+        "huc": true
       },
       {
-        "psgc": 1003506000,
-        "name": "Sultan Naga Dimaporo",
+        "psgc": 1003505000,
+        "name": "Kapatagan",
         "adm1Psgc": 1000000000,
         "adm2Psgc": 1003500000
       },
@@ -7044,6 +7115,12 @@
         "adm2Psgc": 1003500000
       },
       {
+        "psgc": 1003523000,
+        "name": "Pantar",
+        "adm1Psgc": 1000000000,
+        "adm2Psgc": 1003500000
+      },
+      {
         "psgc": 1003517000,
         "name": "Poona Piagapo",
         "adm1Psgc": 1000000000,
@@ -7062,6 +7139,12 @@
         "adm2Psgc": 1003500000
       },
       {
+        "psgc": 1003506000,
+        "name": "Sultan Naga Dimaporo",
+        "adm1Psgc": 1000000000,
+        "adm2Psgc": 1003500000
+      },
+      {
         "psgc": 1003520000,
         "name": "Tagoloan",
         "adm1Psgc": 1000000000,
@@ -7076,12 +7159,6 @@
       {
         "psgc": 1003522000,
         "name": "Tubod",
-        "adm1Psgc": 1000000000,
-        "adm2Psgc": 1003500000
-      },
-      {
-        "psgc": 1003523000,
-        "name": "Pantar",
         "adm1Psgc": 1000000000,
         "adm2Psgc": 1003500000
       }
@@ -7199,7 +7276,7 @@
   "1004300000": {
     "provincePsgc": 1004300000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1004300000.0.001.json",
-    "featureCount": 25,
+    "featureCount": 26,
     "municipalities": [
       {
         "psgc": 1004301000,
@@ -7226,10 +7303,11 @@
         "adm2Psgc": 1004300000
       },
       {
-        "psgc": 1004306000,
-        "name": "Claveria",
-        "adm1Psgc": 1000000000,
-        "adm2Psgc": 1004300000
+        "psgc": 14305000,
+        "name": "Cagayan de Oro City",
+        "adm1Psgc": 10000000,
+        "adm2Psgc": 1004300000,
+        "huc": true
       },
       {
         "psgc": 1004307000,
@@ -7240,6 +7318,12 @@
       {
         "psgc": 1004308000,
         "name": "City of Gingoog",
+        "adm1Psgc": 1000000000,
+        "adm2Psgc": 1004300000
+      },
+      {
+        "psgc": 1004306000,
+        "name": "Claveria",
         "adm1Psgc": 1000000000,
         "adm2Psgc": 1004300000
       },
@@ -7429,7 +7513,7 @@
   "1102400000": {
     "provincePsgc": 1102400000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1102400000.0.001.json",
-    "featureCount": 11,
+    "featureCount": 12,
     "municipalities": [
       {
         "psgc": 1102401000,
@@ -7438,10 +7522,23 @@
         "adm2Psgc": 1102400000
       },
       {
+        "psgc": 1130700000,
+        "name": "City of Davao",
+        "adm1Psgc": 1100000000,
+        "adm2Psgc": 1102400000
+      },
+      {
         "psgc": 1102403000,
         "name": "City of Digos",
         "adm1Psgc": 1100000000,
         "adm2Psgc": 1102400000
+      },
+      {
+        "psgc": 112402000,
+        "name": "Davao City",
+        "adm1Psgc": 110000000,
+        "adm2Psgc": 1102400000,
+        "huc": true
       },
       {
         "psgc": 1102404000,
@@ -7488,12 +7585,6 @@
       {
         "psgc": 1102414000,
         "name": "Sulop",
-        "adm1Psgc": 1100000000,
-        "adm2Psgc": 1102400000
-      },
-      {
-        "psgc": 1130700000,
-        "name": "City of Davao",
         "adm1Psgc": 1100000000,
         "adm2Psgc": 1102400000
       }
@@ -7800,7 +7891,7 @@
   "1206300000": {
     "provincePsgc": 1206300000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1206300000.0.001.json",
-    "featureCount": 11,
+    "featureCount": 12,
     "municipalities": [
       {
         "psgc": 1206302000,
@@ -7811,6 +7902,19 @@
       {
         "psgc": 1206306000,
         "name": "City of Koronadal",
+        "adm1Psgc": 1200000000,
+        "adm2Psgc": 1206300000
+      },
+      {
+        "psgc": 216303000,
+        "name": "General Santos City",
+        "adm1Psgc": 210000000,
+        "adm2Psgc": 1206300000,
+        "huc": true
+      },
+      {
+        "psgc": 1206319000,
+        "name": "Lake Sebu",
         "adm1Psgc": 1200000000,
         "adm2Psgc": 1206300000
       },
@@ -7827,8 +7931,20 @@
         "adm2Psgc": 1206300000
       },
       {
+        "psgc": 1206318000,
+        "name": "Santo Niño",
+        "adm1Psgc": 1200000000,
+        "adm2Psgc": 1206300000
+      },
+      {
         "psgc": 1206313000,
         "name": "Surallah",
+        "adm1Psgc": 1200000000,
+        "adm2Psgc": 1206300000
+      },
+      {
+        "psgc": 1206316000,
+        "name": "T'Boli",
         "adm1Psgc": 1200000000,
         "adm2Psgc": 1206300000
       },
@@ -7845,26 +7961,8 @@
         "adm2Psgc": 1206300000
       },
       {
-        "psgc": 1206316000,
-        "name": "T'Boli",
-        "adm1Psgc": 1200000000,
-        "adm2Psgc": 1206300000
-      },
-      {
         "psgc": 1206317000,
         "name": "Tupi",
-        "adm1Psgc": 1200000000,
-        "adm2Psgc": 1206300000
-      },
-      {
-        "psgc": 1206318000,
-        "name": "Santo Niño",
-        "adm1Psgc": 1200000000,
-        "adm2Psgc": 1206300000
-      },
-      {
-        "psgc": 1206319000,
-        "name": "Lake Sebu",
         "adm1Psgc": 1200000000,
         "adm2Psgc": 1206300000
       }
@@ -8300,13 +8398,20 @@
   "1401100000": {
     "provincePsgc": 1401100000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1401100000.0.001.json",
-    "featureCount": 13,
+    "featureCount": 14,
     "municipalities": [
       {
         "psgc": 1401101000,
         "name": "Atok",
         "adm1Psgc": 1400000000,
         "adm2Psgc": 1401100000
+      },
+      {
+        "psgc": 411102000,
+        "name": "Baguio City",
+        "adm1Psgc": 410000000,
+        "adm2Psgc": 1401100000,
+        "huc": true
       },
       {
         "psgc": 1401103000,
@@ -8629,7 +8734,7 @@
   "1600200000": {
     "provincePsgc": 1600200000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1600200000.0.001.json",
-    "featureCount": 11,
+    "featureCount": 12,
     "municipalities": [
       {
         "psgc": 1600201000,
@@ -8638,14 +8743,21 @@
         "adm2Psgc": 1600200000
       },
       {
-        "psgc": 1600203000,
-        "name": "City of Cabadbaran",
-        "adm1Psgc": 1600000000,
-        "adm2Psgc": 1600200000
+        "psgc": 610202000,
+        "name": "Butuan City",
+        "adm1Psgc": 610000000,
+        "adm2Psgc": 1600200000,
+        "huc": true
       },
       {
         "psgc": 1600204000,
         "name": "Carmen",
+        "adm1Psgc": 1600000000,
+        "adm2Psgc": 1600200000
+      },
+      {
+        "psgc": 1600203000,
+        "name": "City of Cabadbaran",
         "adm1Psgc": 1600000000,
         "adm2Psgc": 1600200000
       },
@@ -8680,6 +8792,12 @@
         "adm2Psgc": 1600200000
       },
       {
+        "psgc": 1600212000,
+        "name": "Remedios T. Romualdez",
+        "adm1Psgc": 1600000000,
+        "adm2Psgc": 1600200000
+      },
+      {
         "psgc": 1600210000,
         "name": "Santiago",
         "adm1Psgc": 1600000000,
@@ -8688,12 +8806,6 @@
       {
         "psgc": 1600211000,
         "name": "Tubay",
-        "adm1Psgc": 1600000000,
-        "adm2Psgc": 1600200000
-      },
-      {
-        "psgc": 1600212000,
-        "name": "Remedios T. Romualdez",
         "adm1Psgc": 1600000000,
         "adm2Psgc": 1600200000
       }
@@ -9309,7 +9421,7 @@
   "1705300000": {
     "provincePsgc": 1705300000,
     "file": "data/raw/philippines-json-maps/2023/geojson/provdists/lowres/municities-provdist-1705300000.0.001.json",
-    "featureCount": 23,
+    "featureCount": 24,
     "municipalities": [
       {
         "psgc": 1705301000,
@@ -9366,6 +9478,12 @@
         "adm2Psgc": 1705300000
       },
       {
+        "psgc": 1705322000,
+        "name": "Culion",
+        "adm1Psgc": 1700000000,
+        "adm2Psgc": 1705300000
+      },
+      {
         "psgc": 1705310000,
         "name": "Cuyo",
         "adm1Psgc": 1700000000,
@@ -9380,6 +9498,12 @@
       {
         "psgc": 1705312000,
         "name": "El Nido",
+        "adm1Psgc": 1700000000,
+        "adm2Psgc": 1705300000
+      },
+      {
+        "psgc": 1705321000,
+        "name": "Kalayaan",
         "adm1Psgc": 1700000000,
         "adm2Psgc": 1705300000
       },
@@ -9402,8 +9526,21 @@
         "adm2Psgc": 1705300000
       },
       {
+        "psgc": 715316000,
+        "name": "Puerto Princesa City",
+        "adm1Psgc": 710000000,
+        "adm2Psgc": 1705300000,
+        "huc": true
+      },
+      {
         "psgc": 1705317000,
         "name": "Quezon",
+        "adm1Psgc": 1700000000,
+        "adm2Psgc": 1705300000
+      },
+      {
+        "psgc": 1705323000,
+        "name": "Rizal",
         "adm1Psgc": 1700000000,
         "adm2Psgc": 1705300000
       },
@@ -9420,32 +9557,14 @@
         "adm2Psgc": 1705300000
       },
       {
-        "psgc": 1705320000,
-        "name": "Taytay",
-        "adm1Psgc": 1700000000,
-        "adm2Psgc": 1705300000
-      },
-      {
-        "psgc": 1705321000,
-        "name": "Kalayaan",
-        "adm1Psgc": 1700000000,
-        "adm2Psgc": 1705300000
-      },
-      {
-        "psgc": 1705322000,
-        "name": "Culion",
-        "adm1Psgc": 1700000000,
-        "adm2Psgc": 1705300000
-      },
-      {
-        "psgc": 1705323000,
-        "name": "Rizal",
-        "adm1Psgc": 1700000000,
-        "adm2Psgc": 1705300000
-      },
-      {
         "psgc": 1705324000,
         "name": "Sofronio Española",
+        "adm1Psgc": 1700000000,
+        "adm2Psgc": 1705300000
+      },
+      {
+        "psgc": 1705320000,
+        "name": "Taytay",
         "adm1Psgc": 1700000000,
         "adm2Psgc": 1705300000
       }

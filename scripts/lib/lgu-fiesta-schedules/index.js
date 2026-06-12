@@ -8,10 +8,16 @@ import { fileURLToPath } from "url";
 import { SIARGAO_FIESTA_TEXT } from "./siargao-text.js";
 import { GMA_FIESTA_TEXT } from "./gma-text.js";
 import { BILIRAN_APRIL_TEXT } from "./biliran-april-text.js";
-import { parseBiliranMayBlock, parseGmaFiestaBlock } from "./parse-schedule.js";
+import { BAYAWAN_FIESTA_TEXT } from "./bayawan-text.js";
+import { PINAMUNGAHAN_FIESTA_ENTRIES } from "./pinamungahan-text.js";
+import { MACABEBE_FIESTA_ENTRIES } from "./macabebe-text.js";
+import { parseDateFromRaw } from "../date-parser.js";
+import { CABATUAN_FIESTA_SCHEDULE, CABATUAN_BARANGAY_ALIASES } from "./cabatuan-text.js";
+import { parseBayawanFiestaBlock, parseBiliranMayBlock, parseGmaFiestaBlock } from "./parse-schedule.js";
 import {
   parseBiliranIslandDateLines,
   parseDagupanFiestaTable,
+  parseMagallanesFiestaTable,
   parseSiquijorFiestaTable,
 } from "./parse-html-schedules.js";
 
@@ -227,13 +233,30 @@ function resolveScheduleEntries(scheduleEntries) {
     }
     matched++;
     const key = String(psgc).padStart(9, "0");
-    byPsgc[key] = {
+    const next = {
       month: entry.month,
       dayStart: entry.dayStart,
       dayEnd: entry.dayEnd !== entry.dayStart ? entry.dayEnd : undefined,
       dateSource: entry.dateSource,
       patronSaint: entry.patronSaint,
+      fromSitio: Boolean(entry.fromSitio),
     };
+
+    const existing = byPsgc[key];
+    if (existing) {
+      if (next.fromSitio && !existing.fromSitio) continue;
+      if (!next.fromSitio && existing.fromSitio) {
+        byPsgc[key] = next;
+        continue;
+      }
+      if (next.fromSitio && existing.fromSitio) continue;
+    }
+
+    byPsgc[key] = next;
+  }
+
+  for (const key of Object.keys(byPsgc)) {
+    delete byPsgc[key].fromSitio;
   }
 
   return { byPsgc, matched, missed };
@@ -282,7 +305,47 @@ function loadEmbeddedHtmlSchedules() {
     };
   }
 
+  const magallanesPath = path.join(RAW_SCHEDULES, "magallanes-fiestas.html");
+  if (fs.existsSync(magallanesPath)) {
+    const entries = parseMagallanesFiestaTable(fs.readFileSync(magallanesPath, "utf8"));
+    const resolved = resolveScheduleEntries(entries);
+    Object.assign(byPsgc, resolved.byPsgc);
+    stats.magallanes = {
+      entries: entries.length,
+      matched: resolved.matched,
+      missed: resolved.missed,
+    };
+  }
+
   return { byPsgc, stats };
+}
+
+function mapCabatuanBarangay(name) {
+  const key = String(name ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return CABATUAN_BARANGAY_ALIASES[key] ?? name.trim();
+}
+
+function buildCabatuanFiestaEntries() {
+  const entries = [];
+  for (const row of CABATUAN_FIESTA_SCHEDULE) {
+    const parsed = parseDateFromRaw(row.date);
+    if (!parsed?.month || !parsed?.dayStart) continue;
+    entries.push({
+      month: parsed.month,
+      dayStart: parsed.dayStart,
+      dayEnd: parsed.dayEnd !== parsed.dayStart ? parsed.dayEnd : undefined,
+      barangay: mapCabatuanBarangay(row.barangay),
+      municipality: "Cabatuan",
+      dateSource: "lgu-cabatuan-parish",
+    });
+  }
+  return entries;
 }
 
 export function getLguBarangayFiestaDatesByPsgc() {
@@ -292,6 +355,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const biliranMayEntries = parseBiliranMayBlock(BILIRAN_MAY_TEXT);
   const biliranAprilEntries = parseBiliranIslandDateLines(BILIRAN_APRIL_TEXT);
   const gmaEntries = parseGmaFiestaBlock(GMA_FIESTA_TEXT);
+  const bayawanEntries = parseBayawanFiestaBlock(BAYAWAN_FIESTA_TEXT);
+  const pinamungahanEntries = PINAMUNGAHAN_FIESTA_ENTRIES.map((e) => ({
+    ...e,
+    dateSource: e.dateSource ?? "lgu-pinamungajan-gov-ph",
+  }));
+  const macabebeEntries = MACABEBE_FIESTA_ENTRIES.map((e) => ({
+    ...e,
+    dateSource: e.dateSource ?? "lgu-pampanga-tourism",
+  }));
+  const cabatuanEntries = buildCabatuanFiestaEntries();
   const wikiEntries = WIKIPEDIA_BARANGAY_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "wikipedia-festivals-ph",
@@ -301,6 +374,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const biliranMay = resolveScheduleEntries(biliranMayEntries);
   const biliranApril = resolveScheduleEntries(biliranAprilEntries);
   const gma = resolveScheduleEntries(gmaEntries);
+  const bayawan = resolveScheduleEntries(bayawanEntries);
+  const pinamungahan = resolveScheduleEntries(pinamungahanEntries);
+  const macabebe = resolveScheduleEntries(macabebeEntries);
+  const cabatuan = resolveScheduleEntries(cabatuanEntries);
   const wiki = resolveScheduleEntries(wikiEntries);
   const fetched = loadFetchedLguByPsgc();
   const embeddedHtml = loadEmbeddedHtmlSchedules();
@@ -311,6 +388,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...biliranMay.byPsgc,
       ...biliranApril.byPsgc,
       ...gma.byPsgc,
+      ...bayawan.byPsgc,
+      ...pinamungahan.byPsgc,
+      ...macabebe.byPsgc,
+      ...cabatuan.byPsgc,
       ...wiki.byPsgc,
       ...embeddedHtml.byPsgc,
       ...fetched.byPsgc,
@@ -332,6 +413,26 @@ export function getLguBarangayFiestaDatesByPsgc() {
         missed: biliranApril.missed,
       },
       gma: { entries: gmaEntries.length, matched: gma.matched, missed: gma.missed },
+      bayawan: {
+        entries: bayawanEntries.length,
+        matched: bayawan.matched,
+        missed: bayawan.missed,
+      },
+      pinamungahan: {
+        entries: pinamungahanEntries.length,
+        matched: pinamungahan.matched,
+        missed: pinamungahan.missed,
+      },
+      macabebe: {
+        entries: macabebeEntries.length,
+        matched: macabebe.matched,
+        missed: macabebe.missed,
+      },
+      cabatuan: {
+        entries: cabatuanEntries.length,
+        matched: cabatuan.matched,
+        missed: cabatuan.missed,
+      },
       wikipedia: { entries: wikiEntries.length, matched: wiki.matched, missed: wiki.missed },
       embeddedHtml: embeddedHtml.stats,
       fetchedOnline: fetched.stats,

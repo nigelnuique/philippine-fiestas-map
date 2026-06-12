@@ -54,9 +54,15 @@ npm run dev
 | `npm run data:fetch-festivals` | Fetch TPB calendar + seed festival data |
 | `npm run data:fetch-wikipedia-festivals` | Scrape Wikipedia festival list |
 | `npm run data:fetch-barangay-fiestas` | Extract barangay patron fiestas from PSGC |
-| `npm run data:enrich-dates` | Online date enrichment via Wikipedia API |
+| `npm run data:fetch-lgu-barangay-schedules` | Scrape/cache LGU barangay fiesta schedules |
+| `npm run data:backfill-barangay-dates` | Apply LGU, Wikipedia, and patron-saint dates |
+| `npm run data:enrich-dates` | Online date enrichment for named festivals |
+| `npm run data:enrich-barangay-dates` | Wikipedia batch lookup for barangay feast dates |
 | `npm run data:build-barangay` | Build `barangay-fiestas.json` index |
 | `npm run data:build` | Build final `festivals.json` with PSGC joins |
+| `npm run data:analyze-missing-barangays` | Report municipalities missing barangay GeoJSON |
+| `npm run check:go-live` | Pre-deploy sanity checks |
+| `npm run check:e2e` | Map interaction smoke test (Playwright) |
 
 See [docs/data-pipeline.md](docs/data-pipeline.md) for full pipeline details.
 
@@ -75,7 +81,7 @@ See [docs/data-pipeline.md](docs/data-pipeline.md) for full pipeline details.
 philippine-fiestas-map/
 ├── data/
 │   ├── processed/          # Built datasets (tracked in git)
-│   │   ├── boundaries/     # manifest, municipality/barangay indexes, HUC patches
+│   │   ├── boundaries/     # manifest, indexes, HUC city + barangay patches
 │   │   └── festivals/      # festivals.json, barangay-fiestas.json
 │   ├── raw/                # Cloned source repos (gitignored)
 │   └── schema/             # JSON schemas
@@ -111,7 +117,7 @@ Country → Region (17) → Province (~88) → Municipality/City (~1,600) → Ba
 
 Polygons use philippines-json-maps PSGC property names (`adm1_psgc` … `adm4_psgc`). Festival records are joined to municipality PSGC codes; barangay fiestas use PSA codes converted via `psaToAdm()`.
 
-**Coverage notes:** Barangay polygons exist for ~1,640 municipalities. HUC cities and Manila have gaps in barangay boundary data. See [docs/data-pipeline.md#known-gaps](docs/data-pipeline.md#known-gaps).
+**Coverage notes:** Barangay polygons exist for ~1,640 municipalities plus 33 HUC cities (altcoder patches). A few HUC barangays and Manila still have gaps. See [docs/data-pipeline.md#known-gaps](docs/data-pipeline.md#known-gaps).
 
 ## Roadmap
 
@@ -122,7 +128,8 @@ Polygons use philippines-json-maps PSGC property names (`adm1_psgc` … `adm4_ps
 - [x] Barangay patron fiesta stubs from PSGC (~42k)
 - [ ] Calendar view (date filter on same dataset)
 - [ ] Barangay feast dates and patron saint names (crowdsource / parish records)
-- [ ] Barangay polygons for HUC cities and Manila
+- [x] Barangay polygons for HUC cities (altcoder ADM4 patches; ~95% coverage)
+- [ ] Manila municipality polygon + remaining unmatched HUC barangays
 
 ## License
 

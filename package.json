@@ -1,0 +1,24 @@
+{
+  "name": "philippine-fiestas-map",
+  "version": "0.1.0",
+  "description": "Exhaustive zoomable map of Philippine fiestas and festivals",
+  "type": "module",
+  "scripts": {
+    "data:fetch-boundaries": "node scripts/fetch-boundaries.js",
+    "data:fetch-psgc": "node scripts/fetch-psgc.js",
+    "data:fetch-festivals": "node scripts/fetch-festivals.js",
+    "data:build": "node scripts/build-dataset.js",
+    "data:all": "npm run data:fetch-boundaries && npm run data:fetch-psgc && npm run data:fetch-festivals && npm run data:build"
+  },
+  "keywords": [
+    "philippines",
+    "fiesta",
+    "festival",
+    "map",
+    "psgc"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

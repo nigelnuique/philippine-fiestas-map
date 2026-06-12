@@ -1,0 +1,1362 @@
+{
+  "generatedAt": "2026-06-12T09:21:11.060Z",
+  "sources": [
+    {
+      "id": "tpb",
+      "name": "Tourism Promotions Board",
+      "url": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+    },
+    {
+      "id": "seed",
+      "name": "Curated major festivals",
+      "url": null
+    }
+  ],
+  "counts": {
+    "tpb": 118,
+    "seed": 12,
+    "total": 130
+  },
+  "festivals": {
+    "tpb": [
+      {
+        "id": "tpb-fiesta-tsinoy",
+        "name": "Fiesta Tsinoy",
+        "month": 1,
+        "dateVenueRaw": "January 26 Legazpi City",
+        "locationText": "January 26 Legazpi City",
+        "description": "A Chinese New Year celebration participated by the Filipino-Chinese community (Albay Chapter) featuring various activities i.e., Dragon/Lion Dance, Chinese Cultural Program, ancestral veneration within a mass, among others.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kuyamis-festival",
+        "name": "Kuyamis Festival",
+        "month": 1,
+        "dateVenueRaw": "January 6-11 Provincial Capitol ground, MIs. Or.",
+        "locationText": "January 6-11 Provincial Capitol ground, MIs. Or.",
+        "description": "Kuyamis Festival is the grandest festival in Misamis Oriental, gathering all its towns & cities in Cagayan de Oro City for a week-long non-stop merrymaking. One of the activities that highlight the event is the Kuyamis Festival Street Dancing . It is an annual festivity of thanksgiving and acknowledgment to the customs of the “lumads” who thrived in Misamis with a variety of sweet coconuts as their best food stuff.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-diyandi-festival",
+        "name": "Diyandi Festival",
+        "month": 1,
+        "dateVenueRaw": "3rd Monday of January Balingasag, Misamis Oriental",
+        "locationText": "rd Monday of January Balingasag, Misamis Oriental",
+        "description": "A celebration of songs, culture and heritage of the Higaonon Tribes of Balingasag.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-feast-of-the-black-nazarene",
+        "name": "Feast of the Black Nazarene",
+        "month": 1,
+        "dateVenueRaw": "January 9 Quiapo, Manila",
+        "locationText": "January 9 Quiapo, Manila",
+        "description": "This feast is celebrated at the heart of Manila- Quiapo. Devotees come from all over the metropolis to participate in this annual event honoring the hundred-year-old statue of the Black Nazarene.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pasalamat-festival",
+        "name": "Pasalamat Festival",
+        "month": 1,
+        "dateVenueRaw": "3rd Week of January Pagadian City",
+        "locationText": "rd Week of January Pagadian City",
+        "description": "Celebrated annually every 3rd Sunday of January in honor of Sr. Santo Nino and in commemoration of the arrival of the saint’s image in the Philippines and in the City of Pagadian. The Catholic Church spearheads re­ enacbnent on the arrival of the Sto. Nino image through procession. Pasalamat Festival is highlighted with a fluvial parade (regatta), trade exhibits. the Mutya ng Pagadian beauty pageant, carnival shows as well a a civic military parade.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sinulog-festival",
+        "name": "Sinulog Festival",
+        "month": 1,
+        "dateVenueRaw": "15 January or every second Sunday of January Cebu City",
+        "locationText": "January or every second Sunday of January Cebu City",
+        "description": "This is an annual festival held in Cebu, which commences nine days before the third Sunday of January.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-ati-atihan-festival",
+        "name": "Ati – Atihan Festival",
+        "month": 1,
+        "dateVenueRaw": "3rd Sunday of January Kalibo, Aklan",
+        "locationText": "rd Sunday of January Kalibo, Aklan",
+        "description": "This is an ancient tradition that celebrates the people of Aklan with indigenous origins, eventually honoring the Infant Jesus, Señor Santo Niño. Today, the Ati-Atihan is observed in modern times as a festival dedicated to the Child Jesus. The term “Ati-Atihan” means “merry-making like the Ati,” referring to becoming like the aboriginal natives who are considered the first inhabitants of Aklan and the entire Western Visayas region. Participants smear themselves with soot to darken their skin and dress in tribal finery, complete with the festival’s iconic tasseled headdresses. The procession begins with the vibrant beat of drums and prominent whistles, later punctuated by energetic shouts of “Hala Bira!” followed by “Viva kay Señor Santo Niño!”",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-the-dinagyang-festival",
+        "name": "The Dinagyang Festival",
+        "month": 1,
+        "dateVenueRaw": "4th Sunday of January Iloilo",
+        "locationText": "th Sunday of January Iloilo",
+        "description": "Dinagyang is a Hiligaynon word extrapolated from dagyang meaning “merrymaking” It celebrates the feast of the Infant Jesus and the pact between the Datus and the locals.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-karanowan-fish-tival",
+        "name": "Karanowan Fish-Tival",
+        "month": 2,
+        "dateVenueRaw": "February 15 Balo, Camarines Sur",
+        "locationText": "February 15 Balo, Camarines Sur",
+        "description": "In appreciation of the beautiful God- given nature, the Karonawan Fish-Tival is a celebration of the beauty and bounty of Bato in order to inject and instill the importance of preserving and conserving the these natural resources as major sources of food and as potential tourist attractions.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-cagsawa-festival",
+        "name": "Cagsawa Festival",
+        "month": 2,
+        "dateVenueRaw": "February 1-28, Daraga, Albay",
+        "locationText": "February 1-28, Daraga, Albay",
+        "description": "The festival commemorates the 1814 catastrophic eruption of Mayon Volcano which buried the Cagsawa church and hundreds of people. To date, the Cagsawa Ruins Park which is one of the popular atractions in Bicol became the center of activities of the week-Iona festivitv.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-national-arts-month-bikol-arts-festival-nam-baf",
+        "name": "National Arts Month: Bikol Arts Festival (NAM:BAF)",
+        "month": 2,
+        "dateVenueRaw": "February 1-28 Legazpi City",
+        "locationText": "February 1-28 Legazpi City",
+        "description": "A month long festival showcasing the region’s arts and culture, crafts and agro-industrial products of the different provinces and cities of the region. It coincides with the celebration of the National Arts Month. Various activities are lined up which include Festival parade, Essay Writing and Poster Making Contest. Laro ng Lahi, Fashion Show, etc.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-festival-of-lights-tangub-city-charter-day",
+        "name": "Festival of Lights Tangub City Charter Day",
+        "month": 2,
+        "dateVenueRaw": "February 29 - CANCELLED Tangub City",
+        "locationText": "February 29 - CANCELLED Tangub City",
+        "description": "A spectacular show of dancing lights is showcased through mass performances of elementary and high school students. Float and arch contests are also held during this time which is participated both by the government and the private sector.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-nangkaan-festival",
+        "name": "Nangkaan Festival",
+        "month": 2,
+        "dateVenueRaw": "February 27 - CANCELLED Maigo , Lanao del Norte",
+        "locationText": "February 27 - CANCELLED Maigo , Lanao del Norte",
+        "description": "Celebration of Lanao’s abundance in the Municipality of Maigo through street dancing competition with aqua and agro fair. The search for Ms. Maigo and fashion show using langka is the highlight for promotion of the area.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sunggod-ta-kamanga",
+        "name": "Sunggod Ta KaManga",
+        "month": 2,
+        "dateVenueRaw": "February 18-19 Doña Ressing Park, Quezon Bukidnon",
+        "locationText": "February 18-19 Doña Ressing Park, Quezon Bukidnon",
+        "description": "Sunggod Ta Kamanga” is a celebration of Manobo culture. It is a tradition of lumads in preparation of farm activities and farm implements. Live chicken and pig are sacrificed. Their blood spread on farm tools and asking the “Mambabaya’ (GOD) for the safety and for the abundant harvest through rituals. A series of activities highlighted by the street dancing and tableau competition, Paratuan Ritual (installation of New Ethnic Leader), Padtungan ta Kasal Ritual ( A tribal Wedding Ceremony). Tribal people from the Manobo Pulangihon and Manobo Matigsalog of the rich and progressive first-class Municipality of Quezon in the province of Bukidnon were joined by the convergence of over a thousand visitors, spectators, and tourists.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-patunob-festival",
+        "name": "Patunob Festival",
+        "month": 2,
+        "dateVenueRaw": "February 9 Binuangan, Misamis Oriental",
+        "locationText": "February 9 Binuangan, Misamis Oriental",
+        "description": "A popular religious festival where devotees flock to the shrine of Birhen sa Lourdes to light candles to renew their vows and ask for petitions and blessings. Part of the festival are procession, parade, cultural show, and trade fair. Patunob sa Birhen sa Lourdes is a ritual of healing officiated by women healer devotees of Binuangan. To add, Patunob is a Visayan word for “to be stepped on”. It is a rite where the image of the Blessed Virgin is lightly placed on the person’s shoulders & head.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sibug-sibug-festival-and-founding-anniversary-of-zamboanga-sibugay-province",
+        "name": "Sibug-Sibug Festival and Founding Anniversary of Zamboanga Sibugay Province",
+        "month": 2,
+        "dateVenueRaw": "February 18-25 Province of Zamboanga Sibugay",
+        "locationText": "February 18-25 Province of Zamboanga Sibugay",
+        "description": "A weeklong celebration of Sibugaynon (people of Zamboanga Sibugay) is a commemoration of its founding day as a Province. Sibug – Sibug Festival is celebrated every February with its highlight fixed on February 26. During the event, the streets are decked with colorful buntings and filled with throng of onlookers waiting for the colorful street dancing depicting wedding and healing rituals, way of life of indigenous people groups, and themes to communicate advocacies.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-seafoods-festival",
+        "name": "Seafoods Festival",
+        "month": 2,
+        "dateVenueRaw": "February Taguilon, Dapitan City",
+        "locationText": "February Taguilon, Dapitan City",
+        "description": "Kagang is a crab specie common to seven (7) coastal barangays of Dapitan comprising Taguillon, Banbanan, Carang & Baylimango. Kagang Festival started way back February 2014 and is celebrated annually since then. The festival features the traditional way of cooking kagang which will be offered for visitor experience. The event was organized to revive the waning interest and preserve authentic and traditional flavorful dishes where kagang is the main ingredient.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-mahaguyog-festival",
+        "name": "Mahaguyog Festival",
+        "month": 2,
+        "dateVenueRaw": "February 27 - March 07 Sto. Tomas, Batangas",
+        "locationText": "February 27 - March 07 Sto. Tomas, Batangas",
+        "description": "A week – long celebration of the MAHAGUYOG Festival, characterized by street parades, pageantry, and a lot of merry – making. It is an annual festival every Saturday of February as a prelude to the feast day of St. Thomas of Aquinas, the town’s Patron Saint, as a gesture of gratitude and a way of thanksgiving of the farmers for the bountiful harvest of crops they reap the whole-year-round. It also supports the One-Town, One-Product (OTOP) program of the National Government that promotes livelihood and entrepreneurship through agri-tourism.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-ligao-sunflower-festival",
+        "name": "Ligao Sunflower Festival",
+        "month": 3,
+        "dateVenueRaw": "March 24 Ligao City",
+        "locationText": "March 24 Ligao City",
+        "description": "A festivity which commemorates the Cityhood anniversary of Ligao. It is highlighted streetdancing showcasing the colorful sunflowers where it abundantly grows along the Kawa-Kawa Natural Park.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-alimango-festival",
+        "name": "Alimango Festival",
+        "month": 3,
+        "dateVenueRaw": "March 22 Lala, Lanao del Norte",
+        "locationText": "March 22 Lala, Lanao del Norte",
+        "description": "An annual celebration that highlights the abundance of Crabs in the Municipality of Lala. Activities include a crab/ocean themed grand street dancing parade, crab races, biggest crab contest and an agri-trade fair",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-unesco-iti-world-theater-week",
+        "name": "UNESCO-ITI World Theater Week",
+        "month": 3,
+        "dateVenueRaw": "March 21 - 27",
+        "locationText": "March 21 - 27",
+        "description": "World Theatre Week is an occasion for theatre artists of varied disciplines in performance and media arts to celebrate the power of Theatre to bring people together and an opportunity to share with audiences the wealth of each country’s heritage, history, habitat, theatrical traditions and expertise modeling cultural caregiving for marginalized sectors and disadvantaged youth exemplified in the Philippine program of the Earthsavers Dreams Ensemble honored as UNESCO Artists for Peace;",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-island-garden-city-of-samal-festival",
+        "name": "Island Garden City of Samal Festival",
+        "month": 3,
+        "dateVenueRaw": "First Week of March",
+        "locationText": "First Week of March",
+        "description": "This is a week-long celebration of Samal’s founding anniversary held every first week of March.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-anibina-bulawanun-festival",
+        "name": "Anibina Bulawanun Festival",
+        "month": 3,
+        "dateVenueRaw": "March 8 Compostela Valley Province",
+        "locationText": "March 8 Compostela Valley Province",
+        "description": "This is an eight-day multi-themed annual festival that culminates on the province’s foundation day, March 8. It is a colorful and joyful celebration of the province’s rich agricultural harvests, abundant mineral resources, governance’s feats, trade and tourism fair, and a showcasing of the people’s culture and traditions. The Al-law Ng Kalomonan (Tribal Day) falls on the 7th day of Anibina.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-holy-week",
+        "name": "Holy Week",
+        "month": 3,
+        "dateVenueRaw": "March-April",
+        "locationText": "March-April",
+        "description": "This is a week-long event honoring Jesus Christ’s death on the Cross.&nbsp; The Palm Sunday is held on the fifth Sunday of Lent where churchgoers bring palm and leaves to re-enact the arrival of Jesus Christ in Jerusalem.&nbsp; Holy Thursday is held with a Visitaa Iglesia where Catholics visit at least 7 churches. A “Pasyon” or narration of Christ’s life through singing is held; On Good Friday, believers re-enact the sufferings and death of Christ on the Cross. Easter Sunday is highlighted by “Salubong” or dawn processions held in various parts of the country.*",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-moriones",
+        "name": "Moriones",
+        "month": 3,
+        "dateVenueRaw": "Holy Week Marinduque",
+        "locationText": "Holy Week Marinduque",
+        "description": "Witness Marinduque’s captivating Moryonan! Widely known as Moriones, this centuries-old Holy Week tradition comes alive with elaborate Roman centurion costumes and penitential reenactments, culminating in the miraculous healing and conversion of Longinus.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-centurion-festival",
+        "name": "Centurion Festival",
+        "month": 3,
+        "dateVenueRaw": "Holy Week General Luna, Quezon",
+        "locationText": "Holy Week General Luna, Quezon",
+        "description": "This is believed to be the origin of Marinduque’s Moriones Festival and is as colorful.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-ang-pagtaltal",
+        "name": "Ang Pagtaltal",
+        "month": 3,
+        "dateVenueRaw": "Good Friday Jordan, Guimaras",
+        "locationText": "Good Friday Jordan, Guimaras",
+        "description": "This is a procession of flagellants and devotees in biblical attire that ends in the Balaan Bukid Shrine.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pangalap-ritual",
+        "name": "Pangalap Ritual",
+        "month": 3,
+        "dateVenueRaw": "Good Friday Nueva Valencia",
+        "locationText": "Good Friday Nueva Valencia",
+        "description": "This is a ritual where believers crawl through the Catilaran cave chanting prayers in the hope of gaining supernatural powers to ward off evil spirits.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-isla-carahan-festival",
+        "name": "Isla Carahan Festival",
+        "month": 4,
+        "dateVenueRaw": "April 30 - May 8 Caramoan, Camarines Sur",
+        "locationText": "April 30 - May 8 Caramoan, Camarines Sur",
+        "description": "A celebration of the beauty and bountry of Caramoan Island, highlighting its industrv and cultural heritage.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-alinao-festival",
+        "name": "Alinao Festival",
+        "month": 4,
+        "dateVenueRaw": "April 27 - May 8 Malinao, Albay",
+        "locationText": "April 27 - May 8 Malinao, Albay",
+        "description": "A festival which aims to feature the customs, traditions and cultural arts of Malinaonons, the highlight of which is the Street Dancing Competition.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-mananap-festival",
+        "name": "Mananap Festival",
+        "month": 4,
+        "dateVenueRaw": "April 23 - 29 San Vicente, Camarines Norte",
+        "locationText": "April 23 - 29 San Vicente, Camarines Norte",
+        "description": "One of the most awaited event in the province of Camarines Norte which promotes local culture and tourism in the municipality of San Vicente,",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-rodeo-festival",
+        "name": "Rodeo Festival",
+        "month": 4,
+        "dateVenueRaw": "April 9 - 13 Masbate",
+        "locationText": "April 9 - 13 Masbate",
+        "description": "Hold on to your horses, caballeros, its rodeo time in Masbate once again! Feel the excitement as our local cowboys pit their brains against bovine brawn in western style rodeo events like bull riding and steer wrestling, apart from our local games like the good old carabao race. So put on them boots and saddle up – its gonna be a rope-slingin’, dist- kickin’, cowpunchin’ affair.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-bantayog-festival",
+        "name": "Bantayog Festival",
+        "month": 4,
+        "dateVenueRaw": "April 2 - May 6 Camarines Norte",
+        "locationText": "April 2 - May 6 Camarines Norte",
+        "description": "As the term suggests, Bantayog festival features the storied First Rizal Monument Por ·unang Bantayog ni Dr. Jose Rizal” which is the centerpiece of the celebration. It is held in conjunction with the province foundation anniversary.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-hugyaw-sa-kadagatan",
+        "name": "Hugyaw Sa Kadagatan",
+        "month": 4,
+        "dateVenueRaw": "April 24 Kauswagan, Lanao del Norte",
+        "locationText": "April 24 Kauswagan, Lanao del Norte",
+        "description": "Thanksgiving for the bountiful harvest in line with the Municipality’s foundation day and fiesta which highlight a fluvial parade participated by different barangays in the area.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-panaad",
+        "name": "Panaad",
+        "month": 4,
+        "dateVenueRaw": "April 07 - 10 Camiguin Island",
+        "locationText": "April 07 - 10 Camiguin Island",
+        "description": "During the Holy Week, devotees journey to Camiguin island and hike around the 64 km circumferential road as form of sacrifice either in fulfilment of a vow or as penance of sins. Masses, Catholic rites and rituals, Stations of the Cross in the Old Vulcan hill are regular activities during this season.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sakayan-festival",
+        "name": "Sakayan Festival",
+        "month": 4,
+        "dateVenueRaw": "April 25, 2020 lsabela City, Basilan",
+        "locationText": "April 25, 2020 lsabela City, Basilan",
+        "description": "‘Sakayan’ is the local term for small boat with outrigger used for fishing. With fishing as the primary means of livelihood sakayan’ is symbol of the humble lifestyle of fisherfolks who rely on the generosity of the seas where they draw their sustenance from the sale of their daily marine harvest. The newest festival in the region, it is celebrated with dances accompanied by the rhythmic sounds of drums and kulintangan, a musical instrument of the Muslims.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-turumba",
+        "name": "Turumba",
+        "month": 4,
+        "dateVenueRaw": "April Pakil, Laguna",
+        "locationText": "April Pakil, Laguna",
+        "description": "This is a seven-day feast in honor of our lady of sorrows highlighted by a procession and a dance (to the beat of a turumba song).",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-lami-lamihan-festival",
+        "name": "Lami-Lamihan Festival",
+        "month": 4,
+        "dateVenueRaw": "April 14 to 16 Basilan",
+        "locationText": "April 14 to 16 Basilan",
+        "description": "Began in 1983 by former mayor Wilfrido Furigay, the festival showcases the rich Yakan traditions. This is highlighted by a parade and a horse race.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-abaca-festival",
+        "name": "Abaca Festival",
+        "month": 5,
+        "dateVenueRaw": "May 27 - 31 Catanduanes",
+        "locationText": "May 27 - 31 Catanduanes",
+        "description": "Formally known as Catanduanes Abaka Festival, Abaca Festival showcases the life and resilient spirit of the Catandunganon and its culture, as well as the uniqueness and exoticness of the island and its people. It celebrates the fiber industry and its products, which is Catanduanes’ and Bicol’s main materials for its handicrafts. Highlights of the festival include streetdance competition, float parade, trade fair, fashion show among others.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-layag-festival",
+        "name": "Layag Festival",
+        "month": 5,
+        "dateVenueRaw": "May 22 - 27 Rapu-Rapu, Albay",
+        "locationText": "May 22 - 27 Rapu-Rapu, Albay",
+        "description": "A week-long festivity coinciding with the feast of Our Lady of Penafrancia. The festival name was taken from a local world “layag· or sail boat which is a primitive means of transportation of the early people of Rapu-Rapu. It depicts the peoole’s journey of faith",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kaogma-festival",
+        "name": "Kaogma Festival",
+        "month": 5,
+        "dateVenueRaw": "May 21-27 Camarines Sur",
+        "locationText": "May 21-27 Camarines Sur",
+        "description": "A week-long celebration of the Foundation Anniversary of the province of Camarines Sur. The festival features numerous activities such as cultural expositions, sports events, beauty pageant, procession and Grand parade.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sarung-banggi-festival",
+        "name": "Sarung Banggi Festival",
+        "month": 5,
+        "dateVenueRaw": "May 19 - 27 Sto. Domingo, Albay",
+        "locationText": "May 19 - 27 Sto. Domingo, Albay",
+        "description": "Celebrating the crystal anniversary of the Sarung Banggi Festival this year, this colorful and igniting festivity commemorates the birth of the composer of the immortal love song Sarung Banggi, Potenciano V. Gregorio. It is known for the annual Parade of the Dancing lights where every barangay showcases impressive interpretation of the song, Sarung Banggi. Contingents parade their dazzling cultural presentations along with their Spanish era portrayed costumes downtown after twilight. Another main event is the Potenciano wanna-be composers competition.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pasa-pasa-festival",
+        "name": "Pasa Pasa Festival",
+        "month": 5,
+        "dateVenueRaw": "May 18 - 26 Monreal, Masbate",
+        "locationText": "May 18 - 26 Monreal, Masbate",
+        "description": "Held in time for the town fiesta celebration, the festival focus on the advocacy of the LGU in the protection and preservation of its rich natural resources including the manta rays as well as in the promotion of ecotourism attractions in the area.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-butanding-festival",
+        "name": "Butanding Festival",
+        "month": 5,
+        "dateVenueRaw": "May 17 - 24 Donsol, Sorsogon",
+        "locationText": "May 17 - 24 Donsol, Sorsogon",
+        "description": "A festival which ushers the •Butanding” (Whaleshark) season and a thanksgiving for its blessings to the people of Donsol. Now that they are back, the festivity features regatta, fluvial parade with boats carrying colorful banners and giant images of the butanding along the Donsol River, a street parade of life-size images of the butandings on floats accompanied by barangay delegations. brass bands, drum and bugle corps, and festival street-dancing continQents.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-isla-rancho-festival",
+        "name": "Isla Rancho Festival",
+        "month": 5,
+        "dateVenueRaw": "May 12-17 San Pascual, Masbate",
+        "locationText": "May 12-17 San Pascual, Masbate",
+        "description": "A festival that portrays and reflects the place, people and heritage linking and tie-up semblance of inspiration and pride of the people of San Pascual working as one people towards community development",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-palong-festival",
+        "name": "Palong Festival",
+        "month": 5,
+        "dateVenueRaw": "May 11 - 13 Capalonga, Camarines Norte",
+        "locationText": "May 11 - 13 Capalonga, Camarines Norte",
+        "description": "Highlighted by a street dancing and agro-industrial fair which expresses local folk’s gratitude for their town’s name etymology and signifies the abundant presence of rooster available in the locality. Held also in celebration of their Black Nazarene’s Feast Day on Mav 13.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-alinsangan-bowa-bowahan-festival",
+        "name": "Alinsangan “Bowa-bowahan” Festival",
+        "month": 5,
+        "dateVenueRaw": "May 1 - 2 Nabua. Camarines Sur",
+        "locationText": "May 1 - 2 Nabua. Camarines Sur",
+        "description": "A colorful cultural festival of pagan origin, and is derived from the dialect “Alinsangan”, a word that describes the characteristics of the people living the in the early settlements. It is a festival showino fertilitv and thanksgiving.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-p-gsalabuk-festival",
+        "name": "P’gsalabuk Festival",
+        "month": 5,
+        "dateVenueRaw": "3rd Week of April to 4th Saturday of May Region IX",
+        "locationText": "rd Week of April to 4th Saturday of May Region IX",
+        "description": "P’GSALABUK is a Subanen term that means “togetherness”. It is a depiction and celebration of the peaceful unity and myriad interplay of culture of the bi-people -the Christians, Muslims, and ‘lumads’ (indigenous people groups) inhabiting the city. It is celebrated annually with pageantry and series of activities such as trade fairs and exhibits, conferences and competitions.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pili-festival",
+        "name": "Pili Festival",
+        "month": 6,
+        "dateVenueRaw": "Last week of June Sorsogon City",
+        "locationText": "Last week of June Sorsogon City",
+        "description": "The festival showcases Pili – an indigenous crop of the Bicol region, particularly abundant in Sorsogon. The festival aims to emphasize its importance, and heightens awareness of the pili’s various economic uses.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-naro-festival",
+        "name": "Naro Festival",
+        "month": 6,
+        "dateVenueRaw": "June 17 - 19 Dimasalang, Masbate",
+        "locationText": "June 17 - 19 Dimasalang, Masbate",
+        "description": "Commemorating the Dimasalang town’s founding anniversary, the festival’s highlight is the Street Dancing and showdown competition that will showcase the dance festival of every barangay in the municipality.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pulang-angui-festival",
+        "name": "Pulang-Angui Festival",
+        "month": 6,
+        "dateVenueRaw": "June 15 - 30 Polangui, Albay",
+        "locationText": "June 15 - 30 Polangui, Albay",
+        "description": "The festival was derived from its town’s legend “Pulang-Angui”, a vibrant captivating woman who love to wear red-colored dresses. It celebrates, and depicts the town’s rich and unique socio-cultural talents and qualities of its people, verdant ewco-tourism assests and distinct trade and delicacies of the place.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-tabak-festival",
+        "name": "Tabak Festival",
+        "month": 6,
+        "dateVenueRaw": "June 15 - 24 Tabaco City",
+        "locationText": "June 15 - 24 Tabaco City",
+        "description": "An annual commemoration of the City’s Founding Anniversary and the Feast of Saint John the Baptist, the City’s Patron Saint. It comprises various activities geared towards the preservation of Tabaco City’s rich cultural heritage. The Festival’s highlight is the Tabak Festival Street dancing.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pinyasan-festival",
+        "name": "Pinyasan Festival",
+        "month": 6,
+        "dateVenueRaw": "June 15 - 24 Daet, Cam. Norte",
+        "locationText": "June 15 - 24 Daet, Cam. Norte",
+        "description": "A colorful festival showcasing the province’ primary agri-product, the sweetest “queen• pineapple called Formosa. Featured are float exhibition, street dancing presentation, agro- industrial fair, talent/skills beauty competition and many more interesting activities.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-ginubat-festival",
+        "name": "Ginubat Festival",
+        "month": 6,
+        "dateVenueRaw": "June 11 - 12 Gubat, Sorsogon",
+        "locationText": "June 11 - 12 Gubat, Sorsogon",
+        "description": "A festival based on the roots of the town of which its name was derived. It features cultural street parade, exhibit, sail boat race, beauty pageant, fiesta celebration, etc.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pinangat-festival",
+        "name": "Pinangat Festival",
+        "month": 6,
+        "dateVenueRaw": "June 10 - 24 Camalig, Albay",
+        "locationText": "June 10 - 24 Camalig, Albay",
+        "description": "The town of Camalig is famous for Bicolanos culinary specialty – the laing or pinangat, hence, the celebration of the festival which also showcases the municipality’s rich cultural heritage. It is also held in conjunction with its town fiesta.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kamalig-festival",
+        "name": "Kamalig Festival",
+        "month": 6,
+        "dateVenueRaw": "June 5 - 13 Camaligan, Camarines Sur",
+        "locationText": "June 5 - 13 Camaligan, Camarines Sur",
+        "description": "An annual celebration of the foundation day and town fiesta of the Municipality of Camaligan, the highlight of which is the Kamalig Street Dance Competition",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-san-juan-sa-hibok-hibok-festival",
+        "name": "San Juan sa Hibok-Hibok Festival",
+        "month": 6,
+        "dateVenueRaw": "June 23-24 Province wide Camiguin",
+        "locationText": "June 23-24 Province wide Camiguin",
+        "description": "Held annually every June 24 to honor St. John the Baptist with fluvial procession, parade and water sports.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-lechonan-sa-baroy",
+        "name": "Lechonan sa Baroy",
+        "month": 6,
+        "dateVenueRaw": "June 10 Baroy, Lanao del Norte",
+        "locationText": "June 10 Baroy, Lanao del Norte",
+        "description": "A celebration of bounty of agricultural products with a grand parade of Lechon” – (roasted pig) in the town plaza ornamented with various farm products to showcase the areas rich harvest.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-libon-paroy-festival",
+        "name": "Libon Paroy Festival",
+        "month": 7,
+        "dateVenueRaw": "July 22 - 25 Libon, Albay",
+        "locationText": "July 22 - 25 Libon, Albay",
+        "description": "As the “rice granary of Albay”, the festival reflects on the town’s main source of living, “paroy” or rice. It features various activities including street parade, sports fest, and many more.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-lubid-festival",
+        "name": "Lubid Festival",
+        "month": 7,
+        "dateVenueRaw": "July 9 -16 Malilipot, Alba",
+        "locationText": "July 9 -16 Malilipot, Alba",
+        "description": "An occasion of merriment, excitement and reckoning the value of culture, tradition and potentials of Malilipot, The festival’s highlight is the Street Presentation and Exhibition (Sayaw Paralubid). The festival also coincides with the observance of the Feast of Mt. Cam1et that will bring out the spirit of Piety amidst the days of gaiety.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-magalleones-festival",
+        "name": "Magalleones Festival",
+        "month": 7,
+        "dateVenueRaw": "July 9 - 16 Magallanes, Sorsogon",
+        "locationText": "July 9 - 16 Magallanes, Sorsogon",
+        "description": "The festival depicts the reputation of the municipality as one of the shipbuilding capitals of the Bicol peninsula during the Spanish colonial period. The celebration honors its Patroness, Our Lady of Mt Cam1el and is highlighted by colorful street dance presentations.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-grand-kaliga-festival",
+        "name": "Grand Kaliga Festival",
+        "month": 7,
+        "dateVenueRaw": "July 23 Gingoog City",
+        "locationText": "July 23 Gingoog City",
+        "description": "This colorful and joyous festival of abundance and prosperity stems from the city’s Manobo and Higaonon roots, the culture and tradition through rituals and street dancing. A thanks giving celebration of the Higaonon, meaning “to thank god” for all the blessings, bountiful harvest, successful hunting, expedition, installation of new chieftain, birth of a child and any recoveries from hardships and sickness.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-subayan-keg-subanen-festival",
+        "name": "Subayan Keg Subanen Festival",
+        "month": 7,
+        "dateVenueRaw": "July 16 Ozamiz City",
+        "locationText": "July 16 Ozamiz City",
+        "description": "A street dancing and tableau competition which highlights the lifestyles of the Subanons as depicted in songs and dances, and other forms of simulated social expressions, participated by different private schools, 51 Barangays and government contingents using creative costumes and props. It commemorates the anniversary of Ozamiz becoming a chartered city in July 16, 1948. The date also coincides the “FEAST OF OUR LADY OF MT. CARMEL”, the second patroness of the city. It commemorates the anniversary of Ozamiz City becoming a chartered city in July 16, 1948.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-spring-festival",
+        "name": "Spring Festival",
+        "month": 7,
+        "dateVenueRaw": "July 1 Maramag, Bukidnon",
+        "locationText": "July 1 Maramag, Bukidnon",
+        "description": "A Festival to celebrate the bounty of springs “tuburan” in the area which serves as their major drive for tourism activity and staple income through different mountain resorts. The event is highlighted with a street dancing competition with their own renditions of the story, giving life to how a municipality’s bountiful springs are created participated by different barangays.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pagoda-festival",
+        "name": "Pagoda Festival",
+        "month": 7,
+        "dateVenueRaw": "July 4 - 7 Bocaue, Bulacan",
+        "locationText": "July 4 - 7 Bocaue, Bulacan",
+        "description": "In Bocaue, Bulacan, a feast is held in honor of the Holy Cross of Wawa found in the Bocaue River. The main attraction of the affair is the fluvial parade of the pagoda or decorated barge and colorful small boats.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sublian-sa-batangas",
+        "name": "Sublian sa Batangas",
+        "month": 7,
+        "dateVenueRaw": "July 23 Batangas City",
+        "locationText": "July 23 Batangas City",
+        "description": "This coincides with the Foundation Day of Batangas City. It revives the tradition of dancing the subli, which is indigenous to the province.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kinabayo-festival",
+        "name": "Kinabayo Festival",
+        "month": 7,
+        "dateVenueRaw": "July 23-27 Dapitan City, Zamboanga del Norte",
+        "locationText": "July 23-27 Dapitan City, Zamboanga del Norte",
+        "description": "Kinabayo is an annual observance of Dapitan City’s Fiesta in honor of Saint James “the Greater and the Moor Slayer”. Held every July, Sinug and Kinabayo have become a festivity. Sinug’ is purely veneration using San Francisco Leaves raised high, dancing through the rhythm of the gong or beating of drums as the throng of devotees brings the saint’s image to his chapel. On the other hand, Kinabayo is a unique dramatization of the triumph of the Catholic faith over Mohammedanism believed to have happened through the intercession of the saint in view of his apparition during the battles of Clavijo and Covadonga and the appearance of the Lady of the Pilar. Modernity has added more color to the festival with the allegorical dance drama presentation of the two events.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sinulog-de-tanjay-festival",
+        "name": "Sinulog de Tanjay Festival",
+        "month": 7,
+        "dateVenueRaw": "Last week Tanjay, Negros Oriental",
+        "locationText": "Last week Tanjay, Negros Oriental",
+        "description": "The celebration of the residents of Tanjay, Negros Oriental of this 10-day fiesta features the origin of the old sinulog culture. A parade is held showcasing the clothes locals wear, while the horsefighting presentation re-enacts the battle between the Spaniards and the Muslims.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-guinobatan-longganisa-festival",
+        "name": "Guinobatan Longganisa Festival",
+        "month": 8,
+        "dateVenueRaw": "August 5 - 15 Guinobatan, Albay",
+        "locationText": "August 5 - 15 Guinobatan, Albay",
+        "description": "A festival showcasing the cultural and natural heritage of the town, showcasing the unique and tasty longganisa products, with the event’s highlights to include the Street Dancing and the Culinaria Longganisa Cooking and Making Contest. Toe festival also coincides with the town fiesta celebration in honor of its Patroness, the Our Lady of Assumption.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-tig-aw-festival",
+        "name": "Tig-Aw Festival",
+        "month": 8,
+        "dateVenueRaw": "August 5 - 12 Tigaon, Camarines Sur",
+        "locationText": "August 5 - 12 Tigaon, Camarines Sur",
+        "description": "An annual celebration of thanksgiving in honor of the town’s Patroness, St. Clare of Assisi. Festival highlights include the Ylau-Raya Grand street Dancing Competition, Special Program in the Arts Dance and Musical Night, Tig-Aw Farmers’ Festival, among others",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-coron-festival",
+        "name": "Coron Festival",
+        "month": 8,
+        "dateVenueRaw": "August 5 - 13 Tiwi, Albay",
+        "locationText": "August 5 - 13 Tiwi, Albay",
+        "description": "A showcase of events highlighted by a street presentation participated in by the town’s different public and private schools and sectors gives a week-long of fun and merriment to visitors and local people. The religious package of devotion and prayer in honor of Albay’s patroness, Nuestra Seiiora de Salvacion (Our Lady of Salvation) is the peak event of the festival, colorfully drawing thousands of devotees and religious groups through a long maritime procession of different local sea vessels on the sea spray of the serene pacific ocean going to the quiet barangay of Joroan, the home of the miraculous image.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-mercedes-kadagatan-festival",
+        "name": "Mercedes Kadagatan Festival",
+        "month": 8,
+        "dateVenueRaw": "August 1 - 8 Mercedes, Camarines Norte",
+        "locationText": "August 1 - 8 Mercedes, Camarines Norte",
+        "description": "It is a fishermen’s celebration of thanksgiving for the blessing and bounty during the seafaring, fishing expedition and fish farming endeavors. The event is also a moment of retrospect and recognition of Mother Nature for having endowed Mercedes with a gift of vast fishery resources, magnificent shorelines and other aquatic potentials and the wise utilization and preservation of ecological balance for the attainment of environmental dignity and beauty.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-higalaay-festival",
+        "name": "Higalaay Festival",
+        "month": 8,
+        "dateVenueRaw": "Whole month of August Cagayan de Oro City",
+        "locationText": "Whole month of August Cagayan de Oro City",
+        "description": "Annual Fiesta Celebration, a week-long festivity filled with a series of colourful, culturally-rich and fun-filled core events that culminate every last week of August, the feast day of the city’s patron saint, St. Augustine. It has grown not only as the customary day of thanksgiving but also a rallying point for a campaign to promote Cagayan de Oro City and the surrounding areas globally as an investment and tourism destination.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kumbira-culinary-show-and-live-competitions",
+        "name": "KUMBIRA Culinary Show and Live Competitions",
+        "month": 8,
+        "dateVenueRaw": "August 19-21 Limketkai Atrium, Cagayan de Oro",
+        "locationText": "August 19-21 Limketkai Atrium, Cagayan de Oro",
+        "description": "A professional and Student culinary show and live competitions attracting a number of food enthusiasts all over the country. Considered as the longest running culinary event of the Philippines usually held at Limketkai Center Cagayan de Oro city.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pangapog-festival",
+        "name": "Pangapog Festival",
+        "month": 8,
+        "dateVenueRaw": "August 1 – 7 Samal Island, Davao",
+        "locationText": "August 1 – 7 Samal Island, Davao",
+        "description": "This is a thanksgiving festival for a bountiful harvest highlighting the culture of the Sama, the indigenous people of Samal, as shown in the indigenous sports, and other culture-based competitions.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pangasinan-bamboo-festival",
+        "name": "Pangasinan Bamboo Festival",
+        "month": 8,
+        "dateVenueRaw": "August 14 Calasiao and Sta. Barbara, Pangasinan",
+        "locationText": "August 14 Calasiao and Sta. Barbara, Pangasinan",
+        "description": "Pangasinan Bamboo Festival August 12 This is a festival showcasing bamboo products and includes bamboo planting and film exhibitions. Venue: Calasiao and Sta. Barbara, Pangasinan",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-mercedes-fishtival",
+        "name": "Mercedes FISHtival",
+        "month": 8,
+        "dateVenueRaw": "August 6-11 Mercedes, Camarines Norte",
+        "locationText": "August 6-11 Mercedes, Camarines Norte",
+        "description": "This is a thanksgiving festival by local fisherfolk for blessings received during seafaring, and fish-farming.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-ibalong-festival",
+        "name": "Ibalong Festival",
+        "month": 8,
+        "dateVenueRaw": "August 12 - 30 Legaspi City",
+        "locationText": "August 12 - 30 Legaspi City",
+        "description": "A festival depicting Bicol’s earty beginnings as portrayed by the characters in the epic – IBALONG. The name was the nomenclature of Bicol region. It showcases many supemeroes such as Handiong, Ballog, Bantong, among others. Highlight is the street presentation as well as the Mayon Triathlon participated by national and international triathletes and adventure enthusiasts.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-lapay-bantigue-dance-festival",
+        "name": "Lapay Bantigue Dance Festival",
+        "month": 9,
+        "dateVenueRaw": "September 28 Masbate City",
+        "locationText": "September 28 Masbate City",
+        "description": "It is a local dance art festival that originated from the graceful movements of hovering birds known as seagulls or the LAPAY, found abundant in Barangay Bantigue, Masbate. Flocks of lapay seagulls created a marvelous scenery and inspired the old folks to come up with a local folk dance, that since then has exited and has become an important aspect of the local culture of the people of Brgy. Banitgue and the entire Masbate.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-traslacion-penafrancia-festival",
+        "name": "Traslacion (Penafrancia Festival)",
+        "month": 9,
+        "dateVenueRaw": "September 13 Naga City",
+        "locationText": "September 13 Naga City",
+        "description": "Traslacion is the transfer of the Image of INA from the Basilica to Naga Cathedral, carried by hundreds of male devotees. It marks the start of festivity and the 9-day Novena Mass in honor of the Feast of the Our Lady of Penafrancia, Patroness of the Bicol Region.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-busig-on-festival",
+        "name": "Busig-On Festival",
+        "month": 9,
+        "dateVenueRaw": "September 7 - 9 Labo, Camarines Norte",
+        "locationText": "September 7 - 9 Labo, Camarines Norte",
+        "description": "A festival based on the epic Busig_on of Labo town, which exemplifies heroism and Bicolano values. The festival features the town’s distinct historical values and sentiments through talent and skills competitions featuring the town’s places of interest.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-diyandi-festival-sa-iligan",
+        "name": "Diyandi Festival sa Iligan",
+        "month": 9,
+        "dateVenueRaw": "September 27 Iligan City",
+        "locationText": "September 27 Iligan City",
+        "description": "Fiesta in honor of St. Michael the Archangel. Festivities include Miss Iligan, Street dancing and Tableu Competition, Ceremonial dance offering of the union of the Maranao men and Higa-onon women in marriage as well as the offering of their union and harvest to the patron saint.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-dahunog-sa-dipolog",
+        "name": "Dahunog sa Dipolog",
+        "month": 9,
+        "dateVenueRaw": "September 26- October 07 Dipolog City, Region IX",
+        "locationText": "September 26- October 07 Dipolog City, Region IX",
+        "description": "“Dahunog” is one of the most ceLebrated festivals in Dipolog where marching bands converge for a parade and compete by showcasing talents to produce the most thunderous, lively and entertaining musical revelry.’ Dahunog [da.ht.i.nug.}is a Cebuano word which means rumbling sound. During the event the city streets resonate with the sounds played by the bands specially the drums, thus the name of the festival.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-aurora-festival",
+        "name": "Aurora Festival",
+        "month": 9,
+        "dateVenueRaw": "last Sunday of August to first week of September Tanjay, Negros Oriental",
+        "locationText": "last Sunday of August to first week of September Tanjay, Negros Oriental",
+        "description": "The festival features evening novenas participated in by more than 40 clans, which culminate in a nocturnal fluvial procession at the Tanjay River.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-hin-ay-festival",
+        "name": "Hin-ay Festival",
+        "month": 9,
+        "dateVenueRaw": "September 1-29 Irosin, Sorsogon",
+        "locationText": "September 1-29 Irosin, Sorsogon",
+        "description": "This features a cultural show, trade fair, and a street dance depicting the archangels’ victory over the “Black” Angels.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-bicol-food-festival",
+        "name": "Bicol Food Festival",
+        "month": 9,
+        "dateVenueRaw": "September 1-30 Naga City",
+        "locationText": "September 1-30 Naga City",
+        "description": "This is a festival of Bicol cuisine: pinangat and laing, bicol Express, inolokan or tilmak, pecadillo and cocido.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sarakiki-festival",
+        "name": "Sarakiki Festival",
+        "month": 9,
+        "dateVenueRaw": "September 1-8 Calbayog City",
+        "locationText": "September 1-8 Calbayog City",
+        "description": "The festival features street dancers dressed as cocks swaying to the beat of ancient Samareño instruments.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-t-boli-tribal-festival",
+        "name": "T’boli Tribal Festival",
+        "month": 9,
+        "dateVenueRaw": "3rd week South Cotabato",
+        "locationText": "rd week South Cotabato",
+        "description": "This is a gathering of the major ethnolinguistic groups in the province together with representatives from Davao.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-catandungan",
+        "name": "Catandungan",
+        "month": 10,
+        "dateVenueRaw": "October 20 - 24 Catanduanes",
+        "locationText": "October 20 - 24 Catanduanes",
+        "description": "Celebration of the province’ anniversary and tribute to its founder. The festival’s major component is the International Surfing Competition at Puraran, Baras, Catanduanes.Other activities include: street dance “Pantomina”, beauty pageant, agro-industrial fair, grand parade. and surfing competition.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-rahugan-festival",
+        "name": "Rahugan Festival",
+        "month": 10,
+        "dateVenueRaw": "October 18 - 24 Basud, Camarines Norte",
+        "locationText": "October 18 - 24 Basud, Camarines Norte",
+        "description": "A festival showcasing the culture of Basud. The highlights include the Grand Rahugan ParadeBikol Floksong Singing Competition, among others.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-mambulawan-festival",
+        "name": "Mambulawan Festival",
+        "month": 10,
+        "dateVenueRaw": "October 6 - 7 Jose Panganiban, Camarines Norte",
+        "locationText": "October 6 - 7 Jose Panganiban, Camarines Norte",
+        "description": "Held to coincide with the Feast of the Our Lady of the Most Holy Rosary, the festival aims to forge unity and cooperation among the local community, promote culture and arts, which are all geared towards advancement and economic growth of the town.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-cimarrones-festival",
+        "name": "Cimarrones Festival",
+        "month": 10,
+        "dateVenueRaw": "October 1 - 26",
+        "locationText": "October 1 - 26",
+        "description": "A celebration held to coincide with the town fiesta. It features the town’s cultural heritage through the conduct of various activities which include Street Dancing, Cultural Presentation. Sports fest and many more.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-parau-festival",
+        "name": "Parau Festival",
+        "month": 10,
+        "dateVenueRaw": "October 1 - 12 Pilar, Sorsogon",
+        "locationText": "October 1 - 12 Pilar, Sorsogon",
+        "description": "A 12–day celebration done simultaneously with the Feast of Our Lady of the Pillar. It showcases the town’s cultural heritage and the growing aspirations of its people. During this event. families, relatives and friends get together, renew kinship and enjoy the festivities.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-unod-festival",
+        "name": "Unod Festival",
+        "month": 10,
+        "dateVenueRaw": "October 1 - 7 Castilla, Sorsogon",
+        "locationText": "October 1 - 7 Castilla, Sorsogon",
+        "description": "“Unod” Festival expresses thanksgiving of the people of Castilla, a celebration of the bountiful harvest of root crops of the town and the value of being industrious people.· The festival’s highlight is the street dancing competition.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kamgbegu-festival-fest-of-the-harvest",
+        "name": "Kamgbegu Festival (Fest of the Harvest)",
+        "month": 10,
+        "dateVenueRaw": "October15-16,2020 Lapuyan, Zamboanga del Sur (Municipal), Region IX",
+        "locationText": "October15-16,2020 Lapuyan, Zamboanga del Sur (Municipal), Region IX",
+        "description": "A festival celebrated by people of Duhaylungsod Lapuyan, Zamboanga del Sur who are well known for their peace-loving nature. Through the years, the Subanen’s main source of living is planting rice which is an important aspect of their culture. For the Subanen, harvest season is a time for merrymaking where they come together as one, family and friends, not only for the harvest but also sharing of bountiful blessing, singing, dancing, chanting and feasting altogether on home-made delicacies and ‘pangase’, a rice wine fermented through a traditional process kept and handed down through ancestral lines. The celebration happens every October in time for the harvest season.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-halaran",
+        "name": "Halaran",
+        "month": 10,
+        "dateVenueRaw": "1st week Roxas City",
+        "locationText": "st week Roxas City",
+        "description": "This festival highlights the performance of the history and culture of Capize&ntilde;os during pre-Hispanic times.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-universal-children-s-festival",
+        "name": "Universal Children’s Festival",
+        "month": 10,
+        "dateVenueRaw": "1st week Dapitan City",
+        "locationText": "st week Dapitan City",
+        "description": "The festival involves children of locals, dressed in costumes of UN member countries, parading around the city.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-masskara-festival",
+        "name": "Masskara Festival",
+        "month": 10,
+        "dateVenueRaw": "Masskara Festival Bacolod City",
+        "locationText": "Masskara Festival Bacolod City",
+        "description": "This is a grand Bacole&ntilde;o celebration marked by carnivals, fairs and masked street dancers.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-lambat-festival",
+        "name": "Lambat Festival",
+        "month": 11,
+        "dateVenueRaw": "Last week of November Pioduran, Albay",
+        "locationText": "Last week of November Pioduran, Albay",
+        "description": "A festival showcasing the socio-cultural heritage of Pioduran. The festival highlight is the street dancing parade and competition.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-guipao-festival",
+        "name": "Guipao Festival",
+        "month": 11,
+        "dateVenueRaw": "November 23 - 30 Sagnay, Camarines Sur",
+        "locationText": "November 23 - 30 Sagnay, Camarines Sur",
+        "description": "An annual celebration in honor of its Patron, SL Andrew the Apostle. The festival is filled with activities depicting greatness and thanksgiving to the God- given wealth of the sea, the highlight of which is the streetdancing competition",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pintaflores",
+        "name": "Pintaflores",
+        "month": 11,
+        "dateVenueRaw": "November 3-5 San Carlos City",
+        "locationText": "November 3-5 San Carlos City",
+        "description": "This festival is marked by a streetdancing involving the pintados or dancers with tattoos or flowers on their body.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kalag-kalag-festival",
+        "name": "Kalag-Kalag Festival",
+        "month": 11,
+        "dateVenueRaw": "November 13 Cebu City",
+        "locationText": "November 13 Cebu City",
+        "description": "This restages the Filipino tradition of visiting relatives to lovingly remember departed loved ones.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sanduguan-festival",
+        "name": "Sanduguan Festival",
+        "month": 11,
+        "dateVenueRaw": "November 15 Calapan, Oriental Mindoro",
+        "locationText": "November 15 Calapan, Oriental Mindoro",
+        "description": "This festival reenacts the first contact between the natives of Mindoro and traders from China.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-feast-of-san-clemente-gigantes",
+        "name": "Feast of San Clemente/ Gigantes",
+        "month": 11,
+        "dateVenueRaw": "November 22-23 Angono, Rizal",
+        "locationText": "November 22-23 Angono, Rizal",
+        "description": "This celebration is marked by giant papier mache effigies, natives in wooden shoes and costumes joining the procession of the statue of San Clemente around town.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-p-yagsawitan-festival",
+        "name": "P’yagsawitan Festival",
+        "month": 11,
+        "dateVenueRaw": "3rd week Maragusan, Davao Province",
+        "locationText": "rd week Maragusan, Davao Province",
+        "description": "This involves performances by indigenous groups of the area, and harvest-related thanksgiving rituals.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kawayanan-festival",
+        "name": "Kawayanan Festival",
+        "month": 11,
+        "dateVenueRaw": "3rd week Capitol Complex, Pagadian, Zamboanga del Sur",
+        "locationText": "rd week Capitol Complex, Pagadian, Zamboanga del Sur",
+        "description": "This celebrates the versatility of the Bamboo plant and its importance in the area.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-santa-ipon-festival",
+        "name": "Santa Ipon Festival",
+        "month": 11,
+        "dateVenueRaw": "November 25 - December 25 Santa, Ilocos Sur",
+        "locationText": "November 25 - December 25 Santa, Ilocos Sur",
+        "description": "This is a thanksgiving celebration highlighted by the catching of the ipon , a small but mysterious fish.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-day-ang-di-onga-festival",
+        "name": "Day-ang Di Onga Festival",
+        "month": 11,
+        "dateVenueRaw": "November 30 Baguio City",
+        "locationText": "November 30 Baguio City",
+        "description": "This is one of the region’s major events featuring young Cordillerans in a day-long event to “celebrate life.”",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-christmas-symbols",
+        "name": "Christmas Symbols",
+        "month": 12,
+        "dateVenueRaw": "December 1 - January 6 Tangub City",
+        "locationText": "December 1 - January 6 Tangub City",
+        "description": "A beautiful Christmas Display in Tangub City, the Christmas Symbols Capital of the Philippines is a holiday tradition inspired by love, value for arts and culture exemplified by the illustrious people of the city through this annual event. How would you like to travel the world while enjoying the holiday season’s lights and colors? At this laid-back city in Northern Mindanao “Tangub City”, you get a passport to be filled with country stamps when you visit famous landmarks adorned with Christmas lights and colors.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kahumayan-festival",
+        "name": "Kahumayan Festival",
+        "month": 12,
+        "dateVenueRaw": "December 2 Kapatagan, Lanao del Norte",
+        "locationText": "December 2 Kapatagan, Lanao del Norte",
+        "description": "A tribute to the hardworking, industrious, rice farmers who contributed to the development and prosperity of the municipality. “Humay” is a Visaya word for rice that is abundant in the area (white rice/black rice).",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-paskuhan-sa-barangay",
+        "name": "Paskuhan sa Barangay",
+        "month": 12,
+        "dateVenueRaw": "Month-long Parian, Cebu City",
+        "locationText": "Month-long Parian, Cebu City",
+        "description": "This is higlighted by nightly cultural presentations from the different universities in Cebu City.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-san-fernando-giant-lantern-festival",
+        "name": "San Fernando Giant Lantern Festival",
+        "month": 12,
+        "dateVenueRaw": "Month-long Philippine Christmas Village, San Fernando, Pampanga",
+        "locationText": "Month-long Philippine Christmas Village, San Fernando, Pampanga",
+        "description": "This is a lantern showcase where lanterns measuring 14 to 18 feet in diameter delight spectators with their kaleidoscope patterns",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-kamundagan-festival",
+        "name": "Kamundagan Festival",
+        "month": 12,
+        "dateVenueRaw": "Month-long Naga City",
+        "locationText": "Month-long Naga City",
+        "description": "This features “Kiti-Kiti,” “Pastoras,” Bikol Song Festival, and other cultural events.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-pasko-sa-tanjay-festival",
+        "name": "Pasko sa Tanjay Festival",
+        "month": 12,
+        "dateVenueRaw": "December 1 to 9 Tanjay, Negros Oriental",
+        "locationText": "December 1 to 9 Tanjay, Negros Oriental",
+        "description": "This is a month-long Christmas festivity featuring cultural presentations and contests..",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-fiesta-de-agoo",
+        "name": "Fiesta de Agoo",
+        "month": 12,
+        "dateVenueRaw": "December 5-8 Agoo Civic Center, Agoo Basilica",
+        "locationText": "December 5-8 Agoo Civic Center, Agoo Basilica",
+        "description": "This features a Lantern festival, the coronation of Miss Agoo, the awarding of Bannuar ti and Dakilang Datu Awards.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-sinadya",
+        "name": "Sinadya",
+        "month": 12,
+        "dateVenueRaw": "December 5-8 Roxas City",
+        "locationText": "December 5-8 Roxas City",
+        "description": "This features a fireworks display, a grand parade, a food festival, and the Capiz dance festival.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-hanging-of-the-green",
+        "name": "Hanging of the Green",
+        "month": 12,
+        "dateVenueRaw": "2nd week Zamboanga City",
+        "locationText": "nd week Zamboanga City",
+        "description": "Children join in the “hanging of the green” signifying the start of the Christmas season.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      },
+      {
+        "id": "tpb-feast-of-the-immaculate-concepcion",
+        "name": "Feast of the Immaculate Concepcion",
+        "month": 12,
+        "dateVenueRaw": "December 8 Puerto Princesa City",
+        "locationText": "December 8 Puerto Princesa City",
+        "description": "This is a grand celebration in honor of the city’s patroness and is highlighted by a parade of several images of Virgin Mary.",
+        "source": "tpb",
+        "sourceUrl": "https://tpb.gov.ph/tpb-calendar-of-promotions-and-marketing-activities/calendar-of-philippine-festivals-and-monthly-observances-theme/"
+      }
+    ],
+    "seed": [
+      {
+        "id": "seed-sinulog-festival",
+        "name": "Sinulog Festival",
+        "month": 1,
+        "dayStart": 15,
+        "dayEnd": null,
+        "locationText": "Cebu City, Cebu",
+        "province": "Cebu",
+        "municipality": "Cebu City",
+        "type": "religious-cultural",
+        "description": "Grand festival honoring the Santo Niño with street dancing and fluvial parade.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-ati-atihan-festival",
+        "name": "Ati-Atihan Festival",
+        "month": 1,
+        "dayStart": 20,
+        "dayEnd": null,
+        "locationText": "Kalibo, Aklan",
+        "province": "Aklan",
+        "municipality": "Kalibo",
+        "type": "religious-cultural",
+        "description": "Street festival with tribal face paint honoring the Santo Niño.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-dinagyang-festival",
+        "name": "Dinagyang Festival",
+        "month": 1,
+        "dayStart": 25,
+        "dayEnd": null,
+        "locationText": "Iloilo City, Iloilo",
+        "province": "Iloilo",
+        "municipality": "Iloilo City",
+        "type": "religious-cultural",
+        "description": "Warrior-painted tribes dance in honor of the Santo Niño.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-feast-of-the-black-nazarene",
+        "name": "Feast of the Black Nazarene",
+        "month": 1,
+        "dayStart": 9,
+        "dayEnd": null,
+        "locationText": "Quiapo, Manila",
+        "province": "Metro Manila",
+        "municipality": "Manila",
+        "type": "religious",
+        "description": "Procession honoring the Black Nazarene in Quiapo.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-panagbenga-festival",
+        "name": "Panagbenga Festival",
+        "month": 2,
+        "dayStart": 1,
+        "dayEnd": 28,
+        "locationText": "Baguio City, Benguet",
+        "province": "Benguet",
+        "municipality": "Baguio City",
+        "type": "cultural",
+        "description": "Flower festival with floats and street dancing.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-moriones-festival",
+        "name": "Moriones Festival",
+        "month": 3,
+        "dayStart": 15,
+        "dayEnd": 21,
+        "locationText": "Marinduque",
+        "province": "Marinduque",
+        "municipality": null,
+        "type": "religious-cultural",
+        "description": "Holy Week reenactment with Roman centurion masks.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-pahiyas-festival",
+        "name": "Pahiyas Festival",
+        "month": 5,
+        "dayStart": 15,
+        "dayEnd": null,
+        "locationText": "Lucban, Quezon",
+        "province": "Quezon",
+        "municipality": "Lucban",
+        "type": "harvest",
+        "description": "Homes decorated with colorful kiping rice wafers.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-pintados-kasadyaan-festival",
+        "name": "Pintados-Kasadyaan Festival",
+        "month": 6,
+        "dayStart": 29,
+        "dayEnd": null,
+        "locationText": "Tacloban City, Leyte",
+        "province": "Leyte",
+        "municipality": "Tacloban City",
+        "type": "cultural",
+        "description": "Body-paint festival honoring pre-colonial warrior traditions.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-sandugo-festival",
+        "name": "Sandugo Festival",
+        "month": 7,
+        "dayStart": 1,
+        "dayEnd": 31,
+        "locationText": "Tagbilaran City, Bohol",
+        "province": "Bohol",
+        "municipality": "Tagbilaran City",
+        "type": "historical",
+        "description": "Commemorates the blood compact between Sikatuna and Legazpi.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-kadayawan-festival",
+        "name": "Kadayawan Festival",
+        "month": 8,
+        "dayStart": 1,
+        "dayEnd": 31,
+        "locationText": "Davao City, Davao del Sur",
+        "province": "Davao del Sur",
+        "municipality": "Davao City",
+        "type": "harvest-cultural",
+        "description": "Thanksgiving festival celebrating tribal heritage and harvest.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-masskara-festival",
+        "name": "MassKara Festival",
+        "month": 10,
+        "dayStart": 1,
+        "dayEnd": 31,
+        "locationText": "Bacolod City, Negros Occidental",
+        "province": "Negros Occidental",
+        "municipality": "Bacolod City",
+        "type": "cultural",
+        "description": "Festival of smiling masks and street dancing.",
+        "source": "seed"
+      },
+      {
+        "id": "seed-giant-lantern-festival",
+        "name": "Giant Lantern Festival",
+        "month": 12,
+        "dayStart": 15,
+        "dayEnd": null,
+        "locationText": "San Fernando, Pampanga",
+        "province": "Pampanga",
+        "municipality": "San Fernando City",
+        "type": "cultural",
+        "description": "Giant parol lanterns competition.",
+        "source": "seed"
+      }
+    ]
+  }
+}

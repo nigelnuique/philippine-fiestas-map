@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Raw downloads (large); processed outputs are tracked
+data/raw/
+data/cache/
+
+# OS / editor
+.idea/
+.vscode/
+*.swp

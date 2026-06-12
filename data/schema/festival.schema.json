@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Festival",
+  "type": "object",
+  "required": ["id", "name", "source", "location"],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "month": { "type": ["integer", "null"], "minimum": 1, "maximum": 12 },
+    "dayStart": { "type": ["integer", "null"], "minimum": 1, "maximum": 31 },
+    "dayEnd": { "type": ["integer", "null"], "minimum": 1, "maximum": 31 },
+    "dateVenueRaw": { "type": ["string", "null"] },
+    "type": {
+      "type": "string",
+      "enum": [
+        "religious",
+        "cultural",
+        "religious-cultural",
+        "harvest",
+        "harvest-cultural",
+        "historical",
+        "festival"
+      ]
+    },
+    "description": { "type": ["string", "null"] },
+    "source": { "type": "string" },
+    "sourceUrl": { "type": ["string", "null"] },
+    "location": {
+      "type": "object",
+      "properties": {
+        "text": { "type": ["string", "null"] },
+        "municipality": { "type": ["string", "null"] },
+        "province": { "type": ["string", "null"] },
+        "psgc": { "type": ["integer", "null"] },
+        "provincePsgc": { "type": ["integer", "null"] },
+        "regionPsgc": { "type": ["integer", "null"] },
+        "matchMethod": { "type": ["string", "null"] },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low", "unmatched"]
+        }
+      }
+    }
+  }
+}

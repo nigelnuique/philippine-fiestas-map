@@ -4,11 +4,24 @@
   "description": "Exhaustive zoomable map of Philippine fiestas and festivals",
   "type": "module",
   "scripts": {
-    "data:fetch-boundaries": "node scripts/fetch-boundaries.js",
+    "data:fetch-boundaries": "node scripts/fetch-boundaries.js && node scripts/build-huc-boundaries.js",
     "data:fetch-psgc": "node scripts/fetch-psgc.js",
     "data:fetch-festivals": "node scripts/fetch-festivals.js",
+    "data:enrich-dates": "node scripts/enrich-festival-dates-online.js",
+    "data:enrich-descriptions": "node scripts/enrich-festival-descriptions-online.js",
+    "data:seed-enrichment": "node scripts/seed-enrichment-cache.js",
+    "data:enrich": "npm run data:seed-enrichment && npm run data:enrich-dates && npm run data:enrich-descriptions && npm run data:build",
+    "data:fetch-wikipedia-festivals": "node scripts/fetch-wikipedia-festivals.js",
+    "data:fetch-barangay-fiestas": "node scripts/fetch-barangay-fiestas.js",
     "data:build": "node scripts/build-dataset.js",
-    "data:all": "npm run data:fetch-boundaries && npm run data:fetch-psgc && npm run data:fetch-festivals && npm run data:build"
+    "data:build-barangay": "node scripts/build-barangay-fiestas.js",
+    "data:all": "npm run data:fetch-boundaries && npm run data:fetch-psgc && npm run data:fetch-festivals && npm run data:build-barangay && npm run data:build",
+    "map:sync": "node scripts/sync-map-boundaries.js",
+    "predev": "npm run map:sync",
+    "dev": "vite",
+    "prebuild": "npm run map:sync",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
     "philippines",
@@ -19,6 +32,11 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.2.0"
+    "@vitejs/plugin-react": "^6.0.2",
+    "cheerio": "^1.2.0",
+    "maplibre-gl": "^5.24.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "vite": "^8.0.16"
   }
 }

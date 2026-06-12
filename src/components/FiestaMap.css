@@ -1,0 +1,31 @@
+.map-wrap {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+}
+
+.map-container {
+  width: 100%;
+  height: 100%;
+}
+
+.map-hint {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  background: rgba(15, 20, 25, 0.88);
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.75rem;
+  color: #94a3b8;
+  pointer-events: none;
+  max-width: 320px;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .map-wrap {
+    height: 55vh;
+  }
+}

@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  font-family: "DM Sans", system-ui, -apple-system, sans-serif;
+  background: #0f1419;
+  color: #e8eaed;
+}
+
+button {
+  font-family: inherit;
+}

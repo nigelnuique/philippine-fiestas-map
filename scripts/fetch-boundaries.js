@@ -106,6 +106,41 @@ function main() {
     });
   }
 
+  const municitiesDir = path.join(RAW, "municities", resolution);
+  const barangaysByMunicipality = {};
+
+  for (const file of listJsonFiles(municitiesDir)) {
+    const match = file.match(/bgysubmuns-municity-(\d+)\./);
+    if (!match) continue;
+    const municipalityPsgc = Number(match[1]);
+    const filePath = path.join(municitiesDir, file);
+    const raw = fs.readFileSync(filePath, "utf8");
+    let fc;
+    try {
+      fc = JSON.parse(raw);
+    } catch {
+      continue;
+    }
+    if (!Array.isArray(fc.features)) continue;
+
+    const barangays = fc.features
+      .filter((f) => f.geometry)
+      .map((f) => ({
+        psgc: f.properties?.adm4_psgc,
+        name: f.properties?.adm4_en ?? "Barangay",
+      }))
+      .filter((b) => b.psgc);
+
+    if (!barangays.length) continue;
+
+    barangaysByMunicipality[municipalityPsgc] = {
+      municipalityPsgc,
+      file: rel(filePath),
+      featureCount: barangays.length,
+      barangays,
+    };
+  }
+
   const muniFiles = listJsonFiles(provdistDir);
   for (const file of muniFiles) {
     const match = file.match(/municities-provdist-(\d+)\./);
@@ -141,6 +176,7 @@ function main() {
     })),
     provinceLayers,
     municipalityLayerCount: Object.keys(municipalitiesByProvince).length,
+    barangayLayerCount: Object.keys(barangaysByMunicipality).length,
   };
 
   fs.writeFileSync(
@@ -151,9 +187,17 @@ function main() {
     path.join(OUT, "municipalities-index.json"),
     JSON.stringify(municipalitiesByProvince, null, 2)
   );
+  fs.writeFileSync(
+    path.join(OUT, "barangays-index.json"),
+    JSON.stringify(barangaysByMunicipality, null, 2)
+  );
 
   const totalMuni = Object.values(municipalitiesByProvince).reduce(
     (sum, p) => sum + p.featureCount,
+    0
+  );
+  const totalBgy = Object.values(barangaysByMunicipality).reduce(
+    (sum, m) => sum + m.featureCount,
     0
   );
 
@@ -162,6 +206,8 @@ function main() {
   console.log(`  Province layers: ${provinceLayers.length}`);
   console.log(`  Municipality layers: ${manifest.municipalityLayerCount}`);
   console.log(`  Total municipalities/cities indexed: ${totalMuni}`);
+  console.log(`  Barangay layers: ${manifest.barangayLayerCount}`);
+  console.log(`  Total barangays indexed: ${totalBgy}`);
 }
 
 main();

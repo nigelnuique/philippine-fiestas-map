@@ -9,6 +9,10 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import * as cheerio from "cheerio";
+import { slugify } from "./lib/slugify.js";
+import { enrichFestivalDates } from "./lib/date-parser.js";
+import { fetchWikipediaFestivals } from "./fetch-wikipedia-festivals.js";
+import { buildBarangayFiestasFromPsgc } from "./fetch-barangay-fiestas.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -152,8 +156,8 @@ const SEED_FESTIVALS = [
   {
     name: "MassKara Festival",
     month: 10,
-    dayStart: 1,
-    dayEnd: 31,
+    dayStart: 19,
+    dayEnd: 22,
     locationText: "Bacolod City, Negros Occidental",
     province: "Negros Occidental",
     municipality: "Bacolod City",
@@ -174,13 +178,6 @@ const SEED_FESTIVALS = [
   },
 ];
 
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
 function parseTpbRow(cells, currentMonth) {
   const name = cells[0]?.trim();
   const dateVenue = cells[1]?.trim() ?? "";
@@ -189,10 +186,14 @@ function parseTpbRow(cells, currentMonth) {
   if (!name || MONTHS.includes(name.toLowerCase())) return null;
   if (!dateVenue) return null;
 
+  const dates = enrichFestivalDates({ month: currentMonth, dateVenueRaw: dateVenue });
+
   return {
     id: `tpb-${slugify(name)}`,
     name,
-    month: currentMonth,
+    month: dates.month ?? currentMonth,
+    dayStart: dates.dayStart ?? null,
+    dayEnd: dates.dayEnd ?? null,
     dateVenueRaw: dateVenue,
     locationText: dateVenue,
     description,
@@ -301,26 +302,78 @@ async function main() {
   }
 
   const seedFestivals = buildSeedRecords();
+
+  let wikiFestivals = [];
+  try {
+    wikiFestivals = await fetchWikipediaFestivals();
+    console.log(`  Scraped ${wikiFestivals.length} festivals from Wikipedia`);
+  } catch (err) {
+    console.warn(`  Wikipedia scrape failed: ${err.message}`);
+  }
+
+  let barangayFestivals = [];
+  const rawPsgc = path.join(ROOT, "data", "raw", "psgc2", "raw.json");
+  if (fs.existsSync(rawPsgc)) {
+    const psgcRaw = JSON.parse(fs.readFileSync(rawPsgc, "utf8"));
+    barangayFestivals = buildBarangayFiestasFromPsgc(psgcRaw);
+    console.log(`  Generated ${barangayFestivals.length} barangay fiestas from PSGC`);
+  } else {
+    console.warn("  PSGC raw.json missing — skip barangay fiestas. Clone psgc2.");
+  }
+
   const output = {
     generatedAt: new Date().toISOString(),
     sources: [
       { id: "tpb", name: "Tourism Promotions Board", url: TPB_URL },
       { id: "seed", name: "Curated major festivals", url: null },
+      {
+        id: "wikipedia",
+        name: "Wikipedia festival list",
+        url: "https://en.wikipedia.org/wiki/List_of_festivals_in_the_Philippines",
+      },
+      {
+        id: "psgc-barangay",
+        name: "PSGC barangay patron fiestas (one per barangay)",
+        url: "https://github.com/xemasiv/psgc2",
+      },
     ],
     counts: {
       tpb: tpbFestivals.length,
       seed: seedFestivals.length,
-      total: tpbFestivals.length + seedFestivals.length,
+      wikipedia: wikiFestivals.length,
+      barangay: barangayFestivals.length,
+      totalNamed: tpbFestivals.length + seedFestivals.length + wikiFestivals.length,
+      totalWithBarangay:
+        tpbFestivals.length + seedFestivals.length + wikiFestivals.length + barangayFestivals.length,
     },
     festivals: {
       tpb: tpbFestivals,
       seed: seedFestivals,
+      wikipedia: wikiFestivals,
     },
   };
 
   const outFile = path.join(OUT_DIR, "raw-festivals.json");
   fs.writeFileSync(outFile, JSON.stringify(output, null, 2));
   console.log(`Festival data written to ${path.relative(ROOT, outFile)}`);
+
+  if (barangayFestivals.length > 0) {
+    const bgyOut = path.join(OUT_DIR, "barangay-fiestas-raw.json");
+    fs.writeFileSync(
+      bgyOut,
+      JSON.stringify(
+        {
+          generatedAt: new Date().toISOString(),
+          source: "xemasiv/psgc2 raw.json",
+          count: barangayFestivals.length,
+          festivals: barangayFestivals,
+        },
+        null,
+        2
+      )
+    );
+    console.log(`  Barangay fiestas: ${path.relative(ROOT, bgyOut)}`);
+  }
 }
 
 main().catch((err) => {

@@ -2,7 +2,14 @@
  * Parses TPB-style date/venue strings and matches to PSGC municipalities.
  */
 
-const PROVINCE_ABBREV = {
+import {
+  getFestivalLocationHint,
+  getRegionFromText,
+  inferMunicipalityFromFestivalName,
+  resolveAliasMunicipality,
+} from "./location-overrides.js";
+
+const PROVINCE_ALIASES = {
   "mis or": "misamis oriental",
   "mis. or": "misamis oriental",
   "mis occ": "misamis occidental",
@@ -11,8 +18,12 @@ const PROVINCE_ABBREV = {
   "cam. norte": "camarines norte",
   "cam sur": "camarines sur",
   "cam. sur": "camarines sur",
-  "compostela valley": "compostela valley",
+  "compostela valley province": "davao de oro",
+  "compostela valley": "davao de oro",
+  "davao de oro": "davao de oro",
+  "davao oriental": "davao oriental",
   "ncr": "metro manila",
+  "national capital region": "metro manila",
   "manila": "metro manila",
   "albay": "albay",
 };
@@ -36,6 +47,11 @@ export function normalize(text) {
 
 export function slug(text) {
   return normalize(text).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+/** Compact alphanumeric form for fuzzy municipality matching (miag-ao → miagao). */
+export function compact(text) {
+  return normalize(text).replace(/[^a-z0-9]/g, "");
 }
 
 export function stripDatePrefix(raw) {
@@ -113,8 +129,33 @@ export function parseVenueParts(raw) {
 }
 
 function expandProvince(text) {
-  const n = normalize(text).replace(/\.$/, "");
-  return PROVINCE_ABBREV[n] ?? n;
+  const n = normalize(text).replace(/\.$/, "").replace(/\s+province$/, "");
+  return PROVINCE_ALIASES[n] ?? PROVINCE_ALIASES[`${n} province`] ?? n;
+}
+
+function provinceNamesInText(rawNorm, provincesByName) {
+  const matches = [];
+  for (const [name, prov] of provincesByName.entries()) {
+    if (name.startsWith("muni::") || name.length < 4) continue;
+    if (rawNorm.includes(name)) {
+      matches.push({ name, prov, length: name.length });
+    }
+  }
+  return matches.sort((a, b) => b.length - a.length);
+}
+
+function muniNameConflictsWithProvince(rawNorm, muniNorm, provincesByName) {
+  for (const [name] of provincesByName.entries()) {
+    if (name.startsWith("muni::")) continue;
+    if (
+      name.length > muniNorm.length &&
+      name.includes(muniNorm) &&
+      rawNorm.includes(name)
+    ) {
+      return true;
+    }
+  }
+  return false;
 }
 
 export function buildLookups(muniIndex, manifest) {
@@ -124,9 +165,10 @@ export function buildLookups(muniIndex, manifest) {
 
   for (const region of manifest.regions) {
     for (const prov of region.provinceLayer?.provinces ?? []) {
-      provincesByName.set(normalize(prov.name), prov);
-      provincesByName.set(slug(prov.name), prov);
-      provincesByPsgc.set(prov.psgc, prov);
+      const entry = { ...prov, regionPsgc: region.psgc, regionName: region.name };
+      provincesByName.set(normalize(prov.name), entry);
+      provincesByName.set(slug(prov.name), entry);
+      provincesByPsgc.set(prov.psgc, entry);
     }
   }
 
@@ -161,17 +203,75 @@ export function buildLookups(muniIndex, manifest) {
   return { provincesByName, provincesByPsgc, municipalities };
 }
 
+function isDateOnlyVenue(text) {
+  if (!text) return true;
+  const norm = normalize(text);
+  if (/^(first|second|third|fourth|last)\s+week/i.test(text)) return true;
+  if (/^\d{1,2}\s*[-–—]\s*\d{1,2}$/.test(text.trim())) return true;
+  if (/^(march|april|may|june|july|august|september|october|november|december|january|february)\b/i.test(text) && !/,/.test(text)) {
+    return !/\bcity\b|\bmunicipality\b/i.test(text);
+  }
+  return false;
+}
+
 export function resolveFestivalLocation(festival, lookups) {
   const { provincesByName, municipalities } = lookups;
+
+  const hint = getFestivalLocationHint(festival);
+  if (hint?.national) {
+    return {
+      psgc: null,
+      municipality: null,
+      province: null,
+      provincePsgc: null,
+      regionPsgc: null,
+      matchMethod: "national",
+      confidence: "medium",
+    };
+  }
 
   const raw =
     festival.locationText ?? festival.dateVenueRaw ?? festival.municipality ?? "";
   const parsed = parseVenueParts(raw);
 
-  const muniCandidate =
-    festival.municipality ?? parsed.municipality;
-  const provCandidate =
-    festival.province ?? parsed.province;
+  let muniCandidate = hint?.municipality ?? festival.municipality ?? parsed.municipality;
+  let provCandidate = hint?.province ?? festival.province ?? parsed.province;
+
+  if ((!muniCandidate || isDateOnlyVenue(muniCandidate)) && festival.name) {
+    const inferred = inferMunicipalityFromFestivalName(festival.name);
+    if (inferred) muniCandidate = resolveAliasMunicipality(inferred) ?? inferred;
+  }
+
+  if (muniCandidate) {
+    muniCandidate = resolveAliasMunicipality(muniCandidate) ?? muniCandidate;
+  }
+
+  if (hint?.regionPsgc) {
+    return {
+      psgc: null,
+      municipality: muniCandidate,
+      province: provCandidate,
+      provincePsgc: null,
+      regionPsgc: hint.regionPsgc,
+      matchMethod: "festival-hint-region",
+      confidence: "medium",
+    };
+  }
+
+  const regionFromText = getRegionFromText(raw);
+  const regionWideMuni =
+    muniCandidate && /regionwide|region\s+(?:i{1,3}|iv|v|vi{0,2}|ix|x{1,3}|\d+)/i.test(muniCandidate);
+  if (regionFromText && (!provCandidate || regionWideMuni || isDateOnlyVenue(muniCandidate))) {
+    return {
+      psgc: null,
+      municipality: null,
+      province: null,
+      provincePsgc: null,
+      regionPsgc: regionFromText,
+      matchMethod: "region-text",
+      confidence: "medium",
+    };
+  }
 
   // 1. Municipality + province
   if (muniCandidate && provCandidate) {
@@ -185,9 +285,11 @@ export function resolveFestivalLocation(festival, lookups) {
   // 2. Municipality name globally (prefer exact normalized match)
   if (muniCandidate) {
     const norm = normalize(muniCandidate);
+    const compactNorm = compact(muniCandidate);
     const hits = municipalities.filter(
       (m) =>
         m.normalizedName === norm ||
+        compact(m.name) === compactNorm ||
         m.normalizedName === normalize(muniCandidate.replace(/\s+city$/i, "")) ||
         normalize(m.name).includes(norm) ||
         norm.includes(normalize(m.name.replace(/^city of\s+/i, "")))
@@ -222,36 +324,41 @@ export function resolveFestivalLocation(festival, lookups) {
         municipality: muniCandidate,
         province: prov.name ?? provCandidate,
         provincePsgc: prov.psgc,
-        regionPsgc: null,
+        regionPsgc: prov.regionPsgc ?? null,
         matchMethod: "province-only",
         confidence: "low",
       };
     }
   }
 
-  // 4. Search municipality names inside raw text
   const rawNorm = normalize(stripDatePrefix(raw));
-  for (const m of municipalities) {
-    const muniNorm = normalize(m.name.replace(/^city of\s+/i, ""));
-    if (rawNorm.includes(muniNorm) && muniNorm.length > 3) {
-      return matchResult(m, "text-contains-municipality", "medium");
-    }
+
+  // 4. Province names in raw text (longest match first — avoids "Compostela" vs "Compostela Valley")
+  const provMatches = provinceNamesInText(rawNorm, provincesByName);
+  if (provMatches.length > 0) {
+    const { prov } = provMatches[0];
+    return {
+      psgc: null,
+      municipality: muniCandidate,
+      province: prov.name,
+      provincePsgc: prov.psgc,
+      regionPsgc: prov.regionPsgc ?? null,
+      matchMethod: "text-contains-province",
+      confidence: "medium",
+    };
   }
 
-  // 5. Search province names inside raw text
-  for (const [name, prov] of provincesByName.entries()) {
-    if (name.startsWith("muni::")) continue;
-    if (name.length > 4 && rawNorm.includes(name)) {
-      return {
-        psgc: null,
-        municipality: muniCandidate,
-        province: prov.name,
-        provincePsgc: prov.psgc,
-        regionPsgc: null,
-        matchMethod: "text-contains-province",
-        confidence: "low",
-      };
+  // 5. Municipality names in raw text (skip if name is part of a province in the same string)
+  const rawCompact = compact(stripDatePrefix(raw));
+  for (const m of municipalities) {
+    const muniNorm = normalize(m.name.replace(/^city of\s+/i, ""));
+    const muniCompact = compact(m.name);
+    if (muniNorm.length <= 3) continue;
+    if (!rawNorm.includes(muniNorm) && !rawCompact.includes(muniCompact)) continue;
+    if (muniNameConflictsWithProvince(rawNorm, muniNorm, provincesByName)) {
+      continue;
     }
+    return matchResult(m, "text-contains-municipality", "medium");
   }
 
   return {

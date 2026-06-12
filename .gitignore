@@ -11,6 +11,10 @@ Thumbs.db
 data/raw/
 data/cache/
 
+# Synced static assets for the map app (regenerated via npm run map:sync)
+public/geojson/
+public/data/
+
 # OS / editor
 .idea/
 .vscode/

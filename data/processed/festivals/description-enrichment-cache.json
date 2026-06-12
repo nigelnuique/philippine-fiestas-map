@@ -1,0 +1,332 @@
+{
+  "wiki-sinulog-festival-cebu-cebu-city-variants-in-kabankalan-ci": {
+    "description": "This is an annual festival held in Cebu, which commences nine days before the third Sunday of January.",
+    "seededFrom": "tpb-sinulog-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-fiesta-tsinoy-legazpi-city": {
+    "description": "A Chinese New Year celebration participated by the Filipino-Chinese community (Albay Chapter) featuring various activities i.e., Dragon/Lion Dance, Chinese Cultural Program, ancestral veneration within a mass, among others.",
+    "seededFrom": "tpb-fiesta-tsinoy",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-patunob-festival-binuangan-misamis-oriental": {
+    "description": "A popular religious festival where devotees flock to the shrine of Birhen sa Lourdes to light candles to renew their vows and ask for petitions and blessings. Part of the festival are procession, parade, cultural show, and trade fair. Patunob sa Birhen sa Lourdes is a ritual of healing officiated by women healer devotees of Binuangan. To add, Patunob is a Visayan word for “to be stepped on”. It is a rite where the image of the Blessed Virgin is lightly placed on the person’s shoulders & head.",
+    "seededFrom": "tpb-patunob-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-nangkaan-festival-maigo-lanao-del-norte": {
+    "description": "Celebration of Lanao’s abundance in the Municipality of Maigo through street dancing competition with aqua and agro fair. The search for Ms. Maigo and fashion show using langka is the highlight for promotion of the area.",
+    "seededFrom": "tpb-nangkaan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-island-garden-city-of-samal-festival-samal-davao-del-norte": {
+    "description": "This is a week-long celebration of Samal’s founding anniversary held every first week of March.",
+    "seededFrom": "tpb-island-garden-city-of-samal-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-anibina-bulawanun-festival-davao-de-oro": {
+    "description": "This is an eight-day multi-themed annual festival that culminates on the province’s foundation day, March 8. It is a colorful and joyful celebration of the province’s rich agricultural harvests, abundant mineral resources, governance’s feats, trade and tourism fair, and a showcasing of the people’s culture and traditions. The Al-law Ng Kalomonan (Tribal Day) falls on the 7th day of Anibina.",
+    "seededFrom": "tpb-anibina-bulawanun-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-tabak-festival-tabaco-city-albay": {
+    "description": "An annual commemoration of the City’s Founding Anniversary and the Feast of Saint John the Baptist, the City’s Patron Saint. It comprises various activities geared towards the preservation of Tabaco City’s rich cultural heritage. The Festival’s highlight is the Tabak Festival Street dancing.",
+    "seededFrom": "tpb-tabak-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-alimango-festival-lala-lanao-del-norte": {
+    "description": "An annual celebration that highlights the abundance of Crabs in the Municipality of Lala. Activities include a crab/ocean themed grand street dancing parade, crab races, biggest crab contest and an agri-trade fair",
+    "seededFrom": "tpb-alimango-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-centurion-festival-general-luna-quezon": {
+    "description": "This is believed to be the origin of Marinduque’s Moriones Festival and is as colorful.",
+    "seededFrom": "tpb-centurion-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-moriones-festival-boac-marinduque": {
+    "description": "Holy Week reenactment with Roman centurion masks.",
+    "seededFrom": "seed-moriones-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-lami-lamihan-festival-lamitan-basilan": {
+    "description": "Began in 1983 by former mayor Wilfrido Furigay, the festival showcases the rich Yakan traditions. This is highlighted by a parade and a horse race.",
+    "seededFrom": "tpb-lami-lamihan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-bantayog-festival-camarines-norte": {
+    "description": "As the term suggests, Bantayog festival features the storied First Rizal Monument Por ·unang Bantayog ni Dr. Jose Rizal” which is the centerpiece of the celebration. It is held in conjunction with the province foundation anniversary.",
+    "seededFrom": "tpb-bantayog-festival",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-hugyaw-sa-kadagatan-kauswagan-lanao-del-norte": {
+    "description": "Thanksgiving for the bountiful harvest in line with the Municipality’s foundation day and fiesta which highlight a fluvial parade participated by different barangays in the area.",
+    "seededFrom": "tpb-hugyaw-sa-kadagatan",
+    "enrichedAt": "2026-06-12T11:44:22.216Z"
+  },
+  "wiki-pasa-pasa-festival-monreal-masbate": {
+    "description": "Held in time for the town fiesta celebration, the festival focus on the advocacy of the LGU in the protection and preservation of its rich natural resources including the manta rays as well as in the promotion of ecotourism attractions in the area.",
+    "seededFrom": "tpb-pasa-pasa-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-panaad-camiguin": {
+    "description": "During the Holy Week, devotees journey to Camiguin island and hike around the 64 km circumferential road as form of sacrifice either in fulfilment of a vow or as penance of sins. Masses, Catholic rites and rituals, Stations of the Cross in the Old Vulcan hill are regular activities during this season.",
+    "seededFrom": "tpb-panaad",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-sanduguan-festival-calapan-mindoro-oriental": {
+    "description": "This festival reenacts the first contact between the natives of Mindoro and traders from China.",
+    "seededFrom": "tpb-sanduguan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pasalamat-festival-la-carlota-city": {
+    "description": "Celebrated annually every 3rd Sunday of January in honor of Sr. Santo Nino and in commemoration of the arrival of the saint’s image in the Philippines and in the City of Pagadian. The Catholic Church spearheads re­ enacbnent on the arrival of the Sto. Nino image through procession. Pasalamat Festival is highlighted with a fluvial parade (regatta), trade exhibits. the Mutya ng Pagadian beauty pageant, carnival shows as well a a civic military parade.",
+    "seededFrom": "tpb-pasalamat-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-butanding-festival-donsol-sorsogon": {
+    "description": "A festival which ushers the •Butanding” (Whaleshark) season and a thanksgiving for its blessings to the people of Donsol. Now that they are back, the festivity features regatta, fluvial parade with boats carrying colorful banners and giant images of the butanding along the Donsol River, a street parade of life-size images of the butandings on floats accompanied by barangay delegations. brass bands, drum and bugle corps, and festival street-dancing continQents.",
+    "seededFrom": "tpb-butanding-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-abaca-festival-catanduanes": {
+    "description": "Formally known as Catanduanes Abaka Festival, Abaca Festival showcases the life and resilient spirit of the Catandunganon and its culture, as well as the uniqueness and exoticness of the island and its people. It celebrates the fiber industry and its products, which is Catanduanes’ and Bicol’s main materials for its handicrafts. Highlights of the festival include streetdance competition, float parade, trade fair, fashion show among others.",
+    "seededFrom": "tpb-abaca-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-palong-festival-capalonga-camarines-norte": {
+    "description": "Highlighted by a street dancing and agro-industrial fair which expresses local folk’s gratitude for their town’s name etymology and signifies the abundant presence of rooster available in the locality. Held also in celebration of their Black Nazarene’s Feast Day on Mav 13.",
+    "seededFrom": "tpb-palong-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pahiyas-festival-lucban-and-sariaya-quezon": {
+    "description": "Homes decorated with colorful kiping rice wafers.",
+    "seededFrom": "seed-pahiyas-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-p-gsalabuk-festival-dipolog": {
+    "description": "P’GSALABUK is a Subanen term that means “togetherness”. It is a depiction and celebration of the peaceful unity and myriad interplay of culture of the bi-people -the Christians, Muslims, and ‘lumads’ (indigenous people groups) inhabiting the city. It is celebrated annually with pageantry and series of activities such as trade fairs and exhibits, conferences and competitions.",
+    "seededFrom": "tpb-p-gsalabuk-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-sarung-banggi-festival-santo-domingo-albay": {
+    "description": "Celebrating the crystal anniversary of the Sarung Banggi Festival this year, this colorful and igniting festivity commemorates the birth of the composer of the immortal love song Sarung Banggi, Potenciano V. Gregorio. It is known for the annual Parade of the Dancing lights where every barangay showcases impressive interpretation of the song, Sarung Banggi. Contingents parade their dazzling cultural presentations along with their Spanish era portrayed costumes downtown after twilight. Another main event is the Potenciano wanna-be composers competition.",
+    "seededFrom": "tpb-sarung-banggi-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-layag-festival-rapu-rapu-albay": {
+    "description": "A week-long festivity coinciding with the feast of Our Lady of Penafrancia. The festival name was taken from a local world “layag· or sail boat which is a primitive means of transportation of the early people of Rapu-Rapu. It depicts the peoole’s journey of faith",
+    "seededFrom": "tpb-layag-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-kaogma-festival-pili-camarines-sur": {
+    "description": "A week-long celebration of the Foundation Anniversary of the province of Camarines Sur. The festival features numerous activities such as cultural expositions, sports events, beauty pageant, procession and Grand parade.",
+    "seededFrom": "tpb-kaogma-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pulang-angui-festival-polangui-albay": {
+    "description": "The festival was derived from its town’s legend “Pulang-Angui”, a vibrant captivating woman who love to wear red-colored dresses. It celebrates, and depicts the town’s rich and unique socio-cultural talents and qualities of its people, verdant ewco-tourism assests and distinct trade and delicacies of the place.",
+    "seededFrom": "tpb-pulang-angui-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-lechonan-sa-baroy-baroy-lanao-del-norte": {
+    "description": "A celebration of bounty of agricultural products with a grand parade of Lechon” – (roasted pig) in the town plaza ornamented with various farm products to showcase the areas rich harvest.",
+    "seededFrom": "tpb-lechonan-sa-baroy",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pangapog-festival-samal-davao-del-norte": {
+    "description": "This is a thanksgiving festival for a bountiful harvest highlighting the culture of the Sama, the indigenous people of Samal, as shown in the indigenous sports, and other culture-based competitions.",
+    "seededFrom": "tpb-pangapog-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pili-festival-sorsogon-sorsogon": {
+    "description": "The festival showcases Pili – an indigenous crop of the Bicol region, particularly abundant in Sorsogon. The festival aims to emphasize its importance, and heightens awareness of the pili’s various economic uses.",
+    "seededFrom": "tpb-pili-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-san-juan-sa-hibok-hibok-festival-camiguin-provincewide": {
+    "description": "Held annually every June 24 to honor St. John the Baptist with fluvial procession, parade and water sports.",
+    "seededFrom": "tpb-san-juan-sa-hibok-hibok-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-sandugo-festival-tagbilaran-city-bohol": {
+    "description": "Commemorates the blood compact between Sikatuna and Legazpi.",
+    "seededFrom": "seed-sandugo-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-sublian-sa-batangas-batangas-city": {
+    "description": "This coincides with the Foundation Day of Batangas City. It revives the tradition of dancing the subli, which is indigenous to the province.",
+    "seededFrom": "tpb-sublian-sa-batangas",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-kahumayan-festival-kapatagan-lanao-del-norte": {
+    "description": "A tribute to the hardworking, industrious, rice farmers who contributed to the development and prosperity of the municipality. “Humay” is a Visaya word for rice that is abundant in the area (white rice/black rice).",
+    "seededFrom": "tpb-kahumayan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-lubid-festival-malilipot-albay": {
+    "description": "An occasion of merriment, excitement and reckoning the value of culture, tradition and potentials of Malilipot, The festival’s highlight is the Street Presentation and Exhibition (Sayaw Paralubid). The festival also coincides with the observance of the Feast of Mt. Cam1et that will bring out the spirit of Piety amidst the days of gaiety.",
+    "seededFrom": "tpb-lubid-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-libon-paroy-festival-libon-albay": {
+    "description": "As the “rice granary of Albay”, the festival reflects on the town’s main source of living, “paroy” or rice. It features various activities including street parade, sports fest, and many more.",
+    "seededFrom": "tpb-libon-paroy-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-sinulog-de-tanjay-festival-tanjay-negros-oriental": {
+    "description": "The celebration of the residents of Tanjay, Negros Oriental of this 10-day fiesta features the origin of the old sinulog culture. A parade is held showcasing the clothes locals wear, while the horsefighting presentation re-enacts the battle between the Spaniards and the Muslims.",
+    "seededFrom": "tpb-sinulog-de-tanjay-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-ibalong-festival-legazpi-city": {
+    "description": "A festival depicting Bicol’s earty beginnings as portrayed by the characters in the epic – IBALONG. The name was the nomenclature of Bicol region. It showcases many supemeroes such as Handiong, Ballog, Bantong, among others. Highlight is the street presentation as well as the Mayon Triathlon participated by national and international triathletes and adventure enthusiasts.",
+    "seededFrom": "tpb-ibalong-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-aurora-festival-tanjay-negros-oriental": {
+    "description": "The festival features evening novenas participated in by more than 40 clans, which culminate in a nocturnal fluvial procession at the Tanjay River.",
+    "seededFrom": "tpb-aurora-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pangapog-festival-island-garden-city-of-samal": {
+    "description": "This is a thanksgiving festival for a bountiful harvest highlighting the culture of the Sama, the indigenous people of Samal, as shown in the indigenous sports, and other culture-based competitions.",
+    "seededFrom": "tpb-pangapog-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pangasinan-bamboo-festival-calasiao-and-santa-barbara-pangasinan": {
+    "description": "Pangasinan Bamboo Festival August 12 This is a festival showcasing bamboo products and includes bamboo planting and film exhibitions. Venue: Calasiao and Sta. Barbara, Pangasinan",
+    "seededFrom": "tpb-pangasinan-bamboo-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-coron-festival-tiwi-albay": {
+    "description": "A showcase of events highlighted by a street presentation participated in by the town’s different public and private schools and sectors gives a week-long of fun and merriment to visitors and local people. The religious package of devotion and prayer in honor of Albay’s patroness, Nuestra Seiiora de Salvacion (Our Lady of Salvation) is the peak event of the festival, colorfully drawing thousands of devotees and religious groups through a long maritime procession of different local sea vessels on the sea spray of the serene pacific ocean going to the quiet barangay of Joroan, the home of the miraculous image.",
+    "seededFrom": "tpb-coron-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-turumba-teresa-rizal": {
+    "description": "This is a seven-day feast in honor of our lady of sorrows highlighted by a procession and a dance (to the beat of a turumba song).",
+    "seededFrom": "tpb-turumba",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-diyandi-festival-iligan-city": {
+    "description": "A celebration of songs, culture and heritage of the Higaonon Tribes of Balingasag.",
+    "seededFrom": "tpb-diyandi-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-hin-ay-festival-irosin-sorsogon": {
+    "description": "This features a cultural show, trade fair, and a street dance depicting the archangels’ victory over the “Black” Angels.",
+    "seededFrom": "tpb-hin-ay-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-bicol-food-festival-naga-city-camarines-sur": {
+    "description": "This is a festival of Bicol cuisine: pinangat and laing, bicol Express, inolokan or tilmak, pecadillo and cocido.",
+    "seededFrom": "tpb-bicol-food-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-sarakiki-festival-calbayog": {
+    "description": "The festival features street dancers dressed as cocks swaying to the beat of ancient Samareño instruments.",
+    "seededFrom": "tpb-sarakiki-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-busig-on-festival-labo-camarines-norte": {
+    "description": "A festival based on the epic Busig_on of Labo town, which exemplifies heroism and Bicolano values. The festival features the town’s distinct historical values and sentiments through talent and skills competitions featuring the town’s places of interest.",
+    "seededFrom": "tpb-busig-on-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pasalamat-festival-dao-capiz": {
+    "description": "Celebrated annually every 3rd Sunday of January in honor of Sr. Santo Nino and in commemoration of the arrival of the saint’s image in the Philippines and in the City of Pagadian. The Catholic Church spearheads re­ enacbnent on the arrival of the Sto. Nino image through procession. Pasalamat Festival is highlighted with a fluvial parade (regatta), trade exhibits. the Mutya ng Pagadian beauty pageant, carnival shows as well a a civic military parade.",
+    "seededFrom": "tpb-pasalamat-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-lapay-bantigue-dance-festival-masbate-city": {
+    "description": "It is a local dance art festival that originated from the graceful movements of hovering birds known as seagulls or the LAPAY, found abundant in Barangay Bantigue, Masbate. Flocks of lapay seagulls created a marvelous scenery and inspired the old folks to come up with a local folk dance, that since then has exited and has become an important aspect of the local culture of the people of Brgy. Banitgue and the entire Masbate.",
+    "seededFrom": "tpb-lapay-bantigue-dance-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-t-boli-tribal-festival-south-cotabato": {
+    "description": "This is a gathering of the major ethnolinguistic groups in the province together with representatives from Davao.",
+    "seededFrom": "tpb-t-boli-tribal-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-parau-festival-pilar-sorsogon": {
+    "description": "A 12–day celebration done simultaneously with the Feast of Our Lady of the Pillar. It showcases the town’s cultural heritage and the growing aspirations of its people. During this event. families, relatives and friends get together, renew kinship and enjoy the festivities.",
+    "seededFrom": "tpb-parau-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-unod-festival-castilla-sorsogon": {
+    "description": "“Unod” Festival expresses thanksgiving of the people of Castilla, a celebration of the bountiful harvest of root crops of the town and the value of being industrious people.· The festival’s highlight is the street dancing competition.",
+    "seededFrom": "tpb-unod-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-mambulawan-festival-jose-panganiban-camarines-norte": {
+    "description": "Held to coincide with the Feast of the Our Lady of the Most Holy Rosary, the festival aims to forge unity and cooperation among the local community, promote culture and arts, which are all geared towards advancement and economic growth of the town.",
+    "seededFrom": "tpb-mambulawan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-kawayanan-festival-gloria-oriental-mindoro": {
+    "description": "This celebrates the versatility of the Bamboo plant and its importance in the area.",
+    "seededFrom": "tpb-kawayanan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-pagoda-festival-cardona-rizal": {
+    "description": "In Bocaue, Bulacan, a feast is held in honor of the Holy Cross of Wawa found in the Bocaue River. The main attraction of the affair is the fluvial parade of the pagoda or decorated barge and colorful small boats.",
+    "seededFrom": "tpb-pagoda-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-cimarrones-festival-pili-camarines-sur": {
+    "description": "A celebration held to coincide with the town fiesta. It features the town’s cultural heritage through the conduct of various activities which include Street Dancing, Cultural Presentation. Sports fest and many more.",
+    "seededFrom": "tpb-cimarrones-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-rahugan-festival-basud-camarines-norte": {
+    "description": "A festival showcasing the culture of Basud. The highlights include the Grand Rahugan ParadeBikol Floksong Singing Competition, among others.",
+    "seededFrom": "tpb-rahugan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.217Z"
+  },
+  "wiki-universal-children-s-festival-dapitan": {
+    "description": "The festival involves children of locals, dressed in costumes of UN member countries, parading around the city.",
+    "seededFrom": "tpb-universal-children-s-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-masskara-festival-bacolod": {
+    "description": "This is a grand Bacole&ntilde;o celebration marked by carnivals, fairs and masked street dancers.",
+    "seededFrom": "tpb-masskara-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-kalag-kalag-festival-cebu-city": {
+    "description": "This restages the Filipino tradition of visiting relatives to lovingly remember departed loved ones.",
+    "seededFrom": "tpb-kalag-kalag-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-santa-ipon-festival-santa-ilocos-sur": {
+    "description": "This is a thanksgiving celebration highlighted by the catching of the ipon , a small but mysterious fish.",
+    "seededFrom": "tpb-santa-ipon-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-day-ang-di-onga-festival-baguio": {
+    "description": "This is one of the region’s major events featuring young Cordillerans in a day-long event to “celebrate life.”",
+    "seededFrom": "tpb-day-ang-di-onga-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-p-yagsawitan-festival-maragusan-davao-de-oro": {
+    "description": "This involves performances by indigenous groups of the area, and harvest-related thanksgiving rituals.",
+    "seededFrom": "tpb-p-yagsawitan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-kawayanan-festival-pagadian-zamboanga-del-sur": {
+    "description": "This celebrates the versatility of the Bamboo plant and its importance in the area.",
+    "seededFrom": "tpb-kawayanan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-kamundagan-festival-naga-city-camarines-sur": {
+    "description": "This features “Kiti-Kiti,” “Pastoras,” Bikol Song Festival, and other cultural events.",
+    "seededFrom": "tpb-kamundagan-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-san-fernando-giant-lantern-festival-san-fernando-pampanga": {
+    "description": "This is a lantern showcase where lanterns measuring 14 to 18 feet in diameter delight spectators with their kaleidoscope patterns",
+    "seededFrom": "tpb-san-fernando-giant-lantern-festival",
+    "enrichedAt": "2026-06-12T11:44:22.218Z"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "tpb-masskara-festival": {
+    "month": 10,
+    "dayStart": 19,
+    "dayEnd": 22,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.178Z"
+  },
+  "wiki-rodeo-masbate-o-masbate-city": {
+    "month": 4,
+    "dayStart": 13,
+    "dayEnd": 17,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.183Z"
+  },
+  "wiki-aliwan-fiesta-pasay": {
+    "month": 4,
+    "dayStart": 25,
+    "dayEnd": 27,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.183Z"
+  },
+  "wiki-bangus-festival-dagupan": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.183Z"
+  },
+  "wiki-butanding-festival-donsol-sorsogon": {
+    "month": 3,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.183Z"
+  },
+  "wiki-pahiyas-festival-lucban-and-sariaya-quezon": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.184Z"
+  },
+  "wiki-manggahan-festival-guimaras": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 22,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.184Z"
+  },
+  "wiki-pintados-festival-tacloban-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.186Z"
+  },
+  "wiki-sandugo-festival-tagbilaran-city-bohol": {
+    "month": 7,
+    "dayStart": 25,
+    "dayEnd": 25,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.186Z"
+  },
+  "wiki-ibalong-festival-legazpi-city": {
+    "month": 8,
+    "dayStart": 12,
+    "dayEnd": 30,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.186Z"
+  },
+  "wiki-pasigarbo-sa-sugbo-festival-of-festivals-province-of-cebu": {
+    "month": 8,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.186Z"
+  },
+  "wiki-pasigarbo-sa-sugbo-cebu-city": {
+    "month": 8,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.187Z"
+  },
+  "wiki-diyandi-festival-iligan-city": {
+    "month": 9,
+    "dayStart": 27,
+    "dayEnd": 29,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.187Z"
+  },
+  "wiki-tuna-festival-general-santos": {
+    "month": 9,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.187Z"
+  },
+  "wiki-pe-afrancia-festival-pilgrim-city-of-naga": {
+    "month": 9,
+    "dayStart": 9,
+    "dayEnd": 21,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.188Z"
+  },
+  "wiki-pe-afrancia-festival-cotabato-city": {
+    "month": 9,
+    "dayStart": 9,
+    "dayEnd": 21,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.188Z"
+  },
+  "wiki-lanzones-festival-mambajao-camiguin": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.189Z"
+  },
+  "wiki-cimarrones-festival-pili-camarines-sur": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 26,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.189Z"
+  },
+  "wiki-masskara-festival-bacolod": {
+    "month": 10,
+    "dayStart": 19,
+    "dayEnd": 22,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.189Z"
+  },
+  "wiki-higantes-festival-angono-rizal": {
+    "month": 11,
+    "dayStart": 22,
+    "dayEnd": 23,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.189Z"
+  },
+  "wiki-san-fernando-giant-lantern-festival-san-fernando-pampanga": {
+    "month": 12,
+    "dayStart": 14,
+    "dayEnd": 20,
+    "dateParseMethod": "known",
+    "enrichedAt": "2026-06-12T11:42:30.190Z"
+  }
+}

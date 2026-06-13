@@ -191,6 +191,8 @@
 }
 
 .region-chip {
+  touch-action: manipulation;
+  user-select: none;
   background: #0f1419;
   border: 1px solid #2d3a4f;
   border-radius: 8px;
@@ -228,6 +230,33 @@
   color: #64748b;
 }
 
+.festival-section-pending {
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #475569;
+}
+
+.festival-show-more {
+  display: block;
+  width: 100%;
+  margin-top: 0.65rem;
+  padding: 0.65rem 0.85rem;
+  border: 1px dashed #334155;
+  border-radius: 8px;
+  background: transparent;
+  color: #94a3b8;
+  font-size: 0.82rem;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.festival-show-more:hover {
+  border-color: #475569;
+  color: #cbd5e1;
+  background: rgba(148, 163, 184, 0.06);
+}
+
 .sidebar-banner {
   margin: 0 0 0.75rem;
   padding: 0.65rem 0.8rem;
@@ -263,6 +292,8 @@
 }
 
 .festival-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 5rem;
   display: block;
   width: 100%;
   text-align: left;

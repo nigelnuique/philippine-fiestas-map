@@ -1,5 +1,5 @@
 import { MONTH_NAMES } from "./constants.js";
-import { normalizePsgc, psaToAdm } from "./psgc.js";
+import { normalizePsgc, barangayPsgcMatches } from "./psgc.js";
 
 function festivalsAtPsgc(byPsgc, psgc) {
   const key = normalizePsgc(psgc);
@@ -85,12 +85,12 @@ export function festivalsForSelection(index, selection, barangayFestivals = []) 
   const regPsgc = normalizePsgc(regionPsgc);
 
   if (level === "barangay" && bgyPsgc) {
-    const bgyFestivals = barangayFestivals.filter(
-      (f) => psaToAdm(f.barangayPsgc) === bgyPsgc
+    const bgyFestivals = barangayFestivals.filter((f) =>
+      barangayPsgcMatches(bgyPsgc, f.barangayPsgc)
     );
     if (muniPsgc) {
       const named = festivalsAtPsgc(index.byPsgc, muniPsgc).filter(
-        (f) => f.barangayPsgc && psaToAdm(f.barangayPsgc) === bgyPsgc
+        (f) => f.barangayPsgc && barangayPsgcMatches(bgyPsgc, f.barangayPsgc)
       );
       if (!named.length) return bgyFestivals;
       const seen = new Set(bgyFestivals.map((f) => f.id));

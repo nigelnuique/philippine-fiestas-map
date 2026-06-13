@@ -26,17 +26,31 @@ function barangayLabel(f) {
   return f.locationText?.split(",")[0]?.trim() ?? "";
 }
 
+function hasBarangayDate(f) {
+  return Boolean(f.month && (f.dayStart || f.datePrecision === "month"));
+}
+
 function applyDate(f, date) {
-  if (!date?.month || !date?.dayStart) return false;
+  if (!date?.month) return false;
   f.month = date.month;
-  f.dayStart = date.dayStart;
-  if (date.dayEnd && date.dayEnd !== date.dayStart) {
-    f.dayEnd = date.dayEnd;
-  } else {
+  if (date.dayStart) {
+    f.dayStart = date.dayStart;
+    if (date.dayEnd && date.dayEnd !== date.dayStart) {
+      f.dayEnd = date.dayEnd;
+    } else {
+      delete f.dayEnd;
+    }
+    delete f.datePrecision;
+  } else if (date.datePrecision === "month") {
+    delete f.dayStart;
     delete f.dayEnd;
+    f.datePrecision = "month";
+  } else {
+    return false;
   }
   f.dateSource = date.dateSource;
   if (date.patronSaint) f.patronSaint = date.patronSaint;
+  else delete f.patronSaint;
   return true;
 }
 
@@ -44,6 +58,28 @@ function loadOnlineCache() {
   if (!fs.existsSync(ONLINE_CACHE)) return {};
   const data = JSON.parse(fs.readFileSync(ONLINE_CACHE, "utf8"));
   return data.entries ?? {};
+}
+
+/** LGU/parish curated sources — clear on re-run when override entry is removed. */
+function isLguManagedDateSource(src) {
+  if (!src || src === "patron-saint-calendar" || src === "wikipedia-search") return false;
+  return (
+    src.startsWith("lgu-") ||
+    src.startsWith("parish-") ||
+    src.startsWith("iloilo-provincial-") ||
+    src.startsWith("curated-online") ||
+    src.startsWith("siquijor-") ||
+    src.startsWith("zamboanga-")
+  );
+}
+
+function clearDate(f) {
+  delete f.month;
+  delete f.dayStart;
+  delete f.dayEnd;
+  delete f.datePrecision;
+  delete f.dateSource;
+  delete f.patronSaint;
 }
 
 function main() {
@@ -66,19 +102,27 @@ function main() {
   };
 
   for (const f of raw.festivals) {
-    if (f.month && f.dayStart) {
-      stats.alreadyHadDate++;
-      continue;
-    }
-
     const override = lookupBarangayFiestaDateOverride(f);
     if (override && applyDate(f, override)) {
       stats.fromOverride++;
       continue;
     }
 
+    if (hasBarangayDate(f) && isLguManagedDateSource(f.dateSource)) {
+      clearDate(f);
+    }
+
+    if (hasBarangayDate(f)) {
+      stats.alreadyHadDate++;
+      continue;
+    }
+
     const online = onlineCache[f.id];
-    if (online?.month && online?.dayStart && applyDate(f, online)) {
+    if (
+      online?.month &&
+      (online?.dayStart || online?.datePrecision === "month") &&
+      applyDate(f, online)
+    ) {
       stats.fromOnline++;
       continue;
     }
@@ -109,6 +153,27 @@ function main() {
       "lgu-bayawan-city",
       "lgu-pinamungajan-gov-ph",
       "lgu-cabatuan-parish",
+      "lgu-lucena-community-guide",
+      "lgu-mulanay-gov-ph",
+      "lgu-tarlac-city-gov-ph",
+      "lgu-angono-brief-profile",
+      "lgu-santa-barbara-iloilo-gov-ph",
+      "lgu-balilihan-hanopol-parish",
+      "lgu-ormoc-cultural-mapping",
+      "lgu-quezon-city-brgy-directory",
+      "zamboanga-com-community-guide",
+      "parish-sacred-heart-poras-boac",
+      "siquijor-directory-com",
+      "parish-saint-joseph-palsong-bula",
+      "parish-saint-mary-magdalene-bula",
+      "parish-san-vicente-ferrer-ombao-polpog-bula",
+      "parish-immaculate-conception-oton",
+      "parish-sta-monica-oton",
+      "parish-our-lady-of-candles-jelicuon-cabatuan",
+      "iloilo-provincial-gov-brgy-sta-rita-oton",
+      "curated-online",
+      "lgu-maasin-city-gov-ph",
+      "lgu-maasin-city-directory",
       "wikipedia-search-cache",
       "patron-saint-calendar",
     ],

@@ -32,7 +32,8 @@ const MUNICIPALITY_ALIASES = {
 };
 
 export function normalizePlaceName(name) {
-  return String(name ?? "")
+  const raw = String(name ?? "").trim();
+  let s = raw
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -42,6 +43,9 @@ export function normalizePlaceName(name) {
     .replace(/[^a-z0-9\s]/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+  if (!s && /\bpoblacion\b/i.test(raw)) return "poblacion";
+  if (!s && /\bpob\b/i.test(raw)) return "pob";
+  return s;
 }
 
 function municipalityKeys(name) {
@@ -60,17 +64,22 @@ function buildIndex() {
   const raw = JSON.parse(fs.readFileSync(PSGC_RAW, "utf8"));
   const byMuniBgy = new Map();
   const byMuni = new Map();
+  let province = null;
   let municipality = null;
   let municipalityCode = null;
 
   for (const entry of raw) {
     const level = entry.interLevel;
+    if (level === "Prov") {
+      province = entry.name;
+      continue;
+    }
     if (level === "Mun" || level === "City" || level === "SubMun") {
       municipality = entry.name;
       municipalityCode = entry.code;
       const mKey = normalizePlaceName(municipality);
       if (!byMuni.has(mKey)) byMuni.set(mKey, []);
-      byMuni.get(mKey).push({ code: municipalityCode, name: municipality });
+      byMuni.get(mKey).push({ code: municipalityCode, name: municipality, province });
       continue;
     }
     if (level !== "Bgy" || !municipality) continue;
@@ -78,17 +87,44 @@ function buildIndex() {
     const bKey = normalizePlaceName(entry.name);
     const mKey = normalizePlaceName(municipality);
     const composite = `${mKey}|${bKey}`;
-    if (!byMuniBgy.has(composite)) {
-      byMuniBgy.set(composite, {
-        barangayPsgc: entry.code,
-        barangayName: entry.name,
-        municipality,
-        municipalityCode,
-      });
-    }
+    const rec = {
+      barangayPsgc: entry.code,
+      barangayName: entry.name,
+      municipality,
+      municipalityCode,
+      province,
+      provinceKey: normalizePlaceName(province),
+    };
+    const existing = byMuniBgy.get(composite);
+    if (!existing) byMuniBgy.set(composite, [rec]);
+    else existing.push(rec);
   }
 
   return { byMuniBgy, byMuni };
+}
+
+function pickBarangayRecord(records, provinceName, municipalityName) {
+  if (!records?.length) return null;
+  let pool = records;
+
+  if (provinceName) {
+    const pKey = normalizePlaceName(provinceName);
+    const filtered = pool.filter((r) => r.provinceKey === pKey);
+    if (filtered.length) pool = filtered;
+  }
+
+  if (municipalityName && pool.length > 1) {
+    const wanted = String(municipalityName).trim().toLowerCase();
+    const exact = pool.filter((r) => r.municipality.toLowerCase() === wanted);
+    if (exact.length === 1) return exact[0];
+
+    const mKey = normalizePlaceName(municipalityName);
+    const byNorm = pool.filter((r) => normalizePlaceName(r.municipality) === mKey);
+    if (byNorm.length === 1) return byNorm[0];
+    if (byNorm.length) pool = byNorm;
+  }
+
+  return pool[0] ?? null;
 }
 
 export function getBarangayPsgcIndex() {
@@ -96,23 +132,25 @@ export function getBarangayPsgcIndex() {
   return _index;
 }
 
-export function lookupBarangayPsgc(municipalityName, barangayName) {
+export function lookupBarangayPsgc(municipalityName, barangayName, provinceName) {
   const { byMuniBgy } = getBarangayPsgcIndex();
   const mKeys = municipalityKeys(municipalityName);
   const bKey = normalizePlaceName(barangayName);
+  if (!bKey) return null;
 
   for (const mKey of mKeys) {
-    const direct = byMuniBgy.get(`${mKey}|${bKey}`);
+    const direct = pickBarangayRecord(byMuniBgy.get(`${mKey}|${bKey}`), provinceName, municipalityName);
     if (direct) return direct.barangayPsgc;
   }
 
   // Fuzzy: barangay name contained in indexed name or vice versa
   for (const mKey of mKeys) {
-    for (const [key, rec] of byMuniBgy) {
+    for (const [key, records] of byMuniBgy) {
       if (!key.startsWith(`${mKey}|`)) continue;
       const indexedBgy = key.slice(mKey.length + 1);
       if (indexedBgy === bKey || indexedBgy.includes(bKey) || bKey.includes(indexedBgy)) {
-        return rec.barangayPsgc;
+        const hit = pickBarangayRecord(records, provinceName, municipalityName);
+        if (hit) return hit.barangayPsgc;
       }
     }
   }

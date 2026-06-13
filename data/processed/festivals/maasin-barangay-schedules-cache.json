@@ -1,0 +1,369 @@
+{
+  "version": 2,
+  "fetchedAt": "2026-06-13T05:41:35.852Z",
+  "municipality": "City Of Maasin (Capital)",
+  "cacheOnly": true,
+  "stats": {
+    "directoryParsed": 70,
+    "directoryMatched": 70,
+    "directoryMissed": [],
+    "articleParsed": 16,
+    "articleMatched": 16,
+    "articleAdded": 0,
+    "slugs": 55,
+    "cachedHtml": 55,
+    "totalPsgc": 70
+  },
+  "byPsgc": {
+    "086407001": {
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407065": {
+      "month": 4,
+      "dayStart": 18,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407002": {
+      "month": 11,
+      "dayStart": 28,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407004": {
+      "month": 4,
+      "dayStart": 6,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407003": {
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407005": {
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407006": {
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407007": {
+      "month": 5,
+      "dayStart": 14,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407009": {
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407008": {
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407010": {
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407011": {
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407012": {
+      "month": 5,
+      "dayStart": 7,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407013": {
+      "month": 1,
+      "dayStart": 8,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407014": {
+      "month": 5,
+      "dayStart": 17,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407015": {
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407016": {
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407017": {
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407018": {
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407019": {
+      "month": 6,
+      "dayStart": 16,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407020": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407066": {
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407021": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407022": {
+      "month": 5,
+      "dayStart": 23,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407023": {
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407024": {
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407025": {
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407026": {
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407027": {
+      "month": 5,
+      "dayStart": 25,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407028": {
+      "month": 4,
+      "dayStart": 18,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407029": {
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407030": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407031": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407067": {
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407032": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407068": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407033": {
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407034": {
+      "month": 10,
+      "dayStart": 11,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407035": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407036": {
+      "month": 6,
+      "dayStart": 6,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407037": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407038": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407039": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407040": {
+      "month": 5,
+      "dayStart": 19,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407041": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407042": {
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407043": {
+      "month": 1,
+      "dayStart": 31,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407044": {
+      "month": 5,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407045": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407046": {
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407047": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407048": {
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407069": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407049": {
+      "month": 8,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407050": {
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407070": {
+      "month": 8,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407051": {
+      "month": 5,
+      "dayStart": 28,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407052": {
+      "month": 5,
+      "dayStart": 27,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407053": {
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407054": {
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407055": {
+      "month": 5,
+      "dayStart": 20,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407056": {
+      "month": 4,
+      "dayStart": 18,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407057": {
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407058": {
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407059": {
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407060": {
+      "month": 4,
+      "dayStart": 20,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407061": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407062": {
+      "month": 5,
+      "dayStart": 30,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407063": {
+      "month": 1,
+      "dayStart": 17,
+      "dateSource": "lgu-maasin-city-directory"
+    },
+    "086407064": {
+      "month": 8,
+      "dayStart": 29,
+      "dateSource": "lgu-maasin-city-directory"
+    }
+  }
+}

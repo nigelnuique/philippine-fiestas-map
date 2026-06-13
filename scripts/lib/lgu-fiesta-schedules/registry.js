@@ -1,0 +1,177 @@
+/**
+ * Known LGU / parish barangay fiesta schedule sources.
+ * Used by gap reports and fetch scripts to track backfill ROI.
+ *
+ * status: complete | partial | blocked | planned
+ * format: html-table | html-article | curated-text | parish-text | relative-text
+ */
+export const LGU_SCHEDULE_REGISTRY = [
+  {
+    id: "santa-barbara-iloilo",
+    municipality: "Santa Barbara",
+    province: "Iloilo",
+    url: "https://santa-barbara-iloilo.gov.ph/about/",
+    format: "html-table",
+    parser: "parseSantaBarbaraFiestaTable",
+    status: "complete",
+    dateSource: "lgu-santa-barbara-iloilo-gov-ph",
+    notes: "60/60 barangays; Santa Barbara table parser",
+  },
+  {
+    id: "cabatuan-parish",
+    municipality: "Cabatuan",
+    province: "Iloilo",
+    url: "https://cabatuan.com/fiestaschedulesannicolasdetolentinoparish.html",
+    format: "parish-text",
+    parser: "buildCabatuanFiestaEntries",
+    status: "complete",
+    dateSource: "lgu-cabatuan-parish",
+    notes: "San Nicolas 55/55 rows + OLC Jelicuon parish territory (14 barangays Feb 9) + Banguit Dec 29 IG; 68/68 complete",
+  },
+  {
+    id: "dagupan",
+    municipality: "City Of Dagupan",
+    province: "Pangasinan",
+    url: "https://www.dagupan.gov.ph/the-city/calendar-of-activities/",
+    format: "html-table",
+    parser: "parseDagupanFiestaTable",
+    status: "complete",
+    dateSource: "lgu-dagupan-gov-ph",
+  },
+  {
+    id: "magallanes-sorsogon",
+    municipality: "Magallanes",
+    province: "Sorsogon",
+    url: "https://magallanessorsogon.gov.ph/feast-day-and-patron-saints-of-the-barangay/",
+    format: "html-table",
+    parser: "parseMagallanesFiestaTable",
+    status: "complete",
+    dateSource: "lgu-magallanes-sorsogon",
+  },
+  {
+    id: "siquijor-secrets",
+    municipality: "Siquijor",
+    province: "Siquijor",
+    url: "https://siquijor-secrets.com/siquijor-fiestas/",
+    format: "html-table",
+    parser: "parseSiquijorFiestaTable",
+    status: "complete",
+    dateSource: "lgu-siquijor-secrets",
+    notes: "135/135 schedule rows matched via PSGC aliases (Pulangyuta→Polangyuta, etc.)",
+  },
+  {
+    id: "tarlac-city-curated",
+    municipality: "City Of Tarlac (Capital)",
+    province: "Tarlac",
+    url: "https://tarlaccity.gov.ph/barangays/",
+    format: "curated-text",
+    parser: "TARLAC_FIESTA_ENTRIES",
+    status: "complete",
+    dateSource: "lgu-tarlac-city-gov-ph",
+    notes: "76/76 dated via curated + Wayback LGU pages (De Lapaz slug → Dela Paz)",
+  },
+  {
+    id: "tarlac-city-fetch",
+    municipality: "City Of Tarlac (Capital)",
+    province: "Tarlac",
+    url: "https://tarlaccity.gov.ph/{slug}/",
+    format: "html-article",
+    parser: "parseTarlacBarangayPage",
+    status: "complete",
+    dateSource: "lgu-tarlac-city-gov-ph",
+    notes: "Per-barangay pages; live site SSL/403; Wayback fallback (de-lapaz slug)",
+  },
+  {
+    id: "maasin-city",
+    municipality: "City Of Maasin (Capital)",
+    province: "Southern Leyte",
+    url: "http://www.maasincity.gov.ph/index.php/government/barangay",
+    format: "html-directory",
+    parser: "parseMaasinBarangayDirectory",
+    status: "complete",
+    dateSource: "lgu-maasin-city-directory",
+    notes: "70/70 barangays on LGU directory (Pinaskohan → PSGC Pinascohan)",
+  },
+  {
+    id: "maasin-articles",
+    municipality: "City Of Maasin (Capital)",
+    province: "Southern Leyte",
+    url: "https://maasincity.gov.ph/index.php/barangays/brgy/14-barangays/{slug}",
+    format: "html-article",
+    parser: "parseMaasinBarangayArticle",
+    status: "partial",
+    dateSource: "lgu-maasin-city-gov-ph",
+    notes: "Supplemental; 16/70 with feast text on article pages",
+  },
+  {
+    id: "pinamungahan",
+    municipality: "Pinamungahan",
+    province: "Cebu",
+    format: "curated-text",
+    parser: "PINAMUNGAHAN_FIESTA_ENTRIES",
+    status: "complete",
+    dateSource: "lgu-pinamungajan-gov-ph",
+  },
+  {
+    id: "bula-parish",
+    municipality: "Bula",
+    province: "Camarines Sur",
+    format: "curated-text",
+    parser: "BULA_FIESTA_ENTRIES",
+    status: "complete",
+    dateSource: "parish-saint-joseph-palsong-bula",
+    notes: "ParishPH 3 parishes + LGU/parish FB batch; 33/33 PSGC dated (4 month-only: Pawili Sep, Lubgan Oct, Casugad May, Fabrica May); Causip Nov 11 SK/community FB; Panoypoyan Jul 25 Senior Santiago",
+  },
+  {
+    id: "oton-curated",
+    municipality: "Oton",
+    province: "Iloilo",
+    format: "curated-text",
+    parser: "OTON_FIESTA_ENTRIES",
+    status: "complete",
+    dateSource: "parish-immaculate-conception-oton",
+    notes: "37/37 curated rows matched; 37/37 PSGC dated; Bita Sur 3rd Saturday of February + Mambog May 10 from OtonIloiloMyHometown kapistahan schedule (posts 785520646937672, 573141318175607)",
+  },
+  {
+    id: "miagao-curated",
+    municipality: "Miagao",
+    province: "Iloilo",
+    format: "curated-text",
+    parser: "MIAGAO_FIESTA_ENTRIES",
+    status: "partial",
+    dateSource: "lgu-miagao-gov-ph",
+    notes: "19/119 dated: 7 POB Sept 22 + Bacauan Aug 16 (LGU); Banbanan Jan month-only (LGU); Igbugo/Naclub/Cawayanan/Igsoligue/Fundacion/Tigbagacay (on-day FB); Cubay Nov 27 Miraculous Medal parish; San Jose/Fernando/Rafael via patron calendar",
+  },
+  {
+    id: "mulanay-curated",
+    municipality: "Mulanay",
+    province: "Quezon",
+    format: "curated-text",
+    parser: "MULANAY_FIESTA_ENTRIES",
+    status: "complete",
+    dateSource: "lgu-mulanay-gov-ph",
+    notes: "28/28 dated from LGU profiles + mayor/community FB + OMPHS Sumagonsong parish (Pakiing Jun 28); Latangan Apr 22 mayor on-day cha-cha video",
+  },
+  {
+    id: "tacloban-city",
+    municipality: "City Of Tacloban (Capital)",
+    province: "Leyte",
+    url: "https://tacloban.gov.ph/barangays/",
+    format: "html-article",
+    parser: null,
+    status: "blocked",
+    dateSource: "lgu-tacloban-gov-ph",
+    notes: "10/138 dated via patron-saint names only; no barangay fiesta table found (live site 403; city fiesta June 30 is municipal)",
+  },
+];
+
+/** Registry rows keyed by municipality (+ province when ambiguous). */
+export function registryByMunicipalityKey() {
+  const map = new Map();
+  for (const row of LGU_SCHEDULE_REGISTRY) {
+    const key = `${row.province}::${row.municipality}`;
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(row);
+  }
+  return map;
+}

@@ -7,6 +7,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 import {
   parseDagupanFiestaTable,
+  parseMagallanesFiestaTable,
+  parseSantaBarbaraFiestaTable,
   parseSiquijorFiestaTable,
 } from "./lib/lgu-fiesta-schedules/parse-html-schedules.js";
 import { lookupBarangayPsgc } from "./lib/barangay-psgc-index.js";
@@ -32,6 +34,20 @@ const SOURCES = [
     file: "siquijor-fiestas.html",
     parse: parseSiquijorFiestaTable,
     dateSource: "lgu-siquijor-secrets",
+  },
+  {
+    id: "magallanes",
+    url: "https://magallanessorsogon.gov.ph/",
+    file: "magallanes-fiestas.html",
+    parse: parseMagallanesFiestaTable,
+    dateSource: "lgu-magallanes-sorsogon",
+  },
+  {
+    id: "santaBarbara",
+    url: "https://santa-barbara-iloilo.gov.ph/about/",
+    file: "santa-barbara-about.html",
+    parse: parseSantaBarbaraFiestaTable,
+    dateSource: "lgu-santa-barbara-iloilo-gov-ph",
   },
 ];
 

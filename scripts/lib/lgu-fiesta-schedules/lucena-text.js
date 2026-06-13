@@ -1,0 +1,37 @@
+/**
+ * City of Lucena (Capital), Quezon — barangay fiesta schedule.
+ * Source: https://www.lucenahin.com.ph/fiestas-in-lucena-city/ (community tourism guide)
+ */
+export const LUCENA_FIESTA_ENTRIES = [
+  { barangay: "Mayao Crossing", municipality: "City Of Lucena (Capital)", month: 1, dayStart: 20, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barra", municipality: "City Of Lucena (Capital)", month: 1, dayStart: 31, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Ibabang Iyam", municipality: "City Of Lucena (Capital)", month: 2, dayStart: 11, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Ransohan", municipality: "City Of Lucena (Capital)", month: 2, dayStart: 25, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Market View", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 1, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Mayao Kanluran", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 3, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Ibabang Talim", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 12, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Domoit", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 13, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Ibabang Dupay", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 15, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Gulang-Gulang", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 15, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Isabang", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 15, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Mayao Silangan", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 17, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Bocohan", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 17, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Salinas", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 17, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Mayao Castillo", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 18, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Ilayang Dupay", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 18, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Ilayang Talim", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 19, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Mayao Parada", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 26, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 1 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 2 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 3 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 4 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 5 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 6 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 7 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 8 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 9 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 10 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Barangay 11 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Talao-Talao", municipality: "City Of Lucena (Capital)", month: 8, dayStart: 16, dateSource: "lgu-lucena-community-guide" },
+  { barangay: "Cotta", municipality: "City Of Lucena (Capital)", month: 10, dayStart: 28, dateSource: "lgu-lucena-community-guide" },
+];

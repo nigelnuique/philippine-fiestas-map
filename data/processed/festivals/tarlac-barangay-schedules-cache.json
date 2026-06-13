@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "fetchedAt": "2026-06-13T02:39:29.143Z",
+  "municipality": "City Of Tarlac",
+  "cacheOnly": true,
+  "stats": {
+    "targets": 13,
+    "parsed": 0,
+    "matched": 0,
+    "fetchErrors": 0,
+    "missedSamples": [
+      "Alvindia Segundo (no cache)",
+      "Balete (no cache)",
+      "Bantog (no cache)",
+      "Batang-Batang (no cache)",
+      "Calingcuan (no cache)",
+      "Carangian (no cache)",
+      "Dela Paz (no cache)",
+      "Matadero (no cache)",
+      "Salapungan (no cache)",
+      "Sepung Calzada (no cache)",
+      "Trinidad (no cache)",
+      "Ungot (no cache)",
+      "Villa Bacolor (no cache)"
+    ]
+  },
+  "byPsgc": {}
+}

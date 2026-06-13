@@ -5,6 +5,11 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { resolveBarangayFiestaLocation, buildLookups } from "./lib/location-parser.js";
+import {
+  buildFiestaMunicipalityAliases,
+  MANILA_FIESTA_SUBDISTRICT_PREFIX,
+  MANILA_MAP_PSGC,
+} from "./lib/fiesta-municipality-aliases.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -12,7 +17,32 @@ const ROOT = path.resolve(__dirname, "..");
 const RAW_FILE = path.join(ROOT, "data", "processed", "festivals", "barangay-fiestas-raw.json");
 const MUNI_INDEX = path.join(ROOT, "data", "processed", "boundaries", "municipalities-index.json");
 const MANIFEST = path.join(ROOT, "data", "processed", "boundaries", "manifest.json");
+const PSGC_RAW = path.join(ROOT, "data", "raw", "psgc2", "raw.json");
 const OUT_FILE = path.join(ROOT, "data", "processed", "festivals", "barangay-fiestas.json");
+
+function applyMunicipalityAliases(byMunicipalityPsgc, aliases) {
+  for (const [mapCode, fiestaCode] of Object.entries(aliases)) {
+    const source = byMunicipalityPsgc[String(fiestaCode)];
+    if (source?.length && !byMunicipalityPsgc[mapCode]) {
+      byMunicipalityPsgc[mapCode] = source;
+    }
+  }
+
+  const manilaKey = String(MANILA_MAP_PSGC);
+  if (!byMunicipalityPsgc[manilaKey]) {
+    const merged = [];
+    const seen = new Set();
+    for (const [key, list] of Object.entries(byMunicipalityPsgc)) {
+      if (!key.startsWith(MANILA_FIESTA_SUBDISTRICT_PREFIX)) continue;
+      for (const f of list) {
+        if (seen.has(f.id)) continue;
+        seen.add(f.id);
+        merged.push(f);
+      }
+    }
+    if (merged.length) byMunicipalityPsgc[manilaKey] = merged;
+  }
+}
 
 function main() {
   for (const f of [RAW_FILE, MUNI_INDEX, MANIFEST]) {
@@ -26,6 +56,7 @@ function main() {
   const raw = JSON.parse(fs.readFileSync(RAW_FILE, "utf8"));
   const muniIndex = JSON.parse(fs.readFileSync(MUNI_INDEX, "utf8"));
   const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
+  const psgcRaw = JSON.parse(fs.readFileSync(PSGC_RAW, "utf8"));
   const lookups = buildLookups(muniIndex, manifest);
 
   const byMunicipalityPsgc = {};
@@ -47,6 +78,7 @@ function main() {
       ...(f.month ? { month: f.month } : {}),
       ...(f.dayStart ? { dayStart: f.dayStart } : {}),
       ...(f.dayEnd ? { dayEnd: f.dayEnd } : {}),
+      ...(f.datePrecision ? { datePrecision: f.datePrecision } : {}),
       ...(f.dateSource ? { dateSource: f.dateSource } : {}),
       ...(f.patronSaint ? { patronSaint: f.patronSaint } : {}),
       location: {
@@ -61,7 +93,9 @@ function main() {
       },
     };
 
-    if (record.month && record.dayStart) withDates++;
+    if (record.month && (record.dayStart || record.datePrecision === "month")) {
+      withDates++;
+    }
 
     if (muniPsgc) {
       matched++;
@@ -73,6 +107,9 @@ function main() {
     }
   }
 
+  const municipalityAliases = buildFiestaMunicipalityAliases(muniIndex, psgcRaw);
+  applyMunicipalityAliases(byMunicipalityPsgc, municipalityAliases);
+
   const output = {
     generatedAt: new Date().toISOString(),
     stats: {
@@ -82,6 +119,7 @@ function main() {
       municipalitiesWithBarangays: Object.keys(byMunicipalityPsgc).length,
       withDates,
     },
+    municipalityAliases,
     byMunicipalityPsgc,
   };
 

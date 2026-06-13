@@ -175,24 +175,38 @@ export default function FiestaMap({
       setLayersVisibility(map, MUNI_LAYER_IDS, "none");
       setLayersVisibility(map, BGY_LAYER_IDS, "none");
       if (map.getLayer(MAP_LAYERS.provincesFill)) {
+        map.setPaintProperty(MAP_LAYERS.provincesFill, "fill-antialias", false);
         map.setPaintProperty(MAP_LAYERS.provincesFill, "fill-opacity", [
           "case",
           ["boolean", ["feature-state", "hover"], false],
-          0.85,
-          0.55,
+          1,
+          1,
         ]);
       }
       safeSetVisibility(map, MAP_LAYERS.provincesLine, "none");
       return;
     }
 
-    safeSetVisibility(map, MAP_LAYERS.provincesLine, "visible");
-
     const isRegion = sel?.level === "region";
     const isProvince = sel?.level === "province";
     const isMuni =
       sel?.level === "municipality" || sel?.level === "barangay";
     const isBarangay = sel?.level === "barangay";
+    const showProvinceOutlines = isProvince || isMuni;
+
+    if (map.getLayer(MAP_LAYERS.provincesFill)) {
+      map.setPaintProperty(
+        MAP_LAYERS.provincesFill,
+        "fill-antialias",
+        showProvinceOutlines
+      );
+    }
+
+    safeSetVisibility(
+      map,
+      MAP_LAYERS.provincesLine,
+      showProvinceOutlines ? "visible" : "none"
+    );
 
     const provinceHighlightFilter = selectionToFilter(sel);
     safeSetFilter(map, MAP_LAYERS.highlightFill, provinceHighlightFilter);
@@ -328,36 +342,16 @@ export default function FiestaMap({
       }
     }
 
-    // Province segment outlines (region view) and context dimming
-    if (map.getLayer(MAP_LAYERS.provincesLine)) {
+    // Province segment outlines when drilled to province level or deeper
+    if (showProvinceOutlines && map.getLayer(MAP_LAYERS.provincesLine)) {
       map.setPaintProperty(MAP_LAYERS.provincesLine, "line-color", PROVINCE_BASE_LINE);
-      if (isRegion && sel.regionPsgc) {
-        map.setPaintProperty(MAP_LAYERS.provincesLine, "line-width", [
-          "case",
-          ["boolean", ["feature-state", "hover"], false],
-          3,
-          [
-            "case",
-            ["==", ["to-number", ["get", "adm1_psgc"]], sel.regionPsgc],
-            2.25,
-            1,
-          ],
-        ]);
-        map.setPaintProperty(MAP_LAYERS.provincesLine, "line-opacity", [
-          "case",
-          ["==", ["to-number", ["get", "adm1_psgc"]], sel.regionPsgc],
-          1,
-          0.55,
-        ]);
-      } else {
-        map.setPaintProperty(MAP_LAYERS.provincesLine, "line-width", [
-          "case",
-          ["boolean", ["feature-state", "hover"], false],
-          2.5,
-          isProvince ? 1.75 : 1.35,
-        ]);
-        map.setPaintProperty(MAP_LAYERS.provincesLine, "line-opacity", 1);
-      }
+      map.setPaintProperty(MAP_LAYERS.provincesLine, "line-width", [
+        "case",
+        ["boolean", ["feature-state", "hover"], false],
+        2.5,
+        isProvince ? 1.75 : 1.35,
+      ]);
+      map.setPaintProperty(MAP_LAYERS.provincesLine, "line-opacity", 1);
     }
 
     if (map.getLayer(MAP_LAYERS.provincesFill)) {
@@ -389,12 +383,12 @@ export default function FiestaMap({
         map.setPaintProperty(MAP_LAYERS.provincesFill, "fill-opacity", [
           "case",
           ["boolean", ["feature-state", "hover"], false],
-          0.8,
+          1,
           [
             "case",
             ["==", ["to-number", ["get", "adm1_psgc"]], sel.regionPsgc],
-            0.5,
-            0.12,
+            1,
+            0.35,
           ],
         ]);
       } else {
@@ -614,8 +608,10 @@ export default function FiestaMap({
 
       if (!isSyncCurrent(syncGen)) return;
 
-      await waitForMapIdle(map);
-      if (!isSyncCurrent(syncGen)) return;
+      if (needsMuniLayer || showBarangays) {
+        await waitForMapIdle(map);
+        if (!isSyncCurrent(syncGen)) return;
+      }
 
       const latest = selectionRef.current;
       const flyBounds =
@@ -685,6 +681,7 @@ export default function FiestaMap({
             id: MAP_LAYERS.provincesLine,
             type: "line",
             source: "provinces",
+            layout: { visibility: "none" },
             paint: BASE_LINE_PAINT,
           },
           {

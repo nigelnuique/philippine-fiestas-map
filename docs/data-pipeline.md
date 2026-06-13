@@ -130,10 +130,12 @@ Extracts one patron fiesta per barangay from the PSGC hierarchy (not feast dates
 
 | File | Description |
 |------|-------------|
-| `barangay-fiestas.json` | Index keyed by municipality PSGC → array of barangay fiesta records |
+| `barangay-fiestas.json` | Index keyed by municipality PSGC → array of barangay fiesta records; includes `municipalityAliases` for map/index code mismatches |
 | `barangay-fiestas-raw.json` | Intermediate raw extraction |
 
-Barangay fiestas use **PSA PSGC codes** (9-digit). The app converts these to admin codes via `psaToAdm()` in `src/lib/psgc.js`.
+`build-barangay-fiestas.js` geocodes each record via `location-parser.js`, then duplicates index entries under **map-facing municipality codes** where they differ from PSA-derived keys (NCR `1380…` → `317…`, Davao `1130700000` → `112402000`, etc.) using `scripts/lib/fiesta-municipality-aliases.js`. **City of Manila** fiestas (split across PSA sub-district codes `313901…`) are merged under `1380600000`.
+
+Barangay fiestas use **PSA PSGC codes** (9-digit). The app converts these to admin codes via `psaToAdm()` and alias maps in `src/lib/psgc.js`.
 
 ### `backfill-barangay-fiesta-dates.js`
 
@@ -210,19 +212,29 @@ psaToAdm("072217000") // → 702217000
 
 Region codes use 9 trailing zeros (`700000000` = Region VII). Province codes use 5 trailing zeros. Municipality codes use 3 trailing zeros.
 
+**NCR dual scheme:** philippines-json-maps GeoJSON uses `1380xxxxxxxx` municipality codes for Metro Manila cities; PSA/psgc2 and the barangay fiesta index use `317xxxxxx` keys after `psaToAdm3()`. The app bridges these via `FIESTA_MUNICIPALITY_ALIASES` (see [architecture.md](architecture.md#psgcjs)).
+
 ## Known gaps
 
 | Gap | Impact | Workaround |
 |-----|--------|------------|
 | **HUC barangay name mismatches** | A few barangays missing in Makati, Iligan, Angeles, Olongapo (~95% HUC coverage) | Run `npm run data:analyze-missing-barangays`; add altcoder/name overrides |
+| **NCR PSGC code mismatch (resolved in app)** | Map uses `1380…` codes; fiesta index uses `317…` | Aliases in `psgc.js` + `barangay-fiestas.json`; rebuild with `npm run data:build-barangay` |
 | **Manila** empty geometry in source | No municipality polygon | `CITY_MAP_FOCUS` in `constants.js` for camera fallback |
-| **Barangay feast dates** mostly missing | ~10% have dates after backfill; rest are name/location only | Add LGU schedules to `lgu-fiesta-schedules/` |
+| **Barangay feast dates** mostly missing | ~11% have dates after backfill; rest are name/location only | Add LGU schedules to `lgu-fiesta-schedules/`; run `npm run data:report-gaps` |
 | **Festival location confidence** varies | Some festivals unmatched or low-confidence | `location.confidence` field in `festivals.json` |
 
 To analyze barangay boundary gaps:
 
 ```powershell
 npm run data:analyze-missing-barangays
+```
+
+To inspect data completeness (barangay dates, geocoding, descriptions):
+
+```powershell
+npm run data:report-gaps
+npm run data:audit-missing-dates [MunicipalityName]
 ```
 
 ## Refreshing data

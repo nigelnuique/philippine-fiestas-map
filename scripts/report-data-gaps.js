@@ -6,6 +6,11 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  rankMunicipalityBackfillRoi,
+  buildRegistryStatusReport,
+} from "./lib/municipality-backfill-roi.js";
+import { LGU_SCHEDULE_REGISTRY } from "./lib/lgu-fiesta-schedules/registry.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -30,7 +35,9 @@ function main() {
   const bgyIndex = readJson("data/processed/festivals/barangay-fiestas.json");
   const festivals = readJson("data/processed/festivals/festivals.json");
 
-  const noDate = raw.festivals.filter((f) => !f.month || !f.dayStart);
+  const noDate = raw.festivals.filter(
+    (f) => !f.month || (!f.dayStart && f.datePrecision !== "month")
+  );
   const byProv = {};
   for (const f of noDate) {
     const p = f.province ?? "?";
@@ -60,7 +67,7 @@ function main() {
 
   const dateSources = {};
   for (const f of raw.festivals) {
-    if (f.month && f.dayStart && f.dateSource) {
+    if (f.month && (f.dayStart || f.datePrecision === "month") && f.dateSource) {
       dateSources[f.dateSource] = (dateSources[f.dateSource] ?? 0) + 1;
     }
   }
@@ -82,7 +89,7 @@ function main() {
   console.log("");
 
   console.log("BARANGAY FEAST DATES  (largest gap)");
-  console.log(bar("With month + day", bgyIndex.stats.withDates, bgyIndex.stats.total));
+  console.log(bar("With feast date", bgyIndex.stats.withDates, bgyIndex.stats.total));
   console.log(
     `  Municipalities covered: ${bgyIndex.stats.municipalitiesWithBarangays} with barangay records`
   );
@@ -98,6 +105,28 @@ function main() {
     .slice(0, 8)) {
     console.log(`    ${count.toString().padStart(5)}  ${prov}`);
   }
+  console.log("");
+
+  console.log("MUNICIPALITY BACKFILL ROI  (missing dates × known sources)");
+  const roi = rankMunicipalityBackfillRoi(raw.festivals, { limit: 12 });
+  for (const m of roi) {
+    const cov = `${m.dated}/${m.total} (${m.pctDated.toFixed(1)}%)`;
+    console.log(
+      `  ${String(m.missing).padStart(4)} gap  ${cov.padEnd(14)}  ${m.municipality}, ${m.province}`
+    );
+    if (m.sourceLabel !== "none") {
+      console.log(`         source: ${m.sourceLabel}`);
+    }
+  }
+  console.log("");
+
+  console.log("LGU SCHEDULE REGISTRY");
+  for (const row of buildRegistryStatusReport(raw.festivals)) {
+    console.log(
+      `  ${row.status.padEnd(8)} ${row.coverage.padEnd(14)}  ${row.municipality}, ${row.province}  [${row.id}]`
+    );
+  }
+  console.log(`  (${LGU_SCHEDULE_REGISTRY.length} registered sources — see scripts/lib/lgu-fiesta-schedules/registry.js)`);
   console.log("");
 
   console.log("NAMED FESTIVAL GEOCODING");
@@ -153,7 +182,7 @@ function main() {
   console.log("PRIORITY ACTIONS");
   const bgyGap = bgyIndex.stats.total - bgyIndex.stats.withDates;
   console.log(
-    `  1. Barangay dates — ${bgyGap.toLocaleString()} still missing; add LGU/parish schedules for dense provinces (Iloilo, Leyte, NCR).`
+    `  1. Barangay dates — ${bgyGap.toLocaleString()} still missing; prioritize ROI municipalities above and partial LGU sources (Iloilo, Leyte, Tarlac).`
   );
   console.log(
     `  2. Festival descriptions — ${(list.length - withDesc.length).toLocaleString()} need text; expand major-festival-descriptions.js or run data:enrich-descriptions.`
@@ -162,7 +191,7 @@ function main() {
     `  3. Festival date precision — ${monthInferred.toLocaleString()} have month-only dates; run data:enrich-dates.`
   );
   console.log(
-    "  4. Wikipedia barangay pass — RETRY_FAILED=1 LIMIT=500 npm run data:enrich-barangay-dates"
+    "  4. Wikipedia barangay pass — low ROI; prefer LGU/parish modules (npm run data:fetch-lgu-barangay-schedules)"
   );
 }
 

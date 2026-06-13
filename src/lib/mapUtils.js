@@ -369,3 +369,28 @@ export function selectionFromFestival(
 
   return null;
 }
+
+/** Whether two selections refer to the same admin area (ignores flyBounds / names). */
+export function selectionEquals(a, b) {
+  if (a === b) return true;
+  if (!a || !b) return !a && !b;
+  return (
+    a.level === b.level &&
+    normalizePsgc(a.regionPsgc) === normalizePsgc(b.regionPsgc) &&
+    normalizePsgc(a.provincePsgc) === normalizePsgc(b.provincePsgc) &&
+    normalizePsgc(a.municipalityPsgc) === normalizePsgc(b.municipalityPsgc) &&
+    normalizePsgc(a.barangayPsgc) === normalizePsgc(b.barangayPsgc)
+  );
+}
+
+export function selectionTargetKey(sel, festivalId = null) {
+  if (!sel) return `country|${festivalId ?? ""}`;
+  return [
+    sel.level,
+    normalizePsgc(sel.regionPsgc),
+    normalizePsgc(sel.provincePsgc),
+    normalizePsgc(sel.municipalityPsgc),
+    normalizePsgc(sel.barangayPsgc),
+    festivalId ?? sel.festivalId ?? "",
+  ].join("|");
+}

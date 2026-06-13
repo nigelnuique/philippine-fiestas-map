@@ -172,11 +172,23 @@ export function parseDateText(text, hintMonth = null) {
     .replace(/\bvaries\b/gi, "")
     .replace(/\[.*?\]/g, "")
     .replace(/,\s*\d{4}\b/g, "")
+    .replace(/\bbrgy\.?\s*fiesta\s*[-–—:]\s*/gi, "")
+    .replace(/\bsaturdy\b/gi, "saturday")
+    .replace(/\b2rd\b/gi, "2nd")
+    .replace(/\b2th\b/gi, "2nd")
     .replace(new RegExp(`^(${MONTH_PATTERN})(\\d{1,2})`, "i"), "$1 $2")
     .replace(/\s+/g, " ")
     .trim();
 
   const lower = raw.toLowerCase();
+
+  // "27th of May" / "5th of April" (Maasin LGU phrasing)
+  const ordinalOfMonth = raw.match(/^(\d{1,2})(?:st|nd|rd|th)\s+of\s+(\w+)/i);
+  if (ordinalOfMonth) {
+    const m = parseMonthToken(ordinalOfMonth[2]);
+    const d = Number(ordinalOfMonth[1]);
+    if (m) return result(m, d, d, "ordinal-of-month");
+  }
 
   // Whole / month-long
   if (
@@ -192,13 +204,36 @@ export function parseDateText(text, hintMonth = null) {
     }
   }
 
+  // "9th Sunday after Easter Sunday" (Pasonanca, Zamboanga City)
+  const sundayAfterEaster = raw.match(
+    /(\d+(?:st|nd|rd|th)|first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth)\s+sunday\s+after\s+(?:the\s+)?easter(?:\s+sunday)?/i
+  );
+  if (sundayAfterEaster) {
+    const nth = parseOrdinal(sundayAfterEaster[1] ?? sundayAfterEaster[0]);
+    if (nth) {
+      const easter = easterSunday();
+      const feast = addDays(easter.month, easter.day, nth * 7);
+      return result(feast.month, feast.day, feast.day, "sunday-after-easter");
+    }
+  }
+
+  // "every 8th day of December" / "8thday of December" (Ligao LGU phrasing)
+  const everyNthDay = raw.match(
+    /(?:every\s+)?(\d{1,2})(?:st|nd|rd|th)?\s*day\s+of\s+(\w+)/i
+  );
+  if (everyNthDay) {
+    const m = parseMonthToken(everyNthDay[2]);
+    const d = Number(everyNthDay[1]);
+    if (m) return result(m, d, d, "nth-day-of-month");
+  }
+
   // Holy Week / Good Friday / Easter-linked
   if (/\bgood\s+friday\b/i.test(raw)) {
     const easter = easterSunday();
     const gf = addDays(easter.month, easter.day, -2);
     return result(gf.month, gf.day, gf.day, "good-friday");
   }
-  if (/\bholy\s+week\b/i.test(raw) || /\beaster\b/i.test(raw)) {
+  if (/\bholy\s+week\b/i.test(raw) || (/\beaster\b/i.test(raw) && !/after\s+(?:the\s+)?easter/i.test(raw))) {
     const easter = easterSunday();
     const palm = addDays(easter.month, easter.day, -7);
     return result(palm.month, palm.day, easter.day, "holy-week");

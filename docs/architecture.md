@@ -14,7 +14,7 @@ This document describes how the Philippine Fiestas Map web app is structured: Re
                 │                         │
         ┌───────▼────────┐        ┌───────▼────────┐
         │  Sidebar.jsx   │        │  FiestaMap.jsx │
-        │  Breadcrumb    │        │  MapLibre GL   │
+        │  Area chips    │        │  MapLibre GL   │
         │  Area pickers  │        │  Layer sync    │
         │  Festival list │        │  Click/hover   │
         └───────┬────────┘        └───────┬────────┘
@@ -65,7 +65,7 @@ Central handler in `App.jsx` for all navigation:
 2. Optionally resolves `flyBounds` via `resolveSelectionFlyBounds()` when not already provided
 3. Updates React `selection` state and bumps `mapFlyTrigger` to force map camera sync
 
-All paths converge here: map clicks, sidebar chips, breadcrumb, and festival card clicks.
+All paths converge here: map clicks, sidebar chips (including Philippines reset), and festival card clicks.
 
 ## Map component (`FiestaMap.jsx`)
 
@@ -82,7 +82,7 @@ All paths converge here: map clicks, sidebar chips, breadcrumb, and festival car
 | Layer ID | Type | Purpose |
 |----------|------|---------|
 | `background` | background | Dark base color |
-| `provinces-fill` / `provinces-line` | fill + line | Province boundaries (always visible) |
+| `provinces-fill` / `provinces-line` | fill + line | Region-colored province fills; outline strokes from province drill-down only |
 | `muni-fill` / `muni-line` | fill + line | Municipality boundaries (loaded on drill-down) |
 | `bgy-fill` / `bgy-line` | fill + line | Barangay boundaries (loaded per municipality) |
 | `highlight-fill` / `highlight-line` | fill + line | Province-level selection highlight |
@@ -96,9 +96,9 @@ Highlight layers sit on top so the selected area is always visible.
 Runs whenever `selection` or `flyTrigger` changes:
 
 1. Uses a generation counter (`syncGenRef`) so stale async work is discarded
-2. **Country / null:** hides muni and barangay layers, clears highlights, flies to Philippines overview
-3. **Region+:** loads municipality GeoJSON for the region (all provinces merged)
-4. **Province+:** loads municipality GeoJSON for that province (includes HUC patches)
+2. **Country / null:** hides muni and barangay layers, hides province outline strokes, uses solid region-colored fills, flies to Philippines overview
+3. **Region+:** loads municipality GeoJSON for the region (all provinces merged); province outlines remain hidden until province drill-down
+4. **Province+:** loads municipality GeoJSON for that province (includes HUC patches); shows province outline layer
 5. **Municipality/barangay:** loads barangay GeoJSON if `barangays-index.json` has `featureCount > 0`
 6. Applies highlight paint properties and flies the camera
 
@@ -108,16 +108,16 @@ Runs whenever `selection` or `flyTrigger` changes:
 - **Deepest feature wins:** `pickDeepestFeature()` selects the most specific admin polygon under the cursor
 - **Drill-down rules:** see [map-interaction.md](map-interaction.md)
 - **Sea click:** clicking empty map clears selection (8px drag threshold distinguishes pan from click)
-- **Hover:** feature-state `hover` toggles fill opacity on the active layer
+- **Hover:** feature-state `hover` toggles fill opacity; at country view, hovering a province highlights the whole region (all provinces sharing `adm1_psgc`)
 
 ## Sidebar (`Sidebar.jsx`)
 
-- **Breadcrumb:** navigates up the hierarchy; Philippines crumb resets to country
-- **Region picker:** shown at country level (17 regions)
-- **Province chips:** shown at region and province levels
-- **Municipality chips:** shown at province, municipality, and barangay levels
+- **Philippines chip:** resets to country view from any selection
+- **Region picker:** shown at all levels (17 regions; active region highlighted)
+- **Province chips:** shown from region level onward
+- **Municipality chips:** shown from province level onward
 - **Barangay chips:** shown when barangay index has entries for the municipality
-- **Festival list:** filtered via `festivalsForSelection()` — empty at country level; scoped to selection otherwise
+- **Festival list:** filtered via `festivalsForSelection()` — empty at country level unless searching; scoped to selection otherwise
 
 ## Library modules
 
@@ -130,12 +130,14 @@ Client-side data loaders. Fetches from `/data/processed/` and `/geojson/`:
 - `loadMunicipalities(provincePsgc)` — province muni file + HUC feature merge
 - `loadMunicipalitiesForRegion(manifest, regionPsgc)` — all municipalities in a region
 - `loadBarangays(municipalityPsgc)` — per-municipality barangay GeoJSON
+- `loadBarangayFiestaIndex()`, `loadBarangayFiestasForMunicipality()` — per-municipality barangay fiesta lists (uses PSGC alias lookup for NCR / HUC code mismatches)
+- `lookupMunicipalityIndex()`, `lookupBarangaysForMunicipality()` — index lookups with `fiestaMunicipalityLookupKeys()`
 - `resolveSelectionFlyBounds(selection)` — async bounds lookup for sidebar navigation
 
 ### `festivalIndex.js`
 
 - `buildFestivalIndex(festivalData, manifest)` — indexes festivals by PSGC, province, and region
-- `festivalsForSelection(index, selection, barangayFestivals)` — returns festivals for the current area
+- `festivalsForSelection(index, selection, barangayFestivals)` — returns festivals for the current area; barangay level uses `barangayPsgcMatches()` for NCR code alignment
 - `formatFestivalDate(f)` — human-readable date string
 
 ### `mapInteraction.js`
@@ -164,6 +166,8 @@ Converts PSA 9-digit PSGC codes (used in barangay fiesta data) to philippines-js
 PSA:  012802001  →  ADM: 102802001
       ^region digit swap in first two positions
 ```
+
+**NCR and other map/index mismatches:** Metro Manila municipalities use `1380…` codes in GeoJSON but barangay fiesta indexes use `317…` keys from PSA. `FIESTA_MUNICIPALITY_ALIASES` in `psgc.js` maps map-facing codes to fiesta index keys; `barangayPsgcMatches()` aligns barangay drill-down. Manila aggregates fiestas from sub-district keys (`313901…`) under `1380600000`. Built aliases are also stored in `barangay-fiestas.json` → `municipalityAliases` when you run `npm run data:build-barangay`.
 
 ### `mapStyle.js`
 
@@ -195,5 +199,7 @@ The production bundle is static HTML/JS/CSS. Host `dist/` on any static file ser
 | New festival source | `scripts/fetch-festivals.js`, then `npm run data:build` |
 | New map layer | `FiestaMap.jsx` layer stack + `syncSelectionToMap` |
 | Change click behavior | `mapInteraction.js` → `selectionFromMapClick` |
+| Country/region map styling (outline strokes) | `FiestaMap.jsx` → `applyHighlight` |
 | Change festival filtering | `festivalIndex.js` → `festivalsForSelection` |
+| NCR / HUC fiesta PSGC aliases | `src/lib/psgc.js`, `scripts/lib/fiesta-municipality-aliases.js`, then `npm run data:build-barangay` |
 | City without polygon | `constants.js` → `CITY_MAP_FOCUS` or HUC patch in `build-huc-boundaries.js` |

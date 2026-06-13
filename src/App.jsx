@@ -1,8 +1,6 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
-import { flushSync } from "react-dom";
 import FiestaMap from "./components/FiestaMap.jsx";
-import Sidebar from "./components/Sidebar.jsx";
-import {
+import Sidebar from "./components/Sidebar.jsx";import {
   loadManifest,
   loadFestivals,
   loadAllProvinces,
@@ -17,8 +15,7 @@ import {
   buildFestivalIndex,
   defaultBarangayFestival,
 } from "./lib/festivalIndex.js";
-import { boundsForSelection, selectionFromFestival } from "./lib/mapUtils.js";
-import { normalizePsgc } from "./lib/psgc.js";
+import { boundsForSelection, selectionFromFestival, selectionTargetKey } from "./lib/mapUtils.js";import { normalizePsgc } from "./lib/psgc.js";
 import "./App.css";
 
 export default function App() {
@@ -37,9 +34,10 @@ export default function App() {
   const [festivalSelectNotice, setFestivalSelectNotice] = useState(null);
   const selectionSeqRef = useRef(0);
   const autoSelectedBarangayRef = useRef(null);
+  const selectionRef = useRef(null);
   const provincesGeoJsonRef = useRef(null);
   provincesGeoJsonRef.current = provincesGeoJson;
-
+  selectionRef.current = selection;
   useEffect(() => {
     let cancelled = false;
 
@@ -95,7 +93,6 @@ export default function App() {
       return;
     }
 
-    setBarangayFestivals([]);
     setBarangayFestivalsLoading(true);
 
     loadBarangayFiestasForMunicipality(muniPsgc)
@@ -165,14 +162,16 @@ export default function App() {
   }, []);
 
   const applyMapSelection = useCallback(async (sel, { festivalId = null } = {}) => {
+    const nextKey = selectionTargetKey(sel, festivalId);
+    const currentKey = selectionTargetKey(selectionRef.current, activeFestivalId);
+    if (nextKey === currentKey) return;
+
     const seq = ++selectionSeqRef.current;
     setActiveFestivalId(festivalId);
     if (!festivalId) setFestivalSelectNotice(null);
     if (!sel) {
-      flushSync(() => {
-        setSelection(null);
-        setSelectionRevision((n) => n + 1);
-      });
+      setSelection(null);
+      setSelectionRevision((n) => n + 1);
       return;
     }
 
@@ -180,15 +179,12 @@ export default function App() {
     const immediateFlyBounds =
       boundsForSelection(normalized, provincesGeoJsonRef.current, null, null) ??
       normalized.flyBounds;
-    flushSync(() => {
-      setSelection({
-        ...normalized,
-        ...(festivalId ? { festivalId } : {}),
-        ...(immediateFlyBounds ? { flyBounds: immediateFlyBounds } : {}),
-      });
-      setSelectionRevision((n) => n + 1);
+    setSelection({
+      ...normalized,
+      ...(festivalId ? { festivalId } : {}),
+      ...(immediateFlyBounds ? { flyBounds: immediateFlyBounds } : {}),
     });
-
+    setSelectionRevision((n) => n + 1);
     try {
       let flyBounds = immediateFlyBounds;
       if (
@@ -223,8 +219,7 @@ export default function App() {
     } catch {
       // Selection already applied; bounds resolution is best-effort.
     }
-  }, [normalizeSelection]);
-
+  }, [normalizeSelection, activeFestivalId]);
   const handleRegionSelect = useCallback(
     (region) => {
       applyMapSelection({

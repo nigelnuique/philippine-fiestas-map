@@ -7,8 +7,9 @@ An interactive map of Philippine festivals and fiestas. Drill down from country 
 ## Features
 
 - **Five-level drill-down** on an admin-boundary map (region, province, municipality, barangay where data exists)
-- **Festival sidebar** filtered by the current selection; breadcrumb and chip pickers for navigation
+- **Festival sidebar** filtered by the current selection; chip pickers and a Philippines reset for navigation
 - **Click-to-explore** map interactions with sea-click to clear selection
+- **Region-colored country view** — at the overview zoom, regions are solid color blocks with no internal province grid lines
 - **HUC city patches** (Cebu City, Mandaue, Lapu-Lapu, etc.) merged from geoBoundaries where missing from source maps
 - **Data pipeline** that joins festival records to PSGC codes for geospatial filtering
 
@@ -61,6 +62,9 @@ npm run dev
 | `npm run data:build-barangay` | Build `barangay-fiestas.json` index |
 | `npm run data:build` | Build final `festivals.json` with PSGC joins |
 | `npm run data:analyze-missing-barangays` | Report municipalities missing barangay GeoJSON |
+| `npm run data:report-gaps` | Completeness dashboard (dates, geocoding, descriptions) |
+| `npm run data:audit-missing-dates` | Audit barangay feast dates for a municipality |
+| `npm run check:page` | HTTP smoke test for dev/preview server |
 | `npm run check:go-live` | Pre-deploy sanity checks |
 | `npm run check:e2e` | Map interaction smoke test (Playwright) |
 
@@ -127,7 +131,8 @@ Polygons use philippines-json-maps PSGC property names (`adm1_psgc` … `adm4_ps
 - [x] HUC municipality boundary patches
 - [x] Barangay patron fiesta stubs from PSGC (~42k)
 - [ ] Calendar view (date filter on same dataset)
-- [ ] Barangay feast dates and patron saint names (crowdsource / parish records)
+- [x] Barangay feast date backfill pipeline (LGU schedules, Wikipedia, patron-saint calendar — partial coverage)
+- [ ] Full barangay feast date coverage (~11% have month/day today)
 - [x] Barangay polygons for HUC cities (altcoder ADM4 patches; ~95% coverage)
 - [ ] Manila municipality polygon + remaining unmatched HUC barangays
 

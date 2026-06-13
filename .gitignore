@@ -18,4 +18,9 @@ public/data/
 # OS / editor
 .idea/
 .vscode/
+.cursor/
 *.swp
+
+# Playwright
+playwright-report/
+test-results/

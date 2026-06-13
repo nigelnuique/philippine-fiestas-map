@@ -1,5 +1,5 @@
 import { boundsFromFeature, mergeBounds } from "./mapUtils.js";
-import { municipalityIndexKeys, normalizePsgc } from "./psgc.js";
+import { municipalityIndexKeys, normalizePsgc, fiestaMunicipalityLookupKeys } from "./psgc.js";
 
 async function fetchJson(url, label) {
   const res = await fetch(url);
@@ -162,9 +162,24 @@ export async function loadBarangayFiestaIndex() {
 export function lookupMunicipalityIndex(index, municipalityPsgc) {
   if (!index || municipalityPsgc == null) return null;
   const byMuni = index.byMunicipalityPsgc ?? index;
-  for (const key of municipalityIndexKeys(municipalityPsgc)) {
+  const keys = fiestaMunicipalityLookupKeys(municipalityPsgc, byMuni);
+
+  if (keys.length > 1 && normalizePsgc(municipalityPsgc) === 1380600000) {
+    const merged = [];
+    const seen = new Set();
+    for (const key of keys) {
+      for (const f of byMuni[key] ?? []) {
+        if (seen.has(f.id)) continue;
+        seen.add(f.id);
+        merged.push(f);
+      }
+    }
+    return merged.length ? merged : null;
+  }
+
+  for (const key of keys) {
     const hit = byMuni[key];
-    if (hit) return hit;
+    if (hit?.length) return hit;
   }
   return null;
 }

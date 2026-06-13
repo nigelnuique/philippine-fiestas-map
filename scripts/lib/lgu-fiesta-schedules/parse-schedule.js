@@ -1,3 +1,5 @@
+import { normalizePlaceName } from "../barangay-psgc-index.js";
+
 const MONTHS = {
   jan: 1,
   feb: 2,
@@ -51,6 +53,43 @@ export function parseBarangayMuniLine(line) {
   return null;
 }
 
+/** Biliran Island schedule spellings → PSGC barangay names. */
+const BILIRAN_BARANGAY_ALIASES = {
+  kaulangohan: "Caulangohan (Marevil)",
+  "p i garcia": "Padre Inocentes Garcia (Pob.)",
+  "caray caray": "Caraycaray",
+  pinangomhan: "Pinangumhan",
+  "cabunga an": "Cabungaan",
+  palenque: "Palengke (Pob.)",
+  "binongto an": "Binongtoan",
+  iyusan: "Iyosan",
+  kansanoc: "Kansanok",
+  matanggo: "Matanga",
+};
+
+const SIARGAO_BARANGAY_ALIASES = {
+  dumoyog: "Domoyog",
+  "dona helen": "Helene",
+  songcoy: "Songkoy",
+  antilpolo: "Antipolo",
+  "neuvo campo": "Nuevo Campo",
+  corridor: "Corregidor",
+  monserrat: "Montserrat",
+  "bay ang": "Bayuin",
+  tambo: "Tangbo",
+  "buhing kalipay": "Buhing Calipay",
+};
+
+export function mapBiliranBarangay(name) {
+  const key = normalizePlaceName(name);
+  return BILIRAN_BARANGAY_ALIASES[key] ?? name.trim();
+}
+
+export function mapSiargaoBarangay(name) {
+  const key = normalizePlaceName(name);
+  return SIARGAO_BARANGAY_ALIASES[key] ?? name.trim();
+}
+
 export function parseSiargaoFiestaBlock(text) {
   const entries = [];
   const monthRe =
@@ -77,7 +116,7 @@ export function parseSiargaoFiestaBlock(text) {
       if (brgyMatch) {
         entries.push({
           ...lastDate,
-          barangay: brgyMatch[1].trim(),
+          barangay: mapSiargaoBarangay(brgyMatch[1].trim()),
           municipality: normalizeSiargaoMuni(brgyMatch[2]),
           dateSource: "lgu-siargao-islands",
         });
@@ -119,7 +158,7 @@ export function parseSiargaoFiestaBlock(text) {
       month: MONTHS[match[1].slice(0, 3).toLowerCase()],
       dayStart: Number(match[2]),
       dayEnd: Number(match[3]),
-      barangay: match[4].trim(),
+      barangay: mapSiargaoBarangay(match[4].trim()),
       municipality: normalizeSiargaoMuni(match[5]),
       dateSource: "lgu-siargao-islands",
     });
@@ -299,7 +338,7 @@ export function parseBiliranMayBlock(text) {
         month,
         dayStart,
         dayEnd,
-        barangay: parsed.barangay,
+        barangay: mapBiliranBarangay(parsed.barangay),
         municipality: parsed.municipality,
         dateSource: "lgu-biliran-latagaw",
       });

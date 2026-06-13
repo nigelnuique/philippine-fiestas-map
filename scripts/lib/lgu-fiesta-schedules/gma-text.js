@@ -27,3 +27,12 @@ November 15 Blessed Mary of the Passion Barangay S. Delas Alas
 November 27 Our Lady of Miraculous Medal Barangay P. Granados
 December 8 Immaculate Concepcion Barangay Poblacion 3
 `;
+
+/** Relative dates resolved at build time via parseDateFromRaw. */
+export const GMA_RELATIVE_FIESTA_SCHEDULE = [
+  { date: "3rd Sunday of May", barangay: "Francisco De Castro (Sunshine Vill.)", patronSaint: "Our Lady of Peace and Good Voyage" },
+  { date: "Last Sunday of May", barangay: "Inocencio Salud", patronSaint: "Virgin of the Poor" },
+  { date: "Last Sunday of May", barangay: "Aldiano Olaes", patronSaint: "Virgin of the Poor" },
+  { date: "Last Sunday of May", barangay: "Kapitan Kua (Area F)", patronSaint: "Virgin of the Poor" },
+  { date: "Last Sunday of December", barangay: "Barangay 2 Poblacion", patronSaint: "Holy Family" },
+];

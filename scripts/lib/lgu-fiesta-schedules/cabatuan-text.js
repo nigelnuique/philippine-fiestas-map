@@ -53,4 +53,50 @@ export const CABATUAN_FIESTA_SCHEDULE = [
   { date: "December 27", barangay: "Morobuan" },
   { date: "December 30", barangay: "Tigbauan Road" },
   { date: "December 31", barangay: "Tacdangan" },
+  // Parish patronal fiesta — cabatuan.com (San Nicolas de Tolentino Parish)
+  { date: "September 10", barangay: "Zone I Pob. (Barangay 1)" },
+  { date: "September 10", barangay: "Zone Ii Pob. (Barangay 2)" },
+  { date: "September 10", barangay: "Zone Iii Pob. (Barangay 3)" },
+  { date: "September 10", barangay: "Zone Iv Pob. (Barangay 4)" },
+  { date: "September 10", barangay: "Zone V Pob. (Barangay 5)" },
+  { date: "September 10", barangay: "Zone Vi Pob. (Barangay 6 )" },
+  { date: "September 10", barangay: "Zone Vii Pob. (Barangay 7)" },
+  { date: "September 10", barangay: "Zone Viii Pob. (Barangay 8)" },
+  { date: "September 10", barangay: "Zone Ix Pob. (Barangay 9)" },
+  { date: "September 10", barangay: "Zone X Pob. (Barangay 10)" },
+  { date: "September 10", barangay: "Zone Xi Pob. (Barangay 11)" },
+];
+
+/**
+ * Our Lady of Candles Parish (Jelicuon) — parish territory barangays.
+ * Source: theoldchurches.com (Jaro ACCCE parish fiesta series, Feb 9, 2022).
+ */
+export const CABATUAN_OLC_PARISH_SCHEDULE = [
+  { date: "February 9", barangay: "Anuang", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Balabag", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Cadoldolan", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Cagban", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Calawagan", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Inaladan", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Janipaan Central", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Janipaan Este", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Janipaan Oeste", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Janipaan Olo", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Jelicuon Lusaya", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Jelicuon Montinola", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Pacatin", patronSaint: "Our Lady of Candles" },
+  { date: "February 9", barangay: "Puyas", patronSaint: "Our Lady of Candles" },
+];
+
+export const CABATUAN_OLC_PARISH_DATE_SOURCE =
+  "parish-our-lady-of-candles-jelicuon-cabatuan";
+
+/** Curated online — not on San Nicolas parish chapel schedule */
+export const CABATUAN_CURATED_SCHEDULE = [
+  {
+    date: "December 29",
+    barangay: "Banguit",
+    dateSource: "curated-online-banguit-cabatuan-ig",
+    note: "On-day Happy Fiesta Banguit Cabatuan IG reel (Dec 29, 2025)",
+  },
 ];

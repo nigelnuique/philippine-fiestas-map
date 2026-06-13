@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fetchedAt": "2026-06-12T22:57:34.721Z",
+  "fetchedAt": "2026-06-13T01:17:35.424Z",
   "sources": {
     "dagupan": {
       "url": "https://www.dagupan.gov.ph/the-city/calendar-of-activities/",
@@ -23,6 +23,20 @@
         "Cangtugbas / Maria",
         "Licoan / Maria"
       ]
+    },
+    "magallanes": {
+      "url": "https://magallanessorsogon.gov.ph/",
+      "entries": 46,
+      "matched": 46,
+      "missed": 0,
+      "missedSamples": []
+    },
+    "santaBarbara": {
+      "url": "https://santa-barbara-iloilo.gov.ph/about/",
+      "entries": 60,
+      "matched": 60,
+      "missed": 0,
+      "missedSamples": []
     }
   },
   "byPsgc": {
@@ -853,6 +867,480 @@
       "month": 12,
       "dayStart": 18,
       "dateSource": "lgu-siquijor-secrets"
+    },
+    "056211028": {
+      "month": 6,
+      "dayStart": 16,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211007": {
+      "month": 2,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211004": {
+      "month": 4,
+      "dayStart": 1,
+      "dayEnd": 30,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211002": {
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211031": {
+      "month": 9,
+      "dayStart": 20,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211029": {
+      "month": 8,
+      "dayStart": 8,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211021": {
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211013": {
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211018": {
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211030": {
+      "month": 5,
+      "dayStart": 14,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211023": {
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211027": {
+      "month": 6,
+      "dayStart": 5,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211017": {
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211033": {
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211014": {
+      "month": 8,
+      "dayStart": 20,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211012": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211020": {
+      "month": 5,
+      "dayStart": 27,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211010": {
+      "month": 5,
+      "dayStart": 29,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211034": {
+      "month": 6,
+      "dayStart": 3,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211015": {
+      "month": 8,
+      "dayStart": 4,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211011": {
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211032": {
+      "month": 6,
+      "dayStart": 26,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211024": {
+      "month": 8,
+      "dayStart": 12,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211006": {
+      "month": 8,
+      "dayStart": 1,
+      "dayEnd": 31,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211026": {
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211022": {
+      "month": 8,
+      "dayStart": 17,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211003": {
+      "month": 8,
+      "dayStart": 25,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211005": {
+      "month": 10,
+      "dayStart": 18,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211016": {
+      "month": 10,
+      "dayStart": 17,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211008": {
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211019": {
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211009": {
+      "month": 11,
+      "dayStart": 3,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211025": {
+      "month": 11,
+      "dayStart": 30,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211001": {
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "063043001": {
+      "month": 3,
+      "dayStart": 21,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043002": {
+      "month": 10,
+      "dayStart": 31,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043003": {
+      "month": 4,
+      "dayStart": 11,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043004": {
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043005": {
+      "month": 2,
+      "dayStart": 7,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043006": {
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043007": {
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043008": {
+      "month": 12,
+      "dayStart": 29,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043014": {
+      "month": 1,
+      "dayStart": 10,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043015": {
+      "month": 1,
+      "dayStart": 17,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043016": {
+      "month": 10,
+      "dayStart": 17,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043017": {
+      "month": 3,
+      "dayStart": 21,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043018": {
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043019": {
+      "month": 9,
+      "dayStart": 26,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043020": {
+      "month": 2,
+      "dayStart": 14,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043021": {
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043022": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043023": {
+      "month": 3,
+      "dayStart": 28,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043024": {
+      "month": 1,
+      "dayStart": 10,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043025": {
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043026": {
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043027": {
+      "month": 3,
+      "dayStart": 7,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043028": {
+      "month": 2,
+      "dayStart": 14,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043029": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043030": {
+      "month": 3,
+      "dayStart": 14,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043032": {
+      "month": 2,
+      "dayStart": 7,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043033": {
+      "month": 2,
+      "dayStart": 21,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043034": {
+      "month": 1,
+      "dayStart": 6,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043035": {
+      "month": 3,
+      "dayStart": 29,
+      "dayEnd": 5,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043036": {
+      "month": 1,
+      "dayStart": 1,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043037": {
+      "month": 12,
+      "dayStart": 30,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043038": {
+      "month": 3,
+      "dayStart": 21,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043039": {
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043040": {
+      "month": 3,
+      "dayStart": 14,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043041": {
+      "month": 12,
+      "dayStart": 25,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043042": {
+      "month": 5,
+      "dayStart": 23,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043043": {
+      "month": 2,
+      "dayStart": 21,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043044": {
+      "month": 1,
+      "dayStart": 17,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043045": {
+      "month": 2,
+      "dayStart": 21,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043046": {
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043047": {
+      "month": 1,
+      "dayStart": 3,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043048": {
+      "month": 4,
+      "dayStart": 18,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043049": {
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043050": {
+      "month": 4,
+      "dayStart": 27,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043051": {
+      "month": 2,
+      "dayStart": 7,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043052": {
+      "month": 1,
+      "dayStart": 20,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043053": {
+      "month": 4,
+      "dayStart": 11,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043054": {
+      "month": 8,
+      "dayStart": 15,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043055": {
+      "month": 5,
+      "dayStart": 14,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043056": {
+      "month": 12,
+      "dayStart": 29,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043057": {
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043058": {
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043059": {
+      "month": 1,
+      "dayStart": 3,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043060": {
+      "month": 4,
+      "dayStart": 11,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043009": {
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043010": {
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043011": {
+      "month": 11,
+      "dayStart": 28,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043012": {
+      "month": 10,
+      "dayStart": 17,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043013": {
+      "month": 6,
+      "dayStart": 20,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
+    },
+    "063043061": {
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-santa-barbara-iloilo-gov-ph"
     }
   }
 }

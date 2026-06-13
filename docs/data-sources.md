@@ -12,7 +12,7 @@ This document describes **what data** the Philippine Fiestas Map uses, **where i
 | Admin names & PSGC codes | Full PH hierarchy | [xemasiv/psgc2](https://github.com/xemasiv/psgc2) | `git clone` → `fetch-psgc.js` |
 | Named festivals | ~1,000+ | TPB, Wikipedia, curated seeds | Web scrape + manual curation |
 | Barangay patron fiestas | ~42,044 | PSGC barangay list (psgc2) | Generated from `raw.json` hierarchy |
-| Barangay fiesta dates | ~10% with dates | LGU schedules, patron-saint calendar, optional Wikipedia | Inference + curated imports (see below) |
+| Barangay fiesta dates | ~11% with dates | LGU schedules, patron-saint calendar, optional Wikipedia | Inference + curated imports (see below) |
 
 The app code is MIT-licensed. **Each upstream dataset has its own license** — see [Attribution and licenses](#attribution-and-licenses).
 
@@ -119,9 +119,10 @@ Re-run `npm run data:fetch-boundaries && npm run map:sync` after PSGC updates. A
 | Format | Example | Used in |
 |--------|---------|---------|
 | **PSA** (9-digit, leading `0`) | `072230000` | psgc2, barangay fiesta records |
-| **ADM** (philippines-json-maps) | `702230000` | GeoJSON properties, map selection |
+| **ADM** (philippines-json-maps) | `702230000` | GeoJSON properties, map selection (most areas) |
+| **NCR map ADM** (10-digit) | `1380300000` | Metro Manila GeoJSON; aliases to `317602000` fiesta index keys |
 
-Conversion is implemented in `src/lib/psgc.js` (`psaToAdm`, `normalizePsgc`).
+Conversion is implemented in `src/lib/psgc.js` (`psaToAdm`, `normalizePsgc`, `FIESTA_MUNICIPALITY_ALIASES`, `barangayPsgcMatches`).
 
 ---
 
@@ -203,7 +204,7 @@ PSGC provides **names and codes**, not feast dates or patron saint names for mos
 
 | Priority | Method | Source | `dateSource` field |
 |----------|--------|--------|-------------------|
-| 1 | Curated overrides + LGU schedules | `barangay-fiesta-date-overrides.js`, `lgu-fiesta-schedules/` | `lgu-magallanes-sorsogon`, `lgu-siargao-islands`, etc. |
+| 1 | Curated overrides + LGU schedules | `barangay-fiesta-date-overrides.js` (sparse), `lgu-fiesta-schedules/` | `lgu-magallanes-sorsogon`, `lgu-siargao-islands`, etc. |
 | 2 | Wikipedia search cache | `scripts/enrich-barangay-fiesta-dates-online.js` | `wikipedia-search` |
 | 3 | Patron-saint inference | `scripts/lib/patron-saint-calendar.js` | `patron-saint-calendar` |
 
@@ -215,7 +216,7 @@ PSGC provides **names and codes**, not feast dates or patron saint names for mos
 | Biliran Province | Island + travel calendars | [biliranisland.com/festivals](https://www.biliranisland.com/festivals/), [latagaw.com May guide](https://latagaw.com/complete-guide-month-of-may-fiesta-schedules-biliran-province/) |
 | Dagupan City, Pangasinan | Official city calendar | [dagupan.gov.ph](https://www.dagupan.gov.ph/the-city/calendar-of-activities/) |
 | Siquijor Province | Province-wide guide | [siquijor-secrets.com/siquijor-fiestas](https://siquijor-secrets.com/siquijor-fiestas/) |
-| Magallanes, Sorsogon | LGU feast-day table | [magallanessorsogon.gov.ph](https://magallanessorsogon.gov.ph) (29 barangays, hand-entered) |
+| Magallanes, Sorsogon | LGU feast-day table (HTML parser) | [magallanessorsogon.gov.ph](https://magallanessorsogon.gov.ph) → `data/raw/lgu-schedules/magallanes-fiestas.html` |
 | General Mariano Alvarez, Cavite | Official city page | [genmarianoalvarez.gov.ph/barangay-feast](https://genmarianoalvarez.gov.ph/barangay-feast/) |
 
 **Patron-saint calendar**
@@ -225,7 +226,7 @@ For barangays named after saints (e.g. San Roque, Santa Cruz), feast days are in
 **Coverage (approximate)**
 
 - ~42,044 barangay fiesta records total
-- ~10% have month/day after backfill
+- ~11% have month/day after backfill
 - Remaining records show name and location only until more LGU/parish data is added
 
 Optional Wikipedia batch enrichment:

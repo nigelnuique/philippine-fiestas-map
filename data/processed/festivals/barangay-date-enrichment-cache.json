@@ -3,7 +3,7 @@
   "entries": {
     "bgy-012801001": {
       "notFound": true,
-      "checkedAt": "2026-06-12T14:57:17.970Z"
+      "checkedAt": "2026-06-12T23:10:09.417Z"
     },
     "bgy-012802001": {
       "month": 12,
@@ -15,7 +15,7 @@
     },
     "bgy-012802002": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:25:00.086Z"
+      "checkedAt": "2026-06-12T23:11:11.837Z"
     },
     "bgy-012802003": {
       "month": 12,
@@ -27,35 +27,35 @@
     },
     "bgy-012802004": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:26:04.709Z"
+      "checkedAt": "2026-06-12T23:12:18.394Z"
     },
     "bgy-012802005": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:58:15.750Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:12:33.129Z"
     },
     "bgy-012802006": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:27:09.533Z"
+      "checkedAt": "2026-06-12T23:14:12.143Z"
     },
     "bgy-012802007": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:59:13.751Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:14:27.144Z"
     },
     "bgy-012802008": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:28:14.281Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:15:14.443Z"
     },
     "bgy-012802009": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:00:14.799Z"
+      "checkedAt": "2026-06-12T23:16:13.181Z"
     },
     "bgy-012802011": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:01:16.033Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:17:00.345Z"
     },
     "bgy-012802012": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:29:59.982Z"
+      "checkedAt": "2026-06-12T23:18:03.121Z"
     },
     "bgy-012802013": {
       "month": 12,
@@ -66,40 +66,40 @@
       "query": "\"Libtong\" \"Bacarra\" Philippines barangay"
     },
     "bgy-012802014": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:31:04.513Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:18:17.579Z"
     },
     "bgy-012802015": {
-      "notFound": true,
-      "checkedAt": "2026-06-12T15:01:26.919Z"
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:19:18.071Z"
     },
     "bgy-012802016": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:32:09.430Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:19:32.784Z"
     },
     "bgy-012802017": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:02:24.732Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:20:16.634Z"
     },
     "bgy-012802018": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:01:14.217Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:21:03.668Z"
     },
     "bgy-012802019": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:33:14.268Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:21:18.441Z"
     },
     "bgy-012802020": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:03:57.967Z"
+      "checkedAt": "2026-06-12T23:22:17.910Z"
     },
     "bgy-012802021": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:04:59.087Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:22:32.661Z"
     },
     "bgy-012802022": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:34:59.873Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:23:20.085Z"
     },
     "bgy-012802042": {
       "month": 10,
@@ -110,20 +110,24 @@
       "query": "\"Sangil\" \"Bacarra\" Philippines barangay"
     },
     "bgy-012802050": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:36:05.224Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:24:07.307Z"
     },
     "bgy-012802051": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:06:00.192Z"
+      "checkedAt": "2026-06-12T23:25:05.931Z"
     },
     "bgy-012802052": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:37:10.055Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:25:20.469Z"
     },
     "bgy-012803001": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:38:10.599Z"
+      "month": 10,
+      "dayStart": 18,
+      "dayEnd": 18,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Badoc",
+      "query": "Barangay Alay-Nangbabaan (Alay 15-B) Badoc Philippines"
     },
     "bgy-012803002": {
       "month": 10,
@@ -135,7 +139,7 @@
     },
     "bgy-012803003": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:39:15.207Z"
+      "checkedAt": "2026-06-12T23:27:07.526Z"
     },
     "bgy-012803004": {
       "month": 10,
@@ -146,68 +150,68 @@
       "query": "\"Aring\" \"Badoc\" Philippines barangay"
     },
     "bgy-012803005": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:06:58.466Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:27:22.330Z"
     },
     "bgy-012803006": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:41:00.840Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:28:07.720Z"
     },
     "bgy-012803007": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:07:59.512Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:28:25.599Z"
     },
     "bgy-012803008": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:42:05.947Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:29:14.225Z"
     },
     "bgy-012803009": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:09:00.612Z"
+      "checkedAt": "2026-06-12T23:30:17.449Z"
     },
     "bgy-012803011": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:43:10.749Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:30:32.037Z"
     },
     "bgy-012803012": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:09:58.828Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:31:19.122Z"
     },
     "bgy-012803013": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:44:15.497Z"
+      "checkedAt": "2026-06-12T23:32:17.954Z"
     },
     "bgy-012803016": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:10:59.870Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:32:32.804Z"
     },
     "bgy-012803017": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:12:00.907Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:33:20.011Z"
     },
     "bgy-012803018": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:46:02.049Z"
+      "checkedAt": "2026-06-12T23:34:18.627Z"
     },
     "bgy-012803020": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:13:01.978Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:35:06.227Z"
     },
     "bgy-012803021": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:47:06.797Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:35:20.673Z"
     },
     "bgy-012803022": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:13:59.742Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:36:07.732Z"
     },
     "bgy-012803023": {
       "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T14:48:11.791Z"
+      "checkedAt": "2026-06-12T23:37:06.344Z"
     },
     "bgy-012803025": {
-      "error": "Wikipedia API rate limited",
-      "checkedAt": "2026-06-12T15:15:04.114Z"
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:37:21.005Z"
     },
     "bgy-012803026": {
       "error": "Wikipedia API rate limited",
@@ -488,7 +492,1011 @@
     "bgy-012806005": {
       "notFound": true,
       "checkedAt": "2026-06-12T23:07:05.722Z"
+    },
+    "bgy-063001001": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:39:05.787Z"
+    },
+    "bgy-063001002": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:39:21.185Z"
+    },
+    "bgy-063001003": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:40:18.448Z"
+    },
+    "bgy-063001004": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:41:06.239Z"
+    },
+    "bgy-063001005": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:41:22.096Z"
+    },
+    "bgy-063001006": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:42:04.474Z"
+    },
+    "bgy-063001007": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:42:17.374Z"
+    },
+    "bgy-063001008": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:43:16.492Z"
+    },
+    "bgy-063001009": {
+      "month": 3,
+      "dayStart": 4,
+      "dayEnd": 4,
+      "dateSource": "wikipedia-search",
+      "wikiTitle": "Central Philippine University",
+      "query": "Culasi Ajuy feast day patron"
+    },
+    "bgy-063001010": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:45:03.142Z"
+    },
+    "bgy-063001011": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:45:13.427Z"
+    },
+    "bgy-063001012": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:46:10.721Z"
+    },
+    "bgy-063001013": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:47:14.934Z"
+    },
+    "bgy-063001014": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:48:16.215Z"
+    },
+    "bgy-063001015": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:49:02.076Z"
+    },
+    "bgy-063001016": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:50:03.359Z"
+    },
+    "bgy-063001017": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:51:07.853Z"
+    },
+    "bgy-063001018": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:51:17.821Z"
+    },
+    "bgy-063001019": {
+      "error": "Wikipedia API rate limited",
+      "checkedAt": "2026-06-12T23:52:15.153Z"
+    },
+    "bgy-063001020": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:53:00.968Z"
+    },
+    "bgy-063001021": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:54:04.292Z"
+    },
+    "bgy-063001022": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:54:14.959Z"
+    },
+    "bgy-063001023": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:55:15.944Z"
+    },
+    "bgy-063001024": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:56:16.776Z"
+    },
+    "bgy-063001025": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:57:17.910Z"
+    },
+    "bgy-063001026": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:58:18.991Z"
+    },
+    "bgy-063001028": {
+      "notFound": true,
+      "checkedAt": "2026-06-12T23:59:20.109Z"
+    },
+    "bgy-063001030": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:00:21.088Z"
+    },
+    "bgy-063001031": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:01:22.117Z"
+    },
+    "bgy-063001032": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:02:23.167Z"
+    },
+    "bgy-063001033": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:03:24.155Z"
+    },
+    "bgy-063002001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:07:14.112Z"
+    },
+    "bgy-063002002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:09:05.720Z"
+    },
+    "bgy-063002003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:09:16.385Z"
+    },
+    "bgy-063002004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:10:17.512Z"
+    },
+    "bgy-063002005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:11:18.596Z"
+    },
+    "bgy-063002006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:12:19.577Z"
+    },
+    "bgy-063002007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:13:20.690Z"
+    },
+    "bgy-063002008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:14:21.943Z"
+    },
+    "bgy-063002009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:15:23.003Z"
+    },
+    "bgy-063002010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:16:23.887Z"
+    },
+    "bgy-063002011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:17:26.024Z"
+    },
+    "bgy-063002014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:21:15.905Z"
+    },
+    "bgy-063002015": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:22:17.129Z"
+    },
+    "bgy-063002017": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:23:18.352Z"
+    },
+    "bgy-063002018": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:24:19.759Z"
+    },
+    "bgy-063002019": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:26:11.318Z"
+    },
+    "bgy-063002020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:26:21.912Z"
+    },
+    "bgy-063002021": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:27:22.959Z"
+    },
+    "bgy-063002023": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:31:12.682Z"
+    },
+    "bgy-063002024": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:32:13.557Z"
+    },
+    "bgy-063002025": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:32:24.127Z"
+    },
+    "bgy-063002026": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:33:25.228Z"
+    },
+    "bgy-063002028": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:37:15.502Z"
+    },
+    "bgy-063002029": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:38:16.792Z"
+    },
+    "bgy-063002030": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:39:18.016Z"
+    },
+    "bgy-063002032": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:42:19.815Z"
+    },
+    "bgy-063002033": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:43:20.687Z"
+    },
+    "bgy-063002034": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:45:12.659Z"
+    },
+    "bgy-063002035": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:46:13.522Z"
+    },
+    "bgy-063002036": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:47:14.993Z"
+    },
+    "bgy-063002037": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:48:16.474Z"
+    },
+    "bgy-063002038": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:49:17.634Z"
+    },
+    "bgy-063002039": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:50:18.880Z"
+    },
+    "bgy-063002041": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:51:19.914Z"
+    },
+    "bgy-063002043": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:54:21.562Z"
+    },
+    "bgy-063002045": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:57:21.175Z"
+    },
+    "bgy-063002046": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:58:22.268Z"
+    },
+    "bgy-063002047": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T00:59:23.249Z"
+    },
+    "bgy-063002048": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:00:24.186Z"
+    },
+    "bgy-063002049": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:02:15.883Z"
+    },
+    "bgy-063002050": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:03:16.945Z"
+    },
+    "bgy-063002051": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:04:17.908Z"
+    },
+    "bgy-063002052": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:05:18.994Z"
+    },
+    "bgy-063002053": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:06:20.019Z"
+    },
+    "bgy-063002054": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:06:30.687Z"
+    },
+    "bgy-063003001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:07:06.816Z"
+    },
+    "bgy-063003002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:07:17.204Z"
+    },
+    "bgy-063003003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:08:18.546Z"
+    },
+    "bgy-063003004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:08:29.860Z"
+    },
+    "bgy-063003005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:09:05.771Z"
+    },
+    "bgy-063003006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:09:16.290Z"
+    },
+    "bgy-063003007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:10:18.309Z"
+    },
+    "bgy-063003009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:14:09.643Z"
+    },
+    "bgy-063003010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:14:20.032Z"
+    },
+    "bgy-063003011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:16:11.440Z"
+    },
+    "bgy-063003012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T01:16:22.041Z"
+    },
+    "bgy-063001034": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:39:04.284Z"
+    },
+    "bgy-063002042": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:39:10.302Z"
+    },
+    "bgy-063002044": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:39:16.254Z"
+    },
+    "bgy-063003008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:39:22.202Z"
+    },
+    "bgy-063003013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:39:28.129Z"
+    },
+    "bgy-063003014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:40:24.107Z"
+    },
+    "bgy-063003015": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:40:30.152Z"
+    },
+    "bgy-063003020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:40:36.102Z"
+    },
+    "bgy-063003021": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:40:42.092Z"
+    },
+    "bgy-063004001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:40:48.033Z"
+    },
+    "bgy-063004002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:41:02.541Z"
+    },
+    "bgy-063004003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:41:08.469Z"
+    },
+    "bgy-063004004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:41:14.487Z"
+    },
+    "bgy-063004005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:41:20.408Z"
+    },
+    "bgy-063004006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:41:26.326Z"
+    },
+    "bgy-063004007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:42:21.979Z"
+    },
+    "bgy-063004008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:42:27.908Z"
+    },
+    "bgy-063004009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:42:33.877Z"
+    },
+    "bgy-063004010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:42:39.786Z"
+    },
+    "bgy-063004011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:42:45.693Z"
+    },
+    "bgy-063004012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:43:16.844Z"
+    },
+    "bgy-063004013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:43:22.754Z"
+    },
+    "bgy-063004014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:43:28.667Z"
+    },
+    "bgy-063004015": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:43:34.562Z"
+    },
+    "bgy-063004016": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:43:40.523Z"
+    },
+    "bgy-063004017": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:44:11.607Z"
+    },
+    "bgy-063004018": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:44:17.533Z"
+    },
+    "bgy-063004019": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:44:23.501Z"
+    },
+    "bgy-063004020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:44:29.445Z"
+    },
+    "bgy-063004021": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:44:35.412Z"
+    },
+    "bgy-063004022": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:45:06.649Z"
+    },
+    "bgy-063004024": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:45:12.617Z"
+    },
+    "bgy-063004025": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:45:18.554Z"
+    },
+    "bgy-063004026": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:45:24.475Z"
+    },
+    "bgy-063004027": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T04:45:30.436Z"
+    },
+    "bgy-063004028": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:08:46.445Z"
+    },
+    "bgy-063004029": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:08:52.434Z"
+    },
+    "bgy-063004030": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:08:58.371Z"
+    },
+    "bgy-063004031": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:09:04.252Z"
+    },
+    "bgy-063005001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:09:10.193Z"
+    },
+    "bgy-063005002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:09:16.299Z"
+    },
+    "bgy-063005003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:09:22.255Z"
+    },
+    "bgy-063005004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:09:28.260Z"
+    },
+    "bgy-063005005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:10:25.171Z"
+    },
+    "bgy-063005006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:10:31.125Z"
+    },
+    "bgy-063005007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:10:37.065Z"
+    },
+    "bgy-063005008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:10:42.959Z"
+    },
+    "bgy-063005009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:10:48.930Z"
+    },
+    "bgy-063005010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:11:03.493Z"
+    },
+    "bgy-063005011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:11:09.403Z"
+    },
+    "bgy-063005012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:11:15.402Z"
+    },
+    "bgy-063005013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:11:21.350Z"
+    },
+    "bgy-063005014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:11:27.322Z"
+    },
+    "bgy-063005015": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:12:22.921Z"
+    },
+    "bgy-063005016": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:12:28.875Z"
+    },
+    "bgy-063005017": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:12:34.831Z"
+    },
+    "bgy-063005018": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:12:40.871Z"
+    },
+    "bgy-063005019": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:12:46.817Z"
+    },
+    "bgy-063005020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:13:17.905Z"
+    },
+    "bgy-063005022": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:13:23.811Z"
+    },
+    "bgy-063005023": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:13:29.748Z"
+    },
+    "bgy-063006003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:13:35.765Z"
+    },
+    "bgy-063006005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:13:41.773Z"
+    },
+    "bgy-063006006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:14:13.107Z"
+    },
+    "bgy-063006007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:14:19.123Z"
+    },
+    "bgy-063006008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:30:13.348Z"
+    },
+    "bgy-063006010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:30:19.352Z"
+    },
+    "bgy-063006012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:30:25.351Z"
+    },
+    "bgy-063006013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:30:31.382Z"
+    },
+    "bgy-063006018": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:30:37.387Z"
+    },
+    "bgy-063006020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:31:08.785Z"
+    },
+    "bgy-063006022": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:31:14.972Z"
+    },
+    "bgy-063006023": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:31:20.991Z"
+    },
+    "bgy-063006024": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:31:27.065Z"
+    },
+    "bgy-063006025": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:31:33.238Z"
+    },
+    "bgy-063006027": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:32:04.390Z"
+    },
+    "bgy-063006028": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:32:10.477Z"
+    },
+    "bgy-063006029": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:32:16.364Z"
+    },
+    "bgy-063007001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:32:22.319Z"
+    },
+    "bgy-063007002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:32:28.288Z"
+    },
+    "bgy-063007003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:33:24.080Z"
+    },
+    "bgy-063007004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:33:30.025Z"
+    },
+    "bgy-063007005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:33:35.985Z"
+    },
+    "bgy-063007006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:33:41.958Z"
+    },
+    "bgy-063007007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:33:47.879Z"
+    },
+    "bgy-063007008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:34:02.573Z"
+    },
+    "bgy-063007009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:34:08.551Z"
+    },
+    "bgy-063007010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:34:14.451Z"
+    },
+    "bgy-063007011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:34:20.450Z"
+    },
+    "bgy-063007012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:34:26.475Z"
+    },
+    "bgy-063007013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:35:22.300Z"
+    },
+    "bgy-063007014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:35:28.401Z"
+    },
+    "bgy-063007015": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:35:34.352Z"
+    },
+    "bgy-063007016": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:35:40.296Z"
+    },
+    "bgy-063007017": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:35:46.344Z"
+    },
+    "bgy-063007018": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:36:17.559Z"
+    },
+    "bgy-063007019": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:36:23.551Z"
+    },
+    "bgy-063007020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:36:29.537Z"
+    },
+    "bgy-063007021": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:36:35.611Z"
+    },
+    "bgy-063007022": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:36:41.575Z"
+    },
+    "bgy-063007023": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:54:56.713Z"
+    },
+    "bgy-063007024": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:55:06.926Z"
+    },
+    "bgy-063007025": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:55:17.103Z"
+    },
+    "bgy-063007026": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:55:27.397Z"
+    },
+    "bgy-063007027": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:55:37.590Z"
+    },
+    "bgy-063007028": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:55:47.934Z"
+    },
+    "bgy-063007029": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:56:06.709Z"
+    },
+    "bgy-063008002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:56:16.893Z"
+    },
+    "bgy-063008004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:56:27.094Z"
+    },
+    "bgy-063008005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:56:37.541Z"
+    },
+    "bgy-063008006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:56:47.868Z"
+    },
+    "bgy-063008007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:57:06.751Z"
+    },
+    "bgy-063008009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:57:17.135Z"
+    },
+    "bgy-063008010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:57:27.322Z"
+    },
+    "bgy-063008011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:57:37.516Z"
+    },
+    "bgy-063008012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:57:48.107Z"
+    },
+    "bgy-063008013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:58:06.922Z"
+    },
+    "bgy-063008014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:58:17.227Z"
+    },
+    "bgy-063008016": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:58:27.522Z"
+    },
+    "bgy-063008017": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:58:37.848Z"
+    },
+    "bgy-063008030": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:58:48.143Z"
+    },
+    "bgy-063008033": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:59:06.864Z"
+    },
+    "bgy-063008034": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:59:17.091Z"
+    },
+    "bgy-063009001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:59:27.272Z"
+    },
+    "bgy-063009002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:59:37.416Z"
+    },
+    "bgy-063009003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T05:59:47.572Z"
+    },
+    "bgy-063009004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:00:06.446Z"
+    },
+    "bgy-063009005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:00:16.657Z"
+    },
+    "bgy-063009006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:00:26.871Z"
+    },
+    "bgy-063009007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:00:37.054Z"
+    },
+    "bgy-063009008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:00:47.174Z"
+    },
+    "bgy-063009009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:01:05.896Z"
+    },
+    "bgy-063009011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:01:16.199Z"
+    },
+    "bgy-063009012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:01:26.424Z"
+    },
+    "bgy-063009013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:01:36.576Z"
+    },
+    "bgy-063009014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:31:02.766Z"
+    },
+    "bgy-063009015": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:31:11.983Z"
+    },
+    "bgy-063009016": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:31:21.141Z"
+    },
+    "bgy-063009017": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:31:30.343Z"
+    },
+    "bgy-063009018": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:31:39.548Z"
+    },
+    "bgy-063009019": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:32:13.976Z"
+    },
+    "bgy-063009020": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:32:23.250Z"
+    },
+    "bgy-063009021": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:32:32.459Z"
+    },
+    "bgy-063009022": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:32:41.692Z"
+    },
+    "bgy-063009024": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:32:50.995Z"
+    },
+    "bgy-063009025": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:33:08.751Z"
+    },
+    "bgy-063010001": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:33:18.024Z"
+    },
+    "bgy-063010002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:33:27.299Z"
+    },
+    "bgy-063010003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:33:36.525Z"
+    },
+    "bgy-063010004": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:33:45.783Z"
+    },
+    "bgy-063010005": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:34:03.520Z"
+    },
+    "bgy-063010006": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:34:12.740Z"
+    },
+    "bgy-063010007": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:34:21.998Z"
+    },
+    "bgy-063010008": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:34:31.191Z"
+    },
+    "bgy-063010009": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:34:40.387Z"
+    },
+    "bgy-063010010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:35:14.812Z"
+    },
+    "bgy-063010011": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:35:24.234Z"
+    },
+    "bgy-063010012": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:35:33.451Z"
+    },
+    "bgy-063010013": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:35:42.712Z"
+    },
+    "bgy-063010014": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:35:51.958Z"
+    },
+    "bgy-063012010": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:36:09.739Z"
+    },
+    "bgy-063013002": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:36:18.835Z"
+    },
+    "bgy-063013003": {
+      "notFound": true,
+      "checkedAt": "2026-06-13T06:36:27.979Z"
     }
   },
-  "updatedAt": "2026-06-12T14:08:12.218Z"
+  "updatedAt": "2026-06-13T06:36:32.992Z"
 }

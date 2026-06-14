@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:07:38.254Z",
+  "generatedAt": "2026-06-14T12:18:40.653Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269793,7 +269793,11 @@
       "municipalityPsgcPsa": "063020000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gerona-Gimeno (Pob.), Guimbal."
+      "description": "Barangay patronal fiesta for Gerona-Gimeno (Pob.), Guimbal.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-san-nicolas-de-tolentino-guimbal",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-063020019",
@@ -271902,7 +271906,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Marcelo H. Del Pilar, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Marcelo H. Del Pilar, City Of Iloilo (Capital).",
+      "month": 10,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-nuestra-senora-del-pilar-church-jaro",
+      "patronSaint": "Nuestra Señora del Pilar"
     },
     {
       "id": "bgy-063022107",
@@ -572347,15 +572355,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T12:07:38.254Z",
+    "appliedAt": "2026-06-14T12:18:40.653Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4196,
-      "fromOverride": 2398,
+      "fromOverride": 2400,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35450
+      "stillMissing": 35448
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572414,8 +572422,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 31,
-        "matched": 31,
+        "entries": 32,
+        "matched": 32,
         "missed": 0
       },
       "tarlac": {
@@ -572719,8 +572727,8 @@
         "missed": 0
       },
       "iloiloProvinceTheoldchurches": {
-        "entries": 31,
-        "matched": 31,
+        "entries": 32,
+        "matched": 32,
         "missed": 0
       },
       "leyteTheoldchurches": {

@@ -690,7 +690,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "54/180 dated: on-day YouTube (Lanit, Lapuz Norte, Quintin Salas, Rizal Estanzuela, Railway) + TheOldChurches (North/South Fundidor, Luna La Paz, Sambag, Lopez Jaena Norte) and prior curated rows",
+    notes: "55/180 dated: on-day YouTube + TheOldChurches (Marcelo H. Del Pilar Oct 12, North/South Fundidor, Luna La Paz, Sambag, Lopez Jaena Norte) and prior curated rows",
   },
   {
     id: "mulanay-curated",
@@ -720,7 +720,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-iloilo-province",
-    notes: "TheOldChurches 1:1 parish address matches: Batad, Dingle, Calinog (2), Pototan (4), Janiuay, Maasin Iloilo, Passi (2), San Joaquin (2), Alimodian, Leon, Barotac Nuevo, Banate, Barotac Viejo",
+    notes: "TheOldChurches 1:1 parish address matches: Batad, Dingle, Calinog (2), Pototan (4), Janiuay, Maasin Iloilo, Passi (2), San Joaquin (2), Alimodian, Leon, Barotac Nuevo, Banate, Barotac Viejo, Guimbal Gerona-Gimeno (Pob.)",
   },
   {
     id: "leyte-theoldchurches",

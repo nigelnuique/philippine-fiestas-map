@@ -501,4 +501,14 @@ export const ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-tady-sara",
     note: "TheOldChurches St. John the Baptist Church in Sara, Iloilo — feast June 24; C. Tady St., Sara, Iloilo 5014",
   },
+  {
+    barangay: "Gerona-Gimeno (Pob.)",
+    municipality: "Guimbal",
+    province: "Iloilo",
+    month: 9,
+    dayStart: 10,
+    patronSaint: "San Nicolas de Tolentino",
+    dateSource: "theoldchurches-san-nicolas-de-tolentino-guimbal",
+    note: "TheOldChurches San Nicolas de Tolentino Church on Gimeno St., Guimbal — feast September 10; Gerona-Gimeno (Pob.), Guimbal, Iloilo 5022",
+  },
 ];

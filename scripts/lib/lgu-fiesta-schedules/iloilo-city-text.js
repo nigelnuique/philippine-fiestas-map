@@ -296,4 +296,14 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "theoldchurches-san-jose-obrero-fundidor-molo",
     note: "TheOldChurches San Jose Obrero Church, Fundidor, Molo — feast May 10; parish also covers South Fundidor",
   },
+  {
+    barangay: "Marcelo H. Del Pilar",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 10,
+    dayStart: 12,
+    patronSaint: "Nuestra Señora del Pilar",
+    dateSource: "theoldchurches-nuestra-senora-del-pilar-church-jaro",
+    note: "TheOldChurches Nuestra Señora del Pilar Church, M.H. Del Pilar, Jaro — feast October 12",
+  },
 ];

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:46:45.598Z",
+  "generatedAt": "2026-06-14T13:59:46.428Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -212616,7 +212616,11 @@
       "municipalityPsgcPsa": "051712000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Zone I Fatima (Pob.), Del Gallego."
+      "description": "Barangay patronal fiesta for Zone I Fatima (Pob.), Del Gallego.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-sta-rita-de-cascia-church-del-gallego",
+      "patronSaint": "Sta. Rita de Cascia"
     },
     {
       "id": "bgy-051712019",
@@ -212646,11 +212650,7 @@
       "municipalityPsgcPsa": "051712000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Zone Iii, Del Gallego.",
-      "month": 5,
-      "dayStart": 22,
-      "dateSource": "theoldchurches-sta-rita-de-cascia-church-del-gallego",
-      "patronSaint": "Sta. Rita de Cascia"
+      "description": "Barangay patronal fiesta for Poblacion Zone Iii, Del Gallego."
     },
     {
       "id": "bgy-051712021",
@@ -376656,7 +376656,11 @@
       "municipalityPsgcPsa": "084823000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Zone I (Pob.), Victoria."
+      "description": "Barangay patronal fiesta for Zone I (Pob.), Victoria.",
+      "month": 8,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-st-anne-victoria-zone-i-pob",
+      "patronSaint": "St. Anne"
     },
     {
       "id": "bgy-084823013",
@@ -572527,15 +572531,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T13:46:45.598Z",
+    "appliedAt": "2026-06-14T13:59:46.428Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2444,
+      "fromOverride": 2445,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35405
+      "stillMissing": 35404
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572954,8 +572958,8 @@
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 9,
-        "matched": 9,
+        "entries": 10,
+        "matched": 10,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

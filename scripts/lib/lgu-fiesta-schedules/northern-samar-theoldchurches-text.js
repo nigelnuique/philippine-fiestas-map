@@ -88,4 +88,14 @@ export const NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-joseph-catubig-barangay-1-pob",
     note: "TheOldChurches St. Joseph Church in Catubig, Northern Samar — feast July 19; Catubig, Northern Samar 6418",
   },
+  {
+    barangay: "Zone I (Pob.)",
+    municipality: "Victoria",
+    province: "Northern Samar",
+    month: 8,
+    dayStart: 7,
+    patronSaint: "St. Anne",
+    dateSource: "theoldchurches-st-anne-victoria-zone-i-pob",
+    note: "TheOldChurches St. Anne Church in Victoria, Northern Samar — feast August 7; Victoria, Northern Samar 6406",
+  },
 ];

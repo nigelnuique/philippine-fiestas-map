@@ -500,7 +500,7 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches Holy Family Church in Sagrada, Tinambac, Camarines Sur — feast January 11; Sagrada, Tinambac, Camarines Sur 4426",
   },
   {
-    barangay: "Poblacion Zone Iii",
+    barangay: "Zone I Fatima (Pob.)",
     municipality: "Del Gallego",
     province: "Camarines Sur",
     month: 5,

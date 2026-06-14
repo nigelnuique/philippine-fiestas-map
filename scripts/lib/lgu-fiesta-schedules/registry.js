@@ -790,7 +790,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "CAMARINES_SUR_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-camarines-sur",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish District I (Pob.): Gainza; sole pob: Balatan Siramag (Pob.)",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish District I (Pob.): Gainza; Zone I Fatima (Pob.): Del Gallego; sole pob: Balatan Siramag (Pob.)",
   },
   {
     id: "negros-oriental-theoldchurches",
@@ -830,7 +830,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-northern-samar",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Barangay 1 (Pob.): Catubig",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Barangay 1 (Pob.): Catubig; Zone I (Pob.): Victoria",
   },
   {
     id: "southern-leyte-theoldchurches",

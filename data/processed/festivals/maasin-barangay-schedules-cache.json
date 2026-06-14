@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "fetchedAt": "2026-06-13T05:41:35.852Z",
+  "fetchedAt": "2026-06-14T04:56:09.319Z",
   "municipality": "City Of Maasin (Capital)",
-  "cacheOnly": true,
+  "cacheOnly": false,
   "stats": {
     "directoryParsed": 70,
     "directoryMatched": 70,

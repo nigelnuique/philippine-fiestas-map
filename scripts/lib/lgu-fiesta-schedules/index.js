@@ -28,6 +28,8 @@ import { PANGASINAN_PARISH_FIESTA_ENTRIES } from "./pangasinan-parish-text.js";
 import { ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES } from "./iloilo-province-theoldchurches-text.js";
 import { LEYTE_THEOLDCHURCHES_ENTRIES } from "./leyte-theoldchurches-text.js";
 import { CEBU_THEOLDCHURCHES_ENTRIES } from "./cebu-theoldchurches-text.js";
+import { CAPIZ_THEOLDCHURCHES_ENTRIES } from "./capiz-theoldchurches-text.js";
+import { NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES } from "./negros-occidental-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -671,6 +673,9 @@ export function getLguBarangayFiestaDatesByPsgc() {
   }));
   const leyteTheoldchurchesEntries = LEYTE_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const cebuTheoldchurchesEntries = CEBU_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const capizTheoldchurchesEntries = CAPIZ_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const negrosOccidentalTheoldchurchesEntries =
+    NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -707,6 +712,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const iloiloProvinceTheoldchurches = resolveScheduleEntries(iloiloProvinceTheoldchurchesEntries);
   const leyteTheoldchurches = resolveScheduleEntries(leyteTheoldchurchesEntries);
   const cebuTheoldchurches = resolveScheduleEntries(cebuTheoldchurchesEntries);
+  const capizTheoldchurches = resolveScheduleEntries(capizTheoldchurchesEntries);
+  const negrosOccidentalTheoldchurches = resolveScheduleEntries(
+    negrosOccidentalTheoldchurchesEntries
+  );
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -743,6 +752,8 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...iloiloProvinceTheoldchurches.byPsgc,
       ...leyteTheoldchurches.byPsgc,
       ...cebuTheoldchurches.byPsgc,
+      ...capizTheoldchurches.byPsgc,
+      ...negrosOccidentalTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -874,6 +885,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: cebuTheoldchurchesEntries.length,
         matched: cebuTheoldchurches.matched,
         missed: cebuTheoldchurches.missed,
+      },
+      capizTheoldchurches: {
+        entries: capizTheoldchurchesEntries.length,
+        matched: capizTheoldchurches.matched,
+        missed: capizTheoldchurches.missed,
+      },
+      negrosOccidentalTheoldchurches: {
+        entries: negrosOccidentalTheoldchurchesEntries.length,
+        matched: negrosOccidentalTheoldchurches.matched,
+        missed: negrosOccidentalTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

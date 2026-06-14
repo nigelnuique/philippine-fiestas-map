@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T07:08:10.981Z",
+  "generatedAt": "2026-06-14T07:12:08.344Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -38019,7 +38019,10 @@
       "municipalityPsgcPsa": "015532000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Isla, City Of San Carlos."
+      "description": "Barangay patronal fiesta for Isla, City Of San Carlos.",
+      "month": 9,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-isla-city-of-san-carlos"
     },
     {
       "id": "bgy-015532040",
@@ -253400,7 +253403,10 @@
       "municipalityPsgcPsa": "061901000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maindang, Cuartero."
+      "description": "Barangay patronal fiesta for Maindang, Cuartero.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-maindang-cuartero"
     },
     {
       "id": "bgy-061901014",
@@ -253677,7 +253683,10 @@
       "municipalityPsgcPsa": "061902000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malonoy, Dao."
+      "description": "Barangay patronal fiesta for Malonoy, Dao.",
+      "month": 2,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-malonoy-dao"
     },
     {
       "id": "bgy-061902014",
@@ -253828,7 +253837,10 @@
       "municipalityPsgcPsa": "061903000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Consolacion, Dumalag."
+      "description": "Barangay patronal fiesta for Consolacion, Dumalag.",
+      "month": 9,
+      "dayStart": 4,
+      "dateSource": "theoldchurches-consolacion-dumalag"
     },
     {
       "id": "bgy-061903003",
@@ -253854,7 +253866,10 @@
       "municipalityPsgcPsa": "061903000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Duran, Dumalag."
+      "description": "Barangay patronal fiesta for Duran, Dumalag.",
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-duran-dumalag"
     },
     {
       "id": "bgy-061903007",
@@ -254206,7 +254221,10 @@
       "municipalityPsgcPsa": "061904000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bungsuan, Dumarao."
+      "description": "Barangay patronal fiesta for Bungsuan, Dumarao.",
+      "month": 10,
+      "dayStart": 17,
+      "dateSource": "theoldchurches-bungsuan-dumarao"
     },
     {
       "id": "bgy-061904011",
@@ -254245,7 +254263,10 @@
       "municipalityPsgcPsa": "061904000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dacuton, Dumarao."
+      "description": "Barangay patronal fiesta for Dacuton, Dumarao.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-dacuton-dumarao"
     },
     {
       "id": "bgy-061904014",
@@ -254565,7 +254586,10 @@
       "municipalityPsgcPsa": "061905000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Agustin Navarra, Ivisan."
+      "description": "Barangay patronal fiesta for Agustin Navarra, Ivisan.",
+      "month": 11,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-agustin-navarra-ivisan"
     },
     {
       "id": "bgy-061905003",
@@ -254643,7 +254667,10 @@
       "municipalityPsgcPsa": "061905000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malocloc Norte, Ivisan."
+      "description": "Barangay patronal fiesta for Malocloc Norte, Ivisan.",
+      "month": 9,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-malocloc-norte-ivisan"
     },
     {
       "id": "bgy-061905009",
@@ -254933,7 +254960,10 @@
       "municipalityPsgcPsa": "061906000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Jagnaya, Jamindan."
+      "description": "Barangay patronal fiesta for Jagnaya, Jamindan.",
+      "month": 4,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-jagnaya-jamindan"
     },
     {
       "id": "bgy-061906016",
@@ -254959,7 +254989,10 @@
       "municipalityPsgcPsa": "061906000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Linambasan, Jamindan."
+      "description": "Barangay patronal fiesta for Linambasan, Jamindan.",
+      "month": 6,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-linambasan-jamindan"
     },
     {
       "id": "bgy-061906018",
@@ -254972,7 +255005,10 @@
       "municipalityPsgcPsa": "061906000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lucero, Jamindan."
+      "description": "Barangay patronal fiesta for Lucero, Jamindan.",
+      "month": 2,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-lucero-jamindan"
     },
     {
       "id": "bgy-061906019",
@@ -255599,7 +255635,10 @@
       "municipalityPsgcPsa": "061908000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balit, Mambusao."
+      "description": "Barangay patronal fiesta for Balit, Mambusao.",
+      "month": 10,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-balit-mambusao"
     },
     {
       "id": "bgy-061908004",
@@ -255716,7 +255755,10 @@
       "municipalityPsgcPsa": "061908000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Burias, Mambusao."
+      "description": "Barangay patronal fiesta for Burias, Mambusao.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-burias-mambusao"
     },
     {
       "id": "bgy-061908013",
@@ -255898,7 +255940,10 @@
       "municipalityPsgcPsa": "061908000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tumalalud, Mambusao."
+      "description": "Barangay patronal fiesta for Tumalalud, Mambusao.",
+      "month": 2,
+      "dayStart": 18,
+      "dateSource": "theoldchurches-tumalalud-mambusao"
     },
     {
       "id": "bgy-061909001",
@@ -255950,7 +255995,10 @@
       "municipalityPsgcPsa": "061909000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Anhawon, Panay."
+      "description": "Barangay patronal fiesta for Anhawon, Panay.",
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-anhawon-panay"
     },
     {
       "id": "bgy-061909005",
@@ -256171,7 +256219,10 @@
       "municipalityPsgcPsa": "061909000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cogon, Panay."
+      "description": "Barangay patronal fiesta for Cogon, Panay.",
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-cogon-panay"
     },
     {
       "id": "bgy-061909022",
@@ -256340,7 +256391,10 @@
       "municipalityPsgcPsa": "061909000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pawa, Panay."
+      "description": "Barangay patronal fiesta for Pawa, Panay.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-pawa-panay"
     },
     {
       "id": "bgy-061909035",
@@ -256600,7 +256654,10 @@
       "municipalityPsgcPsa": "061910000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Capagao, Panitan."
+      "description": "Barangay patronal fiesta for Capagao, Panitan.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-capagao-panitan"
     },
     {
       "id": "bgy-061910013",
@@ -256704,7 +256761,10 @@
       "municipalityPsgcPsa": "061910000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Quios, Panitan."
+      "description": "Barangay patronal fiesta for Quios, Panitan.",
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-quios-panitan"
     },
     {
       "id": "bgy-061910021",
@@ -257641,7 +257701,10 @@
       "municipalityPsgcPsa": "061913000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Marita, President Roxas."
+      "description": "Barangay patronal fiesta for Marita, President Roxas.",
+      "month": 2,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-marita-president-roxas"
     },
     {
       "id": "bgy-061913014",
@@ -257815,7 +257878,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banica, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Banica, City Of Roxas (Capital).",
+      "month": 10,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-banica-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914005",
@@ -257997,7 +258063,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baybay, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Baybay, City Of Roxas (Capital).",
+      "month": 1,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-baybay-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914020",
@@ -258010,7 +258079,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bolo, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Bolo, City Of Roxas (Capital).",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-bolo-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914021",
@@ -258036,7 +258108,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cagay, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Cagay, City Of Roxas (Capital).",
+      "month": 4,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-cagay-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914023",
@@ -258101,7 +258176,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dayao, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Dayao, City Of Roxas (Capital).",
+      "month": 2,
+      "dayStart": 20,
+      "dateSource": "theoldchurches-dayao-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914028",
@@ -258127,7 +258205,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gabu-An, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Gabu-An, City Of Roxas (Capital).",
+      "month": 9,
+      "dayStart": 23,
+      "dateSource": "theoldchurches-gabu-an-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914030",
@@ -258218,7 +258299,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Loctugan, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Loctugan, City Of Roxas (Capital).",
+      "month": 10,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-loctugan-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914037",
@@ -258231,7 +258315,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lonoy, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Lonoy, City Of Roxas (Capital).",
+      "month": 8,
+      "dayStart": 23,
+      "dateSource": "theoldchurches-lonoy-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914039",
@@ -258244,7 +258331,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Milibili, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Milibili, City Of Roxas (Capital).",
+      "month": 4,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-milibili-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914040",
@@ -258270,7 +258360,10 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Olotayan, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Olotayan, City Of Roxas (Capital).",
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-olotayan-city-of-roxas-capital"
     },
     {
       "id": "bgy-061914042",
@@ -258638,7 +258731,10 @@
       "municipalityPsgcPsa": "061916000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mangoso, Sigma."
+      "description": "Barangay patronal fiesta for Mangoso, Sigma.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-mangoso-sigma"
     },
     {
       "id": "bgy-061916011",
@@ -258690,7 +258786,10 @@
       "municipalityPsgcPsa": "061916000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mianay, Sigma."
+      "description": "Barangay patronal fiesta for Mianay, Sigma.",
+      "month": 4,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-mianay-sigma"
     },
     {
       "id": "bgy-061916015",
@@ -258976,7 +259075,10 @@
       "municipalityPsgcPsa": "061917000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cristina, Tapaz."
+      "description": "Barangay patronal fiesta for Cristina, Tapaz.",
+      "month": 12,
+      "dayStart": 9,
+      "dateSource": "theoldchurches-cristina-tapaz"
     },
     {
       "id": "bgy-061917016",
@@ -259197,7 +259299,10 @@
       "municipalityPsgcPsa": "061917000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Tapaz."
+      "description": "Barangay patronal fiesta for Poblacion, Tapaz.",
+      "month": 9,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-poblacion-tapaz"
     },
     {
       "id": "bgy-061917033",
@@ -259540,7 +259645,10 @@
       "municipalityPsgcPsa": "061917000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Taft, Tapaz."
+      "description": "Barangay patronal fiesta for Taft, Tapaz.",
+      "month": 1,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-taft-tapaz"
     },
     {
       "id": "bgy-061917057",
@@ -285849,7 +285957,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alangilan, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Alangilan, City Of Bacolod (Capital).",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-alangilan-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501002",
@@ -285862,7 +285973,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alijis, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Alijis, City Of Bacolod (Capital).",
+      "month": 10,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-alijis-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501003",
@@ -285875,7 +285989,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banago, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Banago, City Of Bacolod (Capital).",
+      "month": 11,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-banago-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501004",
@@ -286473,7 +286590,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Granada, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Granada, City Of Bacolod (Capital).",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-granada-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501050",
@@ -286486,7 +286606,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mandalagan, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Mandalagan, City Of Bacolod (Capital).",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-mandalagan-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501051",
@@ -286499,7 +286622,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mansilingan, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Mansilingan, City Of Bacolod (Capital).",
+      "month": 11,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-mansilingan-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501052",
@@ -286512,7 +286638,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Montevista, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Montevista, City Of Bacolod (Capital).",
+      "month": 11,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-montevista-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501053",
@@ -286564,7 +286693,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sum-Ag, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Sum-Ag, City Of Bacolod (Capital).",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-sum-ag-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501057",
@@ -286577,7 +286709,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Taculing, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Taculing, City Of Bacolod (Capital).",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-taculing-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501058",
@@ -286590,7 +286725,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tangub, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Tangub, City Of Bacolod (Capital).",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-tangub-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501059",
@@ -286603,7 +286741,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Villamonte, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Villamonte, City Of Bacolod (Capital).",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-villamonte-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501060",
@@ -286616,7 +286757,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Vista Alegre, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Vista Alegre, City Of Bacolod (Capital).",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-vista-alegre-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064501061",
@@ -286629,7 +286773,10 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Handumanan, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Handumanan, City Of Bacolod (Capital).",
+      "month": 1,
+      "dayStart": 17,
+      "dateSource": "theoldchurches-handumanan-city-of-bacolod-capital"
     },
     {
       "id": "bgy-064502001",
@@ -286811,7 +286958,10 @@
       "municipalityPsgcPsa": "064502000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ma-Ao Barrio, City Of Bago."
+      "description": "Barangay patronal fiesta for Ma-Ao Barrio, City Of Bago.",
+      "month": 10,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-ma-ao-barrio-city-of-bago"
     },
     {
       "id": "bgy-064502015",
@@ -286889,7 +287039,10 @@
       "municipalityPsgcPsa": "064502000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, City Of Bago."
+      "description": "Barangay patronal fiesta for Poblacion, City Of Bago.",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-poblacion-city-of-bago"
     },
     {
       "id": "bgy-064502021",
@@ -286928,7 +287081,10 @@
       "municipalityPsgcPsa": "064502000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Taloc, City Of Bago."
+      "description": "Barangay patronal fiesta for Taloc, City Of Bago.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-taloc-city-of-bago"
     },
     {
       "id": "bgy-064502024",
@@ -287045,7 +287201,10 @@
       "municipalityPsgcPsa": "064503000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Payao, Binalbagan."
+      "description": "Barangay patronal fiesta for Payao, Binalbagan.",
+      "month": 2,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-payao-binalbagan"
     },
     {
       "id": "bgy-064503009",
@@ -287264,7 +287423,10 @@
       "municipalityPsgcPsa": "064504000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 5 Pob. (Zone 5), City Of Cadiz."
+      "description": "Barangay patronal fiesta for Barangay 5 Pob. (Zone 5), City Of Cadiz.",
+      "month": 1,
+      "dayStart": 26,
+      "dateSource": "theoldchurches-barangay-5-pob-zone-5-city-of-cadiz"
     },
     {
       "id": "bgy-064504008",
@@ -287316,7 +287478,10 @@
       "municipalityPsgcPsa": "064504000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cadiz Viejo, City Of Cadiz."
+      "description": "Barangay patronal fiesta for Cadiz Viejo, City Of Cadiz.",
+      "month": 12,
+      "dayStart": 6,
+      "dateSource": "theoldchurches-cadiz-viejo-city-of-cadiz"
     },
     {
       "id": "bgy-064504012",
@@ -287329,7 +287494,10 @@
       "municipalityPsgcPsa": "064504000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caduha-An, City Of Cadiz."
+      "description": "Barangay patronal fiesta for Caduha-An, City Of Cadiz.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-caduha-an-city-of-cadiz"
     },
     {
       "id": "bgy-064504013",
@@ -287355,7 +287523,10 @@
       "municipalityPsgcPsa": "064504000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Daga, City Of Cadiz."
+      "description": "Barangay patronal fiesta for Daga, City Of Cadiz.",
+      "month": 10,
+      "dayStart": 17,
+      "dateSource": "theoldchurches-daga-city-of-cadiz"
     },
     {
       "id": "bgy-064504015",
@@ -287407,7 +287578,10 @@
       "municipalityPsgcPsa": "064504000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mabini, City Of Cadiz."
+      "description": "Barangay patronal fiesta for Mabini, City Of Cadiz.",
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-mabini-city-of-cadiz"
     },
     {
       "id": "bgy-064504019",
@@ -287576,7 +287750,10 @@
       "municipalityPsgcPsa": "064505000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Castellano, Calatrava."
+      "description": "Barangay patronal fiesta for Castellano, Calatrava.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-castellano-calatrava"
     },
     {
       "id": "bgy-064505010",
@@ -287810,7 +287987,10 @@
       "municipalityPsgcPsa": "064505000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Minapasuk, Calatrava."
+      "description": "Barangay patronal fiesta for Minapasuk, Calatrava.",
+      "month": 5,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-minapasuk-calatrava"
     },
     {
       "id": "bgy-064505028",
@@ -288091,7 +288271,10 @@
       "municipalityPsgcPsa": "064506000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion East, Candoni."
+      "description": "Barangay patronal fiesta for Poblacion East, Candoni.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-poblacion-east-candoni"
     },
     {
       "id": "bgy-064506009",
@@ -288260,7 +288443,10 @@
       "municipalityPsgcPsa": "064507000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Isio, Cauayan."
+      "description": "Barangay patronal fiesta for Isio, Cauayan.",
+      "month": 10,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-isio-cauayan"
     },
     {
       "id": "bgy-064507017",
@@ -288832,7 +289018,10 @@
       "municipalityPsgcPsa": "064509000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dian-Ay, City Of Escalante."
+      "description": "Barangay patronal fiesta for Dian-Ay, City Of Escalante.",
+      "month": 10,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-dian-ay-city-of-escalante"
     },
     {
       "id": "bgy-064509008",
@@ -288962,7 +289151,10 @@
       "municipalityPsgcPsa": "064509000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Old Poblacion, City Of Escalante."
+      "description": "Barangay patronal fiesta for Old Poblacion, City Of Escalante.",
+      "month": 10,
+      "dayStart": 4,
+      "dateSource": "theoldchurches-old-poblacion-city-of-escalante"
     },
     {
       "id": "bgy-064509018",
@@ -288975,7 +289167,10 @@
       "municipalityPsgcPsa": "064509000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Rizal, City Of Escalante."
+      "description": "Barangay patronal fiesta for Rizal, City Of Escalante.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-rizal-city-of-escalante"
     },
     {
       "id": "bgy-064509019",
@@ -289027,7 +289222,10 @@
       "municipalityPsgcPsa": "064510000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aguisan, City Of Himamaylan."
+      "description": "Barangay patronal fiesta for Aguisan, City Of Himamaylan.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-aguisan-city-of-himamaylan"
     },
     {
       "id": "bgy-064510002",
@@ -289291,7 +289489,10 @@
       "municipalityPsgcPsa": "064511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aranda, Hinigaran."
+      "description": "Barangay patronal fiesta for Aranda, Hinigaran.",
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-aranda-hinigaran"
     },
     {
       "id": "bgy-064511003",
@@ -289460,7 +289661,10 @@
       "municipalityPsgcPsa": "064511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Miranda, Hinigaran."
+      "description": "Barangay patronal fiesta for Miranda, Hinigaran.",
+      "month": 12,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-miranda-hinigaran"
     },
     {
       "id": "bgy-064511017",
@@ -289512,7 +289716,10 @@
       "municipalityPsgcPsa": "064511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Paticui, Hinigaran."
+      "description": "Barangay patronal fiesta for Paticui, Hinigaran.",
+      "month": 8,
+      "dayStart": 18,
+      "dateSource": "theoldchurches-paticui-hinigaran"
     },
     {
       "id": "bgy-064511021",
@@ -289841,7 +290048,10 @@
       "municipalityPsgcPsa": "064513000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dancalan, Ilog."
+      "description": "Barangay patronal fiesta for Dancalan, Ilog.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-dancalan-ilog"
     },
     {
       "id": "bgy-064513010",
@@ -290365,7 +290575,10 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binicuil, City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Binicuil, City Of Kabankalan.",
+      "month": 10,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-binicuil-city-of-kabankalan"
     },
     {
       "id": "bgy-064515003",
@@ -290508,7 +290721,10 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Oringao, City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Oringao, City Of Kabankalan.",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "theoldchurches-oringao-city-of-kabankalan"
     },
     {
       "id": "bgy-064515014",
@@ -290664,7 +290880,10 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Salong, City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Salong, City Of Kabankalan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-salong-city-of-kabankalan"
     },
     {
       "id": "bgy-064515027",
@@ -290677,7 +290896,10 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabugon, City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Tabugon, City Of Kabankalan.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-tabugon-city-of-kabankalan"
     },
     {
       "id": "bgy-064515028",
@@ -290742,7 +290964,10 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tapi, City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Tapi, City Of Kabankalan.",
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-tapi-city-of-kabankalan"
     },
     {
       "id": "bgy-064515033",
@@ -290859,7 +291084,10 @@
       "municipalityPsgcPsa": "064516000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for La Granja, City Of La Carlota."
+      "description": "Barangay patronal fiesta for La Granja, City Of La Carlota.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-la-granja-city-of-la-carlota"
     },
     {
       "id": "bgy-064516009",
@@ -291551,7 +291779,10 @@
       "municipalityPsgcPsa": "064520000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Zone Iii (Pob.), Murcia."
+      "description": "Barangay patronal fiesta for Zone Iii (Pob.), Murcia.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-zone-iii-pob-murcia"
     },
     {
       "id": "bgy-064520007",
@@ -291694,7 +291925,10 @@
       "municipalityPsgcPsa": "064520000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Minoyan, Murcia."
+      "description": "Barangay patronal fiesta for Minoyan, Murcia.",
+      "month": 1,
+      "dayStart": 31,
+      "dateSource": "theoldchurches-minoyan-murcia"
     },
     {
       "id": "bgy-064520020",
@@ -291801,7 +292035,10 @@
       "municipalityPsgcPsa": "064521000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Antipolo, Pontevedra."
+      "description": "Barangay patronal fiesta for Antipolo, Pontevedra.",
+      "month": 5,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-antipolo-pontevedra"
     },
     {
       "id": "bgy-064521002",
@@ -291983,7 +292220,10 @@
       "municipalityPsgcPsa": "064521000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Miranda, Pontevedra."
+      "description": "Barangay patronal fiesta for Miranda, Pontevedra.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-miranda-pontevedra"
     },
     {
       "id": "bgy-064521017",
@@ -292342,7 +292582,10 @@
       "municipalityPsgcPsa": "064523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bato, City Of Sagay."
+      "description": "Barangay patronal fiesta for Bato, City Of Sagay.",
+      "month": 8,
+      "dayStart": 17,
+      "dateSource": "theoldchurches-bato-city-of-sagay"
     },
     {
       "id": "bgy-064523003",
@@ -292368,7 +292611,10 @@
       "municipalityPsgcPsa": "064523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulanon, City Of Sagay."
+      "description": "Barangay patronal fiesta for Bulanon, City Of Sagay.",
+      "month": 7,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-bulanon-city-of-sagay"
     },
     {
       "id": "bgy-064523005",
@@ -292511,7 +292757,10 @@
       "municipalityPsgcPsa": "064523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Old Sagay, City Of Sagay."
+      "description": "Barangay patronal fiesta for Old Sagay, City Of Sagay.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-old-sagay-city-of-sagay"
     },
     {
       "id": "bgy-064523016",
@@ -292524,7 +292773,10 @@
       "municipalityPsgcPsa": "064523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Paraiso, City Of Sagay."
+      "description": "Barangay patronal fiesta for Paraiso, City Of Sagay.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-paraiso-city-of-sagay"
     },
     {
       "id": "bgy-064523017",
@@ -292628,7 +292880,10 @@
       "municipalityPsgcPsa": "064523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Vito, City Of Sagay."
+      "description": "Barangay patronal fiesta for Vito, City Of Sagay.",
+      "month": 5,
+      "dayStart": 2,
+      "dateSource": "theoldchurches-vito-city-of-sagay"
     },
     {
       "id": "bgy-064523026",
@@ -292654,7 +292909,10 @@
       "municipalityPsgcPsa": "064524000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagonbon, City Of San Carlos."
+      "description": "Barangay patronal fiesta for Bagonbon, City Of San Carlos.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-bagonbon-city-of-san-carlos"
     },
     {
       "id": "bgy-064524002",
@@ -292706,7 +292964,10 @@
       "municipalityPsgcPsa": "064524000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guadalupe, City Of San Carlos."
+      "description": "Barangay patronal fiesta for Guadalupe, City Of San Carlos.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-guadalupe-city-of-san-carlos"
     },
     {
       "id": "bgy-064524008",
@@ -292732,7 +292993,10 @@
       "municipalityPsgcPsa": "064524000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Palampas, City Of San Carlos."
+      "description": "Barangay patronal fiesta for Palampas, City Of San Carlos.",
+      "month": 8,
+      "dayStart": 4,
+      "dateSource": "theoldchurches-palampas-city-of-san-carlos"
     },
     {
       "id": "bgy-064524010",
@@ -292862,7 +293126,10 @@
       "municipalityPsgcPsa": "064524000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Rizal, City Of San Carlos."
+      "description": "Barangay patronal fiesta for Rizal, City Of San Carlos.",
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-rizal-city-of-san-carlos"
     },
     {
       "id": "bgy-064524020",
@@ -293126,7 +293393,10 @@
       "municipalityPsgcPsa": "064526000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guimbala-On, City Of Silay."
+      "description": "Barangay patronal fiesta for Guimbala-On, City Of Silay.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-guimbala-on-city-of-silay"
     },
     {
       "id": "bgy-064526011",
@@ -293524,7 +293794,10 @@
       "municipalityPsgcPsa": "064528000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dos Hermanas, City Of Talisay."
+      "description": "Barangay patronal fiesta for Dos Hermanas, City Of Talisay.",
+      "month": 2,
+      "dayStart": 6,
+      "dateSource": "theoldchurches-dos-hermanas-city-of-talisay"
     },
     {
       "id": "bgy-064528011",
@@ -294108,7 +294381,10 @@
       "municipalityPsgcPsa": "064530000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Valladolid."
+      "description": "Barangay patronal fiesta for Poblacion, Valladolid.",
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-poblacion-valladolid"
     },
     {
       "id": "bgy-064530016",
@@ -294134,7 +294410,10 @@
       "municipalityPsgcPsa": "064530000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabao Proper, Valladolid."
+      "description": "Barangay patronal fiesta for Tabao Proper, Valladolid.",
+      "month": 10,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-tabao-proper-valladolid"
     },
     {
       "id": "bgy-064531004",
@@ -294264,7 +294543,10 @@
       "municipalityPsgcPsa": "064531000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay X (Estado), City Of Victorias."
+      "description": "Barangay patronal fiesta for Barangay X (Estado), City Of Victorias.",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-barangay-x-estado-city-of-victorias"
     },
     {
       "id": "bgy-064531014",
@@ -469399,7 +469681,10 @@
       "municipalityPsgcPsa": "124713000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, President Roxas."
+      "description": "Barangay patronal fiesta for Poblacion, President Roxas.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-poblacion-president-roxas"
     },
     {
       "id": "bgy-124713026",
@@ -568068,15 +568353,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T07:08:10.981Z",
+    "appliedAt": "2026-06-14T07:12:08.344Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4334,
-      "fromOverride": 1123,
+      "fromOverride": 1218,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36587
+      "stillMissing": 36492
     },
     "lguScheduleStats": {
       "siargao": {
@@ -568202,6 +568487,16 @@
       "cebuTheoldchurches": {
         "entries": 89,
         "matched": 89,
+        "missed": 0
+      },
+      "capizTheoldchurches": {
+        "entries": 36,
+        "matched": 36,
+        "missed": 0
+      },
+      "negrosOccidentalTheoldchurches": {
+        "entries": 66,
+        "matched": 66,
         "missed": 0
       },
       "curatedOnline": {

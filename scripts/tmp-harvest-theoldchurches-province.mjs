@@ -29,6 +29,20 @@ const MUN_ALIASES = {
   "cebu-city": "City Of Cebu (Capital)",
   "iloilo-city": "City Of Iloilo (Capital)",
   "passi-city": "City Of Passi",
+  "roxas-city": "City Of Roxas (Capital)",
+  "bacolod-city": "City Of Bacolod (Capital)",
+  "bago-city": "City Of Bago",
+  "cadiz-city": "City Of Cadiz",
+  "escalante-city": "City Of Escalante",
+  "himamaylan-city": "City Of Himamaylan",
+  "kabankalan-city": "City Of Kabankalan",
+  "la-carlota-city": "City Of La Carlota",
+  "sagay-city": "City Of Sagay",
+  "san-carlos-city": "City Of San Carlos",
+  "silay-city": "City Of Silay",
+  "sipalay-city": "City Of Sipalay",
+  "talisay-city": "City Of Talisay",
+  "victorias-city": "City Of Victorias",
 };
 
 const raw = JSON.parse(

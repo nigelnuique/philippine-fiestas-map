@@ -1,28 +1,82 @@
 {
   "version": 1,
-  "fetchedAt": "2026-06-13T02:39:29.143Z",
+  "fetchedAt": "2026-06-14T04:57:01.521Z",
   "municipality": "City Of Tarlac",
-  "cacheOnly": true,
+  "cacheOnly": false,
   "stats": {
     "targets": 13,
-    "parsed": 0,
-    "matched": 0,
-    "fetchErrors": 0,
+    "parsed": 10,
+    "matched": 10,
+    "fetchErrors": 2,
     "missedSamples": [
-      "Alvindia Segundo (no cache)",
-      "Balete (no cache)",
-      "Bantog (no cache)",
-      "Batang-Batang (no cache)",
-      "Calingcuan (no cache)",
-      "Carangian (no cache)",
-      "Dela Paz (no cache)",
-      "Matadero (no cache)",
-      "Salapungan (no cache)",
-      "Sepung Calzada (no cache)",
-      "Trinidad (no cache)",
-      "Ungot (no cache)",
-      "Villa Bacolor (no cache)"
+      "Ungot (no feast text)"
     ]
   },
-  "byPsgc": {}
+  "byPsgc": {
+    "036916009": {
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "San Isidro Labrador/"
+    },
+    "036916014": {
+      "month": 2,
+      "dayStart": 22,
+      "dayEnd": 28,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Sta"
+    },
+    "036916016": {
+      "month": 3,
+      "dayStart": 25,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Francis"
+    },
+    "036916024": {
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Our Lady of Lourdes"
+    },
+    "036916026": {
+      "month": 3,
+      "dayStart": 19,
+      "dayEnd": 20,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Joseph"
+    },
+    "036916034": {
+      "month": 1,
+      "dayStart": 23,
+      "dayEnd": 24,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "named “Nuestra Seniora Dela Paz”it is where the name of this barangay was derived"
+    },
+    "036916097": {
+      "month": 2,
+      "dayStart": 1,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Paul"
+    },
+    "036916083": {
+      "month": 1,
+      "dayStart": 23,
+      "dayEnd": 24,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Nuestra Señora dela Paz"
+    },
+    "036916091": {
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Isidore the Laborer (San Isidro Labrador)"
+    },
+    "036916098": {
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Immaculate Conception"
+    }
+  }
 }

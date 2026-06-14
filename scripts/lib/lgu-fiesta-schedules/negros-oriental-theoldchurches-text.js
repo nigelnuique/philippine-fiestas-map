@@ -227,4 +227,13 @@ export const NEGROS_ORIENTAL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-manjuyod",
     note: "TheOldChurches St. Francis of Assisi Church in Manjuyod, Negros Oriental — feast October 4; Poblacion, Manjuyod, Negros Oriental 6208",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Tayasan",
+    province: "Negros Oriental",
+    month: 6,
+    dayStart: 13,
+    dateSource: "theoldchurches-st-anthony-of-padua-church-tayasan",
+    note: "TheOldChurches St. Anthony of Padua Church in Tayasan, Negros Oriental — feast June 13; Tayasan, Negros Oriental 6211",
+  },
 ];

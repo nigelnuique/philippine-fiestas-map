@@ -532,4 +532,22 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-cawayanan-tubigon",
     note: "TheOldChurches Holy Cross Church in Cawayan, Tubigon, Bohol — feast May 3; Cawayan, Tubigon, Bohol 6329 (PSGC: Cawayanan)",
   },
+  {
+    barangay: "Poblacion (Bien Unido)",
+    municipality: "Bien Unido",
+    province: "Bohol",
+    month: 12,
+    dayStart: 29,
+    dateSource: "theoldchurches-sto-nino-church-bien-unido",
+    note: "TheOldChurches Sto. Niño Church in Bien Unido, Bohol — feast December 29; Bien Unido, Bohol 6326",
+  },
+  {
+    barangay: "Poblacion (Pondol)",
+    municipality: "Jagna",
+    province: "Bohol",
+    month: 9,
+    dayStart: 29,
+    dateSource: "theoldchurches-st-michael-the-archangel-parish-church-jagna",
+    note: "TheOldChurches St. Michael the Archangel Parish Church in Jagna, Bohol — feast September 29; Poblacion, Jagna, Bohol 6308",
+  },
 ];

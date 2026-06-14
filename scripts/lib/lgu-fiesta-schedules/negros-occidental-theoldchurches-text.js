@@ -676,4 +676,13 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-zone-4-pob-pulupandan",
     note: "TheOldChurches Our Lady of Lourdes Parish Church in Pulupandan — feast February 15; Riego St., Barangay Zone 4, Poblacion, Pulupandan, Negros Occidental",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Toboso",
+    province: "Negros Occidental",
+    month: 6,
+    dayStart: 13,
+    dateSource: "theoldchurches-st-anthony-de-padua-church-toboso",
+    note: "TheOldChurches St. Anthony de Padua Church in Toboso, Negros Occidental — feast June 13; Toboso, Negros Occidental 6125",
+  },
 ];

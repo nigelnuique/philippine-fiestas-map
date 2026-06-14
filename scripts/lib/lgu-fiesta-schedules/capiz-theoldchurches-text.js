@@ -346,4 +346,13 @@ export const CAPIZ_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-lawa-an-roxas-city",
     note: "TheOldChurches Our Lady Of Guadalupe Mission Station in Lawaan, Roxas City — feast December 12; Lawaan, Roxas City, Capiz 5800",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Dumalag",
+    province: "Capiz",
+    month: 11,
+    dayStart: 11,
+    dateSource: "theoldchurches-st-martin-of-tours-church-dumalag",
+    note: "TheOldChurches St. Martin of Tours Church in Dumalag, Capiz — feast November 11; Dumalag, Capiz 5813",
+  },
 ];

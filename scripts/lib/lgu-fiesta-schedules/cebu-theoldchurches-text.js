@@ -893,4 +893,22 @@ export const CEBU_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-mohon-sogod",
     note: "TheOldChurches San Pedro Calungsod Parish Church in Mohon, Sogod, Cebu — feast October 21; Mohon, Sogod, Cebu",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Daanbantayan",
+    province: "Cebu",
+    month: 8,
+    dayStart: 30,
+    dateSource: "theoldchurches-sta-rosa-de-lima-in-daanbantayan-cebu",
+    note: "TheOldChurches Sta. Rosa de Lima in Daanbantayan, Cebu — feast August 30; Daanbantayan, Cebu 6013",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "Oslob",
+    province: "Cebu",
+    month: 12,
+    dayStart: 8,
+    dateSource: "theoldchurches-our-lady-of-the-immaculate-conception-church-in-oslob-cebu",
+    note: "TheOldChurches Our Lady of the Immaculate Conception Church in Oslob, Cebu — feast December 8; Oslob, Cebu 6025",
+  },
 ];

@@ -84,4 +84,22 @@ export const ROMBLON_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-ferrol",
     note: "TheOldChurches St. Anthony of Padua Church in Ferrol, Romblon — feast June 13; Ferrol, Romblon 5506",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Looc",
+    province: "Romblon",
+    month: 4,
+    dayStart: 25,
+    dateSource: "theoldchurches-st-joseph-spouse-of-mary-church-looc",
+    note: "TheOldChurches St. Joseph, Spouse of Mary Church in Looc, Romblon — feast April 25; Looc, Romblon 5507",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "San Andres",
+    province: "Romblon",
+    month: 11,
+    dayStart: 30,
+    dateSource: "theoldchurches-st-andrew-the-apostle-church-san-andres",
+    note: "TheOldChurches St. Andrew the Apostle Church in San Andres, Romblon — feast November 30; San Andres, Romblon 5504",
+  },
 ];

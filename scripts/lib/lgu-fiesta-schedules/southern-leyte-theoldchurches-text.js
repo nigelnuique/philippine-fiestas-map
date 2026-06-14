@@ -56,4 +56,22 @@ export const SOUTHERN_LEYTE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-taliwa-pob-malitbog",
     note: "TheOldChurches Santo Niño Church in Malitbog, Southern Leyte — feast January 15; Barangay Taliwa, Malitbog, Southern Leyte 6603",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Hinunangan",
+    province: "Southern Leyte",
+    month: 6,
+    dayStart: 29,
+    dateSource: "theoldchurches-saints-peter-and-paul-church-in-hinunangan-southern-leyte",
+    note: "TheOldChurches Saints Peter and Paul Church in Hinunangan, Southern Leyte — feast June 29; Hinunangan, Southern Leyte 6608",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "San Ricardo",
+    province: "Southern Leyte",
+    month: 7,
+    dayStart: 25,
+    dateSource: "theoldchurches-st-james-the-apostle-church-in-san-ricardo-southern-leyte",
+    note: "TheOldChurches St. James the Apostle Church in San Ricardo, Southern Leyte — feast July 25; San Ricardo, Southern Leyte 6617",
+  },
 ];

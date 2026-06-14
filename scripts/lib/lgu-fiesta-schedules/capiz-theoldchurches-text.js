@@ -210,6 +210,16 @@ export const CAPIZ_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches St. Zita Mission Station in Bungsuan, Dumarao, Capiz — feast October 17; Bungsuan, Dumarao, Capiz 5812",
   },
   {
+    barangay: "Tinaytayan",
+    municipality: "Dumarao",
+    province: "Capiz",
+    month: 11,
+    dayStart: 27,
+    patronSaint: "Our Lady of the Miraculous Medal",
+    dateSource: "theoldchurches-tinaytayan-dumarao",
+    note: "TheOldChurches Our Lady of the Miraculous Medal Church in Tinaytayan, Dumarao, Capiz — feast November 27; Tinaytayan, Dumarao, Capiz 5812",
+  },
+  {
     barangay: "Taft",
     municipality: "Tapaz",
     province: "Capiz",

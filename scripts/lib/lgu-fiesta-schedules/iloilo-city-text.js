@@ -232,4 +232,13 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Happy fiesta baldoza lapaz iloilo city (May 8, 2026 upload)",
   },
+  {
+    barangay: "Balabago",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 4,
+    dayStart: 22,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Fiesta in Balabago ft. Elem. Classmates and Friends (Apr 22, 2024 upload)",
+  },
 ];

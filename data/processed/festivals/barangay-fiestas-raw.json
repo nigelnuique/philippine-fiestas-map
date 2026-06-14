@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T08:05:03.035Z",
+  "generatedAt": "2026-06-14T08:40:53.930Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -254751,7 +254751,11 @@
       "municipalityPsgcPsa": "061904000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinaytayan, Dumarao."
+      "description": "Barangay patronal fiesta for Tinaytayan, Dumarao.",
+      "month": 11,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-tinaytayan-dumarao",
+      "patronSaint": "Our Lady of the Miraculous Medal"
     },
     {
       "id": "bgy-061904038",
@@ -269440,7 +269444,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balabago, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Balabago, City Of Iloilo (Capital).",
+      "month": 4,
+      "dayStart": 22,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022011",
@@ -308999,7 +309006,11 @@
       "municipalityPsgcPsa": "071242000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ubujan, City Of Tagbilaran (Capital)."
+      "description": "Barangay patronal fiesta for Ubujan, City Of Tagbilaran (Capital).",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-ubujan-tagbilaran",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-071243001",
@@ -309986,7 +309997,11 @@
       "municipalityPsgcPsa": "071245000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pooc Oriental (Pob.), Tubigon."
+      "description": "Barangay patronal fiesta for Pooc Oriental (Pob.), Tubigon.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-pooc-oriental-tubigon",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-071245028",
@@ -568953,15 +568968,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T08:05:03.035Z",
+    "appliedAt": "2026-06-14T08:40:53.930Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1414,
+      "fromOverride": 1418,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36299
+      "stillMissing": 36295
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569015,8 +569030,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 24,
-        "matched": 24,
+        "entries": 25,
+        "matched": 25,
         "missed": 0
       },
       "tarlac": {
@@ -569090,8 +569105,8 @@
         "missed": 0
       },
       "capizTheoldchurches": {
-        "entries": 36,
-        "matched": 36,
+        "entries": 37,
+        "matched": 37,
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
@@ -569105,8 +569120,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 49,
-        "matched": 49,
+        "entries": 51,
+        "matched": 51,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {

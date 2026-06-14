@@ -35,6 +35,12 @@ import { BOHOL_THEOLDCHURCHES_ENTRIES } from "./bohol-theoldchurches-text.js";
 import { CAMARINES_SUR_THEOLDCHURCHES_ENTRIES } from "./camarines-sur-theoldchurches-text.js";
 import { NEGROS_ORIENTAL_THEOLDCHURCHES_ENTRIES } from "./negros-oriental-theoldchurches-text.js";
 import { SAMAR_THEOLDCHURCHES_ENTRIES } from "./samar-theoldchurches-text.js";
+import { EASTERN_SAMAR_THEOLDCHURCHES_ENTRIES } from "./eastern-samar-theoldchurches-text.js";
+import { NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES } from "./northern-samar-theoldchurches-text.js";
+import { SOUTHERN_LEYTE_THEOLDCHURCHES_ENTRIES } from "./southern-leyte-theoldchurches-text.js";
+import { ANTIQUE_THEOLDCHURCHES_ENTRIES } from "./antique-theoldchurches-text.js";
+import { ROMBLON_THEOLDCHURCHES_ENTRIES } from "./romblon-theoldchurches-text.js";
+import { GUIMARAS_THEOLDCHURCHES_ENTRIES } from "./guimaras-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -690,6 +696,18 @@ export function getLguBarangayFiestaDatesByPsgc() {
     ...e,
   }));
   const samarTheoldchurchesEntries = SAMAR_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const easternSamarTheoldchurchesEntries = EASTERN_SAMAR_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
+  const northernSamarTheoldchurchesEntries = NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
+  const southernLeyteTheoldchurchesEntries = SOUTHERN_LEYTE_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
+  const antiqueTheoldchurchesEntries = ANTIQUE_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const romblonTheoldchurchesEntries = ROMBLON_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const guimarasTheoldchurchesEntries = GUIMARAS_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -735,6 +753,12 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const camarinesSurTheoldchurches = resolveScheduleEntries(camarinesSurTheoldchurchesEntries);
   const negrosOrientalTheoldchurches = resolveScheduleEntries(negrosOrientalTheoldchurchesEntries);
   const samarTheoldchurches = resolveScheduleEntries(samarTheoldchurchesEntries);
+  const easternSamarTheoldchurches = resolveScheduleEntries(easternSamarTheoldchurchesEntries);
+  const northernSamarTheoldchurches = resolveScheduleEntries(northernSamarTheoldchurchesEntries);
+  const southernLeyteTheoldchurches = resolveScheduleEntries(southernLeyteTheoldchurchesEntries);
+  const antiqueTheoldchurches = resolveScheduleEntries(antiqueTheoldchurchesEntries);
+  const romblonTheoldchurches = resolveScheduleEntries(romblonTheoldchurchesEntries);
+  const guimarasTheoldchurches = resolveScheduleEntries(guimarasTheoldchurchesEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -778,6 +802,12 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...camarinesSurTheoldchurches.byPsgc,
       ...negrosOrientalTheoldchurches.byPsgc,
       ...samarTheoldchurches.byPsgc,
+      ...easternSamarTheoldchurches.byPsgc,
+      ...northernSamarTheoldchurches.byPsgc,
+      ...southernLeyteTheoldchurches.byPsgc,
+      ...antiqueTheoldchurches.byPsgc,
+      ...romblonTheoldchurches.byPsgc,
+      ...guimarasTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -944,6 +974,36 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: samarTheoldchurchesEntries.length,
         matched: samarTheoldchurches.matched,
         missed: samarTheoldchurches.missed,
+      },
+      easternSamarTheoldchurches: {
+        entries: easternSamarTheoldchurchesEntries.length,
+        matched: easternSamarTheoldchurches.matched,
+        missed: easternSamarTheoldchurches.missed,
+      },
+      northernSamarTheoldchurches: {
+        entries: northernSamarTheoldchurchesEntries.length,
+        matched: northernSamarTheoldchurches.matched,
+        missed: northernSamarTheoldchurches.missed,
+      },
+      southernLeyteTheoldchurches: {
+        entries: southernLeyteTheoldchurchesEntries.length,
+        matched: southernLeyteTheoldchurches.matched,
+        missed: southernLeyteTheoldchurches.missed,
+      },
+      antiqueTheoldchurches: {
+        entries: antiqueTheoldchurchesEntries.length,
+        matched: antiqueTheoldchurches.matched,
+        missed: antiqueTheoldchurches.missed,
+      },
+      romblonTheoldchurches: {
+        entries: romblonTheoldchurchesEntries.length,
+        matched: romblonTheoldchurches.matched,
+        missed: romblonTheoldchurches.missed,
+      },
+      guimarasTheoldchurches: {
+        entries: guimarasTheoldchurchesEntries.length,
+        matched: guimarasTheoldchurches.matched,
+        missed: guimarasTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

@@ -20,6 +20,7 @@ import { ANGONO_FIESTA_ENTRIES, ANGONO_RELATIVE_FIESTA_SCHEDULE } from "./angono
 import { BALILIHAN_FIESTA_ENTRIES } from "./balilihan-text.js";
 import { BULA_FIESTA_ENTRIES, BULA_FIESTA_RELATIVE_SCHEDULE } from "./bula-text.js";
 import { OTON_FIESTA_ENTRIES, OTON_FIESTA_RELATIVE_SCHEDULE } from "./oton-text.js";
+import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -652,6 +653,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
     })),
     ...buildOtonRelativeFiestaEntries(),
   ];
+  const ormocEntries = ORMOC_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -679,6 +681,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const balilihan = resolveScheduleEntries(balilihanEntries);
   const bula = resolveScheduleEntries([...bulaEntries, ...bulaRelativeEntries]);
   const oton = resolveScheduleEntries(otonEntries);
+  const ormoc = resolveScheduleEntries(ormocEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -706,6 +709,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...balilihan.byPsgc,
       ...bula.byPsgc,
       ...oton.byPsgc,
+      ...ormoc.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -792,6 +796,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: otonEntries.length,
         matched: oton.matched,
         missed: oton.missed,
+      },
+      ormoc: {
+        entries: ormocEntries.length,
+        matched: ormoc.matched,
+        missed: ormoc.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

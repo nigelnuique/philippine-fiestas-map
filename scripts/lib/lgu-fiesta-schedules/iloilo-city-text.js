@@ -164,4 +164,13 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Happy Fiesta Tanza Baybay videos cite Jun 24, 2018 and patron St. John the Baptist (Lady gagah uploads Jun 25–30, 2018)",
   },
+  {
+    barangay: "Balantang",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 3,
+    dayStart: 19,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Happy fiesta balantang upload (Mar 19, 2018)",
+  },
 ];

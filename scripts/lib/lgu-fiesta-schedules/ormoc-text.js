@@ -1,0 +1,55 @@
+/**
+ * Ormoc City, Leyte — barangay feast days from ParishPH parish records.
+ */
+export const ORMOC_FIESTA_ENTRIES = [
+  {
+    barangay: "Valencia",
+    municipality: "Ormoc City",
+    province: "Leyte",
+    month: 2,
+    dayStart: 11,
+    patronSaint: "Our Lady of Lourdes",
+    dateSource: "parish-our-lady-of-lourdes-valencia-ormoc",
+    note: "ParishPH Our Lady of Lourdes Parish, Brgy. Valencia",
+  },
+  {
+    barangay: "San Pablo (Simangan)",
+    municipality: "Ormoc City",
+    province: "Leyte",
+    month: 9,
+    dayStart: 28,
+    patronSaint: "San Lorenzo Ruiz de Manila",
+    dateSource: "parish-san-lorenzo-ruiz-simangan-ormoc",
+    note: "ParishPH San Lorenzo Ruiz de Manila Parish, Brgy. Simangan",
+  },
+  {
+    barangay: "Cogon",
+    municipality: "Ormoc City",
+    province: "Leyte",
+    month: 5,
+    dayStart: 13,
+    dateSource: "parish-mother-of-redeemer-cogon-ormoc",
+    note: "ParishPH Mother of the Redeemer Parish, Brgy. Cogon",
+  },
+  {
+    barangay: "Ipil",
+    municipality: "Ormoc City",
+    province: "Leyte",
+    month: 12,
+    dayStart: 8,
+    patronSaint: "Immaculate Conception",
+    dateSource: "parish-immaculate-conception-ipil-ormoc",
+    note: "ParishPH Immaculate Conception Parish, Brgy. Ipil",
+  },
+  {
+    barangay: "Manlilinao",
+    municipality: "Ormoc City",
+    province: "Leyte",
+    month: 5,
+    dayStart: 14,
+    dayEnd: 15,
+    patronSaint: "San Isidro Labrador",
+    dateSource: "lgu-ormoc-cultural-mapping",
+    note: "Ormoc Cultural Mapping ICH entry h=1790: San Isidro Labrador Feast May 14-15",
+  },
+];

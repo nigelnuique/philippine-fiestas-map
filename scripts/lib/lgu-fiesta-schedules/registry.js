@@ -163,6 +163,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "28/28 dated from LGU profiles + mayor/community FB + OMPHS Sumagonsong parish (Pakiing Jun 28); Latangan Apr 22 mayor on-day cha-cha video",
   },
   {
+    id: "ormoc-curated",
+    municipality: "Ormoc City",
+    province: "Leyte",
+    format: "curated-text",
+    parser: "ORMOC_FIESTA_ENTRIES",
+    status: "partial",
+    dateSource: "parish-ormoc-city",
+    notes: "ParishPH + Ormoc Cultural Mapping ICH; 5/110 dated (Valencia, San Pablo Simangan, Cogon, Ipil, Manlilinao)",
+  },
+  {
     id: "tacloban-city",
     municipality: "City Of Tacloban (Capital)",
     province: "Leyte",

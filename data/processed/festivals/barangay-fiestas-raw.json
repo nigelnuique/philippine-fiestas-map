@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:03:15.101Z",
+  "generatedAt": "2026-06-14T05:10:31.412Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269046,7 +269046,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balantang, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Balantang, City Of Iloilo (Capital).",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022012",
@@ -358901,7 +358904,10 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cogon Combado, Ormoc City."
+      "description": "Barangay patronal fiesta for Cogon Combado, Ormoc City.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "parish-mother-of-redeemer-cogon-ormoc"
     },
     {
       "id": "bgy-083738017",
@@ -359425,7 +359431,11 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ipil, Ormoc City."
+      "description": "Barangay patronal fiesta for Ipil, Ormoc City.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "parish-immaculate-conception-ipil-ormoc",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-083738057",
@@ -359863,10 +359873,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Pablo (Simangan), Ormoc City.",
-      "month": 6,
-      "dayStart": 29,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san pablo"
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "parish-san-lorenzo-ruiz-simangan-ormoc",
+      "patronSaint": "San Lorenzo Ruiz de Manila"
     },
     {
       "id": "bgy-083738089",
@@ -359892,7 +359902,11 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Valencia, Ormoc City."
+      "description": "Barangay patronal fiesta for Valencia, Ormoc City.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "parish-our-lady-of-lourdes-valencia-ormoc",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-083738091",
@@ -567575,15 +567589,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T05:03:15.101Z",
+    "appliedAt": "2026-06-14T05:10:31.412Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4337,
-      "fromOverride": 971,
+      "alreadyHadDate": 4336,
+      "fromOverride": 976,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36736
+      "stillMissing": 36732
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567637,8 +567651,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 17,
-        "matched": 17,
+        "entries": 18,
+        "matched": 18,
         "missed": 0
       },
       "tarlac": {
@@ -567664,6 +567678,11 @@
       "oton": {
         "entries": 34,
         "matched": 34,
+        "missed": 0
+      },
+      "ormoc": {
+        "entries": 5,
+        "matched": 5,
         "missed": 0
       },
       "curatedOnline": {

@@ -522,4 +522,14 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-trinidad",
     note: "TheOldChurches St. Isidore Church in Trinidad, Bohol — feast May 15; Loay Interior Road, Trinidad, Bohol 6324",
   },
+  {
+    barangay: "Cawayanan",
+    municipality: "Tubigon",
+    province: "Bohol",
+    month: 5,
+    dayStart: 3,
+    patronSaint: "Holy Cross",
+    dateSource: "theoldchurches-cawayanan-tubigon",
+    note: "TheOldChurches Holy Cross Church in Cawayan, Tubigon, Bohol — feast May 3; Cawayan, Tubigon, Bohol 6329 (PSGC: Cawayanan)",
+  },
 ];

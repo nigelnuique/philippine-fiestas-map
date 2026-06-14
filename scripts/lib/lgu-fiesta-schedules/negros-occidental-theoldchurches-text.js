@@ -656,4 +656,14 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-ii-sagay",
     note: "TheOldChurches St. Joseph Church in Poblacion II, Sagay City — feast March 19; Poblacion II, Sagay City, Negros Occidental 6122",
   },
+  {
+    barangay: "Barangay Zone 4 (Pob.)",
+    municipality: "Pulupandan",
+    province: "Negros Occidental",
+    month: 2,
+    dayStart: 15,
+    patronSaint: "Our Lady of Lourdes",
+    dateSource: "theoldchurches-zone-4-pob-pulupandan",
+    note: "TheOldChurches Our Lady of Lourdes Parish Church in Pulupandan — feast February 15; Riego St., Barangay Zone 4, Poblacion, Pulupandan, Negros Occidental",
+  },
 ];

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:42:01.600Z",
+  "generatedAt": "2026-06-14T09:46:26.184Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -267689,7 +267689,11 @@
       "municipalityPsgcPsa": "063018000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pd Monfort North (Lublub), Dumangas."
+      "description": "Barangay patronal fiesta for Pd Monfort North (Lublub), Dumangas.",
+      "month": 5,
+      "dayStart": 20,
+      "dateSource": "theoldchurches-pd-monfort-north-dumangas",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-063018029",
@@ -292615,7 +292619,11 @@
       "municipalityPsgcPsa": "064522000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Zone 4 (Pob.), Pulupandan."
+      "description": "Barangay patronal fiesta for Barangay Zone 4 (Pob.), Pulupandan.",
+      "month": 2,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-zone-4-pob-pulupandan",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-064522007",
@@ -309838,7 +309846,11 @@
       "municipalityPsgcPsa": "071245000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cawayanan, Tubigon."
+      "description": "Barangay patronal fiesta for Cawayanan, Tubigon.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-cawayanan-tubigon",
+      "patronSaint": "Holy Cross"
     },
     {
       "id": "bgy-071245011",
@@ -337736,7 +337748,11 @@
       "municipalityPsgcPsa": "082602000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Poblacion Ii, Balangiga."
+      "description": "Barangay patronal fiesta for Barangay Poblacion Ii, Balangiga.",
+      "month": 8,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-barangay-poblacion-ii-balangiga",
+      "patronSaint": "St. Lawrence the Martyr"
     },
     {
       "id": "bgy-082602007",
@@ -342880,7 +342896,11 @@
       "municipalityPsgcPsa": "082616000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 3 Poblacion, Mercedes."
+      "description": "Barangay patronal fiesta for Barangay 3 Poblacion, Mercedes.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-barangay-3-poblacion-mercedes",
+      "patronSaint": "St. Francis of Assisi"
     },
     {
       "id": "bgy-082616011",
@@ -345317,7 +345337,11 @@
       "municipalityPsgcPsa": "082623000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Barangay 1, Taft."
+      "description": "Barangay patronal fiesta for Poblacion Barangay 1, Taft.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-poblacion-barangay-1-taft",
+      "patronSaint": "St. James the Great"
     },
     {
       "id": "bgy-082623017",
@@ -569090,15 +569114,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T09:42:01.600Z",
+    "appliedAt": "2026-06-14T09:46:26.184Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1449,
+      "fromOverride": 1455,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36264
+      "stillMissing": 36258
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569212,8 +569236,8 @@
         "missed": 0
       },
       "iloiloProvinceTheoldchurches": {
-        "entries": 19,
-        "matched": 19,
+        "entries": 20,
+        "matched": 20,
         "missed": 0
       },
       "leyteTheoldchurches": {
@@ -569232,8 +569256,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 72,
-        "matched": 72,
+        "entries": 73,
+        "matched": 73,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -569242,8 +569266,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 57,
-        "matched": 57,
+        "entries": 58,
+        "matched": 58,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
@@ -569262,8 +569286,8 @@
         "missed": 0
       },
       "easternSamarTheoldchurches": {
-        "entries": 9,
-        "matched": 9,
+        "entries": 12,
+        "matched": 12,
         "missed": 0
       },
       "northernSamarTheoldchurches": {

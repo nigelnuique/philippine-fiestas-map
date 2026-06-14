@@ -690,7 +690,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "46/180 dated: on-day YouTube + TheOldChurches (Luna La Paz Jun 20, Sambag, South Fundidor, Lopez Jaena Norte) and prior curated rows",
+    notes: "54/180 dated: on-day YouTube (Lanit, Lapuz Norte, Quintin Salas, Rizal Estanzuela, Railway) + TheOldChurches (North/South Fundidor, Luna La Paz, Sambag, Lopez Jaena Norte) and prior curated rows",
   },
   {
     id: "mulanay-curated",

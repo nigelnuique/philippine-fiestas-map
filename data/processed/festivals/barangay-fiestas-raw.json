@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:46:45.212Z",
+  "generatedAt": "2026-06-14T11:58:54.207Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -222996,7 +222996,11 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sagrada (Camp 6), Tinambac."
+      "description": "Barangay patronal fiesta for Sagrada (Camp 6), Tinambac.",
+      "month": 1,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-holy-family-church-sagrada",
+      "patronSaint": "Holy Family"
     },
     {
       "id": "bgy-051737031",
@@ -223175,7 +223179,11 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tambang, Tinambac."
+      "description": "Barangay patronal fiesta for Tambang, Tinambac.",
+      "month": 5,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-st-joseph-church-tamban",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-051737042",
@@ -271617,7 +271625,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lanit, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Lanit, City Of Iloilo (Capital).",
+      "month": 3,
+      "dayStart": 5,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022087",
@@ -271630,7 +271641,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lapuz Norte, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Lapuz Norte, City Of Iloilo (Capital).",
+      "month": 8,
+      "dayStart": 4,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022088",
@@ -272014,7 +272028,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for North Fundidor, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for North Fundidor, City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-san-jose-obrero-fundidor-molo",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-063022118",
@@ -272254,7 +272272,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Quintin Salas, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Quintin Salas, City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022136",
@@ -272280,7 +272301,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Rizal Estanzuela, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Rizal Estanzuela, City Of Iloilo (Capital).",
+      "month": 12,
+      "dayStart": 9,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022138",
@@ -272306,7 +272330,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Railway, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Railway, City Of Iloilo (Capital).",
+      "month": 7,
+      "dayStart": 30,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022140",
@@ -572301,15 +572328,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T11:46:45.212Z",
+    "appliedAt": "2026-06-14T11:58:54.207Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4196,
-      "fromOverride": 2385,
+      "fromOverride": 2393,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35463
+      "stillMissing": 35455
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572363,8 +572390,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 25,
-        "matched": 25,
+        "entries": 31,
+        "matched": 31,
         "missed": 0
       },
       "tarlac": {
@@ -572703,8 +572730,8 @@
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 53,
-        "matched": 53,
+        "entries": 55,
+        "matched": 55,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {

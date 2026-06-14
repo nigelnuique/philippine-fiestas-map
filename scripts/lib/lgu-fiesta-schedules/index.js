@@ -26,6 +26,8 @@ import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-
 import { LEYTE_PARISH_FIESTA_ENTRIES } from "./leyte-parish-text.js";
 import { PANGASINAN_PARISH_FIESTA_ENTRIES } from "./pangasinan-parish-text.js";
 import { ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES } from "./iloilo-province-theoldchurches-text.js";
+import { LEYTE_THEOLDCHURCHES_ENTRIES } from "./leyte-theoldchurches-text.js";
+import { CEBU_THEOLDCHURCHES_ENTRIES } from "./cebu-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -667,6 +669,8 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const iloiloProvinceTheoldchurchesEntries = ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES.map((e) => ({
     ...e,
   }));
+  const leyteTheoldchurchesEntries = LEYTE_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const cebuTheoldchurchesEntries = CEBU_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -701,6 +705,8 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const leyteParish = resolveScheduleEntries(leyteParishEntries);
   const pangasinanParish = resolveScheduleEntries(pangasinanParishEntries);
   const iloiloProvinceTheoldchurches = resolveScheduleEntries(iloiloProvinceTheoldchurchesEntries);
+  const leyteTheoldchurches = resolveScheduleEntries(leyteTheoldchurchesEntries);
+  const cebuTheoldchurches = resolveScheduleEntries(cebuTheoldchurchesEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -735,6 +741,8 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...leyteParish.byPsgc,
       ...pangasinanParish.byPsgc,
       ...iloiloProvinceTheoldchurches.byPsgc,
+      ...leyteTheoldchurches.byPsgc,
+      ...cebuTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -856,6 +864,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: iloiloProvinceTheoldchurchesEntries.length,
         matched: iloiloProvinceTheoldchurches.matched,
         missed: iloiloProvinceTheoldchurches.missed,
+      },
+      leyteTheoldchurches: {
+        entries: leyteTheoldchurchesEntries.length,
+        matched: leyteTheoldchurches.matched,
+        missed: leyteTheoldchurches.missed,
+      },
+      cebuTheoldchurches: {
+        entries: cebuTheoldchurchesEntries.length,
+        matched: cebuTheoldchurches.matched,
+        missed: cebuTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

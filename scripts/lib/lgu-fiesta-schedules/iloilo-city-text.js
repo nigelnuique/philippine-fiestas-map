@@ -31,4 +31,23 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Sinadya sa Fiesta @ San Pedro Molo (Jun 29, 2024)",
   },
+  {
+    barangay: "West Habog-Habog",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 6,
+    dayStart: 5,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day happy fiesta west Habog-Habog molo iloilo (Jun 5, 2023)",
+  },
+  {
+    barangay: "Santa Cruz",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 5,
+    dayStart: 3,
+    patronSaint: "Santa Cruz",
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Sta. Cruz Fiesta Procession videos (May 3–4, 2018–2023; Arevalo)",
+  },
 ];

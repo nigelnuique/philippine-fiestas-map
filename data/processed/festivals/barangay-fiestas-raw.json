@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:06:45.120Z",
+  "generatedAt": "2026-06-14T03:09:59.582Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -268913,8 +268913,8 @@
       "description": "Barangay patronal fiesta for Santa Cruz, City Of Iloilo (Capital).",
       "month": 5,
       "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-063022003",
@@ -271203,7 +271203,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for West Habog-Habog, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for West Habog-Habog, City Of Iloilo (Capital).",
+      "month": 6,
+      "dayStart": 5,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022192",
@@ -567523,15 +567526,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T03:06:45.120Z",
+    "appliedAt": "2026-06-14T03:09:59.582Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4340,
-      "fromOverride": 953,
+      "alreadyHadDate": 4339,
+      "fromOverride": 955,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36751
+      "stillMissing": 36750
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567585,8 +567588,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 3,
-        "matched": 3,
+        "entries": 5,
+        "matched": 5,
         "missed": 0
       },
       "tarlac": {

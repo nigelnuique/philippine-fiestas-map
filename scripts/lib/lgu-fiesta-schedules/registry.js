@@ -150,7 +150,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "29/180 dated: on-day YouTube (Molo Boulevard Jan 31; San Juan Jun 24; San Pedro Molo Jun 29) plus patron-saint name matches",
+    notes: "30/180 dated: on-day YouTube (Molo Boulevard, San Juan, San Pedro Molo, West Habog-Habog, Santa Cruz) plus patron-saint name matches",
   },
   {
     id: "mulanay-curated",

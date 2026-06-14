@@ -8,6 +8,7 @@ import { fileURLToPath } from "url";
 import { SIARGAO_FIESTA_TEXT } from "./siargao-text.js";
 import { GMA_FIESTA_TEXT, GMA_RELATIVE_FIESTA_SCHEDULE } from "./gma-text.js";
 import { BILIRAN_APRIL_TEXT } from "./biliran-april-text.js";
+import { BILIRAN_THEOLDCHURCHES_ENTRIES } from "./biliran-theoldchurches-text.js";
 import { BAYAWAN_FIESTA_TEXT } from "./bayawan-text.js";
 import { PINAMUNGAHAN_FIESTA_ENTRIES } from "./pinamungahan-text.js";
 import { MACABEBE_FIESTA_ENTRIES } from "./macabebe-text.js";
@@ -689,6 +690,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const siargaoEntries = parseSiargaoLines(SIARGAO_FIESTA_TEXT);
   const biliranMayEntries = parseBiliranMayBlock(BILIRAN_MAY_TEXT);
   const biliranAprilEntries = parseBiliranIslandDateLines(BILIRAN_APRIL_TEXT);
+  const biliranTheoldchurchesEntries = BILIRAN_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const gmaEntries = parseGmaFiestaBlock(GMA_FIESTA_TEXT);
   const gmaRelativeEntries = buildGmaRelativeFiestaEntries();
   const bayawanEntries = parseBayawanFiestaBlock(BAYAWAN_FIESTA_TEXT);
@@ -1038,6 +1040,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const siargao = resolveScheduleEntries(siargaoEntries);
   const biliranMay = resolveScheduleEntries(biliranMayEntries);
   const biliranApril = resolveScheduleEntries(biliranAprilEntries);
+  const biliranTheoldchurches = resolveScheduleEntries(biliranTheoldchurchesEntries);
   const gma = resolveScheduleEntries([...gmaEntries, ...gmaRelativeEntries]);
   const bayawan = resolveScheduleEntries(bayawanEntries);
   const pinamungahan = resolveScheduleEntries(pinamungahanEntries);
@@ -1139,6 +1142,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...siargao.byPsgc,
       ...biliranMay.byPsgc,
       ...biliranApril.byPsgc,
+      ...biliranTheoldchurches.byPsgc,
       ...gma.byPsgc,
       ...bayawan.byPsgc,
       ...pinamungahan.byPsgc,
@@ -1245,6 +1249,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: biliranAprilEntries.length,
         matched: biliranApril.matched,
         missed: biliranApril.missed,
+      },
+      biliranTheoldchurches: {
+        entries: biliranTheoldchurchesEntries.length,
+        matched: biliranTheoldchurches.matched,
+        missed: biliranTheoldchurches.missed,
       },
       gma: {
         entries: gmaEntries.length + gmaRelativeEntries.length,

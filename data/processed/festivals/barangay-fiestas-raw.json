@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:58:54.207Z",
+  "generatedAt": "2026-06-14T12:07:38.254Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -212638,7 +212638,11 @@
       "municipalityPsgcPsa": "051712000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Zone Iii, Del Gallego."
+      "description": "Barangay patronal fiesta for Poblacion Zone Iii, Del Gallego.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-sta-rita-de-cascia-church-del-gallego",
+      "patronSaint": "Sta. Rita de Cascia"
     },
     {
       "id": "bgy-051712021",
@@ -215585,7 +215589,10 @@
       "municipalityPsgcPsa": "051718000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Libmanan."
+      "description": "Barangay patronal fiesta for Poblacion, Libmanan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-libmanan-cathedral"
     },
     {
       "id": "bgy-051718055",
@@ -309911,7 +309918,11 @@
       "municipalityPsgcPsa": "071240000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Sierra Bullones."
+      "description": "Barangay patronal fiesta for Poblacion, Sierra Bullones.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-immaculate-conception-church-in-sierra-bullones-bohol",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-071240016",
@@ -396692,7 +396703,11 @@
       "municipalityPsgcPsa": "087801000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Almeria."
+      "description": "Barangay patronal fiesta for Poblacion, Almeria.",
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-shrine-of-our-lady-of-peace-and-good-voyage-almeria",
+      "patronSaint": "Our Lady of Peace and Good Voyage"
     },
     {
       "id": "bgy-087801008",
@@ -397836,7 +397851,11 @@
       "municipalityPsgcPsa": "087806000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Kawayan."
+      "description": "Barangay patronal fiesta for Poblacion, Kawayan.",
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-st-raphael-the-archangel-church-kawayan",
+      "patronSaint": "St. Raphael the Archangel"
     },
     {
       "id": "bgy-087806013",
@@ -572328,15 +572347,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T11:58:54.207Z",
+    "appliedAt": "2026-06-14T12:07:38.254Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4196,
-      "fromOverride": 2393,
+      "fromOverride": 2398,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35455
+      "stillMissing": 35450
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572352,6 +572371,11 @@
       "biliranApril": {
         "entries": 28,
         "matched": 28,
+        "missed": 0
+      },
+      "biliranTheoldchurches": {
+        "entries": 2,
+        "matched": 2,
         "missed": 0
       },
       "gma": {
@@ -572725,13 +572749,13 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 61,
-        "matched": 61,
+        "entries": 62,
+        "matched": 62,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 55,
-        "matched": 55,
+        "entries": 57,
+        "matched": 57,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {

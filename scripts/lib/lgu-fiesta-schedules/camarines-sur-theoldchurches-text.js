@@ -499,4 +499,23 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-holy-family-church-sagrada",
     note: "TheOldChurches Holy Family Church in Sagrada, Tinambac, Camarines Sur — feast January 11; Sagrada, Tinambac, Camarines Sur 4426",
   },
+  {
+    barangay: "Poblacion Zone Iii",
+    municipality: "Del Gallego",
+    province: "Camarines Sur",
+    month: 5,
+    dayStart: 22,
+    patronSaint: "Sta. Rita de Cascia",
+    dateSource: "theoldchurches-sta-rita-de-cascia-church-del-gallego",
+    note: "TheOldChurches Sta. Rita de Cascia Church in Del Gallego, Camarines Sur — feast May 22; Del Gallego, Camarines Sur 4411",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "Libmanan",
+    province: "Camarines Sur",
+    month: 7,
+    dayStart: 25,
+    dateSource: "theoldchurches-libmanan-cathedral",
+    note: "TheOldChurches Libmanan Cathedral in Libmanan, Camarines Sur — feast July 25; Libmanan, Camarines Sur 4407",
+  },
 ];

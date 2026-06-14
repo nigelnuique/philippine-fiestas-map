@@ -560,4 +560,14 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-michael-the-archangel-parish-church-jagna",
     note: "TheOldChurches St. Michael the Archangel Parish Church in Jagna, Bohol — feast September 29; Poblacion, Jagna, Bohol 6308",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Sierra Bullones",
+    province: "Bohol",
+    month: 12,
+    dayStart: 8,
+    patronSaint: "Immaculate Conception",
+    dateSource: "theoldchurches-immaculate-conception-church-in-sierra-bullones-bohol",
+    note: "TheOldChurches Immaculate Conception Church in Sierra Bullones, Bohol — feast December 8; Sierra Bullones, Bohol",
+  },
 ];

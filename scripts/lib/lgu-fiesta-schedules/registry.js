@@ -873,6 +873,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
   },
   {
+    id: "biliran-theoldchurches",
+    municipality: "Biliran (multi-municipality)",
+    province: "Biliran",
+    format: "curated-text",
+    parser: "BILIRAN_THEOLDCHURCHES_ENTRIES",
+    status: "partial",
+    dateSource: "theoldchurches-biliran",
+    notes: "TheOldChurches municipal parish pages mapped to sole Poblacion barangays: Almeria, Kawayan",
+  },
+  {
     id: "camarines-norte-theoldchurches",
     municipality: "Camarines Norte (multi-municipality)",
     province: "Camarines Norte",

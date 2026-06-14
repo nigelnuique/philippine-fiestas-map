@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:11:10.485Z",
+  "generatedAt": "2026-06-14T06:28:08.754Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269235,7 +269235,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Buntatala, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Buntatala, City Of Iloilo (Capital).",
+      "month": 1,
+      "dayStart": 8,
+      "dateSource": "parish-spousal-mary-joseph-buntatala-jaro",
+      "patronSaint": "Espousals of the Blessed Virgin Mary and St. Joseph"
     },
     {
       "id": "bgy-063022028",
@@ -350733,7 +350737,11 @@
       "municipalityPsgcPsa": "083715000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Jugaban (Pob.), Carigara."
+      "description": "Barangay patronal fiesta for Jugaban (Pob.), Carigara.",
+      "month": 10,
+      "dayStart": 4,
+      "dateSource": "parish-st-francis-jugaban-carigara",
+      "patronSaint": "St. Francis of Assisi"
     },
     {
       "id": "bgy-083715021",
@@ -352073,7 +352081,11 @@
       "municipalityPsgcPsa": "083718000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabacungan, Dulag."
+      "description": "Barangay patronal fiesta for Cabacungan, Dulag.",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "parish-mt-carmel-cabacungan-dulag",
+      "patronSaint": "Our Lady of Mount Carmel"
     },
     {
       "id": "bgy-083718007",
@@ -352402,7 +352414,10 @@
       "municipalityPsgcPsa": "083718000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sungi (Pob.), Dulag."
+      "description": "Barangay patronal fiesta for Sungi (Pob.), Dulag.",
+      "month": 9,
+      "dayStart": 8,
+      "dateSource": "parish-our-lady-of-refuge-sungi-dulag"
     },
     {
       "id": "bgy-083718033",
@@ -352536,10 +352551,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Jose, Dulag.",
-      "month": 3,
-      "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "parish-st-joseph-san-jose-dulag",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-083718042",
@@ -364392,7 +364407,11 @@
       "municipalityPsgcPsa": "083747000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 91 (Abucay), City Of Tacloban (Capital)."
+      "description": "Barangay patronal fiesta for Barangay 91 (Abucay), City Of Tacloban (Capital).",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "parish-our-lady-of-guadalupe-abucay-tacloban",
+      "patronSaint": "Our Lady of Guadalupe"
     },
     {
       "id": "bgy-083747125",
@@ -364405,7 +364424,11 @@
       "municipalityPsgcPsa": "083747000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 92 (Apitong), City Of Tacloban (Capital)."
+      "description": "Barangay patronal fiesta for Barangay 92 (Apitong), City Of Tacloban (Capital).",
+      "month": 6,
+      "dayStart": 26,
+      "dateSource": "parish-st-josemaria-escriva-apitong-tacloban",
+      "patronSaint": "Saint Josemaria Escriva"
     },
     {
       "id": "bgy-083747127",
@@ -364418,7 +364441,11 @@
       "municipalityPsgcPsa": "083747000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 93 (Bagacay), City Of Tacloban (Capital)."
+      "description": "Barangay patronal fiesta for Barangay 93 (Bagacay), City Of Tacloban (Capital).",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "parish-virgen-candelaria-bagacay-tacloban",
+      "patronSaint": "Virgen de la Candelaria"
     },
     {
       "id": "bgy-083747128",
@@ -364431,7 +364458,10 @@
       "municipalityPsgcPsa": "083747000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 94 (Tigbao), City Of Tacloban (Capital)."
+      "description": "Barangay patronal fiesta for Barangay 94 (Tigbao), City Of Tacloban (Capital).",
+      "month": 8,
+      "dayStart": 2,
+      "dateSource": "parish-blessed-sacrament-tigbao-tacloban"
     },
     {
       "id": "bgy-083747129",
@@ -567601,15 +567631,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T05:11:10.485Z",
+    "appliedAt": "2026-06-14T06:28:08.754Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4336,
-      "fromOverride": 979,
+      "alreadyHadDate": 4335,
+      "fromOverride": 988,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36729
+      "stillMissing": 36721
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567663,8 +567693,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 18,
-        "matched": 18,
+        "entries": 19,
+        "matched": 19,
         "missed": 0
       },
       "tarlac": {
@@ -567695,6 +567725,21 @@
       "ormoc": {
         "entries": 8,
         "matched": 8,
+        "missed": 0
+      },
+      "tacloban": {
+        "entries": 4,
+        "matched": 4,
+        "missed": 0
+      },
+      "dulag": {
+        "entries": 3,
+        "matched": 3,
+        "missed": 0
+      },
+      "carigara": {
+        "entries": 1,
+        "matched": 1,
         "missed": 0
       },
       "curatedOnline": {

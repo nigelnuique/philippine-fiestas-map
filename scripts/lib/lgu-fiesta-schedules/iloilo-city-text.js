@@ -173,4 +173,14 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Happy fiesta balantang upload (Mar 19, 2018)",
   },
+  {
+    barangay: "Buntatala",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 1,
+    dayStart: 8,
+    patronSaint: "Espousals of the Blessed Virgin Mary and St. Joseph",
+    dateSource: "parish-spousal-mary-joseph-buntatala-jaro",
+    note: "TheOldChurches / Spousal of Mary and Joseph Parish records Jan 8 feast; corroborated by on-day Happy Fiesta Spousal Mary and Joseph parish Buntatala video (Jan 14, 2024 upload)",
+  },
 ];

@@ -21,6 +21,8 @@ import { BALILIHAN_FIESTA_ENTRIES } from "./balilihan-text.js";
 import { BULA_FIESTA_ENTRIES, BULA_FIESTA_RELATIVE_SCHEDULE } from "./bula-text.js";
 import { OTON_FIESTA_ENTRIES, OTON_FIESTA_RELATIVE_SCHEDULE } from "./oton-text.js";
 import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
+import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
+import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -654,6 +656,9 @@ export function getLguBarangayFiestaDatesByPsgc() {
     ...buildOtonRelativeFiestaEntries(),
   ];
   const ormocEntries = ORMOC_FIESTA_ENTRIES.map((e) => ({ ...e }));
+  const taclobanEntries = TACLOBAN_FIESTA_ENTRIES.map((e) => ({ ...e }));
+  const dulagEntries = DULAG_FIESTA_ENTRIES.map((e) => ({ ...e }));
+  const carigaraEntries = CARIGARA_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -682,6 +687,9 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const bula = resolveScheduleEntries([...bulaEntries, ...bulaRelativeEntries]);
   const oton = resolveScheduleEntries(otonEntries);
   const ormoc = resolveScheduleEntries(ormocEntries);
+  const tacloban = resolveScheduleEntries(taclobanEntries);
+  const dulag = resolveScheduleEntries(dulagEntries);
+  const carigara = resolveScheduleEntries(carigaraEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -710,6 +718,9 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...bula.byPsgc,
       ...oton.byPsgc,
       ...ormoc.byPsgc,
+      ...tacloban.byPsgc,
+      ...dulag.byPsgc,
+      ...carigara.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -801,6 +812,21 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: ormocEntries.length,
         matched: ormoc.matched,
         missed: ormoc.missed,
+      },
+      tacloban: {
+        entries: taclobanEntries.length,
+        matched: tacloban.matched,
+        missed: tacloban.missed,
+      },
+      dulag: {
+        entries: dulagEntries.length,
+        matched: dulag.matched,
+        missed: dulag.missed,
+      },
+      carigara: {
+        entries: carigaraEntries.length,
+        matched: carigara.matched,
+        missed: carigara.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

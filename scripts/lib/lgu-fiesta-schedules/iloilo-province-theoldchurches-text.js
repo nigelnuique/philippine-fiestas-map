@@ -492,4 +492,13 @@ export const ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-raphael-the-archangel-church-san-rafael-2",
     note: "TheOldChurches St. Raphael the Archangel Church in San Rafael, Iloilo — feast October 24; San Rafael, Iloilo 5039",
   },
+  {
+    barangay: "Tady",
+    municipality: "Sara",
+    province: "Iloilo",
+    month: 6,
+    dayStart: 24,
+    dateSource: "theoldchurches-tady-sara",
+    note: "TheOldChurches St. John the Baptist Church in Sara, Iloilo — feast June 24; C. Tady St., Sara, Iloilo 5014",
+  },
 ];

@@ -75,6 +75,15 @@ export const NEGROS_ORIENTAL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches St. Anthony of Padua Church in Bonbonon, Siaton, Negros Oriental — feast June 13; Bonbonon, Siaton, Negros Oriental 6219",
   },
   {
+    barangay: "Poblacion I",
+    municipality: "Siaton",
+    province: "Negros Oriental",
+    month: 12,
+    dayStart: 6,
+    dateSource: "theoldchurches-poblacion-i-siaton",
+    note: "TheOldChurches San Nicolas de Bari Church in Siaton, Negros Oriental — feast December 6; Poblacion 1, Siaton, Negros Oriental 6219",
+  },
+  {
     barangay: "Banilad",
     municipality: "Bacong",
     province: "Negros Oriental",

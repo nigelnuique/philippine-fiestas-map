@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:23:49.673Z",
+  "generatedAt": "2026-06-14T10:25:01.444Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -284899,7 +284899,10 @@
       "municipalityPsgcPsa": "063044000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tady, Sara."
+      "description": "Barangay patronal fiesta for Tady, Sara.",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-tady-sara"
     },
     {
       "id": "bgy-063044041",
@@ -290050,7 +290053,10 @@
       "municipalityPsgcPsa": "064510000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Himamaylan."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Himamaylan.",
+      "month": 8,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-barangay-i-pob-himamaylan"
     },
     {
       "id": "bgy-064510017",
@@ -309404,7 +309410,11 @@
       "municipalityPsgcPsa": "071242000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Iii, City Of Tagbilaran (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion Iii, City Of Tagbilaran (Capital).",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-poblacion-iii-tagbilaran",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-071242013",
@@ -334040,7 +334050,10 @@
       "municipalityPsgcPsa": "074619000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, Siaton."
+      "description": "Barangay patronal fiesta for Poblacion I, Siaton.",
+      "month": 12,
+      "dayStart": 6,
+      "dateSource": "theoldchurches-poblacion-i-siaton"
     },
     {
       "id": "bgy-074619019",
@@ -570195,15 +570208,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:23:49.673Z",
+    "appliedAt": "2026-06-14T10:25:01.444Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4276,
-      "fromOverride": 1812,
+      "fromOverride": 1816,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35956
+      "stillMissing": 35952
     },
     "lguScheduleStats": {
       "siargao": {
@@ -570397,8 +570410,8 @@
         "missed": 0
       },
       "iloiloProvinceTheoldchurches": {
-        "entries": 30,
-        "matched": 30,
+        "entries": 31,
+        "matched": 31,
         "missed": 0
       },
       "leyteTheoldchurches": {
@@ -570417,8 +570430,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 75,
-        "matched": 75,
+        "entries": 76,
+        "matched": 76,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -570427,8 +570440,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 60,
-        "matched": 60,
+        "entries": 61,
+        "matched": 61,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
@@ -570437,8 +570450,8 @@
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
-        "entries": 26,
-        "matched": 26,
+        "entries": 27,
+        "matched": 27,
         "missed": 0
       },
       "samarTheoldchurches": {

@@ -355,6 +355,15 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches Our Lady of the Most Holy Rosary Church in Aguisan, Himamaylan, Negros Occidental — feast October 7; Aguisan Payao Rd, Aguisan, Himamaylan, Negros Occidental 6108",
   },
   {
+    barangay: "Barangay I (Pob.)",
+    municipality: "City Of Himamaylan",
+    province: "Negros Occidental",
+    month: 8,
+    dayStart: 5,
+    dateSource: "theoldchurches-barangay-i-pob-himamaylan",
+    note: "TheOldChurches Our Lady of the Snows Church in Himamaylan, Negros Occidental — feast August 5; Rizal Street, Barangay 1, Himamaylan, Negros Occidental 6108",
+  },
+  {
     barangay: "Payao",
     municipality: "Binalbagan",
     province: "Negros Occidental",

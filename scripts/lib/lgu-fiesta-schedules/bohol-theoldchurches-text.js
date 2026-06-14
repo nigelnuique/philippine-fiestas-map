@@ -454,6 +454,16 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches San Antonio de Padua Church in Ubujan, Tagbilaran City — feast June 13; Taloto-Ubujan Road, Ubujan, Tagbilaran City, Bohol 6300",
   },
   {
+    barangay: "Poblacion Iii",
+    municipality: "City Of Tagbilaran (Capital)",
+    province: "Bohol",
+    month: 6,
+    dayStart: 13,
+    patronSaint: "San Antonio de Padua",
+    dateSource: "theoldchurches-poblacion-iii-tagbilaran",
+    note: "TheOldChurches San Antonio de Padua Church in Poblacion, Tagbilaran City — feast June 13; Miguel Parras Extension, Poblacion III, Tagbilaran City, Bohol 6300",
+  },
+  {
     barangay: "Pooc Oriental (Pob.)",
     municipality: "Tubigon",
     province: "Bohol",

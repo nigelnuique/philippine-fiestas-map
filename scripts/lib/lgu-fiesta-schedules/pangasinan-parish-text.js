@@ -1,0 +1,55 @@
+/**
+ * Pangasinan municipalities — barangay feast days from ParishPH (1:1 PSGC matches).
+ */
+export const PANGASINAN_PARISH_FIESTA_ENTRIES = [
+  {
+    barangay: "Bonuan Gueset",
+    municipality: "City Of Dagupan",
+    province: "Pangasinan",
+    month: 3,
+    dayStart: 25,
+    patronSaint: "Annunciation of the Lord",
+    dateSource: "parish-annunciation-bonuan-gueset-dagupan",
+    note: "ParishPH Parish of the Annunciation of the Lord, Brgy. Bonuan Gueset (LGU table: By Sitio)",
+  },
+  {
+    barangay: "Parayao",
+    municipality: "Binmaley",
+    province: "Pangasinan",
+    month: 2,
+    dayStart: 2,
+    patronSaint: "Nuestra Señora de la Purificación",
+    dateSource: "parish-nuestra-senora-purificacion-parayao-binmaley",
+    note: "ParishPH Pastoral Station of Nuestra Señora de la Purificación, Brgy. Parayao",
+  },
+  {
+    barangay: "Dinalaoan",
+    municipality: "Calasiao",
+    province: "Pangasinan",
+    month: 10,
+    dayStart: 13,
+    patronSaint: "Our Lady of Fatima",
+    dateSource: "parish-our-lady-fatima-dinalaoan-calasiao",
+    note: "ParishPH Chaplaincy of Our Lady of Fatima, Brgy. Dinalaoan",
+  },
+  {
+    barangay: "Talogtog",
+    municipality: "Mangaldan",
+    province: "Pangasinan",
+    month: 8,
+    dayStart: 16,
+    patronSaint: "San Roque",
+    dateSource: "parish-san-roque-talogtog-mangaldan",
+    note: "ParishPH Pastoral Station of San Roque, Brgy. Talogtog",
+  },
+  {
+    barangay: "David",
+    municipality: "Mangaldan",
+    province: "Pangasinan",
+    month: 11,
+    dayStart: 27,
+    patronSaint: "Our Lady of the Miraculous Medal",
+    dateSource: "parish-miraculous-medal-david-mangaldan",
+    note: "ParishPH Parish of Our Lady of the Miraculous Medal, Brgy. David",
+  },
+];

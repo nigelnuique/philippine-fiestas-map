@@ -37,6 +37,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "parseDagupanFiestaTable",
     status: "complete",
     dateSource: "lgu-dagupan-gov-ph",
+    notes: "31/31 dated: LGU table + ParishPH Bonuan Gueset Mar 25",
   },
   {
     id: "magallanes-sorsogon",
@@ -173,6 +174,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "ParishPH + Ormoc Cultural Mapping ICH; 8/110 dated (Valencia, San Pablo Simangan, Cogon, Ipil, Manlilinao, Curva, Linao, Punta)",
   },
   {
+    id: "pangasinan-parish-ph",
+    municipality: "Pangasinan (multi-municipality)",
+    province: "Pangasinan",
+    format: "curated-text",
+    parser: "PANGASINAN_PARISH_FIESTA_ENTRIES",
+    status: "partial",
+    dateSource: "parish-ph-pangasinan",
+    notes: "ParishPH 1:1 matches: Dagupan Bonuan Gueset (31/31 complete), Binmaley, Calasiao, Mangaldan (2)",
+  },
+  {
     id: "leyte-parish-ph",
     municipality: "Leyte (multi-municipality)",
     province: "Leyte",
@@ -180,7 +191,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "LEYTE_PARISH_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "parish-ph-leyte",
-    notes: "ParishPH 1:1 matches: Palo (2), Tanauan, Abuyog, Tolosa, Capoocan, Kananga, Villaba, Isabel, Burauen, Dagami, Palompon (2)",
+    notes: "ParishPH 1:1 matches: Palo (2), Tanauan, Abuyog, Tolosa, Capoocan, Kananga, Villaba, Isabel, Burauen, Dagami, Palompon (2), Babatngon",
   },
   {
     id: "dulag-parish",

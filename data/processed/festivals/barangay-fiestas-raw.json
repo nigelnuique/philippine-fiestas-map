@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:31:37.182Z",
+  "generatedAt": "2026-06-14T06:36:42.608Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -30271,7 +30271,11 @@
       "municipalityPsgcPsa": "015513000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Parayao, Binmaley."
+      "description": "Barangay patronal fiesta for Parayao, Binmaley.",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "parish-nuestra-senora-purificacion-parayao-binmaley",
+      "patronSaint": "Nuestra Señora de la Purificación"
     },
     {
       "id": "bgy-015513026",
@@ -31395,7 +31399,11 @@
       "municipalityPsgcPsa": "015517000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dinalaoan, Calasiao."
+      "description": "Barangay patronal fiesta for Dinalaoan, Calasiao.",
+      "month": 10,
+      "dayStart": 13,
+      "dateSource": "parish-our-lady-fatima-dinalaoan-calasiao",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-015517008",
@@ -31753,7 +31761,11 @@
       "municipalityPsgcPsa": "015518000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bonuan Gueset, City Of Dagupan."
+      "description": "Barangay patronal fiesta for Bonuan Gueset, City Of Dagupan.",
+      "month": 3,
+      "dayStart": 25,
+      "dateSource": "parish-annunciation-bonuan-gueset-dagupan",
+      "patronSaint": "Annunciation of the Lord"
     },
     {
       "id": "bgy-015518010",
@@ -34730,7 +34742,11 @@
       "municipalityPsgcPsa": "015526000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for David, Mangaldan."
+      "description": "Barangay patronal fiesta for David, Mangaldan.",
+      "month": 11,
+      "dayStart": 27,
+      "dateSource": "parish-miraculous-medal-david-mangaldan",
+      "patronSaint": "Our Lady of the Miraculous Medal"
     },
     {
       "id": "bgy-015526010",
@@ -35003,7 +35019,11 @@
       "municipalityPsgcPsa": "015526000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Talogtog, Mangaldan."
+      "description": "Barangay patronal fiesta for Talogtog, Mangaldan.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "parish-san-roque-talogtog-mangaldan",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-015527001",
@@ -346052,7 +346072,11 @@
       "municipalityPsgcPsa": "083705000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malibago, Babatngon."
+      "description": "Barangay patronal fiesta for Malibago, Babatngon.",
+      "month": 6,
+      "dayStart": 16,
+      "dateSource": "parish-san-jose-malibago-babatngon",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-083705005",
@@ -567676,15 +567700,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T06:31:37.182Z",
+    "appliedAt": "2026-06-14T06:36:42.608Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4333,
-      "fromOverride": 1002,
+      "fromOverride": 1008,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36709
+      "stillMissing": 36703
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567788,8 +567812,13 @@
         "missed": 0
       },
       "leyteParish": {
-        "entries": 13,
-        "matched": 13,
+        "entries": 14,
+        "matched": 14,
+        "missed": 0
+      },
+      "pangasinanParish": {
+        "entries": 5,
+        "matched": 5,
         "missed": 0
       },
       "curatedOnline": {

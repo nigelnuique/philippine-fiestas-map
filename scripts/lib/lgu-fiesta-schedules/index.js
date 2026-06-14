@@ -24,6 +24,7 @@ import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
 import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
 import { LEYTE_PARISH_FIESTA_ENTRIES } from "./leyte-parish-text.js";
+import { PANGASINAN_PARISH_FIESTA_ENTRIES } from "./pangasinan-parish-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -661,6 +662,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const dulagEntries = DULAG_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const carigaraEntries = CARIGARA_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const leyteParishEntries = LEYTE_PARISH_FIESTA_ENTRIES.map((e) => ({ ...e }));
+  const pangasinanParishEntries = PANGASINAN_PARISH_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -693,6 +695,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const dulag = resolveScheduleEntries(dulagEntries);
   const carigara = resolveScheduleEntries(carigaraEntries);
   const leyteParish = resolveScheduleEntries(leyteParishEntries);
+  const pangasinanParish = resolveScheduleEntries(pangasinanParishEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -725,6 +728,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...dulag.byPsgc,
       ...carigara.byPsgc,
       ...leyteParish.byPsgc,
+      ...pangasinanParish.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -836,6 +840,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: leyteParishEntries.length,
         matched: leyteParish.matched,
         missed: leyteParish.missed,
+      },
+      pangasinanParish: {
+        entries: pangasinanParishEntries.length,
+        matched: pangasinanParish.matched,
+        missed: pangasinanParish.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

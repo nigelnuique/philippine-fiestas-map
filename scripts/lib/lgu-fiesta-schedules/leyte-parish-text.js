@@ -129,4 +129,14 @@ export const LEYTE_PARISH_FIESTA_ENTRIES = [
     dateSource: "parish-st-michael-san-miguel-palompon",
     note: "ParishPH St. Michael the Archangel Parish, Brgy. San Miguel, Palompon",
   },
+  {
+    barangay: "Malibago",
+    municipality: "Babatngon",
+    province: "Leyte",
+    month: 6,
+    dayStart: 16,
+    patronSaint: "St. Joseph",
+    dateSource: "parish-san-jose-malibago-babatngon",
+    note: "ParishPH San Jose de Malibago Parish, Brgy. Malibago",
+  },
 ];

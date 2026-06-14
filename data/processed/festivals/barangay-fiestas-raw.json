@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:39:14.941Z",
+  "generatedAt": "2026-06-14T10:43:29.828Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -445604,7 +445604,11 @@
       "municipalityPsgcPsa": "104307000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Amoros, City Of El Salvador."
+      "description": "Barangay patronal fiesta for Amoros, City Of El Salvador.",
+      "month": 8,
+      "dayStart": 5,
+      "dateSource": "lgu-misamis-oriental-2nd-district-scribd",
+      "patronSaint": "Birhen de las Nieves"
     },
     {
       "id": "bgy-104307002",
@@ -445635,7 +445639,11 @@
       "municipalityPsgcPsa": "104307000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bolobolo, City Of El Salvador."
+      "description": "Barangay patronal fiesta for Bolobolo, City Of El Salvador.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-misamis-oriental-2nd-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104307004",
@@ -445698,7 +445706,11 @@
       "municipalityPsgcPsa": "104307000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Hinigdaan, City Of El Salvador."
+      "description": "Barangay patronal fiesta for Hinigdaan, City Of El Salvador.",
+      "month": 9,
+      "dayStart": 14,
+      "dateSource": "lgu-misamis-oriental-2nd-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104307010",
@@ -445711,7 +445723,11 @@
       "municipalityPsgcPsa": "104307000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kalabaylabay, City Of El Salvador."
+      "description": "Barangay patronal fiesta for Kalabaylabay, City Of El Salvador.",
+      "month": 8,
+      "dayStart": 8,
+      "dateSource": "lgu-misamis-oriental-2nd-district-scribd",
+      "patronSaint": "Santo Domingo"
     },
     {
       "id": "bgy-104307011",
@@ -445724,7 +445740,11 @@
       "municipalityPsgcPsa": "104307000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Molugan, City Of El Salvador."
+      "description": "Barangay patronal fiesta for Molugan, City Of El Salvador.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-misamis-oriental-2nd-district-scribd",
+      "patronSaint": "Senor Santiago"
     },
     {
       "id": "bgy-104307012",
@@ -445737,7 +445757,11 @@
       "municipalityPsgcPsa": "104307000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, City Of El Salvador."
+      "description": "Barangay patronal fiesta for Poblacion, City Of El Salvador.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-misamis-oriental-2nd-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104307013",
@@ -570650,15 +570674,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:39:14.941Z",
+    "appliedAt": "2026-06-14T10:43:29.828Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4272,
-      "fromOverride": 1917,
+      "fromOverride": 1923,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35855
+      "stillMissing": 35849
     },
     "lguScheduleStats": {
       "siargao": {
@@ -570797,8 +570821,8 @@
         "missed": 0
       },
       "elSalvadorMisor": {
-        "entries": 9,
-        "matched": 9,
+        "entries": 15,
+        "matched": 15,
         "missed": 0
       },
       "magsaysayMisor": {

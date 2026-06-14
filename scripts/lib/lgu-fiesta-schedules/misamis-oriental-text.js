@@ -75,9 +75,15 @@ export const LUGAIT_FIESTA_SCHEDULE = [
 ];
 
 export const EL_SALVADOR_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "August 16", patronSaint: "San Roque" },
+  { barangay: "Amoros", date: "August 5", patronSaint: "Birhen de las Nieves" },
   { barangay: "Calongonan", date: "January 14" },
   { barangay: "Kibonbon", date: "February 3", patronSaint: "Nuestra Senora Candelaria" },
   { barangay: "Himaya", date: "May 3", patronSaint: "Santa Cruz" },
+  { barangay: "Hinigdaan", date: "September 14", patronSaint: "Santa Cruz" },
+  { barangay: "Kalabaylabay", date: "August 8", patronSaint: "Santo Domingo" },
+  { barangay: "Molugan", date: "July 25", patronSaint: "Senor Santiago" },
+  { barangay: "Bolobolo", date: "August 16", patronSaint: "San Roque" },
   { barangay: "Sambulawan", date: "May 3", patronSaint: "Santa Cruz" },
   { barangay: "Ulaliman", date: "May 3", patronSaint: "Santa Cruz" },
   { barangay: "Bolisong", date: "May 11-12", patronSaint: "San Isidro Labrador" },

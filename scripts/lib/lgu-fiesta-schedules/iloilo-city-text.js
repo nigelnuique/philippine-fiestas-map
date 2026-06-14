@@ -326,4 +326,13 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "theoldchurches-st-joseph-the-worker-church-jaro",
     note: "TheOldChurches St. Joseph the Worker Church, Lopez Jaena Street, San Isidro, Jaro — feast May 1",
   },
+  {
+    barangay: "Magsaysay",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 5,
+    dayStart: 25,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Happy Fiesta Brgy.MagSaysay (May 25, 2022)",
+  },
 ];

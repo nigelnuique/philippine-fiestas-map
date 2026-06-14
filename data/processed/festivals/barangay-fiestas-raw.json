@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:13:11.947Z",
+  "generatedAt": "2026-06-14T14:18:01.086Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -271874,7 +271874,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Magsaysay, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Magsaysay, City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 25,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022103",
@@ -572551,15 +572554,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T14:13:11.947Z",
+    "appliedAt": "2026-06-14T14:18:01.086Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2450,
+      "fromOverride": 2451,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35399
+      "stillMissing": 35398
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572618,8 +572621,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 34,
-        "matched": 34,
+        "entries": 35,
+        "matched": 35,
         "missed": 0
       },
       "tarlac": {

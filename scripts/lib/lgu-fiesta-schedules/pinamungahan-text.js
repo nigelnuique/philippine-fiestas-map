@@ -27,7 +27,6 @@ export const PINAMUNGAHAN_FIESTA_ENTRIES = [
   { barangay: "Butong", municipality: "Pinamungahan", month: 10, dayStart: 17, dayEnd: 18, dateSource: "lgu-pinamungajan-gov-ph" },
   { barangay: "Tupas", municipality: "Pinamungahan", month: 8, dayStart: 15, dayEnd: 16, dateSource: "lgu-pinamungajan-gov-ph" },
   { barangay: "Busay", municipality: "Pinamungahan", month: 8, dayStart: 25, dateSource: "lgu-pinamungajan-gov-ph" },
-  { barangay: "Buhing Tubig", municipality: "Pinamungahan", month: 8, dayStart: 22, dateSource: "lgu-pinamungajan-gov-ph" },
   {
     barangay: "Buhingtubig",
     municipality: "Pinamungahan",

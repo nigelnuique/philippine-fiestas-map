@@ -29,6 +29,7 @@ const MUNICIPALITY_ALIASES = {
     "gma cavite",
     "general mariano alvarez cavite",
   ],
+  "bayawan tulong": ["bayawan", "city of bayawan", "bayawan city"],
 };
 
 export function normalizePlaceName(name) {

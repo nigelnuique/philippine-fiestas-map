@@ -313,7 +313,8 @@ export function parseBayawanFiestaBlock(text) {
       dayStart,
       dayEnd: dayEnd !== dayStart ? dayEnd : undefined,
       barangay: m[4].trim(),
-      municipality: "City of Bayawan",
+      municipality: "City Of Bayawan (Tulong)",
+      province: "Negros Oriental",
       dateSource: "lgu-bayawan-city",
     });
   }

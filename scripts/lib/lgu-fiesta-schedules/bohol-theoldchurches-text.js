@@ -621,4 +621,14 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-east-poblacion-alburquerque",
     note: "TheOldChurches Santa Monica Parish Church in Alburquerque, Bohol — feast August 27; Tagbilaran East Road, Poblacion, Alburquerque, Bohol 6302",
   },
+  {
+    barangay: "Poblacion I",
+    municipality: "City Of Tagbilaran (Capital)",
+    province: "Bohol",
+    month: 5,
+    dayStart: 1,
+    patronSaint: "St. Joseph the Worker",
+    dateSource: "theoldchurches-poblacion-i-tagbilaran-cathedral",
+    note: "TheOldChurches St. Joseph The Worker Cathedral in Tagbilaran City — feast May 1; J.A. Clarin Street, Tagbilaran City, Bohol 6300",
+  },
 ];

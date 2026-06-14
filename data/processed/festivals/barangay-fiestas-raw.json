@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:42:53.103Z",
+  "generatedAt": "2026-06-14T15:00:54.319Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -287563,7 +287563,11 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), City Of Bacolod (Capital).",
+      "month": 1,
+      "dayStart": 20,
+      "dateSource": "theoldchurches-barangay-1-pob-bacolod",
+      "patronSaint": "San Sebastian"
     },
     {
       "id": "bgy-064501005",
@@ -292413,7 +292417,11 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), City Of Kabankalan.",
+      "month": 12,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-barangay-1-pob-kabankalan",
+      "patronSaint": "St. Francis Xavier"
     },
     {
       "id": "bgy-064515023",
@@ -296050,7 +296058,11 @@
       "municipalityPsgcPsa": "064531000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Victorias."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Victorias.",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "theoldchurches-barangay-i-pob-victorias",
+      "patronSaint": "Our Lady of Victory"
     },
     {
       "id": "bgy-064531005",
@@ -310384,7 +310396,11 @@
       "municipalityPsgcPsa": "071242000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, City Of Tagbilaran (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion I, City Of Tagbilaran (Capital).",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-poblacion-i-tagbilaran-cathedral",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-071242011",
@@ -332008,7 +332024,11 @@
       "municipalityPsgcPsa": "074610000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion No. 1 (Barangay 1), City Of Dumaguete (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion No. 1 (Barangay 1), City Of Dumaguete (Capital).",
+      "month": 11,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-poblacion-no-1-dumaguete-cathedral",
+      "patronSaint": "Saint Catherine of Alexandria"
     },
     {
       "id": "bgy-074610020",
@@ -335521,7 +335541,11 @@
       "municipalityPsgcPsa": "074621000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I (Barangay 1), City Of Tanjay."
+      "description": "Barangay patronal fiesta for Poblacion I (Barangay 1), City Of Tanjay.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-poblacion-i-tanjay",
+      "patronSaint": "St. James the Greater"
     },
     {
       "id": "bgy-074621009",
@@ -572607,15 +572631,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T14:42:53.103Z",
+    "appliedAt": "2026-06-14T15:00:54.319Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4194,
-      "fromOverride": 2465,
+      "fromOverride": 2471,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35385
+      "stillMissing": 35379
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572999,8 +573023,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 84,
-        "matched": 84,
+        "entries": 87,
+        "matched": 87,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -573009,8 +573033,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 67,
-        "matched": 67,
+        "entries": 68,
+        "matched": 68,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
@@ -573019,8 +573043,8 @@
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
-        "entries": 33,
-        "matched": 33,
+        "entries": 35,
+        "matched": 35,
         "missed": 0
       },
       "samarTheoldchurches": {

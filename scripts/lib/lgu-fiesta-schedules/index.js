@@ -57,6 +57,7 @@ import {
   BALINGASAG_FIESTA_SCHEDULE,
   BALINGOAN_FIESTA_SCHEDULE,
   BINUANGAN_FIESTA_SCHEDULE,
+  GINGOOG_OUTLYING_FIESTA_SCHEDULE,
   GINGOOG_POBLACION_FIESTA_SCHEDULE,
   KINOGUITAN_FIESTA_SCHEDULE,
   LAGONGLONG_MISOR_FIESTA_SCHEDULE,
@@ -887,6 +888,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Misamis Oriental",
     dateSource: "lgu-misamis-oriental-1st-district-scribd",
   });
+  const gingoogOutlyingEntries = buildMunicipalDateRows(GINGOOG_OUTLYING_FIESTA_SCHEDULE, {
+    municipality: "City Of Gingoog",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
   const gingoogPoblacionEntries = buildMunicipalDateRows(GINGOOG_POBLACION_FIESTA_SCHEDULE, {
     municipality: "City Of Gingoog",
     province: "Misamis Oriental",
@@ -1028,6 +1034,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const elSalvadorMisor = resolveScheduleEntries(elSalvadorMisorEntries);
   const magsaysayMisor = resolveScheduleEntries(magsaysayMisorEntries);
   const balingoan = resolveScheduleEntries(balingoanEntries);
+  const gingoogOutlying = resolveScheduleEntries(gingoogOutlyingEntries);
   const gingoogPoblacion = resolveScheduleEntries(gingoogPoblacionEntries);
   const balingasag = resolveScheduleEntries(balingasagEntries);
   const kinoguitan = resolveScheduleEntries(kinoguitanEntries);
@@ -1120,6 +1127,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...elSalvadorMisor.byPsgc,
       ...magsaysayMisor.byPsgc,
       ...balingoan.byPsgc,
+      ...gingoogOutlying.byPsgc,
       ...gingoogPoblacion.byPsgc,
       ...balingasag.byPsgc,
       ...kinoguitan.byPsgc,
@@ -1393,6 +1401,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: balingoanEntries.length,
         matched: balingoan.matched,
         missed: balingoan.missed,
+      },
+      gingoogOutlying: {
+        entries: gingoogOutlyingEntries.length,
+        matched: gingoogOutlying.matched,
+        missed: gingoogOutlying.missed,
       },
       gingoogPoblacion: {
         entries: gingoogPoblacionEntries.length,

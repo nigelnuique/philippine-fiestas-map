@@ -91,7 +91,7 @@ export const LEYTE_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches San Lorenzo Ruiz de Manila Mission Station, Hampipila, Abuyog — feast September 28",
   },
   {
-    barangay: "Santa Fe",
+    barangay: "Santa Fe (Pob.)",
     municipality: "Abuyog",
     province: "Leyte",
     month: 10,

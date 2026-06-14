@@ -238,7 +238,7 @@ export const CAPIZ_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches St. Juan Diego Mission Station in Cristina, Tapaz, Capiz — feast December 9; Cristina, Tapaz, Capiz 5814",
   },
   {
-    barangay: "Poblacion",
+    barangay: "Poblacion (Elizalde)",
     municipality: "President Roxas",
     province: "Capiz",
     month: 5,

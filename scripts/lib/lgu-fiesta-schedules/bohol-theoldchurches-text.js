@@ -300,7 +300,7 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches St. Joseph Church in Bugsoc, Sierra Bullones, Bohol — feast May 20; Bugoc, Sierra Bullones, Bohol 6320",
   },
   {
-    barangay: "Poblacion",
+    barangay: "Poblacion (Calingganay)",
     municipality: "Alicia",
     province: "Bohol",
     month: 7,

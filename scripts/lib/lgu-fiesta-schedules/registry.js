@@ -730,7 +730,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "LEYTE_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-leyte",
-    notes: "TheOldChurches 1:1 matches: Baybay (3), Bato, Matalom, Hilongos, Palo, Inopacan, Abuyog (2), Ormoc Libertad, Carigara, Alangalang, Tolosa, Tacloban New Kawayan, Calubian, Tanauan, Albuera, Mahaplag, Merida, Tabango, Hindang Poblacion 1, Julita, Mayorga, Tabontabon, Burauen, Barugo, Capoocan",
+    notes: "TheOldChurches 1:1 matches: Baybay (3), Bato, Matalom, Hilongos, Palo, Inopacan, Abuyog (2), Ormoc Libertad, Carigara, Alangalang, Tolosa, Tacloban New Kawayan, Calubian, Tanauan, Albuera, Mahaplag, Merida, Tabango, Hindang Poblacion 1, Julita, Mayorga, Tabontabon, Burauen, Barugo, Capoocan, Jaro District I (Pob.)",
   },
   {
     id: "cebu-theoldchurches",
@@ -790,7 +790,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "CAMARINES_SUR_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-camarines-sur",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish District I (Pob.): Gainza",
   },
   {
     id: "negros-oriental-theoldchurches",

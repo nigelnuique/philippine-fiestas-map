@@ -528,4 +528,14 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-barangay-i-pob-garchitorena",
     note: "TheOldChurches Sacred Heart of Jesus Church in Garchitorena — feast June 27; Mabini Street, Garchitorena, Camarines Sur 4428",
   },
+  {
+    barangay: "District I (Pob.)",
+    municipality: "Gainza",
+    province: "Camarines Sur",
+    month: 8,
+    dayStart: 8,
+    patronSaint: "St. Dominic of Guzman",
+    dateSource: "theoldchurches-st-dominic-gainza-district-i-pob",
+    note: "TheOldChurches St. Dominic of Guzman Church in Gainza, Camarines Sur — feast August 8; Gainza, Camarines Sur 4412",
+  },
 ];

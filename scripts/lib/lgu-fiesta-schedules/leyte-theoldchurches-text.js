@@ -304,4 +304,14 @@ export const LEYTE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-holy-name-capoocan-poblacion-zone-i",
     note: "TheOldChurches Holy Name of Jesus Church in Capoocan, Leyte — feast June 5; Capoocan, Leyte 6530",
   },
+  {
+    barangay: "District I (Pob.)",
+    municipality: "Jaro",
+    province: "Leyte",
+    month: 9,
+    dayStart: 21,
+    patronSaint: "St. Matthew the Apostle and Evangelist",
+    dateSource: "theoldchurches-st-matthew-jaro-district-i-pob",
+    note: "TheOldChurches St. Matthew the Apostle and Evangelist Church in Jaro, Leyte — feast September 21; Jaro, Leyte 6527",
+  },
 ];

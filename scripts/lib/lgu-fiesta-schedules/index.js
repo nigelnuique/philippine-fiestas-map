@@ -95,18 +95,7 @@ const MONTHS = {
 };
 
 /** Hand-curated Wikipedia / festival-list barangay-specific dates. */
-const WIKIPEDIA_BARANGAY_ENTRIES = [
-  {
-    barangay: "San Ildefonso",
-    municipality: "Tanay",
-    province: "Rizal",
-    month: 1,
-    dayStart: 22,
-    dayEnd: 24,
-    dateSource: "wikipedia-festivals-ph",
-    patronSaint: "Saint Ildefonsus",
-  },
-];
+const WIKIPEDIA_BARANGAY_ENTRIES = [];
 
 /** Curated Biliran May schedule (latagaw.com). */
 const BILIRAN_MAY_TEXT = `

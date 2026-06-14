@@ -12,6 +12,10 @@ import { TACLOBAN_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/tacloban-tex
 import { ORMOC_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/ormoc-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/dulag-carigara-text.js";
 import { PANGASINAN_PARISH_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/pangasinan-parish-text.js";
+import { ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES } from "./lib/lgu-fiesta-schedules/iloilo-province-theoldchurches-text.js";
+import { ILOILO_CITY_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/iloilo-city-text.js";
+import { OTON_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/oton-text.js";
+import { BULA_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/bula-text.js";
 
 const BATCH = process.argv[2] ?? "leyte";
 
@@ -95,10 +99,46 @@ const QUERIES = {
     ["Minglanilla", "Minglanilla Cebu"],
     ["Talisay City", "Talisay City Cebu"],
   ],
+  iloilo: [
+    ["Dumangas", "Dumangas Iloilo"],
+    ["Pototan", "Pototan Iloilo"],
+    ["Janiuay", "Janiuay Iloilo"],
+    ["Mina", "Mina Iloilo"],
+    ["San Rafael", "San Rafael Iloilo"],
+    ["Estancia", "Estancia Iloilo"],
+    ["Barotac Nuevo", "Barotac Nuevo Iloilo"],
+    ["New Lucena", "New Lucena Iloilo"],
+    ["Zarraga", "Zarraga Iloilo"],
+    ["Leganes", "Leganes Iloilo"],
+    ["Pavia", "Pavia Iloilo"],
+    ["Dingle", "Dingle Iloilo"],
+    ["Banate", "Banate Iloilo"],
+    ["Barotac Viejo", "Barotac Viejo Iloilo"],
+    ["San Joaquin", "San Joaquin Iloilo"],
+    ["Guimbal", "Guimbal Iloilo"],
+    ["Tigbauan", "Tigbauan Iloilo"],
+    ["Oton", "Oton Iloilo"],
+    ["Leon", "Leon Iloilo"],
+    ["Alimodian", "Alimodian Iloilo"],
+    ["Cabatuan", "Cabatuan Iloilo"],
+    ["Maasin", "Maasin Iloilo"],
+    ["Calinog", "Calinog Iloilo"],
+    ["Passi City", "Passi City Iloilo"],
+    ["City Of Passi", "Passi City Iloilo"],
+    ["San Enrique", "San Enrique Iloilo"],
+    ["Balasan", "Balasan Iloilo"],
+    ["Batad", "Batad Iloilo"],
+  ],
 };
 
 const provinceFilter =
-  BATCH === "pangasinan" ? "Pangasinan" : BATCH === "cebu" ? "Cebu" : "Leyte";
+  BATCH === "pangasinan"
+    ? "Pangasinan"
+    : BATCH === "cebu"
+      ? "Cebu"
+      : BATCH === "iloilo"
+        ? "Iloilo"
+        : "Leyte";
 
 const existing = new Set(
   [
@@ -108,6 +148,10 @@ const existing = new Set(
     ...DULAG_FIESTA_ENTRIES,
     ...CARIGARA_FIESTA_ENTRIES,
     ...PANGASINAN_PARISH_FIESTA_ENTRIES,
+    ...ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES,
+    ...ILOILO_CITY_FIESTA_ENTRIES,
+    ...OTON_FIESTA_ENTRIES,
+    ...BULA_FIESTA_ENTRIES,
   ].map((e) => `${e.municipality}::${e.barangay}`.toLowerCase())
 );
 
@@ -156,7 +200,7 @@ function headingBarangay(html) {
         !/search churches|related post/i.test(t)
     );
   for (const h of headings) {
-    const m = h.match(/-\s*([^,]+),\s*([^,]+),\s*(Leyte|Pangasinan|Cebu)/i);
+    const m = h.match(/-\s*([^,]+),\s*([^,]+),\s*(Leyte|Pangasinan|Cebu|Iloilo)/i);
     if (m)
       return {
         barangay: m[1].trim(),

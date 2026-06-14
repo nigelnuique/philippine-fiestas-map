@@ -16,6 +16,8 @@ export const MARILAO_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Santa Rosa II", date: "April 22", patronSaint: "Sta. Rosa de Lima" },
   { barangay: "Ibayo", date: "First Sunday of May", patronSaint: "Sto. Cristo" },
   { barangay: "Lambakin", date: "Last Sunday of February", patronSaint: "Sto. Cristo" },
+  { barangay: "Abangan Norte", date: "Last week of December", patronSaint: "Sagrada Familia" },
+  { barangay: "Poblacion Ii", date: "September 29", patronSaint: "St. Michael Archangel" },
 ];
 
 export const MEYCAUAYAN_PDPFP_FIESTA_SCHEDULE = [
@@ -39,6 +41,7 @@ export const MEYCAUAYAN_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Saint Francis (Gasak)", date: "October 4", patronSaint: "St. Francis" },
   { barangay: "Ubihan", date: "December 27" },
   { barangay: "Zamora", date: "May 12" },
+  { barangay: "Tugatog", date: "Fourth Saturday of August" },
 ];
 
 export const PANDI_PDPFP_FIESTA_SCHEDULE = [
@@ -117,6 +120,8 @@ export const BULACAN_TOWN_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Pitpitan", date: "September 22", patronSaint: "Santo Tomas Villanueva" },
   { barangay: "Taliptip", date: "Third week of October" },
   { barangay: "Tibig", date: "October 7" },
+  { barangay: "Matungao", date: "May 13", patronSaint: "Our Lady of Fatima" },
+  { barangay: "Maysantol", date: "May 3", patronSaint: "Santo Cristo" },
 ];
 
 export const GUIGUINTO_PDPFP_FIESTA_SCHEDULE = [
@@ -132,6 +137,8 @@ export const GUIGUINTO_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Tabang", date: "March 23", patronSaint: "San Ildefonso" },
   { barangay: "Tuktukan", date: "October 18", patronSaint: "San Lucas Evangelista" },
   { barangay: "Poblacion", date: "January 17-23" },
+  { barangay: "Daungan", date: "April 8", patronSaint: "San Ildefonso" },
+  { barangay: "Tiaong", date: "January 19", patronSaint: "Sto. Nino" },
 ];
 
 export const SAN_RAFAEL_PDPFP_FIESTA_SCHEDULE = [
@@ -274,4 +281,5 @@ export const HAGONOY_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Tampok", date: "May 15" },
   { barangay: "Tibaguin", date: "October 23" },
   { barangay: "Pugad", date: "July 31", patronSaint: "San Ignacio de Loyola" },
+  { barangay: "Iba-Ibayo", date: "June 13", patronSaint: "San Antonio de Padua" },
 ];

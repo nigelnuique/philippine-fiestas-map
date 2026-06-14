@@ -186,6 +186,7 @@ export const SUGBONGCOGON_FIESTA_SCHEDULE = [
   { barangay: "Kidampas", date: "Every 2nd Saturday of June", patronSaint: "San Antonio de Padua" },
   { barangay: "Mangga", date: "June 18", patronSaint: "San Antonio de Padua" },
   { barangay: "Silad", date: "Every 1st Saturday of September", patronSaint: "San Antonio de Padua" },
+  { barangay: "Mimbuahan", date: "April 6", patronSaint: "San Vicente Ferrer" },
 ];
 
 export const BINUANGAN_FIESTA_SCHEDULE = [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:37:37.667Z",
+  "generatedAt": "2026-06-14T11:46:45.212Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -79762,7 +79762,11 @@
       "municipalityPsgcPsa": "031405000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Matungao, Bulacan."
+      "description": "Barangay patronal fiesta for Matungao, Bulacan.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-031405005",
@@ -79775,7 +79779,11 @@
       "municipalityPsgcPsa": "031405000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maysantol, Bulacan."
+      "description": "Barangay patronal fiesta for Maysantol, Bulacan.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Santo Cristo"
     },
     {
       "id": "bgy-031405006",
@@ -80552,7 +80560,11 @@
       "municipalityPsgcPsa": "031408000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Daungan, Guiguinto."
+      "description": "Barangay patronal fiesta for Daungan, Guiguinto.",
+      "month": 4,
+      "dayStart": 8,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Ildefonso"
     },
     {
       "id": "bgy-031408003",
@@ -80736,7 +80748,11 @@
       "municipalityPsgcPsa": "031408000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tiaong, Guiguinto."
+      "description": "Barangay patronal fiesta for Tiaong, Guiguinto.",
+      "month": 1,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-031408015",
@@ -81191,7 +81207,11 @@
       "municipalityPsgcPsa": "031409000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Iba-Ibayo, Hagonoy."
+      "description": "Barangay patronal fiesta for Iba-Ibayo, Hagonoy.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-031410001",
@@ -82059,7 +82079,12 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Abangan Norte, Marilao."
+      "description": "Barangay patronal fiesta for Abangan Norte, Marilao.",
+      "month": 12,
+      "dayStart": 25,
+      "dayEnd": 31,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sagrada Familia"
     },
     {
       "id": "bgy-031411002",
@@ -82208,7 +82233,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Ii, Marilao."
+      "description": "Barangay patronal fiesta for Poblacion Ii, Marilao.",
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "St. Michael Archangel"
     },
     {
       "id": "bgy-031411011",
@@ -82663,7 +82692,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tugatog, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Tugatog, City Of Meycauayan.",
+      "month": 8,
+      "dayStart": 22,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412024",
@@ -451722,7 +451754,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mimbuahan, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Mimbuahan, Sugbongcogon.",
+      "month": 4,
+      "dayStart": 6,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104323008",
@@ -572265,15 +572301,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T11:37:37.667Z",
+    "appliedAt": "2026-06-14T11:46:45.212Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4196,
-      "fromOverride": 2376,
+      "fromOverride": 2385,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35472
+      "stillMissing": 35463
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572392,13 +572428,13 @@
         "missed": 0
       },
       "marilaoPdpfp": {
-        "entries": 14,
-        "matched": 14,
+        "entries": 16,
+        "matched": 16,
         "missed": 0
       },
       "meycauayanPdpfp": {
-        "entries": 20,
-        "matched": 20,
+        "entries": 21,
+        "matched": 21,
         "missed": 0
       },
       "pandiPdpfp": {
@@ -572422,18 +572458,18 @@
         "missed": 0
       },
       "bulacanTownPdpfp": {
-        "entries": 12,
-        "matched": 12,
+        "entries": 14,
+        "matched": 14,
         "missed": 0
       },
       "guiguintoPdpfp": {
-        "entries": 12,
-        "matched": 12,
+        "entries": 14,
+        "matched": 14,
         "missed": 0
       },
       "hagonoyPdpfp": {
-        "entries": 24,
-        "matched": 24,
+        "entries": 25,
+        "matched": 25,
         "missed": 0
       },
       "sanRafaelPdpfp": {
@@ -572572,8 +572608,8 @@
         "missed": 0
       },
       "sugbongcogon": {
-        "entries": 8,
-        "matched": 8,
+        "entries": 9,
+        "matched": 9,
         "missed": 0
       },
       "binuangan": {

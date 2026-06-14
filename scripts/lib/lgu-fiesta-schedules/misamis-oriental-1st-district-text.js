@@ -41,6 +41,71 @@ export const BALINGOAN_FIESTA_SCHEDULE = [
   { barangay: "Kauswagan", date: "September 8-9", patronSaint: "San Pedro" },
 ];
 
+export const GINGOOG_POBLACION_FIESTA_SCHEDULE = [
+  { barangay: "Barangay 1 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 2 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 3 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 4 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 5 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 6 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 7 (Pob.)", date: "May 21-23", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 8 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 9 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 10 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 11 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 12 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 13 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 14 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 15 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 16 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 17 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 18 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 18-A (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 19 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 20 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 21 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 22 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 22-A (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 23 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 24 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 24-A (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 25 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+  { barangay: "Barangay 26 (Pob.)", date: "May 21-22", patronSaint: "Santa Rita de Casia" },
+];
+
+export const BALINGASAG_FIESTA_SCHEDULE = [
+  { barangay: "Dansuli", date: "January 4-5", patronSaint: "Sagrada Pamilya" },
+  { barangay: "Barangay 1 (Pob.)", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Barangay 2 (Pob.)", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Barangay 3 (Pob.)", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Barangay 4 (Pob.)", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Barangay 5 (Pob.)", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Barangay 6 (Pob.)", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Cogon", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Linggangao", date: "Every 3rd Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Binitinan", date: "February 10-11", patronSaint: "Our Lady of Lourdes" },
+  { barangay: "Calawag", date: "April 4-5", patronSaint: "San Vicente Ferrer" },
+  { barangay: "Waterfall", date: "May 2-3", patronSaint: "Santa Cruz" },
+  { barangay: "San Isidro", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Camuayan", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Dumarait", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Linabu", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Mandangoa", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Baliwagan", date: "June 26-27", patronSaint: "Mother of Perpetual Help" },
+  { barangay: "Mambayaan", date: "August 15-16", patronSaint: "San Roque" },
+  { barangay: "Napaliran", date: "August 15-16", patronSaint: "San Roque" },
+  { barangay: "Rosario", date: "October 6-7", patronSaint: "Nuestra Senora del Rosario" },
+  { barangay: "Hermano", date: "November 12-13", patronSaint: "Birhen Medalla Milagrosa" },
+  { barangay: "San Juan", date: "Every 3rd Sunday of November", patronSaint: "San Francisco Javier" },
+  { barangay: "Talusan", date: "November 27-28", patronSaint: "Immaculate Conception" },
+  { barangay: "San Francisco", date: "December 2-3", patronSaint: "Immaculate Conception" },
+  { barangay: "Blanco", date: "December 7-8", patronSaint: "Immaculate Conception" },
+  { barangay: "Quezon", date: "December 7-8", patronSaint: "Immaculate Conception" },
+  { barangay: "Kibanban", date: "December 14-15", patronSaint: "Sagrada Pamilya" },
+  { barangay: "Balagnan", date: "December 18-19", patronSaint: "Sagrada Pamilya" },
+  { barangay: "Samay", date: "December 28-29", patronSaint: "Sagrada Pamilya" },
+];
+
 export const KINOGUITAN_FIESTA_SCHEDULE = [
   { barangay: "Poblacion", date: "Every 4th Sunday of January", patronSaint: "Santo Nino" },
   { barangay: "Salicapawan", date: "Every 4th Sunday of January", patronSaint: "Santo Nino" },
@@ -68,6 +133,33 @@ export const SUGBONGCOGON_FIESTA_SCHEDULE = [
   { barangay: "Kidampas", date: "Every 2nd Saturday of June", patronSaint: "San Antonio de Padua" },
   { barangay: "Mangga", date: "June 18", patronSaint: "San Antonio de Padua" },
   { barangay: "Silad", date: "Every 1st Saturday of September", patronSaint: "San Antonio de Padua" },
+];
+
+export const BINUANGAN_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "February 11", patronSaint: "Our Lady of Lourdes", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Dampias", date: "2nd Saturday of May", patronSaint: "Holy Cross", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Kitamban", date: "February 11", patronSaint: "Our Lady of Lourdes", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Kitambis", date: "February 11", patronSaint: "Our Lady of Lourdes", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Mabini", date: "May 3", patronSaint: "Holy Cross", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Mosangot", date: "June 27", patronSaint: "Mother of Perpetual Help", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Nabataan", date: "2nd Thursday of May", patronSaint: "Holy Cross", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+  { barangay: "Valdeconcha", date: "May 15", patronSaint: "San Isidro Labrador", dateSource: "parish-binuangan-our-lady-of-lourdes" },
+];
+
+export const SALAY_FIESTA_SCHEDULE = [
+  { barangay: "Bunal", date: "2nd Saturday of January", patronSaint: "Santo Nino" },
+  { barangay: "Salay River II", date: "Last Saturday of January", patronSaint: "San Antonio" },
+  { barangay: "Salay River I", date: "March 18-19", patronSaint: "San Jose" },
+  { barangay: "Ili-ilihon", date: "June 12-13", patronSaint: "San Antonio de Padua" },
+];
+
+export const LAGONGLONG_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Kauswagan", date: "Every 4th Sunday of January", patronSaint: "Santo Nino" },
+  { barangay: "Gaston", date: "June 21-22", patronSaint: "Sacred Heart of Jesus" },
+  { barangay: "Kabulawan", date: "June 23-24", patronSaint: "St. John the Baptist" },
+  { barangay: "Lumbo", date: "June 23-24", patronSaint: "St. John the Baptist" },
+  { barangay: "Tabok", date: "June 23-24", patronSaint: "St. John the Baptist" },
+  { barangay: "Banglay", date: "September 13-14", patronSaint: "Santa Cruz" },
 ];
 
 export const TALISAYAN_FIESTA_SCHEDULE = [
@@ -101,10 +193,14 @@ export const MEDINA_FIESTA_SCHEDULE = [
   { barangay: "Tambagan", date: "April 6", patronSaint: "San Vicente Ferrer" },
   { barangay: "Pahindong", date: "May 2", patronSaint: "Santa Cruz" },
   { barangay: "Tup-on", date: "May 3", patronSaint: "Santa Cruz" },
-  { barangay: "San Isidro", date: "May 12", patronSaint: "San Isidro Labrador" },
+  { barangay: "Bangbang", date: "May 4", patronSaint: "Santa Cruz" },
+  { barangay: "Dig-aguyan", date: "May 12", patronSaint: "San Isidro Labrador" },
   { barangay: "North Poblacion", date: "May 15", patronSaint: "San Isidro Labrador" },
   { barangay: "South Poblacion", date: "May 15", patronSaint: "San Isidro Labrador" },
   { barangay: "Gasa", date: "May 19", patronSaint: "San Isidro Labrador" },
+  { barangay: "San Isidro", date: "May 20", patronSaint: "San Isidro Labrador" },
+  { barangay: "Portulin", date: "July 31", patronSaint: "San Ignacio" },
   { barangay: "Duka", date: "August 16", patronSaint: "San Roque" },
+  { barangay: "San Roque", date: "August 17", patronSaint: "San Roque" },
   { barangay: "Cabug", date: "September 14", patronSaint: "Santa Cruz" },
 ];

@@ -27,16 +27,21 @@ import { SAN_VICENTE_PALAWAN_FIESTA_SCHEDULE } from "./san-vicente-palawan-text.
 import { UBAY_WIKIPEDIA_FIESTA_SCHEDULE } from "./ubay-wikipedia-text.js";
 import { MASANTOL_FIESTA_SCHEDULE } from "./masantol-text.js";
 import {
+  EL_SALVADOR_MISOR_FIESTA_SCHEDULE,
   JASAAN_FIESTA_SCHEDULE,
+  LUGAIT_FIESTA_SCHEDULE,
   OPOL_FIESTA_SCHEDULE,
   TAGOLOAN_MISOR_FIESTA_SCHEDULE,
   VILLANUEVA_MISOR_FIESTA_SCHEDULE,
 } from "./misamis-oriental-text.js";
 import {
   BALINGOAN_FIESTA_SCHEDULE,
+  BINUANGAN_FIESTA_SCHEDULE,
   KINOGUITAN_FIESTA_SCHEDULE,
+  LAGONGLONG_MISOR_FIESTA_SCHEDULE,
   MAGSAYSAY_MISOR_FIESTA_SCHEDULE,
   MEDINA_FIESTA_SCHEDULE,
+  SALAY_FIESTA_SCHEDULE,
   SUGBONGCOGON_FIESTA_SCHEDULE,
   TALISAYAN_FIESTA_SCHEDULE,
 } from "./misamis-oriental-1st-district-text.js";
@@ -756,6 +761,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Misamis Oriental",
     dateSource: "lgu-misamis-oriental-2nd-district-scribd",
   });
+  const lugaitEntries = buildMunicipalDateRows(LUGAIT_FIESTA_SCHEDULE, {
+    municipality: "Lugait",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const elSalvadorMisorEntries = buildMunicipalDateRows(EL_SALVADOR_MISOR_FIESTA_SCHEDULE, {
+    municipality: "City Of El Salvador",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
   const magsaysayMisorEntries = buildMunicipalDateRows(MAGSAYSAY_MISOR_FIESTA_SCHEDULE, {
     municipality: "Magsaysay (Linugos)",
     province: "Misamis Oriental",
@@ -773,6 +788,21 @@ export function getLguBarangayFiestaDatesByPsgc() {
   });
   const sugbongcogonEntries = buildMunicipalDateRows(SUGBONGCOGON_FIESTA_SCHEDULE, {
     municipality: "Sugbongcogon",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const binuanganEntries = buildMunicipalDateRows(BINUANGAN_FIESTA_SCHEDULE, {
+    municipality: "Binuangan",
+    province: "Misamis Oriental",
+    dateSource: "parish-binuangan-our-lady-of-lourdes",
+  });
+  const salayEntries = buildMunicipalDateRows(SALAY_FIESTA_SCHEDULE, {
+    municipality: "Salay",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const lagonglongMisorEntries = buildMunicipalDateRows(LAGONGLONG_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Lagonglong",
     province: "Misamis Oriental",
     dateSource: "lgu-misamis-oriental-1st-district-scribd",
   });
@@ -861,10 +891,15 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
   const opol = resolveScheduleEntries(opolEntries);
+  const lugait = resolveScheduleEntries(lugaitEntries);
+  const elSalvadorMisor = resolveScheduleEntries(elSalvadorMisorEntries);
   const magsaysayMisor = resolveScheduleEntries(magsaysayMisorEntries);
   const balingoan = resolveScheduleEntries(balingoanEntries);
   const kinoguitan = resolveScheduleEntries(kinoguitanEntries);
   const sugbongcogon = resolveScheduleEntries(sugbongcogonEntries);
+  const binuangan = resolveScheduleEntries(binuanganEntries);
+  const salay = resolveScheduleEntries(salayEntries);
+  const lagonglongMisor = resolveScheduleEntries(lagonglongMisorEntries);
   const talisayan = resolveScheduleEntries(talisayanEntries);
   const medina = resolveScheduleEntries(medinaEntries);
   const ormoc = resolveScheduleEntries(ormocEntries);
@@ -929,10 +964,15 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
       ...opol.byPsgc,
+      ...lugait.byPsgc,
+      ...elSalvadorMisor.byPsgc,
       ...magsaysayMisor.byPsgc,
       ...balingoan.byPsgc,
       ...kinoguitan.byPsgc,
       ...sugbongcogon.byPsgc,
+      ...binuangan.byPsgc,
+      ...salay.byPsgc,
+      ...lagonglongMisor.byPsgc,
       ...talisayan.byPsgc,
       ...medina.byPsgc,
       ...ormoc.byPsgc,
@@ -1095,6 +1135,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
         matched: opol.matched,
         missed: opol.missed,
       },
+      lugait: {
+        entries: lugaitEntries.length,
+        matched: lugait.matched,
+        missed: lugait.missed,
+      },
+      elSalvadorMisor: {
+        entries: elSalvadorMisorEntries.length,
+        matched: elSalvadorMisor.matched,
+        missed: elSalvadorMisor.missed,
+      },
       magsaysayMisor: {
         entries: magsaysayMisorEntries.length,
         matched: magsaysayMisor.matched,
@@ -1114,6 +1164,21 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: sugbongcogonEntries.length,
         matched: sugbongcogon.matched,
         missed: sugbongcogon.missed,
+      },
+      binuangan: {
+        entries: binuanganEntries.length,
+        matched: binuangan.matched,
+        missed: binuangan.missed,
+      },
+      salay: {
+        entries: salayEntries.length,
+        matched: salay.matched,
+        missed: salay.missed,
+      },
+      lagonglongMisor: {
+        entries: lagonglongMisorEntries.length,
+        matched: lagonglongMisor.matched,
+        missed: lagonglongMisor.missed,
       },
       talisayan: {
         entries: talisayanEntries.length,

@@ -181,6 +181,7 @@ function main() {
       "lgu-masantol-mpdo-scribd",
       "lgu-misamis-oriental-1st-district-scribd",
       "lgu-misamis-oriental-2nd-district-scribd",
+      "parish-binuangan-our-lady-of-lourdes",
       "lgu-ormoc-cultural-mapping",
       "lgu-quezon-city-brgy-directory",
       "zamboanga-com-community-guide",

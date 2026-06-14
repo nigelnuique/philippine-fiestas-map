@@ -62,3 +62,26 @@ export const OPOL_FIESTA_SCHEDULE = [
   { barangay: "Nangcaon", date: "November 24" },
   { barangay: "Bagocboc", date: "December 9-10" },
 ];
+
+export const LUGAIT_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "January 24", patronSaint: "Nuestra Senora de la Paz" },
+  { barangay: "Biga", date: "February 22", patronSaint: "San Pedro" },
+  { barangay: "Calangahan", date: "April 5", patronSaint: "San Concepcion" },
+  { barangay: "Aya-aya", date: "May 17", patronSaint: "San Isidro Labrador" },
+  { barangay: "Upper Talacogon", date: "August 16", patronSaint: "San Roque" },
+  { barangay: "Kaluknayan", date: "September 2", patronSaint: "San Miguel" },
+  { barangay: "Betahon", date: "October 13", patronSaint: "Birhen sa Fatima" },
+  { barangay: "Lower Talacogon", date: "December 8", patronSaint: "Immaculate Conception" },
+];
+
+export const EL_SALVADOR_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Calongonan", date: "January 14" },
+  { barangay: "Kibonbon", date: "February 3", patronSaint: "Nuestra Senora Candelaria" },
+  { barangay: "Himaya", date: "May 3", patronSaint: "Santa Cruz" },
+  { barangay: "Sambulawan", date: "May 3", patronSaint: "Santa Cruz" },
+  { barangay: "Ulaliman", date: "May 3", patronSaint: "Santa Cruz" },
+  { barangay: "Bolisong", date: "May 11-12", patronSaint: "San Isidro Labrador" },
+  { barangay: "Cogon", date: "May 14", patronSaint: "San Pedro" },
+  { barangay: "Sinaloc", date: "June 29", patronSaint: "Mother of Perpetual Help" },
+  { barangay: "Taytay", date: "December 8", patronSaint: "Immaculate Conception" },
+];

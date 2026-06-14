@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:57:29.400Z",
+  "generatedAt": "2026-06-14T10:01:22.606Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -241447,7 +241447,11 @@
       "municipalityPsgcPsa": "060401000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Altavas."
+      "description": "Barangay patronal fiesta for Poblacion, Altavas.",
+      "month": 1,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-poblacion-altavas",
+      "patronSaint": "Holy Child Jesus"
     },
     {
       "id": "bgy-060401012",
@@ -241616,7 +241620,11 @@
       "municipalityPsgcPsa": "060402000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Balete."
+      "description": "Barangay patronal fiesta for Poblacion, Balete.",
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-poblacion-balete",
+      "patronSaint": "St. Raphael the Archangel"
     },
     {
       "id": "bgy-060403001",
@@ -241863,7 +241871,11 @@
       "municipalityPsgcPsa": "060403000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Banga."
+      "description": "Barangay patronal fiesta for Poblacion, Banga.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-poblacion-banga",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-060403020",
@@ -242250,7 +242262,11 @@
       "municipalityPsgcPsa": "060404000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Batan."
+      "description": "Barangay patronal fiesta for Poblacion, Batan.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-poblacion-batan",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-060404019",
@@ -242432,7 +242448,11 @@
       "municipalityPsgcPsa": "060405000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Buruanga."
+      "description": "Barangay patronal fiesta for Poblacion, Buruanga.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-poblacion-buruanga",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-060405013",
@@ -242786,7 +242806,11 @@
       "municipalityPsgcPsa": "060406000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Ibajay."
+      "description": "Barangay patronal fiesta for Poblacion, Ibajay.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "theoldchurches-poblacion-ibajay",
+      "patronSaint": "St. Peter the Apostle"
     },
     {
       "id": "bgy-060406025",
@@ -243114,7 +243138,11 @@
       "municipalityPsgcPsa": "060407000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Kalibo (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion, Kalibo (Capital).",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-poblacion-kalibo",
+      "patronSaint": "St. John the Baptist"
     },
     {
       "id": "bgy-060407014",
@@ -243257,7 +243285,11 @@
       "municipalityPsgcPsa": "060408000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Lezo."
+      "description": "Barangay patronal fiesta for Poblacion, Lezo.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-lezo",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-060408009",
@@ -243590,7 +243622,11 @@
       "municipalityPsgcPsa": "060409000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Libacao."
+      "description": "Barangay patronal fiesta for Poblacion, Libacao.",
+      "month": 11,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-poblacion-libacao",
+      "patronSaint": "St. Catherine of Alexandria"
     },
     {
       "id": "bgy-060409022",
@@ -243889,7 +243925,11 @@
       "municipalityPsgcPsa": "060410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Madalag."
+      "description": "Barangay patronal fiesta for Poblacion, Madalag.",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-poblacion-madalag",
+      "patronSaint": "Our Lady of Guadalupe"
     },
     {
       "id": "bgy-060410021",
@@ -244153,7 +244193,11 @@
       "municipalityPsgcPsa": "060411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Makato."
+      "description": "Barangay patronal fiesta for Poblacion, Makato.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-makato",
+      "patronSaint": "Holy Child"
     },
     {
       "id": "bgy-060411016",
@@ -244377,7 +244421,11 @@
       "municipalityPsgcPsa": "060412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Malay."
+      "description": "Barangay patronal fiesta for Poblacion, Malay.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-poblacion-malay",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-060412015",
@@ -244611,7 +244659,11 @@
       "municipalityPsgcPsa": "060413000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Malinao."
+      "description": "Barangay patronal fiesta for Poblacion, Malinao.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-poblacion-malinao",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-060413016",
@@ -244905,7 +244957,11 @@
       "municipalityPsgcPsa": "060414000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Nabas."
+      "description": "Barangay patronal fiesta for Poblacion, Nabas.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-nabas",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-060414016",
@@ -246360,7 +246416,11 @@
       "municipalityPsgcPsa": "060602000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Barbaza."
+      "description": "Barangay patronal fiesta for Poblacion, Barbaza.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-poblacion-barbaza",
+      "patronSaint": "St. Anthony de Padua"
     },
     {
       "id": "bgy-060602035",
@@ -246554,7 +246614,11 @@
       "municipalityPsgcPsa": "060603000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Belison."
+      "description": "Barangay patronal fiesta for Poblacion, Belison.",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "theoldchurches-poblacion-belison",
+      "patronSaint": "Our Lady of Candles"
     },
     {
       "id": "bgy-060603009",
@@ -251866,7 +251930,11 @@
       "municipalityPsgcPsa": "060615000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Sebaste."
+      "description": "Barangay patronal fiesta for Poblacion, Sebaste.",
+      "month": 2,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-poblacion-sebaste",
+      "patronSaint": "St. Blaise"
     },
     {
       "id": "bgy-060615010",
@@ -253031,7 +253099,11 @@
       "municipalityPsgcPsa": "060617000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Tibiao."
+      "description": "Barangay patronal fiesta for Poblacion, Tibiao.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-poblacion-tibiao",
+      "patronSaint": "St. Nicholas de Tolentino"
     },
     {
       "id": "bgy-060617013",
@@ -569122,15 +569194,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T09:57:29.400Z",
+    "appliedAt": "2026-06-14T10:01:22.606Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1457,
+      "fromOverride": 1475,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36256
+      "stillMissing": 36238
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569269,8 +569341,8 @@
         "missed": 0
       },
       "aklanTheoldchurches": {
-        "entries": 8,
-        "matched": 8,
+        "entries": 22,
+        "matched": 22,
         "missed": 0
       },
       "boholTheoldchurches": {
@@ -569309,8 +569381,8 @@
         "missed": 0
       },
       "antiqueTheoldchurches": {
-        "entries": 5,
-        "matched": 5,
+        "entries": 9,
+        "matched": 9,
         "missed": 0
       },
       "romblonTheoldchurches": {

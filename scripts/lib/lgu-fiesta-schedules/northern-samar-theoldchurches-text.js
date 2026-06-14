@@ -58,4 +58,14 @@ export const NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-gen-lucban-pob-bobon",
     note: "TheOldChurches Most Holy Name of Jesus Church in Bobon, Northern Samar — feast August 10; Barangay General Lucban, Bobon, Northern Samar 6410",
   },
+  {
+    barangay: "Lope De Vega (Pob.)",
+    municipality: "Lope De Vega",
+    province: "Northern Samar",
+    month: 5,
+    dayStart: 26,
+    patronSaint: "St. Isidore the Farmer",
+    dateSource: "theoldchurches-lope-de-vega-pob",
+    note: "TheOldChurches St. Isidore the Farmer Church in Lope de Vega — feast May 26; Lope de Vega, Northern Samar 6403",
+  },
 ];

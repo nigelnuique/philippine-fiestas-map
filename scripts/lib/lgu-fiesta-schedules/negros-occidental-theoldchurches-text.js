@@ -120,6 +120,16 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches San Pedro Bautista Church in Dos Hermanas, Talisay City, Negros Occidental — feast February 6; Calle Gomez, Brgy. Dos Hermanas, Talisay City, Negros Occidental 6115",
   },
   {
+    barangay: "Zone 6 (Pob.)",
+    municipality: "City Of Talisay",
+    province: "Negros Occidental",
+    month: 9,
+    dayStart: 10,
+    patronSaint: "San Nicolas de Tolentino",
+    dateSource: "theoldchurches-zone-6-talisay",
+    note: "TheOldChurches San Nicolas de Tolentino Parish Church in Talisay City — feast September 10; Lizares Street, Zone 6, Talisay City, Negros Occidental 6115",
+  },
+  {
     barangay: "Guimbala-On",
     municipality: "City Of Silay",
     province: "Negros Occidental",

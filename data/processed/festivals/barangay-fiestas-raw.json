@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:46:26.184Z",
+  "generatedAt": "2026-06-14T09:57:29.400Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -294184,7 +294184,11 @@
       "municipalityPsgcPsa": "064528000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Zone 6 (Pob.), City Of Talisay."
+      "description": "Barangay patronal fiesta for Zone 6 (Pob.), City Of Talisay.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-zone-6-talisay",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-064528029",
@@ -375231,7 +375235,11 @@
       "municipalityPsgcPsa": "084824000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lope De Vega (Pob.), Lope De Vega."
+      "description": "Barangay patronal fiesta for Lope De Vega (Pob.), Lope De Vega.",
+      "month": 5,
+      "dayStart": 26,
+      "dateSource": "theoldchurches-lope-de-vega-pob",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-084824011",
@@ -569114,15 +569122,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T09:46:26.184Z",
+    "appliedAt": "2026-06-14T09:57:29.400Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1455,
+      "fromOverride": 1457,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36258
+      "stillMissing": 36256
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569256,8 +569264,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 73,
-        "matched": 73,
+        "entries": 74,
+        "matched": 74,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -569291,8 +569299,8 @@
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 6,
-        "matched": 6,
+        "entries": 7,
+        "matched": 7,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

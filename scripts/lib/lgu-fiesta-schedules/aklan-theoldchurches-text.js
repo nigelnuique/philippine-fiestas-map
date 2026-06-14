@@ -65,4 +65,14 @@ export const AKLAN_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-numancia",
     note: "TheOldChurches St. Joseph the Worker Church in Numancia, Aklan — feast May 1; Poblacion, Numancia, Aklan 5604",
   },
+  {
+    barangay: "Andagaw",
+    municipality: "Kalibo (Capital)",
+    province: "Aklan",
+    month: 10,
+    dayStart: 28,
+    patronSaint: "St. Jude Thaddeus",
+    dateSource: "theoldchurches-andagaw-kalibo",
+    note: "TheOldChurches St. Jude Thaddeus Church in Andagao, Kalibo, Aklan — feast October 28; Andagao, Kalibo, Aklan 5600",
+  },
 ];

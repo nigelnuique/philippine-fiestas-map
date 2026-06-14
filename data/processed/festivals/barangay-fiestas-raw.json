@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T08:57:12.053Z",
+  "generatedAt": "2026-06-14T09:09:28.822Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -242950,7 +242950,11 @@
       "municipalityPsgcPsa": "060407000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Andagaw, Kalibo (Capital)."
+      "description": "Barangay patronal fiesta for Andagaw, Kalibo (Capital).",
+      "month": 10,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-andagaw-kalibo",
+      "patronSaint": "St. Jude Thaddeus"
     },
     {
       "id": "bgy-060407002",
@@ -321502,7 +321506,11 @@
       "municipalityPsgcPsa": "072232000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guindaruhan, Minglanilla."
+      "description": "Barangay patronal fiesta for Guindaruhan, Minglanilla.",
+      "month": 12,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-guindaruhan-minglanilla",
+      "patronSaint": "Virgen de los Remedios"
     },
     {
       "id": "bgy-072232007",
@@ -326548,7 +326556,11 @@
       "municipalityPsgcPsa": "072251000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Juan Climaco, Sr. (Magdugo), City Of Toledo."
+      "description": "Barangay patronal fiesta for Juan Climaco, Sr. (Magdugo), City Of Toledo.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-magdugo-city-of-toledo",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-072251024",
@@ -368127,7 +368139,11 @@
       "municipalityPsgcPsa": "084803000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gen. Lucban (Pob.), Bobon."
+      "description": "Barangay patronal fiesta for Gen. Lucban (Pob.), Bobon.",
+      "month": 8,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-gen-lucban-pob-bobon",
+      "patronSaint": "Most Holy Name of Jesus"
     },
     {
       "id": "bgy-084803007",
@@ -369175,7 +369191,11 @@
       "municipalityPsgcPsa": "084805000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dalakit (Pob.), Catarman (Capital)."
+      "description": "Barangay patronal fiesta for Dalakit (Pob.), Catarman (Capital).",
+      "month": 6,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-dalakit-pob-catarman",
+      "patronSaint": "Our Mother of Perpetual Help"
     },
     {
       "id": "bgy-084805078",
@@ -569030,15 +569050,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T08:57:12.053Z",
+    "appliedAt": "2026-06-14T09:09:28.822Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1434,
+      "fromOverride": 1439,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36279
+      "stillMissing": 36274
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569162,8 +569182,8 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 95,
-        "matched": 95,
+        "entries": 97,
+        "matched": 97,
         "missed": 0
       },
       "capizTheoldchurches": {
@@ -569177,8 +569197,8 @@
         "missed": 0
       },
       "aklanTheoldchurches": {
-        "entries": 7,
-        "matched": 7,
+        "entries": 8,
+        "matched": 8,
         "missed": 0
       },
       "boholTheoldchurches": {
@@ -569207,8 +569227,8 @@
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 4,
-        "matched": 4,
+        "entries": 6,
+        "matched": 6,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

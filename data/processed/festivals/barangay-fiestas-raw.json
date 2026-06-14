@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:18:01.086Z",
+  "generatedAt": "2026-06-14T14:25:00.614Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -289895,7 +289895,11 @@
       "municipalityPsgcPsa": "064507000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Cauayan."
+      "description": "Barangay patronal fiesta for Poblacion, Cauayan.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-poblacion-cauayan",
+      "patronSaint": "St. Paul the Apostle"
     },
     {
       "id": "bgy-064507007",
@@ -294824,7 +294828,11 @@
       "municipalityPsgcPsa": "064525000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, San Enrique."
+      "description": "Barangay patronal fiesta for Poblacion, San Enrique.",
+      "month": 2,
+      "dayStart": 2,
+      "dateSource": "theoldchurches-poblacion-san-enrique",
+      "patronSaint": "Our Lady of Candles"
     },
     {
       "id": "bgy-064525007",
@@ -305913,7 +305921,11 @@
       "municipalityPsgcPsa": "071227000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Lila."
+      "description": "Barangay patronal fiesta for Poblacion, Lila.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-poblacion-lila",
+      "patronSaint": "Our Lady of the Holy Rosary"
     },
     {
       "id": "bgy-071227017",
@@ -308023,7 +308035,11 @@
       "municipalityPsgcPsa": "071232000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Maribojoc."
+      "description": "Barangay patronal fiesta for Poblacion, Maribojoc.",
+      "month": 5,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-poblacion-maribojoc",
+      "patronSaint": "Holy Cross"
     },
     {
       "id": "bgy-071232017",
@@ -325063,7 +325079,11 @@
       "municipalityPsgcPsa": "072239000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Ronda."
+      "description": "Barangay patronal fiesta for Poblacion, Ronda.",
+      "month": 9,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-ronda",
+      "patronSaint": "Our Lady of Sorrows"
     },
     {
       "id": "bgy-072239012",
@@ -330494,7 +330514,11 @@
       "municipalityPsgcPsa": "074605000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Basay."
+      "description": "Barangay patronal fiesta for Poblacion, Basay.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-poblacion-basay",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-074606001",
@@ -334424,7 +334448,11 @@
       "municipalityPsgcPsa": "074617000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, San Jose."
+      "description": "Barangay patronal fiesta for Poblacion, San Jose.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-poblacion-san-jose",
+      "patronSaint": "Saint Joseph the Worker"
     },
     {
       "id": "bgy-074617010",
@@ -336539,7 +336567,11 @@
       "municipalityPsgcPsa": "074624000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Vallehermoso."
+      "description": "Barangay patronal fiesta for Poblacion, Vallehermoso.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-vallehermoso",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-074624012",
@@ -336721,7 +336753,11 @@
       "municipalityPsgcPsa": "074625000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Zamboanguita."
+      "description": "Barangay patronal fiesta for Poblacion, Zamboanguita.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-zamboanguita",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-076101001",
@@ -375253,7 +375289,11 @@
       "municipalityPsgcPsa": "084816000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Rosario."
+      "description": "Barangay patronal fiesta for Poblacion, Rosario.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-poblacion-rosario",
+      "patronSaint": "Our Lady of the Holy Rosary"
     },
     {
       "id": "bgy-084816007",
@@ -572554,15 +572594,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T14:18:01.086Z",
+    "appliedAt": "2026-06-14T14:25:00.614Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2451,
+      "fromOverride": 2461,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35398
+      "stillMissing": 35388
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572936,8 +572976,8 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 105,
-        "matched": 105,
+        "entries": 106,
+        "matched": 106,
         "missed": 0
       },
       "capizTheoldchurches": {
@@ -572946,8 +572986,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 81,
-        "matched": 81,
+        "entries": 83,
+        "matched": 83,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -572956,8 +572996,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 63,
-        "matched": 63,
+        "entries": 65,
+        "matched": 65,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
@@ -572966,8 +573006,8 @@
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
-        "entries": 29,
-        "matched": 29,
+        "entries": 33,
+        "matched": 33,
         "missed": 0
       },
       "samarTheoldchurches": {
@@ -572981,8 +573021,8 @@
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 14,
-        "matched": 14,
+        "entries": 15,
+        "matched": 15,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

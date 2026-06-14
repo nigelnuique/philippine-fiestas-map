@@ -138,4 +138,14 @@ export const NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-saint-roque-san-roque-zone-1-pob",
     note: "TheOldChurches Saint Roque the Healer Church in San Roque, Northern Samar — feast August 16; San Roque, Northern Samar 6415",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Rosario",
+    province: "Northern Samar",
+    month: 10,
+    dayStart: 7,
+    patronSaint: "Our Lady of the Holy Rosary",
+    dateSource: "theoldchurches-poblacion-rosario",
+    note: "TheOldChurches Our Lady of the Holy Rosary Church in Rosario, Northern Samar — feast October 7; Real Street, Rosario, Northern Samar 6416",
+  },
 ];

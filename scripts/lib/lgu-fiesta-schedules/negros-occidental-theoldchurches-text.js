@@ -265,6 +265,16 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches St. Francis Borgia Parish Church in Isio, Cauayan, Negros Occidental — feast October 10; Barangay Isio, Cauayan, Negros Occidental 6112",
   },
   {
+    barangay: "Poblacion",
+    municipality: "Cauayan",
+    province: "Negros Occidental",
+    month: 1,
+    dayStart: 25,
+    patronSaint: "St. Paul the Apostle",
+    dateSource: "theoldchurches-poblacion-cauayan",
+    note: "TheOldChurches St. Paul the Apostle Church in Cauayan, Negros Occidental — feast January 25; National Highway, Cauayan, Negros Occidental, 6112",
+  },
+  {
     barangay: "Tapi",
     municipality: "City Of Kabankalan",
     province: "Negros Occidental",
@@ -743,5 +753,15 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     patronSaint: "St. Michael the Archangel",
     dateSource: "theoldchurches-barangay-i-pob-pontevedra",
     note: "TheOldChurches St. Michael the Archangel Parish Church in Pontevedra — feast May 7; Cortez Street, Pontevedra, Negros Occidental 6105",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "San Enrique",
+    province: "Negros Occidental",
+    month: 2,
+    dayStart: 2,
+    patronSaint: "Our Lady of Candles",
+    dateSource: "theoldchurches-poblacion-san-enrique",
+    note: "TheOldChurches Our Lady of Candles in San Enrique, Negros Occidental — feast February 2; Pescadora Street, San Enrique, Negros Occidental 6104",
   },
 ];

@@ -156,6 +156,16 @@ export const CEBU_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches San Jose Church in Rosario, Aloguinsan, Cebu — feast March 19; Barangay Rosario, Aloguinsan, Cebu 6040",
   },
   {
+    barangay: "Poblacion",
+    municipality: "Ronda",
+    province: "Cebu",
+    month: 9,
+    dayStart: 15,
+    patronSaint: "Our Lady of Sorrows",
+    dateSource: "theoldchurches-poblacion-ronda",
+    note: "TheOldChurches Our Lady of Sorrows Church in Ronda, Cebu — feast September 15; P. Villagarcia St, Ronda, Cebu",
+  },
+  {
     barangay: "Buanoy",
     municipality: "Balamban",
     province: "Cebu",

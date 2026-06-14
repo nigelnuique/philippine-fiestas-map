@@ -390,6 +390,16 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches St. Isidore the Farmer Quasi-Parish  in Busao, Maribojoc, Bohol — feast May 15; Busao, Maribojoc, Bohol 6336",
   },
   {
+    barangay: "Poblacion",
+    municipality: "Maribojoc",
+    province: "Bohol",
+    month: 5,
+    dayStart: 5,
+    patronSaint: "Holy Cross",
+    dateSource: "theoldchurches-poblacion-maribojoc",
+    note: "TheOldChurches Holy Cross Parish Church in Maribojoc, Bohol — feast May 5; Flores Street, Maribojoc, Bohol 6366",
+  },
+  {
     barangay: "Talisay",
     municipality: "Calape",
     province: "Bohol",
@@ -579,5 +589,15 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     patronSaint: "St. Anthony of Padua",
     dateSource: "theoldchurches-st-anthony-sikatuna-poblacion-i",
     note: "TheOldChurches St. Anthony of Padua Church in Sikatuna, Bohol — feast June 13; Sikatuna, Bohol 6338",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "Lila",
+    province: "Bohol",
+    month: 10,
+    dayStart: 7,
+    patronSaint: "Our Lady of the Holy Rosary",
+    dateSource: "theoldchurches-poblacion-lila",
+    note: "TheOldChurches Our Lady of the Holy Rosary Church in Lila, Bohol — feast October 7; Bohol Circumferential Road, Lila, 6304 Bohol",
   },
 ];

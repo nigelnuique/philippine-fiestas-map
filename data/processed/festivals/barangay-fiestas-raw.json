@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:09:59.582Z",
+  "generatedAt": "2026-06-14T03:18:49.539Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -270458,7 +270458,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Molo, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion Molo, City Of Iloilo (Capital).",
+      "month": 7,
+      "dayStart": 26,
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "Santa Ana"
     },
     {
       "id": "bgy-063022131",
@@ -270681,8 +270685,8 @@
       "description": "Barangay patronal fiesta for San Isidro (Jaro), City Of Iloilo (Capital).",
       "month": 5,
       "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "San Isidro"
     },
     {
       "id": "bgy-063022152",
@@ -270931,11 +270935,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo NiñO Sur, City Of Iloilo (Capital).",
-      "month": 1,
-      "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "Saint Vincent de Paul"
     },
     {
       "id": "bgy-063022169",
@@ -567526,15 +567529,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T03:09:59.582Z",
+    "appliedAt": "2026-06-14T03:18:49.539Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4339,
-      "fromOverride": 955,
+      "alreadyHadDate": 4337,
+      "fromOverride": 958,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36750
+      "stillMissing": 36749
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567588,8 +567591,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 5,
-        "matched": 5,
+        "entries": 8,
+        "matched": 8,
         "missed": 0
       },
       "tarlac": {

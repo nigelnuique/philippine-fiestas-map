@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:11:22.282Z",
+  "generatedAt": "2026-06-14T10:11:47.830Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -212473,7 +212473,10 @@
       "municipalityPsgcPsa": "051715000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Halawig-Gogon, Goa."
+      "description": "Barangay patronal fiesta for Halawig-Gogon, Goa.",
+      "month": 12,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-halawig-gogon-goa"
     },
     {
       "id": "bgy-051715013",
@@ -221553,7 +221556,10 @@
       "municipalityPsgcPsa": "051736000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Tigaon."
+      "description": "Barangay patronal fiesta for Poblacion, Tigaon.",
+      "month": 8,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-poblacion-tigaon"
     },
     {
       "id": "bgy-051736016",
@@ -296076,7 +296082,10 @@
       "municipalityPsgcPsa": "067902000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Jordan (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion, Jordan (Capital).",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-poblacion-jordan-guimaras"
     },
     {
       "id": "bgy-067902023",
@@ -569604,15 +569613,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:11:22.282Z",
+    "appliedAt": "2026-06-14T10:11:47.830Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4303,
-      "fromOverride": 1643,
+      "fromOverride": 1646,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36098
+      "stillMissing": 36095
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569786,8 +569795,8 @@
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 48,
-        "matched": 48,
+        "entries": 50,
+        "matched": 50,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
@@ -569826,8 +569835,8 @@
         "missed": 0
       },
       "guimarasTheoldchurches": {
-        "entries": 1,
-        "matched": 1,
+        "entries": 2,
+        "matched": 2,
         "missed": 0
       },
       "camarinesNorteTheoldchurches": {

@@ -11,4 +11,13 @@ export const GUIMARAS_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-nueva-valencia",
     note: "TheOldChurches St. Vincent Ferrer Church in Nueva Valencia, Guimaras — feast April 25; Poblacion, Nueva Valencia, Guimaras 5046",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Jordan (Capital)",
+    province: "Guimaras",
+    month: 6,
+    dayStart: 24,
+    dateSource: "theoldchurches-poblacion-jordan-guimaras",
+    note: "TheOldChurches St. John the Baptist Church in Jordan, Guimaras — feast June 24; Jordan, Guimaras 5045",
+  },
 ];

@@ -120,6 +120,15 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches Santa Catalina de Siena Church in Gingaroy, Tigaon, Camarines Sur — feast April 29; Gingaroy, Tigaon, Camarines Sur 4420",
   },
   {
+    barangay: "Poblacion",
+    municipality: "Tigaon",
+    province: "Camarines Sur",
+    month: 8,
+    dayStart: 12,
+    dateSource: "theoldchurches-poblacion-tigaon",
+    note: "TheOldChurches Saint Clare of Assisi Church in Tigaon, Camarines Sur — feast August 12; Tigaon, Camarines Sur 4420",
+  },
+  {
     barangay: "Tambo",
     municipality: "Buhi",
     province: "Camarines Sur",
@@ -145,6 +154,15 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     dayStart: 2,
     dateSource: "theoldchurches-tagongtong-goa",
     note: "TheOldChurches St. Martin de Porres Church in Tagongtong, Goa, Camarines Sur — feast November 2; Tagongtong, Goa, Camarines Sur 4422",
+  },
+  {
+    barangay: "Halawig-Gogon",
+    municipality: "Goa",
+    province: "Camarines Sur",
+    month: 12,
+    dayStart: 3,
+    dateSource: "theoldchurches-halawig-gogon-goa",
+    note: "TheOldChurches St. Francis Xavier Church in Halawig Gogon, Goa, Camarines Sur — feast December 3; Halawig Gogon, Goa, Camarines Sur 4422",
   },
   {
     barangay: "Omalo",

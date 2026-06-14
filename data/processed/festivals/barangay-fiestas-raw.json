@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:18:47.738Z",
+  "generatedAt": "2026-06-14T13:26:36.118Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -341521,7 +341521,11 @@
       "municipalityPsgcPsa": "082607000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Barangay 1, General Macarthur."
+      "description": "Barangay patronal fiesta for Poblacion Barangay 1, General Macarthur.",
+      "month": 8,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-st-joseph-general-macarthur-poblacion-barangay-1",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-082607011",
@@ -343280,7 +343284,11 @@
       "municipalityPsgcPsa": "082612000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Poblacion 1, Lawaan."
+      "description": "Barangay patronal fiesta for Barangay Poblacion 1, Lawaan.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-divine-child-lawaan-barangay-poblacion-1",
+      "patronSaint": "Divine Child"
     },
     {
       "id": "bgy-082612011",
@@ -344195,7 +344203,11 @@
       "municipalityPsgcPsa": "082615000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Poblacion 1, Maydolong."
+      "description": "Barangay patronal fiesta for Barangay Poblacion 1, Maydolong.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-st-roch-maydolong-barangay-poblacion-1",
+      "patronSaint": "St. Roch the Healer"
     },
     {
       "id": "bgy-082615014",
@@ -345120,7 +345132,11 @@
       "municipalityPsgcPsa": "082618000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay No. 1 (Pob.), Quinapondan."
+      "description": "Barangay patronal fiesta for Barangay No. 1 (Pob.), Quinapondan.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-st-nicholas-quinapondan-barangay-no-1-pob",
+      "patronSaint": "St. Nicholas of Tolentine"
     },
     {
       "id": "bgy-082618004",
@@ -346070,7 +346086,11 @@
       "municipalityPsgcPsa": "082620000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay No. 1 Poblacion, San Julian."
+      "description": "Barangay patronal fiesta for Barangay No. 1 Poblacion, San Julian.",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-our-lady-sorrows-san-julian-barangay-no-1-poblacion",
+      "patronSaint": "Our Lady of Sorrows"
     },
     {
       "id": "bgy-082620008",
@@ -349482,7 +349502,11 @@
       "municipalityPsgcPsa": "083706000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Dist. I, Barugo."
+      "description": "Barangay patronal fiesta for Poblacion Dist. I, Barugo.",
+      "month": 5,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-st-joseph-barugo-poblacion-dist-i",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-083706024",
@@ -353246,7 +353270,11 @@
       "municipalityPsgcPsa": "083714000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Zone I, Capoocan."
+      "description": "Barangay patronal fiesta for Poblacion Zone I, Capoocan.",
+      "month": 6,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-holy-name-capoocan-poblacion-zone-i",
+      "patronSaint": "Holy Name of Jesus"
     },
     {
       "id": "bgy-083714016",
@@ -391090,7 +391118,11 @@
       "municipalityPsgcPsa": "086404000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for District I (Pob.), Hinundayan."
+      "description": "Barangay patronal fiesta for District I (Pob.), Hinundayan.",
+      "month": 6,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-san-jose-hinundayan-district-i-pob",
+      "patronSaint": "San Jose"
     },
     {
       "id": "bgy-086404009",
@@ -395436,7 +395468,11 @@
       "municipalityPsgcPsa": "086416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pob. District I, Silago."
+      "description": "Barangay patronal fiesta for Pob. District I, Silago.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-st-james-silago-pob-district-i",
+      "patronSaint": "Saint James the Apostle"
     },
     {
       "id": "bgy-086416005",
@@ -572475,15 +572511,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T13:18:47.738Z",
+    "appliedAt": "2026-06-14T13:26:36.118Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2431,
+      "fromOverride": 2440,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35418
+      "stillMissing": 35409
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572852,8 +572888,8 @@
         "missed": 0
       },
       "leyteTheoldchurches": {
-        "entries": 29,
-        "matched": 29,
+        "entries": 31,
+        "matched": 31,
         "missed": 0
       },
       "cebuTheoldchurches": {
@@ -572897,8 +572933,8 @@
         "missed": 0
       },
       "easternSamarTheoldchurches": {
-        "entries": 19,
-        "matched": 19,
+        "entries": 24,
+        "matched": 24,
         "missed": 0
       },
       "northernSamarTheoldchurches": {
@@ -572907,8 +572943,8 @@
         "missed": 0
       },
       "southernLeyteTheoldchurches": {
-        "entries": 10,
-        "matched": 10,
+        "entries": 12,
+        "matched": 12,
         "missed": 0
       },
       "antiqueTheoldchurches": {

@@ -740,7 +740,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "CEBU_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-cebu",
-    notes: "TheOldChurches 89 barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches 93 barangay parish pages with address-level 1:1 PSGC matches",
   },
   {
     id: "capiz-theoldchurches",
@@ -760,7 +760,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-negros-occidental",
-    notes: "TheOldChurches 66 barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches 71 barangay parish pages with address-level 1:1 PSGC matches",
   },
   {
     id: "aklan-theoldchurches",

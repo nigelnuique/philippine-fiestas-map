@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:44:53.560Z",
+  "generatedAt": "2026-06-14T13:01:24.963Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -291054,7 +291054,11 @@
       "municipalityPsgcPsa": "064511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), Hinigaran."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), Hinigaran.",
+      "month": 7,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-barangay-i-pob-hinigaran",
+      "patronSaint": "Sta. Maria Magdalena"
     },
     {
       "id": "bgy-064511004",
@@ -291665,7 +291669,11 @@
       "municipalityPsgcPsa": "064513000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), Ilog."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), Ilog.",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-barangay-i-pob-ilog",
+      "patronSaint": "St. John the Baptist"
     },
     {
       "id": "bgy-064513015",
@@ -292662,7 +292670,11 @@
       "municipalityPsgcPsa": "064516000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of La Carlota."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of La Carlota.",
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-barangay-i-pob-la-carlota",
+      "patronSaint": "Our Lady of Peace"
     },
     {
       "id": "bgy-064516011",
@@ -293600,7 +293612,11 @@
       "municipalityPsgcPsa": "064521000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), Pontevedra."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), Pontevedra.",
+      "month": 5,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-barangay-i-pob-pontevedra",
+      "patronSaint": "St. Michael the Archangel"
     },
     {
       "id": "bgy-064521003",
@@ -294859,7 +294875,11 @@
       "municipalityPsgcPsa": "064526000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Silay."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Silay.",
+      "month": 11,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-barangay-i-pob-silay",
+      "patronSaint": "San Diego"
     },
     {
       "id": "bgy-064526003",
@@ -317851,7 +317871,11 @@
       "municipalityPsgcPsa": "072217000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Central (Pob.), City Of Cebu (Capital)."
+      "description": "Barangay patronal fiesta for Central (Pob.), City Of Cebu (Capital).",
+      "month": 6,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-central-pob-cebu-city",
+      "patronSaint": "Sacred Heart of Jesus"
     },
     {
       "id": "bgy-072217023",
@@ -318078,7 +318102,11 @@
       "municipalityPsgcPsa": "072217000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lahug (Pob.), City Of Cebu (Capital)."
+      "description": "Barangay patronal fiesta for Lahug (Pob.), City Of Cebu (Capital).",
+      "month": 10,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-lahug-pob-cebu-city",
+      "patronSaint": "St. Therese of the Child Jesus"
     },
     {
       "id": "bgy-072217042",
@@ -318232,7 +318260,11 @@
       "municipalityPsgcPsa": "072217000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pardo (Pob.), City Of Cebu (Capital)."
+      "description": "Barangay patronal fiesta for Pardo (Pob.), City Of Cebu (Capital).",
+      "month": 9,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-pardo-pob-cebu-city",
+      "patronSaint": "Sto. Tomas de Villanueva"
     },
     {
       "id": "bgy-072217054",
@@ -318326,7 +318358,11 @@
       "municipalityPsgcPsa": "072217000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Punta Princesa, City Of Cebu (Capital)."
+      "description": "Barangay patronal fiesta for Punta Princesa, City Of Cebu (Capital).",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-punta-princesa-cebu-city",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-072217063",
@@ -329843,7 +329879,11 @@
       "municipalityPsgcPsa": "074604000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Bais."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), City Of Bais.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-barangay-i-pob-bais",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-074604002",
@@ -331597,7 +331637,11 @@
       "municipalityPsgcPsa": "074609000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Ii, Dauin."
+      "description": "Barangay patronal fiesta for Poblacion Ii, Dauin.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-poblacion-ii-dauin",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-074609021",
@@ -572359,15 +572403,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T12:44:53.560Z",
+    "appliedAt": "2026-06-14T13:01:24.963Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2402,
+      "fromOverride": 2413,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35447
+      "stillMissing": 35436
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572741,8 +572785,8 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 100,
-        "matched": 100,
+        "entries": 104,
+        "matched": 104,
         "missed": 0
       },
       "capizTheoldchurches": {
@@ -572751,8 +572795,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 76,
-        "matched": 76,
+        "entries": 81,
+        "matched": 81,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -572771,8 +572815,8 @@
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
-        "entries": 27,
-        "matched": 27,
+        "entries": 29,
+        "matched": 29,
         "missed": 0
       },
       "samarTheoldchurches": {

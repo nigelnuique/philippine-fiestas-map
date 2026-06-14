@@ -62,6 +62,26 @@ const QUERIES = {
     ["Basista", "Basista Pangasinan"],
     ["Binalonan", "Binalonan Pangasinan"],
     ["Malasiqui", "Malasiqui Pangasinan"],
+    ["Mapandan", "Mapandan Pangasinan"],
+    ["Bayambang", "Bayambang Pangasinan"],
+    ["Urbiztondo", "Urbiztondo Pangasinan"],
+    ["Bautista", "Bautista Pangasinan"],
+    ["Rosales", "Rosales Pangasinan"],
+    ["Asingan", "Asingan Pangasinan"],
+    ["Umingan", "Umingan Pangasinan"],
+    ["San Fabian", "San Fabian Pangasinan"],
+    ["Manaoag", "Manaoag Pangasinan"],
+    ["Tayug", "Tayug Pangasinan"],
+    ["Villasis", "Villasis Pangasinan"],
+    ["Balungao", "Balungao Pangasinan"],
+    ["Infanta", "Infanta Pangasinan"],
+    ["Dasol", "Dasol Pangasinan"],
+    ["Labrador", "Labrador Pangasinan"],
+    ["San Jacinto", "San Jacinto Pangasinan"],
+    ["Alcala", "Alcala Pangasinan"],
+    ["Sto Tomas", "Sto Tomas Pangasinan"],
+    ["Burgos", "Burgos Pangasinan"],
+    ["Malasiqui", "Malasiqui Pangasinan"],
     ["Santa Barbara", "Santa Barbara Pangasinan"],
   ],
   cebu: [
@@ -130,11 +150,47 @@ function parseMonthDay(feast) {
 function headingBarangay(html) {
   const headings = [...html.matchAll(/<h3[^>]*>([^<]+)</gi)]
     .map((m) => m[1].trim())
-    .filter((t) => /parish|mission|shrine|station|chapel/i.test(t) && !/search churches/i.test(t));
+    .filter(
+      (t) =>
+        /parish|mission|shrine|station|chapel/i.test(t) &&
+        !/search churches|related post/i.test(t)
+    );
   for (const h of headings) {
     const m = h.match(/-\s*([^,]+),\s*([^,]+),\s*(Leyte|Pangasinan|Cebu)/i);
-    if (m) return { barangay: m[1].trim(), municipalityHint: m[2].trim(), province: m[3] };
+    if (m)
+      return {
+        barangay: m[1].trim(),
+        municipalityHint: m[2].trim(),
+        province: m[3],
+      };
   }
+  return null;
+}
+
+function resolveMunicipality(province, munHint) {
+  const key = munHint
+    .toLowerCase()
+    .replace(/^city of /, "")
+    .replace(/ \(capital\)/, "")
+    .replace(/ city$/, "")
+    .trim();
+  const exact = [
+    ...new Set(
+      raw.festivals
+        .filter((f) => f.province === province)
+        .map((f) => f.municipality)
+        .filter((m) => {
+          const mk = m
+            .toLowerCase()
+            .replace(/^city of /, "")
+            .replace(/ \(capital\)/, "")
+            .replace(/ city$/, "")
+            .trim();
+          return mk === key;
+        })
+    ),
+  ];
+  if (exact.length === 1) return exact[0];
   return null;
 }
 
@@ -146,7 +202,11 @@ function matchPsgc(municipality, barangayName) {
     const nk = name.toLowerCase();
     return nk === key || nk.startsWith(key + " ") || nk.includes(`(${key})`) || nk.includes(` ${key}`);
   });
-  if (hits.length === 1) return { barangay: hits[0].name.replace(/ Fiesta$/i, ""), unique: true };
+  if (hits.length === 1) {
+    const barangay = hits[0].name.replace(/ Fiesta$/i, "");
+    if (hits[0].month) return null;
+    return { barangay, unique: true };
+  }
   if (hits.length > 1) return { barangay: hits.map((h) => h.name.replace(/ Fiesta$/i, "")), unique: false };
   return null;
 }
@@ -156,8 +216,15 @@ function munMatches(municipality, munHint) {
     .toLowerCase()
     .replace("city of ", "")
     .replace(" (capital)", "")
-    .split(" ")[0];
-  return munHint.toLowerCase().includes(key);
+    .replace(/ city$/, "")
+    .trim();
+  const hint = munHint
+    .toLowerCase()
+    .replace("city of ", "")
+    .replace(" (capital)", "")
+    .replace(/ city$/, "")
+    .trim();
+  return hint.includes(key) || key.includes(hint);
 }
 
 const all = [];

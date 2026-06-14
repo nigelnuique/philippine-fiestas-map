@@ -151,7 +151,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "42/180 dated: on-day YouTube + parish (Balantang, Buntatala Jan 8) and prior curated rows",
+    notes: "45/180 dated: on-day YouTube + TheOldChurches (Luna La Paz Jun 20, Sambag Jul 16, South Fundidor May 10) and prior curated rows",
   },
   {
     id: "mulanay-curated",
@@ -181,7 +181,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "PANGASINAN_PARISH_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "parish-ph-pangasinan",
-    notes: "ParishPH 1:1 matches: Dagupan Bonuan Gueset (31/31), Binmaley, Calasiao, Mangaldan (2), Lingayen, Malasiqui, Santa Barbara Pangasinan, San Carlos (2)",
+    notes: "ParishPH 1:1 matches: Dagupan Bonuan Gueset (31/31), Binmaley, Calasiao, Mangaldan (2), Lingayen, Malasiqui (2), Santa Barbara Pangasinan, San Carlos (2), Mapandan, Bayambang (3), Urbiztondo, Bautista",
   },
   {
     id: "leyte-parish-ph",

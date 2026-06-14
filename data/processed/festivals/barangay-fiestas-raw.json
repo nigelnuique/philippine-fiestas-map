@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:40:30.506Z",
+  "generatedAt": "2026-06-14T06:52:08.074Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -28596,7 +28596,11 @@
       "municipalityPsgcPsa": "015510000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Villanueva, Bautista."
+      "description": "Barangay patronal fiesta for Villanueva, Bautista.",
+      "month": 4,
+      "dayStart": 2,
+      "dateSource": "parish-st-catherine-villanueva-bautista",
+      "patronSaint": "St. Catherine of Sienna"
     },
     {
       "id": "bgy-015510021",
@@ -28921,7 +28925,11 @@
       "municipalityPsgcPsa": "015511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Carungay, Bayambang."
+      "description": "Barangay patronal fiesta for Carungay, Bayambang.",
+      "month": 5,
+      "dayStart": 14,
+      "dateSource": "parish-san-isidro-carungay-bayambang",
+      "patronSaint": "St. Isidore the Laborer"
     },
     {
       "id": "bgy-015511025",
@@ -29388,7 +29396,10 @@
       "municipalityPsgcPsa": "015511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sapang, Bayambang."
+      "description": "Barangay patronal fiesta for Sapang, Bayambang.",
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "parish-sto-domingo-sapang-bayambang"
     },
     {
       "id": "bgy-015511062",
@@ -29531,7 +29542,11 @@
       "municipalityPsgcPsa": "015511000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Wawa, Bayambang."
+      "description": "Barangay patronal fiesta for Wawa, Bayambang.",
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "parish-san-lorenzo-ruiz-wawa-bayambang",
+      "patronSaint": "San Lorenzo Ruiz"
     },
     {
       "id": "bgy-015511073",
@@ -33698,7 +33713,10 @@
       "municipalityPsgcPsa": "015524000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Don Pedro, Malasiqui."
+      "description": "Barangay patronal fiesta for Don Pedro, Malasiqui.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "parish-st-anthony-don-pedro-malasiqui"
     },
     {
       "id": "bgy-015524032",
@@ -36296,7 +36314,10 @@
       "municipalityPsgcPsa": "015528000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Torres, Mapandan."
+      "description": "Barangay patronal fiesta for Torres, Mapandan.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "parish-blessed-sacrament-torres-mapandan"
     },
     {
       "id": "bgy-015529001",
@@ -43064,7 +43085,10 @@
       "municipalityPsgcPsa": "015545000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pasibi East, Urbiztondo."
+      "description": "Barangay patronal fiesta for Pasibi East, Urbiztondo.",
+      "month": 5,
+      "dayStart": 31,
+      "dateSource": "parish-visitation-bvm-pasibi-east-urbiztondo"
     },
     {
       "id": "bgy-015545016",
@@ -269667,7 +269691,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for South Fundidor, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for South Fundidor, City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-san-jose-obrero-fundidor-molo",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-063022061",
@@ -270123,7 +270151,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Luna (Jaro), City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Luna (Jaro), City Of Iloilo (Capital).",
+      "month": 6,
+      "dayStart": 20,
+      "dateSource": "theoldchurches-st-clement-luna-la-paz",
+      "patronSaint": "St. Clement"
     },
     {
       "id": "bgy-063022098",
@@ -270691,7 +270723,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sambag, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Sambag, City Of Iloilo (Capital).",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-jaro-carmel-sambag",
+      "patronSaint": "Our Lady of Mount Carmel"
     },
     {
       "id": "bgy-063022146",
@@ -567720,15 +567756,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T06:40:30.506Z",
+    "appliedAt": "2026-06-14T06:52:08.074Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4333,
-      "fromOverride": 1013,
+      "fromOverride": 1023,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36698
+      "stillMissing": 36688
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567782,8 +567818,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 19,
-        "matched": 19,
+        "entries": 22,
+        "matched": 22,
         "missed": 0
       },
       "tarlac": {
@@ -567837,8 +567873,8 @@
         "missed": 0
       },
       "pangasinanParish": {
-        "entries": 10,
-        "matched": 10,
+        "entries": 17,
+        "matched": 17,
         "missed": 0
       },
       "curatedOnline": {

@@ -14,15 +14,56 @@ function cleanCell(text) {
 function entryFromDate(barangay, municipality, dateRaw, dateSource) {
   if (!barangay || !dateRaw || /by sitio/i.test(dateRaw)) return null;
   const parsed = parseDateFromRaw(dateRaw);
-  if (!parsed?.month || !parsed?.dayStart) return null;
-  return {
-    barangay,
-    municipality,
-    month: parsed.month,
-    dayStart: parsed.dayStart,
-    dayEnd: parsed.dayEnd !== parsed.dayStart ? parsed.dayEnd : undefined,
-    dateSource,
-  };
+  if (parsed?.month && parsed.dayStart) {
+    return {
+      barangay,
+      municipality,
+      month: parsed.month,
+      dayStart: parsed.dayStart,
+      dayEnd: parsed.dayEnd !== parsed.dayStart ? parsed.dayEnd : undefined,
+      dateSource,
+    };
+  }
+  const monthOnly = String(dateRaw)
+    .trim()
+    .match(/^(January|February|March|April|May|June|July|August|September|October|November|December)$/i);
+  if (monthOnly) {
+    const month = parseDateFromRaw(`${monthOnly[1]} 1`)?.month;
+    if (month) {
+      return { barangay, municipality, month, datePrecision: "month", dateSource };
+    }
+  }
+  return null;
+}
+
+const DAGUPAN_BARANGAY_ALIASES = {
+  "barangay i": "Barangay I (T. Bugallon)",
+  "barangay ii iii": "Barangay Ii (Nueva)",
+  "barangay ii & iii": "Barangay Ii (Nueva)",
+  "barangay iv": "Barangay Iv (Zamora)",
+  "herrero perez": "Herrero",
+  manguin: "Mangin",
+};
+
+function normalizeDagupanBarangay(name) {
+  const cleaned = cleanCell(name);
+  const key = cleaned
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9\s&]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (DAGUPAN_BARANGAY_ALIASES[key]) return DAGUPAN_BARANGAY_ALIASES[key];
+  return cleaned;
+}
+
+function dagupanBarangayRows(name) {
+  const normalized = normalizeDagupanBarangay(name);
+  if (/barangay ii & iii/i.test(name)) {
+    return ["Barangay Ii (Nueva)"];
+  }
+  return [normalized];
 }
 
 /** Dagupan City LGU calendar table (two barangays per row). */
@@ -43,13 +84,16 @@ export function parseDagupanFiestaTable(html) {
         [0, 1],
         [2, 3],
       ]) {
-        const row = entryFromDate(
-          cells[bi],
-          "City of Dagupan",
-          cells[di],
-          "lgu-dagupan-gov-ph"
-        );
-        if (row) entries.push(row);
+        const dateRaw = cells[di];
+        for (const barangay of dagupanBarangayRows(cells[bi])) {
+          const row = entryFromDate(
+            barangay,
+            "City of Dagupan",
+            dateRaw,
+            "lgu-dagupan-gov-ph"
+          );
+          if (row) entries.push(row);
+        }
       }
     });
 

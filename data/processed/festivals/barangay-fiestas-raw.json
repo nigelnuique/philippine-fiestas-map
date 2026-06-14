@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T04:11:49.737Z",
+  "generatedAt": "2026-06-14T05:03:15.101Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -31671,7 +31671,10 @@
       "municipalityPsgcPsa": "015518000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Ii (Nueva), City Of Dagupan."
+      "description": "Barangay patronal fiesta for Barangay Ii (Nueva), City Of Dagupan.",
+      "month": 5,
+      "datePrecision": "month",
+      "dateSource": "lgu-dagupan-gov-ph"
     },
     {
       "id": "bgy-015518004",
@@ -31684,7 +31687,10 @@
       "municipalityPsgcPsa": "015518000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Iv (Zamora), City Of Dagupan."
+      "description": "Barangay patronal fiesta for Barangay Iv (Zamora), City Of Dagupan.",
+      "month": 5,
+      "datePrecision": "month",
+      "dateSource": "lgu-dagupan-gov-ph"
     },
     {
       "id": "bgy-015518006",
@@ -31928,7 +31934,11 @@
       "municipalityPsgcPsa": "015518000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mangin, City Of Dagupan."
+      "description": "Barangay patronal fiesta for Mangin, City Of Dagupan.",
+      "month": 4,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "lgu-dagupan-gov-ph"
     },
     {
       "id": "bgy-015518021",
@@ -111763,7 +111773,7 @@
       "month": 5,
       "dayStart": 15,
       "dateSource": "lgu-tarlac-city-gov-ph",
-      "patronSaint": "San Isidro Labrador"
+      "patronSaint": "San Isidro Labrador/"
     },
     {
       "id": "bgy-036916010",
@@ -111852,7 +111862,7 @@
       "dayStart": 22,
       "dayEnd": 28,
       "dateSource": "lgu-tarlac-city-gov-ph",
-      "patronSaint": "Sta. Corazon de Jesus"
+      "patronSaint": "Sta"
     },
     {
       "id": "bgy-036916015",
@@ -111886,7 +111896,7 @@
       "month": 3,
       "dayStart": 25,
       "dateSource": "lgu-tarlac-city-gov-ph",
-      "patronSaint": "Saint Francis of Assisi"
+      "patronSaint": "Francis"
     },
     {
       "id": "bgy-036916018",
@@ -112020,10 +112030,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Carangian, City Of Tarlac (Capital).",
-      "month": 8,
-      "dayStart": 23,
-      "dateSource": "lgu-tarlac-city-gov-ph-curated",
-      "patronSaint": "Santa Rosa de Lima"
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-tarlac-city-gov-ph",
+      "patronSaint": "Joseph",
+      "dayEnd": 20
     },
     {
       "id": "bgy-036916027",
@@ -112129,7 +112140,7 @@
       "dayStart": 23,
       "dayEnd": 24,
       "dateSource": "lgu-tarlac-city-gov-ph",
-      "patronSaint": "Nuestra Señora dela Paz"
+      "patronSaint": "named “Nuestra Seniora Dela Paz”it is where the name of this barangay was derived"
     },
     {
       "id": "bgy-036916035",
@@ -112855,7 +112866,7 @@
       "dayStart": 14,
       "dayEnd": 15,
       "dateSource": "lgu-tarlac-city-gov-ph",
-      "patronSaint": "San Isidro Labrador"
+      "patronSaint": "Isidore the Laborer (San Isidro Labrador)"
     },
     {
       "id": "bgy-036916093",
@@ -112907,7 +112918,7 @@
       "month": 2,
       "dayStart": 1,
       "dateSource": "lgu-tarlac-city-gov-ph",
-      "patronSaint": "Saint Paul"
+      "patronSaint": "Paul"
     },
     {
       "id": "bgy-036916098",
@@ -162674,7 +162685,11 @@
       "municipalityPsgcPsa": "045624000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dalahican, City Of Lucena (Capital)."
+      "description": "Barangay patronal fiesta for Dalahican, City Of Lucena (Capital).",
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "parish-st-raphael-dalahican-lucena",
+      "patronSaint": "St. Raphael the Archangel"
     },
     {
       "id": "bgy-045624019",
@@ -334138,9 +334153,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Poblacion, Enrique Villanueva.",
-      "month": 10,
-      "dayStart": 12,
-      "dateSource": "lgu-siquijor-secrets"
+      "month": 7,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets",
+      "dayEnd": 16
     },
     {
       "id": "bgy-076101014",
@@ -567559,15 +567575,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T04:11:49.737Z",
+    "appliedAt": "2026-06-14T05:03:15.101Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4337,
-      "fromOverride": 967,
+      "fromOverride": 971,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36740
+      "stillMissing": 36736
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567606,8 +567622,8 @@
         "missed": 0
       },
       "lucena": {
-        "entries": 31,
-        "matched": 31,
+        "entries": 32,
+        "matched": 32,
         "missed": 0
       },
       "mulanay": {
@@ -567667,8 +567683,8 @@
       },
       "embeddedHtml": {
         "dagupan": {
-          "entries": 28,
-          "matched": 28,
+          "entries": 30,
+          "matched": 30,
           "missed": 0
         },
         "siquijor": {
@@ -567702,25 +567718,19 @@
         },
         "siquijor": {
           "url": "https://siquijor-secrets.com/siquijor-fiestas/",
-          "entries": 141,
-          "matched": 134,
-          "missed": 7,
-          "missedSamples": [
-            "Minalunan / Maria",
-            "Liloan / Maria",
-            "Poblacion Sur / Larena",
-            "Poblacion Norte / Larena",
-            "Cang-inte / Lazi",
-            "Cangtugbas / Maria",
-            "Licoan / Maria"
-          ]
+          "entries": 135,
+          "matched": 135,
+          "missed": 0,
+          "missedSamples": []
         },
         "magallanes": {
           "url": "https://magallanessorsogon.gov.ph/",
           "entries": 46,
-          "matched": 46,
-          "missed": 0,
-          "missedSamples": []
+          "matched": 45,
+          "missed": 1,
+          "missedSamples": [
+            "Sitio-Sta. Lourdes / Magallanes"
+          ]
         },
         "santaBarbara": {
           "url": "https://santa-barbara-iloilo.gov.ph/about/",
@@ -567742,23 +567752,11 @@
         },
         "tarlacFetched": {
           "targets": 13,
-          "parsed": 0,
-          "matched": 0,
-          "fetchErrors": 0,
+          "parsed": 10,
+          "matched": 10,
+          "fetchErrors": 2,
           "missedSamples": [
-            "Alvindia Segundo (no cache)",
-            "Balete (no cache)",
-            "Bantog (no cache)",
-            "Batang-Batang (no cache)",
-            "Calingcuan (no cache)",
-            "Carangian (no cache)",
-            "Dela Paz (no cache)",
-            "Matadero (no cache)",
-            "Salapungan (no cache)",
-            "Sepung Calzada (no cache)",
-            "Trinidad (no cache)",
-            "Ungot (no cache)",
-            "Villa Bacolor (no cache)"
+            "Ungot (no feast text)"
           ]
         }
       }

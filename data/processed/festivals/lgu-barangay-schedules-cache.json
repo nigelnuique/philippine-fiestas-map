@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "fetchedAt": "2026-06-13T01:17:35.424Z",
+  "fetchedAt": "2026-06-14T04:54:58.223Z",
   "sources": {
     "dagupan": {
       "url": "https://www.dagupan.gov.ph/the-city/calendar-of-activities/",
@@ -11,25 +11,19 @@
     },
     "siquijor": {
       "url": "https://siquijor-secrets.com/siquijor-fiestas/",
-      "entries": 141,
-      "matched": 134,
-      "missed": 7,
-      "missedSamples": [
-        "Minalunan / Maria",
-        "Liloan / Maria",
-        "Poblacion Sur / Larena",
-        "Poblacion Norte / Larena",
-        "Cang-inte / Lazi",
-        "Cangtugbas / Maria",
-        "Licoan / Maria"
-      ]
+      "entries": 135,
+      "matched": 135,
+      "missed": 0,
+      "missedSamples": []
     },
     "magallanes": {
       "url": "https://magallanessorsogon.gov.ph/",
       "entries": 46,
-      "matched": 46,
-      "missed": 0,
-      "missedSamples": []
+      "matched": 45,
+      "missed": 1,
+      "missedSamples": [
+        "Sitio-Sta. Lourdes / Magallanes"
+      ]
     },
     "santaBarbara": {
       "url": "https://santa-barbara-iloilo.gov.ph/about/",
@@ -245,6 +239,11 @@
       "dayEnd": 15,
       "dateSource": "lgu-siquijor-secrets"
     },
+    "076104014": {
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
     "076104021": {
       "month": 1,
       "dayStart": 15,
@@ -300,6 +299,11 @@
       "dayEnd": 19,
       "dateSource": "lgu-siquijor-secrets"
     },
+    "076104011": {
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-siquijor-secrets"
+    },
     "076105015": {
       "month": 3,
       "dayStart": 19,
@@ -332,12 +336,6 @@
       "dayStart": 25,
       "dateSource": "lgu-siquijor-secrets"
     },
-    "076102001": {
-      "month": 5,
-      "dayStart": 2,
-      "dayEnd": 3,
-      "dateSource": "lgu-siquijor-secrets"
-    },
     "076102017": {
       "month": 5,
       "dayStart": 2,
@@ -350,7 +348,25 @@
       "dayEnd": 3,
       "dateSource": "lgu-siquijor-secrets"
     },
+    "076102019": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102018": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
     "076102016": {
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076102001": {
       "month": 5,
       "dayStart": 2,
       "dayEnd": 3,
@@ -385,6 +401,12 @@
       "dayStart": 3,
       "dateSource": "lgu-siquijor-secrets"
     },
+    "076106014": {
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
     "076106003": {
       "month": 5,
       "dayStart": 14,
@@ -395,11 +417,6 @@
       "month": 5,
       "dayStart": 14,
       "dayEnd": 15,
-      "dateSource": "lgu-siquijor-secrets"
-    },
-    "076103001": {
-      "month": 12,
-      "dayStart": 4,
       "dateSource": "lgu-siquijor-secrets"
     },
     "076103015": {
@@ -480,6 +497,11 @@
       "dayStart": 24,
       "dateSource": "lgu-siquijor-secrets"
     },
+    "076104009": {
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "lgu-siquijor-secrets"
+    },
     "076104017": {
       "month": 5,
       "dayStart": 24,
@@ -517,11 +539,6 @@
       "dayStart": 29,
       "dateSource": "lgu-siquijor-secrets"
     },
-    "076101013": {
-      "month": 10,
-      "dayStart": 12,
-      "dateSource": "lgu-siquijor-secrets"
-    },
     "076101008": {
       "month": 7,
       "dayStart": 15,
@@ -529,6 +546,12 @@
       "dateSource": "lgu-siquijor-secrets"
     },
     "076101014": {
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101013": {
       "month": 7,
       "dayStart": 15,
       "dayEnd": 16,
@@ -577,6 +600,11 @@
       "dateSource": "lgu-siquijor-secrets"
     },
     "076104002": {
+      "month": 8,
+      "dayStart": 15,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076104010": {
       "month": 8,
       "dayStart": 15,
       "dateSource": "lgu-siquijor-secrets"
@@ -634,6 +662,11 @@
       "dateSource": "lgu-siquijor-secrets"
     },
     "076105007": {
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076105001": {
       "month": 8,
       "dayStart": 28,
       "dateSource": "lgu-siquijor-secrets"
@@ -697,7 +730,7 @@
       "dayStart": 29,
       "dateSource": "lgu-siquijor-secrets"
     },
-    "076106031": {
+    "076106032": {
       "month": 10,
       "dayStart": 3,
       "dayEnd": 4,
@@ -722,6 +755,12 @@
       "dateSource": "lgu-siquijor-secrets"
     },
     "076106007": {
+      "month": 10,
+      "dayStart": 3,
+      "dayEnd": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076106031": {
       "month": 10,
       "dayStart": 3,
       "dayEnd": 4,
@@ -765,6 +804,11 @@
     "076103009": {
       "month": 10,
       "dayStart": 7,
+      "dateSource": "lgu-siquijor-secrets"
+    },
+    "076101010": {
+      "month": 10,
+      "dayStart": 12,
       "dateSource": "lgu-siquijor-secrets"
     },
     "076102020": {
@@ -842,6 +886,11 @@
       "dayStart": 4,
       "dateSource": "lgu-siquijor-secrets"
     },
+    "076103001": {
+      "month": 12,
+      "dayStart": 4,
+      "dateSource": "lgu-siquijor-secrets"
+    },
     "076103012": {
       "month": 12,
       "dayStart": 8,
@@ -867,11 +916,6 @@
       "month": 12,
       "dayStart": 18,
       "dateSource": "lgu-siquijor-secrets"
-    },
-    "056211028": {
-      "month": 6,
-      "dayStart": 16,
-      "dateSource": "lgu-magallanes-sorsogon"
     },
     "056211007": {
       "month": 2,
@@ -973,6 +1017,11 @@
     "056211011": {
       "month": 6,
       "dayStart": 13,
+      "dateSource": "lgu-magallanes-sorsogon"
+    },
+    "056211028": {
+      "month": 6,
+      "dayStart": 16,
       "dateSource": "lgu-magallanes-sorsogon"
     },
     "056211032": {

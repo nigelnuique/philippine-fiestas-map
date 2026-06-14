@@ -34,4 +34,13 @@ export const LUCENA_FIESTA_ENTRIES = [
   { barangay: "Barangay 11 (Pob.)", municipality: "City Of Lucena (Capital)", month: 5, dayStart: 30, dateSource: "lgu-lucena-community-guide" },
   { barangay: "Talao-Talao", municipality: "City Of Lucena (Capital)", month: 8, dayStart: 16, dateSource: "lgu-lucena-community-guide" },
   { barangay: "Cotta", municipality: "City Of Lucena (Capital)", month: 10, dayStart: 28, dateSource: "lgu-lucena-community-guide" },
+  {
+    barangay: "Dalahican",
+    municipality: "City Of Lucena (Capital)",
+    month: 10,
+    dayStart: 24,
+    patronSaint: "St. Raphael the Archangel",
+    dateSource: "parish-st-raphael-dalahican-lucena",
+    note: "ParishPH feast day Oct 24; Bandilyo.ph 2022 barangay fiesta week ending Oct 24",
+  },
 ];

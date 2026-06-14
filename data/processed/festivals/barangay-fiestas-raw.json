@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T11:07:52.745Z",
+  "generatedAt": "2026-06-14T11:15:38.179Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -377948,10 +377948,7 @@
       "municipalityPsgcPsa": "086003000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bayo, City Of Calbayog.",
-      "month": 6,
-      "dayStart": 29,
-      "dateSource": "theoldchurches-bayo-city-of-calbayog"
+      "description": "Barangay patronal fiesta for Bayo, City Of Calbayog."
     },
     {
       "id": "bgy-086003016",
@@ -379680,7 +379677,10 @@
       "municipalityPsgcPsa": "086003000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Awang West (Pob.), City Of Calbayog."
+      "description": "Barangay patronal fiesta for Awang West (Pob.), City Of Calbayog.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "theoldchurches-awang-west-city-of-calbayog"
     },
     {
       "id": "bgy-086003160",
@@ -379823,7 +379823,10 @@
       "municipalityPsgcPsa": "086003000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinambacan Norte, City Of Calbayog."
+      "description": "Barangay patronal fiesta for Tinambacan Norte, City Of Calbayog.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-tinambacan-norte-city-of-calbayog"
     },
     {
       "id": "bgy-086003176",
@@ -571509,15 +571512,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T11:07:52.745Z",
+    "appliedAt": "2026-06-14T11:15:38.179Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4203,
-      "fromOverride": 2200,
+      "fromOverride": 2201,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35641
+      "stillMissing": 35640
     },
     "lguScheduleStats": {
       "siargao": {
@@ -571876,8 +571879,8 @@
         "missed": 0
       },
       "samarTheoldchurches": {
-        "entries": 10,
-        "matched": 10,
+        "entries": 8,
+        "matched": 8,
         "missed": 0
       },
       "easternSamarTheoldchurches": {

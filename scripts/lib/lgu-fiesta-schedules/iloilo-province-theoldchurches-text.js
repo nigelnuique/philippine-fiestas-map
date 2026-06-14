@@ -511,4 +511,14 @@ export const ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-san-nicolas-de-tolentino-guimbal",
     note: "TheOldChurches San Nicolas de Tolentino Church on Gimeno St., Guimbal — feast September 10; Gerona-Gimeno (Pob.), Guimbal, Iloilo 5022",
   },
+  {
+    barangay: "Purok I (Pob.)",
+    municipality: "Pavia",
+    province: "Iloilo",
+    month: 8,
+    dayStart: 27,
+    patronSaint: "Sta. Monica",
+    dateSource: "theoldchurches-purok-i-pob-pavia",
+    note: "TheOldChurches Sta. Monica Church in Pavia — feast August 27; Corner Evangelista and Sumakwel Sts., Pavia, Iloilo 5001",
+  },
 ];

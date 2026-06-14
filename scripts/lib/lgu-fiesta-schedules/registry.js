@@ -720,7 +720,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-iloilo-province",
-    notes: "TheOldChurches 1:1 parish address matches: Batad, Dingle, Calinog (2), Pototan (4), Janiuay, Maasin Iloilo, Passi (2), San Joaquin (2), Alimodian, Leon, Barotac Nuevo, Banate, Barotac Viejo, Guimbal Gerona-Gimeno (Pob.)",
+    notes: "TheOldChurches 1:1 parish address matches: Batad, Dingle, Calinog (2), Pototan (4), Janiuay, Maasin Iloilo, Passi (2), San Joaquin (2), Alimodian, Leon, Barotac Nuevo, Banate, Barotac Viejo, Guimbal Gerona-Gimeno (Pob.), Pavia Purok I (Pob.)",
   },
   {
     id: "leyte-theoldchurches",
@@ -740,7 +740,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "CEBU_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-cebu",
-    notes: "TheOldChurches 93 barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches 94 barangay parish pages with address-level 1:1 PSGC matches",
   },
   {
     id: "capiz-theoldchurches",

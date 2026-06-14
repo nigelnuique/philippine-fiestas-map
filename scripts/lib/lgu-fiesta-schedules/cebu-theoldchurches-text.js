@@ -951,4 +951,14 @@ export const CEBU_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-central-pob-cebu-city",
     note: "TheOldChurches Archdiocesan Shrine of the Sacred Heart of Jesus — feast June 22; 242 D. Jakosalem St., Cogon Central Ramos, Cebu City 6000",
   },
+  {
+    barangay: "Barangay I (Pob.)",
+    municipality: "Malabuyoc",
+    province: "Cebu",
+    month: 9,
+    dayStart: 10,
+    patronSaint: "San Nicolas de Tolentino",
+    dateSource: "theoldchurches-barangay-i-pob-malabuyoc",
+    note: "TheOldChurches San Nicolas de Tolentino Church in Malabuyoc — feast September 10; National Highway, Malabuyoc, Cebu 6029",
+  },
 ];

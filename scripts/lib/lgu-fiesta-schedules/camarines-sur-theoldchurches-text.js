@@ -518,4 +518,14 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-libmanan-cathedral",
     note: "TheOldChurches Libmanan Cathedral in Libmanan, Camarines Sur — feast July 25; Libmanan, Camarines Sur 4407",
   },
+  {
+    barangay: "Barangay I (Pob.)",
+    municipality: "Garchitorena",
+    province: "Camarines Sur",
+    month: 6,
+    dayStart: 27,
+    patronSaint: "Sacred Heart of Jesus",
+    dateSource: "theoldchurches-barangay-i-pob-garchitorena",
+    note: "TheOldChurches Sacred Heart of Jesus Church in Garchitorena — feast June 27; Mabini Street, Garchitorena, Camarines Sur 4428",
+  },
 ];

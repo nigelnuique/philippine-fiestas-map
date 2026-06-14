@@ -68,4 +68,14 @@ export const NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-lope-de-vega-pob",
     note: "TheOldChurches St. Isidore the Farmer Church in Lope de Vega — feast May 26; Lope de Vega, Northern Samar 6403",
   },
+  {
+    barangay: "Poblacion I",
+    municipality: "Silvino Lobos",
+    province: "Northern Samar",
+    month: 6,
+    dayStart: 16,
+    patronSaint: "St. Isidore the Farmer",
+    dateSource: "theoldchurches-poblacion-i-silvino-lobos",
+    note: "TheOldChurches St. Isidore the Farmer Mission Center in Silvino Lobos — feast June 16; Silvino Lobos, Northern Samar 6414",
+  },
 ];

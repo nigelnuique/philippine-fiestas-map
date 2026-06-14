@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:01:24.963Z",
+  "generatedAt": "2026-06-14T13:06:06.355Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -213107,7 +213107,11 @@
       "municipalityPsgcPsa": "051714000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), Garchitorena."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), Garchitorena.",
+      "month": 6,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-barangay-i-pob-garchitorena",
+      "patronSaint": "Sacred Heart of Jesus"
     },
     {
       "id": "bgy-051714015",
@@ -281128,7 +281132,11 @@
       "municipalityPsgcPsa": "063036000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Purok I (Pob.), Pavia."
+      "description": "Barangay patronal fiesta for Purok I (Pob.), Pavia.",
+      "month": 8,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-purok-i-pob-pavia",
+      "patronSaint": "Sta. Monica"
     },
     {
       "id": "bgy-063036006",
@@ -322305,7 +322313,11 @@
       "municipalityPsgcPsa": "072229000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), Malabuyoc."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), Malabuyoc.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-barangay-i-pob-malabuyoc",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-072229016",
@@ -342933,7 +342945,11 @@
       "municipalityPsgcPsa": "082610000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Hernani."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Hernani.",
+      "month": 9,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-barangay-1-pob-hernani",
+      "patronSaint": "Our Lady of Seven Dolors"
     },
     {
       "id": "bgy-082610009",
@@ -343097,7 +343113,11 @@
       "municipalityPsgcPsa": "082611000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Jipapad."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Jipapad.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-barangay-1-pob-jipapad",
+      "patronSaint": "Our Lady of the Most Holy Rosary"
     },
     {
       "id": "bgy-082611016",
@@ -343913,7 +343933,11 @@
       "municipalityPsgcPsa": "082614000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Maslog."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Maslog.",
+      "month": 5,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-barangay-1-pob-maslog",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-082614009",
@@ -376367,7 +376391,11 @@
       "municipalityPsgcPsa": "084822000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, Silvino Lobos."
+      "description": "Barangay patronal fiesta for Poblacion I, Silvino Lobos.",
+      "month": 6,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-poblacion-i-silvino-lobos",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-084822025",
@@ -572403,15 +572431,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T13:01:24.963Z",
+    "appliedAt": "2026-06-14T13:06:06.355Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2413,
+      "fromOverride": 2420,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35436
+      "stillMissing": 35429
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572775,8 +572803,8 @@
         "missed": 0
       },
       "iloiloProvinceTheoldchurches": {
-        "entries": 32,
-        "matched": 32,
+        "entries": 33,
+        "matched": 33,
         "missed": 0
       },
       "leyteTheoldchurches": {
@@ -572785,8 +572813,8 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 104,
-        "matched": 104,
+        "entries": 105,
+        "matched": 105,
         "missed": 0
       },
       "capizTheoldchurches": {
@@ -572810,8 +572838,8 @@
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 57,
-        "matched": 57,
+        "entries": 58,
+        "matched": 58,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
@@ -572825,13 +572853,13 @@
         "missed": 0
       },
       "easternSamarTheoldchurches": {
-        "entries": 12,
-        "matched": 12,
+        "entries": 15,
+        "matched": 15,
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 7,
-        "matched": 7,
+        "entries": 8,
+        "matched": 8,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

@@ -690,7 +690,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "55/180 dated: on-day YouTube + TheOldChurches (Marcelo H. Del Pilar Oct 12, North/South Fundidor, Luna La Paz, Sambag, Lopez Jaena Norte) and prior curated rows",
+    notes: "56/180 dated: on-day YouTube + TheOldChurches (Marcelo H. Del Pilar Oct 12, Simon Ledesma Dec 8, San Isidro Jaro May 1, North/South Fundidor, Luna La Paz, Sambag, Lopez Jaena Norte) and prior curated rows",
   },
   {
     id: "mulanay-curated",

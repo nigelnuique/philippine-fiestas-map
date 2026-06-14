@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T12:18:40.653Z",
+  "generatedAt": "2026-06-14T12:44:53.560Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -272457,9 +272457,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro (Jaro), City Of Iloilo (Capital).",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 1,
+      "dateSource": "theoldchurches-st-joseph-the-worker-church-jaro",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-063022152",
@@ -272741,7 +272741,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Simon Ledesma, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Simon Ledesma, City Of Iloilo (Capital).",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-immaculate-conception-church-tanza",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-063022171",
@@ -572355,15 +572359,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T12:18:40.653Z",
+    "appliedAt": "2026-06-14T12:44:53.560Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4196,
-      "fromOverride": 2400,
+      "alreadyHadDate": 4195,
+      "fromOverride": 2402,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35448
+      "stillMissing": 35447
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572422,8 +572426,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 32,
-        "matched": 32,
+        "entries": 34,
+        "matched": 34,
         "missed": 0
       },
       "tarlac": {

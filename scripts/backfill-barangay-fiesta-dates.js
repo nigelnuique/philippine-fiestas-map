@@ -179,6 +179,7 @@ function main() {
       "lgu-san-vicente-palawan-clup",
       "wikipedia-ubay-bohol-barangay-table",
       "lgu-masantol-mpdo-scribd",
+      "lgu-misamis-oriental-1st-district-scribd",
       "lgu-misamis-oriental-2nd-district-scribd",
       "lgu-ormoc-cultural-mapping",
       "lgu-quezon-city-brgy-directory",

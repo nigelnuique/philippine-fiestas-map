@@ -32,6 +32,14 @@ import {
   TAGOLOAN_MISOR_FIESTA_SCHEDULE,
   VILLANUEVA_MISOR_FIESTA_SCHEDULE,
 } from "./misamis-oriental-text.js";
+import {
+  BALINGOAN_FIESTA_SCHEDULE,
+  KINOGUITAN_FIESTA_SCHEDULE,
+  MAGSAYSAY_MISOR_FIESTA_SCHEDULE,
+  MEDINA_FIESTA_SCHEDULE,
+  SUGBONGCOGON_FIESTA_SCHEDULE,
+  TALISAYAN_FIESTA_SCHEDULE,
+} from "./misamis-oriental-1st-district-text.js";
 import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
 import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
@@ -748,6 +756,36 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Misamis Oriental",
     dateSource: "lgu-misamis-oriental-2nd-district-scribd",
   });
+  const magsaysayMisorEntries = buildMunicipalDateRows(MAGSAYSAY_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Magsaysay (Linugos)",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const balingoanEntries = buildMunicipalDateRows(BALINGOAN_FIESTA_SCHEDULE, {
+    municipality: "Balingoan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const kinoguitanEntries = buildMunicipalDateRows(KINOGUITAN_FIESTA_SCHEDULE, {
+    municipality: "Kinoguitan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const sugbongcogonEntries = buildMunicipalDateRows(SUGBONGCOGON_FIESTA_SCHEDULE, {
+    municipality: "Sugbongcogon",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const talisayanEntries = buildMunicipalDateRows(TALISAYAN_FIESTA_SCHEDULE, {
+    municipality: "Talisayan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const medinaEntries = buildMunicipalDateRows(MEDINA_FIESTA_SCHEDULE, {
+    municipality: "Medina",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
   const ormocEntries = ORMOC_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const taclobanEntries = TACLOBAN_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const dulagEntries = DULAG_FIESTA_ENTRIES.map((e) => ({ ...e }));
@@ -823,6 +861,12 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
   const opol = resolveScheduleEntries(opolEntries);
+  const magsaysayMisor = resolveScheduleEntries(magsaysayMisorEntries);
+  const balingoan = resolveScheduleEntries(balingoanEntries);
+  const kinoguitan = resolveScheduleEntries(kinoguitanEntries);
+  const sugbongcogon = resolveScheduleEntries(sugbongcogonEntries);
+  const talisayan = resolveScheduleEntries(talisayanEntries);
+  const medina = resolveScheduleEntries(medinaEntries);
   const ormoc = resolveScheduleEntries(ormocEntries);
   const tacloban = resolveScheduleEntries(taclobanEntries);
   const dulag = resolveScheduleEntries(dulagEntries);
@@ -885,6 +929,12 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
       ...opol.byPsgc,
+      ...magsaysayMisor.byPsgc,
+      ...balingoan.byPsgc,
+      ...kinoguitan.byPsgc,
+      ...sugbongcogon.byPsgc,
+      ...talisayan.byPsgc,
+      ...medina.byPsgc,
       ...ormoc.byPsgc,
       ...tacloban.byPsgc,
       ...dulag.byPsgc,
@@ -1044,6 +1094,36 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: opolEntries.length,
         matched: opol.matched,
         missed: opol.missed,
+      },
+      magsaysayMisor: {
+        entries: magsaysayMisorEntries.length,
+        matched: magsaysayMisor.matched,
+        missed: magsaysayMisor.missed,
+      },
+      balingoan: {
+        entries: balingoanEntries.length,
+        matched: balingoan.matched,
+        missed: balingoan.missed,
+      },
+      kinoguitan: {
+        entries: kinoguitanEntries.length,
+        matched: kinoguitan.matched,
+        missed: kinoguitan.missed,
+      },
+      sugbongcogon: {
+        entries: sugbongcogonEntries.length,
+        matched: sugbongcogon.matched,
+        missed: sugbongcogon.missed,
+      },
+      talisayan: {
+        entries: talisayanEntries.length,
+        matched: talisayan.matched,
+        missed: talisayan.missed,
+      },
+      medina: {
+        entries: medinaEntries.length,
+        matched: medina.matched,
+        missed: medina.missed,
       },
       ormoc: {
         entries: ormocEntries.length,

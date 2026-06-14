@@ -218,7 +218,14 @@ PSGC provides **names and codes**, not feast dates or patron saint names for mos
 | Siquijor Province | Province-wide guide | [siquijor-secrets.com/siquijor-fiestas](https://siquijor-secrets.com/siquijor-fiestas/) |
 | Magallanes, Sorsogon | LGU feast-day table (HTML parser) | [magallanessorsogon.gov.ph](https://magallanessorsogon.gov.ph) → `data/raw/lgu-schedules/magallanes-fiestas.html` |
 | General Mariano Alvarez, Cavite | Official city page | [genmarianoalvarez.gov.ph/barangay-feast](https://genmarianoalvarez.gov.ph/barangay-feast/) |
+| Santa Maria, Bulacan | CLUP fiesta celebrations table | [scribd.com/document/744110354/Comprehensive-Land-Use-Plan-of-Santa-Maria-2006-2015-1](https://www.scribd.com/document/744110354/Comprehensive-Land-Use-Plan-of-Santa-Maria-2006-2015-1) |
+| Lagonoy, Camarines Sur | Barangay festivities list | [dahomlagonoy.weebly.com/dl-blogs/barangay-fiesta](https://dahomlagonoy.weebly.com/dl-blogs/barangay-fiesta) |
 | San Pascual, Batangas | Municipal Tourism, Culture & The Arts Section schedule (public mirror) | [scribd.com/document/887672179/Barangay-Fiesta-2](https://www.scribd.com/document/887672179/Barangay-Fiesta-2) |
+| San Vicente, Palawan | Municipal tourism / CLUP barangay fiesta table | [scribd.com/document/510524031/LA-SERENE](https://www.scribd.com/document/510524031/LA-SERENE) |
+| Ubay, Bohol | Wikipedia barangay table with `Date of Fiesta` column | [en.wikipedia.org/wiki/Ubay,_Bohol#Barangays](https://en.wikipedia.org/wiki/Ubay,_Bohol#Barangays) |
+| Masantol, Pampanga | Municipal Planning & Development Coordinator schedule (public mirror) | [scribd.com/document/995540556/Brgy-Fiesta](https://www.scribd.com/document/995540556/Brgy-Fiesta) |
+| Magsaysay, Balingoan, Kinoguitan, Sugbongcogon, Talisayan, and Medina, Misamis Oriental | 1st District barangay feast-date tables (public mirror) | [scribd.com/doc/270868638/Municipalities-Feast-Date-1st-District](https://www.scribd.com/doc/270868638/Municipalities-Feast-Date-1st-District) |
+| Jasaan, Villanueva, Tagoloan, and Opol, Misamis Oriental | 2nd District barangay feast-date tables (public mirror) | [scribd.com/doc/270867869/Municipalities-Feast-Date-2nd-District](https://www.scribd.com/doc/270867869/Municipalities-Feast-Date-2nd-District) |
 
 **Patron-saint calendar**
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:14:17.400Z",
+  "generatedAt": "2026-06-14T10:23:49.673Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -443795,7 +443795,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dahilig, Balingoan."
+      "description": "Barangay patronal fiesta for Dahilig, Balingoan.",
+      "month": 8,
+      "dayStart": 11,
+      "dayEnd": 12,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104303003",
@@ -443808,7 +443813,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baukbauk Pob. (G.E. Antonino), Balingoan."
+      "description": "Barangay patronal fiesta for Baukbauk Pob. (G.E. Antonino), Balingoan.",
+      "month": 8,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104303004",
@@ -443821,7 +443831,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kabangasan, Balingoan."
+      "description": "Barangay patronal fiesta for Kabangasan, Balingoan.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104303005",
@@ -443834,7 +443849,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kabulakan, Balingoan."
+      "description": "Barangay patronal fiesta for Kabulakan, Balingoan.",
+      "month": 3,
+      "dayStart": 10,
+      "dayEnd": 11,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Francisco Javier"
     },
     {
       "id": "bgy-104303006",
@@ -443847,7 +443867,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kauswagan, Balingoan."
+      "description": "Barangay patronal fiesta for Kauswagan, Balingoan.",
+      "month": 9,
+      "dayStart": 8,
+      "dayEnd": 9,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Pedro"
     },
     {
       "id": "bgy-104303007",
@@ -443860,7 +443885,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lapinig (Pob.), Balingoan."
+      "description": "Barangay patronal fiesta for Lapinig (Pob.), Balingoan.",
+      "month": 6,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mother of Perpetual Help"
     },
     {
       "id": "bgy-104303008",
@@ -443873,7 +443903,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mantangale, Balingoan."
+      "description": "Barangay patronal fiesta for Mantangale, Balingoan.",
+      "month": 5,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104303009",
@@ -443886,7 +443921,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mapua, Balingoan."
+      "description": "Barangay patronal fiesta for Mapua, Balingoan.",
+      "month": 4,
+      "dayStart": 24,
+      "dayEnd": 25,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104303010",
@@ -443899,7 +443939,12 @@
       "municipalityPsgcPsa": "104303000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for San Alonzo, Balingoan."
+      "description": "Barangay patronal fiesta for San Alonzo, Balingoan.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104304001",
@@ -447224,7 +447269,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Beray, Kinoguitan."
+      "description": "Barangay patronal fiesta for Beray, Kinoguitan.",
+      "month": 5,
+      "dayStart": 1,
+      "dayEnd": 2,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104312002",
@@ -447237,7 +447287,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bolisong, Kinoguitan."
+      "description": "Barangay patronal fiesta for Bolisong, Kinoguitan.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104312003",
@@ -447250,7 +447304,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Buko, Kinoguitan."
+      "description": "Barangay patronal fiesta for Buko, Kinoguitan.",
+      "month": 3,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-104312004",
@@ -447263,7 +447321,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kalitian, Kinoguitan."
+      "description": "Barangay patronal fiesta for Kalitian, Kinoguitan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104312005",
@@ -447276,7 +447339,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calubo, Kinoguitan."
+      "description": "Barangay patronal fiesta for Calubo, Kinoguitan.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104312006",
@@ -447289,7 +447357,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Campo, Kinoguitan."
+      "description": "Barangay patronal fiesta for Campo, Kinoguitan.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104312007",
@@ -447302,7 +447375,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Esperanza, Kinoguitan."
+      "description": "Barangay patronal fiesta for Esperanza, Kinoguitan.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104312008",
@@ -447315,7 +447392,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kagumahan, Kinoguitan."
+      "description": "Barangay patronal fiesta for Kagumahan, Kinoguitan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104312009",
@@ -447328,7 +447410,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kitotok, Kinoguitan."
+      "description": "Barangay patronal fiesta for Kitotok, Kinoguitan.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104312010",
@@ -447341,7 +447428,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Panabol, Kinoguitan."
+      "description": "Barangay patronal fiesta for Panabol, Kinoguitan.",
+      "month": 6,
+      "dayStart": 27,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mother of Perpetual Help"
     },
     {
       "id": "bgy-104312011",
@@ -447354,7 +447445,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Kinoguitan."
+      "description": "Barangay patronal fiesta for Poblacion, Kinoguitan.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104312012",
@@ -447367,7 +447462,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Salicapawan, Kinoguitan."
+      "description": "Barangay patronal fiesta for Salicapawan, Kinoguitan.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104312013",
@@ -447380,7 +447479,12 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Salubsob, Kinoguitan."
+      "description": "Barangay patronal fiesta for Salubsob, Kinoguitan.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104312014",
@@ -447393,7 +447497,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Suarez, Kinoguitan."
+      "description": "Barangay patronal fiesta for Suarez, Kinoguitan.",
+      "month": 6,
+      "dayStart": 12,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-104312015",
@@ -447406,7 +447514,11 @@
       "municipalityPsgcPsa": "104312000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sumalag, Kinoguitan."
+      "description": "Barangay patronal fiesta for Sumalag, Kinoguitan.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104313001",
@@ -447921,7 +448033,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Abunda, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Abunda, Magsaysay (Linugos).",
+      "month": 4,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104317002",
@@ -447934,7 +448051,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Artadi, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Artadi, Magsaysay (Linugos).",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104317003",
@@ -447947,7 +448069,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bonifacio Aquino, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Bonifacio Aquino, Magsaysay (Linugos).",
+      "month": 6,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mother of Perpetual Help"
     },
     {
       "id": "bgy-104317004",
@@ -447960,7 +448087,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabalawan, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Cabalawan, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 17,
+      "dayEnd": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104317005",
@@ -447973,7 +448105,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabantian, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Cabantian, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104317006",
@@ -447986,7 +448123,11 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabubuhan, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Cabubuhan, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104317007",
@@ -447999,7 +448140,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Candiis, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Candiis, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104317008",
@@ -448012,7 +448158,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Consuelo, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Consuelo, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 30,
+      "dayEnd": 31,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Augustine"
     },
     {
       "id": "bgy-104317009",
@@ -448025,7 +448176,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Damayuhan, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Damayuhan, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104317010",
@@ -448038,7 +448194,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gumabon, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Gumabon, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104317011",
@@ -448051,7 +448212,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kauswagan, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Kauswagan, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104317012",
@@ -448064,7 +448230,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kibungsod, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Kibungsod, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Birhen sa Fatima"
     },
     {
       "id": "bgy-104317013",
@@ -448077,7 +448248,11 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mahayahay, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Mahayahay, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 19,
+      "dayEnd": 20,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104317014",
@@ -448090,7 +448265,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mindulao, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Mindulao, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 16,
+      "dayEnd": 17,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104317015",
@@ -448103,7 +448283,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pag-Asa, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Pag-Asa, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 6,
+      "dayEnd": 7,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104317016",
@@ -448116,7 +448301,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Poblacion, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104317017",
@@ -448131,9 +448321,10 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro, Magsaysay (Linugos).",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 14,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador",
+      "dayEnd": 15
     },
     {
       "id": "bgy-104317018",
@@ -448147,10 +448338,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente, Magsaysay (Linugos).",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 4,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer",
+      "dayEnd": 5
     },
     {
       "id": "bgy-104317019",
@@ -448165,9 +448357,10 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Cruz, Magsaysay (Linugos).",
       "month": 5,
-      "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dayStart": 2,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz",
+      "dayEnd": 3
     },
     {
       "id": "bgy-104317020",
@@ -448180,7 +448373,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tibon-Tibon, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Tibon-Tibon, Magsaysay (Linugos).",
+      "month": 2,
+      "dayStart": 1,
+      "dayEnd": 2,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Nuestra Senora Candelaria"
     },
     {
       "id": "bgy-104317021",
@@ -448193,7 +448391,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tulang (Cadena De Amor), Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Tulang (Cadena De Amor), Magsaysay (Linugos).",
+      "month": 9,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Guillermo"
     },
     {
       "id": "bgy-104317022",
@@ -448206,7 +448409,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Villa Felipa, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Villa Felipa, Magsaysay (Linugos).",
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104317023",
@@ -448219,7 +448427,11 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Katipunan, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Katipunan, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104317024",
@@ -448232,7 +448444,12 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tama, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Tama, Magsaysay (Linugos).",
+      "month": 10,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Francisco de Assisi"
     },
     {
       "id": "bgy-104317025",
@@ -448245,7 +448462,11 @@
       "municipalityPsgcPsa": "104317000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinaan, Magsaysay (Linugos)."
+      "description": "Barangay patronal fiesta for Tinaan, Magsaysay (Linugos).",
+      "month": 8,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104318001",
@@ -448440,7 +448661,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulwa, Medina."
+      "description": "Barangay patronal fiesta for Bulwa, Medina.",
+      "month": 1,
+      "dayStart": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104319003",
@@ -448453,7 +448678,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabug, Medina."
+      "description": "Barangay patronal fiesta for Cabug, Medina.",
+      "month": 9,
+      "dayStart": 14,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104319004",
@@ -448479,7 +448708,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Duka, Medina."
+      "description": "Barangay patronal fiesta for Duka, Medina.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104319006",
@@ -448492,7 +448725,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gasa, Medina."
+      "description": "Barangay patronal fiesta for Gasa, Medina.",
+      "month": 5,
+      "dayStart": 19,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104319007",
@@ -448505,7 +448742,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maanas, Medina."
+      "description": "Barangay patronal fiesta for Maanas, Medina.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104319008",
@@ -448518,7 +448759,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mananum Bag-O, Medina."
+      "description": "Barangay patronal fiesta for Mananum Bag-O, Medina.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104319009",
@@ -448531,7 +448776,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mananum Daan, Medina."
+      "description": "Barangay patronal fiesta for Mananum Daan, Medina.",
+      "month": 3,
+      "dayStart": 30,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104319011",
@@ -448544,7 +448793,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for North Poblacion, Medina."
+      "description": "Barangay patronal fiesta for North Poblacion, Medina.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104319012",
@@ -448557,7 +448810,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pahindong, Medina."
+      "description": "Barangay patronal fiesta for Pahindong, Medina.",
+      "month": 5,
+      "dayStart": 2,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104319013",
@@ -448585,9 +448842,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro, Medina.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 12,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104319015",
@@ -448603,8 +448860,8 @@
       "description": "Barangay patronal fiesta for San Jose, Medina.",
       "month": 3,
       "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Jose"
     },
     {
       "id": "bgy-104319016",
@@ -448635,10 +448892,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente, Medina.",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 4,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104319018",
@@ -448651,7 +448908,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for South Poblacion, Medina."
+      "description": "Barangay patronal fiesta for South Poblacion, Medina.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104319019",
@@ -448664,7 +448925,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tambagan, Medina."
+      "description": "Barangay patronal fiesta for Tambagan, Medina.",
+      "month": 4,
+      "dayStart": 6,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104319020",
@@ -448677,7 +448942,11 @@
       "municipalityPsgcPsa": "104319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tup-On, Medina."
+      "description": "Barangay patronal fiesta for Tup-On, Medina.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104320001",
@@ -449282,7 +449551,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alicomohan, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Alicomohan, Sugbongcogon.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104323002",
@@ -449295,7 +449568,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ampianga, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Ampianga, Sugbongcogon.",
+      "month": 6,
+      "dayStart": 6,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-104323003",
@@ -449321,7 +449598,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kidampas, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Kidampas, Sugbongcogon.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-104323005",
@@ -449334,7 +449615,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kiraging, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Kiraging, Sugbongcogon.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104323006",
@@ -449347,7 +449632,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mangga, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Mangga, Sugbongcogon.",
+      "month": 6,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-104323007",
@@ -449373,7 +449662,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Poblacion, Sugbongcogon.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104323009",
@@ -449389,8 +449682,8 @@
       "description": "Barangay patronal fiesta for Santa Cruz (Mabini), Sugbongcogon.",
       "month": 5,
       "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104323010",
@@ -449403,7 +449696,11 @@
       "municipalityPsgcPsa": "104323000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Silad, Sugbongcogon."
+      "description": "Barangay patronal fiesta for Silad, Sugbongcogon.",
+      "month": 9,
+      "dayStart": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-104324001",
@@ -449576,7 +449873,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bugdang, Talisayan."
+      "description": "Barangay patronal fiesta for Bugdang, Talisayan.",
+      "month": 5,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Fatima"
     },
     {
       "id": "bgy-104325002",
@@ -449589,7 +449891,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calamcam, Talisayan."
+      "description": "Barangay patronal fiesta for Calamcam, Talisayan.",
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mount Carmel"
     },
     {
       "id": "bgy-104325003",
@@ -449602,7 +449909,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Casibole, Talisayan."
+      "description": "Barangay patronal fiesta for Casibole, Talisayan.",
+      "month": 9,
+      "dayStart": 9,
+      "dayEnd": 10,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Nicholas"
     },
     {
       "id": "bgy-104325004",
@@ -449615,7 +449927,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Macopa, Talisayan."
+      "description": "Barangay patronal fiesta for Macopa, Talisayan.",
+      "month": 5,
+      "dayStart": 7,
+      "dayEnd": 8,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Balaan na Krus"
     },
     {
       "id": "bgy-104325005",
@@ -449628,7 +449945,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Magkarila, Talisayan."
+      "description": "Barangay patronal fiesta for Magkarila, Talisayan.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104325006",
@@ -449641,7 +449963,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mahayag, Talisayan."
+      "description": "Barangay patronal fiesta for Mahayag, Talisayan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104325007",
@@ -449654,7 +449981,11 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mandahilag, Talisayan."
+      "description": "Barangay patronal fiesta for Mandahilag, Talisayan.",
+      "month": 7,
+      "dayStart": 24,
+      "dayEnd": 25,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104325008",
@@ -449667,7 +449998,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mintabon, Talisayan."
+      "description": "Barangay patronal fiesta for Mintabon, Talisayan.",
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mount Carmel"
     },
     {
       "id": "bgy-104325009",
@@ -449680,7 +450016,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pangpangon, Talisayan."
+      "description": "Barangay patronal fiesta for Pangpangon, Talisayan.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104325010",
@@ -449693,7 +450034,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Talisayan."
+      "description": "Barangay patronal fiesta for Poblacion, Talisayan.",
+      "month": 7,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mount Carmel"
     },
     {
       "id": "bgy-104325011",
@@ -449706,7 +450052,11 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pook, Talisayan."
+      "description": "Barangay patronal fiesta for Pook, Talisayan.",
+      "month": 4,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104325012",
@@ -449719,7 +450069,11 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Punta Santiago, Talisayan."
+      "description": "Barangay patronal fiesta for Punta Santiago, Talisayan.",
+      "month": 7,
+      "dayStart": 24,
+      "dayEnd": 25,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104325013",
@@ -449732,7 +450086,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Puting Balas, Talisayan."
+      "description": "Barangay patronal fiesta for Puting Balas, Talisayan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104325014",
@@ -449746,10 +450105,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Jose, Talisayan.",
-      "month": 3,
-      "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "month": 7,
+      "dayStart": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mount Carmel",
+      "dayEnd": 16
     },
     {
       "id": "bgy-104325015",
@@ -449763,10 +450123,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Ines, Talisayan.",
-      "month": 1,
-      "dayStart": 21,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa ines"
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "dayEnd": 29
     },
     {
       "id": "bgy-104325016",
@@ -449779,7 +450139,11 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sibantang, Talisayan."
+      "description": "Barangay patronal fiesta for Sibantang, Talisayan.",
+      "month": 5,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd"
     },
     {
       "id": "bgy-104325017",
@@ -449792,7 +450156,11 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sindangan, Talisayan."
+      "description": "Barangay patronal fiesta for Sindangan, Talisayan.",
+      "month": 1,
+      "dayStart": 11,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104325018",
@@ -449805,7 +450173,12 @@
       "municipalityPsgcPsa": "104325000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tagbocboc, Talisayan."
+      "description": "Barangay patronal fiesta for Tagbocboc, Talisayan.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104326001",
@@ -569822,15 +570195,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:14:17.400Z",
+    "appliedAt": "2026-06-14T10:23:49.673Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4285,
-      "fromOverride": 1722,
+      "alreadyHadDate": 4276,
+      "fromOverride": 1812,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36037
+      "stillMissing": 35956
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569961,6 +570334,36 @@
       "opol": {
         "entries": 14,
         "matched": 14,
+        "missed": 0
+      },
+      "magsaysayMisor": {
+        "entries": 25,
+        "matched": 25,
+        "missed": 0
+      },
+      "balingoan": {
+        "entries": 9,
+        "matched": 9,
+        "missed": 0
+      },
+      "kinoguitan": {
+        "entries": 15,
+        "matched": 15,
+        "missed": 0
+      },
+      "sugbongcogon": {
+        "entries": 8,
+        "matched": 8,
+        "missed": 0
+      },
+      "talisayan": {
+        "entries": 18,
+        "matched": 18,
+        "missed": 0
+      },
+      "medina": {
+        "entries": 15,
+        "matched": 15,
         "missed": 0
       },
       "ormoc": {
@@ -570196,6 +570599,7 @@
       "lgu-san-vicente-palawan-clup",
       "wikipedia-ubay-bohol-barangay-table",
       "lgu-masantol-mpdo-scribd",
+      "lgu-misamis-oriental-1st-district-scribd",
       "lgu-misamis-oriental-2nd-district-scribd",
       "lgu-ormoc-cultural-mapping",
       "lgu-quezon-city-brgy-directory",

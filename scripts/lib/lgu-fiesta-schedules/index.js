@@ -42,6 +42,7 @@ import {
   PAOMBONG_PDPFP_FIESTA_SCHEDULE,
   PULILAN_PDPFP_FIESTA_SCHEDULE,
   SAN_ILDEFONSO_BULACAN_PDPFP_FIESTA_SCHEDULE,
+  SAN_JOSE_DEL_MONTE_PDPFP_FIESTA_SCHEDULE,
   SAN_RAFAEL_PDPFP_FIESTA_SCHEDULE,
 } from "./bulacan-pdpfp-text.js";
 import {
@@ -841,6 +842,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Bulacan",
     dateSource: "lgu-bulacan-pdpfp-2024",
   });
+  const sanJoseDelMontePdpfpEntries = buildMunicipalDateRows(SAN_JOSE_DEL_MONTE_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "City Of San Jose Del Monte",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
   const jasaanEntries = buildMunicipalDateRows(JASAAN_FIESTA_SCHEDULE, {
     municipality: "Jasaan",
     province: "Misamis Oriental",
@@ -1013,6 +1019,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const calumpitPdpfp = resolveScheduleEntries(calumpitPdpfpEntries);
   const obandoPdpfp = resolveScheduleEntries(obandoPdpfpEntries);
   const balagtasPdpfp = resolveScheduleEntries(balagtasPdpfpEntries);
+  const sanJoseDelMontePdpfp = resolveScheduleEntries(sanJoseDelMontePdpfpEntries);
   const jasaan = resolveScheduleEntries(jasaanEntries);
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
@@ -1104,6 +1111,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...calumpitPdpfp.byPsgc,
       ...obandoPdpfp.byPsgc,
       ...balagtasPdpfp.byPsgc,
+      ...sanJoseDelMontePdpfp.byPsgc,
       ...jasaan.byPsgc,
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
@@ -1340,6 +1348,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: balagtasPdpfpEntries.length,
         matched: balagtasPdpfp.matched,
         missed: balagtasPdpfp.missed,
+      },
+      sanJoseDelMontePdpfp: {
+        entries: sanJoseDelMontePdpfpEntries.length,
+        matched: sanJoseDelMontePdpfp.matched,
+        missed: sanJoseDelMontePdpfp.missed,
       },
       jasaan: {
         entries: jasaanEntries.length,

@@ -376,6 +376,17 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "Borol 1st St. Laurence feast August 9 from PDPFP Table 3.4.42; civic-only rows skipped.",
   },
   {
+    id: "bulacan-pdpfp-san-jose-del-monte",
+    municipality: "City Of San Jose Del Monte",
+    province: "Bulacan",
+    url: "https://bulacan.gov.ph/wp-content/uploads/2025/04/BulacanPDPFP_2024-2036.pdf",
+    format: "curated-text",
+    parser: "SAN_JOSE_DEL_MONTE_PDPFP_FIESTA_SCHEDULE",
+    status: "partial",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+    notes: "56 barangay feast rows from PDPFP Table 3.4.42; sitio/zone-specific duplicates skipped.",
+  },
+  {
     id: "misamis-oriental-2nd-district",
     municipality: "Jasaan",
     province: "Misamis Oriental",

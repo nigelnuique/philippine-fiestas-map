@@ -830,7 +830,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-northern-samar",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Barangay 1 (Pob.): Catubig; Zone I (Pob.): Victoria",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Barangay 1 (Pob.): Catubig; Zone I (Pob.): Victoria; Ward I / Bgy.1 / Zone 1 / Poblacion Barangay 1: San Antonio, San Vicente, Capul, San Roque",
   },
   {
     id: "southern-leyte-theoldchurches",

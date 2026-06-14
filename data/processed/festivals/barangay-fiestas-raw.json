@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:59:46.428Z",
+  "generatedAt": "2026-06-14T14:05:45.209Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -370064,7 +370064,11 @@
       "municipalityPsgcPsa": "084804000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Barangay 1, Capul."
+      "description": "Barangay patronal fiesta for Poblacion Barangay 1, Capul.",
+      "month": 7,
+      "dayStart": 31,
+      "dateSource": "theoldchurches-san-ignacio-capul-poblacion-barangay-1",
+      "patronSaint": "St. Ignatius of Loyola"
     },
     {
       "id": "bgy-084804007",
@@ -375389,7 +375393,11 @@
       "municipalityPsgcPsa": "084817000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ward I (Pob.), San Antonio."
+      "description": "Barangay patronal fiesta for Ward I (Pob.), San Antonio.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-st-anthony-san-antonio-ward-i-pob",
+      "patronSaint": "St. Anthony of Padua"
     },
     {
       "id": "bgy-084817007",
@@ -376007,7 +376015,11 @@
       "municipalityPsgcPsa": "084820000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Zone 1 (Pob.), San Roque."
+      "description": "Barangay patronal fiesta for Zone 1 (Pob.), San Roque.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-saint-roque-san-roque-zone-1-pob",
+      "patronSaint": "St. Roch"
     },
     {
       "id": "bgy-084820012",
@@ -376098,7 +376110,11 @@
       "municipalityPsgcPsa": "084821000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mongol Bongol Pob. (Bgy.1), San Vicente."
+      "description": "Barangay patronal fiesta for Mongol Bongol Pob. (Bgy.1), San Vicente.",
+      "month": 4,
+      "dayStart": 29,
+      "dateSource": "theoldchurches-san-vicente-ferrer-san-vicente-bgy1",
+      "patronSaint": "St. Vincent Ferrer"
     },
     {
       "id": "bgy-084821005",
@@ -572531,15 +572547,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T13:59:46.428Z",
+    "appliedAt": "2026-06-14T14:05:45.209Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2445,
+      "fromOverride": 2449,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35404
+      "stillMissing": 35400
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572958,8 +572974,8 @@
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 10,
-        "matched": 10,
+        "entries": 14,
+        "matched": 14,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

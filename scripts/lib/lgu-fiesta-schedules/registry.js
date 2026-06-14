@@ -180,7 +180,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "LEYTE_PARISH_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "parish-ph-leyte",
-    notes: "ParishPH 1:1 matches: Palo (2), Tanauan, Abuyog, Tolosa, Capoocan, Kananga, Villaba, Isabel",
+    notes: "ParishPH 1:1 matches: Palo (2), Tanauan, Abuyog, Tolosa, Capoocan, Kananga, Villaba, Isabel, Burauen, Dagami, Palompon (2)",
   },
   {
     id: "dulag-parish",

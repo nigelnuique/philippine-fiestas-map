@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:30:28.457Z",
+  "generatedAt": "2026-06-14T06:31:37.182Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -349030,7 +349030,11 @@
       "municipalityPsgcPsa": "083710000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maghubas, Burauen."
+      "description": "Barangay patronal fiesta for Maghubas, Burauen.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "parish-san-isidro-maghubas-burauen",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-083710043",
@@ -351426,7 +351430,11 @@
       "municipalityPsgcPsa": "083717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guinarona, Dagami."
+      "description": "Barangay patronal fiesta for Guinarona, Dagami.",
+      "month": 5,
+      "dayStart": 17,
+      "dateSource": "parish-st-pascual-baylon-guinarona-dagami",
+      "patronSaint": "St. Paschal Baylon"
     },
     {
       "id": "bgy-083717023",
@@ -360865,7 +360873,11 @@
       "municipalityPsgcPsa": "083740000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cantuhaon, Palompon."
+      "description": "Barangay patronal fiesta for Cantuhaon, Palompon.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "parish-st-joseph-worker-cantuhaon-palompon",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-083740012",
@@ -361222,8 +361234,8 @@
       "description": "Barangay patronal fiesta for San Miguel, Palompon.",
       "month": 9,
       "dayStart": 29,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san miguel"
+      "dateSource": "parish-st-michael-san-miguel-palompon",
+      "patronSaint": "St. Michael the Archangel"
     },
     {
       "id": "bgy-083740040",
@@ -567664,15 +567676,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T06:30:28.457Z",
+    "appliedAt": "2026-06-14T06:31:37.182Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4334,
-      "fromOverride": 998,
+      "alreadyHadDate": 4333,
+      "fromOverride": 1002,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36712
+      "stillMissing": 36709
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567776,8 +567788,8 @@
         "missed": 0
       },
       "leyteParish": {
-        "entries": 9,
-        "matched": 9,
+        "entries": 13,
+        "matched": 13,
         "missed": 0
       },
       "curatedOnline": {

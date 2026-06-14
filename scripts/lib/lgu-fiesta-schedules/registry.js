@@ -261,9 +261,9 @@ export const LGU_SCHEDULE_REGISTRY = [
     url: "https://www.scribd.com/doc/270867869/Municipalities-Feast-Date-2nd-District",
     format: "curated-text",
     parser: "EL_SALVADOR_MISOR_FIESTA_SCHEDULE",
-    status: "partial",
+    status: "complete",
     dateSource: "lgu-misamis-oriental-2nd-district-scribd",
-    notes: "9/15 barangays; only visible named rows from the 2nd District feast-date table were imported.",
+    notes: "15/15 barangays from Misamis Oriental 2nd District feast-date table.",
   },
   {
     id: "misamis-oriental-1st-district-magsaysay",

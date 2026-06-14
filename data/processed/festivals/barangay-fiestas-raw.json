@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T15:00:54.319Z",
+  "generatedAt": "2026-06-14T15:10:03.203Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -259367,7 +259367,11 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I (Barangay I), City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Poblacion I (Barangay I), City Of Roxas (Capital).",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-poblacion-i-roxas-cathedral",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-061914006",
@@ -351422,7 +351426,11 @@
       "municipalityPsgcPsa": "083708000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Zone 1, City Of Baybay."
+      "description": "Barangay patronal fiesta for Poblacion Zone 1, City Of Baybay.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-poblacion-zone-1-baybay",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-083708093",
@@ -355991,7 +355999,11 @@
       "municipalityPsgcPsa": "083719000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Central Barangay (Pob.), Hilongos."
+      "description": "Barangay patronal fiesta for Central Barangay (Pob.), Hilongos.",
+      "month": 12,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-central-barangay-pob-hilongos",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-083719029",
@@ -359211,7 +359223,11 @@
       "municipalityPsgcPsa": "083728000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion District 1, La Paz."
+      "description": "Barangay patronal fiesta for Poblacion District 1, La Paz.",
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-poblacion-district-1-la-paz",
+      "patronSaint": "Our Lady of Peace and Good Voyage"
     },
     {
       "id": "bgy-083728026",
@@ -359947,7 +359963,11 @@
       "municipalityPsgcPsa": "083730000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion District 1, Macarthur."
+      "description": "Barangay patronal fiesta for Poblacion District 1, Macarthur.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-district-1-macarthur",
+      "patronSaint": "St. Isidore"
     },
     {
       "id": "bgy-083730018",
@@ -362049,7 +362069,11 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Ormoc City."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Ormoc City.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "theoldchurches-barangay-1-pob-ormoc-cathedral",
+      "patronSaint": "Saints Peter and Paul"
     },
     {
       "id": "bgy-083738022",
@@ -572631,15 +572655,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T15:00:54.319Z",
+    "appliedAt": "2026-06-14T15:10:03.203Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4194,
-      "fromOverride": 2471,
+      "fromOverride": 2477,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35379
+      "stillMissing": 35373
     },
     "lguScheduleStats": {
       "siargao": {
@@ -573008,8 +573032,8 @@
         "missed": 0
       },
       "leyteTheoldchurches": {
-        "entries": 32,
-        "matched": 32,
+        "entries": 37,
+        "matched": 37,
         "missed": 0
       },
       "cebuTheoldchurches": {
@@ -573018,8 +573042,8 @@
         "missed": 0
       },
       "capizTheoldchurches": {
-        "entries": 39,
-        "matched": 39,
+        "entries": 40,
+        "matched": 40,
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {

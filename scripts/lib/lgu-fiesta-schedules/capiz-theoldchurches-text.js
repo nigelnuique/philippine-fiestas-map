@@ -355,4 +355,14 @@ export const CAPIZ_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-martin-of-tours-church-dumalag",
     note: "TheOldChurches St. Martin of Tours Church in Dumalag, Capiz — feast November 11; Dumalag, Capiz 5813",
   },
+  {
+    barangay: "Poblacion I (Barangay I)",
+    municipality: "City Of Roxas (Capital)",
+    province: "Capiz",
+    month: 12,
+    dayStart: 8,
+    patronSaint: "Immaculate Conception",
+    dateSource: "theoldchurches-poblacion-i-roxas-cathedral",
+    note: "TheOldChurches Immaculate Conception Metropolitan Cathedral in Roxas City, Capiz — feast December 8; Arzobispo St., Roxas City, Capiz 5800",
+  },
 ];

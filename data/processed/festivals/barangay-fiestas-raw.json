@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:38:49.960Z",
+  "generatedAt": "2026-06-14T10:39:14.941Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -219213,7 +219213,10 @@
       "municipalityPsgcPsa": "051730000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Godofredo Reyes Sr. (Catabangan Crossing), Ragay."
+      "description": "Barangay patronal fiesta for Godofredo Reyes Sr. (Catabangan Crossing), Ragay.",
+      "month": 9,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-godofredo-reyes-ragay"
     },
     {
       "id": "bgy-051730017",
@@ -219389,7 +219392,10 @@
       "municipalityPsgcPsa": "051730000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Iraya, Ragay."
+      "description": "Barangay patronal fiesta for Poblacion Iraya, Ragay.",
+      "month": 5,
+      "dayStart": 30,
+      "dateSource": "theoldchurches-poblacion-iraya-ragay"
     },
     {
       "id": "bgy-051730031",
@@ -220998,7 +221004,10 @@
       "municipalityPsgcPsa": "051734000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for South Centro (Pob.), Sipocot."
+      "description": "Barangay patronal fiesta for South Centro (Pob.), Sipocot.",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-south-centro-sipocot"
     },
     {
       "id": "bgy-051734041",
@@ -443406,7 +443415,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balagnan, Balingasag."
+      "description": "Barangay patronal fiesta for Balagnan, Balingasag.",
+      "month": 12,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Sagrada Pamilya"
     },
     {
       "id": "bgy-104302003",
@@ -443419,7 +443433,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baliwagan, Balingasag."
+      "description": "Barangay patronal fiesta for Baliwagan, Balingasag.",
+      "month": 6,
+      "dayStart": 26,
+      "dayEnd": 27,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Mother of Perpetual Help"
     },
     {
       "id": "bgy-104302004",
@@ -443433,10 +443452,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Francisco, Balingasag.",
-      "month": 10,
-      "dayStart": 4,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san francisco"
+      "month": 12,
+      "dayStart": 2,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Immaculate Conception",
+      "dayEnd": 3
     },
     {
       "id": "bgy-104302005",
@@ -443449,7 +443469,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binitinan, Balingasag."
+      "description": "Barangay patronal fiesta for Binitinan, Balingasag.",
+      "month": 2,
+      "dayStart": 10,
+      "dayEnd": 11,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-104302006",
@@ -443462,7 +443487,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Blanco, Balingasag."
+      "description": "Barangay patronal fiesta for Blanco, Balingasag.",
+      "month": 12,
+      "dayStart": 7,
+      "dayEnd": 8,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-104302008",
@@ -443475,7 +443505,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calawag, Balingasag."
+      "description": "Barangay patronal fiesta for Calawag, Balingasag.",
+      "month": 4,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-104302009",
@@ -443488,7 +443523,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Camuayan, Balingasag."
+      "description": "Barangay patronal fiesta for Camuayan, Balingasag.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104302010",
@@ -443501,7 +443541,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cogon, Balingasag."
+      "description": "Barangay patronal fiesta for Cogon, Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302011",
@@ -443514,7 +443558,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dansuli, Balingasag."
+      "description": "Barangay patronal fiesta for Dansuli, Balingasag.",
+      "month": 1,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Sagrada Pamilya"
     },
     {
       "id": "bgy-104302012",
@@ -443527,7 +443576,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dumarait, Balingasag."
+      "description": "Barangay patronal fiesta for Dumarait, Balingasag.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104302013",
@@ -443540,7 +443594,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Hermano, Balingasag."
+      "description": "Barangay patronal fiesta for Hermano, Balingasag.",
+      "month": 11,
+      "dayStart": 12,
+      "dayEnd": 13,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Birhen Medalla Milagrosa"
     },
     {
       "id": "bgy-104302014",
@@ -443553,7 +443612,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kibanban, Balingasag."
+      "description": "Barangay patronal fiesta for Kibanban, Balingasag.",
+      "month": 12,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Sagrada Pamilya"
     },
     {
       "id": "bgy-104302015",
@@ -443566,7 +443630,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Linabu, Balingasag."
+      "description": "Barangay patronal fiesta for Linabu, Balingasag.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104302016",
@@ -443579,7 +443648,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Linggangao, Balingasag."
+      "description": "Barangay patronal fiesta for Linggangao, Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302017",
@@ -443592,7 +443665,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mambayaan, Balingasag."
+      "description": "Barangay patronal fiesta for Mambayaan, Balingasag.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104302018",
@@ -443605,7 +443683,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mandangoa, Balingasag."
+      "description": "Barangay patronal fiesta for Mandangoa, Balingasag.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-104302019",
@@ -443618,7 +443701,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Napaliran, Balingasag."
+      "description": "Barangay patronal fiesta for Napaliran, Balingasag.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-104302020",
@@ -443631,7 +443719,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Balingasag."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302021",
@@ -443644,7 +443736,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 2 (Pob.), Balingasag."
+      "description": "Barangay patronal fiesta for Barangay 2 (Pob.), Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302022",
@@ -443657,7 +443753,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 3 (Pob.), Balingasag."
+      "description": "Barangay patronal fiesta for Barangay 3 (Pob.), Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302023",
@@ -443670,7 +443770,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 4 (Pob.), Balingasag."
+      "description": "Barangay patronal fiesta for Barangay 4 (Pob.), Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302024",
@@ -443683,7 +443787,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 5 (Pob.), Balingasag."
+      "description": "Barangay patronal fiesta for Barangay 5 (Pob.), Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302025",
@@ -443696,7 +443804,11 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 6 (Pob.), Balingasag."
+      "description": "Barangay patronal fiesta for Barangay 6 (Pob.), Balingasag.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-104302026",
@@ -443709,7 +443821,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Quezon, Balingasag."
+      "description": "Barangay patronal fiesta for Quezon, Balingasag.",
+      "month": 12,
+      "dayStart": 7,
+      "dayEnd": 8,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-104302027",
@@ -443722,7 +443839,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Rosario, Balingasag."
+      "description": "Barangay patronal fiesta for Rosario, Balingasag.",
+      "month": 10,
+      "dayStart": 6,
+      "dayEnd": 7,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Nuestra Senora del Rosario"
     },
     {
       "id": "bgy-104302028",
@@ -443735,7 +443857,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Samay, Balingasag."
+      "description": "Barangay patronal fiesta for Samay, Balingasag.",
+      "month": 12,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Sagrada Pamilya"
     },
     {
       "id": "bgy-104302029",
@@ -443750,9 +443877,10 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro, Balingasag.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 14,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Isidro Labrador",
+      "dayEnd": 15
     },
     {
       "id": "bgy-104302030",
@@ -443766,10 +443894,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Juan, Balingasag.",
-      "month": 6,
-      "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san juan"
+      "month": 11,
+      "dayStart": 15,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "San Francisco Javier"
     },
     {
       "id": "bgy-104302031",
@@ -443782,7 +443910,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Talusan, Balingasag."
+      "description": "Barangay patronal fiesta for Talusan, Balingasag.",
+      "month": 11,
+      "dayStart": 27,
+      "dayEnd": 28,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-104302032",
@@ -443795,7 +443928,12 @@
       "municipalityPsgcPsa": "104302000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Waterfall, Balingasag."
+      "description": "Barangay patronal fiesta for Waterfall, Balingasag.",
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-104303002",
@@ -446100,7 +446238,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308034",
@@ -446113,7 +446256,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 10 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 10 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308035",
@@ -446126,7 +446274,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 11 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 11 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308036",
@@ -446139,7 +446292,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 12 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 12 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308037",
@@ -446152,7 +446310,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 13 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 13 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308038",
@@ -446165,7 +446328,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 14 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 14 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308039",
@@ -446178,7 +446346,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 15 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 15 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308040",
@@ -446191,7 +446364,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 16 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 16 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308041",
@@ -446204,7 +446382,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 17 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 17 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308042",
@@ -446217,7 +446400,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 18-A (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 18-A (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308043",
@@ -446230,7 +446418,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 19 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 19 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308044",
@@ -446243,7 +446436,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 2 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 2 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308045",
@@ -446256,7 +446454,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 20 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 20 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308046",
@@ -446269,7 +446472,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 21 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 21 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308047",
@@ -446282,7 +446490,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 22-A (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 22-A (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308048",
@@ -446295,7 +446508,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 23 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 23 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308049",
@@ -446308,7 +446526,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 24 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 24 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308050",
@@ -446321,7 +446544,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 25 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 25 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308051",
@@ -446334,7 +446562,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 26 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 26 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308055",
@@ -446347,7 +446580,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 3 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 3 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308056",
@@ -446360,7 +446598,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 4 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 4 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308057",
@@ -446373,7 +446616,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 5 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 5 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308058",
@@ -446386,7 +446634,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 6 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 6 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308059",
@@ -446399,7 +446652,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 7 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 7 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 23,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308060",
@@ -446412,7 +446670,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 8 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 8 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308061",
@@ -446425,7 +446688,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 9 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 9 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308062",
@@ -446593,7 +446861,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 18 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 18 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308074",
@@ -446606,7 +446879,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 22 (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 22 (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308075",
@@ -446619,7 +446897,12 @@
       "municipalityPsgcPsa": "104308000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 24-A (Pob.), City Of Gingoog."
+      "description": "Barangay patronal fiesta for Barangay 24-A (Pob.), City Of Gingoog.",
+      "month": 5,
+      "dayStart": 21,
+      "dayEnd": 22,
+      "dateSource": "lgu-misamis-oriental-1st-district-scribd",
+      "patronSaint": "Santa Rita de Casia"
     },
     {
       "id": "bgy-104308076",
@@ -570367,15 +570650,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:38:49.960Z",
+    "appliedAt": "2026-06-14T10:39:14.941Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4275,
-      "fromOverride": 1855,
+      "alreadyHadDate": 4272,
+      "fromOverride": 1917,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35914
+      "stillMissing": 35855
     },
     "lguScheduleStats": {
       "siargao": {
@@ -570528,6 +570811,16 @@
         "matched": 9,
         "missed": 0
       },
+      "gingoogPoblacion": {
+        "entries": 29,
+        "matched": 29,
+        "missed": 0
+      },
+      "balingasag": {
+        "entries": 30,
+        "matched": 30,
+        "missed": 0
+      },
       "kinoguitan": {
         "entries": 15,
         "matched": 15,
@@ -570629,8 +570922,8 @@
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 50,
-        "matched": 50,
+        "entries": 53,
+        "matched": 53,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {

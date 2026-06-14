@@ -143,6 +143,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "97/119 dated: miagao.tripod.com profiles + patron-saint-calendar-profile inference",
   },
   {
+    id: "iloilo-city-curated",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    format: "curated-text",
+    parser: "ILOILO_CITY_FIESTA_ENTRIES",
+    status: "partial",
+    dateSource: "curated-online-iloilo-city-youtube",
+    notes: "29/180 dated: on-day YouTube (Molo Boulevard Jan 31; San Juan Jun 24; San Pedro Molo Jun 29) plus patron-saint name matches",
+  },
+  {
     id: "mulanay-curated",
     municipality: "Mulanay",
     province: "Quezon",

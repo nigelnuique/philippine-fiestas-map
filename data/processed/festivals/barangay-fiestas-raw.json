@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T02:12:57.689Z",
+  "generatedAt": "2026-06-14T03:06:45.120Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -270213,7 +270213,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Molo Boulevard, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Molo Boulevard, City Of Iloilo (Capital).",
+      "month": 1,
+      "dayStart": 31,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022112",
@@ -270742,8 +270745,8 @@
       "description": "Barangay patronal fiesta for San Juan, City Of Iloilo (Capital).",
       "month": 6,
       "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san juan"
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "San Juan Bautista"
     },
     {
       "id": "bgy-063022157",
@@ -270776,8 +270779,8 @@
       "description": "Barangay patronal fiesta for San Pedro (Molo), City Of Iloilo (Capital).",
       "month": 6,
       "dayStart": 29,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san pedro"
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "San Pedro"
     },
     {
       "id": "bgy-063022159",
@@ -567520,15 +567523,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T02:12:57.689Z",
+    "appliedAt": "2026-06-14T03:06:45.120Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4342,
-      "fromOverride": 950,
+      "alreadyHadDate": 4340,
+      "fromOverride": 953,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36752
+      "stillMissing": 36751
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567579,6 +567582,11 @@
       "miagao": {
         "entries": 93,
         "matched": 93,
+        "missed": 0
+      },
+      "iloiloCity": {
+        "entries": 3,
+        "matched": 3,
         "missed": 0
       },
       "tarlac": {

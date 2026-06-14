@@ -14,6 +14,7 @@ import { MACABEBE_FIESTA_ENTRIES } from "./macabebe-text.js";
 import { LUCENA_FIESTA_ENTRIES } from "./lucena-text.js";
 import { MULANAY_FIESTA_ENTRIES } from "./mulanay-text.js";
 import { MIAGAO_FIESTA_ENTRIES, MIAGAO_RELATIVE_FIESTA_SCHEDULE } from "./miagao-text.js";
+import { ILOILO_CITY_FIESTA_ENTRIES } from "./iloilo-city-text.js";
 import { TARLAC_FIESTA_ENTRIES, TARLAC_RELATIVE_FIESTA_SCHEDULE } from "./tarlac-text.js";
 import { ANGONO_FIESTA_ENTRIES, ANGONO_RELATIVE_FIESTA_SCHEDULE } from "./angono-text.js";
 import { BALILIHAN_FIESTA_ENTRIES } from "./balilihan-text.js";
@@ -621,6 +622,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
     })),
     ...buildMiagaoRelativeFiestaEntries(),
   ];
+  const iloiloCityEntries = ILOILO_CITY_FIESTA_ENTRIES.map((e) => ({
+    ...e,
+    dateSource: e.dateSource ?? "curated-online-iloilo-city-youtube",
+  }));
   const tarlacEntries = TARLAC_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "lgu-tarlac-city-gov-ph",
@@ -668,6 +673,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const lucena = resolveScheduleEntries(lucenaEntries);
   const mulanay = resolveScheduleEntries(mulanayEntries);
   const miagao = resolveScheduleEntries(miagaoEntries);
+  const iloiloCity = resolveScheduleEntries(iloiloCityEntries);
   const tarlac = resolveScheduleEntries([...tarlacEntries, ...tarlacRelativeEntries]);
   const angono = resolveScheduleEntries([...angonoEntries, ...angonoRelativeEntries]);
   const balilihan = resolveScheduleEntries(balilihanEntries);
@@ -694,6 +700,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...lucena.byPsgc,
       ...mulanay.byPsgc,
       ...miagao.byPsgc,
+      ...iloiloCity.byPsgc,
       ...tarlac.byPsgc,
       ...angono.byPsgc,
       ...balilihan.byPsgc,
@@ -755,6 +762,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: miagaoEntries.length,
         matched: miagao.matched,
         missed: miagao.missed,
+      },
+      iloiloCity: {
+        entries: iloiloCityEntries.length,
+        matched: iloiloCity.matched,
+        missed: iloiloCity.missed,
       },
       tarlac: {
         entries: tarlacEntries.length + tarlacRelativeEntries.length,

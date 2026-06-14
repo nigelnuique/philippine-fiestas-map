@@ -29,14 +29,20 @@ import { MASANTOL_FIESTA_SCHEDULE } from "./masantol-text.js";
 import { MALOLOS_FIESTA_SCHEDULE } from "./malolos-text.js";
 import {
   ANGAT_PDPFP_FIESTA_SCHEDULE,
+  BALAGTAS_PDPFP_FIESTA_SCHEDULE,
   BULACAN_TOWN_PDPFP_FIESTA_SCHEDULE,
+  BUSTOS_PDPFP_FIESTA_SCHEDULE,
+  CALUMPIT_PDPFP_FIESTA_SCHEDULE,
   GUIGUINTO_PDPFP_FIESTA_SCHEDULE,
   HAGONOY_PDPFP_FIESTA_SCHEDULE,
   MARILAO_PDPFP_FIESTA_SCHEDULE,
   MEYCAUAYAN_PDPFP_FIESTA_SCHEDULE,
+  OBANDO_PDPFP_FIESTA_SCHEDULE,
   PANDI_PDPFP_FIESTA_SCHEDULE,
   PAOMBONG_PDPFP_FIESTA_SCHEDULE,
+  PULILAN_PDPFP_FIESTA_SCHEDULE,
   SAN_ILDEFONSO_BULACAN_PDPFP_FIESTA_SCHEDULE,
+  SAN_RAFAEL_PDPFP_FIESTA_SCHEDULE,
 } from "./bulacan-pdpfp-text.js";
 import {
   EL_SALVADOR_MISOR_FIESTA_SCHEDULE,
@@ -805,6 +811,36 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Bulacan",
     dateSource: "lgu-bulacan-pdpfp-2024",
   });
+  const sanRafaelPdpfpEntries = buildMunicipalDateRows(SAN_RAFAEL_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "San Rafael",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const bustosPdpfpEntries = buildMunicipalDateRows(BUSTOS_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Bustos",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const pulilanPdpfpEntries = buildMunicipalDateRows(PULILAN_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Pulilan",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const calumpitPdpfpEntries = buildMunicipalDateRows(CALUMPIT_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Calumpit",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const obandoPdpfpEntries = buildMunicipalDateRows(OBANDO_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Obando",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const balagtasPdpfpEntries = buildMunicipalDateRows(BALAGTAS_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Balagtas (Bigaa)",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
   const jasaanEntries = buildMunicipalDateRows(JASAAN_FIESTA_SCHEDULE, {
     municipality: "Jasaan",
     province: "Misamis Oriental",
@@ -971,6 +1007,12 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const bulacanTownPdpfp = resolveScheduleEntries(bulacanTownPdpfpEntries);
   const guiguintoPdpfp = resolveScheduleEntries(guiguintoPdpfpEntries);
   const hagonoyPdpfp = resolveScheduleEntries(hagonoyPdpfpEntries);
+  const sanRafaelPdpfp = resolveScheduleEntries(sanRafaelPdpfpEntries);
+  const bustosPdpfp = resolveScheduleEntries(bustosPdpfpEntries);
+  const pulilanPdpfp = resolveScheduleEntries(pulilanPdpfpEntries);
+  const calumpitPdpfp = resolveScheduleEntries(calumpitPdpfpEntries);
+  const obandoPdpfp = resolveScheduleEntries(obandoPdpfpEntries);
+  const balagtasPdpfp = resolveScheduleEntries(balagtasPdpfpEntries);
   const jasaan = resolveScheduleEntries(jasaanEntries);
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
@@ -1056,6 +1098,12 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...bulacanTownPdpfp.byPsgc,
       ...guiguintoPdpfp.byPsgc,
       ...hagonoyPdpfp.byPsgc,
+      ...sanRafaelPdpfp.byPsgc,
+      ...bustosPdpfp.byPsgc,
+      ...pulilanPdpfp.byPsgc,
+      ...calumpitPdpfp.byPsgc,
+      ...obandoPdpfp.byPsgc,
+      ...balagtasPdpfp.byPsgc,
       ...jasaan.byPsgc,
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
@@ -1262,6 +1310,36 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: hagonoyPdpfpEntries.length,
         matched: hagonoyPdpfp.matched,
         missed: hagonoyPdpfp.missed,
+      },
+      sanRafaelPdpfp: {
+        entries: sanRafaelPdpfpEntries.length,
+        matched: sanRafaelPdpfp.matched,
+        missed: sanRafaelPdpfp.missed,
+      },
+      bustosPdpfp: {
+        entries: bustosPdpfpEntries.length,
+        matched: bustosPdpfp.matched,
+        missed: bustosPdpfp.missed,
+      },
+      pulilanPdpfp: {
+        entries: pulilanPdpfpEntries.length,
+        matched: pulilanPdpfp.matched,
+        missed: pulilanPdpfp.missed,
+      },
+      calumpitPdpfp: {
+        entries: calumpitPdpfpEntries.length,
+        matched: calumpitPdpfp.matched,
+        missed: calumpitPdpfp.missed,
+      },
+      obandoPdpfp: {
+        entries: obandoPdpfpEntries.length,
+        matched: obandoPdpfp.matched,
+        missed: obandoPdpfp.missed,
+      },
+      balagtasPdpfp: {
+        entries: balagtasPdpfpEntries.length,
+        matched: balagtasPdpfp.matched,
+        missed: balagtasPdpfp.missed,
       },
       jasaan: {
         entries: jasaanEntries.length,

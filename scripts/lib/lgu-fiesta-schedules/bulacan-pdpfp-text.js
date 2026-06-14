@@ -134,6 +134,63 @@ export const GUIGUINTO_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Poblacion", date: "January 17-23" },
 ];
 
+export const SAN_RAFAEL_PDPFP_FIESTA_SCHEDULE = [
+  { barangay: "BMA-Balagtas", date: "March 8", patronSaint: "St. John of God" },
+  { barangay: "Banca-banca", date: "October 1", patronSaint: "St. Therese" },
+  { barangay: "Caingin", date: "First Monday of May", patronSaint: "Sto. Cristo" },
+  { barangay: "Capihan", date: "October 13", patronSaint: "Birhen ng Fatima" },
+  { barangay: "Cruz na Daan", date: "2nd Friday of June", patronSaint: "Sacred Heart of Jesus" },
+  { barangay: "Dagat-dagatan", date: "August 16", patronSaint: "San Roque" },
+  { barangay: "Diliman I", date: "March 12", patronSaint: "San Jose" },
+  { barangay: "Diliman II", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Libis", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Lico", date: "May 3", patronSaint: "Sto. Cristo" },
+  { barangay: "Maasim", date: "December 8", patronSaint: "Immaculada Concepcion" },
+  { barangay: "Mabalas-balas", date: "3rd Sunday of January", patronSaint: "Sto. Nino" },
+  { barangay: "Maguinao", date: "Last Sunday of January", patronSaint: "Mother of Perpetual Help" },
+  { barangay: "Maronguillo", date: "August 16", patronSaint: "San Roque" },
+  { barangay: "Paco", date: "Last Sunday of April", patronSaint: "San Isidro Labrador" },
+  { barangay: "Pansumaloc", date: "Last Sunday of April", patronSaint: "Miraculous Medal" },
+  { barangay: "Pantubig", date: "January 13", patronSaint: "San Antonio de Padua" },
+  { barangay: "Pasong Bangkal", date: "October 13", patronSaint: "Our Lady of Fatima" },
+  { barangay: "Pasong Callos", date: "September 14", patronSaint: "Sto. Cristo" },
+  { barangay: "Pasong Intsik", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Pinacpinacan", date: "Last Sunday of April", patronSaint: "San Isidro Labrador" },
+  { barangay: "Poblacion", date: "March 8", patronSaint: "San Juan De Dios" },
+  { barangay: "Pulo", date: "October 7", patronSaint: "Birhen ng Sto. Rosario" },
+  { barangay: "Pulong Bayabas", date: "February 11", patronSaint: "Mahal na Birhen ng Lourdes" },
+  { barangay: "Salapungan", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Sampaloc", date: "October 7", patronSaint: "Birhen ng Sto. Rosario" },
+  { barangay: "San Agustin", date: "August 28", patronSaint: "San Agustin" },
+  { barangay: "San Roque", date: "August 16", patronSaint: "San Roque" },
+  { barangay: "Sapang Pahalang", date: "December 8", patronSaint: "Immaculada Concepcion" },
+  { barangay: "Talacsan", date: "October 7", patronSaint: "Birhen ng Sta. Rosario" },
+  { barangay: "Tambubong", date: "March 8", patronSaint: "San Juan de Dios" },
+  { barangay: "Tukod", date: "December 8", patronSaint: "Immaculada Concepcion" },
+  { barangay: "Ulingao", date: "Last Sunday of April", patronSaint: "Sto. Cristo" },
+];
+
+export const BUSTOS_PDPFP_FIESTA_SCHEDULE = [
+  { barangay: "Liciada", date: "April 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Poblacion", date: "3rd Sunday of January", patronSaint: "Sto. Nino" },
+];
+
+export const PULILAN_PDPFP_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+];
+
+export const CALUMPIT_PDPFP_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "June 23", patronSaint: "St. John the Baptist" },
+];
+
+export const OBANDO_PDPFP_FIESTA_SCHEDULE = [
+  { barangay: "Pag-asa", date: "May 17-19", patronSaint: "Obando Fertility Festival" },
+];
+
+export const BALAGTAS_PDPFP_FIESTA_SCHEDULE = [
+  { barangay: "Borol 1st", date: "August 9", patronSaint: "St. Laurence Deacon and Martyr" },
+];
+
 export const HAGONOY_PDPFP_FIESTA_SCHEDULE = [
   { barangay: "Mercado", date: "November 26", patronSaint: "Virgen de los Remedios" },
   { barangay: "Abulalas", date: "February 11", patronSaint: "Our Lady of Lourdes" },

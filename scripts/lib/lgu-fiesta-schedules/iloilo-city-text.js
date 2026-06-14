@@ -213,4 +213,14 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "theoldchurches-san-jose-obrero-fundidor-molo",
     note: "TheOldChurches San Jose Obrero Church, Fundidor, Molo — feast May 10",
   },
+  {
+    barangay: "Lopez Jaena Norte",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 5,
+    dayStart: 24,
+    patronSaint: "Our Lady of Peace and Good Voyage",
+    dateSource: "theoldchurches-our-lady-peace-good-voyage-lopez-jaena-norte",
+    note: "TheOldChurches Our Lady of Peace and Good Voyage Church lists Brgy. Lopez Jaena Norte, La Paz — feast May 24",
+  },
 ];

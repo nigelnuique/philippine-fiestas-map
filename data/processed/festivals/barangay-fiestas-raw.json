@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:52:08.074Z",
+  "generatedAt": "2026-06-14T06:55:16.892Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -270125,7 +270125,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lopez Jaena Norte, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Lopez Jaena Norte, City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-our-lady-peace-good-voyage-lopez-jaena-norte",
+      "patronSaint": "Our Lady of Peace and Good Voyage"
     },
     {
       "id": "bgy-063022096",
@@ -567756,15 +567760,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T06:52:08.074Z",
+    "appliedAt": "2026-06-14T06:55:16.892Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4333,
-      "fromOverride": 1023,
+      "fromOverride": 1024,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36688
+      "stillMissing": 36687
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567818,8 +567822,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 22,
-        "matched": 22,
+        "entries": 23,
+        "matched": 23,
         "missed": 0
       },
       "tarlac": {

@@ -31,6 +31,10 @@ import { CEBU_THEOLDCHURCHES_ENTRIES } from "./cebu-theoldchurches-text.js";
 import { CAPIZ_THEOLDCHURCHES_ENTRIES } from "./capiz-theoldchurches-text.js";
 import { NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES } from "./negros-occidental-theoldchurches-text.js";
 import { AKLAN_THEOLDCHURCHES_ENTRIES } from "./aklan-theoldchurches-text.js";
+import { BOHOL_THEOLDCHURCHES_ENTRIES } from "./bohol-theoldchurches-text.js";
+import { CAMARINES_SUR_THEOLDCHURCHES_ENTRIES } from "./camarines-sur-theoldchurches-text.js";
+import { NEGROS_ORIENTAL_THEOLDCHURCHES_ENTRIES } from "./negros-oriental-theoldchurches-text.js";
+import { SAMAR_THEOLDCHURCHES_ENTRIES } from "./samar-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -678,6 +682,14 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const negrosOccidentalTheoldchurchesEntries =
     NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const aklanTheoldchurchesEntries = AKLAN_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const boholTheoldchurchesEntries = BOHOL_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const camarinesSurTheoldchurchesEntries = CAMARINES_SUR_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
+  const negrosOrientalTheoldchurchesEntries = NEGROS_ORIENTAL_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
+  const samarTheoldchurchesEntries = SAMAR_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -719,6 +731,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
     negrosOccidentalTheoldchurchesEntries
   );
   const aklanTheoldchurches = resolveScheduleEntries(aklanTheoldchurchesEntries);
+  const boholTheoldchurches = resolveScheduleEntries(boholTheoldchurchesEntries);
+  const camarinesSurTheoldchurches = resolveScheduleEntries(camarinesSurTheoldchurchesEntries);
+  const negrosOrientalTheoldchurches = resolveScheduleEntries(negrosOrientalTheoldchurchesEntries);
+  const samarTheoldchurches = resolveScheduleEntries(samarTheoldchurchesEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -758,6 +774,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...capizTheoldchurches.byPsgc,
       ...negrosOccidentalTheoldchurches.byPsgc,
       ...aklanTheoldchurches.byPsgc,
+      ...boholTheoldchurches.byPsgc,
+      ...camarinesSurTheoldchurches.byPsgc,
+      ...negrosOrientalTheoldchurches.byPsgc,
+      ...samarTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -904,6 +924,26 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: aklanTheoldchurchesEntries.length,
         matched: aklanTheoldchurches.matched,
         missed: aklanTheoldchurches.missed,
+      },
+      boholTheoldchurches: {
+        entries: boholTheoldchurchesEntries.length,
+        matched: boholTheoldchurches.matched,
+        missed: boholTheoldchurches.missed,
+      },
+      camarinesSurTheoldchurches: {
+        entries: camarinesSurTheoldchurchesEntries.length,
+        matched: camarinesSurTheoldchurches.matched,
+        missed: camarinesSurTheoldchurches.missed,
+      },
+      negrosOrientalTheoldchurches: {
+        entries: negrosOrientalTheoldchurchesEntries.length,
+        matched: negrosOrientalTheoldchurches.matched,
+        missed: negrosOrientalTheoldchurches.missed,
+      },
+      samarTheoldchurches: {
+        entries: samarTheoldchurchesEntries.length,
+        matched: samarTheoldchurches.matched,
+        missed: samarTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

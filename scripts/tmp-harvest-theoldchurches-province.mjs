@@ -8,16 +8,32 @@
 import fs from "fs";
 
 const PROVINCE_SLUG = process.argv[2] ?? "leyte";
+const PROVINCE_NAME_BY_SLUG = {
+  cebu: "Cebu",
+  capiz: "Capiz",
+  aklan: "Aklan",
+  "negros-occidental": "Negros Occidental",
+  "negros-oriental": "Negros Oriental",
+  leyte: "Leyte",
+  "southern-leyte": "Southern Leyte",
+  iloilo: "Iloilo",
+  bohol: "Bohol",
+  "camarines-sur": "Camarines Sur",
+  "camarines-norte": "Camarines Norte",
+  samar: "Samar",
+  "eastern-samar": "Eastern Samar",
+  "northern-samar": "Northern Samar",
+  antique: "Antique",
+  romblon: "Romblon",
+  biliran: "Biliran",
+  siquijor: "Siquijor",
+  guimaras: "Guimaras",
+};
 const PROVINCE_NAME =
-  PROVINCE_SLUG === "cebu"
-    ? "Cebu"
-    : PROVINCE_SLUG === "capiz"
-      ? "Capiz"
-      : PROVINCE_SLUG === "aklan"
-        ? "Aklan"
-        : PROVINCE_SLUG === "negros-occidental"
-          ? "Negros Occidental"
-          : "Leyte";
+  PROVINCE_NAME_BY_SLUG[PROVINCE_SLUG] ??
+  PROVINCE_SLUG.split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
 
 const MUN_ALIASES = {
   "ormoc-city": "Ormoc City",
@@ -43,6 +59,23 @@ const MUN_ALIASES = {
   "sipalay-city": "City Of Sipalay",
   "talisay-city": "City Of Talisay",
   "victorias-city": "City Of Victorias",
+  "tagbilaran-city": "City Of Tagbilaran (Capital)",
+  "dumaguete-city": "City Of Dumaguete (Capital)",
+  "bayawan-city": "City Of Bayawan",
+  "tanjay-city": "City Of Tanjay",
+  "canlaon-city": "City Of Canlaon",
+  "guihulngan-city": "City Of Guihulngan",
+  "iriga-city": "City Of Iriga",
+  "naga-city-camarines": "City Of Naga",
+  "legazpi-city": "City Of Legazpi (Capital)",
+  "ligao-city": "City Of Ligao",
+  "tabaco-city": "City Of Tabaco",
+  "sorsogon-city": "City Of Sorsogon (Capital)",
+  "catbalogan-city": "City Of Catbalogan (Capital)",
+  "calbayog-city": "City Of Calbayog",
+  "borongan-city": "City Of Borongan (Capital)",
+  "catarman": "Catarman (Capital)",
+  "maasin-city": "City Of Maasin (Capital)",
 };
 
 const raw = JSON.parse(

@@ -11,6 +11,7 @@ import { LEYTE_PARISH_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/leyte-pa
 import { TACLOBAN_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/tacloban-text.js";
 import { ORMOC_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/ormoc-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/dulag-carigara-text.js";
+import { PANGASINAN_PARISH_FIESTA_ENTRIES } from "./lib/lgu-fiesta-schedules/pangasinan-parish-text.js";
 
 const BATCH = process.argv[2] ?? "leyte";
 
@@ -45,17 +46,39 @@ const QUERIES = {
   ],
   pangasinan: [
     ["City Of Dagupan", "Dagupan City Pangasinan"],
-    ["Lingayen", "Lingayen Pangasinan"],
-    ["San Carlos City", "San Carlos City Pangasinan"],
-    ["Urdaneta City", "Urdaneta City Pangasinan"],
-    ["Alaminos City", "Alaminos City Pangasinan"],
+    ["Lingayen (Capital)", "Lingayen Pangasinan"],
+    ["City Of San Carlos", "San Carlos City Pangasinan"],
+    ["City Of San Carlos", "San Carlos Pangasinan"],
+    ["City Of Urdaneta", "Urdaneta City Pangasinan"],
+    ["City Of Alaminos", "Alaminos City Pangasinan"],
     ["Binmaley", "Binmaley Pangasinan"],
     ["Calasiao", "Calasiao Pangasinan"],
     ["Mangaldan", "Mangaldan Pangasinan"],
+    ["Mabini", "Mabini Pangasinan"],
+    ["Sual", "Sual Pangasinan"],
+    ["Bani", "Bani Pangasinan"],
+    ["Aguilar", "Aguilar Pangasinan"],
+    ["Bugallon", "Bugallon Pangasinan"],
+    ["Basista", "Basista Pangasinan"],
+    ["Binalonan", "Binalonan Pangasinan"],
+    ["Malasiqui", "Malasiqui Pangasinan"],
+    ["Santa Barbara", "Santa Barbara Pangasinan"],
+  ],
+  cebu: [
+    ["Pinamungahan", "Pinamungahan Cebu"],
+    ["City Of Naga", "Naga City Cebu"],
+    ["City Of Carcar", "Carcar City Cebu"],
+    ["City Of Toledo", "Toledo City Cebu"],
+    ["Consolacion", "Consolacion Cebu"],
+    ["Liloan", "Liloan Cebu"],
+    ["Compostela", "Compostela Cebu"],
+    ["Minglanilla", "Minglanilla Cebu"],
+    ["Talisay City", "Talisay City Cebu"],
   ],
 };
 
-const provinceFilter = BATCH === "pangasinan" ? "Pangasinan" : "Leyte";
+const provinceFilter =
+  BATCH === "pangasinan" ? "Pangasinan" : BATCH === "cebu" ? "Cebu" : "Leyte";
 
 const existing = new Set(
   [
@@ -64,6 +87,7 @@ const existing = new Set(
     ...ORMOC_FIESTA_ENTRIES,
     ...DULAG_FIESTA_ENTRIES,
     ...CARIGARA_FIESTA_ENTRIES,
+    ...PANGASINAN_PARISH_FIESTA_ENTRIES,
   ].map((e) => `${e.municipality}::${e.barangay}`.toLowerCase())
 );
 
@@ -108,7 +132,7 @@ function headingBarangay(html) {
     .map((m) => m[1].trim())
     .filter((t) => /parish|mission|shrine|station|chapel/i.test(t) && !/search churches/i.test(t));
   for (const h of headings) {
-    const m = h.match(/-\s*([^,]+),\s*([^,]+),\s*(Leyte|Pangasinan)/i);
+    const m = h.match(/-\s*([^,]+),\s*([^,]+),\s*(Leyte|Pangasinan|Cebu)/i);
     if (m) return { barangay: m[1].trim(), municipalityHint: m[2].trim(), province: m[3] };
   }
   return null;

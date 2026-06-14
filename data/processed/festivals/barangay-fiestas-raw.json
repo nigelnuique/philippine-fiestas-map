@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:36:42.608Z",
+  "generatedAt": "2026-06-14T06:40:30.506Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -32971,7 +32971,11 @@
       "municipalityPsgcPsa": "015522000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Naguelguel, Lingayen (Capital)."
+      "description": "Barangay patronal fiesta for Naguelguel, Lingayen (Capital).",
+      "month": 6,
+      "dayStart": 16,
+      "dateSource": "parish-immaculate-heart-naguelguel-lingayen",
+      "patronSaint": "Immaculate Heart of Mary"
     },
     {
       "id": "bgy-015522025",
@@ -33651,7 +33655,11 @@
       "municipalityPsgcPsa": "015524000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Canan Norte, Malasiqui."
+      "description": "Barangay patronal fiesta for Canan Norte, Malasiqui.",
+      "month": 6,
+      "dayStart": 27,
+      "dateSource": "parish-omph-canan-norte-malasiqui",
+      "patronSaint": "Our Mother of Perpetual Help"
     },
     {
       "id": "bgy-015524028",
@@ -37583,7 +37591,11 @@
       "municipalityPsgcPsa": "015532000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aponit, City Of San Carlos."
+      "description": "Barangay patronal fiesta for Aponit, City Of San Carlos.",
+      "month": 10,
+      "dayStart": 22,
+      "dateSource": "parish-john-paul-ii-aponit-san-carlos",
+      "patronSaint": "St. Pope John Paul II"
     },
     {
       "id": "bgy-015532007",
@@ -38090,7 +38102,11 @@
       "municipalityPsgcPsa": "015532000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for MalacañAng, City Of San Carlos."
+      "description": "Barangay patronal fiesta for MalacañAng, City Of San Carlos.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "parish-st-joseph-malacanang-san-carlos",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-015532050",
@@ -40568,7 +40584,11 @@
       "municipalityPsgcPsa": "015538000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Payas, Santa Barbara."
+      "description": "Barangay patronal fiesta for Payas, Santa Barbara.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "parish-st-joseph-worker-payas-santa-barbara-pangasinan",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-015538021",
@@ -567700,15 +567720,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T06:36:42.608Z",
+    "appliedAt": "2026-06-14T06:40:30.506Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4333,
-      "fromOverride": 1008,
+      "fromOverride": 1013,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36703
+      "stillMissing": 36698
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567817,8 +567837,8 @@
         "missed": 0
       },
       "pangasinanParish": {
-        "entries": 5,
-        "matched": 5,
+        "entries": 10,
+        "matched": 10,
         "missed": 0
       },
       "curatedOnline": {

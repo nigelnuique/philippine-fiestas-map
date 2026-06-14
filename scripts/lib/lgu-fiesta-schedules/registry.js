@@ -181,7 +181,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "PANGASINAN_PARISH_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "parish-ph-pangasinan",
-    notes: "ParishPH 1:1 matches: Dagupan Bonuan Gueset (31/31 complete), Binmaley, Calasiao, Mangaldan (2)",
+    notes: "ParishPH 1:1 matches: Dagupan Bonuan Gueset (31/31), Binmaley, Calasiao, Mangaldan (2), Lingayen, Malasiqui, Santa Barbara Pangasinan, San Carlos (2)",
   },
   {
     id: "leyte-parish-ph",

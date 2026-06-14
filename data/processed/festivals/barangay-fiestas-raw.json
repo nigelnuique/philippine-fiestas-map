@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:18:49.539Z",
+  "generatedAt": "2026-06-14T03:29:01.154Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269265,7 +269265,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calaparan, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Calaparan, City Of Iloilo (Capital).",
+      "month": 1,
+      "dayStart": 13,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022032",
@@ -269278,7 +269281,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calumpang, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Calumpang, City Of Iloilo (Capital).",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-063022033",
@@ -567529,15 +567536,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T03:18:49.539Z",
+    "appliedAt": "2026-06-14T03:29:01.154Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4337,
-      "fromOverride": 958,
+      "fromOverride": 960,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36749
+      "stillMissing": 36747
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567591,8 +567598,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 8,
-        "matched": 8,
+        "entries": 10,
+        "matched": 10,
         "missed": 0
       },
       "tarlac": {

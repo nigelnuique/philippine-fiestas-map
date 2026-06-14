@@ -80,4 +80,23 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Happy Fiesta Brgy. San Isidro, Lapaz (May 15, 2018 and 2022)",
   },
+  {
+    barangay: "Calumpang",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 8,
+    dayStart: 16,
+    patronSaint: "San Roque",
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Happy Fiesta Senior San Roque Calumpang Molo (Aug 16 patron; video Aug 19, 2024)",
+  },
+  {
+    barangay: "Calaparan",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 1,
+    dayStart: 13,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Fiesta 2013 Brgy. Calaparan upload (Jan 13, 2013); corroborated by Jan 2012 fiesta queen event",
+  },
 ];

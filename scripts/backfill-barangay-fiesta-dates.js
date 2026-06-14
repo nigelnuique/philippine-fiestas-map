@@ -71,6 +71,7 @@ function isLguManagedDateSource(src) {
     src.startsWith("iloilo-provincial-") ||
     src.startsWith("curated-online") ||
     src.startsWith("theoldchurches-") ||
+    src.startsWith("wikipedia-") ||
     src.startsWith("siquijor-") ||
     src.startsWith("zamboanga-")
   );
@@ -172,6 +173,11 @@ function main() {
       "lgu-angono-brief-profile",
       "lgu-santa-barbara-iloilo-gov-ph",
       "lgu-balilihan-hanopol-parish",
+      "lgu-santa-maria-bulacan-clup",
+      "lgu-lagonoy-dahom",
+      "lgu-san-pascual-mtcas-scribd",
+      "lgu-san-vicente-palawan-clup",
+      "wikipedia-ubay-bohol-barangay-table",
       "lgu-ormoc-cultural-mapping",
       "lgu-quezon-city-brgy-directory",
       "zamboanga-com-community-guide",

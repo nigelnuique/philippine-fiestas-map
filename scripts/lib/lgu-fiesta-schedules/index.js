@@ -20,6 +20,11 @@ import { ANGONO_FIESTA_ENTRIES, ANGONO_RELATIVE_FIESTA_SCHEDULE } from "./angono
 import { BALILIHAN_FIESTA_ENTRIES } from "./balilihan-text.js";
 import { BULA_FIESTA_ENTRIES, BULA_FIESTA_RELATIVE_SCHEDULE } from "./bula-text.js";
 import { OTON_FIESTA_ENTRIES, OTON_FIESTA_RELATIVE_SCHEDULE } from "./oton-text.js";
+import { SANTA_MARIA_BULACAN_FIESTA_SCHEDULE } from "./santa-maria-bulacan-text.js";
+import { LAGONOY_FIESTA_SCHEDULE } from "./lagonoy-text.js";
+import { SAN_PASCUAL_FIESTA_SCHEDULE } from "./san-pascual-text.js";
+import { SAN_VICENTE_PALAWAN_FIESTA_SCHEDULE } from "./san-vicente-palawan-text.js";
+import { UBAY_WIKIPEDIA_FIESTA_SCHEDULE } from "./ubay-wikipedia-text.js";
 import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
 import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
@@ -565,6 +570,33 @@ function buildOtonRelativeFiestaEntries() {
   return entries;
 }
 
+function buildSanPascualFiestaEntries() {
+  return buildMunicipalDateRows(SAN_PASCUAL_FIESTA_SCHEDULE, {
+    municipality: "San Pascual",
+    province: "Batangas",
+    dateSource: "lgu-san-pascual-mtcas-scribd",
+  });
+}
+
+function buildMunicipalDateRows(rows, defaults) {
+  const entries = [];
+  for (const row of rows) {
+    const parsed = parseDateFromRaw(row.date);
+    if (!parsed?.month || !parsed?.dayStart) continue;
+    entries.push({
+      month: parsed.month,
+      dayStart: parsed.dayStart,
+      dayEnd: parsed.dayEnd !== parsed.dayStart ? parsed.dayEnd : undefined,
+      barangay: row.barangay,
+      municipality: row.municipality ?? defaults.municipality,
+      province: row.province ?? defaults.province,
+      dateSource: row.dateSource ?? defaults.dateSource,
+      patronSaint: row.patronSaint,
+    });
+  }
+  return entries;
+}
+
 function buildMiagaoRelativeFiestaEntries() {
   const entries = [];
   for (const row of MIAGAO_RELATIVE_FIESTA_SCHEDULE) {
@@ -663,6 +695,27 @@ export function getLguBarangayFiestaDatesByPsgc() {
     })),
     ...buildOtonRelativeFiestaEntries(),
   ];
+  const santaMariaBulacanEntries = buildMunicipalDateRows(SANTA_MARIA_BULACAN_FIESTA_SCHEDULE, {
+    municipality: "Santa Maria",
+    province: "Bulacan",
+    dateSource: "lgu-santa-maria-bulacan-clup",
+  });
+  const lagonoyEntries = buildMunicipalDateRows(LAGONOY_FIESTA_SCHEDULE, {
+    municipality: "Lagonoy",
+    province: "Camarines Sur",
+    dateSource: "lgu-lagonoy-dahom",
+  });
+  const sanPascualEntries = buildSanPascualFiestaEntries();
+  const sanVicentePalawanEntries = buildMunicipalDateRows(SAN_VICENTE_PALAWAN_FIESTA_SCHEDULE, {
+    municipality: "San Vicente",
+    province: "Palawan",
+    dateSource: "lgu-san-vicente-palawan-clup",
+  });
+  const ubayWikipediaEntries = buildMunicipalDateRows(UBAY_WIKIPEDIA_FIESTA_SCHEDULE, {
+    municipality: "Ubay",
+    province: "Bohol",
+    dateSource: "wikipedia-ubay-bohol-barangay-table",
+  });
   const ormocEntries = ORMOC_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const taclobanEntries = TACLOBAN_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const dulagEntries = DULAG_FIESTA_ENTRIES.map((e) => ({ ...e }));
@@ -728,6 +781,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const balilihan = resolveScheduleEntries(balilihanEntries);
   const bula = resolveScheduleEntries([...bulaEntries, ...bulaRelativeEntries]);
   const oton = resolveScheduleEntries(otonEntries);
+  const santaMariaBulacan = resolveScheduleEntries(santaMariaBulacanEntries);
+  const lagonoy = resolveScheduleEntries(lagonoyEntries);
+  const sanPascual = resolveScheduleEntries(sanPascualEntries);
+  const sanVicentePalawan = resolveScheduleEntries(sanVicentePalawanEntries);
+  const ubayWikipedia = resolveScheduleEntries(ubayWikipediaEntries);
   const ormoc = resolveScheduleEntries(ormocEntries);
   const tacloban = resolveScheduleEntries(taclobanEntries);
   const dulag = resolveScheduleEntries(dulagEntries);
@@ -780,6 +838,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...balilihan.byPsgc,
       ...bula.byPsgc,
       ...oton.byPsgc,
+      ...santaMariaBulacan.byPsgc,
+      ...lagonoy.byPsgc,
+      ...sanPascual.byPsgc,
+      ...sanVicentePalawan.byPsgc,
+      ...ubayWikipedia.byPsgc,
       ...ormoc.byPsgc,
       ...tacloban.byPsgc,
       ...dulag.byPsgc,
@@ -889,6 +952,31 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: otonEntries.length,
         matched: oton.matched,
         missed: oton.missed,
+      },
+      santaMariaBulacan: {
+        entries: santaMariaBulacanEntries.length,
+        matched: santaMariaBulacan.matched,
+        missed: santaMariaBulacan.missed,
+      },
+      lagonoy: {
+        entries: lagonoyEntries.length,
+        matched: lagonoy.matched,
+        missed: lagonoy.missed,
+      },
+      sanPascual: {
+        entries: sanPascualEntries.length,
+        matched: sanPascual.matched,
+        missed: sanPascual.missed,
+      },
+      sanVicentePalawan: {
+        entries: sanVicentePalawanEntries.length,
+        matched: sanVicentePalawan.matched,
+        missed: sanVicentePalawan.missed,
+      },
+      ubayWikipedia: {
+        entries: ubayWikipediaEntries.length,
+        matched: ubayWikipedia.matched,
+        missed: ubayWikipedia.missed,
       },
       ormoc: {
         entries: ormocEntries.length,

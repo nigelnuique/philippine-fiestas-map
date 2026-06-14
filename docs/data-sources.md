@@ -218,6 +218,7 @@ PSGC provides **names and codes**, not feast dates or patron saint names for mos
 | Siquijor Province | Province-wide guide | [siquijor-secrets.com/siquijor-fiestas](https://siquijor-secrets.com/siquijor-fiestas/) |
 | Magallanes, Sorsogon | LGU feast-day table (HTML parser) | [magallanessorsogon.gov.ph](https://magallanessorsogon.gov.ph) → `data/raw/lgu-schedules/magallanes-fiestas.html` |
 | General Mariano Alvarez, Cavite | Official city page | [genmarianoalvarez.gov.ph/barangay-feast](https://genmarianoalvarez.gov.ph/barangay-feast/) |
+| San Pascual, Batangas | Municipal Tourism, Culture & The Arts Section schedule (public mirror) | [scribd.com/document/887672179/Barangay-Fiesta-2](https://www.scribd.com/document/887672179/Barangay-Fiesta-2) |
 
 **Patron-saint calendar**
 

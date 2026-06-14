@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:02:36.737Z",
+  "generatedAt": "2026-06-14T10:11:22.282Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -86102,7 +86102,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagbaguin, Santa Maria."
+      "description": "Barangay patronal fiesta for Bagbaguin, Santa Maria.",
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423002",
@@ -86115,7 +86118,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balasing, Santa Maria."
+      "description": "Barangay patronal fiesta for Balasing, Santa Maria.",
+      "month": 3,
+      "dayStart": 29,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423003",
@@ -86128,7 +86134,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Buenavista, Santa Maria."
+      "description": "Barangay patronal fiesta for Buenavista, Santa Maria.",
+      "month": 2,
+      "dayStart": 8,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423004",
@@ -86141,7 +86150,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulac, Santa Maria."
+      "description": "Barangay patronal fiesta for Bulac, Santa Maria.",
+      "month": 3,
+      "dayStart": 1,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423005",
@@ -86154,7 +86166,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Camangyanan, Santa Maria."
+      "description": "Barangay patronal fiesta for Camangyanan, Santa Maria.",
+      "month": 3,
+      "dayStart": 8,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423006",
@@ -86167,7 +86182,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Catmon, Santa Maria."
+      "description": "Barangay patronal fiesta for Catmon, Santa Maria.",
+      "month": 2,
+      "dayStart": 22,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423007",
@@ -86180,7 +86198,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cay Pombo, Santa Maria."
+      "description": "Barangay patronal fiesta for Cay Pombo, Santa Maria.",
+      "month": 2,
+      "dayStart": 15,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423008",
@@ -86193,7 +86214,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caysio, Santa Maria."
+      "description": "Barangay patronal fiesta for Caysio, Santa Maria.",
+      "month": 3,
+      "dayStart": 14,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423009",
@@ -86206,7 +86230,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guyong, Santa Maria."
+      "description": "Barangay patronal fiesta for Guyong, Santa Maria.",
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423010",
@@ -86219,7 +86246,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lalakhan, Santa Maria."
+      "description": "Barangay patronal fiesta for Lalakhan, Santa Maria.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423011",
@@ -86232,7 +86262,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mag-Asawang Sapa, Santa Maria."
+      "description": "Barangay patronal fiesta for Mag-Asawang Sapa, Santa Maria.",
+      "month": 4,
+      "dayStart": 15,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423013",
@@ -86245,7 +86278,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mahabang Parang, Santa Maria."
+      "description": "Barangay patronal fiesta for Mahabang Parang, Santa Maria.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423014",
@@ -86258,7 +86294,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Manggahan, Santa Maria."
+      "description": "Barangay patronal fiesta for Manggahan, Santa Maria.",
+      "month": 5,
+      "dayStart": 11,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423015",
@@ -86271,7 +86310,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Parada, Santa Maria."
+      "description": "Barangay patronal fiesta for Parada, Santa Maria.",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423016",
@@ -86284,7 +86326,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Santa Maria."
+      "description": "Barangay patronal fiesta for Poblacion, Santa Maria.",
+      "month": 2,
+      "dayStart": 5,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423017",
@@ -86297,7 +86342,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pulong Buhangin, Santa Maria."
+      "description": "Barangay patronal fiesta for Pulong Buhangin, Santa Maria.",
+      "month": 2,
+      "dayStart": 8,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423018",
@@ -86312,9 +86360,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Gabriel, Santa Maria.",
       "month": 3,
-      "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san gabriel"
+      "dayStart": 14,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423019",
@@ -86329,9 +86376,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Jose Patag, Santa Maria.",
       "month": 3,
-      "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "dayStart": 8,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423020",
@@ -86345,10 +86391,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente, Santa Maria.",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423021",
@@ -86364,8 +86409,7 @@
       "description": "Barangay patronal fiesta for Santa Clara, Santa Maria.",
       "month": 8,
       "dayStart": 11,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa clara"
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423022",
@@ -86381,8 +86425,7 @@
       "description": "Barangay patronal fiesta for Santa Cruz, Santa Maria.",
       "month": 5,
       "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423023",
@@ -86395,7 +86438,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Silangan, Santa Maria."
+      "description": "Barangay patronal fiesta for Silangan, Santa Maria.",
+      "month": 1,
+      "dayStart": 9,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423024",
@@ -86408,7 +86454,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabing Bakod, Santa Maria."
+      "description": "Barangay patronal fiesta for Tabing Bakod, Santa Maria.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031423025",
@@ -86421,7 +86470,10 @@
       "municipalityPsgcPsa": "031423000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tumana, Santa Maria."
+      "description": "Barangay patronal fiesta for Tumana, Santa Maria.",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-santa-maria-bulacan-clup"
     },
     {
       "id": "bgy-031424001",
@@ -130217,7 +130269,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alalum, San Pascual."
+      "description": "Barangay patronal fiesta for Alalum, San Pascual.",
+      "month": 5,
+      "dayStart": 31,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026002",
@@ -130230,7 +130285,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Antipolo, San Pascual."
+      "description": "Barangay patronal fiesta for Antipolo, San Pascual.",
+      "month": 5,
+      "dayStart": 9,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026003",
@@ -130243,7 +130301,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balimbing, San Pascual."
+      "description": "Barangay patronal fiesta for Balimbing, San Pascual.",
+      "month": 6,
+      "dayStart": 1,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026004",
@@ -130256,7 +130317,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banaba, San Pascual."
+      "description": "Barangay patronal fiesta for Banaba, San Pascual.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026005",
@@ -130269,7 +130333,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bayanan, San Pascual."
+      "description": "Barangay patronal fiesta for Bayanan, San Pascual.",
+      "month": 7,
+      "dayStart": 22,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026006",
@@ -130282,7 +130349,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Danglayan, San Pascual."
+      "description": "Barangay patronal fiesta for Danglayan, San Pascual.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026007",
@@ -130295,7 +130365,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Del Pilar, San Pascual."
+      "description": "Barangay patronal fiesta for Del Pilar, San Pascual.",
+      "month": 10,
+      "dayStart": 12,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026008",
@@ -130308,7 +130381,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gelerang Kawayan, San Pascual."
+      "description": "Barangay patronal fiesta for Gelerang Kawayan, San Pascual.",
+      "month": 5,
+      "dayStart": 30,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026009",
@@ -130321,7 +130397,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ilat North, San Pascual."
+      "description": "Barangay patronal fiesta for Ilat North, San Pascual.",
+      "month": 6,
+      "dayStart": 7,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026010",
@@ -130334,7 +130413,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ilat South, San Pascual."
+      "description": "Barangay patronal fiesta for Ilat South, San Pascual.",
+      "month": 6,
+      "dayStart": 11,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026011",
@@ -130347,7 +130429,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kaingin, San Pascual."
+      "description": "Barangay patronal fiesta for Kaingin, San Pascual.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026012",
@@ -130360,7 +130445,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Laurel, San Pascual."
+      "description": "Barangay patronal fiesta for Laurel, San Pascual.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026013",
@@ -130373,7 +130461,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malaking Pook, San Pascual."
+      "description": "Barangay patronal fiesta for Malaking Pook, San Pascual.",
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026014",
@@ -130386,7 +130477,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mataas Na Lupa, San Pascual."
+      "description": "Barangay patronal fiesta for Mataas Na Lupa, San Pascual.",
+      "month": 6,
+      "dayStart": 12,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026015",
@@ -130399,7 +130493,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Natunuan North, San Pascual."
+      "description": "Barangay patronal fiesta for Natunuan North, San Pascual.",
+      "month": 12,
+      "dayStart": 29,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026016",
@@ -130412,7 +130509,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Natunuan South, San Pascual."
+      "description": "Barangay patronal fiesta for Natunuan South, San Pascual.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026017",
@@ -130425,7 +130525,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Padre Castillo, San Pascual."
+      "description": "Barangay patronal fiesta for Padre Castillo, San Pascual.",
+      "month": 6,
+      "dayStart": 2,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026018",
@@ -130438,7 +130541,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Palsahingin, San Pascual."
+      "description": "Barangay patronal fiesta for Palsahingin, San Pascual.",
+      "month": 12,
+      "dayStart": 29,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026019",
@@ -130451,7 +130557,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pila, San Pascual."
+      "description": "Barangay patronal fiesta for Pila, San Pascual.",
+      "month": 12,
+      "dayStart": 30,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026020",
@@ -130464,7 +130573,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, San Pascual."
+      "description": "Barangay patronal fiesta for Poblacion, San Pascual.",
+      "month": 5,
+      "dayStart": 17,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026021",
@@ -130477,7 +130589,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pook Ni Banal, San Pascual."
+      "description": "Barangay patronal fiesta for Pook Ni Banal, San Pascual.",
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026022",
@@ -130490,7 +130605,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pook Ni Kapitan, San Pascual."
+      "description": "Barangay patronal fiesta for Pook Ni Kapitan, San Pascual.",
+      "month": 6,
+      "dayStart": 4,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026023",
@@ -130503,7 +130621,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Resplandor, San Pascual."
+      "description": "Barangay patronal fiesta for Resplandor, San Pascual.",
+      "month": 5,
+      "dayStart": 21,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026024",
@@ -130516,7 +130637,10 @@
       "municipalityPsgcPsa": "041026000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sambat, San Pascual."
+      "description": "Barangay patronal fiesta for Sambat, San Pascual.",
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026025",
@@ -130532,8 +130656,7 @@
       "description": "Barangay patronal fiesta for San Antonio, San Pascual.",
       "month": 6,
       "dayStart": 13,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san antonio"
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026026",
@@ -130547,10 +130670,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Mariano, San Pascual.",
-      "month": 8,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san mariano"
+      "month": 5,
+      "dayStart": 31,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026027",
@@ -130566,8 +130688,7 @@
       "description": "Barangay patronal fiesta for San Mateo, San Pascual.",
       "month": 9,
       "dayStart": 21,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san mateo"
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026028",
@@ -130582,9 +130703,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Elena, San Pascual.",
       "month": 5,
-      "dayStart": 21,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa elena"
+      "dayStart": 4,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041026029",
@@ -130599,10 +130719,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo NiñO, San Pascual.",
       "month": 1,
-      "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "dayStart": 17,
+      "dateSource": "lgu-san-pascual-mtcas-scribd"
     },
     {
       "id": "bgy-041027001",
@@ -189341,7 +189459,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alimanguan, San Vicente."
+      "description": "Barangay patronal fiesta for Alimanguan, San Vicente.",
+      "month": 10,
+      "dayStart": 22,
+      "dayEnd": 23,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Rafael"
     },
     {
       "id": "bgy-175319002",
@@ -189354,7 +189477,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binga, San Vicente."
+      "description": "Barangay patronal fiesta for Binga, San Vicente.",
+      "month": 12,
+      "dayStart": 24,
+      "dayEnd": 25,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Esteban"
     },
     {
       "id": "bgy-175319003",
@@ -189367,7 +189495,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caruray, San Vicente."
+      "description": "Barangay patronal fiesta for Caruray, San Vicente.",
+      "month": 5,
+      "dayStart": 11,
+      "dayEnd": 13,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Isidore Labrador"
     },
     {
       "id": "bgy-175319004",
@@ -189380,7 +189513,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kemdeng, San Vicente."
+      "description": "Barangay patronal fiesta for Kemdeng, San Vicente.",
+      "month": 12,
+      "dayStart": 7,
+      "dayEnd": 8,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "Immaculate Concepcion"
     },
     {
       "id": "bgy-175319005",
@@ -189393,7 +189531,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for New Agutaya, San Vicente."
+      "description": "Barangay patronal fiesta for New Agutaya, San Vicente.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Isidore Labrador"
     },
     {
       "id": "bgy-175319006",
@@ -189406,7 +189549,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for New Canipo, San Vicente."
+      "description": "Barangay patronal fiesta for New Canipo, San Vicente.",
+      "month": 3,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "Thanksgiving"
     },
     {
       "id": "bgy-175319007",
@@ -189419,7 +189567,12 @@
       "municipalityPsgcPsa": "175319000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Port Barton, San Vicente."
+      "description": "Barangay patronal fiesta for Port Barton, San Vicente.",
+      "month": 5,
+      "dayStart": 13,
+      "dayEnd": 14,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Isidore Labrador"
     },
     {
       "id": "bgy-175319008",
@@ -189433,10 +189586,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Poblacion (San Vicente), San Vicente.",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 1,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Vincent Ferrer",
+      "dayEnd": 5
     },
     {
       "id": "bgy-175319009",
@@ -189451,9 +189605,10 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro, San Vicente.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 9,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "St. Isidore Labrador",
+      "dayEnd": 10
     },
     {
       "id": "bgy-175319010",
@@ -189467,11 +189622,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo NiñO, San Vicente.",
-      "month": 1,
-      "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "month": 5,
+      "dayStart": 2,
+      "dayEnd": 3,
+      "dateSource": "lgu-san-vicente-palawan-clup",
+      "patronSaint": "Foundation / Thanksgiving"
     },
     {
       "id": "bgy-175320001",
@@ -213242,7 +213397,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Agosais, Lagonoy."
+      "description": "Barangay patronal fiesta for Agosais, Lagonoy.",
+      "month": 5,
+      "dayStart": 26,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717002",
@@ -213255,7 +213413,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Agpo-Camagong-Tabog, Lagonoy."
+      "description": "Barangay patronal fiesta for Agpo-Camagong-Tabog, Lagonoy.",
+      "month": 5,
+      "dayStart": 17,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717003",
@@ -213268,7 +213429,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Amoguis, Lagonoy."
+      "description": "Barangay patronal fiesta for Amoguis, Lagonoy.",
+      "month": 5,
+      "dayStart": 29,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717004",
@@ -213281,7 +213445,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bocogan, Lagonoy."
+      "description": "Barangay patronal fiesta for Bocogan, Lagonoy.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717005",
@@ -213294,7 +213461,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balaton, Lagonoy."
+      "description": "Barangay patronal fiesta for Balaton, Lagonoy.",
+      "month": 5,
+      "dayStart": 19,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717006",
@@ -213307,7 +213477,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binanuahan, Lagonoy."
+      "description": "Barangay patronal fiesta for Binanuahan, Lagonoy.",
+      "month": 5,
+      "dayStart": 9,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717007",
@@ -213320,7 +213493,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Burabod, Lagonoy."
+      "description": "Barangay patronal fiesta for Burabod, Lagonoy.",
+      "month": 7,
+      "dayStart": 3,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717008",
@@ -213333,7 +213509,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabotonan, Lagonoy."
+      "description": "Barangay patronal fiesta for Cabotonan, Lagonoy.",
+      "month": 5,
+      "dayStart": 29,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717009",
@@ -213346,7 +213525,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dahat, Lagonoy."
+      "description": "Barangay patronal fiesta for Dahat, Lagonoy.",
+      "month": 5,
+      "dayStart": 21,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717010",
@@ -213359,7 +213541,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Del Carmen, Lagonoy."
+      "description": "Barangay patronal fiesta for Del Carmen, Lagonoy.",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717011",
@@ -213372,7 +213557,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ginorangan (Genorangan), Lagonoy."
+      "description": "Barangay patronal fiesta for Ginorangan (Genorangan), Lagonoy.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717012",
@@ -213385,7 +213573,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gimagtocon, Lagonoy."
+      "description": "Barangay patronal fiesta for Gimagtocon, Lagonoy.",
+      "month": 4,
+      "dayStart": 22,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717013",
@@ -213398,7 +213589,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gubat, Lagonoy."
+      "description": "Barangay patronal fiesta for Gubat, Lagonoy.",
+      "month": 6,
+      "dayStart": 15,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717014",
@@ -213411,7 +213605,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guibahoy, Lagonoy."
+      "description": "Barangay patronal fiesta for Guibahoy, Lagonoy.",
+      "month": 6,
+      "dayStart": 1,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717015",
@@ -213424,7 +213621,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Himanag, Lagonoy."
+      "description": "Barangay patronal fiesta for Himanag, Lagonoy.",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717016",
@@ -213437,7 +213637,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kinahologan, Lagonoy."
+      "description": "Barangay patronal fiesta for Kinahologan, Lagonoy.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717017",
@@ -213450,7 +213653,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Loho, Lagonoy."
+      "description": "Barangay patronal fiesta for Loho, Lagonoy.",
+      "month": 6,
+      "dayStart": 16,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717018",
@@ -213463,7 +213669,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Manamoc, Lagonoy."
+      "description": "Barangay patronal fiesta for Manamoc, Lagonoy.",
+      "month": 6,
+      "dayStart": 14,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717019",
@@ -213476,7 +213685,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mangogon, Lagonoy."
+      "description": "Barangay patronal fiesta for Mangogon, Lagonoy.",
+      "month": 8,
+      "dayStart": 10,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717020",
@@ -213489,7 +213701,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mapid, Lagonoy."
+      "description": "Barangay patronal fiesta for Mapid, Lagonoy.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717021",
@@ -213502,7 +213717,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Olas, Lagonoy."
+      "description": "Barangay patronal fiesta for Olas, Lagonoy.",
+      "month": 5,
+      "dayStart": 5,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717022",
@@ -213531,7 +213749,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Panagan, Lagonoy."
+      "description": "Barangay patronal fiesta for Panagan, Lagonoy.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717024",
@@ -213544,7 +213765,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Panicuan, Lagonoy."
+      "description": "Barangay patronal fiesta for Panicuan, Lagonoy.",
+      "month": 6,
+      "dayStart": 8,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717025",
@@ -213557,7 +213781,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pinamihagan, Lagonoy."
+      "description": "Barangay patronal fiesta for Pinamihagan, Lagonoy.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717026",
@@ -213571,10 +213798,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Francisco (Pob.), Lagonoy.",
-      "month": 10,
-      "dayStart": 4,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san francisco"
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717027",
@@ -213589,9 +213815,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro, Lagonoy.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 16,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717028",
@@ -213606,9 +213831,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro Sur (Pob.), Lagonoy.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 1,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717029",
@@ -213623,9 +213847,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro Norte (Pob.), Lagonoy.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 1,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717030",
@@ -213641,8 +213864,7 @@
       "description": "Barangay patronal fiesta for San Rafael, Lagonoy.",
       "month": 10,
       "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san rafael"
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717031",
@@ -213658,8 +213880,7 @@
       "description": "Barangay patronal fiesta for San Ramon, Lagonoy.",
       "month": 8,
       "dayStart": 31,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san ramon"
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717032",
@@ -213675,8 +213896,7 @@
       "description": "Barangay patronal fiesta for San Roque, Lagonoy.",
       "month": 8,
       "dayStart": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san roque"
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717033",
@@ -213690,10 +213910,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Sebastian, Lagonoy.",
-      "month": 1,
-      "dayStart": 20,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san sebastian"
+      "month": 5,
+      "dayStart": 23,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717034",
@@ -213707,10 +213926,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente (Pob.), Lagonoy.",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717035",
@@ -213725,9 +213943,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Cruz (Pob.), Lagonoy.",
       "month": 5,
-      "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dayStart": 10,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717036",
@@ -213741,10 +213958,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Maria (Pob.), Lagonoy.",
-      "month": 1,
+      "month": 5,
       "dayStart": 1,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa maria"
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717037",
@@ -213757,7 +213973,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Saripongpong (Pob.), Lagonoy."
+      "description": "Barangay patronal fiesta for Saripongpong (Pob.), Lagonoy.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051717038",
@@ -213770,7 +213989,10 @@
       "municipalityPsgcPsa": "051717000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sipaco, Lagonoy."
+      "description": "Barangay patronal fiesta for Sipaco, Lagonoy.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-lagonoy-dahom"
     },
     {
       "id": "bgy-051718001",
@@ -310300,7 +310522,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Achila, Ubay."
+      "description": "Barangay patronal fiesta for Achila, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246002",
@@ -310313,7 +310538,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bay-Ang, Ubay."
+      "description": "Barangay patronal fiesta for Bay-Ang, Ubay.",
+      "month": 5,
+      "dayStart": 21,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246004",
@@ -310342,7 +310570,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Benliw, Ubay."
+      "description": "Barangay patronal fiesta for Benliw, Ubay.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246007",
@@ -310355,7 +310586,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bongbong, Ubay."
+      "description": "Barangay patronal fiesta for Bongbong, Ubay.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246008",
@@ -310368,7 +310602,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bood, Ubay."
+      "description": "Barangay patronal fiesta for Bood, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246009",
@@ -310381,7 +310618,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Buenavista, Ubay."
+      "description": "Barangay patronal fiesta for Buenavista, Ubay.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246011",
@@ -310394,7 +310634,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cagting, Ubay."
+      "description": "Barangay patronal fiesta for Cagting, Ubay.",
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246012",
@@ -310407,7 +310650,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Camali-An, Ubay."
+      "description": "Barangay patronal fiesta for Camali-An, Ubay.",
+      "month": 11,
+      "dayStart": 26,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246013",
@@ -310436,7 +310682,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Casate, Ubay."
+      "description": "Barangay patronal fiesta for Casate, Ubay.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246016",
@@ -310449,7 +310698,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Katarungan, Ubay."
+      "description": "Barangay patronal fiesta for Katarungan, Ubay.",
+      "month": 5,
+      "dayStart": 30,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246017",
@@ -310462,7 +310714,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cuya, Ubay."
+      "description": "Barangay patronal fiesta for Cuya, Ubay.",
+      "month": 2,
+      "dayStart": 6,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246018",
@@ -310475,7 +310730,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Fatima, Ubay."
+      "description": "Barangay patronal fiesta for Fatima, Ubay.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246019",
@@ -310488,7 +310746,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gabi, Ubay."
+      "description": "Barangay patronal fiesta for Gabi, Ubay.",
+      "month": 12,
+      "dayStart": 9,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246020",
@@ -310501,7 +310762,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Governor Boyles, Ubay."
+      "description": "Barangay patronal fiesta for Governor Boyles, Ubay.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246021",
@@ -310514,7 +310778,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guintabo-An, Ubay."
+      "description": "Barangay patronal fiesta for Guintabo-An, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246022",
@@ -310527,7 +310794,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Hambabauran, Ubay."
+      "description": "Barangay patronal fiesta for Hambabauran, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246023",
@@ -310540,7 +310810,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Humayhumay, Ubay."
+      "description": "Barangay patronal fiesta for Humayhumay, Ubay.",
+      "month": 2,
+      "dayStart": 14,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246024",
@@ -310553,7 +310826,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ilihan, Ubay."
+      "description": "Barangay patronal fiesta for Ilihan, Ubay.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246025",
@@ -310566,7 +310842,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Imelda, Ubay."
+      "description": "Barangay patronal fiesta for Imelda, Ubay.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246026",
@@ -310579,7 +310858,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Juagdan, Ubay."
+      "description": "Barangay patronal fiesta for Juagdan, Ubay.",
+      "month": 5,
+      "dayStart": 23,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246027",
@@ -310592,7 +310874,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calanggaman, Ubay."
+      "description": "Barangay patronal fiesta for Calanggaman, Ubay.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246030",
@@ -310605,7 +310890,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Los Angeles, Ubay."
+      "description": "Barangay patronal fiesta for Los Angeles, Ubay.",
+      "month": 4,
+      "dayStart": 27,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246031",
@@ -310618,7 +310906,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lomangog, Ubay."
+      "description": "Barangay patronal fiesta for Lomangog, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246032",
@@ -310631,7 +310922,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pag-Asa, Ubay."
+      "description": "Barangay patronal fiesta for Pag-Asa, Ubay.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246033",
@@ -310644,7 +310938,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pangpang, Ubay."
+      "description": "Barangay patronal fiesta for Pangpang, Ubay.",
+      "month": 12,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246034",
@@ -310657,7 +310954,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Ubay."
+      "description": "Barangay patronal fiesta for Poblacion, Ubay.",
+      "month": 1,
+      "dayStart": 30,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246037",
@@ -310671,10 +310971,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Francisco, Ubay.",
-      "month": 10,
-      "dayStart": 4,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san francisco"
+      "month": 6,
+      "dayStart": 26,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246038",
@@ -310689,9 +310988,8 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro, Ubay.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 21,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246040",
@@ -310705,10 +311003,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Pascual, Ubay.",
-      "month": 5,
-      "dayStart": 17,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san pascual"
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246041",
@@ -310722,10 +311019,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente, Ubay.",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246043",
@@ -310738,7 +311034,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sentinila, Ubay."
+      "description": "Barangay patronal fiesta for Sentinila, Ubay.",
+      "month": 5,
+      "dayStart": 29,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246044",
@@ -310751,7 +311050,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sinandigan, Ubay."
+      "description": "Barangay patronal fiesta for Sinandigan, Ubay.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246045",
@@ -310764,7 +311066,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tapal, Ubay."
+      "description": "Barangay patronal fiesta for Tapal, Ubay.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246046",
@@ -310777,7 +311082,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tapon, Ubay."
+      "description": "Barangay patronal fiesta for Tapon, Ubay.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246047",
@@ -310790,7 +311098,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tintinan, Ubay."
+      "description": "Barangay patronal fiesta for Tintinan, Ubay.",
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246048",
@@ -310803,7 +311114,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tipolo, Ubay."
+      "description": "Barangay patronal fiesta for Tipolo, Ubay.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246049",
@@ -310816,7 +311130,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tubog, Ubay."
+      "description": "Barangay patronal fiesta for Tubog, Ubay.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246050",
@@ -310829,7 +311146,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tuboran, Ubay."
+      "description": "Barangay patronal fiesta for Tuboran, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246052",
@@ -310842,7 +311162,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Union, Ubay."
+      "description": "Barangay patronal fiesta for Union, Ubay.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246054",
@@ -310855,7 +311178,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Villa Teresita, Ubay."
+      "description": "Barangay patronal fiesta for Villa Teresita, Ubay.",
+      "month": 11,
+      "dayStart": 28,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246055",
@@ -310868,7 +311194,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulilis, Ubay."
+      "description": "Barangay patronal fiesta for Bulilis, Ubay.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071246056",
@@ -310881,7 +311210,10 @@
       "municipalityPsgcPsa": "071246000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for California, Ubay."
+      "description": "Barangay patronal fiesta for California, Ubay.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "wikipedia-ubay-bohol-barangay-table"
     },
     {
       "id": "bgy-071247001",
@@ -569272,15 +569604,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:02:36.737Z",
+    "appliedAt": "2026-06-14T10:11:22.282Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4331,
-      "fromOverride": 1501,
+      "alreadyHadDate": 4303,
+      "fromOverride": 1643,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36212
+      "stillMissing": 36098
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569361,6 +569693,31 @@
       "oton": {
         "entries": 34,
         "matched": 34,
+        "missed": 0
+      },
+      "santaMariaBulacan": {
+        "entries": 24,
+        "matched": 24,
+        "missed": 0
+      },
+      "lagonoy": {
+        "entries": 38,
+        "matched": 38,
+        "missed": 0
+      },
+      "sanPascual": {
+        "entries": 29,
+        "matched": 29,
+        "missed": 0
+      },
+      "sanVicentePalawan": {
+        "entries": 10,
+        "matched": 10,
+        "missed": 0
+      },
+      "ubayWikipedia": {
+        "entries": 44,
+        "matched": 44,
         "missed": 0
       },
       "ormoc": {
@@ -569590,6 +569947,11 @@
       "lgu-angono-brief-profile",
       "lgu-santa-barbara-iloilo-gov-ph",
       "lgu-balilihan-hanopol-parish",
+      "lgu-santa-maria-bulacan-clup",
+      "lgu-lagonoy-dahom",
+      "lgu-san-pascual-mtcas-scribd",
+      "lgu-san-vicente-palawan-clup",
+      "wikipedia-ubay-bohol-barangay-table",
       "lgu-ormoc-cultural-mapping",
       "lgu-quezon-city-brgy-directory",
       "zamboanga-com-community-guide",

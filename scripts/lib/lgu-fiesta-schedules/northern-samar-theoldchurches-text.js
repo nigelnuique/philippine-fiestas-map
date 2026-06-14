@@ -78,4 +78,14 @@ export const NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-i-silvino-lobos",
     note: "TheOldChurches St. Isidore the Farmer Mission Center in Silvino Lobos — feast June 16; Silvino Lobos, Northern Samar 6414",
   },
+  {
+    barangay: "Barangay 1 (Pob.)",
+    municipality: "Catubig",
+    province: "Northern Samar",
+    month: 7,
+    dayStart: 19,
+    patronSaint: "St. Joseph",
+    dateSource: "theoldchurches-st-joseph-catubig-barangay-1-pob",
+    note: "TheOldChurches St. Joseph Church in Catubig, Northern Samar — feast July 19; Catubig, Northern Samar 6418",
+  },
 ];

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:06:06.355Z",
+  "generatedAt": "2026-06-14T13:18:47.738Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -310190,7 +310190,11 @@
       "municipalityPsgcPsa": "071241000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, Sikatuna."
+      "description": "Barangay patronal fiesta for Poblacion I, Sikatuna.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-st-anthony-sikatuna-poblacion-i",
+      "patronSaint": "St. Anthony of Padua"
     },
     {
       "id": "bgy-071241010",
@@ -339503,7 +339507,11 @@
       "municipalityPsgcPsa": "082603000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, Balangkayan."
+      "description": "Barangay patronal fiesta for Poblacion I, Balangkayan.",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-san-bonaventura-balangkayan-poblacion-i",
+      "patronSaint": "San Bonaventura"
     },
     {
       "id": "bgy-082603016",
@@ -341016,7 +341024,11 @@
       "municipalityPsgcPsa": "082606000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Dolores."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Dolores.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-st-joachim-dolores-barangay-1-pob",
+      "patronSaint": "St. Joachim"
     },
     {
       "id": "bgy-082606023",
@@ -341798,7 +341810,11 @@
       "municipalityPsgcPsa": "082608000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Giporlos."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Giporlos.",
+      "month": 12,
+      "dayStart": 5,
+      "dateSource": "theoldchurches-our-lady-of-remedies-giporlos-barangay-1-pob",
+      "patronSaint": "Our Lady of Remedies"
     },
     {
       "id": "bgy-082608002",
@@ -345493,7 +345509,11 @@
       "municipalityPsgcPsa": "082619000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Salcedo."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Salcedo.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-st-isidore-salcedo-barangay-1-pob",
+      "patronSaint": "St. Isidore the Farmer"
     },
     {
       "id": "bgy-082619007",
@@ -351559,7 +351579,11 @@
       "municipalityPsgcPsa": "083710000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion District I, Burauen."
+      "description": "Barangay patronal fiesta for Poblacion District I, Burauen.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-immaculate-conception-burauen-poblacion-district-i",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-083710019",
@@ -356404,7 +356428,11 @@
       "municipalityPsgcPsa": "083720000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion 1, Hindang."
+      "description": "Barangay patronal fiesta for Poblacion 1, Hindang.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-st-michael-hindang-poblacion-1",
+      "patronSaint": "St. Michael the Archangel"
     },
     {
       "id": "bgy-083720018",
@@ -358260,7 +358288,11 @@
       "municipalityPsgcPsa": "083725000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion District I, Julita."
+      "description": "Barangay patronal fiesta for Poblacion District I, Julita.",
+      "month": 8,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-st-roch-julita-poblacion-district-i",
+      "patronSaint": "St. Roch"
     },
     {
       "id": "bgy-083725019",
@@ -361235,7 +361267,11 @@
       "municipalityPsgcPsa": "083735000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Zone 1, Mayorga."
+      "description": "Barangay patronal fiesta for Poblacion Zone 1, Mayorga.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-st-anthony-mayorga-poblacion-zone-1",
+      "patronSaint": "St. Anthony of Padua"
     },
     {
       "id": "bgy-083735010",
@@ -365816,7 +365852,11 @@
       "municipalityPsgcPsa": "083746000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for District I Pob. (Quezon), Tabontabon."
+      "description": "Barangay patronal fiesta for District I Pob. (Quezon), Tabontabon.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-st-anthony-tabontabon-district-i-pob",
+      "patronSaint": "St. Anthony of Padua"
     },
     {
       "id": "bgy-083746014",
@@ -371352,7 +371392,11 @@
       "municipalityPsgcPsa": "084806000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Catubig."
+      "description": "Barangay patronal fiesta for Barangay 1 (Pob.), Catubig.",
+      "month": 7,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-st-joseph-catubig-barangay-1-pob",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-084806046",
@@ -572431,15 +572475,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T13:06:06.355Z",
+    "appliedAt": "2026-06-14T13:18:47.738Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2420,
+      "fromOverride": 2431,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35429
+      "stillMissing": 35418
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572808,8 +572852,8 @@
         "missed": 0
       },
       "leyteTheoldchurches": {
-        "entries": 24,
-        "matched": 24,
+        "entries": 29,
+        "matched": 29,
         "missed": 0
       },
       "cebuTheoldchurches": {
@@ -572833,8 +572877,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 62,
-        "matched": 62,
+        "entries": 63,
+        "matched": 63,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
@@ -572853,13 +572897,13 @@
         "missed": 0
       },
       "easternSamarTheoldchurches": {
-        "entries": 15,
-        "matched": 15,
+        "entries": 19,
+        "matched": 19,
         "missed": 0
       },
       "northernSamarTheoldchurches": {
-        "entries": 8,
-        "matched": 8,
+        "entries": 9,
+        "matched": 9,
         "missed": 0
       },
       "southernLeyteTheoldchurches": {

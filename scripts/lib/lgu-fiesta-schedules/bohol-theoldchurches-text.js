@@ -570,4 +570,14 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-immaculate-conception-church-in-sierra-bullones-bohol",
     note: "TheOldChurches Immaculate Conception Church in Sierra Bullones, Bohol — feast December 8; Sierra Bullones, Bohol",
   },
+  {
+    barangay: "Poblacion I",
+    municipality: "Sikatuna",
+    province: "Bohol",
+    month: 6,
+    dayStart: 13,
+    patronSaint: "St. Anthony of Padua",
+    dateSource: "theoldchurches-st-anthony-sikatuna-poblacion-i",
+    note: "TheOldChurches St. Anthony of Padua Church in Sikatuna, Bohol — feast June 13; Sikatuna, Bohol 6338",
+  },
 ];

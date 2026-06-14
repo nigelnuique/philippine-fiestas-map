@@ -730,7 +730,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "LEYTE_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-leyte",
-    notes: "TheOldChurches 1:1 matches: Baybay (3), Bato, Matalom, Hilongos, Palo, Inopacan, Abuyog (2), Ormoc Libertad, Carigara, Alangalang, Tolosa, Tacloban New Kawayan, Calubian, Tanauan, Albuera",
+    notes: "TheOldChurches 1:1 matches: Baybay (3), Bato, Matalom, Hilongos, Palo, Inopacan, Abuyog (2), Ormoc Libertad, Carigara, Alangalang, Tolosa, Tacloban New Kawayan, Calubian, Tanauan, Albuera, Mahaplag, Merida, Tabango, Hindang Poblacion 1, Julita, Mayorga, Tabontabon, Burauen",
   },
   {
     id: "cebu-theoldchurches",
@@ -780,7 +780,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "BOHOL_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-bohol",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Poblacion I: Sikatuna",
   },
   {
     id: "camarines-sur-theoldchurches",
@@ -820,7 +820,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "EASTERN_SAMAR_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-eastern-samar",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Barangay 1/Poblacion I: Balangkayan, Dolores, Giporlos, Salcedo",
   },
   {
     id: "northern-samar-theoldchurches",
@@ -830,7 +830,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "NORTHERN_SAMAR_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-northern-samar",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish Barangay 1 (Pob.): Catubig",
   },
   {
     id: "southern-leyte-theoldchurches",

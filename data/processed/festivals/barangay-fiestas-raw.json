@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:05:45.209Z",
+  "generatedAt": "2026-06-14T14:13:11.947Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -253889,7 +253889,11 @@
       "municipalityPsgcPsa": "060616000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for District I (Pob.), Sibalom."
+      "description": "Barangay patronal fiesta for District I (Pob.), Sibalom.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-sta-rita-sibalom-district-i-pob",
+      "patronSaint": "Sta. Rita de Cascia"
     },
     {
       "id": "bgy-060616062",
@@ -572547,15 +572551,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T14:05:45.209Z",
+    "appliedAt": "2026-06-14T14:13:11.947Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2449,
+      "fromOverride": 2450,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35400
+      "stillMissing": 35399
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572984,8 +572988,8 @@
         "missed": 0
       },
       "antiqueTheoldchurches": {
-        "entries": 9,
-        "matched": 9,
+        "entries": 10,
+        "matched": 10,
         "missed": 0
       },
       "romblonTheoldchurches": {

@@ -87,4 +87,14 @@ export const ANTIQUE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-sebaste",
     note: "TheOldChurches St. Blaise Church in Sebaste, Antique — feast February 3; Sebaste, Antique 5709",
   },
+  {
+    barangay: "District I (Pob.)",
+    municipality: "Sibalom",
+    province: "Antique",
+    month: 5,
+    dayStart: 22,
+    patronSaint: "Sta. Rita de Cascia",
+    dateSource: "theoldchurches-sta-rita-sibalom-district-i-pob",
+    note: "TheOldChurches Sta. Rita de Cascia Parish Church in Sibalom, Antique — feast May 22; Poblacion, Sibalom, Antique 5713",
+  },
 ];

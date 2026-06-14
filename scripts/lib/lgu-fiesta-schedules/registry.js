@@ -850,7 +850,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ANTIQUE_THEOLDCHURCHES_ENTRIES",
     status: "partial",
     dateSource: "theoldchurches-antique",
-    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches; town-parish District I (Pob.): Sibalom",
   },
   {
     id: "romblon-theoldchurches",

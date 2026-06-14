@@ -70,6 +70,7 @@ function isLguManagedDateSource(src) {
     src.startsWith("parish-") ||
     src.startsWith("iloilo-provincial-") ||
     src.startsWith("curated-online") ||
+    src.startsWith("theoldchurches-") ||
     src.startsWith("siquijor-") ||
     src.startsWith("zamboanga-")
   );

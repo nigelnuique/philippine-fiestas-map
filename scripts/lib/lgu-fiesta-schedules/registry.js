@@ -151,7 +151,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "46/180 dated: on-day YouTube + TheOldChurches (Luna La Paz Jun 20, Sambag Jul 16, South Fundidor May 10, Lopez Jaena Norte May 24) and prior curated rows",
+    notes: "46/180 dated: on-day YouTube + TheOldChurches (Luna La Paz Jun 20, Sambag, South Fundidor, Lopez Jaena Norte) and prior curated rows",
   },
   {
     id: "mulanay-curated",
@@ -172,6 +172,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     status: "partial",
     dateSource: "parish-ormoc-city",
     notes: "ParishPH + Ormoc Cultural Mapping ICH; 8/110 dated (Valencia, San Pablo Simangan, Cogon, Ipil, Manlilinao, Curva, Linao, Punta)",
+  },
+  {
+    id: "iloilo-province-theoldchurches",
+    municipality: "Iloilo (multi-municipality)",
+    province: "Iloilo",
+    format: "curated-text",
+    parser: "ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES",
+    status: "partial",
+    dateSource: "theoldchurches-iloilo-province",
+    notes: "TheOldChurches 1:1 parish address matches: Batad, Dingle, Calinog (2), Pototan (4), Janiuay, Maasin Iloilo, Passi (2), San Joaquin (2), Alimodian, Leon, Barotac Nuevo, Banate, Barotac Viejo",
   },
   {
     id: "pangasinan-parish-ph",

@@ -25,6 +25,7 @@ import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
 import { LEYTE_PARISH_FIESTA_ENTRIES } from "./leyte-parish-text.js";
 import { PANGASINAN_PARISH_FIESTA_ENTRIES } from "./pangasinan-parish-text.js";
+import { ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES } from "./iloilo-province-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -663,6 +664,9 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const carigaraEntries = CARIGARA_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const leyteParishEntries = LEYTE_PARISH_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const pangasinanParishEntries = PANGASINAN_PARISH_FIESTA_ENTRIES.map((e) => ({ ...e }));
+  const iloiloProvinceTheoldchurchesEntries = ILOILO_PROVINCE_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -696,6 +700,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const carigara = resolveScheduleEntries(carigaraEntries);
   const leyteParish = resolveScheduleEntries(leyteParishEntries);
   const pangasinanParish = resolveScheduleEntries(pangasinanParishEntries);
+  const iloiloProvinceTheoldchurches = resolveScheduleEntries(iloiloProvinceTheoldchurchesEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -729,6 +734,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...carigara.byPsgc,
       ...leyteParish.byPsgc,
       ...pangasinanParish.byPsgc,
+      ...iloiloProvinceTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -845,6 +851,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: pangasinanParishEntries.length,
         matched: pangasinanParish.matched,
         missed: pangasinanParish.missed,
+      },
+      iloiloProvinceTheoldchurches: {
+        entries: iloiloProvinceTheoldchurchesEntries.length,
+        matched: iloiloProvinceTheoldchurches.matched,
+        missed: iloiloProvinceTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

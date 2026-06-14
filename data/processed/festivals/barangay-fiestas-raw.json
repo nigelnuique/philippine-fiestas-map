@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:45:09.221Z",
+  "generatedAt": "2026-06-14T10:49:34.377Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -81911,7 +81911,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Abangan Sur, Marilao."
+      "description": "Barangay patronal fiesta for Abangan Sur, Marilao.",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031411003",
@@ -81924,7 +81928,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ibayo, Marilao."
+      "description": "Barangay patronal fiesta for Ibayo, Marilao.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Cristo"
     },
     {
       "id": "bgy-031411004",
@@ -81937,7 +81945,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lambakin, Marilao."
+      "description": "Barangay patronal fiesta for Lambakin, Marilao.",
+      "month": 2,
+      "dayStart": 22,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Cristo"
     },
     {
       "id": "bgy-031411005",
@@ -81950,7 +81962,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lias, Marilao."
+      "description": "Barangay patronal fiesta for Lias, Marilao.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Rosario"
     },
     {
       "id": "bgy-031411006",
@@ -81963,7 +81979,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Loma De Gato, Marilao."
+      "description": "Barangay patronal fiesta for Loma De Gato, Marilao.",
+      "month": 2,
+      "dayStart": 8,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Mother of Mercy"
     },
     {
       "id": "bgy-031411007",
@@ -81976,7 +81996,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Nagbalon, Marilao."
+      "description": "Barangay patronal fiesta for Nagbalon, Marilao.",
+      "month": 2,
+      "dayStart": 8,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Mahal na Senor"
     },
     {
       "id": "bgy-031411008",
@@ -81989,7 +82013,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Patubig, Marilao."
+      "description": "Barangay patronal fiesta for Patubig, Marilao.",
+      "month": 5,
+      "dayStart": 13,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-031411009",
@@ -82002,7 +82030,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, Marilao."
+      "description": "Barangay patronal fiesta for Poblacion I, Marilao.",
+      "month": 4,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Mahal na Senor"
     },
     {
       "id": "bgy-031411010",
@@ -82028,7 +82060,12 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Prenza I, Marilao."
+      "description": "Barangay patronal fiesta for Prenza I, Marilao.",
+      "month": 4,
+      "dayStart": 24,
+      "dayEnd": 30,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Emmanuel Salvador del Mundo Labrador"
     },
     {
       "id": "bgy-031411012",
@@ -82041,7 +82078,12 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Prenza Ii, Marilao."
+      "description": "Barangay patronal fiesta for Prenza Ii, Marilao.",
+      "month": 4,
+      "dayStart": 24,
+      "dayEnd": 30,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Emmanuel Salvador del Mundo Labrador"
     },
     {
       "id": "bgy-031411013",
@@ -82055,10 +82097,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Rosa I, Marilao.",
-      "month": 8,
-      "dayStart": 23,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa rosa"
+      "month": 4,
+      "dayStart": 12,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Divine Mercy"
     },
     {
       "id": "bgy-031411014",
@@ -82072,10 +82114,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Rosa Ii, Marilao.",
-      "month": 8,
-      "dayStart": 23,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa rosa"
+      "month": 4,
+      "dayStart": 22,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sta. Rosa de Lima"
     },
     {
       "id": "bgy-031411015",
@@ -82088,7 +82130,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Saog, Marilao."
+      "description": "Barangay patronal fiesta for Saog, Marilao.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Mahal na Senor"
     },
     {
       "id": "bgy-031411016",
@@ -82101,7 +82147,11 @@
       "municipalityPsgcPsa": "031411000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabing Ilog, Marilao."
+      "description": "Barangay patronal fiesta for Tabing Ilog, Marilao.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-031412001",
@@ -82114,7 +82164,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagbaguin, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Bagbaguin, City Of Meycauayan.",
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412002",
@@ -82140,7 +82193,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bancal, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Bancal, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412004",
@@ -82153,7 +82209,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banga, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Banga, City Of Meycauayan.",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412005",
@@ -82166,7 +82225,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bayugo, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Bayugo, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412006",
@@ -82179,7 +82241,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calvario, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Calvario, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412007",
@@ -82192,7 +82257,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Camalig, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Camalig, City Of Meycauayan.",
+      "month": 1,
+      "dayStart": 6,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412008",
@@ -82205,7 +82273,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Hulo, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Hulo, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412009",
@@ -82257,7 +82328,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Libtong, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Libtong, City Of Meycauayan.",
+      "month": 1,
+      "dayStart": 7,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412013",
@@ -82270,7 +82344,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Liputan, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Liputan, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412014",
@@ -82283,7 +82360,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Longos, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Longos, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 17,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412015",
@@ -82296,7 +82376,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malhacan, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Malhacan, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412016",
@@ -82309,7 +82392,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pajo, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Pajo, City Of Meycauayan.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412017",
@@ -82322,7 +82408,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pandayan, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Pandayan, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412018",
@@ -82335,7 +82424,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pantoc, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Pantoc, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412019",
@@ -82361,7 +82453,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Poblacion, City Of Meycauayan.",
+      "month": 10,
+      "dayStart": 4,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412021",
@@ -82374,7 +82469,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Saluysoy, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Saluysoy, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 4,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412022",
@@ -82390,8 +82488,8 @@
       "description": "Barangay patronal fiesta for Saint Francis (Gasak), City Of Meycauayan.",
       "month": 10,
       "dayStart": 4,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "saint francis"
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "St. Francis"
     },
     {
       "id": "bgy-031412023",
@@ -82417,7 +82515,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ubihan, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Ubihan, City Of Meycauayan.",
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412025",
@@ -82430,7 +82531,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Zamora, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Zamora, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031412026",
@@ -82443,7 +82547,10 @@
       "municipalityPsgcPsa": "031412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caingin, City Of Meycauayan."
+      "description": "Barangay patronal fiesta for Caingin, City Of Meycauayan.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024"
     },
     {
       "id": "bgy-031413003",
@@ -82780,7 +82887,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagbaguin, Pandi."
+      "description": "Barangay patronal fiesta for Bagbaguin, Pandi.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031415002",
@@ -82819,7 +82930,12 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bunsuran I, Pandi."
+      "description": "Barangay patronal fiesta for Bunsuran I, Pandi.",
+      "month": 5,
+      "dayStart": 1,
+      "dayEnd": 7,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Cristo"
     },
     {
       "id": "bgy-031415005",
@@ -82832,7 +82948,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bunsuran Ii, Pandi."
+      "description": "Barangay patronal fiesta for Bunsuran Ii, Pandi.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Rosario"
     },
     {
       "id": "bgy-031415006",
@@ -82845,7 +82965,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cacarong Bata, Pandi."
+      "description": "Barangay patronal fiesta for Cacarong Bata, Pandi.",
+      "month": 8,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-031415007",
@@ -82871,7 +82995,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cupang, Pandi."
+      "description": "Barangay patronal fiesta for Cupang, Pandi.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Cristo"
     },
     {
       "id": "bgy-031415009",
@@ -82910,7 +83038,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Manatal, Pandi."
+      "description": "Barangay patronal fiesta for Manatal, Pandi.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-031415012",
@@ -82923,7 +83055,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mapulang Lupa, Pandi."
+      "description": "Barangay patronal fiesta for Mapulang Lupa, Pandi.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-031415013",
@@ -82936,7 +83072,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Masagana, Pandi."
+      "description": "Barangay patronal fiesta for Masagana, Pandi.",
+      "month": 2,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Emilio"
     },
     {
       "id": "bgy-031415014",
@@ -82949,7 +83089,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Masuso, Pandi."
+      "description": "Barangay patronal fiesta for Masuso, Pandi.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031415015",
@@ -82988,7 +83132,12 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Real De Cacarong, Pandi."
+      "description": "Barangay patronal fiesta for Real De Cacarong, Pandi.",
+      "month": 9,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Miguel Arcangel"
     },
     {
       "id": "bgy-031415018",
@@ -83003,9 +83152,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Roque, Pandi.",
       "month": 8,
-      "dayStart": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san roque"
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-031415019",
@@ -83018,7 +83167,11 @@
       "municipalityPsgcPsa": "031415000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Siling Bata, Pandi."
+      "description": "Barangay patronal fiesta for Siling Bata, Pandi.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Cristo"
     },
     {
       "id": "bgy-031415020",
@@ -83059,10 +83212,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo NiñO, Pandi.",
       "month": 1,
-      "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "dayStart": 18,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-031416001",
@@ -83075,7 +83227,11 @@
       "municipalityPsgcPsa": "031416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binakod, Paombong."
+      "description": "Barangay patronal fiesta for Binakod, Paombong.",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Antonio"
     },
     {
       "id": "bgy-031416002",
@@ -83088,7 +83244,11 @@
       "municipalityPsgcPsa": "031416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kapitangan, Paombong."
+      "description": "Barangay patronal fiesta for Kapitangan, Paombong.",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Cristo"
     },
     {
       "id": "bgy-031416003",
@@ -83101,7 +83261,11 @@
       "municipalityPsgcPsa": "031416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malumot, Paombong."
+      "description": "Barangay patronal fiesta for Malumot, Paombong.",
+      "month": 5,
+      "dayStart": 2,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031416004",
@@ -83114,7 +83278,12 @@
       "municipalityPsgcPsa": "031416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Masukol, Paombong."
+      "description": "Barangay patronal fiesta for Masukol, Paombong.",
+      "month": 4,
+      "dayStart": 24,
+      "dayEnd": 25,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Rosario"
     },
     {
       "id": "bgy-031416006",
@@ -83127,7 +83296,11 @@
       "municipalityPsgcPsa": "031416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pinalagdan, Paombong."
+      "description": "Barangay patronal fiesta for Pinalagdan, Paombong.",
+      "month": 4,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Mother of Perpetual Help"
     },
     {
       "id": "bgy-031416007",
@@ -83155,9 +83328,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro I, Paombong.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 10,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031416010",
@@ -83172,9 +83345,10 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Isidro Ii, Paombong.",
       "month": 5,
-      "dayStart": 15,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san isidro"
+      "dayStart": 14,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Isidro Labrador",
+      "dayEnd": 15
     },
     {
       "id": "bgy-031416011",
@@ -83188,10 +83362,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Jose, Paombong.",
-      "month": 3,
-      "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "month": 5,
+      "dayStart": 2,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-031416012",
@@ -83205,10 +83379,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Roque, Paombong.",
-      "month": 8,
-      "dayStart": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san roque"
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-031416013",
@@ -83240,9 +83414,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Cruz, Paombong.",
       "month": 5,
-      "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dayStart": 2,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031416015",
@@ -83256,11 +83430,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo NiñO, Paombong.",
-      "month": 1,
-      "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "month": 2,
+      "dayStart": 8,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-031416016",
@@ -83274,10 +83447,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo Rosario, Paombong.",
-      "month": 10,
-      "dayStart": 7,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo rosario"
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Sto. Rosario"
     },
     {
       "id": "bgy-031417001",
@@ -83831,7 +84004,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Anyatam, San Ildefonso."
+      "description": "Barangay patronal fiesta for Anyatam, San Ildefonso.",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Saint John the Baptist"
     },
     {
       "id": "bgy-031419006",
@@ -83935,7 +84112,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calawitan, San Ildefonso."
+      "description": "Barangay patronal fiesta for Calawitan, San Ildefonso.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Saint Joseph"
     },
     {
       "id": "bgy-031419014",
@@ -83987,7 +84168,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lapnit, San Ildefonso."
+      "description": "Barangay patronal fiesta for Lapnit, San Ildefonso.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Saint Isidore"
     },
     {
       "id": "bgy-031419018",
@@ -84000,7 +84185,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maasim, San Ildefonso."
+      "description": "Barangay patronal fiesta for Maasim, San Ildefonso.",
+      "month": 11,
+      "dayStart": 27,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Birhen ng Medalyang Milagrosa"
     },
     {
       "id": "bgy-031419019",
@@ -84013,7 +84202,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Makapilapil, San Ildefonso."
+      "description": "Barangay patronal fiesta for Makapilapil, San Ildefonso.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031419020",
@@ -84026,7 +84219,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malipampang, San Ildefonso."
+      "description": "Barangay patronal fiesta for Malipampang, San Ildefonso.",
+      "month": 2,
+      "dayStart": 22,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Mahal na Birhen ng Sto. Rosario"
     },
     {
       "id": "bgy-031419021",
@@ -84039,7 +84236,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Matimbubong, San Ildefonso."
+      "description": "Barangay patronal fiesta for Matimbubong, San Ildefonso.",
+      "month": 1,
+      "dayStart": 9,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Black Nazarene"
     },
     {
       "id": "bgy-031419022",
@@ -84065,7 +84266,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Palapala, San Ildefonso."
+      "description": "Barangay patronal fiesta for Palapala, San Ildefonso.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Saint Isidore"
     },
     {
       "id": "bgy-031419024",
@@ -84104,7 +84309,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, San Ildefonso."
+      "description": "Barangay patronal fiesta for Poblacion, San Ildefonso.",
+      "month": 1,
+      "dayStart": 23,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "St. Ildefonsus"
     },
     {
       "id": "bgy-031419027",
@@ -84133,8 +84342,8 @@
       "description": "Barangay patronal fiesta for San Juan, San Ildefonso.",
       "month": 6,
       "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san juan"
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Saint John the Baptist"
     },
     {
       "id": "bgy-031419029",
@@ -84194,7 +84403,11 @@
       "municipalityPsgcPsa": "031419000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sapang Putik, San Ildefonso."
+      "description": "Barangay patronal fiesta for Sapang Putik, San Ildefonso.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-bulacan-pdpfp-2024",
+      "patronSaint": "Saint Joseph"
     },
     {
       "id": "bgy-031419033",
@@ -389372,7 +389585,11 @@
       "municipalityPsgcPsa": "086402000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Bontoc."
+      "description": "Barangay patronal fiesta for Poblacion, Bontoc.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-sto-nino-church-bontoc",
+      "patronSaint": "Holy Child"
     },
     {
       "id": "bgy-086402028",
@@ -393487,7 +393704,11 @@
       "municipalityPsgcPsa": "086412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Himatagon (Pob.), Saint Bernard."
+      "description": "Barangay patronal fiesta for Himatagon (Pob.), Saint Bernard.",
+      "month": 5,
+      "dayStart": 29,
+      "dateSource": "theoldchurches-st-isidore-church-saint-bernard",
+      "patronSaint": "St. Isidore"
     },
     {
       "id": "bgy-086412011",
@@ -570829,15 +571050,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:45:09.221Z",
+    "appliedAt": "2026-06-14T10:49:34.377Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4263,
-      "fromOverride": 1971,
+      "alreadyHadDate": 4250,
+      "fromOverride": 2043,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35810
+      "stillMissing": 35751
     },
     "lguScheduleStats": {
       "siargao": {
@@ -570953,6 +571174,31 @@
       "malolos": {
         "entries": 48,
         "matched": 48,
+        "missed": 0
+      },
+      "marilaoPdpfp": {
+        "entries": 14,
+        "matched": 14,
+        "missed": 0
+      },
+      "meycauayanPdpfp": {
+        "entries": 20,
+        "matched": 20,
+        "missed": 0
+      },
+      "pandiPdpfp": {
+        "entries": 13,
+        "matched": 13,
+        "missed": 0
+      },
+      "paombongPdpfp": {
+        "entries": 12,
+        "matched": 12,
+        "missed": 0
+      },
+      "sanIldefonsoBulacanPdpfp": {
+        "entries": 11,
+        "matched": 11,
         "missed": 0
       },
       "jasaan": {
@@ -571131,8 +571377,8 @@
         "missed": 0
       },
       "southernLeyteTheoldchurches": {
-        "entries": 8,
-        "matched": 8,
+        "entries": 10,
+        "matched": 10,
         "missed": 0
       },
       "antiqueTheoldchurches": {

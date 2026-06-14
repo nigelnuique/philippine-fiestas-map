@@ -28,6 +28,13 @@ import { UBAY_WIKIPEDIA_FIESTA_SCHEDULE } from "./ubay-wikipedia-text.js";
 import { MASANTOL_FIESTA_SCHEDULE } from "./masantol-text.js";
 import { MALOLOS_FIESTA_SCHEDULE } from "./malolos-text.js";
 import {
+  MARILAO_PDPFP_FIESTA_SCHEDULE,
+  MEYCAUAYAN_PDPFP_FIESTA_SCHEDULE,
+  PANDI_PDPFP_FIESTA_SCHEDULE,
+  PAOMBONG_PDPFP_FIESTA_SCHEDULE,
+  SAN_ILDEFONSO_BULACAN_PDPFP_FIESTA_SCHEDULE,
+} from "./bulacan-pdpfp-text.js";
+import {
   EL_SALVADOR_MISOR_FIESTA_SCHEDULE,
   JASAAN_FIESTA_SCHEDULE,
   LUGAIT_FIESTA_SCHEDULE,
@@ -749,6 +756,31 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Bulacan",
     dateSource: "lgu-malolos-ecological-profile-scribd",
   });
+  const marilaoPdpfpEntries = buildMunicipalDateRows(MARILAO_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Marilao",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const meycauayanPdpfpEntries = buildMunicipalDateRows(MEYCAUAYAN_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "City Of Meycauayan",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const pandiPdpfpEntries = buildMunicipalDateRows(PANDI_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Pandi",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const paombongPdpfpEntries = buildMunicipalDateRows(PAOMBONG_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Paombong",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const sanIldefonsoBulacanPdpfpEntries = buildMunicipalDateRows(SAN_ILDEFONSO_BULACAN_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "San Ildefonso",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
   const jasaanEntries = buildMunicipalDateRows(JASAAN_FIESTA_SCHEDULE, {
     municipality: "Jasaan",
     province: "Misamis Oriental",
@@ -906,6 +938,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const ubayWikipedia = resolveScheduleEntries(ubayWikipediaEntries);
   const masantol = resolveScheduleEntries(masantolEntries);
   const malolos = resolveScheduleEntries(malolosEntries);
+  const marilaoPdpfp = resolveScheduleEntries(marilaoPdpfpEntries);
+  const meycauayanPdpfp = resolveScheduleEntries(meycauayanPdpfpEntries);
+  const pandiPdpfp = resolveScheduleEntries(pandiPdpfpEntries);
+  const paombongPdpfp = resolveScheduleEntries(paombongPdpfpEntries);
+  const sanIldefonsoBulacanPdpfp = resolveScheduleEntries(sanIldefonsoBulacanPdpfpEntries);
   const jasaan = resolveScheduleEntries(jasaanEntries);
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
@@ -982,6 +1019,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...ubayWikipedia.byPsgc,
       ...masantol.byPsgc,
       ...malolos.byPsgc,
+      ...marilaoPdpfp.byPsgc,
+      ...meycauayanPdpfp.byPsgc,
+      ...pandiPdpfp.byPsgc,
+      ...paombongPdpfp.byPsgc,
+      ...sanIldefonsoBulacanPdpfp.byPsgc,
       ...jasaan.byPsgc,
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
@@ -1143,6 +1185,31 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: malolosEntries.length,
         matched: malolos.matched,
         missed: malolos.missed,
+      },
+      marilaoPdpfp: {
+        entries: marilaoPdpfpEntries.length,
+        matched: marilaoPdpfp.matched,
+        missed: marilaoPdpfp.missed,
+      },
+      meycauayanPdpfp: {
+        entries: meycauayanPdpfpEntries.length,
+        matched: meycauayanPdpfp.matched,
+        missed: meycauayanPdpfp.missed,
+      },
+      pandiPdpfp: {
+        entries: pandiPdpfpEntries.length,
+        matched: pandiPdpfp.matched,
+        missed: pandiPdpfp.missed,
+      },
+      paombongPdpfp: {
+        entries: paombongPdpfpEntries.length,
+        matched: paombongPdpfp.matched,
+        missed: paombongPdpfp.missed,
+      },
+      sanIldefonsoBulacanPdpfp: {
+        entries: sanIldefonsoBulacanPdpfpEntries.length,
+        matched: sanIldefonsoBulacanPdpfp.matched,
+        missed: sanIldefonsoBulacanPdpfp.missed,
       },
       jasaan: {
         entries: jasaanEntries.length,

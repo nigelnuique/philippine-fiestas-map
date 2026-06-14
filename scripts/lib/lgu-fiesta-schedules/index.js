@@ -35,8 +35,10 @@ import {
   VILLANUEVA_MISOR_FIESTA_SCHEDULE,
 } from "./misamis-oriental-text.js";
 import {
+  BALINGASAG_FIESTA_SCHEDULE,
   BALINGOAN_FIESTA_SCHEDULE,
   BINUANGAN_FIESTA_SCHEDULE,
+  GINGOOG_POBLACION_FIESTA_SCHEDULE,
   KINOGUITAN_FIESTA_SCHEDULE,
   LAGONGLONG_MISOR_FIESTA_SCHEDULE,
   MAGSAYSAY_MISOR_FIESTA_SCHEDULE,
@@ -781,6 +783,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Misamis Oriental",
     dateSource: "lgu-misamis-oriental-1st-district-scribd",
   });
+  const gingoogPoblacionEntries = buildMunicipalDateRows(GINGOOG_POBLACION_FIESTA_SCHEDULE, {
+    municipality: "City Of Gingoog",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
+  const balingasagEntries = buildMunicipalDateRows(BALINGASAG_FIESTA_SCHEDULE, {
+    municipality: "Balingasag",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-1st-district-scribd",
+  });
   const kinoguitanEntries = buildMunicipalDateRows(KINOGUITAN_FIESTA_SCHEDULE, {
     municipality: "Kinoguitan",
     province: "Misamis Oriental",
@@ -895,6 +907,8 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const elSalvadorMisor = resolveScheduleEntries(elSalvadorMisorEntries);
   const magsaysayMisor = resolveScheduleEntries(magsaysayMisorEntries);
   const balingoan = resolveScheduleEntries(balingoanEntries);
+  const gingoogPoblacion = resolveScheduleEntries(gingoogPoblacionEntries);
+  const balingasag = resolveScheduleEntries(balingasagEntries);
   const kinoguitan = resolveScheduleEntries(kinoguitanEntries);
   const sugbongcogon = resolveScheduleEntries(sugbongcogonEntries);
   const binuangan = resolveScheduleEntries(binuanganEntries);
@@ -968,6 +982,8 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...elSalvadorMisor.byPsgc,
       ...magsaysayMisor.byPsgc,
       ...balingoan.byPsgc,
+      ...gingoogPoblacion.byPsgc,
+      ...balingasag.byPsgc,
       ...kinoguitan.byPsgc,
       ...sugbongcogon.byPsgc,
       ...binuangan.byPsgc,
@@ -1154,6 +1170,16 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: balingoanEntries.length,
         matched: balingoan.matched,
         missed: balingoan.missed,
+      },
+      gingoogPoblacion: {
+        entries: gingoogPoblacionEntries.length,
+        matched: gingoogPoblacion.matched,
+        missed: gingoogPoblacion.missed,
+      },
+      balingasag: {
+        entries: balingasagEntries.length,
+        matched: balingasag.matched,
+        missed: balingasag.missed,
       },
       kinoguitan: {
         entries: kinoguitanEntries.length,

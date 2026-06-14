@@ -224,7 +224,7 @@ PSGC provides **names and codes**, not feast dates or patron saint names for mos
 | San Vicente, Palawan | Municipal tourism / CLUP barangay fiesta table | [scribd.com/document/510524031/LA-SERENE](https://www.scribd.com/document/510524031/LA-SERENE) |
 | Ubay, Bohol | Wikipedia barangay table with `Date of Fiesta` column | [en.wikipedia.org/wiki/Ubay,_Bohol#Barangays](https://en.wikipedia.org/wiki/Ubay,_Bohol#Barangays) |
 | Masantol, Pampanga | Municipal Planning & Development Coordinator schedule (public mirror) | [scribd.com/document/995540556/Brgy-Fiesta](https://www.scribd.com/document/995540556/Brgy-Fiesta) |
-| Magsaysay, Balingoan, Kinoguitan, Sugbongcogon, Salay, Lagonglong, Talisayan, and Medina, Misamis Oriental | 1st District barangay feast-date tables (public mirror) | [scribd.com/doc/270868638/Municipalities-Feast-Date-1st-District](https://www.scribd.com/doc/270868638/Municipalities-Feast-Date-1st-District) |
+| Magsaysay, Balingoan, Balingasag, City of Gingoog, Kinoguitan, Sugbongcogon, Salay, Lagonglong, Talisayan, and Medina, Misamis Oriental | 1st District barangay feast-date tables (public mirror) | [scribd.com/doc/270868638/Municipalities-Feast-Date-1st-District](https://www.scribd.com/doc/270868638/Municipalities-Feast-Date-1st-District) |
 | Binuangan, Misamis Oriental | Our Lady of Lourdes Parish chapel feast-day pages | [binuanganparish.wordpress.com](https://binuanganparish.wordpress.com/) |
 | Jasaan, Villanueva, Tagoloan, Opol, Lugait, and City of El Salvador, Misamis Oriental | 2nd District barangay feast-date tables (public mirror) | [scribd.com/doc/270867869/Municipalities-Feast-Date-2nd-District](https://www.scribd.com/doc/270867869/Municipalities-Feast-Date-2nd-District) |
 

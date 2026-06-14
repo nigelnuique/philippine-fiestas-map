@@ -139,4 +139,14 @@ export const LEYTE_PARISH_FIESTA_ENTRIES = [
     dateSource: "parish-san-jose-malibago-babatngon",
     note: "ParishPH San Jose de Malibago Parish, Brgy. Malibago",
   },
+  {
+    barangay: "Damula-An",
+    municipality: "Albuera",
+    province: "Leyte",
+    month: 1,
+    dayStart: 15,
+    patronSaint: "Santo Niño",
+    dateSource: "parish-sto-nino-damulaan-albuera",
+    note: "ParishPH Santo Niño Parish, Damulaan, Albuera — feast January 15",
+  },
 ];

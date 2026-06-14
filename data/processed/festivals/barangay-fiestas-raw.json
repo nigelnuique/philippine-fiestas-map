@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:09:28.822Z",
+  "generatedAt": "2026-06-14T09:23:38.010Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -347107,7 +347107,11 @@
       "municipalityPsgcPsa": "083703000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Damula-An, Albuera."
+      "description": "Barangay patronal fiesta for Damula-An, Albuera.",
+      "month": 1,
+      "dayStart": 15,
+      "dateSource": "parish-sto-nino-damulaan-albuera",
+      "patronSaint": "Santo Niño"
     },
     {
       "id": "bgy-083703006",
@@ -364306,7 +364310,11 @@
       "municipalityPsgcPsa": "083747000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Nula-Tula (Bgys. 3 & 3a), City Of Tacloban (Capital)."
+      "description": "Barangay patronal fiesta for Nula-Tula (Bgys. 3 & 3a), City Of Tacloban (Capital).",
+      "month": 10,
+      "dayStart": 28,
+      "dateSource": "parish-st-jude-phhc-nula-tula-tacloban",
+      "patronSaint": "St. Jude Thaddeus"
     },
     {
       "id": "bgy-083747010",
@@ -365669,7 +365677,11 @@
       "municipalityPsgcPsa": "083747000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay 86, City Of Tacloban (Capital)."
+      "description": "Barangay patronal fiesta for Barangay 86, City Of Tacloban (Capital).",
+      "month": 5,
+      "dayStart": 25,
+      "dateSource": "parish-san-jose-tacloban-barangay-86",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-083747120",
@@ -569050,15 +569062,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T09:09:28.822Z",
+    "appliedAt": "2026-06-14T09:23:38.010Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1439,
+      "fromOverride": 1442,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36274
+      "stillMissing": 36271
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569147,8 +569159,8 @@
         "missed": 0
       },
       "tacloban": {
-        "entries": 5,
-        "matched": 5,
+        "entries": 7,
+        "matched": 7,
         "missed": 0
       },
       "dulag": {
@@ -569162,8 +569174,8 @@
         "missed": 0
       },
       "leyteParish": {
-        "entries": 14,
-        "matched": 14,
+        "entries": 15,
+        "matched": 15,
         "missed": 0
       },
       "pangasinanParish": {

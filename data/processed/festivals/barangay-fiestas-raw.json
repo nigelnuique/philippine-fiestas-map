@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:29:01.154Z",
+  "generatedAt": "2026-06-14T03:43:11.492Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269748,7 +269748,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ingore, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Ingore, City Of Iloilo (Capital).",
+      "month": 3,
+      "dayStart": 7,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022073",
@@ -270357,7 +270360,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Obrero-Lapuz, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Obrero-Lapuz, City Of Iloilo (Capital).",
+      "month": 8,
+      "dayStart": 15,
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-063022122",
@@ -567536,15 +567543,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T03:29:01.154Z",
+    "appliedAt": "2026-06-14T03:43:11.492Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4337,
-      "fromOverride": 960,
+      "fromOverride": 962,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36747
+      "stillMissing": 36745
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567598,8 +567605,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 10,
-        "matched": 10,
+        "entries": 12,
+        "matched": 12,
         "missed": 0
       },
       "tarlac": {

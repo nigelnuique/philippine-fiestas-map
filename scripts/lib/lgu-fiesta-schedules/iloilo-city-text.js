@@ -99,4 +99,23 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Fiesta 2013 Brgy. Calaparan upload (Jan 13, 2013); corroborated by Jan 2012 fiesta queen event",
   },
+  {
+    barangay: "Obrero-Lapuz",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 8,
+    dayStart: 15,
+    patronSaint: "Our Lady of Fatima",
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Patronal Fiesta of Bo.Obrero… Our Lady of Fatima (Aug 15, 2023); barangay also called Bo. Obrero",
+  },
+  {
+    barangay: "Ingore",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 3,
+    dayStart: 7,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day HAPPY FIESTA BARANGAY INGORE (Mar 7, 2023); fiesta-week disco derby videos Mar 3–5 (Brgy. Ingore, La Paz)",
+  },
 ];

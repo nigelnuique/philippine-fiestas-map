@@ -179,4 +179,14 @@ export const LEYTE_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-james-albuera-poblacion",
     note: "TheOldChurches St. James the Great Church, Poblacion, Albuera — feast July 25",
   },
+  {
+    barangay: "Arado",
+    municipality: "Palo",
+    province: "Leyte",
+    month: 5,
+    dayStart: 16,
+    patronSaint: "St. Roch",
+    dateSource: "theoldchurches-st-roch-arado-palo",
+    note: "TheOldChurches St. Roch Chaplaincy, Arado, Palo, Leyte — feast May 16",
+  },
 ];

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:23:38.010Z",
+  "generatedAt": "2026-06-14T09:37:00.729Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -361575,7 +361575,11 @@
       "municipalityPsgcPsa": "083739000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Arado, Palo."
+      "description": "Barangay patronal fiesta for Arado, Palo.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-st-roch-arado-palo",
+      "patronSaint": "St. Roch"
     },
     {
       "id": "bgy-083739004",
@@ -569062,15 +569066,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T09:23:38.010Z",
+    "appliedAt": "2026-06-14T09:37:00.729Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1442,
+      "fromOverride": 1443,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36271
+      "stillMissing": 36270
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569189,8 +569193,8 @@
         "missed": 0
       },
       "leyteTheoldchurches": {
-        "entries": 18,
-        "matched": 18,
+        "entries": 19,
+        "matched": 19,
         "missed": 0
       },
       "cebuTheoldchurches": {

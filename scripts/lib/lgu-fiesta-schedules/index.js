@@ -25,6 +25,13 @@ import { LAGONOY_FIESTA_SCHEDULE } from "./lagonoy-text.js";
 import { SAN_PASCUAL_FIESTA_SCHEDULE } from "./san-pascual-text.js";
 import { SAN_VICENTE_PALAWAN_FIESTA_SCHEDULE } from "./san-vicente-palawan-text.js";
 import { UBAY_WIKIPEDIA_FIESTA_SCHEDULE } from "./ubay-wikipedia-text.js";
+import { MASANTOL_FIESTA_SCHEDULE } from "./masantol-text.js";
+import {
+  JASAAN_FIESTA_SCHEDULE,
+  OPOL_FIESTA_SCHEDULE,
+  TAGOLOAN_MISOR_FIESTA_SCHEDULE,
+  VILLANUEVA_MISOR_FIESTA_SCHEDULE,
+} from "./misamis-oriental-text.js";
 import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
 import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
@@ -716,6 +723,31 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Bohol",
     dateSource: "wikipedia-ubay-bohol-barangay-table",
   });
+  const masantolEntries = buildMunicipalDateRows(MASANTOL_FIESTA_SCHEDULE, {
+    municipality: "Masantol",
+    province: "Pampanga",
+    dateSource: "lgu-masantol-mpdo-scribd",
+  });
+  const jasaanEntries = buildMunicipalDateRows(JASAAN_FIESTA_SCHEDULE, {
+    municipality: "Jasaan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const villanuevaMisorEntries = buildMunicipalDateRows(VILLANUEVA_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Villanueva",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const tagoloanMisorEntries = buildMunicipalDateRows(TAGOLOAN_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Tagoloan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const opolEntries = buildMunicipalDateRows(OPOL_FIESTA_SCHEDULE, {
+    municipality: "Opol",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
   const ormocEntries = ORMOC_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const taclobanEntries = TACLOBAN_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const dulagEntries = DULAG_FIESTA_ENTRIES.map((e) => ({ ...e }));
@@ -786,6 +818,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const sanPascual = resolveScheduleEntries(sanPascualEntries);
   const sanVicentePalawan = resolveScheduleEntries(sanVicentePalawanEntries);
   const ubayWikipedia = resolveScheduleEntries(ubayWikipediaEntries);
+  const masantol = resolveScheduleEntries(masantolEntries);
+  const jasaan = resolveScheduleEntries(jasaanEntries);
+  const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
+  const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
+  const opol = resolveScheduleEntries(opolEntries);
   const ormoc = resolveScheduleEntries(ormocEntries);
   const tacloban = resolveScheduleEntries(taclobanEntries);
   const dulag = resolveScheduleEntries(dulagEntries);
@@ -843,6 +880,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...sanPascual.byPsgc,
       ...sanVicentePalawan.byPsgc,
       ...ubayWikipedia.byPsgc,
+      ...masantol.byPsgc,
+      ...jasaan.byPsgc,
+      ...villanuevaMisor.byPsgc,
+      ...tagoloanMisor.byPsgc,
+      ...opol.byPsgc,
       ...ormoc.byPsgc,
       ...tacloban.byPsgc,
       ...dulag.byPsgc,
@@ -977,6 +1019,31 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: ubayWikipediaEntries.length,
         matched: ubayWikipedia.matched,
         missed: ubayWikipedia.missed,
+      },
+      masantol: {
+        entries: masantolEntries.length,
+        matched: masantol.matched,
+        missed: masantol.missed,
+      },
+      jasaan: {
+        entries: jasaanEntries.length,
+        matched: jasaan.matched,
+        missed: jasaan.missed,
+      },
+      villanuevaMisor: {
+        entries: villanuevaMisorEntries.length,
+        matched: villanuevaMisor.matched,
+        missed: villanuevaMisor.missed,
+      },
+      tagoloanMisor: {
+        entries: tagoloanMisorEntries.length,
+        matched: tagoloanMisor.matched,
+        missed: tagoloanMisor.missed,
+      },
+      opol: {
+        entries: opolEntries.length,
+        matched: opol.matched,
+        missed: opol.missed,
       },
       ormoc: {
         entries: ormocEntries.length,

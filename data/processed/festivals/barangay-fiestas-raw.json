@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T09:37:00.729Z",
+  "generatedAt": "2026-06-14T09:42:01.600Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -193132,7 +193132,11 @@
       "municipalityPsgcPsa": "175916000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion (Ferrol), Ferrol."
+      "description": "Barangay patronal fiesta for Poblacion (Ferrol), Ferrol.",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "theoldchurches-poblacion-ferrol",
+      "patronSaint": "St. Anthony of Padua"
     },
     {
       "id": "bgy-175916005",
@@ -258475,7 +258479,11 @@
       "municipalityPsgcPsa": "061914000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lawa-An, City Of Roxas (Capital)."
+      "description": "Barangay patronal fiesta for Lawa-An, City Of Roxas (Capital).",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-lawa-an-roxas-city",
+      "patronSaint": "Our Lady of Guadalupe"
     },
     {
       "id": "bgy-061914034",
@@ -286888,7 +286896,11 @@
       "municipalityPsgcPsa": "064501000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Punta Taytay, City Of Bacolod (Capital)."
+      "description": "Barangay patronal fiesta for Punta Taytay, City Of Bacolod (Capital).",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "theoldchurches-punta-taytay-bacolod",
+      "patronSaint": "St. John the Baptist"
     },
     {
       "id": "bgy-064501055",
@@ -289178,7 +289190,11 @@
       "municipalityPsgcPsa": "064509000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balintawak (Pob.), City Of Escalante."
+      "description": "Barangay patronal fiesta for Balintawak (Pob.), City Of Escalante.",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-balintawak-escalante",
+      "patronSaint": "Our Lady of Mount Carmel"
     },
     {
       "id": "bgy-064509003",
@@ -293040,7 +293056,11 @@
       "municipalityPsgcPsa": "064523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Ii (Barangay 2), City Of Sagay."
+      "description": "Barangay patronal fiesta for Poblacion Ii (Barangay 2), City Of Sagay.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "theoldchurches-poblacion-ii-sagay",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-064523020",
@@ -325377,7 +325397,11 @@
       "municipalityPsgcPsa": "072247000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mohon, Sogod."
+      "description": "Barangay patronal fiesta for Mohon, Sogod.",
+      "month": 10,
+      "dayStart": 21,
+      "dateSource": "theoldchurches-mohon-sogod",
+      "patronSaint": "San Pedro Calungsod"
     },
     {
       "id": "bgy-072247015",
@@ -569066,15 +569090,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T09:37:00.729Z",
+    "appliedAt": "2026-06-14T09:42:01.600Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1443,
+      "fromOverride": 1449,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36270
+      "stillMissing": 36264
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569198,18 +569222,18 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 97,
-        "matched": 97,
+        "entries": 98,
+        "matched": 98,
         "missed": 0
       },
       "capizTheoldchurches": {
-        "entries": 37,
-        "matched": 37,
+        "entries": 38,
+        "matched": 38,
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 69,
-        "matched": 69,
+        "entries": 72,
+        "matched": 72,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -569258,8 +569282,8 @@
         "missed": 0
       },
       "romblonTheoldchurches": {
-        "entries": 8,
-        "matched": 8,
+        "entries": 9,
+        "matched": 9,
         "missed": 0
       },
       "guimarasTheoldchurches": {

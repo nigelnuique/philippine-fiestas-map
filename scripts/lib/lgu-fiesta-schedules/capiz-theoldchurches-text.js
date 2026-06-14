@@ -336,4 +336,14 @@ export const CAPIZ_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-anhawon-panay",
     note: "TheOldChurches Nuestra Señora de Salvacion Church in Anhawon, Panay, Capiz — feast September 27; Anhawon, Panay, Capiz 5801",
   },
+  {
+    barangay: "Lawa-An",
+    municipality: "City Of Roxas (Capital)",
+    province: "Capiz",
+    month: 12,
+    dayStart: 12,
+    patronSaint: "Our Lady of Guadalupe",
+    dateSource: "theoldchurches-lawa-an-roxas-city",
+    note: "TheOldChurches Our Lady Of Guadalupe Mission Station in Lawaan, Roxas City — feast December 12; Lawaan, Roxas City, Capiz 5800",
+  },
 ];

@@ -74,4 +74,14 @@ export const ROMBLON_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-banton",
     note: "TheOldChurches San Nicolas de Tolentino Church in Banton, Romblon — feast September 10; Poblacion, Banton, Romblon 5515",
   },
+  {
+    barangay: "Poblacion (Ferrol)",
+    municipality: "Ferrol",
+    province: "Romblon",
+    month: 6,
+    dayStart: 13,
+    patronSaint: "St. Anthony of Padua",
+    dateSource: "theoldchurches-poblacion-ferrol",
+    note: "TheOldChurches St. Anthony of Padua Church in Ferrol, Romblon — feast June 13; Ferrol, Romblon 5506",
+  },
 ];

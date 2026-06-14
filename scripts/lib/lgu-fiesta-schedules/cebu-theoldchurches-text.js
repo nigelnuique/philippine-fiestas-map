@@ -883,4 +883,14 @@ export const CEBU_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-guindaruhan-minglanilla",
     note: "TheOldChurches Parroquia de Virgen de los Remedios Church in Guindarohan, Minglanilla, Cebu — feast December 28; Guindarohan, Minglanilla, Cebu 6046",
   },
+  {
+    barangay: "Mohon",
+    municipality: "Sogod",
+    province: "Cebu",
+    month: 10,
+    dayStart: 21,
+    patronSaint: "San Pedro Calungsod",
+    dateSource: "theoldchurches-mohon-sogod",
+    note: "TheOldChurches San Pedro Calungsod Parish Church in Mohon, Sogod, Cebu — feast October 21; Mohon, Sogod, Cebu",
+  },
 ];

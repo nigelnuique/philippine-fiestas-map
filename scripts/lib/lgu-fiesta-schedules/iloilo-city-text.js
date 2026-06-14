@@ -154,4 +154,14 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day 1st Brgy. Ortiz Triathlon video cites “annual fiesta celebrations” (Dec 8, 2011); fiesta-week Got Talent/SK Night events Dec 7–10",
   },
+  {
+    barangay: "Baybay Tanza",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 6,
+    dayStart: 24,
+    patronSaint: "San Juan Bautista",
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Happy Fiesta Tanza Baybay videos cite Jun 24, 2018 and patron St. John the Baptist (Lady gagah uploads Jun 25–30, 2018)",
+  },
 ];

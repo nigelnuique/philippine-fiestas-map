@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T04:06:22.389Z",
+  "generatedAt": "2026-06-14T04:11:49.737Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269096,7 +269096,11 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baybay Tanza, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Baybay Tanza, City Of Iloilo (Capital).",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "curated-online-iloilo-city-youtube",
+      "patronSaint": "San Juan Bautista"
     },
     {
       "id": "bgy-063022018",
@@ -567555,15 +567559,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T04:06:22.389Z",
+    "appliedAt": "2026-06-14T04:11:49.737Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4337,
-      "fromOverride": 966,
+      "fromOverride": 967,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36741
+      "stillMissing": 36740
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567617,8 +567621,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 16,
-        "matched": 16,
+        "entries": 17,
+        "matched": 17,
         "missed": 0
       },
       "tarlac": {

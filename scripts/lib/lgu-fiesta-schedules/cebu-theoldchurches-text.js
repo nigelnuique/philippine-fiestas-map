@@ -834,6 +834,16 @@ export const CEBU_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches Our Lady of Lourdes Parish Church in Ocaña, Carcar City, Cebu — feast February 11; Ocaña, Carcar City, Cebu 6019",
   },
   {
+    barangay: "Poblacion I",
+    municipality: "City Of Carcar",
+    province: "Cebu",
+    month: 11,
+    dayStart: 25,
+    patronSaint: "St. Catherine of Alexandria",
+    dateSource: "theoldchurches-poblacion-i-city-of-carcar",
+    note: "TheOldChurches Archdiocesan Shrine of St. Catherine of Alexandria in Carcar, Cebu — feast November 25; Poblacion, Carcar 6019",
+  },
+  {
     barangay: "Poblacion",
     municipality: "Carmen",
     province: "Cebu",

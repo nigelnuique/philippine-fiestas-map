@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:25:00.614Z",
+  "generatedAt": "2026-06-14T14:28:52.920Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -300424,7 +300424,11 @@
       "municipalityPsgcPsa": "071210000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Desamparados (Pob.), Calape."
+      "description": "Barangay patronal fiesta for Desamparados (Pob.), Calape.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-desamparados-pob-calape",
+      "patronSaint": "Saint Vincent Ferrer"
     },
     {
       "id": "bgy-071210014",
@@ -317065,7 +317069,11 @@
       "municipalityPsgcPsa": "072214000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion I, City Of Carcar."
+      "description": "Barangay patronal fiesta for Poblacion I, City Of Carcar.",
+      "month": 11,
+      "dayStart": 25,
+      "dateSource": "theoldchurches-poblacion-i-city-of-carcar",
+      "patronSaint": "St. Catherine of Alexandria"
     },
     {
       "id": "bgy-072214013",
@@ -572594,15 +572602,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T14:25:00.614Z",
+    "appliedAt": "2026-06-14T14:28:52.920Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2461,
+      "fromOverride": 2463,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35388
+      "stillMissing": 35386
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572976,8 +572984,8 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 106,
-        "matched": 106,
+        "entries": 107,
+        "matched": 107,
         "missed": 0
       },
       "capizTheoldchurches": {
@@ -572996,8 +573004,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 65,
-        "matched": 65,
+        "entries": 66,
+        "matched": 66,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {

@@ -409,6 +409,16 @@ export const BOHOL_THEOLDCHURCHES_ENTRIES = [
     note: "TheOldChurches Our Lady of Fatima Church in Pangangan, Calape, Bohol — feast August 10; Talisay, Pangangan Island, Calape, Bohol 6328",
   },
   {
+    barangay: "Desamparados (Pob.)",
+    municipality: "Calape",
+    province: "Bohol",
+    month: 5,
+    dayStart: 10,
+    patronSaint: "Saint Vincent Ferrer",
+    dateSource: "theoldchurches-desamparados-pob-calape",
+    note: "TheOldChurches Saint Vincent Ferrer Church in Calape, Bohol — feast May 10; Calape, 6328 Bohol",
+  },
+  {
     barangay: "U-Og",
     municipality: "Inabanga",
     province: "Bohol",

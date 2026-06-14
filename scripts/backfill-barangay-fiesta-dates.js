@@ -2,13 +2,15 @@
  * Backfill month/day on barangay fiesta records:
  * 1. Curated overrides and LGU schedule imports (barangay-fiesta-date-overrides.js)
  * 2. Wikipedia enrichment cache (enrich-barangay-fiesta-dates-online.js)
- * 3. Patron-saint feast inference from barangay name (patron-saint-calendar.js)
+ * 3. Patron-saint feast from verified profile patron (barangay-patron-registry.js)
+ * 4. Patron-saint feast inference from barangay name (patron-saint-calendar.js)
  */
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { lookupBarangayFiestaDateOverride } from "./lib/barangay-fiesta-date-overrides.js";
-import { inferFeastFromBarangayName } from "./lib/patron-saint-calendar.js";
+import { lookupBarangayPatronRegistry } from "./lib/barangay-patron-registry.js";
+import { inferFeastFromBarangayName, inferFeastFromPatronSaint } from "./lib/patron-saint-calendar.js";
 import { getLguBarangayFiestaDatesByPsgc } from "./lib/lgu-fiesta-schedules/index.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -97,6 +99,7 @@ function main() {
     alreadyHadDate: 0,
     fromOverride: 0,
     fromPatronSaint: 0,
+    fromPatronProfile: 0,
     fromOnline: 0,
     stillMissing: 0,
   };
@@ -125,6 +128,15 @@ function main() {
     ) {
       stats.fromOnline++;
       continue;
+    }
+
+    const patronRow = lookupBarangayPatronRegistry(f);
+    if (patronRow?.patronSaint) {
+      const fromPatron = inferFeastFromPatronSaint(patronRow.patronSaint);
+      if (fromPatron && applyDate(f, fromPatron)) {
+        stats.fromPatronProfile++;
+        continue;
+      }
     }
 
     const name = barangayLabel(f);
@@ -175,6 +187,7 @@ function main() {
       "lgu-maasin-city-gov-ph",
       "lgu-maasin-city-directory",
       "wikipedia-search-cache",
+      "patron-saint-calendar-profile",
       "patron-saint-calendar",
     ],
   };
@@ -189,6 +202,7 @@ function main() {
   console.log(`  Already had date: ${stats.alreadyHadDate}`);
   console.log(`  LGU schedules:    ${stats.fromOverride}`);
   console.log(`  Patron saint:     ${stats.fromPatronSaint}`);
+  console.log(`  Patron profile:   ${stats.fromPatronProfile}`);
   console.log(`  Wikipedia cache:  ${stats.fromOnline}`);
   console.log(`  With date now:    ${withDate} (${((withDate / stats.total) * 100).toFixed(1)}%)`);
   console.log(`  Still missing:    ${stats.stillMissing}`);

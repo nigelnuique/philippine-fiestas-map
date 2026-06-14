@@ -444,10 +444,78 @@ const SAINT_FEASTS = {
   "mother of perpetual help": { month: 6, dayStart: 27 },
   "our mother of perpetual help": { month: 6, dayStart: 27 },
   "perpetual help": { month: 6, dayStart: 27 },
+  // PH barangay profile aliases
+  "medalla milagros": { month: 11, dayStart: 27 },
+  "miraculous medal": { month: 11, dayStart: 27 },
+  "our lady of miraculous medal": { month: 11, dayStart: 27 },
+  "black nazarene": { month: 1, dayStart: 9 },
+  "senor sto nino": { month: 1, dayStart: 15, dayEnd: 16 },
+  "senor santo nino": { month: 1, dayStart: 15, dayEnd: 16 },
+  "sto nino de praga": { month: 1, dayStart: 15, dayEnd: 16 },
+  "birhen maria de salvacion": { month: 8, dayStart: 15 },
+  "nuestra senora de guia": { month: 12, dayStart: 18 },
+  "nuestra senora de guia": { month: 12, dayStart: 18 },
+  "st joaquin and st anna": { month: 7, dayStart: 26 },
+  "st joachim and st anne": { month: 7, dayStart: 26 },
+  "saints joachim and anne": { month: 7, dayStart: 26 },
+  "joaquin and anna": { month: 7, dayStart: 26 },
+  "joachim and anne": { month: 7, dayStart: 26 },
+  "santo tomas de villanueva": { month: 9, dayStart: 22 },
+  "senor santo tomas de villanueva": { month: 9, dayStart: 22 },
 };
 
 /** Longest keys first so "san lorenzo ruiz" wins over "san lorenzo". */
 const SAINT_KEYS = Object.keys(SAINT_FEASTS).sort((a, b) => b.length - a.length);
+
+/** Normalize patron saint text scraped from LGU/parish profiles. */
+export function normalizePatronSaint(name) {
+  let s = String(name ?? "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ñ/g, "n")
+    .replace(/[()"]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Drop trailing clause fragments from scraped profiles.
+  s = s.replace(/\s+(every|which|who|whose|before|but|in|on|to|from)\s+.*$/i, "").trim();
+
+  return s
+    .replace(/\b(señor|senor|sr|saint|santo|santa|sto|sta)\b/gi, " ")
+    .replace(/\b(the|their|patron|patronal|patron saint|its|our|of)\b/gi, " ")
+    .replace(/^st\b\.?\s*/i, "")
+    .replace(/\bst\b\.?\s*/gi, " ")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function lookupSaintFeast(norm) {
+  if (!norm) return null;
+  if (SAINT_FEASTS[norm]) return feastFromKey(norm, "patron-saint-calendar-profile");
+
+  for (const key of SAINT_KEYS) {
+    const pattern = new RegExp(`\\b${key.replace(/\s+/g, "\\s+")}\\b`, "i");
+    if (pattern.test(norm)) return feastFromKey(key, "patron-saint-calendar-profile");
+  }
+
+  const tokens = norm.split(" ");
+  const saintPrefixes = ["san", "santa", "santo", "sto", "sta"];
+  for (let i = 0; i < tokens.length; i++) {
+    if (!saintPrefixes.includes(tokens[i])) continue;
+    for (let len = 4; len >= 2; len--) {
+      const slice = tokens.slice(i, i + len).join(" ");
+      if (SAINT_FEASTS[slice]) return feastFromKey(slice, "patron-saint-calendar-profile");
+    }
+  }
+
+  if (/\b(nuestra senora|virgen|our lady)\b/.test(norm)) {
+    return feastFromKey("our lady", "patron-saint-calendar-profile");
+  }
+
+  return null;
+}
 
 export function normalizeBarangayName(name) {
   return String(name ?? "")
@@ -462,16 +530,28 @@ export function normalizeBarangayName(name) {
     .trim();
 }
 
-function feastFromKey(key) {
+function feastFromKey(key, dateSource = "patron-saint-calendar") {
   const feast = SAINT_FEASTS[key];
   if (!feast) return null;
   return {
     month: feast.month,
     dayStart: feast.dayStart,
     dayEnd: feast.dayEnd ?? feast.dayStart,
-    dateSource: "patron-saint-calendar",
+    dateSource,
     patronSaint: key,
   };
+}
+
+/**
+ * Infer fixed feast from verified patron saint text (LGU/parish profile).
+ * Returns null for unknown patrons or movable/local feasts without a dictionary hit.
+ */
+export function inferFeastFromPatronSaint(patronText) {
+  const norm = normalizePatronSaint(patronText);
+  if (!norm) return null;
+  const hit = lookupSaintFeast(norm);
+  if (!hit) return null;
+  return { ...hit, patronSaint: String(patronText).trim() };
 }
 
 /**
@@ -482,11 +562,11 @@ export function inferFeastFromBarangayName(name) {
   if (!norm) return null;
 
   // Exact match (barangay is essentially only a saint name)
-  if (SAINT_FEASTS[norm]) return feastFromKey(norm);
+  if (SAINT_FEASTS[norm]) return feastFromKey(norm, "patron-saint-calendar");
 
   for (const key of SAINT_KEYS) {
     const pattern = new RegExp(`\\b${key.replace(/\s+/g, "\\s+")}\\b`, "i");
-    if (pattern.test(norm)) return feastFromKey(key);
+    if (pattern.test(norm)) return feastFromKey(key, "patron-saint-calendar");
   }
 
   // Shorter prefixes when the barangay is essentially named for one saint.
@@ -496,12 +576,12 @@ export function inferFeastFromBarangayName(name) {
     if (!saintPrefixes.includes(tokens[i])) continue;
     for (let len = 4; len >= 2; len--) {
       const slice = tokens.slice(i, i + len).join(" ");
-      if (SAINT_FEASTS[slice]) return feastFromKey(slice);
+      if (SAINT_FEASTS[slice]) return feastFromKey(slice, "patron-saint-calendar");
     }
     const slice = tokens.slice(i, Math.min(i + 4, tokens.length)).join(" ");
     for (const key of SAINT_KEYS) {
       if (slice === key || slice.startsWith(`${key} `) || key.startsWith(slice)) {
-        const hit = feastFromKey(key);
+        const hit = feastFromKey(key, "patron-saint-calendar");
         if (hit) return hit;
       }
     }
@@ -509,7 +589,7 @@ export function inferFeastFromBarangayName(name) {
 
   // Nuestra / Virgen / Our Lady without full phrase
   if (/\b(nuestra senora|virgen|our lady)\b/.test(norm)) {
-    return feastFromKey("our lady");
+    return feastFromKey("our lady", "patron-saint-calendar");
   }
 
   return null;

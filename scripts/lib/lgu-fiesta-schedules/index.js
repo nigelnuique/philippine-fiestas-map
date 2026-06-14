@@ -13,7 +13,7 @@ import { PINAMUNGAHAN_FIESTA_ENTRIES } from "./pinamungahan-text.js";
 import { MACABEBE_FIESTA_ENTRIES } from "./macabebe-text.js";
 import { LUCENA_FIESTA_ENTRIES } from "./lucena-text.js";
 import { MULANAY_FIESTA_ENTRIES } from "./mulanay-text.js";
-import { MIAGAO_FIESTA_ENTRIES } from "./miagao-text.js";
+import { MIAGAO_FIESTA_ENTRIES, MIAGAO_RELATIVE_FIESTA_SCHEDULE } from "./miagao-text.js";
 import { TARLAC_FIESTA_ENTRIES, TARLAC_RELATIVE_FIESTA_SCHEDULE } from "./tarlac-text.js";
 import { ANGONO_FIESTA_ENTRIES, ANGONO_RELATIVE_FIESTA_SCHEDULE } from "./angono-text.js";
 import { BALILIHAN_FIESTA_ENTRIES } from "./balilihan-text.js";
@@ -553,6 +553,24 @@ function buildOtonRelativeFiestaEntries() {
   return entries;
 }
 
+function buildMiagaoRelativeFiestaEntries() {
+  const entries = [];
+  for (const row of MIAGAO_RELATIVE_FIESTA_SCHEDULE) {
+    const parsed = parseDateFromRaw(row.date);
+    if (!parsed?.month || !parsed?.dayStart) continue;
+    entries.push({
+      month: parsed.month,
+      dayStart: parsed.dayStart,
+      dayEnd: parsed.dayEnd !== parsed.dayStart ? parsed.dayEnd : undefined,
+      barangay: row.barangay,
+      municipality: row.municipality ?? "Miagao",
+      dateSource: row.dateSource ?? "curated-online-miagao-tripod",
+      patronSaint: row.patronSaint,
+    });
+  }
+  return entries;
+}
+
 function buildCuratedOnlineRelativeEntries() {
   const entries = [];
   for (const row of CURATED_ONLINE_RELATIVE_SCHEDULE) {
@@ -596,10 +614,13 @@ export function getLguBarangayFiestaDatesByPsgc() {
     ...e,
     dateSource: e.dateSource ?? "lgu-mulanay-gov-ph",
   }));
-  const miagaoEntries = MIAGAO_FIESTA_ENTRIES.map((e) => ({
-    ...e,
-    dateSource: e.dateSource ?? "lgu-miagao-gov-ph",
-  }));
+  const miagaoEntries = [
+    ...MIAGAO_FIESTA_ENTRIES.map((e) => ({
+      ...e,
+      dateSource: e.dateSource ?? "lgu-miagao-gov-ph",
+    })),
+    ...buildMiagaoRelativeFiestaEntries(),
+  ];
   const tarlacEntries = TARLAC_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "lgu-tarlac-city-gov-ph",

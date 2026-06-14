@@ -140,7 +140,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "MIAGAO_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "lgu-miagao-gov-ph",
-    notes: "19/119 dated: 7 POB Sept 22 + Bacauan Aug 16 (LGU); Banbanan Jan month-only (LGU); Igbugo/Naclub/Cawayanan/Igsoligue/Fundacion/Tigbagacay (on-day FB); Cubay Nov 27 Miraculous Medal parish; San Jose/Fernando/Rafael via patron calendar",
+    notes: "97/119 dated: miagao.tripod.com profiles + patron-saint-calendar-profile inference",
   },
   {
     id: "mulanay-curated",

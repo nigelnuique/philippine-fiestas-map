@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T10:24:04.656Z",
+  "generatedAt": "2026-06-14T02:12:57.689Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -275529,7 +275529,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Agdum, Miagao."
+      "description": "Barangay patronal fiesta for Agdum, Miagao.",
+      "month": 4,
+      "dayStart": 20,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030002",
@@ -275542,7 +275545,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aguiauan, Miagao."
+      "description": "Barangay patronal fiesta for Aguiauan, Miagao.",
+      "month": 2,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Lady of Lourdes"
     },
     {
       "id": "bgy-063030003",
@@ -275611,7 +275618,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bacolod, Miagao."
+      "description": "Barangay patronal fiesta for Bacolod, Miagao.",
+      "month": 1,
+      "dayStart": 9,
+      "dateSource": "curated-online-miagao-fb",
+      "patronSaint": "Black Nazarene"
     },
     {
       "id": "bgy-063030008",
@@ -275624,7 +275635,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagumbayan, Miagao."
+      "description": "Barangay patronal fiesta for Bagumbayan, Miagao.",
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030009",
@@ -275653,7 +275667,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banga, Miagao."
+      "description": "Barangay patronal fiesta for Banga, Miagao.",
+      "month": 1,
+      "dayStart": 7,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030011",
@@ -275692,7 +275709,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baraclayan, Miagao."
+      "description": "Barangay patronal fiesta for Baraclayan, Miagao.",
+      "month": 4,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-063030014",
@@ -275705,7 +275726,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bariri, Miagao."
+      "description": "Barangay patronal fiesta for Bariri, Miagao.",
+      "month": 4,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "St. Anthony"
     },
     {
       "id": "bgy-063030015",
@@ -275752,7 +275777,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Belen, Miagao."
+      "description": "Barangay patronal fiesta for Belen, Miagao.",
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "curated-online-miagao-tripod"
     },
     {
       "id": "bgy-063030018",
@@ -275782,7 +275810,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bolocaue, Miagao."
+      "description": "Barangay patronal fiesta for Bolocaue, Miagao.",
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030020",
@@ -275795,7 +275826,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Buenavista Norte, Miagao."
+      "description": "Barangay patronal fiesta for Buenavista Norte, Miagao.",
+      "month": 4,
+      "dayStart": 30,
+      "dateSource": "curated-online-miagao-youtube",
+      "patronSaint": "Sta. Rita de Cascia"
     },
     {
       "id": "bgy-063030021",
@@ -275808,7 +275843,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Buenavista Sur, Miagao."
+      "description": "Barangay patronal fiesta for Buenavista Sur, Miagao.",
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-fb"
     },
     {
       "id": "bgy-063030022",
@@ -275821,7 +275859,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bugtong Lumangan, Miagao."
+      "description": "Barangay patronal fiesta for Bugtong Lumangan, Miagao.",
+      "month": 7,
+      "dayStart": 26,
+      "dateSource": "patron-saint-calendar-profile",
+      "patronSaint": "St. Joaquin and St. Anna"
     },
     {
       "id": "bgy-063030023",
@@ -275847,7 +275889,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabalaunan, Miagao."
+      "description": "Barangay patronal fiesta for Cabalaunan, Miagao.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "curated-online-miagao-fb",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-063030025",
@@ -275873,7 +275919,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cabunotan, Miagao."
+      "description": "Barangay patronal fiesta for Cabunotan, Miagao.",
+      "month": 4,
+      "dayStart": 21,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030027",
@@ -275886,7 +275935,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cadoldolan, Miagao."
+      "description": "Barangay patronal fiesta for Cadoldolan, Miagao.",
+      "month": 12,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Medalla Milagros"
     },
     {
       "id": "bgy-063030028",
@@ -275899,7 +275952,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cagbang, Miagao."
+      "description": "Barangay patronal fiesta for Cagbang, Miagao.",
+      "month": 4,
+      "dayStart": 29,
+      "dateSource": "curated-online-miagao-youtube",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-063030029",
@@ -275912,7 +275969,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caitib, Miagao."
+      "description": "Barangay patronal fiesta for Caitib, Miagao.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "La Purisima Concepcion"
     },
     {
       "id": "bgy-063030030",
@@ -275925,7 +275986,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calagtangan, Miagao."
+      "description": "Barangay patronal fiesta for Calagtangan, Miagao.",
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030031",
@@ -275938,7 +276002,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calampitao, Miagao."
+      "description": "Barangay patronal fiesta for Calampitao, Miagao.",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "curated-online-miagao-youtube",
+      "patronSaint": "Birhen Maria de Salvacion"
     },
     {
       "id": "bgy-063030032",
@@ -275997,7 +276065,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cubay Ubos, Miagao."
+      "description": "Barangay patronal fiesta for Cubay Ubos, Miagao.",
+      "month": 10,
+      "dayStart": 23,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Our Lady of the Holy Rosary"
     },
     {
       "id": "bgy-063030036",
@@ -276010,7 +276082,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dalije, Miagao."
+      "description": "Barangay patronal fiesta for Dalije, Miagao.",
+      "month": 1,
+      "dayStart": 27,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030037",
@@ -276023,7 +276098,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Damilisan, Miagao."
+      "description": "Barangay patronal fiesta for Damilisan, Miagao.",
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030038",
@@ -276036,7 +276114,12 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dawog, Miagao."
+      "description": "Barangay patronal fiesta for Dawog, Miagao.",
+      "month": 12,
+      "dayStart": 18,
+      "dayEnd": 19,
+      "dateSource": "curated-online-miagao-fb",
+      "patronSaint": "Nuestra Señora de Guía"
     },
     {
       "id": "bgy-063030039",
@@ -276049,7 +276132,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Diday, Miagao."
+      "description": "Barangay patronal fiesta for Diday, Miagao.",
+      "month": 4,
+      "dayStart": 4,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030040",
@@ -276062,7 +276148,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dingle, Miagao."
+      "description": "Barangay patronal fiesta for Dingle, Miagao.",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030041",
@@ -276118,7 +276207,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gines, Miagao."
+      "description": "Barangay patronal fiesta for Gines, Miagao.",
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030045",
@@ -276131,7 +276223,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guibongan, Miagao."
+      "description": "Barangay patronal fiesta for Guibongan, Miagao.",
+      "month": 6,
+      "dayStart": 26,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030046",
@@ -276144,7 +276239,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igbita, Miagao."
+      "description": "Barangay patronal fiesta for Igbita, Miagao.",
+      "month": 4,
+      "dayStart": 22,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030047",
@@ -276174,7 +276272,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igcabidio, Miagao."
+      "description": "Barangay patronal fiesta for Igcabidio, Miagao.",
+      "month": 12,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Immaculate Concepcion"
     },
     {
       "id": "bgy-063030050",
@@ -276187,7 +276289,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igcabito-On, Miagao."
+      "description": "Barangay patronal fiesta for Igcabito-On, Miagao.",
+      "month": 4,
+      "dayStart": 23,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030051",
@@ -276200,7 +276305,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igcatambor, Miagao."
+      "description": "Barangay patronal fiesta for Igcatambor, Miagao.",
+      "month": 4,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "San Joseph"
     },
     {
       "id": "bgy-063030052",
@@ -276213,7 +276322,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igdalaquit, Miagao."
+      "description": "Barangay patronal fiesta for Igdalaquit, Miagao.",
+      "month": 4,
+      "dayStart": 10,
+      "dayEnd": 11,
+      "dateSource": "curated-online-miagao-fb"
     },
     {
       "id": "bgy-063030053",
@@ -276226,7 +276339,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igdulaca, Miagao."
+      "description": "Barangay patronal fiesta for Igdulaca, Miagao.",
+      "month": 4,
+      "dayStart": 22,
+      "dateSource": "curated-online-miagao-holy-child-parish-fb",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-063030054",
@@ -276239,7 +276356,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igpajo, Miagao."
+      "description": "Barangay patronal fiesta for Igpajo, Miagao.",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030055",
@@ -276252,7 +276372,12 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igpandan, Miagao."
+      "description": "Barangay patronal fiesta for Igpandan, Miagao.",
+      "month": 12,
+      "dayStart": 25,
+      "dayEnd": 26,
+      "dateSource": "curated-online-miagao-fb",
+      "patronSaint": "The Holy Family"
     },
     {
       "id": "bgy-063030056",
@@ -276307,7 +276432,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Igtuba, Miagao."
+      "description": "Barangay patronal fiesta for Igtuba, Miagao.",
+      "month": 8,
+      "dayStart": 3,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030060",
@@ -276320,7 +276448,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ilog-Ilog, Miagao."
+      "description": "Barangay patronal fiesta for Ilog-Ilog, Miagao.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030061",
@@ -276333,7 +276464,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Indag-An, Miagao."
+      "description": "Barangay patronal fiesta for Indag-An, Miagao.",
+      "month": 5,
+      "dateSource": "curated-online-miagao-fb",
+      "patronSaint": "Our Lady of Fatima",
+      "dayStart": 13
     },
     {
       "id": "bgy-063030062",
@@ -276346,7 +276481,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kirayan Norte, Miagao."
+      "description": "Barangay patronal fiesta for Kirayan Norte, Miagao.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030063",
@@ -276359,7 +276497,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kirayan Sur, Miagao."
+      "description": "Barangay patronal fiesta for Kirayan Sur, Miagao.",
+      "month": 1,
+      "dayStart": 29,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030064",
@@ -276372,7 +276513,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Kirayan Tacas, Miagao."
+      "description": "Barangay patronal fiesta for Kirayan Tacas, Miagao.",
+      "month": 12,
+      "dayStart": 30,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030065",
@@ -276385,7 +276529,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for La Consolacion, Miagao."
+      "description": "Barangay patronal fiesta for La Consolacion, Miagao.",
+      "month": 1,
+      "dayStart": 13,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030066",
@@ -276398,7 +276545,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lacadon, Miagao."
+      "description": "Barangay patronal fiesta for Lacadon, Miagao.",
+      "month": 1,
+      "dayStart": 26,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Señor Sto. Niño"
     },
     {
       "id": "bgy-063030067",
@@ -276411,7 +276562,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lanutan, Miagao."
+      "description": "Barangay patronal fiesta for Lanutan, Miagao.",
+      "month": 7,
+      "dayStart": 10,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030068",
@@ -276424,7 +276578,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lumangan, Miagao."
+      "description": "Barangay patronal fiesta for Lumangan, Miagao.",
+      "month": 11,
+      "dayStart": 25,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Desposorio"
     },
     {
       "id": "bgy-063030069",
@@ -276437,7 +276595,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mabayan, Miagao."
+      "description": "Barangay patronal fiesta for Mabayan, Miagao.",
+      "month": 12,
+      "dayStart": 5,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "San Lorenzo Ruiz"
     },
     {
       "id": "bgy-063030070",
@@ -276463,7 +276625,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malagyan, Miagao."
+      "description": "Barangay patronal fiesta for Malagyan, Miagao.",
+      "month": 4,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030072",
@@ -276476,7 +276641,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mambatad, Miagao."
+      "description": "Barangay patronal fiesta for Mambatad, Miagao.",
+      "month": 5,
+      "dayStart": 11,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030073",
@@ -276489,7 +276657,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maninila, Miagao."
+      "description": "Barangay patronal fiesta for Maninila, Miagao.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030074",
@@ -276502,7 +276674,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maricolcol, Miagao."
+      "description": "Barangay patronal fiesta for Maricolcol, Miagao.",
+      "month": 3,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod"
     },
     {
       "id": "bgy-063030075",
@@ -276545,7 +276720,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Matalngon, Miagao."
+      "description": "Barangay patronal fiesta for Matalngon, Miagao.",
+      "month": 2,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Nuestra Señora de la Candelaria"
     },
     {
       "id": "bgy-063030078",
@@ -276574,7 +276753,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Nam-O Sur, Miagao."
+      "description": "Barangay patronal fiesta for Nam-O Sur, Miagao.",
+      "month": 2,
+      "dayStart": 24,
+      "dateSource": "curated-online-miagao-fb"
     },
     {
       "id": "bgy-063030080",
@@ -276600,7 +276782,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Narat-An, Miagao."
+      "description": "Barangay patronal fiesta for Narat-An, Miagao.",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Nuestra Señora de Guia"
     },
     {
       "id": "bgy-063030083",
@@ -276613,7 +276799,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Narorogan, Miagao."
+      "description": "Barangay patronal fiesta for Narorogan, Miagao.",
+      "month": 11,
+      "dayStart": 27,
+      "dateSource": "curated-online-miagao-fb"
     },
     {
       "id": "bgy-063030084",
@@ -276626,7 +276815,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Naulid, Miagao."
+      "description": "Barangay patronal fiesta for Naulid, Miagao.",
+      "month": 1,
+      "dayStart": 16,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030085",
@@ -276639,7 +276831,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Olango, Miagao."
+      "description": "Barangay patronal fiesta for Olango, Miagao.",
+      "month": 4,
+      "dayStart": 15,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030086",
@@ -276665,7 +276860,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Onop, Miagao."
+      "description": "Barangay patronal fiesta for Onop, Miagao.",
+      "month": 4,
+      "dayStart": 10,
+      "dayEnd": 11,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030088",
@@ -276678,7 +276877,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Oyungan, Miagao."
+      "description": "Barangay patronal fiesta for Oyungan, Miagao.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030089",
@@ -276691,7 +276893,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Palaca, Miagao."
+      "description": "Barangay patronal fiesta for Palaca, Miagao.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030090",
@@ -276704,7 +276909,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Paro-On, Miagao."
+      "description": "Barangay patronal fiesta for Paro-On, Miagao.",
+      "month": 1,
+      "dayStart": 31,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Saint Peter"
     },
     {
       "id": "bgy-063030091",
@@ -276717,7 +276926,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Potrido, Miagao."
+      "description": "Barangay patronal fiesta for Potrido, Miagao.",
+      "month": 10,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-fb"
     },
     {
       "id": "bgy-063030092",
@@ -276730,7 +276942,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pudpud, Miagao."
+      "description": "Barangay patronal fiesta for Pudpud, Miagao.",
+      "month": 2,
+      "dayStart": 28,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030093",
@@ -276743,7 +276958,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pungtod Monteclaro, Miagao."
+      "description": "Barangay patronal fiesta for Pungtod Monteclaro, Miagao.",
+      "month": 3,
+      "dayStart": 20,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030094",
@@ -276769,7 +276987,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sag-On, Miagao."
+      "description": "Barangay patronal fiesta for Sag-On, Miagao.",
+      "month": 4,
+      "dayStart": 27,
+      "dateSource": "curated-online-miagao-youtube",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-063030096",
@@ -276846,7 +277068,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Saring, Miagao."
+      "description": "Barangay patronal fiesta for Saring, Miagao.",
+      "month": 3,
+      "dayStart": 31,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030101",
@@ -276859,7 +277084,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sibucao, Miagao."
+      "description": "Barangay patronal fiesta for Sibucao, Miagao.",
+      "month": 11,
+      "dayStart": 21,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Our Lady of Miraculous Medal"
     },
     {
       "id": "bgy-063030102",
@@ -276885,7 +277114,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabunacan, Miagao."
+      "description": "Barangay patronal fiesta for Tabunacan, Miagao.",
+      "month": 4,
+      "dayStart": 23,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "St. Vincent Ferrer"
     },
     {
       "id": "bgy-063030104",
@@ -276915,7 +277148,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tambong, Miagao."
+      "description": "Barangay patronal fiesta for Tambong, Miagao.",
+      "month": 2,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Lady of Lourdes"
     },
     {
       "id": "bgy-063030106",
@@ -276928,7 +277165,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tan-Agan, Miagao."
+      "description": "Barangay patronal fiesta for Tan-Agan, Miagao.",
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030107",
@@ -276941,7 +277181,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tatoy, Miagao."
+      "description": "Barangay patronal fiesta for Tatoy, Miagao.",
+      "month": 11,
+      "dayStart": 29,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030108",
@@ -276954,7 +277197,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ticdalan, Miagao."
+      "description": "Barangay patronal fiesta for Ticdalan, Miagao.",
+      "month": 5,
+      "dayStart": 6,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030109",
@@ -276967,7 +277213,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tig-Amaga, Miagao."
+      "description": "Barangay patronal fiesta for Tig-Amaga, Miagao.",
+      "month": 4,
+      "dayStart": 8,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030110",
@@ -276980,7 +277229,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tig-Apog-Apog, Miagao."
+      "description": "Barangay patronal fiesta for Tig-Apog-Apog, Miagao.",
+      "month": 3,
+      "dayStart": 24,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030111",
@@ -277024,7 +277276,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tigmalapad, Miagao."
+      "description": "Barangay patronal fiesta for Tigmalapad, Miagao.",
+      "month": 5,
+      "dayStart": 4,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030114",
@@ -277063,7 +277318,10 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tugura-Ao, Miagao."
+      "description": "Barangay patronal fiesta for Tugura-Ao, Miagao.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "curated-online-miagao-youtube"
     },
     {
       "id": "bgy-063030117",
@@ -277076,7 +277334,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tumagboc, Miagao."
+      "description": "Barangay patronal fiesta for Tumagboc, Miagao.",
+      "month": 4,
+      "datePrecision": "month",
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Nuestra Señora de Salvacion"
     },
     {
       "id": "bgy-063030118",
@@ -277123,7 +277385,11 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Valencia, Miagao."
+      "description": "Barangay patronal fiesta for Valencia, Miagao.",
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-063030121",
@@ -277136,7 +277402,12 @@
       "municipalityPsgcPsa": "063030000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Wayang, Miagao."
+      "description": "Barangay patronal fiesta for Wayang, Miagao.",
+      "month": 12,
+      "dayStart": 28,
+      "dayEnd": 29,
+      "dateSource": "curated-online-miagao-tripod",
+      "patronSaint": "Holy Rosary"
     },
     {
       "id": "bgy-063031001",
@@ -567249,14 +567520,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-13T10:24:04.656Z",
+    "appliedAt": "2026-06-14T02:12:57.689Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4341,
-      "fromOverride": 873,
+      "alreadyHadDate": 4342,
+      "fromOverride": 950,
       "fromPatronSaint": 0,
+      "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36830
+      "stillMissing": 36752
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567305,8 +567577,8 @@
         "missed": 0
       },
       "miagao": {
-        "entries": 16,
-        "matched": 16,
+        "entries": 93,
+        "matched": 93,
         "missed": 0
       },
       "tarlac": {
@@ -567480,6 +567752,7 @@
       "lgu-maasin-city-gov-ph",
       "lgu-maasin-city-directory",
       "wikipedia-search-cache",
+      "patron-saint-calendar-profile",
       "patron-saint-calendar"
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T08:47:16.830Z",
+  "generatedAt": "2026-06-14T08:57:12.053Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -216909,7 +216909,10 @@
       "municipalityPsgcPsa": "051724000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cararayan, City Of Naga."
+      "description": "Barangay patronal fiesta for Cararayan, City Of Naga.",
+      "month": 10,
+      "dayStart": 10,
+      "dateSource": "theoldchurches-cararayan-city-of-naga"
     },
     {
       "id": "bgy-051724008",
@@ -287188,7 +287191,11 @@
       "municipalityPsgcPsa": "064502000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Jorge L. Araneta (Ma-Ao Central), City Of Bago."
+      "description": "Barangay patronal fiesta for Jorge L. Araneta (Ma-Ao Central), City Of Bago.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-jorge-araneta-city-of-bago",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-064502016",
@@ -293594,7 +293601,11 @@
       "municipalityPsgcPsa": "064526000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Eustaquio Lopez, City Of Silay."
+      "description": "Barangay patronal fiesta for Eustaquio Lopez, City Of Silay.",
+      "month": 9,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-eustaquio-lopez-city-of-silay",
+      "patronSaint": "St. Thomas of Villanueva"
     },
     {
       "id": "bgy-064526010",
@@ -294744,7 +294755,11 @@
       "municipalityPsgcPsa": "064531000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay Ix (Daan Banwa), City Of Victorias."
+      "description": "Barangay patronal fiesta for Barangay Ix (Daan Banwa), City Of Victorias.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-daan-banwa-city-of-victorias",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-064531013",
@@ -300625,7 +300640,10 @@
       "municipalityPsgcPsa": "071215000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Corella."
+      "description": "Barangay patronal fiesta for Poblacion, Corella.",
+      "month": 4,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-poblacion-corella"
     },
     {
       "id": "bgy-071215007",
@@ -308100,7 +308118,11 @@
       "municipalityPsgcPsa": "071238000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, San Miguel."
+      "description": "Barangay patronal fiesta for Poblacion, San Miguel.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "theoldchurches-poblacion-san-miguel",
+      "patronSaint": "St. Michael the Archangel"
     },
     {
       "id": "bgy-071238015",
@@ -309565,7 +309587,11 @@
       "municipalityPsgcPsa": "071244000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Trinidad."
+      "description": "Barangay patronal fiesta for Poblacion, Trinidad.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-poblacion-trinidad",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-071244016",
@@ -569004,15 +569030,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T08:47:16.830Z",
+    "appliedAt": "2026-06-14T08:57:12.053Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1427,
+      "fromOverride": 1434,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36286
+      "stillMissing": 36279
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569146,8 +569172,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 66,
-        "matched": 66,
+        "entries": 69,
+        "matched": 69,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -569156,13 +569182,13 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 54,
-        "matched": 54,
+        "entries": 57,
+        "matched": 57,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 47,
-        "matched": 47,
+        "entries": 48,
+        "matched": 48,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {

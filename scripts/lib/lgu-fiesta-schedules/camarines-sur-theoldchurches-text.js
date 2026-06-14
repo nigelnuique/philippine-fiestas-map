@@ -425,4 +425,13 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-casay-lupi",
     note: "TheOldChurches St. John Paul II Church in Casay, Lupi, Camarines Sur — feast October 22; Casay, Lupi, Camarines Sur 4409",
   },
+  {
+    barangay: "Cararayan",
+    municipality: "City Of Naga",
+    province: "Camarines Sur",
+    month: 10,
+    dayStart: 10,
+    dateSource: "theoldchurches-cararayan-city-of-naga",
+    note: "TheOldChurches Mater Salutis Church in Cararayan, Naga City, Camarines Sur — feast October 10; Cararayan, Naga City, Camarines Sur 4400",
+  },
 ];

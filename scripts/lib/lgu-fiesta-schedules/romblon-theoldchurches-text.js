@@ -102,4 +102,14 @@ export const ROMBLON_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-andrew-the-apostle-church-san-andres",
     note: "TheOldChurches St. Andrew the Apostle Church in San Andres, Romblon — feast November 30; San Andres, Romblon 5504",
   },
+  {
+    barangay: "Poblacion",
+    municipality: "Corcuera",
+    province: "Romblon",
+    month: 5,
+    dayStart: 1,
+    patronSaint: "St. Joseph the Worker",
+    dateSource: "theoldchurches-st-joseph-the-worker-corcuera-poblacion",
+    note: "TheOldChurches St. Joseph the Worker Church in Corcuera, Romblon — feast May 1; Corcuera, Romblon 5514",
+  },
 ];

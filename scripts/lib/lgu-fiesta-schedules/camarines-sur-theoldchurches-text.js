@@ -538,4 +538,14 @@ export const CAMARINES_SUR_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-st-dominic-gainza-district-i-pob",
     note: "TheOldChurches St. Dominic of Guzman Church in Gainza, Camarines Sur — feast August 8; Gainza, Camarines Sur 4412",
   },
+  {
+    barangay: "Siramag (Pob.)",
+    municipality: "Balatan",
+    province: "Camarines Sur",
+    month: 2,
+    dayStart: 18,
+    patronSaint: "Our Lady of Perpetual Help",
+    dateSource: "theoldchurches-our-lady-perpetual-help-balatan-siramag-pob",
+    note: "TheOldChurches Our Lady of Perpetual Help Church in Balatan, Camarines Sur — feast February 18; Balatan, Camarines Sur 4436",
+  },
 ];

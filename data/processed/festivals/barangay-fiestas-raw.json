@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:39:07.010Z",
+  "generatedAt": "2026-06-14T13:46:45.598Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -192328,7 +192328,11 @@
       "municipalityPsgcPsa": "175906000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Corcuera."
+      "description": "Barangay patronal fiesta for Poblacion, Corcuera.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-st-joseph-the-worker-corcuera-poblacion",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-175906013",
@@ -208498,7 +208502,11 @@
       "municipalityPsgcPsa": "051702000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Siramag (Pob.), Balatan."
+      "description": "Barangay patronal fiesta for Siramag (Pob.), Balatan.",
+      "month": 2,
+      "dayStart": 18,
+      "dateSource": "theoldchurches-our-lady-perpetual-help-balatan-siramag-pob",
+      "patronSaint": "Our Lady of Perpetual Help"
     },
     {
       "id": "bgy-051702014",
@@ -572519,15 +572527,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T13:39:07.010Z",
+    "appliedAt": "2026-06-14T13:46:45.598Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4195,
-      "fromOverride": 2442,
+      "fromOverride": 2444,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35407
+      "stillMissing": 35405
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572926,8 +572934,8 @@
         "missed": 0
       },
       "camarinesSurTheoldchurches": {
-        "entries": 59,
-        "matched": 59,
+        "entries": 60,
+        "matched": 60,
         "missed": 0
       },
       "negrosOrientalTheoldchurches": {
@@ -572961,8 +572969,8 @@
         "missed": 0
       },
       "romblonTheoldchurches": {
-        "entries": 11,
-        "matched": 11,
+        "entries": 12,
+        "matched": 12,
         "missed": 0
       },
       "guimarasTheoldchurches": {

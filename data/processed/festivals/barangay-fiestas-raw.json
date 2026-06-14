@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T05:10:31.412Z",
+  "generatedAt": "2026-06-14T05:11:10.485Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -358937,7 +358937,11 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Curva, Ormoc City."
+      "description": "Barangay patronal fiesta for Curva, Ormoc City.",
+      "month": 9,
+      "dayStart": 23,
+      "dateSource": "parish-holy-rosary-curva-ormoc",
+      "patronSaint": "Our Lady of the Most Holy Rosary"
     },
     {
       "id": "bgy-083738019",
@@ -359487,7 +359491,11 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Linao, Ormoc City."
+      "description": "Barangay patronal fiesta for Linao, Ormoc City.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "parish-st-mark-linao-ormoc",
+      "patronSaint": "Saint Mark the Evangelist"
     },
     {
       "id": "bgy-083738061",
@@ -359700,7 +359708,11 @@
       "municipalityPsgcPsa": "083738000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Punta, Ormoc City."
+      "description": "Barangay patronal fiesta for Punta, Ormoc City.",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "parish-st-john-paul-ii-punta-ormoc",
+      "patronSaint": "Saint John Paul II"
     },
     {
       "id": "bgy-083738077",
@@ -567589,15 +567601,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T05:10:31.412Z",
+    "appliedAt": "2026-06-14T05:11:10.485Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4336,
-      "fromOverride": 976,
+      "fromOverride": 979,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36732
+      "stillMissing": 36729
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567681,8 +567693,8 @@
         "missed": 0
       },
       "ormoc": {
-        "entries": 5,
-        "matched": 5,
+        "entries": 8,
+        "matched": 8,
         "missed": 0
       },
       "curatedOnline": {

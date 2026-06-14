@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T07:26:44.355Z",
+  "generatedAt": "2026-06-14T07:27:35.388Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -203679,7 +203679,10 @@
       "municipalityPsgcPsa": "051603000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Alawihao, Daet (Capital)."
+      "description": "Barangay patronal fiesta for Alawihao, Daet (Capital).",
+      "month": 4,
+      "dayStart": 15,
+      "dateSource": "theoldchurches-alawihao-daet-capital"
     },
     {
       "id": "bgy-051603002",
@@ -203796,7 +203799,10 @@
       "municipalityPsgcPsa": "051603000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Gahonon, Daet (Capital)."
+      "description": "Barangay patronal fiesta for Gahonon, Daet (Capital).",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-gahonon-daet-capital"
     },
     {
       "id": "bgy-051603014",
@@ -568854,15 +568860,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T07:26:44.355Z",
+    "appliedAt": "2026-06-14T07:27:35.388Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4334,
-      "fromOverride": 1385,
+      "fromOverride": 1387,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36325
+      "stillMissing": 36323
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569053,6 +569059,11 @@
       "guimarasTheoldchurches": {
         "entries": 1,
         "matched": 1,
+        "missed": 0
+      },
+      "camarinesNorteTheoldchurches": {
+        "entries": 2,
+        "matched": 2,
         "missed": 0
       },
       "curatedOnline": {

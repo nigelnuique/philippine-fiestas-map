@@ -334,6 +334,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
   },
   {
+    id: "camarines-norte-theoldchurches",
+    municipality: "Camarines Norte (multi-municipality)",
+    province: "Camarines Norte",
+    format: "curated-text",
+    parser: "CAMARINES_NORTE_THEOLDCHURCHES_ENTRIES",
+    status: "partial",
+    dateSource: "theoldchurches-camarines-norte",
+    notes: "TheOldChurches barangay parish pages with address-level 1:1 PSGC matches",
+  },
+  {
     id: "pangasinan-parish-ph",
     municipality: "Pangasinan (multi-municipality)",
     province: "Pangasinan",

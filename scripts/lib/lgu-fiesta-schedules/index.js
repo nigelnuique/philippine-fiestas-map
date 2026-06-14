@@ -41,6 +41,7 @@ import { SOUTHERN_LEYTE_THEOLDCHURCHES_ENTRIES } from "./southern-leyte-theoldch
 import { ANTIQUE_THEOLDCHURCHES_ENTRIES } from "./antique-theoldchurches-text.js";
 import { ROMBLON_THEOLDCHURCHES_ENTRIES } from "./romblon-theoldchurches-text.js";
 import { GUIMARAS_THEOLDCHURCHES_ENTRIES } from "./guimaras-theoldchurches-text.js";
+import { CAMARINES_NORTE_THEOLDCHURCHES_ENTRIES } from "./camarines-norte-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -708,6 +709,9 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const antiqueTheoldchurchesEntries = ANTIQUE_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const romblonTheoldchurchesEntries = ROMBLON_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const guimarasTheoldchurchesEntries = GUIMARAS_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const camarinesNorteTheoldchurchesEntries = CAMARINES_NORTE_THEOLDCHURCHES_ENTRIES.map((e) => ({
+    ...e,
+  }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -759,6 +763,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const antiqueTheoldchurches = resolveScheduleEntries(antiqueTheoldchurchesEntries);
   const romblonTheoldchurches = resolveScheduleEntries(romblonTheoldchurchesEntries);
   const guimarasTheoldchurches = resolveScheduleEntries(guimarasTheoldchurchesEntries);
+  const camarinesNorteTheoldchurches = resolveScheduleEntries(camarinesNorteTheoldchurchesEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -808,6 +813,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...antiqueTheoldchurches.byPsgc,
       ...romblonTheoldchurches.byPsgc,
       ...guimarasTheoldchurches.byPsgc,
+      ...camarinesNorteTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -1004,6 +1010,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: guimarasTheoldchurchesEntries.length,
         matched: guimarasTheoldchurches.matched,
         missed: guimarasTheoldchurches.missed,
+      },
+      camarinesNorteTheoldchurches: {
+        entries: camarinesNorteTheoldchurchesEntries.length,
+        matched: camarinesNorteTheoldchurches.matched,
+        missed: camarinesNorteTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

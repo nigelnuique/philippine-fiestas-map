@@ -173,6 +173,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "ParishPH + Ormoc Cultural Mapping ICH; 8/110 dated (Valencia, San Pablo Simangan, Cogon, Ipil, Manlilinao, Curva, Linao, Punta)",
   },
   {
+    id: "leyte-parish-ph",
+    municipality: "Leyte (multi-municipality)",
+    province: "Leyte",
+    format: "curated-text",
+    parser: "LEYTE_PARISH_FIESTA_ENTRIES",
+    status: "partial",
+    dateSource: "parish-ph-leyte",
+    notes: "ParishPH 1:1 matches: Palo (2), Tanauan, Abuyog, Tolosa, Capoocan, Kananga, Villaba, Isabel",
+  },
+  {
     id: "dulag-parish",
     municipality: "Dulag",
     province: "Leyte",
@@ -200,7 +210,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "TACLOBAN_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "parish-tacloban-city",
-    notes: "ParishPH 1:1 barangay matches; 14/138 dated incl. patron-saint + Abucay, Apitong, Bagacay, Tigbao",
+    notes: "ParishPH 1:1 barangay matches; 15/138 dated incl. patron-saint + Abucay, Apitong, Bagacay, Tigbao, San Jose (83)",
   },
   {
     id: "tacloban-city",

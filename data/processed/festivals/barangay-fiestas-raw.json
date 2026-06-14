@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T06:28:08.754Z",
+  "generatedAt": "2026-06-14T06:30:28.457Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -344289,7 +344289,10 @@
       "municipalityPsgcPsa": "083701000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balocawehay, Abuyog."
+      "description": "Barangay patronal fiesta for Balocawehay, Abuyog.",
+      "month": 9,
+      "dayStart": 16,
+      "dateSource": "parish-alliance-two-hearts-balocawehay-abuyog"
     },
     {
       "id": "bgy-083701009",
@@ -350299,7 +350302,10 @@
       "municipalityPsgcPsa": "083714000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lemon, Capoocan."
+      "description": "Barangay patronal fiesta for Lemon, Capoocan.",
+      "month": 5,
+      "dayStart": 30,
+      "dateSource": "parish-nuestra-senora-salvacion-lemon-capoocan"
     },
     {
       "id": "bgy-083714010",
@@ -354033,7 +354039,11 @@
       "municipalityPsgcPsa": "083722000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Matlang, Isabel."
+      "description": "Barangay patronal fiesta for Matlang, Isabel.",
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "parish-st-augustine-matlang-isabel",
+      "patronSaint": "St. Augustine of Hippo"
     },
     {
       "id": "bgy-083722015",
@@ -355846,7 +355856,11 @@
       "municipalityPsgcPsa": "083726000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tugbong, Kananga."
+      "description": "Barangay patronal fiesta for Tugbong, Kananga.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "parish-st-john-baptizer-tugbong-kananga",
+      "patronSaint": "St. John the Baptist"
     },
     {
       "id": "bgy-083728001",
@@ -360444,7 +360458,11 @@
       "municipalityPsgcPsa": "083739000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Libertad, Palo."
+      "description": "Barangay patronal fiesta for Libertad, Palo.",
+      "month": 6,
+      "dayStart": 19,
+      "dateSource": "parish-st-elizabeth-libertad-palo",
+      "patronSaint": "St. Elizabeth of Hungary"
     },
     {
       "id": "bgy-083739018",
@@ -360470,7 +360488,10 @@
       "municipalityPsgcPsa": "083739000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pawing, Palo."
+      "description": "Barangay patronal fiesta for Pawing, Palo.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "parish-holy-rosary-pawing-palo"
     },
     {
       "id": "bgy-083739020",
@@ -364271,10 +364292,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Barangay 83 (San Jose), City Of Tacloban (Capital).",
-      "month": 3,
-      "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "month": 5,
+      "dayStart": 25,
+      "dateSource": "parish-san-jose-tacloban",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-083747116",
@@ -365323,7 +365344,11 @@
       "municipalityPsgcPsa": "083748000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Canramos (Pob.), Tanauan."
+      "description": "Barangay patronal fiesta for Canramos (Pob.), Tanauan.",
+      "month": 8,
+      "dayStart": 14,
+      "dateSource": "parish-st-vincent-ferrer-canramos-tanauan",
+      "patronSaint": "St. Vincent Ferrer"
     },
     {
       "id": "bgy-083748042",
@@ -365711,7 +365736,11 @@
       "municipalityPsgcPsa": "083749000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Telegrafo, Tolosa."
+      "description": "Barangay patronal fiesta for Telegrafo, Tolosa.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "parish-st-peter-telegrafo-tolosa",
+      "patronSaint": "St. Peter the Apostle"
     },
     {
       "id": "bgy-083749014",
@@ -366243,7 +366272,11 @@
       "municipalityPsgcPsa": "083751000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tagbubunga, Villaba."
+      "description": "Barangay patronal fiesta for Tagbubunga, Villaba.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "parish-st-andrew-tagbubunga-villaba",
+      "patronSaint": "St. Andrew the Apostle"
     },
     {
       "id": "bgy-083751030",
@@ -567631,15 +567664,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T06:28:08.754Z",
+    "appliedAt": "2026-06-14T06:30:28.457Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4335,
-      "fromOverride": 988,
+      "alreadyHadDate": 4334,
+      "fromOverride": 998,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36721
+      "stillMissing": 36712
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567728,8 +567761,8 @@
         "missed": 0
       },
       "tacloban": {
-        "entries": 4,
-        "matched": 4,
+        "entries": 5,
+        "matched": 5,
         "missed": 0
       },
       "dulag": {
@@ -567740,6 +567773,11 @@
       "carigara": {
         "entries": 1,
         "matched": 1,
+        "missed": 0
+      },
+      "leyteParish": {
+        "entries": 9,
+        "matched": 9,
         "missed": 0
       },
       "curatedOnline": {

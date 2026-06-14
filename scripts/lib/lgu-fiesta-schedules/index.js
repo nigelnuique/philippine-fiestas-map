@@ -23,6 +23,7 @@ import { OTON_FIESTA_ENTRIES, OTON_FIESTA_RELATIVE_SCHEDULE } from "./oton-text.
 import { ORMOC_FIESTA_ENTRIES } from "./ormoc-text.js";
 import { TACLOBAN_FIESTA_ENTRIES } from "./tacloban-text.js";
 import { DULAG_FIESTA_ENTRIES, CARIGARA_FIESTA_ENTRIES } from "./dulag-carigara-text.js";
+import { LEYTE_PARISH_FIESTA_ENTRIES } from "./leyte-parish-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -659,6 +660,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const taclobanEntries = TACLOBAN_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const dulagEntries = DULAG_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const carigaraEntries = CARIGARA_FIESTA_ENTRIES.map((e) => ({ ...e }));
+  const leyteParishEntries = LEYTE_PARISH_FIESTA_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -690,6 +692,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const tacloban = resolveScheduleEntries(taclobanEntries);
   const dulag = resolveScheduleEntries(dulagEntries);
   const carigara = resolveScheduleEntries(carigaraEntries);
+  const leyteParish = resolveScheduleEntries(leyteParishEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -721,6 +724,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...tacloban.byPsgc,
       ...dulag.byPsgc,
       ...carigara.byPsgc,
+      ...leyteParish.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -827,6 +831,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: carigaraEntries.length,
         matched: carigara.matched,
         missed: carigara.missed,
+      },
+      leyteParish: {
+        entries: leyteParishEntries.length,
+        matched: leyteParish.matched,
+        missed: leyteParish.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

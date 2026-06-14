@@ -42,4 +42,14 @@ export const TACLOBAN_FIESTA_ENTRIES = [
     dateSource: "parish-blessed-sacrament-tigbao-tacloban",
     note: "ParishPH Archdiocesan Shrine and Parish of the Blessed Sacrament, Brgy. Tigbao",
   },
+  {
+    barangay: "Barangay 83 (San Jose)",
+    municipality: "City Of Tacloban (Capital)",
+    province: "Leyte",
+    month: 5,
+    dayStart: 25,
+    patronSaint: "St. Joseph",
+    dateSource: "parish-san-jose-tacloban",
+    note: "ParishPH San Jose Parish, Brgy. San Jose (central San Jose barangay 83; parish seat)",
+  },
 ];

@@ -74,6 +74,138 @@ export const LUGAIT_FIESTA_SCHEDULE = [
   { barangay: "Lower Talacogon", date: "December 8", patronSaint: "Immaculate Conception" },
 ];
 
+export const INITAO_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Aluna", date: "January 9", patronSaint: "Black Nazarene" },
+  { barangay: "Jampason", date: "January 14", patronSaint: "Sr. Sto. Nino" },
+  { barangay: "Pagahan", date: "February 2", patronSaint: "Nuestra Sra. de Candelaria" },
+  { barangay: "Kanitoan", date: "March 12", patronSaint: "San Francisco Javier" },
+  { barangay: "Tawantawan", date: "March 19", patronSaint: "Sr. San Jose" },
+  { barangay: "Pontacon", date: "April 5", patronSaint: "San Vicente Ferrer" },
+  { barangay: "Andales", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Sinalac", date: "May 20", patronSaint: "San Isidro Labrador" },
+  { barangay: "Tubigan", date: "June 24", patronSaint: "Sr. San Juan de Bautista" },
+  { barangay: "San Pedro", date: "June 29", patronSaint: "Sr. San Pedro" },
+  { barangay: "Calacapan", date: "July 16", patronSaint: "Birhen del Carmen" },
+  { barangay: "Kamelon", date: "September 11", patronSaint: "San Nicolas de Tolentino" },
+  { barangay: "Oguis", date: "September 29", patronSaint: "Sr. San Miguel" },
+  { barangay: "Gimangpang", date: "October 4", patronSaint: "San Francisco de Assisi" },
+  { barangay: "Poblacion", date: "December 3", patronSaint: "San Francisco Javier" },
+  { barangay: "Apas", date: "December 25", patronSaint: "Sagrada de Pamilya" },
+];
+
+export const NAAWAN_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Mapulog", date: "January 16", patronSaint: "Sr. Sto. Nino" },
+  { barangay: "Mat-I", date: "January 24", patronSaint: "Nuestra Sra. de la Paz" },
+  { barangay: "Patag", date: "May 3", patronSaint: "Sta. Cruz" },
+  { barangay: "Linangkayan", date: "August 10", patronSaint: "Sta. Filomena" },
+  { barangay: "Maputi", date: "August 16", patronSaint: "Sr. San Roque" },
+  { barangay: "Don Pedro", date: "September 20", patronSaint: "Sr. San Miguel" },
+  { barangay: "Tagbalogo", date: "October 14", patronSaint: "Sr. San Pedro" },
+  { barangay: "Tuboran", date: "October 15", patronSaint: "Birhen del Rosario" },
+  { barangay: "Poblacion", date: "December 14", patronSaint: "Birhen de los Remedios" },
+];
+
+export const GITAGUM_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "3rd Sunday of January", patronSaint: "Sr. Sto. Nino" },
+  { barangay: "Cogon", date: "February 22", patronSaint: "San Pedro" },
+  { barangay: "Matangad", date: "April 15", patronSaint: "Sr. San Vicente Ferrer" },
+  { barangay: "Ulab", date: "August 15", patronSaint: "Senora de la Asuncion" },
+  { barangay: "Kilangit", date: "August 25", patronSaint: "San Augustine" },
+  { barangay: "Carlos P. Garcia", date: "October 10", patronSaint: "Senora del Pilar" },
+  { barangay: "Burnay", date: "October 12", patronSaint: "Senora del Pilar" },
+  { barangay: "Pangayawan", date: "October 12", patronSaint: "Del Pilar" },
+  { barangay: "Tala-O", date: "October 12", patronSaint: "Del Pilar" },
+  { barangay: "Quezon", date: "November 20" },
+  { barangay: "Gregorio Pelaez (Lagutay)", date: "December 29", patronSaint: "Adanugeba" },
+];
+
+export const LAGUINDINGAN_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Lapad", date: "January 7", patronSaint: "Black Nazarene" },
+  { barangay: "Sinai", date: "March 19", patronSaint: "San Isidro Labrador" },
+  { barangay: "Gasi", date: "April 14", patronSaint: "San Vicente Ferrer" },
+  { barangay: "Poblacion", date: "April 20", patronSaint: "San Isidro Labrador" },
+  { barangay: "Kibaghot", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Mauswagon", date: "September 29", patronSaint: "San Miguel Archangel" },
+  { barangay: "Aromahon", date: "August 31", patronSaint: "San Roque" },
+  { barangay: "Sambulawan", date: "December 8", patronSaint: "Immaculate Conception" },
+  { barangay: "Moog", date: "December 14", patronSaint: "Birhen Maria de los Remedios" },
+  { barangay: "Tubajon", date: "December 15", patronSaint: "Medalla Milagrosa" },
+  { barangay: "Liberty", date: "November 20", patronSaint: "San Martin" },
+];
+
+export const MANTICAO_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Paniangan", date: "January 10", patronSaint: "Sto. Nino" },
+  { barangay: "Punta Silum", date: "January 14", patronSaint: "Sr. Sto. Nino" },
+  { barangay: "Cabalantian", date: "March 19", patronSaint: "San Jose" },
+  { barangay: "Argayoso", date: "May 3", patronSaint: "Sta. Cruz" },
+  { barangay: "Patag", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Poblacion", date: "June 13", patronSaint: "San Antonio de Padua" },
+  { barangay: "Pagawan", date: "August 25", patronSaint: "San Augustine" },
+  { barangay: "Balintad", date: "September 20", patronSaint: "San Miguel" },
+  { barangay: "Digkilaan", date: "October 14", patronSaint: "Birhen sa Fatima" },
+  { barangay: "Upper Malubog", date: "October 3-4", patronSaint: "San Francisco" },
+  { barangay: "Mahayahay", date: "October 26", patronSaint: "Mother of Perpetual Help" },
+  { barangay: "Tuod", date: "Last week of October", patronSaint: "Christ the King" },
+  { barangay: "Camanga", date: "November 26", patronSaint: "San Vicente Ferrer" },
+];
+
+export const CLAVERIA_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Poblacion", date: "February 10-11", patronSaint: "Birhen sa Lourdes" },
+  { barangay: "Malagana", date: "Every 3rd Saturday of February", patronSaint: "Nuestra Senora de Salvacion" },
+  { barangay: "Tipolohon", date: "March 14-19", patronSaint: "San Roque" },
+  { barangay: "Tamboboan", date: "March 19-20", patronSaint: "San Roque" },
+  { barangay: "Rizal", date: "April 4-5", patronSaint: "San Vicente" },
+  { barangay: "Santa Cruz", date: "April 21-22", patronSaint: "Birhen sa Medalla Milagrosa" },
+  { barangay: "Madaguing", date: "May 11-12", patronSaint: "San Isidro Labrador" },
+  { barangay: "Cabacungan", date: "May 12-13", patronSaint: "Birhen sa Fatima" },
+  { barangay: "Lanise", date: "May 12-13", patronSaint: "Birhen sa Fatima" },
+  { barangay: "Ani-E", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Hinaplanan", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Pambugas", date: "May 14-15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Pelaez (Don Gregorio Pelaez)", date: "Every 1st Wednesday of June", patronSaint: "Mother of Perpetual Help" },
+  { barangay: "Luna", date: "Every 3rd Saturday of June", patronSaint: "Sta. Cruz" },
+  { barangay: "Panampawan", date: "July 24-25", patronSaint: "Sr. Santiago" },
+  { barangay: "Plaridel", date: "August 15-16", patronSaint: "San Roque" },
+  { barangay: "Punong", date: "September 21-29", patronSaint: "San Rafael" },
+  { barangay: "Minalwang", date: "October 7-8", patronSaint: "Mother of Perpetual Help" },
+  { barangay: "Bulahan", date: "October 14-15", patronSaint: "St. Theresa de Avila" },
+  { barangay: "Patrocenio", date: "November 23-24", patronSaint: "Nuestra Senyora del Patrocino" },
+  { barangay: "Aposkahoy", date: "December 2-3", patronSaint: "San Francisco Javier" },
+  { barangay: "Gumaod", date: "Every 1st Thursday of December", patronSaint: "Sagrado de Corazon" },
+  { barangay: "Mat-I", date: "Every 2nd Saturday of December", patronSaint: "Nuestra Senora de Salvacion" },
+];
+
+export const ALUBIJID_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Calatcat", date: "January 4", patronSaint: "Sagrada Pamilya" },
+  { barangay: "Talaba", date: "January 8", patronSaint: "Sagrada Pamilya" },
+  { barangay: "Tugasnon", date: "January 22", patronSaint: "Sagrada Pamilya" },
+  { barangay: "Sungay", date: "February 8", patronSaint: "Moises" },
+  { barangay: "Lumbo", date: "April 5", patronSaint: "Sr. San Vicente Ferrer" },
+  { barangay: "Poblacion", date: "May 3", patronSaint: "Sta. Cruz" },
+  { barangay: "Benigwayan", date: "May 15", patronSaint: "San Isidro Labrador" },
+  { barangay: "Baybay", date: "June 29", patronSaint: "San Pedro" },
+  { barangay: "Loguilo", date: "June 29", patronSaint: "San Pedro" },
+  { barangay: "Tula", date: "September 24", patronSaint: "San Miguel" },
+  { barangay: "Lagtang", date: "September 29", patronSaint: "San Miguel" },
+  { barangay: "Taparak", date: "October 8", patronSaint: "Sta. Rosario" },
+  { barangay: "Lourdes", date: "December 8", patronSaint: "Immaculate Conception" },
+  { barangay: "Molocboloc", date: "December 8", patronSaint: "Immaculate Conception" },
+  { barangay: "Lanao", date: "December 25", patronSaint: "Sr. Sto. Nino" },
+  { barangay: "Sampatulog", date: "December 28", patronSaint: "Sagrada Pamilya" },
+];
+
+export const LIBERTAD_MISOR_FIESTA_SCHEDULE = [
+  { barangay: "Santo NiñO", date: "January 15", patronSaint: "Sto. Nino" },
+  { barangay: "Dulong", date: "February 2", patronSaint: "Sra. Candelaria" },
+  { barangay: "Retablo", date: "February 2", patronSaint: "Sra. Candelaria" },
+  { barangay: "Poblacion", date: "April 5", patronSaint: "San Vicente Ferrer" },
+  { barangay: "Gimaylan", date: "May 3", patronSaint: "Sta. Cruz" },
+  { barangay: "Taytayan", date: "May 3", patronSaint: "Sta. Cruz" },
+  { barangay: "Lubluban", date: "July 16", patronSaint: "Birhen del Carmen" },
+  { barangay: "Tangcub", date: "August 15", patronSaint: "Sra. Asuncion" },
+  { barangay: "Kimalok", date: "December 8", patronSaint: "Immaculate Conception" },
+];
+
 export const EL_SALVADOR_MISOR_FIESTA_SCHEDULE = [
   { barangay: "Poblacion", date: "August 16", patronSaint: "San Roque" },
   { barangay: "Amoros", date: "August 5", patronSaint: "Birhen de las Nieves" },

@@ -46,9 +46,17 @@ import {
   SAN_RAFAEL_PDPFP_FIESTA_SCHEDULE,
 } from "./bulacan-pdpfp-text.js";
 import {
+  ALUBIJID_MISOR_FIESTA_SCHEDULE,
+  CLAVERIA_MISOR_FIESTA_SCHEDULE,
   EL_SALVADOR_MISOR_FIESTA_SCHEDULE,
+  GITAGUM_MISOR_FIESTA_SCHEDULE,
+  INITAO_MISOR_FIESTA_SCHEDULE,
   JASAAN_FIESTA_SCHEDULE,
+  LAGUINDINGAN_MISOR_FIESTA_SCHEDULE,
+  LIBERTAD_MISOR_FIESTA_SCHEDULE,
   LUGAIT_FIESTA_SCHEDULE,
+  MANTICAO_MISOR_FIESTA_SCHEDULE,
+  NAAWAN_MISOR_FIESTA_SCHEDULE,
   OPOL_FIESTA_SCHEDULE,
   TAGOLOAN_MISOR_FIESTA_SCHEDULE,
   VILLANUEVA_MISOR_FIESTA_SCHEDULE,
@@ -878,6 +886,46 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Misamis Oriental",
     dateSource: "lgu-misamis-oriental-2nd-district-scribd",
   });
+  const initaoMisorEntries = buildMunicipalDateRows(INITAO_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Initao",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const naawanMisorEntries = buildMunicipalDateRows(NAAWAN_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Naawan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const gitagumMisorEntries = buildMunicipalDateRows(GITAGUM_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Gitagum",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const laguindinganMisorEntries = buildMunicipalDateRows(LAGUINDINGAN_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Laguindingan",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const manticaoMisorEntries = buildMunicipalDateRows(MANTICAO_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Manticao",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const claveriaMisorEntries = buildMunicipalDateRows(CLAVERIA_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Claveria",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const alubijidMisorEntries = buildMunicipalDateRows(ALUBIJID_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Alubijid",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
+  const libertadMisorEntries = buildMunicipalDateRows(LIBERTAD_MISOR_FIESTA_SCHEDULE, {
+    municipality: "Libertad",
+    province: "Misamis Oriental",
+    dateSource: "lgu-misamis-oriental-2nd-district-scribd",
+  });
   const magsaysayMisorEntries = buildMunicipalDateRows(MAGSAYSAY_MISOR_FIESTA_SCHEDULE, {
     municipality: "Magsaysay (Linugos)",
     province: "Misamis Oriental",
@@ -1032,6 +1080,14 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const opol = resolveScheduleEntries(opolEntries);
   const lugait = resolveScheduleEntries(lugaitEntries);
   const elSalvadorMisor = resolveScheduleEntries(elSalvadorMisorEntries);
+  const initaoMisor = resolveScheduleEntries(initaoMisorEntries);
+  const naawanMisor = resolveScheduleEntries(naawanMisorEntries);
+  const gitagumMisor = resolveScheduleEntries(gitagumMisorEntries);
+  const laguindinganMisor = resolveScheduleEntries(laguindinganMisorEntries);
+  const manticaoMisor = resolveScheduleEntries(manticaoMisorEntries);
+  const claveriaMisor = resolveScheduleEntries(claveriaMisorEntries);
+  const alubijidMisor = resolveScheduleEntries(alubijidMisorEntries);
+  const libertadMisor = resolveScheduleEntries(libertadMisorEntries);
   const magsaysayMisor = resolveScheduleEntries(magsaysayMisorEntries);
   const balingoan = resolveScheduleEntries(balingoanEntries);
   const gingoogOutlying = resolveScheduleEntries(gingoogOutlyingEntries);
@@ -1125,6 +1181,14 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...opol.byPsgc,
       ...lugait.byPsgc,
       ...elSalvadorMisor.byPsgc,
+      ...initaoMisor.byPsgc,
+      ...naawanMisor.byPsgc,
+      ...gitagumMisor.byPsgc,
+      ...laguindinganMisor.byPsgc,
+      ...manticaoMisor.byPsgc,
+      ...claveriaMisor.byPsgc,
+      ...alubijidMisor.byPsgc,
+      ...libertadMisor.byPsgc,
       ...magsaysayMisor.byPsgc,
       ...balingoan.byPsgc,
       ...gingoogOutlying.byPsgc,
@@ -1391,6 +1455,46 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: elSalvadorMisorEntries.length,
         matched: elSalvadorMisor.matched,
         missed: elSalvadorMisor.missed,
+      },
+      initaoMisor: {
+        entries: initaoMisorEntries.length,
+        matched: initaoMisor.matched,
+        missed: initaoMisor.missed,
+      },
+      naawanMisor: {
+        entries: naawanMisorEntries.length,
+        matched: naawanMisor.matched,
+        missed: naawanMisor.missed,
+      },
+      gitagumMisor: {
+        entries: gitagumMisorEntries.length,
+        matched: gitagumMisor.matched,
+        missed: gitagumMisor.missed,
+      },
+      laguindinganMisor: {
+        entries: laguindinganMisorEntries.length,
+        matched: laguindinganMisor.matched,
+        missed: laguindinganMisor.missed,
+      },
+      manticaoMisor: {
+        entries: manticaoMisorEntries.length,
+        matched: manticaoMisor.matched,
+        missed: manticaoMisor.missed,
+      },
+      claveriaMisor: {
+        entries: claveriaMisorEntries.length,
+        matched: claveriaMisor.matched,
+        missed: claveriaMisor.missed,
+      },
+      alubijidMisor: {
+        entries: alubijidMisorEntries.length,
+        matched: alubijidMisor.matched,
+        missed: alubijidMisor.missed,
+      },
+      libertadMisor: {
+        entries: libertadMisorEntries.length,
+        matched: libertadMisor.matched,
+        missed: libertadMisor.missed,
       },
       magsaysayMisor: {
         entries: magsaysayMisorEntries.length,

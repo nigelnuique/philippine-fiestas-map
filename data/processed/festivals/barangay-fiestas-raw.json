@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:43:11.492Z",
+  "generatedAt": "2026-06-14T03:52:35.012Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269816,7 +269816,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Jereos, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Jereos, City Of Iloilo (Capital).",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022078",
@@ -271051,7 +271054,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tabuc Suba (Jaro), City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Tabuc Suba (Jaro), City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 28,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022176",
@@ -271374,7 +271380,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Rizal (La Paz), City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Rizal (La Paz), City Of Iloilo (Capital).",
+      "month": 12,
+      "dayStart": 6,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063023001",
@@ -567543,15 +567552,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T03:43:11.492Z",
+    "appliedAt": "2026-06-14T03:52:35.012Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4337,
-      "fromOverride": 962,
+      "fromOverride": 965,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36745
+      "stillMissing": 36742
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567605,8 +567614,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 12,
-        "matched": 12,
+        "entries": 15,
+        "matched": 15,
         "missed": 0
       },
       "tarlac": {

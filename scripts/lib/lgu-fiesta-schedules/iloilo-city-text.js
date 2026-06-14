@@ -145,4 +145,13 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "curated-online-iloilo-city-youtube",
     note: "On-day Happy Fiesta May 28, 2022 player night at Sitio Matawhay, Brgy. Tabuc Suba, Jaro",
   },
+  {
+    barangay: "Ortiz",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 12,
+    dayStart: 8,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day 1st Brgy. Ortiz Triathlon video cites “annual fiesta celebrations” (Dec 8, 2011); fiesta-week Got Talent/SK Night events Dec 7–10",
+  },
 ];

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:52:35.012Z",
+  "generatedAt": "2026-06-14T04:06:22.389Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -270380,7 +270380,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ortiz, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Ortiz, City Of Iloilo (Capital).",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022123",
@@ -567552,15 +567555,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T03:52:35.012Z",
+    "appliedAt": "2026-06-14T04:06:22.389Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4337,
-      "fromOverride": 965,
+      "fromOverride": 966,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36742
+      "stillMissing": 36741
     },
     "lguScheduleStats": {
       "siargao": {
@@ -567614,8 +567617,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 15,
-        "matched": 15,
+        "entries": 16,
+        "matched": 16,
         "missed": 0
       },
       "tarlac": {

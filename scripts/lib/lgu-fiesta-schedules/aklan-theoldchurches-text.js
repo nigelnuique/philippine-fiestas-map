@@ -1,0 +1,68 @@
+/**
+ * Aklan municipalities — barangay feast days from TheOldChurches parish pages (1:1 PSGC).
+ */
+export const AKLAN_THEOLDCHURCHES_ENTRIES = [
+  {
+    barangay: "Naile",
+    municipality: "Ibajay",
+    province: "Aklan",
+    month: 5,
+    dayStart: 22,
+    dateSource: "theoldchurches-naile-ibajay",
+    note: "TheOldChurches St. Rita of Cascia Church in Naile, Ibajay, Aklan — feast May 22; Naile, Ibajay, Aklan 5613",
+  },
+  {
+    barangay: "Balabag",
+    municipality: "Malay",
+    province: "Aklan",
+    month: 5,
+    dayStart: 12,
+    dateSource: "theoldchurches-balabag-malay",
+    note: "TheOldChurches Our Lady of the Most Holy Rosary Church in Boracay, Malay, Aklan — feast May 12; Barangay Balabag, Boracay, Malay, Aklan 5608",
+  },
+  {
+    barangay: "Unidos",
+    municipality: "Nabas",
+    province: "Aklan",
+    month: 10,
+    dayStart: 9,
+    dateSource: "theoldchurches-unidos-nabas",
+    note: "TheOldChurches Nuestra Señora de los Remedios Church in Pakilawa, Nabas, Aklan — feast October 9; Barangay Unidos (Pakilawa), Nabas, Aklan 5607",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "Tangalan",
+    province: "Aklan",
+    month: 5,
+    dayStart: 16,
+    dateSource: "theoldchurches-poblacion-tangalan",
+    note: "TheOldChurches Saint John Nepomucene Church in Tangalan, Aklan — feast May 16; San Juan Street, Poblacion, Tangalan, Aklan 5612",
+  },
+  {
+    barangay: "Camaligan",
+    municipality: "Batan",
+    province: "Aklan",
+    month: 9,
+    dayStart: 28,
+    dateSource: "theoldchurches-camaligan-batan",
+    note: "TheOldChurches San Lorenzo Ruiz de Manila Church in Camaligan, Batan, Aklan — feast September 28; Camaligan, Batan, Aklan 5615",
+  },
+  {
+    barangay: "Torralba",
+    municipality: "Banga",
+    province: "Aklan",
+    month: 2,
+    dayStart: 3,
+    dateSource: "theoldchurches-torralba-banga",
+    note: "TheOldChurches St. Blaise Church in Torralba, Banga, Aklan — feast February 3; Torralba, Banga, Aklan Aklan 5601",
+  },
+  {
+    barangay: "Poblacion",
+    municipality: "Numancia",
+    province: "Aklan",
+    month: 5,
+    dayStart: 1,
+    dateSource: "theoldchurches-poblacion-numancia",
+    note: "TheOldChurches St. Joseph the Worker Church in Numancia, Aklan — feast May 1; Poblacion, Numancia, Aklan 5604",
+  },
+];

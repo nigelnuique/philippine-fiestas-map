@@ -224,6 +224,16 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "TheOldChurches 66 barangay parish pages with address-level 1:1 PSGC matches",
   },
   {
+    id: "aklan-theoldchurches",
+    municipality: "Aklan (multi-municipality)",
+    province: "Aklan",
+    format: "curated-text",
+    parser: "AKLAN_THEOLDCHURCHES_ENTRIES",
+    status: "partial",
+    dateSource: "theoldchurches-aklan",
+    notes: "TheOldChurches 7 barangay parish pages with address-level 1:1 PSGC matches",
+  },
+  {
     id: "pangasinan-parish-ph",
     municipality: "Pangasinan (multi-municipality)",
     province: "Pangasinan",

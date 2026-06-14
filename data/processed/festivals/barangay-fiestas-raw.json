@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T07:12:08.344Z",
+  "generatedAt": "2026-06-14T07:14:32.334Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -241806,7 +241806,10 @@
       "municipalityPsgcPsa": "060403000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Torralba, Banga."
+      "description": "Barangay patronal fiesta for Torralba, Banga.",
+      "month": 2,
+      "dayStart": 3,
+      "dateSource": "theoldchurches-torralba-banga"
     },
     {
       "id": "bgy-060403029",
@@ -241910,7 +241913,10 @@
       "municipalityPsgcPsa": "060404000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Camaligan, Batan."
+      "description": "Barangay patronal fiesta for Camaligan, Batan.",
+      "month": 9,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-camaligan-batan"
     },
     {
       "id": "bgy-060404007",
@@ -242547,7 +242553,10 @@
       "municipalityPsgcPsa": "060406000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Naile, Ibajay."
+      "description": "Barangay patronal fiesta for Naile, Ibajay.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-naile-ibajay"
     },
     {
       "id": "bgy-060406021",
@@ -244027,7 +244036,10 @@
       "municipalityPsgcPsa": "060412000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balabag, Malay."
+      "description": "Barangay patronal fiesta for Balabag, Malay.",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "theoldchurches-balabag-malay"
     },
     {
       "id": "bgy-060412003",
@@ -244776,7 +244788,10 @@
       "municipalityPsgcPsa": "060414000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Unidos, Nabas."
+      "description": "Barangay patronal fiesta for Unidos, Nabas.",
+      "month": 10,
+      "dayStart": 9,
+      "dateSource": "theoldchurches-unidos-nabas"
     },
     {
       "id": "bgy-060414021",
@@ -245192,7 +245207,10 @@
       "municipalityPsgcPsa": "060416000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Numancia."
+      "description": "Barangay patronal fiesta for Poblacion, Numancia.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "theoldchurches-poblacion-numancia"
     },
     {
       "id": "bgy-060416017",
@@ -245335,7 +245353,10 @@
       "municipalityPsgcPsa": "060417000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Tangalan."
+      "description": "Barangay patronal fiesta for Poblacion, Tangalan.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-poblacion-tangalan"
     },
     {
       "id": "bgy-060417010",
@@ -568353,15 +568374,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T07:12:08.344Z",
+    "appliedAt": "2026-06-14T07:14:32.334Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4334,
-      "fromOverride": 1218,
+      "fromOverride": 1225,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36492
+      "stillMissing": 36485
     },
     "lguScheduleStats": {
       "siargao": {
@@ -568497,6 +568518,11 @@
       "negrosOccidentalTheoldchurches": {
         "entries": 66,
         "matched": 66,
+        "missed": 0
+      },
+      "aklanTheoldchurches": {
+        "entries": 7,
+        "matched": 7,
         "missed": 0
       },
       "curatedOnline": {

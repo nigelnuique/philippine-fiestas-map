@@ -30,6 +30,7 @@ import { LEYTE_THEOLDCHURCHES_ENTRIES } from "./leyte-theoldchurches-text.js";
 import { CEBU_THEOLDCHURCHES_ENTRIES } from "./cebu-theoldchurches-text.js";
 import { CAPIZ_THEOLDCHURCHES_ENTRIES } from "./capiz-theoldchurches-text.js";
 import { NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES } from "./negros-occidental-theoldchurches-text.js";
+import { AKLAN_THEOLDCHURCHES_ENTRIES } from "./aklan-theoldchurches-text.js";
 import {
   CURATED_ONLINE_FIESTA_ENTRIES,
   CURATED_ONLINE_RELATIVE_SCHEDULE,
@@ -676,6 +677,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const capizTheoldchurchesEntries = CAPIZ_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const negrosOccidentalTheoldchurchesEntries =
     NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
+  const aklanTheoldchurchesEntries = AKLAN_THEOLDCHURCHES_ENTRIES.map((e) => ({ ...e }));
   const curatedOnlineEntries = CURATED_ONLINE_FIESTA_ENTRIES.map((e) => ({
     ...e,
     dateSource: e.dateSource ?? "curated-online",
@@ -716,6 +718,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const negrosOccidentalTheoldchurches = resolveScheduleEntries(
     negrosOccidentalTheoldchurchesEntries
   );
+  const aklanTheoldchurches = resolveScheduleEntries(aklanTheoldchurchesEntries);
   const curatedOnline = resolveScheduleEntries([
     ...curatedOnlineEntries,
     ...curatedOnlineRelativeEntries,
@@ -754,6 +757,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...cebuTheoldchurches.byPsgc,
       ...capizTheoldchurches.byPsgc,
       ...negrosOccidentalTheoldchurches.byPsgc,
+      ...aklanTheoldchurches.byPsgc,
       ...curatedOnline.byPsgc,
       ...cabatuan.byPsgc,
       ...wiki.byPsgc,
@@ -895,6 +899,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: negrosOccidentalTheoldchurchesEntries.length,
         matched: negrosOccidentalTheoldchurches.matched,
         missed: negrosOccidentalTheoldchurches.missed,
+      },
+      aklanTheoldchurches: {
+        entries: aklanTheoldchurchesEntries.length,
+        matched: aklanTheoldchurches.matched,
+        missed: aklanTheoldchurches.missed,
       },
       curatedOnline: {
         entries: curatedOnlineEntries.length + curatedOnlineRelativeEntries.length,

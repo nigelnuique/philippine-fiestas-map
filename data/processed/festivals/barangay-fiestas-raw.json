@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T07:32:51.901Z",
+  "generatedAt": "2026-06-14T08:05:03.035Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -269469,7 +269469,10 @@
       "municipalityPsgcPsa": "063022000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baldoza, City Of Iloilo (Capital)."
+      "description": "Barangay patronal fiesta for Baldoza, City Of Iloilo (Capital).",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "curated-online-iloilo-city-youtube"
     },
     {
       "id": "bgy-063022014",
@@ -568950,15 +568953,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T07:32:51.901Z",
+    "appliedAt": "2026-06-14T08:05:03.035Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1413,
+      "fromOverride": 1414,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36300
+      "stillMissing": 36299
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569012,8 +569015,8 @@
         "missed": 0
       },
       "iloiloCity": {
-        "entries": 23,
-        "matched": 23,
+        "entries": 24,
+        "matched": 24,
         "missed": 0
       },
       "tarlac": {
@@ -569167,9 +569170,9 @@
         "missed": 0
       },
       "wikipedia": {
-        "entries": 1,
+        "entries": 0,
         "matched": 0,
-        "missed": 1
+        "missed": 0
       },
       "embeddedHtml": {
         "dagupan": {

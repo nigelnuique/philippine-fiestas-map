@@ -223,4 +223,13 @@ export const ILOILO_CITY_FIESTA_ENTRIES = [
     dateSource: "theoldchurches-our-lady-peace-good-voyage-lopez-jaena-norte",
     note: "TheOldChurches Our Lady of Peace and Good Voyage Church lists Brgy. Lopez Jaena Norte, La Paz — feast May 24",
   },
+  {
+    barangay: "Baldoza",
+    municipality: "City Of Iloilo (Capital)",
+    province: "Iloilo",
+    month: 5,
+    dayStart: 8,
+    dateSource: "curated-online-iloilo-city-youtube",
+    note: "On-day Happy fiesta baldoza lapaz iloilo city (May 8, 2026 upload)",
+  },
 ];

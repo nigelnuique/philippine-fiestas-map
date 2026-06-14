@@ -764,4 +764,14 @@ export const NEGROS_OCCIDENTAL_THEOLDCHURCHES_ENTRIES = [
     dateSource: "theoldchurches-poblacion-san-enrique",
     note: "TheOldChurches Our Lady of Candles in San Enrique, Negros Occidental — feast February 2; Pescadora Street, San Enrique, Negros Occidental 6104",
   },
+  {
+    barangay: "Barangay I (Pob.)",
+    municipality: "Manapla",
+    province: "Negros Occidental",
+    month: 9,
+    dayStart: 29,
+    patronSaint: "St. Michael the Archangel",
+    dateSource: "theoldchurches-barangay-i-pob-manapla",
+    note: "TheOldChurches St. Michael the Archangel Quasi-Parish in Central Manapla, Manapla, Negros Occidental — feast September 29; Manapla, Negros Occidental 6120",
+  },
 ];

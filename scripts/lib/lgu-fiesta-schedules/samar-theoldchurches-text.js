@@ -5,7 +5,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Trinidad (Sabang)",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 6,
     dayStart: 4,
     dateSource: "theoldchurches-trinidad-sabang-city-of-calbayog",
@@ -14,7 +14,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Pilar",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 8,
     dayStart: 15,
     dateSource: "theoldchurches-pilar-city-of-calbayog",
@@ -23,7 +23,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Carayman",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 6,
     dayStart: 14,
     dateSource: "theoldchurches-carayman-city-of-calbayog",
@@ -32,7 +32,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Tinambacan Norte",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 4,
     dayStart: 5,
     dateSource: "theoldchurches-tinambacan-norte-city-of-calbayog",
@@ -41,7 +41,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Awang West (Pob.)",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 6,
     dayStart: 29,
     dateSource: "theoldchurches-awang-west-city-of-calbayog",
@@ -50,7 +50,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Tarabucan",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 10,
     dayStart: 23,
     dateSource: "theoldchurches-tarabucan-city-of-calbayog",
@@ -59,7 +59,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Dagum",
     municipality: "City Of Calbayog",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 8,
     dayStart: 16,
     dateSource: "theoldchurches-dagum-city-of-calbayog",
@@ -68,7 +68,7 @@ export const SAMAR_THEOLDCHURCHES_ENTRIES = [
   {
     barangay: "Silanga",
     municipality: "City Of Catbalogan (Capital)",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     month: 10,
     dayStart: 4,
     dateSource: "theoldchurches-silanga-city-of-catbalogan-capital",

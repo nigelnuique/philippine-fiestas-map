@@ -805,7 +805,7 @@ export const LGU_SCHEDULE_REGISTRY = [
   {
     id: "samar-theoldchurches",
     municipality: "Samar (multi-municipality)",
-    province: "Samar",
+    province: "Samar (Western Samar)",
     format: "curated-text",
     parser: "SAMAR_THEOLDCHURCHES_ENTRIES",
     status: "partial",

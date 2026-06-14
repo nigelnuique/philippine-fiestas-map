@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T14:28:52.920Z",
+  "generatedAt": "2026-06-14T14:42:53.103Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -33302,10 +33302,7 @@
       "municipalityPsgcPsa": "015523000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Mabini.",
-      "month": 5,
-      "dayStart": 14,
-      "dateSource": "theoldchurches-poblacion-mabini"
+      "description": "Barangay patronal fiesta for Poblacion, Mabini."
     },
     {
       "id": "bgy-015523017",
@@ -292956,7 +292953,11 @@
       "municipalityPsgcPsa": "064518000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barangay I (Pob.), Manapla."
+      "description": "Barangay patronal fiesta for Barangay I (Pob.), Manapla.",
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "theoldchurches-barangay-i-pob-manapla",
+      "patronSaint": "St. Michael the Archangel"
     },
     {
       "id": "bgy-064518003",
@@ -297881,7 +297882,11 @@
       "municipalityPsgcPsa": "071201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for East Poblacion, Alburquerque."
+      "description": "Barangay patronal fiesta for East Poblacion, Alburquerque.",
+      "month": 8,
+      "dayStart": 27,
+      "dateSource": "theoldchurches-east-poblacion-alburquerque",
+      "patronSaint": "Santa Monica"
     },
     {
       "id": "bgy-071201006",
@@ -307782,10 +307787,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Roque (Cabulao), Mabini.",
-      "month": 8,
-      "dayStart": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san roque"
+      "month": 5,
+      "dayStart": 9,
+      "dateSource": "theoldchurches-san-roque-cabulao-mabini",
+      "patronSaint": "St. Michael the Archangel"
     },
     {
       "id": "bgy-071231021",
@@ -572602,15 +572607,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T14:28:52.920Z",
+    "appliedAt": "2026-06-14T14:42:53.103Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4195,
-      "fromOverride": 2463,
+      "alreadyHadDate": 4194,
+      "fromOverride": 2465,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35386
+      "stillMissing": 35385
     },
     "lguScheduleStats": {
       "siargao": {
@@ -572994,8 +572999,8 @@
         "missed": 0
       },
       "negrosOccidentalTheoldchurches": {
-        "entries": 83,
-        "matched": 83,
+        "entries": 84,
+        "matched": 84,
         "missed": 0
       },
       "aklanTheoldchurches": {
@@ -573004,8 +573009,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 66,
-        "matched": 66,
+        "entries": 67,
+        "matched": 67,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {

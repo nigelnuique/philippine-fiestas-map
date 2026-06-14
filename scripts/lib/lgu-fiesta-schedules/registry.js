@@ -150,7 +150,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ILOILO_CITY_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "curated-online-iloilo-city-youtube",
-    notes: "40/180 dated: on-day YouTube (Molo Blvd, San Juan, San Pedro Molo, West Habog-Habog, Santa Cruz, Santo Niño Sur, Poblacion Molo, Calumpang, Calaparan, Obrero-Lapuz, Ingore, Jereos, Rizal La Paz, Tabuc Suba Jaro, Ortiz, Baybay Tanza) plus patron-saint name matches",
+    notes: "41/180 dated: on-day YouTube (Molo Blvd, San Juan, San Pedro Molo, West Habog-Habog, Santa Cruz, Santo Niño Sur, Poblacion Molo, Calumpang, Calaparan, Obrero-Lapuz, Ingore, Jereos, Rizal La Paz, Tabuc Suba Jaro, Ortiz, Baybay Tanza, Balantang) plus patron-saint name matches",
   },
   {
     id: "mulanay-curated",
@@ -170,7 +170,7 @@ export const LGU_SCHEDULE_REGISTRY = [
     parser: "ORMOC_FIESTA_ENTRIES",
     status: "partial",
     dateSource: "parish-ormoc-city",
-    notes: "ParishPH + Ormoc Cultural Mapping ICH; 5/110 dated (Valencia, San Pablo Simangan, Cogon, Ipil, Manlilinao)",
+    notes: "ParishPH + Ormoc Cultural Mapping ICH; 8/110 dated (Valencia, San Pablo Simangan, Cogon, Ipil, Manlilinao, Curva, Linao, Punta)",
   },
   {
     id: "tacloban-city",

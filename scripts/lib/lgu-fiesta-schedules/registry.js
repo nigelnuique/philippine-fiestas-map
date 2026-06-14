@@ -200,6 +200,17 @@ export const LGU_SCHEDULE_REGISTRY = [
     notes: "26/26 barangays from a public copy attributed to the Municipal Planning & Development Coordinator.",
   },
   {
+    id: "malolos-ecological-profile",
+    municipality: "City Of Malolos (Capital)",
+    province: "Bulacan",
+    url: "https://www.scribd.com/document/846730135/Ecological-Profile-2023",
+    format: "curated-text",
+    parser: "MALOLOS_FIESTA_SCHEDULE",
+    status: "partial",
+    dateSource: "lgu-malolos-ecological-profile-scribd",
+    notes: "48/51 PSGC barangays from Table EcS-37; Babatnin dual movable/fixed row, Bangkal Palm Sunday, and Caniogan month-only row were skipped.",
+  },
+  {
     id: "misamis-oriental-2nd-district",
     municipality: "Jasaan",
     province: "Misamis Oriental",

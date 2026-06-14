@@ -26,6 +26,7 @@ import { SAN_PASCUAL_FIESTA_SCHEDULE } from "./san-pascual-text.js";
 import { SAN_VICENTE_PALAWAN_FIESTA_SCHEDULE } from "./san-vicente-palawan-text.js";
 import { UBAY_WIKIPEDIA_FIESTA_SCHEDULE } from "./ubay-wikipedia-text.js";
 import { MASANTOL_FIESTA_SCHEDULE } from "./masantol-text.js";
+import { MALOLOS_FIESTA_SCHEDULE } from "./malolos-text.js";
 import {
   EL_SALVADOR_MISOR_FIESTA_SCHEDULE,
   JASAAN_FIESTA_SCHEDULE,
@@ -743,6 +744,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Pampanga",
     dateSource: "lgu-masantol-mpdo-scribd",
   });
+  const malolosEntries = buildMunicipalDateRows(MALOLOS_FIESTA_SCHEDULE, {
+    municipality: "City Of Malolos (Capital)",
+    province: "Bulacan",
+    dateSource: "lgu-malolos-ecological-profile-scribd",
+  });
   const jasaanEntries = buildMunicipalDateRows(JASAAN_FIESTA_SCHEDULE, {
     municipality: "Jasaan",
     province: "Misamis Oriental",
@@ -899,6 +905,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const sanVicentePalawan = resolveScheduleEntries(sanVicentePalawanEntries);
   const ubayWikipedia = resolveScheduleEntries(ubayWikipediaEntries);
   const masantol = resolveScheduleEntries(masantolEntries);
+  const malolos = resolveScheduleEntries(malolosEntries);
   const jasaan = resolveScheduleEntries(jasaanEntries);
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
@@ -974,6 +981,7 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...sanVicentePalawan.byPsgc,
       ...ubayWikipedia.byPsgc,
       ...masantol.byPsgc,
+      ...malolos.byPsgc,
       ...jasaan.byPsgc,
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
@@ -1130,6 +1138,11 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: masantolEntries.length,
         matched: masantol.matched,
         missed: masantol.missed,
+      },
+      malolos: {
+        entries: malolosEntries.length,
+        matched: malolos.matched,
+        missed: malolos.missed,
       },
       jasaan: {
         entries: jasaanEntries.length,

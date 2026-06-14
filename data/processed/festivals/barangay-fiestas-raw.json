@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:43:29.828Z",
+  "generatedAt": "2026-06-14T10:45:09.221Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -81043,7 +81043,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Anilao, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Anilao, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410002",
@@ -81056,7 +81060,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Atlag, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Atlag, City Of Malolos (Capital).",
+      "month": 6,
+      "dayStart": 13,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Antonio de Padua"
     },
     {
       "id": "bgy-031410003",
@@ -81082,7 +81090,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagna, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Bagna, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410005",
@@ -81095,7 +81107,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagong Bayan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Bagong Bayan, City Of Malolos (Capital).",
+      "month": 11,
+      "dayStart": 17,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Isabel"
     },
     {
       "id": "bgy-031410006",
@@ -81108,7 +81124,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balayong, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Balayong, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410007",
@@ -81121,7 +81141,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balite, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Balite, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 10,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410008",
@@ -81147,7 +81171,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barihan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Barihan, City Of Malolos (Capital).",
+      "month": 6,
+      "dayStart": 7,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santisima Trinidad"
     },
     {
       "id": "bgy-031410012",
@@ -81160,7 +81188,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bulihan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Bulihan, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031410013",
@@ -81173,7 +81205,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bungahan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Bungahan, City Of Malolos (Capital).",
+      "month": 1,
+      "dayStart": 18,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-031410014",
@@ -81186,7 +81222,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dakila, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Dakila, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410015",
@@ -81199,7 +81239,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guinhawa, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Guinhawa, City Of Malolos (Capital).",
+      "month": 11,
+      "dayStart": 29,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Nuestra Senora de los Remedios"
     },
     {
       "id": "bgy-031410016",
@@ -81212,7 +81256,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caingin, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Caingin, City Of Malolos (Capital).",
+      "month": 8,
+      "dayStart": 24,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Bartolome"
     },
     {
       "id": "bgy-031410017",
@@ -81225,7 +81273,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calero, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Calero, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410018",
@@ -81238,7 +81290,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Caliligawan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Caliligawan, City Of Malolos (Capital).",
+      "month": 12,
+      "dayStart": 13,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Lucia"
     },
     {
       "id": "bgy-031410019",
@@ -81251,7 +81307,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Canalate, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Canalate, City Of Malolos (Capital).",
+      "month": 1,
+      "dayStart": 23,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Ildefonso"
     },
     {
       "id": "bgy-031410020",
@@ -81277,7 +81337,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Catmon, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Catmon, City Of Malolos (Capital).",
+      "month": 1,
+      "dayStart": 20,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Sebastian"
     },
     {
       "id": "bgy-031410022",
@@ -81290,7 +81354,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ligas, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Ligas, City Of Malolos (Capital).",
+      "month": 11,
+      "dayStart": 22,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Nuestra Senora de los Remedios"
     },
     {
       "id": "bgy-031410023",
@@ -81303,7 +81371,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Liyang, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Liyang, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410025",
@@ -81316,7 +81388,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Longos, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Longos, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Jose"
     },
     {
       "id": "bgy-031410026",
@@ -81329,7 +81405,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Look 1st, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Look 1st, City Of Malolos (Capital).",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Rosario"
     },
     {
       "id": "bgy-031410027",
@@ -81342,7 +81422,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Look 2nd, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Look 2nd, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 12,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Cristo"
     },
     {
       "id": "bgy-031410028",
@@ -81355,7 +81439,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lugam, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Lugam, City Of Malolos (Capital).",
+      "month": 4,
+      "dayStart": 26,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Rosario"
     },
     {
       "id": "bgy-031410029",
@@ -81368,7 +81456,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mabolo, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Mabolo, City Of Malolos (Capital).",
+      "month": 10,
+      "dayStart": 4,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Francisco de Asis"
     },
     {
       "id": "bgy-031410031",
@@ -81381,7 +81473,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mambog, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Mambog, City Of Malolos (Capital).",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-031410032",
@@ -81394,7 +81490,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Masile, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Masile, City Of Malolos (Capital).",
+      "month": 11,
+      "dayStart": 22,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Nuestra Senora Virgen de los Remedios"
     },
     {
       "id": "bgy-031410033",
@@ -81407,7 +81507,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Matimbo, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Matimbo, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031410034",
@@ -81420,7 +81524,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mojon, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Mojon, City Of Malolos (Capital).",
+      "month": 11,
+      "dayStart": 30,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Andres"
     },
     {
       "id": "bgy-031410035",
@@ -81433,7 +81541,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Namayan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Namayan, City Of Malolos (Capital).",
+      "month": 12,
+      "dayStart": 13,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Lucia"
     },
     {
       "id": "bgy-031410036",
@@ -81446,7 +81558,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Niugan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Niugan, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410037",
@@ -81459,7 +81575,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pamarawan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Pamarawan, City Of Malolos (Capital).",
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Stella Maris"
     },
     {
       "id": "bgy-031410038",
@@ -81472,7 +81592,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Panasahan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Panasahan, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Jose"
     },
     {
       "id": "bgy-031410039",
@@ -81485,7 +81609,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pinagbakahan, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Pinagbakahan, City Of Malolos (Capital).",
+      "month": 6,
+      "dayStart": 7,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santisima Trinidad"
     },
     {
       "id": "bgy-031410041",
@@ -81500,9 +81628,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Agustin, City Of Malolos (Capital).",
       "month": 8,
-      "dayStart": 28,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san agustin"
+      "dayStart": 30,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Agustin"
     },
     {
       "id": "bgy-031410042",
@@ -81516,10 +81644,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Gabriel, City Of Malolos (Capital).",
-      "month": 3,
-      "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san gabriel"
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Gabriel"
     },
     {
       "id": "bgy-031410043",
@@ -81535,8 +81663,8 @@
       "description": "Barangay patronal fiesta for San Juan, City Of Malolos (Capital).",
       "month": 6,
       "dayStart": 24,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san juan"
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Juan Bautista"
     },
     {
       "id": "bgy-031410044",
@@ -81550,10 +81678,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Pablo, City Of Malolos (Capital).",
-      "month": 6,
-      "dayStart": 29,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san pablo"
+      "month": 1,
+      "dayStart": 25,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Pablo"
     },
     {
       "id": "bgy-031410045",
@@ -81567,10 +81695,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente (Pob.), City Of Malolos (Capital).",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-031410046",
@@ -81583,7 +81711,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Santiago, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Santiago, City Of Malolos (Capital).",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santiago Apostol"
     },
     {
       "id": "bgy-031410047",
@@ -81597,10 +81729,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santisima Trinidad, City Of Malolos (Capital).",
-      "month": 5,
-      "dayStart": 26,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santisima trinidad"
+      "month": 6,
+      "dayStart": 7,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santisima Trinidad"
     },
     {
       "id": "bgy-031410048",
@@ -81615,9 +81747,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo Cristo, City Of Malolos (Capital).",
       "month": 5,
-      "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo cristo"
+      "dayStart": 10,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Cristo"
     },
     {
       "id": "bgy-031410049",
@@ -81632,10 +81764,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo NiñO (Pob.), City Of Malolos (Capital).",
       "month": 1,
-      "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "dayStart": 25,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Nino"
     },
     {
       "id": "bgy-031410050",
@@ -81650,9 +81781,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santo Rosario (Pob.), City Of Malolos (Capital).",
       "month": 10,
-      "dayStart": 7,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo rosario"
+      "dayStart": 17,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santo Rosario"
     },
     {
       "id": "bgy-031410051",
@@ -81665,7 +81796,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Santol, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Santol, City Of Malolos (Capital).",
+      "month": 8,
+      "dayStart": 10,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Lorenzo Diakono"
     },
     {
       "id": "bgy-031410052",
@@ -81678,7 +81813,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sumapang Bata, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Sumapang Bata, City Of Malolos (Capital).",
+      "month": 10,
+      "dayStart": 1,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Teresita"
     },
     {
       "id": "bgy-031410053",
@@ -81691,7 +81830,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sumapang Matanda, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Sumapang Matanda, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 3,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-031410054",
@@ -81704,7 +81847,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Taal, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Taal, City Of Malolos (Capital).",
+      "month": 12,
+      "dayStart": 27,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Juan Evangelista"
     },
     {
       "id": "bgy-031410055",
@@ -81717,7 +81864,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tikay, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Tikay, City Of Malolos (Capital).",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Pedro Apostol"
     },
     {
       "id": "bgy-031410056",
@@ -81730,7 +81881,11 @@
       "municipalityPsgcPsa": "031410000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cofradia, City Of Malolos (Capital)."
+      "description": "Barangay patronal fiesta for Cofradia, City Of Malolos (Capital).",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-malolos-ecological-profile-scribd",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-031411001",
@@ -570674,15 +570829,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T10:43:29.828Z",
+    "appliedAt": "2026-06-14T10:45:09.221Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4272,
-      "fromOverride": 1923,
+      "alreadyHadDate": 4263,
+      "fromOverride": 1971,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35849
+      "stillMissing": 35810
     },
     "lguScheduleStats": {
       "siargao": {
@@ -570793,6 +570948,11 @@
       "masantol": {
         "entries": 26,
         "matched": 26,
+        "missed": 0
+      },
+      "malolos": {
+        "entries": 48,
+        "matched": 48,
         "missed": 0
       },
       "jasaan": {
@@ -571113,6 +571273,7 @@
       "lgu-san-vicente-palawan-clup",
       "wikipedia-ubay-bohol-barangay-table",
       "lgu-masantol-mpdo-scribd",
+      "lgu-malolos-ecological-profile-scribd",
       "lgu-misamis-oriental-1st-district-scribd",
       "lgu-misamis-oriental-2nd-district-scribd",
       "parish-binuangan-our-lady-of-lourdes",

@@ -179,6 +179,7 @@ function main() {
       "lgu-san-vicente-palawan-clup",
       "wikipedia-ubay-bohol-barangay-table",
       "lgu-masantol-mpdo-scribd",
+      "lgu-malolos-ecological-profile-scribd",
       "lgu-misamis-oriental-1st-district-scribd",
       "lgu-misamis-oriental-2nd-district-scribd",
       "parish-binuangan-our-lady-of-lourdes",

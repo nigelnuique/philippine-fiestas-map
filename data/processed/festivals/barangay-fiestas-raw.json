@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T08:40:53.930Z",
+  "generatedAt": "2026-06-14T08:47:16.830Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -298780,7 +298780,11 @@
       "municipalityPsgcPsa": "071209000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Buenavista."
+      "description": "Barangay patronal fiesta for Poblacion, Buenavista.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "theoldchurches-poblacion-buenavista",
+      "patronSaint": "Our Lady of the Most Holy Rosary"
     },
     {
       "id": "bgy-071209037",
@@ -308363,7 +308367,11 @@
       "municipalityPsgcPsa": "071240000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Abachanan, Sierra Bullones."
+      "description": "Barangay patronal fiesta for Abachanan, Sierra Bullones.",
+      "month": 5,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-abachanan-sierra-bullones",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-071240002",
@@ -308905,7 +308913,11 @@
       "municipalityPsgcPsa": "071242000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mansasa, City Of Tagbilaran (Capital)."
+      "description": "Barangay patronal fiesta for Mansasa, City Of Tagbilaran (Capital).",
+      "month": 10,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-mansasa-tagbilaran",
+      "patronSaint": "St. Jude Thaddeus"
     },
     {
       "id": "bgy-071242010",
@@ -312720,7 +312732,11 @@
       "municipalityPsgcPsa": "072206000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Asturias."
+      "description": "Barangay patronal fiesta for Poblacion, Asturias.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-poblacion-asturias",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-072206019",
@@ -315420,7 +315436,11 @@
       "municipalityPsgcPsa": "072214000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ocana, City Of Carcar."
+      "description": "Barangay patronal fiesta for Ocana, City Of Carcar.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "theoldchurches-ocana-city-of-carcar",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-072214009",
@@ -315725,7 +315745,11 @@
       "municipalityPsgcPsa": "072215000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion, Carmen."
+      "description": "Barangay patronal fiesta for Poblacion, Carmen.",
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "theoldchurches-poblacion-carmen",
+      "patronSaint": "San Agustin"
     },
     {
       "id": "bgy-072215017",
@@ -321530,7 +321554,11 @@
       "municipalityPsgcPsa": "072232000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Poblacion Ward Iii, Minglanilla."
+      "description": "Barangay patronal fiesta for Poblacion Ward Iii, Minglanilla.",
+      "month": 8,
+      "dayStart": 22,
+      "dateSource": "theoldchurches-poblacion-ward-iii-minglanilla",
+      "patronSaint": "Immaculate Heart of Mary"
     },
     {
       "id": "bgy-072232013",
@@ -326181,7 +326209,11 @@
       "municipalityPsgcPsa": "072250000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Lawaan Iii, City Of Talisay."
+      "description": "Barangay patronal fiesta for Lawaan Iii, City Of Talisay.",
+      "month": 1,
+      "dayStart": 31,
+      "dateSource": "theoldchurches-lawaan-iii-city-of-talisay",
+      "patronSaint": "St. John Bosco"
     },
     {
       "id": "bgy-072251001",
@@ -326395,7 +326427,11 @@
       "municipalityPsgcPsa": "072251000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Don Andres Soriano (Lutopan), City Of Toledo."
+      "description": "Barangay patronal fiesta for Don Andres Soriano (Lutopan), City Of Toledo.",
+      "month": 7,
+      "dayStart": 16,
+      "dateSource": "theoldchurches-lutopan-city-of-toledo",
+      "patronSaint": "Our Lady of Mount Carmel"
     },
     {
       "id": "bgy-072251017",
@@ -568968,15 +569004,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T08:40:53.930Z",
+    "appliedAt": "2026-06-14T08:47:16.830Z",
     "stats": {
       "total": 42044,
       "alreadyHadDate": 4331,
-      "fromOverride": 1418,
+      "fromOverride": 1427,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 36295
+      "stillMissing": 36286
     },
     "lguScheduleStats": {
       "siargao": {
@@ -569100,8 +569136,8 @@
         "missed": 0
       },
       "cebuTheoldchurches": {
-        "entries": 89,
-        "matched": 89,
+        "entries": 95,
+        "matched": 95,
         "missed": 0
       },
       "capizTheoldchurches": {
@@ -569120,8 +569156,8 @@
         "missed": 0
       },
       "boholTheoldchurches": {
-        "entries": 51,
-        "matched": 51,
+        "entries": 54,
+        "matched": 54,
         "missed": 0
       },
       "camarinesSurTheoldchurches": {

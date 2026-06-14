@@ -28,6 +28,10 @@ import { UBAY_WIKIPEDIA_FIESTA_SCHEDULE } from "./ubay-wikipedia-text.js";
 import { MASANTOL_FIESTA_SCHEDULE } from "./masantol-text.js";
 import { MALOLOS_FIESTA_SCHEDULE } from "./malolos-text.js";
 import {
+  ANGAT_PDPFP_FIESTA_SCHEDULE,
+  BULACAN_TOWN_PDPFP_FIESTA_SCHEDULE,
+  GUIGUINTO_PDPFP_FIESTA_SCHEDULE,
+  HAGONOY_PDPFP_FIESTA_SCHEDULE,
   MARILAO_PDPFP_FIESTA_SCHEDULE,
   MEYCAUAYAN_PDPFP_FIESTA_SCHEDULE,
   PANDI_PDPFP_FIESTA_SCHEDULE,
@@ -781,6 +785,26 @@ export function getLguBarangayFiestaDatesByPsgc() {
     province: "Bulacan",
     dateSource: "lgu-bulacan-pdpfp-2024",
   });
+  const angatPdpfpEntries = buildMunicipalDateRows(ANGAT_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Angat",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const bulacanTownPdpfpEntries = buildMunicipalDateRows(BULACAN_TOWN_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Bulacan",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const guiguintoPdpfpEntries = buildMunicipalDateRows(GUIGUINTO_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Guiguinto",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
+  const hagonoyPdpfpEntries = buildMunicipalDateRows(HAGONOY_PDPFP_FIESTA_SCHEDULE, {
+    municipality: "Hagonoy",
+    province: "Bulacan",
+    dateSource: "lgu-bulacan-pdpfp-2024",
+  });
   const jasaanEntries = buildMunicipalDateRows(JASAAN_FIESTA_SCHEDULE, {
     municipality: "Jasaan",
     province: "Misamis Oriental",
@@ -943,6 +967,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
   const pandiPdpfp = resolveScheduleEntries(pandiPdpfpEntries);
   const paombongPdpfp = resolveScheduleEntries(paombongPdpfpEntries);
   const sanIldefonsoBulacanPdpfp = resolveScheduleEntries(sanIldefonsoBulacanPdpfpEntries);
+  const angatPdpfp = resolveScheduleEntries(angatPdpfpEntries);
+  const bulacanTownPdpfp = resolveScheduleEntries(bulacanTownPdpfpEntries);
+  const guiguintoPdpfp = resolveScheduleEntries(guiguintoPdpfpEntries);
+  const hagonoyPdpfp = resolveScheduleEntries(hagonoyPdpfpEntries);
   const jasaan = resolveScheduleEntries(jasaanEntries);
   const villanuevaMisor = resolveScheduleEntries(villanuevaMisorEntries);
   const tagoloanMisor = resolveScheduleEntries(tagoloanMisorEntries);
@@ -1024,6 +1052,10 @@ export function getLguBarangayFiestaDatesByPsgc() {
       ...pandiPdpfp.byPsgc,
       ...paombongPdpfp.byPsgc,
       ...sanIldefonsoBulacanPdpfp.byPsgc,
+      ...angatPdpfp.byPsgc,
+      ...bulacanTownPdpfp.byPsgc,
+      ...guiguintoPdpfp.byPsgc,
+      ...hagonoyPdpfp.byPsgc,
       ...jasaan.byPsgc,
       ...villanuevaMisor.byPsgc,
       ...tagoloanMisor.byPsgc,
@@ -1210,6 +1242,26 @@ export function getLguBarangayFiestaDatesByPsgc() {
         entries: sanIldefonsoBulacanPdpfpEntries.length,
         matched: sanIldefonsoBulacanPdpfp.matched,
         missed: sanIldefonsoBulacanPdpfp.missed,
+      },
+      angatPdpfp: {
+        entries: angatPdpfpEntries.length,
+        matched: angatPdpfp.matched,
+        missed: angatPdpfp.missed,
+      },
+      bulacanTownPdpfp: {
+        entries: bulacanTownPdpfpEntries.length,
+        matched: bulacanTownPdpfp.matched,
+        missed: bulacanTownPdpfp.missed,
+      },
+      guiguintoPdpfp: {
+        entries: guiguintoPdpfpEntries.length,
+        matched: guiguintoPdpfp.matched,
+        missed: guiguintoPdpfp.missed,
+      },
+      hagonoyPdpfp: {
+        entries: hagonoyPdpfpEntries.length,
+        matched: hagonoyPdpfp.matched,
+        missed: hagonoyPdpfp.missed,
       },
       jasaan: {
         entries: jasaanEntries.length,

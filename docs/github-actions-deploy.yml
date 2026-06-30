@@ -1,0 +1,79 @@
+# Copy to `.github/workflows/deploy.yml` after running:
+#   gh auth refresh -h github.com -s workflow
+#
+# Then enable GitHub Pages → Source: GitHub Actions in repo settings.
+
+name: Build and deploy
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Clone boundary sources
+        run: bash scripts/clone-sources.sh
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Production build
+        run: npm run build
+        env:
+          VITE_BASE_PATH: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && '/philippine-fiestas-map/' || '/' }}
+          VITE_SITE_URL: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' && 'https://nigelnuique.github.io/philippine-fiestas-map' || 'http://localhost:5173' }}
+
+      - name: Install Playwright (Chromium)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: npx playwright install --with-deps chromium
+
+      - name: Smoke test production build
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
+          npm run preview -- --host 127.0.0.1 --port 4173 &
+          for i in $(seq 1 45); do
+            curl -sf http://127.0.0.1:4173/philippine-fiestas-map/ > /dev/null && break
+            sleep 1
+          done
+          curl -sf http://127.0.0.1:4173/philippine-fiestas-map/ > /dev/null
+          PREVIEW_URL=http://127.0.0.1:4173/philippine-fiestas-map/ npm run check:go-live -- --skip-build
+
+      - name: Upload GitHub Pages artifact
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

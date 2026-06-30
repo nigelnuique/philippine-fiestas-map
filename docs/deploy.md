@@ -17,6 +17,8 @@ The workflow in `.github/workflows/deploy.yml`:
 - Smoke-tests the preview build
 - Publishes `dist/` to GitHub Pages
 
+If `git push` rejects the workflow file (missing `workflow` OAuth scope), copy [docs/github-actions-deploy.yml](github-actions-deploy.yml) into `.github/workflows/deploy.yml` locally after running `gh auth refresh -h github.com -s workflow`.
+
 Pull requests run **build only** (no deploy).
 
 ## Netlify (free tier, custom subdomain)

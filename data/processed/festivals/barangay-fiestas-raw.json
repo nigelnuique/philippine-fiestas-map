@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T15:10:03.203Z",
+  "generatedAt": "2026-06-20T06:22:06.496Z",
   "source": "xemasiv/psgc2 raw.json",
   "count": 42044,
   "festivals": [
@@ -126127,7 +126127,11 @@
       "municipalityPsgcPsa": "041014000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Duhatan, City Of Lipa."
+      "description": "Barangay patronal fiesta for Duhatan, City Of Lipa.",
+      "month": 3,
+      "dayStart": 16,
+      "dateSource": "lgu-lipa-city-barangay-profiles",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-041014020",
@@ -126615,8 +126619,8 @@
       "description": "Barangay patronal fiesta for San Carlos, City Of Lipa.",
       "month": 11,
       "dayStart": 4,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san carlos"
+      "dateSource": "lgu-lipa-city-barangay-profiles",
+      "patronSaint": "San Carlos Borromeo"
     },
     {
       "id": "bgy-041014058",
@@ -198930,7 +198934,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Abella, City Of Ligao."
+      "description": "Barangay patronal fiesta for Abella, City Of Ligao.",
+      "month": 5,
+      "dayStart": 5,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Nuestra Senora de La Paz"
     },
     {
       "id": "bgy-050508002",
@@ -198943,7 +198951,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Allang, City Of Ligao."
+      "description": "Barangay patronal fiesta for Allang, City Of Ligao.",
+      "month": 10,
+      "dayStart": 19,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Pedro de Alcantara"
     },
     {
       "id": "bgy-050508003",
@@ -198969,7 +198981,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bacong, City Of Ligao."
+      "description": "Barangay patronal fiesta for Bacong, City Of Ligao.",
+      "month": 8,
+      "dayStart": 4,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Sto. Domingo de Guzman"
     },
     {
       "id": "bgy-050508005",
@@ -198982,7 +198998,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagumbayan, City Of Ligao."
+      "description": "Barangay patronal fiesta for Bagumbayan, City Of Ligao.",
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Stephen Protomartyr"
     },
     {
       "id": "bgy-050508006",
@@ -198995,7 +199015,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Balanac, City Of Ligao."
+      "description": "Barangay patronal fiesta for Balanac, City Of Ligao.",
+      "month": 10,
+      "dayStart": 23,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Raphael"
     },
     {
       "id": "bgy-050508007",
@@ -199008,7 +199032,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baligang, City Of Ligao."
+      "description": "Barangay patronal fiesta for Baligang, City Of Ligao.",
+      "month": 9,
+      "dayStart": 24,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Nuestra Senora de la Merced"
     },
     {
       "id": "bgy-050508008",
@@ -199034,7 +199062,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Basag, City Of Ligao."
+      "description": "Barangay patronal fiesta for Basag, City Of Ligao.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-050508010",
@@ -199047,7 +199079,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Batang, City Of Ligao."
+      "description": "Barangay patronal fiesta for Batang, City Of Ligao.",
+      "month": 10,
+      "dayStart": 4,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Francis of Assissi"
     },
     {
       "id": "bgy-050508011",
@@ -199060,7 +199096,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bay, City Of Ligao."
+      "description": "Barangay patronal fiesta for Bay, City Of Ligao.",
+      "month": 5,
+      "dayStart": 19,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-050508012",
@@ -199073,7 +199113,10 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binanowan, City Of Ligao."
+      "description": "Barangay patronal fiesta for Binanowan, City Of Ligao.",
+      "month": 5,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles"
     },
     {
       "id": "bgy-050508013",
@@ -199086,7 +199129,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binatagan (Pob.), City Of Ligao."
+      "description": "Barangay patronal fiesta for Binatagan (Pob.), City Of Ligao.",
+      "month": 5,
+      "dayStart": 1,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Joseph the Worker"
     },
     {
       "id": "bgy-050508014",
@@ -199112,7 +199159,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bonga, City Of Ligao."
+      "description": "Barangay patronal fiesta for Bonga, City Of Ligao.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-050508016",
@@ -199138,7 +199189,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Busay, City Of Ligao."
+      "description": "Barangay patronal fiesta for Busay, City Of Ligao.",
+      "month": 5,
+      "dayStart": 14,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Buenaventura"
     },
     {
       "id": "bgy-050508018",
@@ -199164,7 +199219,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Calzada (Pob.), City Of Ligao."
+      "description": "Barangay patronal fiesta for Calzada (Pob.), City Of Ligao.",
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Stephen Protomartyr"
     },
     {
       "id": "bgy-050508020",
@@ -199177,7 +199236,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Catburawan, City Of Ligao."
+      "description": "Barangay patronal fiesta for Catburawan, City Of Ligao.",
+      "month": 10,
+      "dayStart": 24,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Rafael de Archangel"
     },
     {
       "id": "bgy-050508021",
@@ -199190,7 +199253,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cavasi, City Of Ligao."
+      "description": "Barangay patronal fiesta for Cavasi, City Of Ligao.",
+      "month": 10,
+      "dayStart": 7,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Nuestra Senora del Rosario"
     },
     {
       "id": "bgy-050508022",
@@ -199203,7 +199270,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Culliat, City Of Ligao."
+      "description": "Barangay patronal fiesta for Culliat, City Of Ligao.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-050508023",
@@ -199216,7 +199287,10 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dunao, City Of Ligao."
+      "description": "Barangay patronal fiesta for Dunao, City Of Ligao.",
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles"
     },
     {
       "id": "bgy-050508024",
@@ -199229,7 +199303,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Francia, City Of Ligao."
+      "description": "Barangay patronal fiesta for Francia, City Of Ligao.",
+      "month": 9,
+      "dayStart": 27,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Nuestra Senora de Penafrancia"
     },
     {
       "id": "bgy-050508025",
@@ -199242,7 +199320,10 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guilid, City Of Ligao."
+      "description": "Barangay patronal fiesta for Guilid, City Of Ligao.",
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles"
     },
     {
       "id": "bgy-050508026",
@@ -199255,7 +199336,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Herrera, City Of Ligao."
+      "description": "Barangay patronal fiesta for Herrera, City Of Ligao.",
+      "month": 8,
+      "dayStart": 30,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Ramon Nonato"
     },
     {
       "id": "bgy-050508027",
@@ -199268,7 +199353,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Layon, City Of Ligao."
+      "description": "Barangay patronal fiesta for Layon, City Of Ligao.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-050508028",
@@ -199281,7 +199370,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Macalidong, City Of Ligao."
+      "description": "Barangay patronal fiesta for Macalidong, City Of Ligao.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-050508029",
@@ -199307,7 +199400,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Malama, City Of Ligao."
+      "description": "Barangay patronal fiesta for Malama, City Of Ligao.",
+      "month": 8,
+      "dayStart": 4,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Sto. Domingo de Guzman"
     },
     {
       "id": "bgy-050508031",
@@ -199333,7 +199430,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Nasisi, City Of Ligao."
+      "description": "Barangay patronal fiesta for Nasisi, City Of Ligao.",
+      "month": 5,
+      "dayStart": 11,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Nuestra Senora delos Amparados"
     },
     {
       "id": "bgy-050508033",
@@ -199346,7 +199447,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Nabonton, City Of Ligao."
+      "description": "Barangay patronal fiesta for Nabonton, City Of Ligao.",
+      "month": 6,
+      "dayStart": 24,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Juan Bautista"
     },
     {
       "id": "bgy-050508034",
@@ -199359,7 +199464,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Oma-Oma, City Of Ligao."
+      "description": "Barangay patronal fiesta for Oma-Oma, City Of Ligao.",
+      "month": 11,
+      "dayStart": 5,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-050508035",
@@ -199385,7 +199494,10 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pandan, City Of Ligao."
+      "description": "Barangay patronal fiesta for Pandan, City Of Ligao.",
+      "month": 5,
+      "dayStart": 17,
+      "dateSource": "lgu-ligao-city-barangay-profiles"
     },
     {
       "id": "bgy-050508037",
@@ -199411,7 +199523,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Paulog, City Of Ligao."
+      "description": "Barangay patronal fiesta for Paulog, City Of Ligao.",
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Augustine"
     },
     {
       "id": "bgy-050508039",
@@ -199424,7 +199540,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pinamaniquian, City Of Ligao."
+      "description": "Barangay patronal fiesta for Pinamaniquian, City Of Ligao.",
+      "month": 2,
+      "dayStart": 11,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-050508040",
@@ -199437,7 +199557,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pinit, City Of Ligao."
+      "description": "Barangay patronal fiesta for Pinit, City Of Ligao.",
+      "month": 4,
+      "dayStart": 20,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Santa Elena"
     },
     {
       "id": "bgy-050508042",
@@ -199450,7 +199574,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ranao-Ranao, City Of Ligao."
+      "description": "Barangay patronal fiesta for Ranao-Ranao, City Of Ligao.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Immaculate Concepcion"
     },
     {
       "id": "bgy-050508043",
@@ -199464,10 +199592,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente, City Of Ligao.",
-      "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "month": 4,
+      "dayStart": 24,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Vicente"
     },
     {
       "id": "bgy-050508044",
@@ -199481,10 +199609,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Cruz (Pob.), City Of Ligao.",
-      "month": 5,
-      "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Stephen Protomartyr"
     },
     {
       "id": "bgy-050508045",
@@ -199510,7 +199638,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tambo, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tambo, City Of Ligao.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-050508047",
@@ -199523,7 +199655,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tandarura, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tandarura, City Of Ligao.",
+      "month": 8,
+      "dayStart": 16,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-050508048",
@@ -199536,7 +199672,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tastas, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tastas, City Of Ligao.",
+      "month": 6,
+      "dayStart": 9,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Sacred Heart of Jesus"
     },
     {
       "id": "bgy-050508049",
@@ -199549,7 +199689,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinago, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tinago, City Of Ligao.",
+      "month": 12,
+      "dayStart": 26,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "St. Stephen the Protomartyr"
     },
     {
       "id": "bgy-050508050",
@@ -199562,7 +199706,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tinampo, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tinampo, City Of Ligao.",
+      "month": 5,
+      "dayStart": 20,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Saint Bernard"
     },
     {
       "id": "bgy-050508051",
@@ -199575,7 +199723,10 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tiongson, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tiongson, City Of Ligao.",
+      "month": 12,
+      "dayStart": 4,
+      "dateSource": "lgu-ligao-city-barangay-profiles"
     },
     {
       "id": "bgy-050508052",
@@ -199588,7 +199739,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tomolin, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tomolin, City Of Ligao.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-050508053",
@@ -199601,7 +199756,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tuburan, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tuburan, City Of Ligao.",
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Nicolas de Tolentino"
     },
     {
       "id": "bgy-050508054",
@@ -199614,7 +199773,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tula-Tula Grande, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tula-Tula Grande, City Of Ligao.",
+      "month": 10,
+      "dayStart": 22,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "Nuestra Senora del Rosario"
     },
     {
       "id": "bgy-050508055",
@@ -199627,7 +199790,11 @@
       "municipalityPsgcPsa": "050508000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tula-Tula PequeñO, City Of Ligao."
+      "description": "Barangay patronal fiesta for Tula-Tula PequeñO, City Of Ligao.",
+      "month": 6,
+      "dayStart": 21,
+      "dateSource": "lgu-ligao-city-barangay-profiles",
+      "patronSaint": "San Vicente"
     },
     {
       "id": "bgy-050508056",
@@ -222697,7 +222864,11 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bani, Tinambac."
+      "description": "Barangay patronal fiesta for Bani, Tinambac.",
+      "month": 5,
+      "dayStart": 8,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Senor San Miguel"
     },
     {
       "id": "bgy-051737007",
@@ -222723,7 +222894,11 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Binalay, Tinambac."
+      "description": "Barangay patronal fiesta for Binalay, Tinambac.",
+      "month": 10,
+      "dayStart": 13,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Senora Fatima"
     },
     {
       "id": "bgy-051737009",
@@ -222763,9 +222938,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Cagliliog, Tinambac.",
-      "month": 5,
-      "dayStart": 19,
-      "dateSource": "theoldchurches-cagliliog-tinambac"
+      "month": 3,
+      "dayStart": 18,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "dayEnd": 19,
+      "patronSaint": "St. Joseph"
     },
     {
       "id": "bgy-051737012",
@@ -222830,7 +223007,12 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Daligan, Tinambac."
+      "description": "Barangay patronal fiesta for Daligan, Tinambac.",
+      "month": 5,
+      "dayStart": 4,
+      "dayEnd": 5,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Nuestra Senora de Salvacion"
     },
     {
       "id": "bgy-051737017",
@@ -222886,7 +223068,12 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Magsaysay (Camp 4), Tinambac."
+      "description": "Barangay patronal fiesta for Magsaysay (Camp 4), Tinambac.",
+      "month": 5,
+      "dayStart": 14,
+      "dayEnd": 15,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Sr. San Isidro Labrador"
     },
     {
       "id": "bgy-051737021",
@@ -222912,7 +223099,12 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Mananao, Tinambac."
+      "description": "Barangay patronal fiesta for Mananao, Tinambac.",
+      "month": 8,
+      "dayStart": 15,
+      "dayEnd": 16,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Senior San Roque"
     },
     {
       "id": "bgy-051737023",
@@ -222990,7 +223182,12 @@
       "municipalityPsgcPsa": "051737000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Pag-Asa, Tinambac."
+      "description": "Barangay patronal fiesta for Pag-Asa, Tinambac.",
+      "month": 5,
+      "dayStart": 29,
+      "dayEnd": 30,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Senior Christo Rey"
     },
     {
       "id": "bgy-051737029",
@@ -223085,10 +223282,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Jose (Tiltilan), Tinambac.",
-      "month": 3,
-      "dayStart": 19,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san jose"
+      "month": 4,
+      "dayStart": 30,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "San Jose"
     },
     {
       "id": "bgy-051737035",
@@ -223138,8 +223335,8 @@
       "description": "Barangay patronal fiesta for San Roque, Tinambac.",
       "month": 8,
       "dayStart": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san roque"
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Senior San Roque"
     },
     {
       "id": "bgy-051737038",
@@ -223170,10 +223367,11 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Santa Cruz (Pob.), Tinambac.",
-      "month": 5,
-      "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "month": 9,
+      "dayStart": 13,
+      "dateSource": "lgu-tinambac-gov-ph-barangay-profiles",
+      "patronSaint": "Holy Cross",
+      "dayEnd": 14
     },
     {
       "id": "bgy-051737040",
@@ -292315,9 +292513,9 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for Oringao, City Of Kabankalan.",
-      "month": 2,
-      "dayStart": 2,
-      "dateSource": "theoldchurches-oringao-city-of-kabankalan"
+      "month": 3,
+      "dayStart": 15,
+      "dateSource": "lgu-kabankalan-city-barangay-profiles"
     },
     {
       "id": "bgy-064515014",
@@ -292330,7 +292528,11 @@
       "municipalityPsgcPsa": "064515000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Orong, City Of Kabankalan."
+      "description": "Barangay patronal fiesta for Orong, City Of Kabankalan.",
+      "month": 3,
+      "dayStart": 19,
+      "dateSource": "lgu-kabankalan-city-barangay-profiles",
+      "patronSaint": "Senior San Jose"
     },
     {
       "id": "bgy-064515015",
@@ -398922,7 +399124,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aliguay, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Aliguay, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201002",
@@ -398935,7 +399141,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Antipolo, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Antipolo, City Of Dapitan.",
+      "month": 1,
+      "dayStart": 24,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Virgen de la Paz"
     },
     {
       "id": "bgy-097201003",
@@ -398948,7 +399158,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Aseniero, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Aseniero, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201004",
@@ -398961,7 +399175,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ba-Ao, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Ba-Ao, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 20,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201005",
@@ -398974,7 +399192,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banbanan, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Banbanan, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201006",
@@ -398987,7 +399209,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Barcelona, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Barcelona, City Of Dapitan.",
+      "month": 9,
+      "dayStart": 24,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Our Lady of Mercy"
     },
     {
       "id": "bgy-097201007",
@@ -399000,7 +399226,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Baylimango, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Baylimango, City Of Dapitan.",
+      "month": 6,
+      "dayStart": 5,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sacred Heart of Jesus"
     },
     {
       "id": "bgy-097201009",
@@ -399013,7 +399243,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Burgos, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Burgos, City Of Dapitan.",
+      "month": 10,
+      "dayStart": 28,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "St. Jude Thaddeus"
     },
     {
       "id": "bgy-097201010",
@@ -399026,7 +399260,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Canlucani, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Canlucani, City Of Dapitan.",
+      "month": 9,
+      "dayStart": 16,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-097201011",
@@ -399039,7 +399277,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Carang, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Carang, City Of Dapitan.",
+      "month": 8,
+      "dayStart": 5,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Roque"
     },
     {
       "id": "bgy-097201012",
@@ -399052,7 +399294,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dampalan, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Dampalan, City Of Dapitan.",
+      "month": 7,
+      "dayStart": 31,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Ignacio de Loyola"
     },
     {
       "id": "bgy-097201013",
@@ -399065,7 +399311,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Daro, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Daro, City Of Dapitan.",
+      "month": 9,
+      "dayStart": 22,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-097201014",
@@ -399078,7 +399328,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Diwa-An, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Diwa-An, City Of Dapitan.",
+      "month": 1,
+      "dayStart": 11,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sagrada Familia"
     },
     {
       "id": "bgy-097201016",
@@ -399091,7 +399345,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Guimputlan, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Guimputlan, City Of Dapitan.",
+      "month": 4,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-097201017",
@@ -399104,7 +399362,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Hilltop, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Hilltop, City Of Dapitan.",
+      "month": 9,
+      "dayStart": 29,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Miguel"
     },
     {
       "id": "bgy-097201018",
@@ -399117,7 +399379,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Ilaya, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Ilaya, City Of Dapitan.",
+      "month": 8,
+      "dayStart": 10,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Lorenzo"
     },
     {
       "id": "bgy-097201019",
@@ -399130,7 +399396,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Larayan, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Larayan, City Of Dapitan.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-097201020",
@@ -399143,7 +399413,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Liyang, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Liyang, City Of Dapitan.",
+      "month": 1,
+      "dayStart": 5,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Jose"
     },
     {
       "id": "bgy-097201021",
@@ -399156,7 +399430,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maria Cristina, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Maria Cristina, City Of Dapitan.",
+      "month": 4,
+      "dayStart": 30,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-097201022",
@@ -399169,7 +399447,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Maria Uray, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Maria Uray, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 15,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201023",
@@ -399182,7 +399464,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Masidlakon, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Masidlakon, City Of Dapitan.",
+      "month": 10,
+      "dayStart": 13,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-097201024",
@@ -399195,7 +399481,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Napo, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Napo, City Of Dapitan.",
+      "month": 12,
+      "dayStart": 12,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Virgin Guadalupe"
     },
     {
       "id": "bgy-097201025",
@@ -399208,7 +399498,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Opao, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Opao, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 14,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201026",
@@ -399221,7 +399515,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Oro, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Oro, City Of Dapitan.",
+      "month": 10,
+      "dayStart": 22,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Cristo Rey"
     },
     {
       "id": "bgy-097201027",
@@ -399234,7 +399532,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Owaon, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Owaon, City Of Dapitan.",
+      "month": 1,
+      "dayStart": 16,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-097201028",
@@ -399247,7 +399549,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Oyan, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Oyan, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 16,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Isidro Labrador"
     },
     {
       "id": "bgy-097201031",
@@ -399260,7 +399566,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Polo, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Polo, City Of Dapitan.",
+      "month": 10,
+      "dayStart": 1,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Santa Teresita"
     },
     {
       "id": "bgy-097201032",
@@ -399273,7 +399583,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Potungan, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Potungan, City Of Dapitan.",
+      "month": 12,
+      "dayStart": 8,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-097201033",
@@ -399287,10 +399601,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Francisco, City Of Dapitan.",
-      "month": 10,
-      "dayStart": 4,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san francisco"
+      "month": 12,
+      "dayStart": 3,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Francisco Javier"
     },
     {
       "id": "bgy-097201034",
@@ -399304,10 +399618,10 @@
       "type": "patron-saint",
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Nicolas, City Of Dapitan.",
-      "month": 12,
-      "dayStart": 6,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san nicolas"
+      "month": 9,
+      "dayStart": 10,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Nicolas"
     },
     {
       "id": "bgy-097201035",
@@ -399323,8 +399637,8 @@
       "description": "Barangay patronal fiesta for San Pedro, City Of Dapitan.",
       "month": 6,
       "dayStart": 29,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san pedro"
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Pedro/San Pablo"
     },
     {
       "id": "bgy-097201036",
@@ -399339,9 +399653,9 @@
       "source": "psgc-barangay",
       "description": "Barangay patronal fiesta for San Vicente, City Of Dapitan.",
       "month": 1,
-      "dayStart": 22,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "san vicente"
+      "dayStart": 28,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-097201038",
@@ -399354,7 +399668,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sicayab Bocana, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Sicayab Bocana, City Of Dapitan.",
+      "month": 5,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sta. Cruz"
     },
     {
       "id": "bgy-097201039",
@@ -399380,7 +399698,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Silinog, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Silinog, City Of Dapitan.",
+      "month": 6,
+      "dayStart": 29,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Pedro/San Pablo"
     },
     {
       "id": "bgy-097201041",
@@ -399393,7 +399715,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sinonoc, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Sinonoc, City Of Dapitan.",
+      "month": 9,
+      "dayStart": 14,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sta. Cruz"
     },
     {
       "id": "bgy-097201042",
@@ -399409,9 +399735,8 @@
       "description": "Barangay patronal fiesta for Santo NiñO, City Of Dapitan.",
       "month": 1,
       "dayStart": 15,
-      "dayEnd": 16,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santo nino"
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-097201043",
@@ -399424,7 +399749,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Sulangon, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Sulangon, City Of Dapitan.",
+      "month": 8,
+      "dayStart": 28,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Agustin"
     },
     {
       "id": "bgy-097201044",
@@ -399437,7 +399766,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tag-Olo, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Tag-Olo, City Of Dapitan.",
+      "month": 4,
+      "dayStart": 5,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "San Vicente Ferrer"
     },
     {
       "id": "bgy-097201045",
@@ -399450,7 +399783,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Taguilon, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Taguilon, City Of Dapitan.",
+      "month": 2,
+      "dayStart": 15,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-097201046",
@@ -399476,7 +399813,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Tamion, City Of Dapitan."
+      "description": "Barangay patronal fiesta for Tamion, City Of Dapitan.",
+      "month": 1,
+      "dayStart": 14,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sto. Nino"
     },
     {
       "id": "bgy-097201048",
@@ -399489,7 +399830,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Bagting (Pob.), City Of Dapitan."
+      "description": "Barangay patronal fiesta for Bagting (Pob.), City Of Dapitan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Our Lady of Fatima"
     },
     {
       "id": "bgy-097201049",
@@ -399502,7 +399847,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Banonong (Pob.), City Of Dapitan."
+      "description": "Barangay patronal fiesta for Banonong (Pob.), City Of Dapitan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Immaculate Conception"
     },
     {
       "id": "bgy-097201050",
@@ -399515,7 +399864,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Cawa-Cawa (Pob.), City Of Dapitan."
+      "description": "Barangay patronal fiesta for Cawa-Cawa (Pob.), City Of Dapitan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sagrada Familia"
     },
     {
       "id": "bgy-097201051",
@@ -399528,7 +399881,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Dawo (Pob.), City Of Dapitan."
+      "description": "Barangay patronal fiesta for Dawo (Pob.), City Of Dapitan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Sagrada Familia"
     },
     {
       "id": "bgy-097201052",
@@ -399554,7 +399911,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Linabo (Pob.), City Of Dapitan."
+      "description": "Barangay patronal fiesta for Linabo (Pob.), City Of Dapitan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Santiago Apostol"
     },
     {
       "id": "bgy-097201054",
@@ -399567,7 +399928,11 @@
       "municipalityPsgcPsa": "097201000",
       "type": "patron-saint",
       "source": "psgc-barangay",
-      "description": "Barangay patronal fiesta for Potol (Pob.), City Of Dapitan."
+      "description": "Barangay patronal fiesta for Potol (Pob.), City Of Dapitan.",
+      "month": 7,
+      "dayStart": 25,
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Our Lady of Lourdes"
     },
     {
       "id": "bgy-097201055",
@@ -399583,8 +399948,8 @@
       "description": "Barangay patronal fiesta for Santa Cruz (Pob.), City Of Dapitan.",
       "month": 5,
       "dayStart": 3,
-      "dateSource": "patron-saint-calendar",
-      "patronSaint": "santa cruz"
+      "dateSource": "lgu-dapitan-city-barangay-fiesta-table",
+      "patronSaint": "Santa Cruz"
     },
     {
       "id": "bgy-097202001",
@@ -572655,15 +573020,15 @@
     }
   ],
   "dateBackfill": {
-    "appliedAt": "2026-06-14T15:10:03.203Z",
+    "appliedAt": "2026-06-20T06:22:06.496Z",
     "stats": {
       "total": 42044,
-      "alreadyHadDate": 4194,
-      "fromOverride": 2477,
+      "alreadyHadDate": 4182,
+      "fromOverride": 2580,
       "fromPatronSaint": 0,
       "fromPatronProfile": 0,
       "fromOnline": 0,
-      "stillMissing": 35373
+      "stillMissing": 35282
     },
     "lguScheduleStats": {
       "siargao": {
@@ -573112,8 +573477,8 @@
         "missed": 0
       },
       "curatedOnline": {
-        "entries": 9,
-        "matched": 9,
+        "entries": 114,
+        "matched": 114,
         "missed": 0
       },
       "cabatuan": {

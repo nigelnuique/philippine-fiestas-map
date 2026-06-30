@@ -33,7 +33,7 @@
     "check:page": "node scripts/check-page.mjs",
     "check:e2e": "node scripts/e2e-map.mjs",
     "check:go-live": "node scripts/go-live-checks.mjs",
-    "deploy:pages": "npm run build && npx gh-pages -d dist",
+    "deploy:pages": "npm run build && node scripts/deploy-gh-pages.mjs",
     "data:analyze-missing-barangays": "node scripts/analyze-missing-barangay-boundaries.js",
     "data:report-gaps": "node scripts/report-data-gaps.js",
     "data:audit-missing-dates": "node scripts/audit-missing-dates.js"

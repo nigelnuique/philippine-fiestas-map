@@ -17,6 +17,16 @@ const ROOT = path.resolve(__dirname, "..");
 const args = new Set(process.argv.slice(2));
 const skipBuild = args.has("--skip-build");
 const previewUrl = process.env.PREVIEW_URL ?? "http://127.0.0.1:4173/";
+const appBase = (() => {
+  const path = new URL(previewUrl).pathname;
+  if (path === "/" || path === "") return "/";
+  return path.endsWith("/") ? path : `${path}/`;
+})();
+
+function assetUrl(path) {
+  const normalized = path.startsWith("/") ? path.slice(1) : path;
+  return `${appBase}${normalized}`;
+}
 
 const results = [];
 
@@ -98,7 +108,15 @@ async function checkBuild() {
 
 async function checkDistOutput() {
   let ok = true;
-  for (const f of ["dist/index.html", "dist/favicon.svg", "dist/geojson/country/lowres/country.0.001.json"]) {
+  for (const f of [
+    "dist/index.html",
+    "dist/favicon.svg",
+    "dist/og-image.svg",
+    "dist/robots.txt",
+    "dist/sitemap.xml",
+    "dist/llms.txt",
+    "dist/geojson/country/lowres/country.0.001.json",
+  ]) {
     const r = fileOk(f);
     if (r.ok) pass(`dist ${f}`, r.detail);
     else {
@@ -150,17 +168,17 @@ async function checkPreviewSmoke(url) {
       pass("sidebar title", h1);
     }
 
-    const manifestRes = await page.evaluate(async () => {
-      const r = await fetch("/data/processed/boundaries/manifest.json");
+    const manifestRes = await page.evaluate(async (manifestPath) => {
+      const r = await fetch(manifestPath);
       return { ok: r.ok, type: r.headers.get("content-type") };
-    });
+    }, assetUrl("/data/processed/boundaries/manifest.json"));
     if (manifestRes.ok) pass("manifest.json fetch");
     else fail("manifest.json fetch", JSON.stringify(manifestRes));
 
-    const geoRes = await page.evaluate(async () => {
-      const r = await fetch("/geojson/country/lowres/country.0.001.json");
+    const geoRes = await page.evaluate(async (geoPath) => {
+      const r = await fetch(geoPath);
       return r.ok;
-    });
+    }, assetUrl("/geojson/country/lowres/country.0.001.json"));
     if (geoRes) pass("country GeoJSON fetch");
     else fail("country GeoJSON fetch");
 
@@ -171,6 +189,31 @@ async function checkPreviewSmoke(url) {
     const icon = await page.locator('link[rel="icon"]').count();
     if (icon > 0) pass("favicon link");
     else fail("favicon link");
+
+    const canonical = await page.locator('link[rel="canonical"]').getAttribute("href");
+    if (canonical?.startsWith("http")) pass("canonical URL", canonical);
+    else fail("canonical URL", canonical ?? "missing");
+
+    const jsonLd = await page.locator('script[type="application/ld+json"]').count();
+    if (jsonLd > 0) pass("JSON-LD structured data");
+    else fail("JSON-LD structured data", "missing");
+
+    const ogTitle = await page.locator('meta[property="og:title"]').getAttribute("content");
+    if (ogTitle?.length > 10) pass("Open Graph title");
+    else fail("Open Graph title", "missing or too short");
+
+    for (const [name, urlPath] of [
+      ["robots.txt", "/robots.txt"],
+      ["sitemap.xml", "/sitemap.xml"],
+      ["llms.txt", "/llms.txt"],
+    ]) {
+      const ok = await page.evaluate(async (path) => {
+        const r = await fetch(path);
+        return r.ok;
+      }, urlPath);
+      if (ok) pass(name);
+      else fail(name, `fetch ${urlPath} failed`);
+    }
 
     if (errors.length) {
       warn("browser console errors", errors.slice(0, 3).join(" | "));

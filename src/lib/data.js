@@ -1,5 +1,6 @@
 import { boundsFromFeature, mergeBounds } from "./mapUtils.js";
 import { municipalityIndexKeys, normalizePsgc, fiestaMunicipalityLookupKeys } from "./psgc.js";
+import { staticUrl } from "./staticUrl.js";
 
 async function fetchJson(url, label) {
   const res = await fetch(url);
@@ -16,16 +17,16 @@ async function fetchJson(url, label) {
 }
 
 export async function loadManifest() {
-  return fetchJson("/data/processed/boundaries/manifest.json", "boundary manifest");
+  return fetchJson(staticUrl("/data/processed/boundaries/manifest.json"), "boundary manifest");
 }
 
 export async function loadFestivals() {
-  return fetchJson("/data/processed/festivals/festivals.json", "festivals");
+  return fetchJson(staticUrl("/data/processed/festivals/festivals.json"), "festivals");
 }
 
 export async function loadMunicipalitiesIndex() {
   return fetchJson(
-    "/data/processed/boundaries/municipalities-index.json",
+    staticUrl("/data/processed/boundaries/municipalities-index.json"),
     "municipalities index"
   );
 }
@@ -33,7 +34,7 @@ export async function loadMunicipalitiesIndex() {
 export async function loadBarangaysIndex() {
   try {
     return await fetchJson(
-      "/data/processed/boundaries/barangays-index.json",
+      staticUrl("/data/processed/boundaries/barangays-index.json"),
       "barangays index"
     );
   } catch {
@@ -44,7 +45,7 @@ export async function loadBarangaysIndex() {
 export function geojsonUrl(manifestPath) {
   // manifest paths: data/raw/philippines-json-maps/2023/geojson/regions/lowres/...
   const relative = manifestPath.replace(/^data\/raw\/philippines-json-maps\/2023\/geojson\//, "");
-  return `/geojson/${relative}`;
+  return staticUrl(`/geojson/${relative}`);
 }
 
 export async function fetchGeoJson(url) {
@@ -90,8 +91,8 @@ async function loadHucIndex() {
   }
   try {
     const [cities, byProv] = await Promise.all([
-      fetchJson("/data/processed/boundaries/huc-cities.json", "HUC cities"),
-      fetchJson("/data/processed/boundaries/huc-by-province.json", "HUC index"),
+      fetchJson(staticUrl("/data/processed/boundaries/huc-cities.json"), "HUC cities"),
+      fetchJson(staticUrl("/data/processed/boundaries/huc-by-province.json"), "HUC index"),
     ]);
     hucCitiesCache = cities;
     hucByProvinceCache = byProv.byProvincePsgc ?? {};
@@ -103,7 +104,7 @@ async function loadHucIndex() {
 }
 
 export async function loadMunicipalities(provincePsgc) {
-  const file = `/geojson/provdists/lowres/municities-provdist-${provincePsgc}.0.001.json`;
+  const file = staticUrl(`/geojson/provdists/lowres/municities-provdist-${provincePsgc}.0.001.json`);
   let base;
   try {
     base = await fetchGeoJson(file);
@@ -150,7 +151,7 @@ export async function loadBarangayFiestaIndex() {
   if (barangayIndexCache) return barangayIndexCache;
   try {
     barangayIndexCache = await fetchJson(
-      "/data/processed/festivals/barangay-fiestas.json",
+      staticUrl("/data/processed/festivals/barangay-fiestas.json"),
       "barangay fiestas"
     );
   } catch {
@@ -201,7 +202,7 @@ export async function loadBarangayFiestasForMunicipality(municipalityPsgc) {
 
 export async function loadBarangays(municipalityPsgc) {
   if (!municipalityPsgc) return null;
-  const file = `/geojson/municities/lowres/bgysubmuns-municity-${municipalityPsgc}.0.001.json`;
+  const file = staticUrl(`/geojson/municities/lowres/bgysubmuns-municity-${municipalityPsgc}.0.001.json`);
   try {
     const fc = await fetchGeoJson(file);
     if (!fc.features?.length) return null;

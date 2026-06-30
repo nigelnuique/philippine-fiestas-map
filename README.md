@@ -70,10 +70,17 @@ npm run dev
 
 See [docs/data-pipeline.md](docs/data-pipeline.md) for full pipeline details.
 
+## Deploy (free portfolio hosting)
+
+Push to `master` deploys to **GitHub Pages** via GitHub Actions. **Netlify** and **Cloudflare Pages** are also supported via `netlify.toml` and the same build command.
+
+See **[docs/deploy.md](docs/deploy.md)** for one-time setup (enable Pages in repo settings, or connect Netlify/Cloudflare).
+
 ## Documentation
 
 | Doc | Contents |
 |-----|----------|
+| [docs/deploy.md](docs/deploy.md) | **Deploy** — GitHub Pages, Netlify, Cloudflare Pages |
 | [docs/data-sources.md](docs/data-sources.md) | **Data provenance** — sources, licenses, how each dataset was obtained |
 | [docs/data-pipeline.md](docs/data-pipeline.md) | Scripts, data files, PSGC codes, known gaps |
 | [docs/architecture.md](docs/architecture.md) | App structure, map layers, selection state, module reference |

@@ -277,38 +277,40 @@ export default function Sidebar({
           )}
           <p className="sidebar-subtitle">{subtitle}</p>
         </div>
-        <div className="festival-search-wrap">
-          <input
-            type="search"
-            className="festival-search"
-            placeholder="Search festivals (e.g. Sinulog, Cebu)…"
-            value={festivalSearch}
-            onChange={(e) => setFestivalSearch(e.target.value)}
-            aria-label="Search festivals"
-          />
-        </div>
-        {atCountryView && onMonthFilterChange && (
-          <div className="month-browse-wrap">
-            <p className="region-picker-label">Browse by month</p>
-            <div className="month-browse-list">
-              {MONTH_NAMES.map((name, idx) => {
-                const month = idx + 1;
-                return (
-                  <button
-                    key={month}
-                    type="button"
-                    className={`month-chip${monthFilter === month ? " month-chip-active" : ""}`}
-                    onClick={() =>
-                      onMonthFilterChange(monthFilter === month ? null : month)
-                    }
-                  >
-                    {name.slice(0, 3)}
-                  </button>
-                );
-              })}
-            </div>
+        <div className="sidebar-controls">
+          <div className="festival-search-wrap">
+            <input
+              type="search"
+              className="festival-search"
+              placeholder="Search festivals (e.g. Sinulog, Cebu)…"
+              value={festivalSearch}
+              onChange={(e) => setFestivalSearch(e.target.value)}
+              aria-label="Search festivals"
+            />
           </div>
-        )}
+          {atCountryView && onMonthFilterChange && (
+            <div className="month-browse-wrap">
+              <p className="month-browse-label">Browse by month</p>
+              <div className="month-browse-list">
+                {MONTH_NAMES.map((name, idx) => {
+                  const month = idx + 1;
+                  return (
+                    <button
+                      key={month}
+                      type="button"
+                      className={`month-chip${monthFilter === month ? " month-chip-active" : ""}`}
+                      onClick={() =>
+                        onMonthFilterChange(monthFilter === month ? null : month)
+                      }
+                    >
+                      {name.slice(0, 3)}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
       <div className="sidebar-body">
         {selection && onCountrySelect && (

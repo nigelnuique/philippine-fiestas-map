@@ -27,21 +27,11 @@ if (!fs.existsSync(DIST)) {
 const workDir = fs.mkdtempSync(path.join(os.tmpdir(), "fiestas-gh-pages-"));
 console.log(`Deploy workspace: ${workDir}`);
 
-try {
-  run(`git clone --depth 1 --branch ${BRANCH} ${REMOTE} repo`, workDir);
-} catch {
-  fs.mkdirSync(path.join(workDir, "repo"));
-  run("git init", path.join(workDir, "repo"));
-  run(`git remote add origin ${REMOTE}`, path.join(workDir, "repo"));
-  run(`git checkout --orphan ${BRANCH}`, path.join(workDir, "repo"));
-}
-
 const repoDir = path.join(workDir, "repo");
-
-for (const entry of fs.readdirSync(repoDir)) {
-  if (entry === ".git") continue;
-  fs.rmSync(path.join(repoDir, entry), { recursive: true, force: true });
-}
+fs.mkdirSync(repoDir);
+run("git init", repoDir);
+run(`git remote add origin ${REMOTE}`, repoDir);
+run(`git checkout --orphan ${BRANCH}`, repoDir);
 
 function copyDir(src, dest) {
   fs.mkdirSync(dest, { recursive: true });
@@ -58,6 +48,6 @@ fs.writeFileSync(path.join(repoDir, ".nojekyll"), "");
 
 run("git add -A", repoDir);
 run('git commit -m "Deploy Philippine Fiestas Map"', repoDir);
-run(`git push origin HEAD:${BRANCH}`, repoDir);
+run(`git push --force origin HEAD:${BRANCH}`, repoDir);
 
 console.log("\nPublished to GitHub Pages.");

@@ -109,7 +109,27 @@ export const MAJOR_FESTIVAL_DESCRIPTIONS_BY_NAME = Object.fromEntries(
     "lanzones festival":
       "Lanzones Festival in Mambajao, Camiguin celebrates the island’s sweetest lanzones harvest every October. Street dancing, agri-trade fairs, and the coronation of the Lanzones Queen mark thanksgiving for the fruit that Camiguin is famous for across the Philippines.",
     "lami lamihan festival":
-      "Lami-Lamihan Festival in Lamitan, Basilan showcases Yakan and Muslim cultural heritage through traditional music, dance, and crafts. Held in June, it promotes peace and unity while highlighting the province’s unique ethnolinguistic traditions.",
+      "Lami-Lamihan Festival in Lamitan, Basilan showcases Yakan and Muslim cultural heritage through traditional music, dance, and crafts. Held in June, it promotes peace and unity while highlighting the province's unique ethnolinguistic traditions.",
+    "turumba festival":
+      "Turumba in Pakil, Laguna is a nine-day novena festival honoring Our Lady of Sorrows, famous for the frenetic Turumba street dance performed to a repeating hymn. Held in April and May, it is one of the oldest Marian processions in Luzon and a vivid expression of Filipino devotional dance.",
+    "obando fertility rite":
+      "The Obando Fertility Rite in Obando, Bulacan is a three-day dance ritual held in May where childless couples and singles dance the fandango before San Pascual Baylon, Santa Clara, and Our Lady of Salambao. It blends pre-colonial fertility beliefs with Catholic devotion and draws pilgrims from across the country.",
+    "manggahan festival":
+      "Manggahan Festival in Jordan, Guimaras celebrates the island province's sweet mangoes every May with agri-trade fairs, street dancing, and the search for Manggahan Queen. Guimaras mangoes are prized for export quality, and the festival is the province's flagship tourism event.",
+    "lechon festival":
+      "Lechon Festival in Balayan, Batangas honors St. John the Baptist every June 24 with a parade of roasted lechon dressed in costumes through the town streets. The feast coincides with the traditional dousing of water on passersby, blending culinary pride with baptism-day revelry.",
+    "hinugyaw festival":
+      "Hinugyaw Festival in Koronadal City, South Cotabato marks the city's charter anniversary every January with street dancing that showcases the blended cultures of the Hiligaynon settlers and indigenous communities of the Allah Valley.",
+    "tuna festival":
+      "Tuna Festival in General Santos City celebrates the Tuna Capital of the Philippines each September with parades, culinary events, and street dancing centered on the city's world-class sashimi-grade tuna industry.",
+    "flores de mayo":
+      "Flores de Mayo (Flowers of May) is a month-long Marian devotion held across the Philippines in May, culminating in the Santacruzan procession reenacting Queen Helena's search for the True Cross. Towns and barangays crown a Reyna Elena and hold daily flower offerings to the Blessed Virgin.",
+    "centurion festival":
+      "Centurion Festival in Mabalacat, Pampanga features Roman soldier reenactors during Holy Week, echoing Marinduque's Moriones tradition. Participants in centurion garb patrol the streets in a unique Lenten folk drama of the Central Luzon lowlands.",
+    "pintados festival":
+      "Pintados Festival in Tacloban honors the tattooed warriors of pre-colonial Leyte through body-painted dancers and street performances. It later merged with Kasadyaan to form the region's signature June celebration of Waray heritage.",
+    "pasungay festival":
+      "Pasungay Festival in San Joaquin, Iloilo is a bullfighting-inspired but animal-safe festival held on the Saturday before Easter, where decorated carabaos and horses are paraded in a colorful agricultural spectacle on the town plaza.",
   }).map(([k, v]) => [k, v])
 );
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T12:17:00.379Z",
+  "generatedAt": "2026-06-30T06:02:17.272Z",
   "sources": [
     {
       "id": "tpb",
@@ -15,20 +15,13 @@
       "id": "wikipedia",
       "name": "Wikipedia festival list",
       "url": "https://en.wikipedia.org/wiki/List_of_festivals_in_the_Philippines"
-    },
-    {
-      "id": "psgc-barangay",
-      "name": "PSGC barangay patron fiestas (one per barangay)",
-      "url": "https://github.com/xemasiv/psgc2"
     }
   ],
   "counts": {
     "tpb": 118,
     "seed": 15,
     "wikipedia": 1043,
-    "barangay": 42044,
-    "totalNamed": 1176,
-    "totalWithBarangay": 43220
+    "totalNamed": 1176
   },
   "festivals": {
     "tpb": [
@@ -1460,7 +1453,7 @@
         "province": "Cebu",
         "municipality": "Cebu City",
         "type": "religious-cultural",
-        "description": "Grand festival honoring the Santo Niño with street dancing and fluvial parade.",
+        "description": "Held every third Sunday of January in Cebu City, Sinulog is among the largest religious and cultural festivals in the Philippines, honoring the Santo Niño (Child Jesus). The name comes from the Cebuano sinulog dance — two steps forward, one step back — evoking the rhythm of the sea and originally performed as a prayer before the image at the Basilica Minore del Santo Niño. Highlights include the fluvial parade along the Mactan Channel on the Saturday before the feast, the solemn reenactment of the first baptism, and the Grand Parade of competing contingents in vivid costumes. Often called the “Grandest Festival in the Philippines,” Sinulog draws millions of devotees and spectators each year.",
         "source": "seed"
       },
       {
@@ -1473,7 +1466,7 @@
         "province": "Aklan",
         "municipality": "Kalibo",
         "type": "religious-cultural",
-        "description": "Street festival with tribal face paint honoring the Santo Niño.",
+        "description": "Ati-Atihan in Kalibo, Aklan is one of the oldest Santo Niño festivals in the country, blending indigenous Ati heritage with Catholic devotion. Participants darken their skin with soot, wear elaborate tribal finery and tasseled headdresses, and dance to relentless drumbeats while chanting “Hala Bira!” and “Viva kay Señor Santo Niño!” The celebration recalls the ancient barter of Panay and the merrymaking of the Ati people, and today ranks alongside Sinulog and Dinagyang as a premier January festival in the Visayas.",
         "source": "seed"
       },
       {
@@ -1486,7 +1479,7 @@
         "province": "Iloilo",
         "municipality": "Iloilo City",
         "type": "religious-cultural",
-        "description": "Warrior-painted tribes dance in honor of the Santo Niño.",
+        "description": "Dinagyang — from the Hiligaynon word for merrymaking — transforms Iloilo City every fourth week of January into a thunderous tribute to the Santo Niño. Warrior dancers in soot-blackened bodies, shields, and spears perform choreographed tribal routines at the Iloilo Freedom Grandstand, echoing the Ati-atihan tradition that began when a replica of the Cebu Santo Niño arrived in 1967. The festival also commemorates the legendary purchase of Panay from the Ati chieftain Marikudo, uniting faith, history, and world-class street-dance competition.",
         "source": "seed"
       },
       {
@@ -1499,7 +1492,7 @@
         "province": "Metro Manila",
         "municipality": "Manila",
         "type": "religious",
-        "description": "Procession honoring the Black Nazarene in Quiapo.",
+        "description": "Every January 9, millions of barefoot devotees converge on Quiapo Church in Manila for the Traslación — the solemn procession of the centuries-old black wooden image of Christ carrying the Cross. Known as the Poong Itim na Nazareno, the statue is believed to grant miracles to the faithful who endure hours of jostling to touch the ropes pulling the andas (carriage). The feast is one of the largest annual religious gatherings in the Catholic world and a defining expression of Filipino popular piety.",
         "source": "seed"
       },
       {
@@ -1512,7 +1505,7 @@
         "province": "Benguet",
         "municipality": "Baguio City",
         "type": "cultural",
-        "description": "Flower festival with floats and street dancing.",
+        "description": "Panagbenga — a Kankanaey word meaning “season of blooming” — is Baguio City’s month-long flower festival held every February. Born in 1995 as a way to lift the city after the devastating 1990 Luzon earthquake, it features spectacular floats covered in fresh blooms, street dancers in bahag and floral costumes moving to the Bendian rhythm, and garden shows that celebrate the Cordilleras’ artistry. Today it is one of the Philippines’ most photographed festivals and a symbol of resilience and renewal.",
         "source": "seed"
       },
       {
@@ -1525,7 +1518,7 @@
         "province": "Marinduque",
         "municipality": null,
         "type": "religious-cultural",
-        "description": "Holy Week reenactment with Roman centurion masks.",
+        "description": "During Holy Week on the island of Marinduque, townspeople don elaborate Roman centurion masks and armor to reenact the story of Longinus, the blind soldier whose sight was restored by Christ’s blood. The Moriones (from “Moryon,” meaning mask) roam the streets in penitential silence, culminating in the search for Longinus and his conversion. This centuries-old tradition blends folk theater, Lenten devotion, and Marinduque’s unique cultural identity.",
         "source": "seed"
       },
       {
@@ -1538,7 +1531,7 @@
         "province": "Quezon",
         "municipality": "Lucban",
         "type": "harvest",
-        "description": "Homes decorated with colorful kiping rice wafers.",
+        "description": "Every May 15, Lucban in Quezon Province erupts in color for the San Isidro Pahiyas — widely regarded as the Philippines’ most vibrant harvest festival. Homes along the procession route are draped with brilliant kiping (leaf-shaped rice wafers), fruits, vegetables, and handicrafts in friendly competition for the best décor. The feast honors San Isidro Labrador, patron saint of farmers, and expresses thanksgiving for a bountiful harvest through parades, higantes, and the blessing of decorated houses as the saint’s image passes by.",
         "source": "seed"
       },
       {
@@ -1551,7 +1544,7 @@
         "province": "Leyte",
         "municipality": "Tacloban City",
         "type": "cultural",
-        "description": "Body-paint festival honoring pre-colonial warrior traditions.",
+        "description": "Pintados-Kasadyaan in Tacloban City celebrates Leyte’s warrior past and pre-colonial heritage through body-painted dancers who wear patterns echoing ancient pintados (tattooed warriors). Held in June, the festival merges the Pintados Festival of body art with Kasadyaan (“merriment”), featuring street performances, cultural exhibits, and tributes to the region’s history. It is Eastern Visayas’ signature showcase of identity, resilience, and artistic expression.",
         "source": "seed"
       },
       {
@@ -1564,7 +1557,7 @@
         "province": "Bohol",
         "municipality": "Tagbilaran City",
         "type": "historical",
-        "description": "Commemorates the blood compact between Sikatuna and Legazpi.",
+        "description": "Sandugo (“one blood”) commemorates the 1565 blood compact between Spanish explorer Miguel López de Legazpi and Bohol chieftain Datu Sikatuna — a pact of friendship sealed with wine and blood. Tagbilaran City marks the event each July with reenactments, street dancing, agro-industrial fairs, and fireworks. The festival celebrates Boholano history and the spirit of unity between cultures.",
         "source": "seed"
       },
       {
@@ -1577,7 +1570,7 @@
         "province": "Davao del Sur",
         "municipality": "Davao City",
         "type": "harvest-cultural",
-        "description": "Thanksgiving festival celebrating tribal heritage and harvest.",
+        "description": "Kadayawan sa Dabaw, held every August in Davao City, is a thanksgiving festival rooted in the madayaw (“good, valuable, beautiful”) traditions of the city’s 11 indigenous ethnolinguistic groups. It evolved from tribal harvest rituals promoted in the 1970s and the 1986 Apo Duwaling celebration honoring Mount Apo, durian, and the waling-waling orchid. Highlights include the Indak-Indak street-dancing competition, the Pamulak floral float parade, and the Kadayawan Village showcasing Lumad and Moro cultures.",
         "source": "seed"
       },
       {
@@ -1590,7 +1583,7 @@
         "province": "Negros Occidental",
         "municipality": "Bacolod City",
         "type": "cultural",
-        "description": "Festival of smiling masks and street dancing.",
+        "description": "MassKara — a play on mass (crowd), cara (face), and maskara (mask) — is Bacolod City’s festival of smiling faces every October. Born in 1980 amid the collapse of the sugar industry and the MV Don Juan maritime tragedy, it was conceived as an act of defiance: a declaration that Bacolod would survive hardship with joy. Dancers in radiant smiling masks and sequined costumes fill the streets to Latin beats, earning the city its nickname, the “City of Smiles.”",
         "source": "seed"
       },
       {
@@ -1603,7 +1596,7 @@
         "province": "Pampanga",
         "municipality": "San Fernando City",
         "type": "cultural",
-        "description": "Giant parol lanterns competition.",
+        "description": "San Fernando, Pampanga hosts the Ligligan Parul (Giant Lantern Festival) each December, where barangays compete with enormous parol lanterns up to 18 feet across, their kaleidoscopic patterns choreographed to music. Known as the “Christmas Capital of the Philippines,” the city’s artisans have elevated the humble star lantern into a dazzling electric spectacle that draws visitors from around the country.",
         "source": "seed"
       },
       {
@@ -1616,7 +1609,7 @@
         "province": "Cebu",
         "municipality": "Mandaue City",
         "type": "cultural",
-        "description": "Cultural festival celebrating Mandaue's history, trade, and craftsmanship.",
+        "description": "Mantawi Festival in Mandaue City, Cebu honors the city’s patron St. Joseph with a mid-year cultural summit of trade fairs, street dancing, and performances celebrating Mandaue’s heritage as a center of furniture-making and commerce. The name recalls Mactan’s ancient trade routes, and the festival coincides with the city’s fiesta traditions and the broader Cebuano devotion to the Santo Niño.",
         "source": "seed"
       },
       {
@@ -1629,7 +1622,7 @@
         "province": "Cebu",
         "municipality": "Lapu-Lapu City",
         "type": "historical",
-        "description": "Reenactment of the Battle of Mactan and tribute to Datu Lapu-Lapu.",
+        "description": "Kadaugan sa Mactan (Victory in Mactan) reenacts the 1521 Battle of Mactan, when Datu Lapu-Lapu and his warriors repelled Ferdinand Magellan’s forces on the shores of Mactan Island. Held in Lapu-Lapu City each April, the festival features beach landing dramatizations, cultural shows, and tributes to the first Filipino hero who resisted foreign domination.",
         "source": "seed"
       },
       {
@@ -1642,7 +1635,7 @@
         "province": "Cebu",
         "municipality": "Lapu-Lapu City",
         "type": "religious",
-        "description": "Fluvial procession and novena honoring Our Lady of the Rule in Opon.",
+        "description": "The Virgen de la Regla (Our Lady of the Rule) Festival in Lapu-Lapu City centers on a fluvial procession and novena honoring a Marian image venerated since the Spanish era in Opon. Pilgrims and devotees gather each November for the birhen’s feast, blending seafaring tradition, Catholic devotion, and Cebuano coastal culture.",
         "source": "seed"
       }
     ],

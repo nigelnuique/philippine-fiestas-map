@@ -328,5 +328,15 @@
     "description": "This is a lantern showcase where lanterns measuring 14 to 18 feet in diameter delight spectators with their kaleidoscope patterns",
     "seededFrom": "tpb-san-fernando-giant-lantern-festival",
     "enrichedAt": "2026-06-12T11:44:22.218Z"
+  },
+  "wiki-kadaugan-sa-mactan-cebu-city-cebu": {
+    "description": "Kadaugan sa Mactan (Victory in Mactan) reenacts the 1521 Battle of Mactan, when Datu Lapu-Lapu and his warriors repelled Ferdinand Magellan’s forces on the shores of Mactan Island. Held in Lapu-Lapu City each April, the festival features beach landing dramatizations, cultural shows, and tributes to the first Filipino hero who resisted foreign domination.",
+    "seededFrom": "seed-kadaugan-sa-mactan",
+    "enrichedAt": "2026-06-30T06:02:24.842Z"
+  },
+  "wiki-mantawi-festival-mandaue-city": {
+    "description": "Mantawi Festival in Mandaue City, Cebu honors the city’s patron St. Joseph with a mid-year cultural summit of trade fairs, street dancing, and performances celebrating Mandaue’s heritage as a center of furniture-making and commerce. The name recalls Mactan’s ancient trade routes, and the festival coincides with the city’s fiesta traditions and the broader Cebuano devotion to the Santo Niño.",
+    "seededFrom": "seed-mantawi-festival",
+    "enrichedAt": "2026-06-30T06:02:24.842Z"
   }
 }

@@ -22,6 +22,7 @@ import {
   selectionToFilter,
 } from "../lib/mapUtils.js";
 import { mapFocusForMunicipality } from "../lib/locationHints.js";
+import { getMapBackgroundColor } from "../lib/theme.js";
 import {
   featureHoverLabel,
   hasBarangayMap,
@@ -669,7 +670,7 @@ export default function FiestaMap({
           {
             id: MAP_LAYERS.background,
             type: "background",
-            paint: { "background-color": "#0a0e14" },
+            paint: { "background-color": getMapBackgroundColor() },
           },
           {
             id: MAP_LAYERS.provincesFill,
@@ -929,9 +930,21 @@ export default function FiestaMap({
     map.on("mouseleave", onPointerLeave);
     map.on("click", onMapClick);
 
+    const applyMapTheme = () => {
+      if (map.getLayer(MAP_LAYERS.background)) {
+        map.setPaintProperty(
+          MAP_LAYERS.background,
+          "background-color",
+          getMapBackgroundColor()
+        );
+      }
+    };
+    window.addEventListener("app-theme-change", applyMapTheme);
+
     mapRef.current = map;
 
     return () => {
+      window.removeEventListener("app-theme-change", applyMapTheme);
       mapReadyRef.current = false;
       map.off("mousedown", onMouseDown);
       map.off("mousemove", onPointerMove);

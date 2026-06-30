@@ -327,8 +327,8 @@ export function resolveFestivalLocation(festival, lookups) {
   if (hint?.regionPsgc) {
     return {
       psgc: null,
-      municipality: muniCandidate,
-      province: provCandidate,
+      municipality: hint.municipality ?? null,
+      province: hint.province ?? null,
       provincePsgc: null,
       regionPsgc: hint.regionPsgc,
       matchMethod: "festival-hint-region",

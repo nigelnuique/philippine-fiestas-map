@@ -1,5 +1,6 @@
 import { MONTH_NAMES } from "./constants.js";
 import { normalizePsgc, barangayPsgcMatches } from "./psgc.js";
+export { formatFestivalDate, getFestivalDateBadge } from "./festivalDisplay.js";
 
 function festivalsAtPsgc(byPsgc, psgc) {
   const key = normalizePsgc(psgc);
@@ -142,16 +143,4 @@ export function defaultBarangayFestival(index, selection, barangayFestivals = []
   if (!index || selection?.level !== "barangay") return null;
   const festivals = festivalsForSelection(index, selection, barangayFestivals);
   return festivals[0] ?? null;
-}
-
-export function formatFestivalDate(f) {
-  if (f.dayStart && f.month) {
-    const month = MONTH_NAMES[f.month] ?? "";
-    if (f.dayEnd && f.dayEnd !== f.dayStart) {
-      return `${month} ${f.dayStart}–${f.dayEnd}`;
-    }
-    return `${month} ${f.dayStart}`;
-  }
-  if (f.month) return MONTH_NAMES[f.month] ?? "";
-  return f.dateVenueRaw?.split(/\s+/).slice(0, 3).join(" ") ?? "Date TBA";
 }

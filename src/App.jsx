@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import FiestaMap from "./components/FiestaMap.jsx";
 import Sidebar from "./components/Sidebar.jsx";
+import ThemeToggle from "./components/ThemeToggle.jsx";
 import {
   loadManifest,
   loadFestivals,
@@ -22,6 +23,7 @@ import {
 } from "./lib/mapUtils.js";
 import { normalizePsgc } from "./lib/psgc.js";
 import { updateDocumentMeta } from "./lib/documentMeta.js";
+import { readUrlState, writeUrlState } from "./lib/urlState.js";
 import "./App.css";
 
 export default function App() {
@@ -38,9 +40,11 @@ export default function App() {
   const [barangayFestivals, setBarangayFestivals] = useState([]);
   const [barangayFestivalsLoading, setBarangayFestivalsLoading] = useState(false);
   const [festivalSelectNotice, setFestivalSelectNotice] = useState(null);
+  const [monthFilter, setMonthFilter] = useState(null);
   const selectionSeqRef = useRef(0);
   const autoSelectedBarangayRef = useRef(null);
   const selectionRef = useRef(null);
+  const urlBootstrappedRef = useRef(false);
   const provincesGeoJsonRef = useRef(null);
   provincesGeoJsonRef.current = provincesGeoJson;
   selectionRef.current = selection;
@@ -89,6 +93,14 @@ export default function App() {
   useEffect(() => {
     updateDocumentMeta(selection);
   }, [selection]);
+
+  useEffect(() => {
+    if (loading || !urlBootstrappedRef.current) return;
+    writeUrlState(selection, {
+      festivalId: activeFestivalId,
+      month: monthFilter,
+    });
+  }, [selection, activeFestivalId, monthFilter, loading]);
 
   useEffect(() => {
     let cancelled = false;
@@ -308,6 +320,35 @@ export default function App() {
     [festivalIndex, manifest, municipalitiesIndex, barangaysIndex, applyMapSelection]
   );
 
+  useEffect(() => {
+    if (!festivalIndex || !manifest || urlBootstrappedRef.current || loading) return;
+
+    const { selection: urlSelection, festivalId, month } = readUrlState();
+    if (month != null && month >= 1 && month <= 12) {
+      setMonthFilter(month);
+    }
+
+    urlBootstrappedRef.current = true;
+
+    if (urlSelection) {
+      applyMapSelection(urlSelection, { festivalId: festivalId ?? null });
+      return;
+    }
+
+    if (festivalId) {
+      const festival = festivalIndex.festivals.find((f) => f.id === festivalId);
+      if (festival) {
+        handleFestivalSelect(festival);
+      }
+    }
+  }, [
+    festivalIndex,
+    manifest,
+    loading,
+    applyMapSelection,
+    handleFestivalSelect,
+  ]);
+
   if (error) {
     return (
       <div className="app-error">
@@ -340,9 +381,11 @@ export default function App() {
         onFestivalSelect={handleFestivalSelect}
         activeFestivalId={activeFestivalId}
         festivalSelectNotice={festivalSelectNotice}
+        monthFilter={monthFilter}
+        onMonthFilterChange={setMonthFilter}
       />
-      {provincesGeoJson && manifest ? (
-        <main className="map-main" aria-label="Interactive festival map">
+      <main className="map-main" aria-label="Interactive festival map">
+        {provincesGeoJson && manifest ? (
           <FiestaMap
             provincesGeoJson={provincesGeoJson}
             manifest={manifest}
@@ -353,13 +396,16 @@ export default function App() {
               applyMapSelection(sel);
             }}
           />
-        </main>
-      ) : (
-        <div className="map-loading">
-          <div className="map-loading-spinner" />
-          <p>Loading Philippine boundaries…</p>
+        ) : (
+          <div className="map-loading">
+            <div className="map-loading-spinner" />
+            <p>Loading Philippine boundaries…</p>
+          </div>
+        )}
+        <div className="map-toolbar">
+          <ThemeToggle />
         </div>
-      )}
+      </main>
     </div>
   );
 }

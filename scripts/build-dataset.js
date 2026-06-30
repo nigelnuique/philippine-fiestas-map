@@ -122,12 +122,17 @@ function main() {
       dateStats.online++;
     else if (dates.dayStart != null) dateStats.local++;
 
+    const datePrecision =
+      dates.dateParseMethod === "month-inferred" ? "month" : dates.datePrecision ?? null;
+
     return {
       id: f.id ?? `festival-${idx + 1}`,
       name: f.name,
       month: dates.month ?? null,
       dayStart: dates.dayStart ?? null,
       dayEnd: dates.dayEnd ?? null,
+      datePrecision,
+      dateParseMethod: dates.dateParseMethod ?? null,
       dateVenueRaw: f.dateVenueRaw ?? f.locationText ?? null,
       type: f.type ?? "festival",
       description,
@@ -180,7 +185,9 @@ function main() {
       (f) => !f.location.psgc && !f.location.provincePsgc
     ).length,
     highConfidence: festivals.filter((f) => f.location.confidence === "high").length,
-    withDayStart: festivals.filter((f) => f.dayStart != null).length,
+    withDayStart: festivals.filter(
+      (f) => f.dayStart != null && f.datePrecision !== "month"
+    ).length,
     withDescription: festivals.filter((f) => f.description && f.description.length >= 40).length,
     descriptionsFromCache,
     datesFromLocalParse: dateStats.local,

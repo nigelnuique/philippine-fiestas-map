@@ -125,6 +125,19 @@ philippine-fiestas-map/
 
 See **[docs/data-sources.md](docs/data-sources.md)** for full provenance: how each dataset was cloned, scraped, or inferred, plus coverage limits and attribution requirements.
 
+## About the data
+
+This is an **unofficial cultural atlas**, not a government calendar. Use it to explore where festivals happen; confirm dates with your local parish, barangay hall, or municipal tourism office before making travel plans.
+
+| What you see | What it means |
+|--------------|----------------|
+| **Month only** | We know the month but not the exact day (common for Wikipedia-sourced entries). |
+| **Patron saint estimate** | Feast day inferred from the barangay patron's name on the liturgical calendar — actual celebrations may fall on the nearest weekend. |
+| **LGU schedule** | Date taken from a published local government or parish document in our pipeline. |
+| **Nationwide / Regionwide** | Event spans the whole country or region — not tied to one municipality polygon. |
+
+**Scale (approximate):** ~1,000 named festivals with map locations; ~42,000 barangay patron fiesta stubs; ~16% of barangay records have a feast date after LGU backfill. The map link in your browser bar updates as you explore (`#l=province&p=…&f=…`) so you can share a specific view.
+
 ## Administrative drill-down
 
 ```
@@ -142,6 +155,8 @@ Polygons use philippines-json-maps PSGC property names (`adm1_psgc` … `adm4_ps
 - [x] Barangay boundary drill-down (where GeoJSON exists)
 - [x] HUC municipality boundary patches
 - [x] Barangay patron fiesta stubs from PSGC (~42k)
+- [x] Month browse + shareable map URLs
+- [x] Date confidence badges in the UI
 - [ ] Calendar view (date filter on same dataset)
 - [x] Barangay feast date backfill pipeline (LGU schedules, Wikipedia, patron-saint calendar — partial coverage)
 - [ ] Full barangay feast date coverage (~11% have month/day today)

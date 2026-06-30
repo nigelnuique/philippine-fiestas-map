@@ -14,27 +14,27 @@
   z-index: 5;
   pointer-events: none;
   transform: translate(14px, 14px);
-  background: rgba(15, 20, 25, 0.94);
-  border: 1px solid #475569;
+  background: var(--color-bg-overlay);
+  border: 1px solid var(--color-border-muted);
   border-radius: 6px;
   padding: 0.35rem 0.6rem;
   font-size: 0.8rem;
   font-weight: 500;
-  color: #f1f5f9;
+  color: var(--color-text-heading);
   white-space: nowrap;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  box-shadow: var(--shadow-card);
 }
 
 .map-hint {
   position: absolute;
   bottom: 12px;
   left: 12px;
-  background: rgba(15, 20, 25, 0.88);
-  border: 1px solid #334155;
+  background: var(--color-bg-overlay);
+  border: 1px solid var(--color-border-input);
   border-radius: 8px;
   padding: 0.45rem 0.75rem;
   font-size: 0.75rem;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   pointer-events: none;
   max-width: 320px;
   line-height: 1.4;
@@ -47,12 +47,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem 0.65rem;
-  background: rgba(15, 20, 25, 0.88);
-  border: 1px solid #334155;
+  background: var(--color-bg-overlay);
+  border: 1px solid var(--color-border-input);
   border-radius: 8px;
   padding: 0.4rem 0.65rem;
   font-size: 0.68rem;
-  color: #64748b;
+  color: var(--color-text-subtle);
   pointer-events: none;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .map-legend-active {
-  color: #e2e8f0;
+  color: var(--color-text-body);
   font-weight: 600;
 }
 
@@ -76,6 +76,6 @@
 
 @media (max-width: 768px) {
   .map-wrap {
-    height: 55vh;
+    min-height: 0;
   }
 }

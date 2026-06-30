@@ -2,6 +2,7 @@ import { memo, useDeferredValue, useEffect, useMemo, useState } from "react";
 import {
   formatFestivalDate,
   festivalsForSelection,
+  getFestivalDateBadge,
 } from "../lib/festivalIndex.js";
 import { lookupBarangaysForMunicipality } from "../lib/data.js";
 import { MONTH_NAMES } from "../lib/constants.js";
@@ -25,7 +26,9 @@ const FestivalList = memo(function FestivalList({
   return (
     <>
       <div className="festival-list" role="list">
-        {visible.map((f) => (
+        {visible.map((f) => {
+          const dateBadge = getFestivalDateBadge(f);
+          return (
           <button
             key={f.id}
             type="button"
@@ -48,13 +51,27 @@ const FestivalList = memo(function FestivalList({
               </p>
             )}
             {f.description && <p className="festival-desc">{f.description}</p>}
-            {f.month && (
-              <div className="festival-card-footer">
-                <span className="festival-month">{MONTH_NAMES[f.month]}</span>
-              </div>
-            )}
+            <div className="festival-card-footer">
+              {dateBadge && (
+                <span className={`festival-date-badge festival-date-badge--${dateBadge.variant}`}>
+                  {dateBadge.label}
+                </span>
+              )}
+              {f.sourceUrl && (
+                <a
+                  className="festival-source-link"
+                  href={f.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  Source
+                </a>
+              )}
+            </div>
           </button>
-        ))}
+        );
+        })}
       </div>
       {remaining > 0 && (
         <button
@@ -115,6 +132,8 @@ export default function Sidebar({
   onFestivalSelect,
   activeFestivalId,
   festivalSelectNotice,
+  monthFilter,
+  onMonthFilterChange,
 }) {
   const [festivalSearch, setFestivalSearch] = useState("");
   const showBiringanEgg =
@@ -130,10 +149,17 @@ export default function Sidebar({
     if (!festivalIndex) return [];
     if (selection) return areaFestivals;
     const query = festivalSearch.trim().toLowerCase();
-    if (!query) return [];
+    if (!query) {
+      if (!monthFilter) return [];
+      if (isBiringanEasterEggQuery(festivalSearch)) return [];
+      return festivalIndex.festivals
+        .filter((f) => f.month === monthFilter)
+        .slice(0, 200);
+    }
     if (isBiringanEasterEggQuery(query)) return [];
     return festivalIndex.festivals
       .filter((f) => {
+        if (monthFilter && f.month !== monthFilter) return false;
         const place = [
           f.location?.municipality,
           f.location?.province,
@@ -145,7 +171,7 @@ export default function Sidebar({
         return f.name.toLowerCase().includes(query) || place.includes(query);
       })
       .slice(0, 80);
-  }, [festivalIndex, selection, areaFestivals, festivalSearch]);
+  }, [festivalIndex, selection, areaFestivals, festivalSearch, monthFilter]);
   const deferredFestivals = useDeferredValue(visibleFestivals);
   const festivalsPending =
     deferredFestivals !== visibleFestivals && visibleFestivals.length > 0;
@@ -224,14 +250,17 @@ export default function Sidebar({
           : selection?.level === "municipality"
             ? "Fiestas listed below (no barangay map for this area)"
             : selection?.level === "country" || !selection
-              ? "Pick a region below or click the map"
+              ? monthFilter
+                ? `${MONTH_NAMES[monthFilter]} festivals — click the map or pick a region`
+                : "Search, pick a month, or click the map"
               : `${areaFestivals.length} festival${areaFestivals.length === 1 ? "" : "s"} in this area`;
   const showFestivalSection =
     !loading &&
     (visibleFestivals.length > 0 ||
       (selection &&
         !barangayFestivalsLoading &&
-        visibleFestivals.length === 0));
+        visibleFestivals.length === 0) ||
+      (!selection && monthFilter && visibleFestivals.length > 0));
   return (
     <aside className="sidebar">
       <div className="sidebar-sticky">
@@ -258,6 +287,28 @@ export default function Sidebar({
             aria-label="Search festivals"
           />
         </div>
+        {atCountryView && onMonthFilterChange && (
+          <div className="month-browse-wrap">
+            <p className="region-picker-label">Browse by month</p>
+            <div className="month-browse-list">
+              {MONTH_NAMES.map((name, idx) => {
+                const month = idx + 1;
+                return (
+                  <button
+                    key={month}
+                    type="button"
+                    className={`month-chip${monthFilter === month ? " month-chip-active" : ""}`}
+                    onClick={() =>
+                      onMonthFilterChange(monthFilter === month ? null : month)
+                    }
+                  >
+                    {name.slice(0, 3)}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
       <div className="sidebar-body">
         {selection && onCountrySelect && (
@@ -366,12 +417,21 @@ export default function Sidebar({
         )}
 
         {loading && <p className="festival-empty">Loading map data…</p>}
-        {!loading && !selection && !festivalSearch.trim() && (
+        {!loading && !selection && !festivalSearch.trim() && !monthFilter && (
           <p className="festival-empty">
-            Search for a festival to fly to its location, pick a region above,
-            or click a province on the map.
+            Search for a festival, browse by month above, pick a region, or
+            click a province on the map.
           </p>
         )}
+        {!loading &&
+          !selection &&
+          monthFilter &&
+          !festivalSearch.trim() &&
+          visibleFestivals.length === 0 && (
+            <p className="festival-empty">
+              No festivals listed for {MONTH_NAMES[monthFilter]} in our dataset.
+            </p>
+          )}
         {festivalSelectNotice && (
           <SidebarBanner variant="notice">{festivalSelectNotice}</SidebarBanner>
         )}

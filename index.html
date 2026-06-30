@@ -17,6 +17,21 @@
     <meta name="application-url" content="__SITE_URL__" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="theme-color" content="#0f1419" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("philippine-fiestas-theme");
+          if (t === "light" || t === "dark") {
+            document.documentElement.dataset.theme = t;
+          } else if (
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: light)").matches
+          ) {
+            document.documentElement.dataset.theme = "light";
+          }
+        } catch (e) {}
+      })();
+    </script>
     <meta name="geo.region" content="PH" />
     <meta name="geo.placename" content="Philippines" />
     <meta name="ICBM" content="12.8797, 121.7740" />

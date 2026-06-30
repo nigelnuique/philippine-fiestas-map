@@ -5,17 +5,17 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(165deg, #161d27 0%, #0d1117 55%, #0a0e14 100%);
-  border-right: 1px solid #2a3548;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--color-border-strong);
   overflow: hidden;
 }
 
 .sidebar-sticky {
   flex-shrink: 0;
   padding-bottom: 0.5rem;
-  background: linear-gradient(180deg, #161d27 0%, #121820 100%);
-  border-bottom: 1px solid #243044;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+  background: var(--sidebar-sticky-bg);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: var(--sidebar-shadow);
   z-index: 2;
 }
 
@@ -26,7 +26,7 @@
   overflow-x: hidden;
   padding: 0.75rem 1rem 1.25rem;
   scrollbar-width: thin;
-  scrollbar-color: #334155 transparent;
+  scrollbar-color: var(--color-border-input) transparent;
 }
 
 .sidebar-body::-webkit-scrollbar {
@@ -34,7 +34,7 @@
 }
 
 .sidebar-body::-webkit-scrollbar-thumb {
-  background: #334155;
+  background: var(--color-border-input);
   border-radius: 3px;
 }
 
@@ -47,8 +47,8 @@
   font-size: 1.28rem;
   font-weight: 700;
   letter-spacing: -0.03em;
-  color: #f8fafc;
-  background: linear-gradient(135deg, #f8fafc 0%, #fbbf24 120%);
+  color: var(--color-text-strong);
+  background: var(--title-gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -60,7 +60,7 @@
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #64748b;
+  color: var(--color-text-subtle);
 }
 
 .sidebar-area {
@@ -92,7 +92,7 @@
   font-size: 1.15rem;
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #f1f5f9;
+  color: var(--color-text-heading);
   line-height: 1.25;
 }
 
@@ -100,7 +100,7 @@
   margin: 0.4rem 0 0;
   font-size: 0.82rem;
   line-height: 1.45;
-  color: #94a3b8;
+  color: var(--color-text-muted);
 }
 
 .festival-search-wrap {
@@ -110,10 +110,10 @@
 .festival-search {
   width: 100%;
   box-sizing: border-box;
-  background: #0f1419;
-  border: 1px solid #334155;
+  background: var(--color-bg-input);
+  border: 1px solid var(--color-border-input);
   border-radius: 10px;
-  color: #f8fafc;
+  color: var(--color-text-strong);
   font-size: 0.84rem;
   padding: 0.6rem 0.75rem 0.6rem 2.15rem;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%2364748b' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85zm-5.242 1.156a5 5 0 1 1 0-10 5 5 0 0 1 0 10z'/%3E%3C/svg%3E");
@@ -123,19 +123,19 @@
 }
 
 .festival-search::placeholder {
-  color: #64748b;
+  color: var(--color-text-subtle);
 }
 
 .festival-search:focus {
   outline: none;
-  border-color: #fbbf24;
-  box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.12);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px var(--focus-ring);
 }
 
 .region-picker {
   margin-bottom: 0.85rem;
-  background: #121820;
-  border: 1px solid #243044;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 0.65rem 0.75rem;
 }
@@ -145,7 +145,7 @@
   overflow-y: auto;
   padding-right: 0.2rem;
   scrollbar-width: thin;
-  scrollbar-color: #334155 transparent;
+  scrollbar-color: var(--color-border-input) transparent;
 }
 
 .region-picker-label {
@@ -154,7 +154,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.07em;
-  color: #64748b;
+  color: var(--color-text-subtle);
 }
 
 .region-picker-list {
@@ -166,10 +166,10 @@
 .region-chip {
   touch-action: manipulation;
   user-select: none;
-  background: #0f1419;
-  border: 1px solid #2d3a4f;
+  background: var(--color-bg-input);
+  border: 1px solid var(--color-border-chip);
   border-radius: 8px;
-  color: #cbd5e1;
+  color: var(--color-text-body);
   font-size: 0.72rem;
   font-weight: 500;
   padding: 0.32rem 0.6rem;
@@ -178,9 +178,9 @@
 }
 
 .region-chip:hover {
-  border-color: #64748b;
-  background: #1a2332;
-  color: #f8fafc;
+  border-color: var(--color-text-subtle);
+  background: var(--color-bg-card-hover);
+  color: var(--color-text-strong);
 }
 
 .region-chip:active {
@@ -188,10 +188,15 @@
 }
 
 .region-chip-active {
-  border-color: var(--chip-accent, #fbbf24);
-  background: color-mix(in srgb, var(--chip-accent, #fbbf24) 12%, #1a2332);
-  color: var(--chip-accent, #fbbf24);
-  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--chip-accent, #fbbf24) 25%, transparent);
+  border-color: var(--chip-accent, var(--color-accent));
+  background: color-mix(
+    in srgb,
+    var(--chip-accent, var(--color-accent)) 12%,
+    var(--color-bg-card-hover)
+  );
+  color: var(--chip-accent, var(--color-accent));
+  box-shadow: inset 0 0 0 1px
+    color-mix(in srgb, var(--chip-accent, var(--color-accent)) 25%, transparent);
 }
 
 .festival-section-title {
@@ -200,14 +205,14 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: #64748b;
+  color: var(--color-text-subtle);
 }
 
 .festival-section-pending {
   font-weight: 500;
   text-transform: none;
   letter-spacing: normal;
-  color: #475569;
+  color: var(--color-text-faint);
 }
 
 .festival-show-more {
@@ -215,19 +220,19 @@
   width: 100%;
   margin-top: 0.65rem;
   padding: 0.65rem 0.85rem;
-  border: 1px dashed #334155;
+  border: 1px dashed var(--color-border-input);
   border-radius: 8px;
   background: transparent;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   font-size: 0.82rem;
   cursor: pointer;
   touch-action: manipulation;
 }
 
 .festival-show-more:hover {
-  border-color: #475569;
-  color: #cbd5e1;
-  background: rgba(148, 163, 184, 0.06);
+  border-color: var(--color-border-muted);
+  color: var(--color-text-body);
+  background: color-mix(in srgb, var(--color-text-muted) 6%, transparent);
 }
 
 .sidebar-banner {
@@ -236,18 +241,18 @@
   border-radius: 8px;
   font-size: 0.8rem;
   line-height: 1.45;
-  color: #94a3b8;
-  background: rgba(30, 41, 59, 0.45);
-  border: 1px solid #2d3a4f;
+  color: var(--color-text-muted);
+  background: var(--color-bg-banner);
+  border: 1px solid var(--color-border-chip);
 }
 
 .sidebar-banner--info {
-  border-left: 3px solid #38bdf8;
+  border-left: 3px solid var(--color-accent-info);
 }
 
 .sidebar-banner--notice {
-  border-left: 3px solid #fbbf24;
-  color: #cbd5e1;
+  border-left: 3px solid var(--color-accent);
+  color: var(--color-text-body);
 }
 
 .festival-list {
@@ -257,7 +262,7 @@
 }
 
 .festival-empty {
-  color: #64748b;
+  color: var(--color-text-subtle);
   font-size: 0.85rem;
   line-height: 1.55;
   margin: 0.25rem 0;
@@ -270,8 +275,8 @@
   display: block;
   width: 100%;
   text-align: left;
-  background: #141c28;
-  border: 1px solid #2d3a4f;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-chip);
   border-radius: 10px;
   padding: 0.85rem 0.95rem;
   padding-left: 0.95rem;
@@ -295,22 +300,23 @@
 }
 
 .festival-card:hover {
-  border-color: #475569;
-  background: #1a2332;
+  border-color: var(--color-border-muted);
+  background: var(--color-bg-card-hover);
 }
 
 .festival-card:hover::before {
-  background: #64748b;
+  background: var(--color-text-subtle);
 }
 
 .festival-card-active {
-  border-color: #fbbf24;
-  background: #1c2433;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(251, 191, 36, 0.2);
+  border-color: var(--color-accent);
+  background: var(--color-bg-card-active);
+  box-shadow: var(--shadow-card),
+    inset 0 0 0 1px color-mix(in srgb, var(--color-accent) 20%, transparent);
 }
 
 .festival-card-active::before {
-  background: #fbbf24;
+  background: var(--color-accent);
 }
 
 .festival-card-head {
@@ -324,18 +330,18 @@
   margin: 0;
   font-size: 0.94rem;
   font-weight: 600;
-  color: #f8fafc;
+  color: var(--color-text-strong);
   line-height: 1.35;
 }
 
 .festival-date {
   flex-shrink: 0;
   font-size: 0.68rem;
-  color: #fbbf24;
+  color: var(--color-accent);
   white-space: nowrap;
   font-weight: 600;
-  background: rgba(251, 191, 36, 0.1);
-  border: 1px solid rgba(251, 191, 36, 0.25);
+  background: color-mix(in srgb, var(--color-accent) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-accent) 25%, transparent);
   border-radius: 6px;
   padding: 0.2rem 0.45rem;
 }
@@ -343,7 +349,7 @@
 .festival-place {
   margin: 0.45rem 0 0;
   font-size: 0.76rem;
-  color: #94a3b8;
+  color: var(--color-text-muted);
   line-height: 1.4;
 }
 
@@ -351,7 +357,7 @@
   margin: 0.5rem 0 0;
   font-size: 0.78rem;
   line-height: 1.5;
-  color: #cbd5e1;
+  color: var(--color-text-body);
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -372,11 +378,90 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: #94a3b8;
-  background: #0f1419;
-  border: 1px solid #2d3a4f;
+  color: var(--color-text-muted);
+  background: var(--color-bg-input);
+  border: 1px solid var(--color-border-chip);
   padding: 0.18rem 0.45rem;
   border-radius: 5px;
+}
+
+.festival-date-badge {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-border-chip);
+}
+
+.festival-date-badge--approx {
+  color: var(--color-text-subtle);
+  background: var(--color-bg-banner);
+}
+
+.festival-date-badge--estimate {
+  color: var(--color-text-muted);
+  background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+  border-color: color-mix(in srgb, var(--color-accent) 25%, transparent);
+}
+
+.festival-date-badge--verified {
+  color: var(--color-accent-info);
+  background: color-mix(in srgb, var(--color-accent-info) 10%, transparent);
+  border-color: color-mix(in srgb, var(--color-accent-info) 30%, transparent);
+}
+
+.festival-date-badge--info {
+  color: var(--color-text-muted);
+  background: var(--color-bg-elevated);
+}
+
+.festival-source-link {
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--color-link);
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.festival-source-link:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+.month-browse-wrap {
+  padding: 0 1.25rem 0.65rem;
+}
+
+.month-browse-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.month-chip {
+  touch-action: manipulation;
+  background: var(--color-bg-input);
+  border: 1px solid var(--color-border-chip);
+  border-radius: 6px;
+  color: var(--color-text-muted);
+  font-size: 0.68rem;
+  font-weight: 600;
+  padding: 0.28rem 0.45rem;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.month-chip:hover {
+  border-color: var(--color-border-muted);
+  color: var(--color-text-heading);
+}
+
+.month-chip-active {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 10%, transparent);
 }
 
 @media (max-width: 768px) {
@@ -385,7 +470,7 @@
     max-width: none;
     height: 45vh;
     border-right: none;
-    border-top: 1px solid #243044;
+    border-top: 1px solid var(--color-border);
   }
 
   .sidebar-sticky {

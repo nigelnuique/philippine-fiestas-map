@@ -1,9 +1,9 @@
 .sidebar-attribution {
   flex-shrink: 0;
   padding: 0.6rem 1.25rem 0.85rem;
-  border-top: 1px solid #243044;
+  border-top: 1px solid var(--color-border);
   font-size: 0.75rem;
-  color: #64748b;
+  color: var(--color-text-subtle);
   text-align: center;
 }
 
@@ -15,7 +15,7 @@
   margin-top: 0.3rem !important;
   font-size: 0.62rem;
   line-height: 1.4;
-  color: #64748b;
+  color: var(--color-text-subtle);
   font-style: italic;
 }
 
@@ -26,13 +26,13 @@
 }
 
 .sidebar-attribution a {
-  color: #94a3b8;
+  color: var(--color-link);
   text-decoration: none;
   font-weight: 500;
 }
 
 .sidebar-attribution a:hover {
-  color: #fbbf24;
+  color: var(--color-link-hover);
 }
 
 .sidebar-footer-details {
@@ -44,7 +44,7 @@
   cursor: pointer;
   list-style: none;
   font-size: 0.68rem;
-  color: #94a3b8;
+  color: var(--color-link);
   text-align: center;
   user-select: none;
 }
@@ -64,7 +64,7 @@
 }
 
 .sidebar-footer-details summary:hover {
-  color: #fbbf24;
+  color: var(--color-link-hover);
 }
 
 .sidebar-footer-panel {
@@ -73,8 +73,8 @@
   max-height: min(38vh, 280px);
   overflow-y: auto;
   border-radius: 8px;
-  background: rgba(15, 23, 35, 0.65);
-  border: 1px solid #243044;
+  background: var(--color-bg-panel);
+  border: 1px solid var(--color-border);
 }
 
 .sidebar-footer-section + .sidebar-footer-section {
@@ -87,14 +87,14 @@
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #94a3b8;
+  color: var(--color-link);
 }
 
 .sidebar-footer-section p {
   margin: 0;
   font-size: 0.62rem;
   line-height: 1.45;
-  color: #64748b;
+  color: var(--color-text-subtle);
 }
 
 .sidebar-footer-section p + p {
@@ -123,10 +123,10 @@
 .sidebar-data-sources-license {
   font-size: 0.58rem;
   font-weight: 500;
-  color: #64748b;
+  color: var(--color-text-subtle);
   padding: 0.05rem 0.35rem;
   border-radius: 4px;
-  background: rgba(36, 48, 68, 0.8);
+  background: var(--color-bg-badge);
   white-space: nowrap;
 }
 
@@ -135,21 +135,21 @@
   margin-top: 0.12rem;
   font-size: 0.62rem;
   line-height: 1.35;
-  color: #64748b;
+  color: var(--color-text-subtle);
 }
 
 .sidebar-source-category-divider {
   margin: 0.65rem 0;
   border: 0;
-  border-top: 1px solid #243044;
+  border-top: 1px solid var(--color-border);
 }
 
 .sidebar-footer-footnote {
   margin: 0.65rem 0 0 !important;
   padding-top: 0.5rem;
-  border-top: 1px solid #243044;
+  border-top: 1px solid var(--color-border);
   font-size: 0.6rem;
   line-height: 1.4;
-  color: #64748b;
+  color: var(--color-text-subtle);
   font-style: italic;
 }

@@ -4,6 +4,10 @@ dist/
 .env.*
 !.env.example
 !.env.production
+
+# Pipeline scratch / internal state (keep out of git when possible)
+data/processed/festivals/harvest-logs/
+data/processed/festivals/official-barangay-fiesta-*.json
 *.log
 .DS_Store
 Thumbs.db

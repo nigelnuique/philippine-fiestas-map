@@ -1,5 +1,6 @@
 /**
- * Copies lowres GeoJSON into public/geojson for the map app (dev + production).
+ * Copies lowres GeoJSON and app-facing JSON into public/ (dev + production).
+ * Only whitelisted datasets are published — pipeline caches and raw sources stay out of dist/.
  */
 import fs from "fs";
 import path from "path";
@@ -12,16 +13,16 @@ const DEST = path.join(ROOT, "public", "geojson");
 const PROCESSED_SRC = path.join(ROOT, "data", "processed");
 const PROCESSED_DEST = path.join(ROOT, "public", "data", "processed");
 
-function copyDirRecursive(src, dest) {
-  if (!fs.existsSync(src)) return;
-  fs.mkdirSync(dest, { recursive: true });
-  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
-    const s = path.join(src, entry.name);
-    const d = path.join(dest, entry.name);
-    if (entry.isDirectory()) copyDirRecursive(s, d);
-    else fs.copyFileSync(s, d);
-  }
-}
+/** JSON paths under data/processed/ served to the browser. */
+const PUBLIC_PROCESSED_FILES = [
+  "boundaries/manifest.json",
+  "boundaries/municipalities-index.json",
+  "boundaries/barangays-index.json",
+  "boundaries/huc-cities.json",
+  "boundaries/huc-by-province.json",
+  "festivals/festivals.json",
+  "festivals/barangay-fiestas.json",
+];
 
 function copyDir(srcDir, destDir) {
   if (!fs.existsSync(srcDir)) return 0;
@@ -35,13 +36,37 @@ function copyDir(srcDir, destDir) {
   return count;
 }
 
+function rmDirRecursive(dir) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const target = path.join(dir, entry.name);
+    if (entry.isDirectory()) rmDirRecursive(target);
+    else fs.unlinkSync(target);
+  }
+  fs.rmdirSync(dir);
+}
+
+function syncPublicProcessed() {
+  if (fs.existsSync(PROCESSED_DEST)) rmDirRecursive(PROCESSED_DEST);
+
+  let copied = 0;
+  for (const rel of PUBLIC_PROCESSED_FILES) {
+    const src = path.join(PROCESSED_SRC, rel);
+    if (!fs.existsSync(src)) continue;
+    const dest = path.join(PROCESSED_DEST, rel);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.copyFileSync(src, dest);
+    copied++;
+  }
+  return copied;
+}
+
 function main() {
   if (!fs.existsSync(SRC)) {
     console.error("Missing boundary source. Run: .\\scripts\\clone-sources.ps1");
     process.exit(1);
   }
 
-  // Preserve lowres/ subpaths so URLs match manifest → geojsonUrl() output
   const regions = copyDir(
     path.join(SRC, "regions", "lowres"),
     path.join(DEST, "regions", "lowres")
@@ -64,12 +89,12 @@ function main() {
     path.join(DEST, "country", "lowres", "country.0.001.json")
   );
 
-  copyDirRecursive(PROCESSED_SRC, PROCESSED_DEST);
+  const processed = syncPublicProcessed();
 
   console.log(
     `Synced GeoJSON to public/geojson/ (${regions} region, ${provdist} province, ${municities + hucBarangays} barangay files)`
   );
-  console.log(`Synced processed data to public/data/processed/`);
+  console.log(`Synced ${processed} public dataset(s) to public/data/processed/`);
 }
 
 main();

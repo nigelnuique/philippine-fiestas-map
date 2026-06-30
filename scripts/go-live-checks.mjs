@@ -91,6 +91,25 @@ async function checkStaticAssets() {
   return ok;
 }
 
+function checkDistDataExposure() {
+  if (!fs.existsSync(path.join(ROOT, "dist"))) return true;
+
+  const deny = [
+    "dist/data/processed/festivals/raw-festivals.json",
+    "dist/data/processed/festivals/lgu-barangay-schedules-cache.json",
+    "dist/data/processed/festivals/harvest-logs",
+  ];
+  let ok = true;
+  for (const rel of deny) {
+    if (fs.existsSync(path.join(ROOT, rel))) {
+      fail("dist data exposure", rel);
+      ok = false;
+    }
+  }
+  if (ok) pass("no internal pipeline files in dist");
+  return ok;
+}
+
 async function checkBuild() {
   if (skipBuild) {
     warn("production build", "skipped (--skip-build)");
@@ -243,6 +262,7 @@ async function main() {
   const assetsOk = await checkStaticAssets();
   const buildOk = await checkBuild();
   const distOk = buildOk ? await checkDistOutput() : false;
+  const exposureOk = buildOk ? checkDistDataExposure() : false;
 
   let smokeOk = false;
   if (buildOk) {
@@ -265,7 +285,7 @@ async function main() {
     process.exit(1);
   }
 
-  if (!assetsOk || !smokeOk) {
+  if (!assetsOk || !smokeOk || !exposureOk) {
     process.exit(1);
   }
 

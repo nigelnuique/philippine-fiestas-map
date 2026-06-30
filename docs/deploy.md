@@ -54,6 +54,12 @@ npm run preview
 npm run check:go-live -- --skip-build
 ```
 
+## SEO / LLMO (search & AI discoverability)
+
+Production builds emit `robots.txt`, `sitemap.xml`, `llms.txt`, and `llms-full.txt` with your canonical `VITE_SITE_URL`. `index.html` includes Open Graph tags, geo meta, FAQ JSON-LD, and a hidden crawlable summary for no-JS bots.
+
+Set `VITE_SITE_URL` in `.env.production` (GitHub Pages) or your host's environment variables so social previews and AI summaries use the correct domain.
+
 ## Build size notes
 
 - `dist/` is ~75–80 MB (mostly GeoJSON + `barangay-fiestas.json`).

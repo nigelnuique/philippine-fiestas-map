@@ -1,12 +1,12 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import FiestaMap from "./components/FiestaMap.jsx";
-import Sidebar from "./components/Sidebar.jsx";import {
+import Sidebar from "./components/Sidebar.jsx";
+import {
   loadManifest,
   loadFestivals,
   loadAllProvinces,
   loadMunicipalitiesIndex,
   loadBarangaysIndex,
-  loadBarangayFiestaIndex,
   loadBarangayFiestasForMunicipality,
   resolveMunicipalityBounds,
   resolveSelectionFlyBounds,
@@ -15,7 +15,13 @@ import {
   buildFestivalIndex,
   defaultBarangayFestival,
 } from "./lib/festivalIndex.js";
-import { boundsForSelection, selectionFromFestival, selectionTargetKey } from "./lib/mapUtils.js";import { normalizePsgc } from "./lib/psgc.js";
+import {
+  boundsForSelection,
+  selectionFromFestival,
+  selectionTargetKey,
+} from "./lib/mapUtils.js";
+import { normalizePsgc } from "./lib/psgc.js";
+import { updateDocumentMeta } from "./lib/documentMeta.js";
 import "./App.css";
 
 export default function App() {
@@ -48,7 +54,6 @@ export default function App() {
           loadFestivals(),
           loadMunicipalitiesIndex(),
           loadBarangaysIndex(),
-          loadBarangayFiestaIndex().catch(() => null),
         ]);
         const provinces = await loadAllProvinces(m);
         if (!cancelled) {
@@ -80,6 +85,10 @@ export default function App() {
         : null,
     [festivalData, manifest]
   );
+
+  useEffect(() => {
+    updateDocumentMeta(selection);
+  }, [selection]);
 
   useEffect(() => {
     let cancelled = false;
@@ -220,6 +229,7 @@ export default function App() {
       // Selection already applied; bounds resolution is best-effort.
     }
   }, [normalizeSelection, activeFestivalId]);
+
   const handleRegionSelect = useCallback(
     (region) => {
       applyMapSelection({
@@ -333,16 +343,18 @@ export default function App() {
         stats={festivalData?.stats}
       />
       {provincesGeoJson && manifest ? (
-        <FiestaMap
-          provincesGeoJson={provincesGeoJson}
-          manifest={manifest}
-          barangaysIndex={barangaysIndex}
-          selection={selection}
-          selectionRevision={selectionRevision}
-          onSelect={(sel) => {
-            applyMapSelection(sel);
-          }}
-        />
+        <main className="map-main" aria-label="Interactive festival map">
+          <FiestaMap
+            provincesGeoJson={provincesGeoJson}
+            manifest={manifest}
+            barangaysIndex={barangaysIndex}
+            selection={selection}
+            selectionRevision={selectionRevision}
+            onSelect={(sel) => {
+              applyMapSelection(sel);
+            }}
+          />
+        </main>
       ) : (
         <div className="map-loading">
           <div className="map-loading-spinner" />

@@ -17,6 +17,9 @@
     "data:build-barangay": "node scripts/build-barangay-fiestas.js",
     "data:backfill-barangay-dates": "node scripts/backfill-barangay-fiesta-dates.js && npm run data:build-barangay",
     "data:enrich-barangay-dates": "node scripts/enrich-barangay-fiesta-dates-online.js",
+    "data:harvest-official-barangay-dates": "node scripts/harvest-official-barangay-fiesta-dates.js",
+    "data:loop-barangay-dates": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run-barangay-date-enrichment-loop.ps1",
+    "data:register-barangay-date-task": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/register-barangay-date-enrichment-task.ps1",
     "data:fetch-lgu-barangay-schedules": "node scripts/fetch-lgu-barangay-schedules-online.js && node scripts/fetch-maasin-barangay-schedules-online.js && node scripts/fetch-tarlac-barangay-schedules-online.js",
     "data:fetch-maasin-barangay-schedules": "node scripts/fetch-maasin-barangay-schedules-online.js",
     "data:fetch-tarlac-barangay-schedules": "node scripts/fetch-tarlac-barangay-schedules-online.js",
@@ -30,6 +33,7 @@
     "check:page": "node scripts/check-page.mjs",
     "check:e2e": "node scripts/e2e-map.mjs",
     "check:go-live": "node scripts/go-live-checks.mjs",
+    "deploy:pages": "npm run build && npx gh-pages -d dist",
     "data:analyze-missing-barangays": "node scripts/analyze-missing-barangay-boundaries.js",
     "data:report-gaps": "node scripts/report-data-gaps.js",
     "data:audit-missing-dates": "node scripts/audit-missing-dates.js"

@@ -111,10 +111,12 @@ async function checkDistOutput() {
   for (const f of [
     "dist/index.html",
     "dist/favicon.svg",
+    "dist/og-image.png",
     "dist/og-image.svg",
     "dist/robots.txt",
     "dist/sitemap.xml",
     "dist/llms.txt",
+    "dist/llms-full.txt",
     "dist/geojson/country/lowres/country.0.001.json",
   ]) {
     const r = fileOk(f);
@@ -160,8 +162,8 @@ async function checkPreviewSmoke(url) {
     await page.waitForSelector(".map-container canvas", { timeout: 20000 });
     pass("map canvas renders");
 
-    await page.waitForSelector("h1", { timeout: 5000 });
-    const h1 = await page.locator("h1").innerText();
+    await page.waitForSelector(".sidebar-header h1", { timeout: 5000 });
+    const h1 = await page.locator(".sidebar-header h1").innerText();
     if (!/philippine fiestas/i.test(h1)) {
       fail("sidebar title", h1);
     } else {
@@ -202,15 +204,20 @@ async function checkPreviewSmoke(url) {
     if (ogTitle?.length > 10) pass("Open Graph title");
     else fail("Open Graph title", "missing or too short");
 
+    const ogImage = await page.locator('meta[property="og:image"]').getAttribute("content");
+    if (ogImage?.includes("og-image")) pass("Open Graph image", ogImage);
+    else fail("Open Graph image", ogImage ?? "missing");
+
     for (const [name, urlPath] of [
       ["robots.txt", "/robots.txt"],
       ["sitemap.xml", "/sitemap.xml"],
       ["llms.txt", "/llms.txt"],
+      ["llms-full.txt", "/llms-full.txt"],
     ]) {
       const ok = await page.evaluate(async (path) => {
         const r = await fetch(path);
         return r.ok;
-      }, urlPath);
+      }, assetUrl(urlPath));
       if (ok) pass(name);
       else fail(name, `fetch ${urlPath} failed`);
     }

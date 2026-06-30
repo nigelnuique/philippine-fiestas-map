@@ -1,37 +1,27 @@
 import { memo, useDeferredValue, useEffect, useMemo, useState } from "react";
-
 import {
   formatFestivalDate,
   festivalsForSelection,
 } from "../lib/festivalIndex.js";
-
 import { lookupBarangaysForMunicipality } from "../lib/data.js";
-
 import { MONTH_NAMES } from "../lib/constants.js";
-
 import { normalizePsgc } from "../lib/psgc.js";
 import DataAttribution from "./DataAttribution.jsx";
 import BiringanEasterEgg from "./BiringanEasterEgg.jsx";
 import { isBiringanEasterEggQuery } from "../lib/biringanEasterEgg.js";
-
 import "./Sidebar.css";
-
 const FESTIVAL_PAGE_SIZE = 120;
-
 const FestivalList = memo(function FestivalList({
   festivals,
   activeFestivalId,
   onFestivalSelect,
 }) {
   const [shown, setShown] = useState(FESTIVAL_PAGE_SIZE);
-
   useEffect(() => {
     setShown(FESTIVAL_PAGE_SIZE);
   }, [festivals]);
-
   const visible = festivals.slice(0, shown);
   const remaining = festivals.length - visible.length;
-
   return (
     <>
       <div className="festival-list" role="list">
@@ -79,22 +69,15 @@ const FestivalList = memo(function FestivalList({
     </>
   );
 });
-
 const LEVEL_META = {
   region: { label: "Region", color: "#c084fc" },
-
   province: { label: "Province", color: "#fbbf24" },
-
   municipality: { label: "Municipality", color: "#38bdf8" },
-
   barangay: { label: "Barangay", color: "#4ade80" },
 };
-
 function LevelBadge({ level }) {
   const meta = LEVEL_META[level];
-
   if (!meta) return null;
-
   return (
     <span
       className="level-badge"
@@ -110,53 +93,33 @@ function SidebarBanner({ children, variant = "info" }) {
     <p className={`sidebar-banner sidebar-banner--${variant}`}>{children}</p>
   );
 }
-
 function chipStyle(level) {
   const color = LEVEL_META[level]?.color;
-
   return color ? { "--chip-accent": color } : undefined;
 }
 
 export default function Sidebar({
   selection,
-
   festivalIndex,
-
   barangayFestivals = [],
-
   barangayFestivalsLoading = false,
-
   manifest,
-
   municipalitiesIndex,
-
   barangaysIndex,
-
   loading,
-
   onRegionSelect,
-
   onCountrySelect,
-
   onProvinceSelect,
-
   onMunicipalitySelect,
-
   onBarangaySelect,
-
   onFestivalSelect,
-
   activeFestivalId,
-
   festivalSelectNotice,
-
   stats,
 }) {
   const [festivalSearch, setFestivalSearch] = useState("");
-
   const showBiringanEgg =
     !selection && isBiringanEasterEggQuery(festivalSearch);
-
   const areaFestivals = useMemo(
     () =>
       festivalIndex
@@ -164,45 +127,29 @@ export default function Sidebar({
         : [],
     [festivalIndex, selection, barangayFestivals]
   );
-
   const visibleFestivals = useMemo(() => {
     if (!festivalIndex) return [];
-
     if (selection) return areaFestivals;
-
     const query = festivalSearch.trim().toLowerCase();
-
     if (!query) return [];
-
     if (isBiringanEasterEggQuery(query)) return [];
-
     return festivalIndex.festivals
-
       .filter((f) => {
         const place = [
           f.location?.municipality,
-
           f.location?.province,
-
           f.location?.text,
         ]
-
           .filter(Boolean)
-
           .join(" ")
-
           .toLowerCase();
-
         return f.name.toLowerCase().includes(query) || place.includes(query);
       })
-
       .slice(0, 80);
   }, [festivalIndex, selection, areaFestivals, festivalSearch]);
-
   const deferredFestivals = useDeferredValue(visibleFestivals);
   const festivalsPending =
     deferredFestivals !== visibleFestivals && visibleFestivals.length > 0;
-
   useEffect(() => {
     if (!activeFestivalId) return;
     const frame = requestAnimationFrame(() => {
@@ -212,9 +159,7 @@ export default function Sidebar({
     });
     return () => cancelAnimationFrame(frame);
   }, [activeFestivalId]);
-
   const atCountryView = !selection || selection.level === "country";
-
   const title = atCountryView
     ? null
     : (selection?.barangayName ??
@@ -222,7 +167,6 @@ export default function Sidebar({
       selection?.provinceName ??
       selection?.regionName ??
       null);
-
   const provincesInRegion = useMemo(() => {
     if (
       !selection?.regionPsgc ||
@@ -241,7 +185,6 @@ export default function Sidebar({
         ?.provinces ?? []
     );
   }, [selection?.regionPsgc, selection?.level, manifest]);
-
   const municipalitiesInProvince = useMemo(() => {
     if (
       !selection?.provincePsgc ||
@@ -258,7 +201,6 @@ export default function Sidebar({
       municipalitiesIndex[String(selection.provincePsgc)]?.municipalities ?? []
     );
   }, [selection?.provincePsgc, selection?.level, municipalitiesIndex]);
-
   const barangaysInMunicipality = useMemo(() => {
     if (
       !selection?.municipalityPsgc ||
@@ -272,7 +214,6 @@ export default function Sidebar({
         ?.barangays ?? []
     );
   }, [selection?.municipalityPsgc, selection?.level, barangaysIndex]);
-
   const subtitle =
     selection?.level === "region"
       ? "Click a province on the map to drill down"
@@ -286,23 +227,19 @@ export default function Sidebar({
             : selection?.level === "country" || !selection
               ? "Pick a region below or click the map"
               : `${areaFestivals.length} festival${areaFestivals.length === 1 ? "" : "s"} in this area`;
-
   const showFestivalSection =
     !loading &&
     (visibleFestivals.length > 0 ||
       (selection &&
         !barangayFestivalsLoading &&
         visibleFestivals.length === 0));
-
   return (
     <aside className="sidebar">
       <div className="sidebar-sticky">
         <header className="sidebar-header">
           <h1>Philippine Fiestas</h1>
-
           <p className="sidebar-tagline">Map · Explore · Celebrate</p>
         </header>
-
         <div className="sidebar-area">
           {!atCountryView && (
             <div className="sidebar-area-head">
@@ -310,10 +247,8 @@ export default function Sidebar({
               {title && <h2>{title}</h2>}
             </div>
           )}
-
           <p className="sidebar-subtitle">{subtitle}</p>
         </div>
-
         <div className="festival-search-wrap">
           <input
             type="search"
@@ -325,7 +260,6 @@ export default function Sidebar({
           />
         </div>
       </div>
-
       <div className="sidebar-body">
         {selection && onCountrySelect && (
           <div className="region-picker" style={chipStyle("region")}>
@@ -341,11 +275,9 @@ export default function Sidebar({
             </div>
           </div>
         )}
-
         {manifest && (
           <div className="region-picker" style={chipStyle("region")}>
             <p className="region-picker-label">Regions</p>
-
             <div className="region-picker-list">
               {manifest.regions.map((region) => (
                 <button
@@ -365,13 +297,11 @@ export default function Sidebar({
             </div>
           </div>
         )}
-
         {provincesInRegion.length > 0 && (
           <div className="region-picker" style={chipStyle("province")}>
             <p className="region-picker-label">
               Provinces in {selection.regionName}
             </p>
-
             <div className="region-picker-list">
               {provincesInRegion.map((prov) => (
                 <button
@@ -391,7 +321,6 @@ export default function Sidebar({
             </div>
           </div>
         )}
-
         {municipalitiesInProvince.length > 0 && (
           <div
             className="region-picker region-picker-scroll"
@@ -400,7 +329,6 @@ export default function Sidebar({
             <p className="region-picker-label">
               Municipalities in {selection.provinceName}
             </p>
-
             <div className="region-picker-list">
               {municipalitiesInProvince.map((muni) => (
                 <button
@@ -415,7 +343,6 @@ export default function Sidebar({
             </div>
           </div>
         )}
-
         {barangaysInMunicipality.length > 0 && (
           <div
             className="region-picker region-picker-scroll"
@@ -424,7 +351,6 @@ export default function Sidebar({
             <p className="region-picker-label">
               Barangays in {selection.municipalityName}
             </p>
-
             <div className="region-picker-list">
               {barangaysInMunicipality.map((bgy) => (
                 <button
@@ -439,45 +365,31 @@ export default function Sidebar({
             </div>
           </div>
         )}
-
         {stats && (
           <div className="sidebar-stats">
             <div className="sidebar-stat">
               <strong>{stats.total.toLocaleString()}</strong>
               named festivals
             </div>
-
             {stats.barangayFiestas > 0 && (
               <div className="sidebar-stat">
                 <strong>{stats.barangayFiestas.toLocaleString()}</strong>
                 barangay fiestas
               </div>
             )}
-
-            {stats.totalWithBarangay > 0 && (
-              <div className="sidebar-stat">
-                <strong>{stats.totalWithBarangay.toLocaleString()}</strong>
-                in database
-              </div>
-            )}
           </div>
         )}
-
         {loading && <p className="festival-empty">Loading map data…</p>}
-
         {!loading && !selection && !festivalSearch.trim() && (
           <p className="festival-empty">
             Search for a festival to fly to its location, pick a region above,
             or click a province on the map.
           </p>
         )}
-
         {festivalSelectNotice && (
           <SidebarBanner variant="notice">{festivalSelectNotice}</SidebarBanner>
         )}
-
         {!loading && showBiringanEgg && <BiringanEasterEgg />}
-
         {!loading &&
           !selection &&
           festivalSearch.trim() &&
@@ -485,14 +397,12 @@ export default function Sidebar({
           !showBiringanEgg && (
             <p className="festival-empty">No festivals match that search.</p>
           )}
-
         {!loading &&
           selection &&
           barangayFestivalsLoading &&
           visibleFestivals.length === 0 && (
             <p className="festival-empty">Loading barangay fiestas…</p>
           )}
-
         {!loading &&
           selection &&
           !barangayFestivalsLoading &&
@@ -501,7 +411,6 @@ export default function Sidebar({
               No festival data for this area yet. More fiestas are being added.
             </p>
           )}
-
         {selection?.level === "municipality" &&
           barangayFestivals.length > 0 && (
             <SidebarBanner variant="info">
@@ -510,14 +419,12 @@ export default function Sidebar({
               filter further.
             </SidebarBanner>
           )}
-
         {selection?.level === "barangay" &&
           (visibleFestivals.length > 0 || barangayFestivalsLoading) && (
             <SidebarBanner variant="info">
               Showing festivals for {selection.barangayName}.
             </SidebarBanner>
           )}
-
         {showFestivalSection && visibleFestivals.length > 0 && (
           <h3 className="festival-section-title">
             Festivals ({visibleFestivals.length.toLocaleString()})
@@ -526,7 +433,6 @@ export default function Sidebar({
             )}
           </h3>
         )}
-
         {showFestivalSection && deferredFestivals.length > 0 && (
           <FestivalList
             festivals={deferredFestivals}
@@ -535,7 +441,6 @@ export default function Sidebar({
           />
         )}
       </div>
-
       <DataAttribution />
     </aside>
   );

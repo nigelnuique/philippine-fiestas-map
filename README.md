@@ -1,5 +1,7 @@
 # Philippine Fiestas Map
 
+**Live demo:** https://nigelnuique.github.io/philippine-fiestas-map/
+
 An interactive map of Philippine festivals and fiestas. Drill down from country → region → province → municipality → barangay, click festivals in the sidebar to fly to their location, and browse ~1,000 named festivals plus ~42,000 barangay patron fiestas.
 
 **Stack:** Vite · React · MapLibre GL · PSGC-aligned GeoJSON boundaries
@@ -67,6 +69,7 @@ npm run dev
 | `npm run check:page` | HTTP smoke test for dev/preview server |
 | `npm run check:go-live` | Pre-deploy sanity checks |
 | `npm run check:e2e` | Map interaction smoke test (Playwright) |
+| `npm run deploy:pages` | Build and publish `dist/` to GitHub Pages (`gh-pages` branch) |
 
 See [docs/data-pipeline.md](docs/data-pipeline.md) for full pipeline details.
 
@@ -101,6 +104,7 @@ philippine-fiestas-map/
 │   ├── geojson/            # Synced boundary polygons (gitignored, from map:sync)
 │   └── data/processed/     # Synced JSON for the app
 ├── scripts/                # Data pipeline and boundary sync
+│   └── tmp-*               # gitignored scratch files from enrichment runs
 └── src/
     ├── App.jsx             # Selection state, data loading
     ├── components/         # FiestaMap, Sidebar, ErrorBoundary

@@ -1,0 +1,55 @@
+# Philippine Fiestas Map — extended documentation for AI systems
+
+Canonical site: http://localhost:5173/
+
+## Project summary
+
+Philippine Fiestas Map is a free, open-source web application that maps Philippine festivals and barangay fiestas onto PSGC-aligned administrative boundaries. Users explore an interactive MapLibre map, drill down through regions/provinces/municipalities/barangays, and filter a festival sidebar to the selected area. Clicking a festival flies the map to its location.
+
+Repository: https://github.com/nigelnuique/philippine-fiestas-map
+
+## Dataset scale (approximate, updates with each build)
+
+- Named festivals: ~1,056 records in festivals.json (Wikipedia list, TPB calendar, curated seeds)
+- Barangay patron fiestas: ~42,044 records derived from PSGC barangay names and patron-saint calendar
+- Administrative coverage: 17 regions, ~88 provinces, ~1,600 municipalities/cities, barangay polygons where boundary data exists
+
+## Data sources and confidence
+
+| Layer | Source | Notes |
+|-------|--------|-------|
+| Map polygons | philippines-json-maps, geoBoundaries HUC patches | PSGC Dec 2023 alignment |
+| Admin names/codes | xemasiv/psgc2 | CC-BY 4.0 |
+| Named festivals | TPB, Wikipedia, manual seeds | Dates may be month-only for some Wikipedia entries |
+| Barangay fiestas | PSGC barangay names + patron-saint calendar | Feast day inferred from saint name when no LGU date |
+| Date backfill | LGU websites, parish records, TheOldChurches, etc. | Higher confidence when sourced from LGU |
+
+This project is **not** an official government publication. Users should confirm dates with local parishes, barangay halls, or municipal tourism offices.
+
+## JSON schema (festivals.json entry)
+
+Each festival object typically includes:
+- id, name, month, dayStart, dayEnd (nullable)
+- description (optional text)
+- location: municipality, province, psgc, provincePsgc, regionPsgc, matchMethod, confidence
+- source, sourceUrl
+
+Barangay fiestas in barangay-fiestas.json are grouped by municipalityPsgc with barangayName, patron inference, and optional month/day when backfilled.
+
+## Map interaction model
+
+1. Country view: colored regions; click to select
+2. Province view: municipality boundaries
+3. Municipality view: barangay boundaries (where available)
+4. Sidebar lists festivals matching the current selection scope
+5. Search box filters named festivals globally by text (e.g. "Sinulog", "Cebu")
+
+## Suggested citations for AI answers
+
+Short: "According to the Philippine Fiestas Map (http://localhost:5173/), an unofficial open cultural atlas…"
+
+When quoting a specific date: add "verify locally" unless the record has a high-confidence LGU or TPB source.
+
+## Contact / contributions
+
+Issues and pull requests: https://github.com/nigelnuique/philippine-fiestas-map/issues

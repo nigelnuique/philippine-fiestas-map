@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Philippine Fiestas Map">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1419"/>
+      <stop offset="100%" stop-color="#1d3557"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="900" cy="160" r="120" fill="#fbbf24" opacity="0.15"/>
+  <circle cx="980" cy="480" r="80" fill="#38bdf8" opacity="0.12"/>
+  <path fill="#334155" d="M720 180l40 30 25 80-15 95-55 70-70 25-85-10-60-45-20-90 30-85 70-50 140-10z"/>
+  <path fill="#475569" d="M640 320l35 55-20 75-45 40-65 5-50-35-10-70 25-60 55-30 75-10z"/>
+  <circle cx="760" cy="310" r="14" fill="#fbbf24"/>
+  <circle cx="680" cy="380" r="10" fill="#4ade80"/>
+  <circle cx="820" cy="260" r="8" fill="#38bdf8"/>
+  <text x="80" y="200" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="64" font-weight="700">Philippine Fiestas Map</text>
+  <text x="80" y="270" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="32">Festivals &#183; Barangay fiestas &#183; Interactive map</text>
+  <text x="80" y="340" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="24">~1,000 named festivals &#183; ~42,000 barangay celebrations</text>
+  <text x="80" y="560" fill="#64748b" font-family="system-ui, sans-serif" font-size="20">Unofficial cultural atlas &#8212; verify dates locally</text>
+</svg>

@@ -6,15 +6,22 @@ import path from "path";
 
 import { fileURLToPath } from "url";
 
+import { jsonLdGraph } from "./scripts/lib/seo-content.js";
 import { seoFilesPlugin } from "./scripts/vite-seo-plugin.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-function siteUrlHtmlPlugin(siteUrl) {
+function siteUrlHtmlPlugin(siteUrl, basePath) {
+  const base = basePath.endsWith("/") ? basePath : `${basePath}/`;
+  const jsonLd = JSON.stringify(jsonLdGraph(siteUrl), null, 2);
+
   return {
     name: "site-url-html",
     transformIndexHtml(html) {
-      return html.replaceAll("__SITE_URL__", siteUrl);
+      return html
+        .replaceAll("__SITE_URL__", siteUrl)
+        .replaceAll("__BASE_URL__", base)
+        .replace("__JSON_LD__", jsonLd);
     },
   };
 }
@@ -32,7 +39,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     base,
-    plugins: [react(), siteUrlHtmlPlugin(siteUrl), seoFilesPlugin(siteUrl)],
+    plugins: [react(), siteUrlHtmlPlugin(siteUrl, base), seoFilesPlugin(siteUrl)],
     server: {
       fs: {
         allow: [path.resolve(__dirname)],

@@ -1,0 +1,1058 @@
+{
+  "generatedAt": "2026-06-12T14:35:30.230Z",
+  "source": "faeldon/philippines-json-maps (PSGC Dec 2023)",
+  "resolution": "lowres",
+  "country": {
+    "file": "data/raw/philippines-json-maps/2023/geojson/country/lowres/country.0.001.json"
+  },
+  "regions": [
+    {
+      "psgc": 100000000,
+      "name": "Region I – Ilocos",
+      "provinceLayer": {
+        "regionPsgc": 100000000,
+        "regionName": "Region I – Ilocos",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-100000000.0.001.json",
+        "featureCount": 4,
+        "provinces": [
+          {
+            "psgc": 102800000,
+            "name": "Ilocos Norte"
+          },
+          {
+            "psgc": 102900000,
+            "name": "Ilocos Sur"
+          },
+          {
+            "psgc": 103300000,
+            "name": "La Union"
+          },
+          {
+            "psgc": 105500000,
+            "name": "Pangasinan"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 200000000,
+      "name": "Region II – Cagayan Valley",
+      "provinceLayer": {
+        "regionPsgc": 200000000,
+        "regionName": "Region II – Cagayan Valley",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-200000000.0.001.json",
+        "featureCount": 5,
+        "provinces": [
+          {
+            "psgc": 200900000,
+            "name": "Batanes"
+          },
+          {
+            "psgc": 201500000,
+            "name": "Cagayan"
+          },
+          {
+            "psgc": 203100000,
+            "name": "Isabela"
+          },
+          {
+            "psgc": 205000000,
+            "name": "Nueva Vizcaya"
+          },
+          {
+            "psgc": 205700000,
+            "name": "Quirino"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 300000000,
+      "name": "Region III – Central Luzon",
+      "provinceLayer": {
+        "regionPsgc": 300000000,
+        "regionName": "Region III – Central Luzon",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-300000000.0.001.json",
+        "featureCount": 7,
+        "provinces": [
+          {
+            "psgc": 300800000,
+            "name": "Bataan"
+          },
+          {
+            "psgc": 301400000,
+            "name": "Bulacan"
+          },
+          {
+            "psgc": 304900000,
+            "name": "Nueva Ecija"
+          },
+          {
+            "psgc": 305400000,
+            "name": "Pampanga"
+          },
+          {
+            "psgc": 306900000,
+            "name": "Tarlac"
+          },
+          {
+            "psgc": 307100000,
+            "name": "Zambales"
+          },
+          {
+            "psgc": 307700000,
+            "name": "Aurora"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 400000000,
+      "name": "Region IV-A – CALABARZON",
+      "provinceLayer": {
+        "regionPsgc": 400000000,
+        "regionName": "Region IV-A – CALABARZON",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-400000000.0.001.json",
+        "featureCount": 5,
+        "provinces": [
+          {
+            "psgc": 401000000,
+            "name": "Batangas"
+          },
+          {
+            "psgc": 402100000,
+            "name": "Cavite"
+          },
+          {
+            "psgc": 403400000,
+            "name": "Laguna"
+          },
+          {
+            "psgc": 405600000,
+            "name": "Quezon"
+          },
+          {
+            "psgc": 405800000,
+            "name": "Rizal"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 500000000,
+      "name": "Region V – Bicol",
+      "provinceLayer": {
+        "regionPsgc": 500000000,
+        "regionName": "Region V – Bicol",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-500000000.0.001.json",
+        "featureCount": 6,
+        "provinces": [
+          {
+            "psgc": 500500000,
+            "name": "Albay"
+          },
+          {
+            "psgc": 501600000,
+            "name": "Camarines Norte"
+          },
+          {
+            "psgc": 501700000,
+            "name": "Camarines Sur"
+          },
+          {
+            "psgc": 502000000,
+            "name": "Catanduanes"
+          },
+          {
+            "psgc": 504100000,
+            "name": "Masbate"
+          },
+          {
+            "psgc": 506200000,
+            "name": "Sorsogon"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 600000000,
+      "name": "Region VI – Western Visayas",
+      "provinceLayer": {
+        "regionPsgc": 600000000,
+        "regionName": "Region VI – Western Visayas",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-600000000.0.001.json",
+        "featureCount": 6,
+        "provinces": [
+          {
+            "psgc": 600400000,
+            "name": "Aklan"
+          },
+          {
+            "psgc": 600600000,
+            "name": "Antique"
+          },
+          {
+            "psgc": 601900000,
+            "name": "Capiz"
+          },
+          {
+            "psgc": 603000000,
+            "name": "Iloilo"
+          },
+          {
+            "psgc": 604500000,
+            "name": "Negros Occidental"
+          },
+          {
+            "psgc": 607900000,
+            "name": "Guimaras"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 700000000,
+      "name": "Region VII – Central Visayas",
+      "provinceLayer": {
+        "regionPsgc": 700000000,
+        "regionName": "Region VII – Central Visayas",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-700000000.0.001.json",
+        "featureCount": 4,
+        "provinces": [
+          {
+            "psgc": 701200000,
+            "name": "Bohol"
+          },
+          {
+            "psgc": 702200000,
+            "name": "Cebu"
+          },
+          {
+            "psgc": 704600000,
+            "name": "Negros Oriental"
+          },
+          {
+            "psgc": 706100000,
+            "name": "Siquijor"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 800000000,
+      "name": "Region VIII – Eastern Visayas",
+      "provinceLayer": {
+        "regionPsgc": 800000000,
+        "regionName": "Region VIII – Eastern Visayas",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-800000000.0.001.json",
+        "featureCount": 6,
+        "provinces": [
+          {
+            "psgc": 802600000,
+            "name": "Eastern Samar"
+          },
+          {
+            "psgc": 803700000,
+            "name": "Leyte"
+          },
+          {
+            "psgc": 804800000,
+            "name": "Northern Samar"
+          },
+          {
+            "psgc": 806000000,
+            "name": "Samar"
+          },
+          {
+            "psgc": 806400000,
+            "name": "Southern Leyte"
+          },
+          {
+            "psgc": 807800000,
+            "name": "Biliran"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 900000000,
+      "name": "Region IX – Zamboanga Peninsula",
+      "provinceLayer": {
+        "regionPsgc": 900000000,
+        "regionName": "Region IX – Zamboanga Peninsula",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-900000000.0.001.json",
+        "featureCount": 4,
+        "provinces": [
+          {
+            "psgc": 907200000,
+            "name": "Zamboanga del Norte"
+          },
+          {
+            "psgc": 907300000,
+            "name": "Zamboanga del Sur"
+          },
+          {
+            "psgc": 908300000,
+            "name": "Zamboanga Sibugay"
+          },
+          {
+            "psgc": 990100000,
+            "name": "City of Isabela (Not a Province)"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1000000000,
+      "name": "Region X – Northern Mindanao",
+      "provinceLayer": {
+        "regionPsgc": 1000000000,
+        "regionName": "Region X – Northern Mindanao",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1000000000.0.001.json",
+        "featureCount": 5,
+        "provinces": [
+          {
+            "psgc": 1001300000,
+            "name": "Bukidnon"
+          },
+          {
+            "psgc": 1001800000,
+            "name": "Camiguin"
+          },
+          {
+            "psgc": 1003500000,
+            "name": "Lanao del Norte"
+          },
+          {
+            "psgc": 1004200000,
+            "name": "Misamis Occidental"
+          },
+          {
+            "psgc": 1004300000,
+            "name": "Misamis Oriental"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1100000000,
+      "name": "Region XI – Davao",
+      "provinceLayer": {
+        "regionPsgc": 1100000000,
+        "regionName": "Region XI – Davao",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1100000000.0.001.json",
+        "featureCount": 5,
+        "provinces": [
+          {
+            "psgc": 1102300000,
+            "name": "Davao del Norte"
+          },
+          {
+            "psgc": 1102400000,
+            "name": "Davao del Sur"
+          },
+          {
+            "psgc": 1102500000,
+            "name": "Davao Oriental"
+          },
+          {
+            "psgc": 1108200000,
+            "name": "Davao de Oro"
+          },
+          {
+            "psgc": 1108600000,
+            "name": "Davao Occidental"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1200000000,
+      "name": "Region XII – SOCCSKSARGEN",
+      "provinceLayer": {
+        "regionPsgc": 1200000000,
+        "regionName": "Region XII – SOCCSKSARGEN",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1200000000.0.001.json",
+        "featureCount": 4,
+        "provinces": [
+          {
+            "psgc": 1204700000,
+            "name": "Cotabato"
+          },
+          {
+            "psgc": 1206300000,
+            "name": "South Cotabato"
+          },
+          {
+            "psgc": 1206500000,
+            "name": "Sultan Kudarat"
+          },
+          {
+            "psgc": 1208000000,
+            "name": "Sarangani"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1300000000,
+      "name": "Region XIII – Caraga",
+      "provinceLayer": {
+        "regionPsgc": 1300000000,
+        "regionName": "Region XIII – Caraga",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1300000000.0.001.json",
+        "featureCount": 4,
+        "provinces": [
+          {
+            "psgc": 1303900000,
+            "name": "NCR, City of Manila, First District (Not a Province)"
+          },
+          {
+            "psgc": 1307400000,
+            "name": "NCR, Second District (Not a Province)"
+          },
+          {
+            "psgc": 1307500000,
+            "name": "NCR, Third District (Not a Province)"
+          },
+          {
+            "psgc": 1307600000,
+            "name": "NCR, Fourth District (Not a Province)"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1400000000,
+      "name": "BARMM",
+      "provinceLayer": {
+        "regionPsgc": 1400000000,
+        "regionName": "BARMM",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1400000000.0.001.json",
+        "featureCount": 6,
+        "provinces": [
+          {
+            "psgc": 1400100000,
+            "name": "Abra"
+          },
+          {
+            "psgc": 1401100000,
+            "name": "Benguet"
+          },
+          {
+            "psgc": 1402700000,
+            "name": "Ifugao"
+          },
+          {
+            "psgc": 1403200000,
+            "name": "Kalinga"
+          },
+          {
+            "psgc": 1404400000,
+            "name": "Mountain Province"
+          },
+          {
+            "psgc": 1408100000,
+            "name": "Apayao"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1600000000,
+      "name": "NCR",
+      "provinceLayer": {
+        "regionPsgc": 1600000000,
+        "regionName": "NCR",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1600000000.0.001.json",
+        "featureCount": 5,
+        "provinces": [
+          {
+            "psgc": 1600200000,
+            "name": "Agusan del Norte"
+          },
+          {
+            "psgc": 1600300000,
+            "name": "Agusan del Sur"
+          },
+          {
+            "psgc": 1606700000,
+            "name": "Surigao del Norte"
+          },
+          {
+            "psgc": 1606800000,
+            "name": "Surigao del Sur"
+          },
+          {
+            "psgc": 1608500000,
+            "name": "Dinagat Islands"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1700000000,
+      "name": "CAR",
+      "provinceLayer": {
+        "regionPsgc": 1700000000,
+        "regionName": "CAR",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1700000000.0.001.json",
+        "featureCount": 5,
+        "provinces": [
+          {
+            "psgc": 1704000000,
+            "name": "Marinduque"
+          },
+          {
+            "psgc": 1705100000,
+            "name": "Occidental Mindoro"
+          },
+          {
+            "psgc": 1705200000,
+            "name": "Oriental Mindoro"
+          },
+          {
+            "psgc": 1705300000,
+            "name": "Palawan"
+          },
+          {
+            "psgc": 1705900000,
+            "name": "Romblon"
+          }
+        ]
+      }
+    },
+    {
+      "psgc": 1900000000,
+      "name": "MIMAROPA",
+      "provinceLayer": {
+        "regionPsgc": 1900000000,
+        "regionName": "MIMAROPA",
+        "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1900000000.0.001.json",
+        "featureCount": 7,
+        "provinces": [
+          {
+            "psgc": 1900700000,
+            "name": "Basilan"
+          },
+          {
+            "psgc": 1903600000,
+            "name": "Lanao del Sur"
+          },
+          {
+            "psgc": 1906600000,
+            "name": "Sulu"
+          },
+          {
+            "psgc": 1907000000,
+            "name": "Tawi-Tawi"
+          },
+          {
+            "psgc": 1908700000,
+            "name": "Maguindanao del Norte"
+          },
+          {
+            "psgc": 1908800000,
+            "name": "Maguindanao del Sur"
+          },
+          {
+            "psgc": 1909900000,
+            "name": "Unknown"
+          }
+        ]
+      }
+    }
+  ],
+  "provinceLayers": [
+    {
+      "regionPsgc": 100000000,
+      "regionName": "Region I – Ilocos",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-100000000.0.001.json",
+      "featureCount": 4,
+      "provinces": [
+        {
+          "psgc": 102800000,
+          "name": "Ilocos Norte"
+        },
+        {
+          "psgc": 102900000,
+          "name": "Ilocos Sur"
+        },
+        {
+          "psgc": 103300000,
+          "name": "La Union"
+        },
+        {
+          "psgc": 105500000,
+          "name": "Pangasinan"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1000000000,
+      "regionName": "Region X – Northern Mindanao",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1000000000.0.001.json",
+      "featureCount": 5,
+      "provinces": [
+        {
+          "psgc": 1001300000,
+          "name": "Bukidnon"
+        },
+        {
+          "psgc": 1001800000,
+          "name": "Camiguin"
+        },
+        {
+          "psgc": 1003500000,
+          "name": "Lanao del Norte"
+        },
+        {
+          "psgc": 1004200000,
+          "name": "Misamis Occidental"
+        },
+        {
+          "psgc": 1004300000,
+          "name": "Misamis Oriental"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1100000000,
+      "regionName": "Region XI – Davao",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1100000000.0.001.json",
+      "featureCount": 5,
+      "provinces": [
+        {
+          "psgc": 1102300000,
+          "name": "Davao del Norte"
+        },
+        {
+          "psgc": 1102400000,
+          "name": "Davao del Sur"
+        },
+        {
+          "psgc": 1102500000,
+          "name": "Davao Oriental"
+        },
+        {
+          "psgc": 1108200000,
+          "name": "Davao de Oro"
+        },
+        {
+          "psgc": 1108600000,
+          "name": "Davao Occidental"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1200000000,
+      "regionName": "Region XII – SOCCSKSARGEN",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1200000000.0.001.json",
+      "featureCount": 4,
+      "provinces": [
+        {
+          "psgc": 1204700000,
+          "name": "Cotabato"
+        },
+        {
+          "psgc": 1206300000,
+          "name": "South Cotabato"
+        },
+        {
+          "psgc": 1206500000,
+          "name": "Sultan Kudarat"
+        },
+        {
+          "psgc": 1208000000,
+          "name": "Sarangani"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1300000000,
+      "regionName": "Region XIII – Caraga",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1300000000.0.001.json",
+      "featureCount": 4,
+      "provinces": [
+        {
+          "psgc": 1303900000,
+          "name": "NCR, City of Manila, First District (Not a Province)"
+        },
+        {
+          "psgc": 1307400000,
+          "name": "NCR, Second District (Not a Province)"
+        },
+        {
+          "psgc": 1307500000,
+          "name": "NCR, Third District (Not a Province)"
+        },
+        {
+          "psgc": 1307600000,
+          "name": "NCR, Fourth District (Not a Province)"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1400000000,
+      "regionName": "BARMM",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1400000000.0.001.json",
+      "featureCount": 6,
+      "provinces": [
+        {
+          "psgc": 1400100000,
+          "name": "Abra"
+        },
+        {
+          "psgc": 1401100000,
+          "name": "Benguet"
+        },
+        {
+          "psgc": 1402700000,
+          "name": "Ifugao"
+        },
+        {
+          "psgc": 1403200000,
+          "name": "Kalinga"
+        },
+        {
+          "psgc": 1404400000,
+          "name": "Mountain Province"
+        },
+        {
+          "psgc": 1408100000,
+          "name": "Apayao"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1600000000,
+      "regionName": "NCR",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1600000000.0.001.json",
+      "featureCount": 5,
+      "provinces": [
+        {
+          "psgc": 1600200000,
+          "name": "Agusan del Norte"
+        },
+        {
+          "psgc": 1600300000,
+          "name": "Agusan del Sur"
+        },
+        {
+          "psgc": 1606700000,
+          "name": "Surigao del Norte"
+        },
+        {
+          "psgc": 1606800000,
+          "name": "Surigao del Sur"
+        },
+        {
+          "psgc": 1608500000,
+          "name": "Dinagat Islands"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1700000000,
+      "regionName": "CAR",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1700000000.0.001.json",
+      "featureCount": 5,
+      "provinces": [
+        {
+          "psgc": 1704000000,
+          "name": "Marinduque"
+        },
+        {
+          "psgc": 1705100000,
+          "name": "Occidental Mindoro"
+        },
+        {
+          "psgc": 1705200000,
+          "name": "Oriental Mindoro"
+        },
+        {
+          "psgc": 1705300000,
+          "name": "Palawan"
+        },
+        {
+          "psgc": 1705900000,
+          "name": "Romblon"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 1900000000,
+      "regionName": "MIMAROPA",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-1900000000.0.001.json",
+      "featureCount": 7,
+      "provinces": [
+        {
+          "psgc": 1900700000,
+          "name": "Basilan"
+        },
+        {
+          "psgc": 1903600000,
+          "name": "Lanao del Sur"
+        },
+        {
+          "psgc": 1906600000,
+          "name": "Sulu"
+        },
+        {
+          "psgc": 1907000000,
+          "name": "Tawi-Tawi"
+        },
+        {
+          "psgc": 1908700000,
+          "name": "Maguindanao del Norte"
+        },
+        {
+          "psgc": 1908800000,
+          "name": "Maguindanao del Sur"
+        },
+        {
+          "psgc": 1909900000,
+          "name": "Unknown"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 200000000,
+      "regionName": "Region II – Cagayan Valley",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-200000000.0.001.json",
+      "featureCount": 5,
+      "provinces": [
+        {
+          "psgc": 200900000,
+          "name": "Batanes"
+        },
+        {
+          "psgc": 201500000,
+          "name": "Cagayan"
+        },
+        {
+          "psgc": 203100000,
+          "name": "Isabela"
+        },
+        {
+          "psgc": 205000000,
+          "name": "Nueva Vizcaya"
+        },
+        {
+          "psgc": 205700000,
+          "name": "Quirino"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 300000000,
+      "regionName": "Region III – Central Luzon",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-300000000.0.001.json",
+      "featureCount": 7,
+      "provinces": [
+        {
+          "psgc": 300800000,
+          "name": "Bataan"
+        },
+        {
+          "psgc": 301400000,
+          "name": "Bulacan"
+        },
+        {
+          "psgc": 304900000,
+          "name": "Nueva Ecija"
+        },
+        {
+          "psgc": 305400000,
+          "name": "Pampanga"
+        },
+        {
+          "psgc": 306900000,
+          "name": "Tarlac"
+        },
+        {
+          "psgc": 307100000,
+          "name": "Zambales"
+        },
+        {
+          "psgc": 307700000,
+          "name": "Aurora"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 400000000,
+      "regionName": "Region IV-A – CALABARZON",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-400000000.0.001.json",
+      "featureCount": 5,
+      "provinces": [
+        {
+          "psgc": 401000000,
+          "name": "Batangas"
+        },
+        {
+          "psgc": 402100000,
+          "name": "Cavite"
+        },
+        {
+          "psgc": 403400000,
+          "name": "Laguna"
+        },
+        {
+          "psgc": 405600000,
+          "name": "Quezon"
+        },
+        {
+          "psgc": 405800000,
+          "name": "Rizal"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 500000000,
+      "regionName": "Region V – Bicol",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-500000000.0.001.json",
+      "featureCount": 6,
+      "provinces": [
+        {
+          "psgc": 500500000,
+          "name": "Albay"
+        },
+        {
+          "psgc": 501600000,
+          "name": "Camarines Norte"
+        },
+        {
+          "psgc": 501700000,
+          "name": "Camarines Sur"
+        },
+        {
+          "psgc": 502000000,
+          "name": "Catanduanes"
+        },
+        {
+          "psgc": 504100000,
+          "name": "Masbate"
+        },
+        {
+          "psgc": 506200000,
+          "name": "Sorsogon"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 600000000,
+      "regionName": "Region VI – Western Visayas",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-600000000.0.001.json",
+      "featureCount": 6,
+      "provinces": [
+        {
+          "psgc": 600400000,
+          "name": "Aklan"
+        },
+        {
+          "psgc": 600600000,
+          "name": "Antique"
+        },
+        {
+          "psgc": 601900000,
+          "name": "Capiz"
+        },
+        {
+          "psgc": 603000000,
+          "name": "Iloilo"
+        },
+        {
+          "psgc": 604500000,
+          "name": "Negros Occidental"
+        },
+        {
+          "psgc": 607900000,
+          "name": "Guimaras"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 700000000,
+      "regionName": "Region VII – Central Visayas",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-700000000.0.001.json",
+      "featureCount": 4,
+      "provinces": [
+        {
+          "psgc": 701200000,
+          "name": "Bohol"
+        },
+        {
+          "psgc": 702200000,
+          "name": "Cebu"
+        },
+        {
+          "psgc": 704600000,
+          "name": "Negros Oriental"
+        },
+        {
+          "psgc": 706100000,
+          "name": "Siquijor"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 800000000,
+      "regionName": "Region VIII – Eastern Visayas",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-800000000.0.001.json",
+      "featureCount": 6,
+      "provinces": [
+        {
+          "psgc": 802600000,
+          "name": "Eastern Samar"
+        },
+        {
+          "psgc": 803700000,
+          "name": "Leyte"
+        },
+        {
+          "psgc": 804800000,
+          "name": "Northern Samar"
+        },
+        {
+          "psgc": 806000000,
+          "name": "Samar"
+        },
+        {
+          "psgc": 806400000,
+          "name": "Southern Leyte"
+        },
+        {
+          "psgc": 807800000,
+          "name": "Biliran"
+        }
+      ]
+    },
+    {
+      "regionPsgc": 900000000,
+      "regionName": "Region IX – Zamboanga Peninsula",
+      "file": "data/raw/philippines-json-maps/2023/geojson/regions/lowres/provdists-region-900000000.0.001.json",
+      "featureCount": 4,
+      "provinces": [
+        {
+          "psgc": 907200000,
+          "name": "Zamboanga del Norte"
+        },
+        {
+          "psgc": 907300000,
+          "name": "Zamboanga del Sur"
+        },
+        {
+          "psgc": 908300000,
+          "name": "Zamboanga Sibugay"
+        },
+        {
+          "psgc": 990100000,
+          "name": "City of Isabela (Not a Province)"
+        }
+      ]
+    }
+  ],
+  "municipalityLayerCount": 88,
+  "barangayLayerCount": 1672
+}

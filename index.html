@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-PH">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Philippine Fiestas Map — Festivals &amp; Barangay Fiestas</title>
+    <meta
+      name="description"
+      content="Explore ~1,000 Philippine festivals and ~42,000 barangay fiestas on an interactive map. Sinulog, Ati-Atihan, Dinagyang, Pahiyas, MassKara, Kadayawan, and more. Unofficial cultural atlas — verify dates locally."
+    />
+    <meta
+      name="keywords"
+      content="Philippine festivals, Philippine fiestas, barangay fiesta, Sinulog, Ati-Atihan, Dinagyang, fiesta dates Philippines, festival calendar Philippines, PSGC map, Philippines culture map"
+    />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="author" content="Philippine Fiestas Map" />
+    <meta name="application-url" content="https://nigelnuique.github.io/philippine-fiestas-map" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="theme-color" content="#0f1419" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("philippine-fiestas-theme");
+          if (t === "light" || t === "dark") {
+            document.documentElement.dataset.theme = t;
+          } else if (
+            window.matchMedia &&
+            window.matchMedia("(prefers-color-scheme: light)").matches
+          ) {
+            document.documentElement.dataset.theme = "light";
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta name="geo.region" content="PH" />
+    <meta name="geo.placename" content="Philippines" />
+    <meta name="ICBM" content="12.8797, 121.7740" />
+    <meta name="language" content="English" />
+    <meta name="content-language" content="en-PH" />
+    <link rel="canonical" href="https://nigelnuique.github.io/philippine-fiestas-map/" />
+    <link rel="icon" href="/philippine-fiestas-map/favicon.svg" type="image/svg+xml" />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://nigelnuique.github.io/philippine-fiestas-map/sitemap.xml" />
+    <link rel="alternate" type="text/plain" href="https://nigelnuique.github.io/philippine-fiestas-map/llms.txt" title="LLM site summary" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Philippine Fiestas Map" />
+    <meta property="og:locale" content="en_PH" />
+    <meta property="og:url" content="https://nigelnuique.github.io/philippine-fiestas-map/" />
+    <meta property="og:title" content="Philippine Fiestas Map — Festivals &amp; Barangay Fiestas" />
+    <meta
+      property="og:description"
+      content="Interactive map of Philippine festivals and barangay patron fiestas. Drill down by region, province, municipality, and barangay. Not a government site."
+    />
+    <meta property="og:image" content="https://nigelnuique.github.io/philippine-fiestas-map/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Philippine Fiestas Map — festivals and barangay fiestas across the Philippines" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Philippine Fiestas Map — Festivals &amp; Barangay Fiestas" />
+    <meta
+      name="twitter:description"
+      content="~1,000 named festivals and ~42,000 barangay fiestas on one interactive Philippines map."
+    />
+    <meta name="twitter:image" content="https://nigelnuique.github.io/philippine-fiestas-map/og-image.png" />
+    <meta name="twitter:image:alt" content="Philippine Fiestas Map preview" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://nigelnuique.github.io/philippine-fiestas-map/#website",
+      "url": "https://nigelnuique.github.io/philippine-fiestas-map/",
+      "name": "Philippine Fiestas Map",
+      "description": "Explore ~1,000 Philippine festivals and ~42,000 barangay fiestas on an interactive map. Sinulog, Ati-Atihan, Dinagyang, Pahiyas, MassKara, Kadayawan, and more. Unofficial cultural atlas — verify dates locally.",
+      "inLanguage": "en-PH",
+      "publisher": {
+        "@id": "https://nigelnuique.github.io/philippine-fiestas-map/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://nigelnuique.github.io/philippine-fiestas-map/#organization",
+      "name": "Philippine Fiestas Map",
+      "url": "https://nigelnuique.github.io/philippine-fiestas-map/",
+      "logo": "https://nigelnuique.github.io/philippine-fiestas-map/favicon.svg",
+      "sameAs": [
+        "https://github.com/nigelnuique/philippine-fiestas-map"
+      ]
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://nigelnuique.github.io/philippine-fiestas-map/#app",
+      "name": "Philippine Fiestas Map",
+      "url": "https://nigelnuique.github.io/philippine-fiestas-map/",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Zoomable map of Philippine festivals and barangay patron fiestas with PSGC-aligned administrative boundaries.",
+      "featureList": [
+        "Interactive map drill-down from country to barangay",
+        "Search named festivals such as Sinulog and Ati-Atihan",
+        "Browse ~42,000 barangay patron fiesta records",
+        "Filter festivals by selected region, province, or municipality"
+      ],
+      "isPartOf": {
+        "@id": "https://nigelnuique.github.io/philippine-fiestas-map/#website"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://nigelnuique.github.io/philippine-fiestas-map/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Philippine Fiestas Map?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Philippine Fiestas Map is a free interactive web map listing Philippine festivals and barangay patron fiestas. You can explore by region, province, municipality, and barangay, and search for events like Sinulog or Dinagyang."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Philippine Fiestas Map an official government website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is an unofficial community cultural atlas built from open data and public sources. Always verify fiesta dates with your local parish, barangay hall, or municipal tourism office."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many festivals does the map include?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The map indexes roughly 1,000 named Philippine festivals plus about 42,000 barangay patron-saint fiestas derived from PSGC barangay names and calendar backfill."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find my barangay fiesta date?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open the map, navigate to your province and municipality, then select your barangay. The sidebar lists fiestas for that area. If no exact date is shown, confirm with your local parish or barangay hall."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the biggest festivals in the Philippines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Major festivals on the map include Sinulog (Cebu City, January), Ati-Atihan (Kalibo, January), Dinagyang (Iloilo City, January), Pahiyas (Lucban, May), Kadayawan (Davao City, August), and MassKara (Bacolod, October)."
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+
+    <style>
+      .seo-fallback {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+    </style>
+    <script type="module" crossorigin src="/philippine-fiestas-map/assets/index-B5D12yu7.js"></script>
+    <link rel="stylesheet" crossorigin href="/philippine-fiestas-map/assets/index-CFwN2zSY.css">
+  </head>
+  <body>
+    <div class="seo-fallback" id="seo-content" aria-hidden="true">
+      <p class="seo-fallback-lead">
+        <strong>Philippine Fiestas Map</strong> — interactive map of Philippine festivals, town fiestas,
+        and barangay patron celebrations. Explore by region, province, municipality, and barangay.
+        Search Sinulog, Ati-Atihan, Dinagyang, Pahiyas, MassKara, Kadayawan, and thousands of local fiestas.
+      </p>
+      <p>Major Philippine festivals on the map:</p>
+      <ul>
+        <li>Sinulog Festival — Cebu City, Cebu — January</li>
+        <li>Ati-Atihan Festival — Kalibo, Aklan — January</li>
+        <li>Dinagyang Festival — Iloilo City, Iloilo — January</li>
+        <li>Panagbenga — Baguio City — February</li>
+        <li>Moriones Festival — Marinduque — Holy Week</li>
+        <li>Pahiyas Festival — Lucban, Quezon — May</li>
+        <li>Pintados-Kasadyaan — Tacloban, Leyte — June</li>
+        <li>Kadayawan Festival — Davao City — August</li>
+        <li>Peñafrancia Festival — Naga City, Camarines Sur — September</li>
+        <li>MassKara Festival — Bacolod, Negros Occidental — October</li>
+      </ul>
+      <p>
+        Unofficial cultural map, not affiliated with the Philippine government.
+        Feast dates may be approximate; verify with local sources.
+      </p>
+      <p>
+        Machine-readable summary for AI assistants:
+        <a href="https://nigelnuique.github.io/philippine-fiestas-map/llms.txt">llms.txt</a>
+      </p>
+    </div>
+
+    <noscript>
+      <main style="max-width: 40rem; margin: 2rem auto; padding: 0 1rem; font-family: system-ui, sans-serif; line-height: 1.5">
+        <h1>Philippine Fiestas Map</h1>
+        <p>
+          Browse Philippine festivals and barangay fiestas on an interactive map. This app
+          requires JavaScript. Enable JavaScript to use the map, or read the
+          <a href="https://nigelnuique.github.io/philippine-fiestas-map/llms.txt">site summary for assistants</a>.
+        </p>
+      </main>
+    </noscript>
+
+    <div id="root"></div>
+  </body>
+</html>

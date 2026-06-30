@@ -39,6 +39,9 @@ export default defineConfig(({ mode }) => {
 
   return {
     base,
+    build: {
+      sourcemap: false,
+    },
     plugins: [react(), siteUrlHtmlPlugin(siteUrl, base), seoFilesPlugin(siteUrl)],
     server: {
       fs: {

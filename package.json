@@ -1,7 +1,7 @@
 {
   "name": "philippine-fiestas-map",
   "version": "0.1.0",
-  "description": "Exhaustive zoomable map of Philippine fiestas and festivals",
+  "description": "Interactive map of Philippine festivals and barangay fiestas",
   "type": "module",
   "scripts": {
     "data:fetch-boundaries": "node scripts/fetch-boundaries.js && node scripts/build-huc-boundaries.js && node scripts/build-huc-barangay-boundaries.js",
@@ -27,7 +27,7 @@
     "map:sync": "node scripts/sync-map-boundaries.js",
     "predev": "npm run map:sync",
     "dev": "vite",
-    "prebuild": "npm run map:sync",
+    "prebuild": "npm run map:sync && npm run check:secrets",
     "build": "vite build",
     "preview": "vite preview",
     "check:page": "node scripts/check-page.mjs",

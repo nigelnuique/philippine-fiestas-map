@@ -84,6 +84,7 @@ See **[docs/deploy.md](docs/deploy.md)** for one-time setup (enable Pages in rep
 | Doc | Contents |
 |-----|----------|
 | [docs/deploy.md](docs/deploy.md) | **Deploy** — GitHub Pages, Netlify, Cloudflare Pages |
+| [SECURITY.md](SECURITY.md) | Security reporting and deployment hygiene |
 | [docs/data-sources.md](docs/data-sources.md) | **Data provenance** — sources, licenses, how each dataset was obtained |
 | [docs/data-pipeline.md](docs/data-pipeline.md) | Scripts, data files, PSGC codes, known gaps |
 | [docs/architecture.md](docs/architecture.md) | App structure, map layers, selection state, module reference |

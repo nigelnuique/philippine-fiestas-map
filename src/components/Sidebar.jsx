@@ -115,7 +115,6 @@ export default function Sidebar({
   onFestivalSelect,
   activeFestivalId,
   festivalSelectNotice,
-  stats,
 }) {
   const [festivalSearch, setFestivalSearch] = useState("");
   const showBiringanEgg =
@@ -365,20 +364,7 @@ export default function Sidebar({
             </div>
           </div>
         )}
-        {stats && (
-          <div className="sidebar-stats">
-            <div className="sidebar-stat">
-              <strong>{stats.total.toLocaleString()}</strong>
-              named festivals
-            </div>
-            {stats.barangayFiestas > 0 && (
-              <div className="sidebar-stat">
-                <strong>{stats.barangayFiestas.toLocaleString()}</strong>
-                barangay fiestas
-              </div>
-            )}
-          </div>
-        )}
+
         {loading && <p className="festival-empty">Loading map data…</p>}
         {!loading && !selection && !festivalSearch.trim() && (
           <p className="festival-empty">
@@ -408,21 +394,21 @@ export default function Sidebar({
           !barangayFestivalsLoading &&
           visibleFestivals.length === 0 && (
             <p className="festival-empty">
-              No festival data for this area yet. More fiestas are being added.
+              No festivals are listed for this area in our dataset.
             </p>
           )}
         {selection?.level === "municipality" &&
           barangayFestivals.length > 0 && (
             <SidebarBanner variant="info">
-              Showing {areaFestivals.length} festivals in this municipality (
-              {barangayFestivals.length} barangay fiestas). Click a barangay to
-              filter further.
+              {areaFestivals.length.toLocaleString()} festival
+              {areaFestivals.length === 1 ? "" : "s"} in this municipality.
+              Click a barangay to filter further.
             </SidebarBanner>
           )}
         {selection?.level === "barangay" &&
           (visibleFestivals.length > 0 || barangayFestivalsLoading) && (
             <SidebarBanner variant="info">
-              Showing festivals for {selection.barangayName}.
+              Festivals in {selection.barangayName}.
             </SidebarBanner>
           )}
         {showFestivalSection && visibleFestivals.length > 0 && (

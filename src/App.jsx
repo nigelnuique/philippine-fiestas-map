@@ -340,7 +340,6 @@ export default function App() {
         onFestivalSelect={handleFestivalSelect}
         activeFestivalId={activeFestivalId}
         festivalSelectNotice={festivalSelectNotice}
-        stats={festivalData?.stats}
       />
       {provincesGeoJson && manifest ? (
         <main className="map-main" aria-label="Interactive festival map">

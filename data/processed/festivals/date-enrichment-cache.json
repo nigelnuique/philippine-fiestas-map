@@ -145,5 +145,5143 @@
     "dayEnd": 20,
     "dateParseMethod": "known",
     "enrichedAt": "2026-06-12T11:42:30.190Z"
+  },
+  "wiki-pantat-festival-zarraga-iloilo": {
+    "month": 4,
+    "dayStart": 25,
+    "dayEnd": 25,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on the fourth Saturday of January in Iloilo City, Philippines",
+    "wikipediaTitle": "Kasadyahan",
+    "enrichedAt": "2026-06-30T06:02:41.532Z"
+  },
+  "wiki-manaoag-pilgrimage-manaoag-pangasinan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:03:09.816Z"
+  },
+  "wiki-lami-lamihan-festival-lamitan-basilan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:04:13.949Z"
+  },
+  "wiki-mutya-ng-taguig-taguig": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:04:25.792Z"
+  },
+  "wiki-tanduyong-festival-san-jose-nueva-ecija": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:05:29.884Z"
+  },
+  "wiki-kamarikutan-pagdiwata-arts-festival-puerto-princesa-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:06:10.492Z"
+  },
+  "wiki-camote-festival-bb-zambales-castillejos-zambales": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:06:16.437Z"
+  },
+  "wiki-kinulob-festival-mabini-batangas": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:07:14.884Z"
+  },
+  "wiki-itik-festival-victoria-laguna": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:07:26.654Z"
+  },
+  "wiki-kadahoman-festival-lagonoy-camarines-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:08:24.885Z"
+  },
+  "wiki-tugbong-festival-pandan-antique": {
+    "month": 11,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 8",
+    "wikipediaTitle": "Ormoc",
+    "enrichedAt": "2026-06-30T06:09:08.295Z"
+  },
+  "wiki-panagabuos-festival-banna-ilocos-norte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:09:14.268Z"
+  },
+  "wiki-suroy-ta-davao-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:10:18.411Z"
+  },
+  "wiki-fiesta-pasiklab-quezon-city": {
+    "month": 1,
+    "dayStart": 24,
+    "dayEnd": 24,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "January 24",
+    "wikipediaTitle": "Gloria Sevilla",
+    "enrichedAt": "2026-06-30T06:10:27.219Z"
+  },
+  "wiki-banana-festival-la-castellana-negros-occidental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:11:31.324Z"
+  },
+  "wiki-kesong-puti-festival-santa-cruz-laguna": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:12:14.796Z"
+  },
+  "wiki-linggo-ng-palaspas-or-domingo-de-ramos-para-aque": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:13:16.066Z"
+  },
+  "wiki-pandan-festival-luisiana-laguna": {
+    "month": 4,
+    "dayStart": 18,
+    "dayEnd": 18,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually in Pandacan, Manila in the Philippines on the third Saturday of January",
+    "wikipediaTitle": "Buling-Buling Festival",
+    "enrichedAt": "2026-06-30T06:13:27.838Z"
+  },
+  "wiki-summer-youth-festival-zamboanga-del-sur": {
+    "month": 4,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the third Sunday of January in Cebu, with the center of the activities being in",
+    "wikipediaTitle": "Sinulog",
+    "enrichedAt": "2026-06-30T06:15:24.309Z"
+  },
+  "wiki-hudas-hudas-san-jose-de-buenavista-antique": {
+    "month": 10,
+    "dayStart": 13,
+    "dayEnd": 13,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 13",
+    "wikipediaTitle": "Patay na si Hesus",
+    "enrichedAt": "2026-06-30T06:16:07.809Z"
+  },
+  "wiki-libod-sayaw-bindoy-negros-oriental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:16:13.740Z"
+  },
+  "wiki-sagrada-familia-fiesta-laak-davao-de-oro": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:17:17.798Z"
+  },
+  "wiki-lenten-festival-of-herbal-preparation-siquijor-siquijor": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:18:21.977Z"
+  },
+  "wiki-kanidugan-festival-odiongan-romblon": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:18:27.981Z"
+  },
+  "wiki-senakulo-castillejos-zambales": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:19:08.541Z"
+  },
+  "wiki-pilgrimage-to-ermita-hill-casiguran-baler-aurora": {
+    "month": 3,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "March 19",
+    "wikipediaTitle": "Basilica of Our Lady of Piat",
+    "enrichedAt": "2026-06-30T06:19:17.417Z"
+  },
+  "wiki-semana-santa-at-iguig-calvary-hills-iguig-cagayan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:20:15.741Z"
+  },
+  "wiki-pasko-sa-kasakit-semana-santa-sa-bantayan-bantayan-cebu": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:20:21.741Z"
+  },
+  "wiki-semana-santa-sa-bikol-calabanga-camarines-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:21:25.791Z"
+  },
+  "wiki-cenakulo-cainta-rizal-cainta-rizal": {
+    "month": 8,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 15",
+    "wikipediaTitle": "Cainta",
+    "enrichedAt": "2026-06-30T06:21:31.849Z"
+  },
+  "wiki-lenten-observance-san-pablo-city-san-pablo-city-laguna": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:22:12.501Z"
+  },
+  "wiki-buhing-kalbaryo-cebu-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:22:18.414Z"
+  },
+  "wiki-semana-santa-dipolog-dapitan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:23:19.531Z"
+  },
+  "wiki-katkat-sakripisyo-sa-3003-steps-dipolog": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:23:28.440Z"
+  },
+  "wiki-live-stations-of-the-cross-at-san-carlos-city-san-carlos-city-negros-occidental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:24:12.081Z"
+  },
+  "wiki-pagtaltal-in-barotac-viejo-barotac-viejo-iloilo": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Passion Play",
+    "enrichedAt": "2026-06-30T06:25:13.146Z"
+  },
+  "wiki-paghukom-calinog-iloilo": {
+    "month": 11,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 30",
+    "wikipediaTitle": "41st PMPC Star Awards for Movies",
+    "enrichedAt": "2026-06-30T06:25:21.947Z"
+  },
+  "wiki-kapiya-display-and-pasyon-singing-contest-santa-barbara-iloilo": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:26:20.296Z"
+  },
+  "wiki-semana-santa-at-dariok-hills-santiago-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:26:26.263Z"
+  },
+  "wiki-pak-kaat-kal-lo-magpet-cotabato": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:27:03.892Z"
+  },
+  "wiki-the-subok-taytay-and-tanay-rizal": {
+    "month": 8,
+    "dayStart": 1,
+    "dayEnd": 1,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 1",
+    "wikipediaTitle": "Cesar Montano",
+    "enrichedAt": "2026-06-30T06:27:12.730Z"
+  },
+  "wiki-semana-santa-at-silay-city-silay-city": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:28:14.325Z"
+  },
+  "wiki-flagellants-amp-lenten-rites-paombong-bulacan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:28:17.385Z"
+  },
+  "wiki-giwang-giwang-binangonan-rizal": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:29:21.437Z"
+  },
+  "wiki-angeles-lenten-rites-angeles-city": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Lent",
+    "enrichedAt": "2026-06-30T06:29:30.338Z"
+  },
+  "wiki-lang-ay-festival-bontoc-mountain-province": {
+    "month": 5,
+    "dayStart": 9,
+    "dayEnd": 9,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 9",
+    "wikipediaTitle": "Ara Mina",
+    "enrichedAt": "2026-06-30T06:30:13.858Z"
+  },
+  "wiki-san-pedro-cutud-lenten-rites-san-fernando-city-pampanga": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "San Pedro Cutud Lenten Rites",
+    "enrichedAt": "2026-06-30T06:31:12.184Z"
+  },
+  "wiki-lenten-week-pagpapako-baler-and-casiguran-aurora": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:31:18.043Z"
+  },
+  "wiki-pamalandong-ha-palo-palo-leyte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:31:23.996Z"
+  },
+  "wiki-kalbaryo-la-carlota-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:32:28.608Z"
+  },
+  "wiki-ang-hatol-the-way-of-the-cross-cainta-rizal": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:33:12.091Z"
+  },
+  "wiki-prusisyon-angeles-city-mabalacat-san-fernando-sasm": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "during Holy Week in the traditional Roman Catholic culture of the St",
+    "wikipediaTitle": "Good Friday processions in Baliwag",
+    "enrichedAt": "2026-06-30T06:34:16.030Z"
+  },
+  "wiki-baliuag-lenten-procession-baliuag-bulacan": {
+    "month": 5,
+    "dayStart": 26,
+    "dayEnd": 26,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 26",
+    "wikipediaTitle": "Baliwag",
+    "enrichedAt": "2026-06-30T06:34:22.061Z"
+  },
+  "wiki-folk-healing-san-antonio-siquijor": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:35:26.133Z"
+  },
+  "wiki-salubong-angono-rizal-angono-rizal": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:36:09.576Z"
+  },
+  "wiki-pagay-pagay-festival-saguday-quirino": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:37:13.530Z"
+  },
+  "wiki-allaw-ta-apo-sandawa-kidapawan-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:37:19.489Z"
+  },
+  "wiki-sunduan-ha-carigara-carigara-leyte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:37:25.412Z"
+  },
+  "wiki-sugat-san-carlos-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:38:29.483Z"
+  },
+  "wiki-salubong-easter-vigil-and-pasko-ng-pagkabuhay-feast-of-the-resurrection-para-aque": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:39:07.260Z"
+  },
+  "wiki-haladaya-festival-daanbantayan-cebu": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:39:19.018Z"
+  },
+  "wiki-sigpawan-festival-lemery-batangas": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:40:17.212Z"
+  },
+  "wiki-malangsi-fishtival-bayambang-pangasinan": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "week of April, locally known as \"Kalutan ta",
+    "wikipediaTitle": "Bayambang",
+    "enrichedAt": "2026-06-30T06:40:25.993Z"
+  },
+  "wiki-dupax-del-sur-town-fiesta-dupax-del-sur-nueva-vizcaya": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:42:22.386Z"
+  },
+  "wiki-panaad-sa-negros-bacolod": {
+    "month": 4,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 30",
+    "wikipediaTitle": "Panaad sa Negros Festival",
+    "enrichedAt": "2026-06-30T06:42:28.338Z"
+  },
+  "wiki-araw-ng-kagitingan-mount-samat-bataan": {
+    "month": 6,
+    "dayStart": 5,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 5",
+    "wikipediaTitle": "Lupang Hinirang",
+    "enrichedAt": "2026-06-30T06:43:11.807Z"
+  },
+  "wiki-pandan-festival-mapandan-pangasinan": {
+    "month": 4,
+    "dayStart": 18,
+    "dayEnd": 18,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually in Pandacan, Manila in the Philippines on the third Saturday of January",
+    "wikipediaTitle": "Buling-Buling Festival",
+    "enrichedAt": "2026-06-30T06:44:15.792Z"
+  },
+  "wiki-bambang-town-fiesta-panggayjaya-festival-bambang-nueva-vizcaya": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:44:21.673Z"
+  },
+  "wiki-bantayog-festival-camarines-norte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:45:26.009Z"
+  },
+  "wiki-ana-kalang-festival-nagcarlan-laguna": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:45:31.969Z"
+  },
+  "wiki-easthfest-summer-festival-tagum-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:46:09.659Z"
+  },
+  "wiki-bancathon-sa-magnaga-pantukan-davao-de-oro": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:46:15.612Z"
+  },
+  "wiki-hugyaw-sa-kadagatan-kauswagan-lanao-del-norte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:47:13.904Z"
+  },
+  "wiki-baybayon-festival-sag-ay-camarines-sur": {
+    "month": 8,
+    "dayStart": 31,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 31",
+    "wikipediaTitle": "Cinema of the Philippines",
+    "enrichedAt": "2026-06-30T06:47:22.738Z"
+  },
+  "wiki-tampisaw-festival-earth-day-celebration-concepcion-iloilo": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:48:21.080Z"
+  },
+  "wiki-tungoh-ad-hungduan-hungduan-ifugao": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:48:27.034Z"
+  },
+  "wiki-garlic-festival-pinili-ilocos-norte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:49:10.554Z"
+  },
+  "wiki-ka-angkan-marikina": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "in 1992",
+    "wikipediaTitle": "1992 Metro Manila Film Festival",
+    "enrichedAt": "2026-06-30T06:49:19.457Z"
+  },
+  "wiki-binongey-festival-anda-pangasinan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:50:17.635Z"
+  },
+  "wiki-linubian-festival-rosario-la-union": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:51:23.259Z"
+  },
+  "wiki-kasibu-town-fiesta-kasibu-nueva-vizcaya": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:52:24.423Z"
+  },
+  "wiki-alfonso-casta-eda-town-fiesta-alfonso-casta-eda-nueva-vizcaya": {
+    "month": 6,
+    "dayStart": 12,
+    "dayEnd": 12,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 12",
+    "wikipediaTitle": "Cavite",
+    "enrichedAt": "2026-06-30T06:52:33.314Z"
+  },
+  "wiki-pasa-pasa-festival-monreal-masbate": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:53:16.740Z"
+  },
+  "wiki-bugsayan-festival-santa-fe-romblon": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:54:14.959Z"
+  },
+  "wiki-tarlac-city-charter-anniversary-tarlac-city-tarlac": {
+    "month": 10,
+    "dayStart": 13,
+    "dayEnd": 13,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 13",
+    "wikipediaTitle": "Tarlac State University",
+    "enrichedAt": "2026-06-30T06:54:23.875Z"
+  },
+  "wiki-cocowayan-festival-isabela-basilan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:55:24.913Z"
+  },
+  "wiki-mango-bamboo-festival-and-trade-fair-san-carlos-pangasinan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:56:08.414Z"
+  },
+  "wiki-la-laguna-festival-santa-cruz-laguna": {
+    "month": 2,
+    "dayStart": 2,
+    "dayEnd": 2,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 2 (Fiesta de la Candelaria) and August 15, the patronal feast of the Ca",
+    "wikipediaTitle": "Virgin of Candelaria",
+    "enrichedAt": "2026-06-30T06:56:14.260Z"
+  },
+  "wiki-caromata-festival-town-fiesta-laguindingan-misamis-oriental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:56:20.248Z"
+  },
+  "wiki-sunduan-feast-of-santa-rosa-de-lima-pasig": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:57:21.478Z"
+  },
+  "wiki-agoo-semana-santa-agoo-la-union": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:58:22.637Z"
+  },
+  "wiki-panaad-camiguin": {
+    "month": 4,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 30",
+    "wikipediaTitle": "Panaad sa Negros Festival",
+    "enrichedAt": "2026-06-30T06:58:28.656Z"
+  },
+  "wiki-senakulo-way-of-the-cross-para-aque": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T06:58:34.787Z"
+  },
+  "wiki-gotad-ad-hingyon-hingyon-ifugao": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T06:59:12.426Z"
+  },
+  "wiki-sanduguan-festival-calapan-mindoro-oriental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:00:16.401Z"
+  },
+  "wiki-bangkarera-pe-ablanca-cagayan": {
+    "month": 5,
+    "dayStart": 11,
+    "dayEnd": 11,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 11",
+    "wikipediaTitle": "Tuguegarao",
+    "enrichedAt": "2026-06-30T07:00:28.111Z"
+  },
+  "wiki-pabasa-ng-pasyon-san-juan-batangas": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Pabasa (ritual)",
+    "enrichedAt": "2026-06-30T07:01:05.749Z"
+  },
+  "wiki-pagsalabuk-festival-dipolog": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:01:14.574Z"
+  },
+  "wiki-hinugyaw-sa-hinigaran-festival-hinigaran-negros-occidental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:01:23.359Z"
+  },
+  "wiki-kangayedan-festival-pagudpud-ilocos-norte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:02:21.606Z"
+  },
+  "wiki-subic-ay-festival-subic-zambales": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December",
+    "wikipediaTitle": "Binirayan festival",
+    "enrichedAt": "2026-06-30T07:02:30.511Z"
+  },
+  "wiki-gotad-ad-kiangan-kiangan-ifugao": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:03:08.192Z"
+  },
+  "wiki-pista-sa-kinaiyahan-santa-cruz-davao-del-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:03:17.149Z"
+  },
+  "wiki-pinakbet-festival-santa-maria-ilocos-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:04:21.327Z"
+  },
+  "wiki-pista-y-dayat-lingayen-pangasinan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:05:25.455Z"
+  },
+  "wiki-sibit-sibit-festival-olongapo-city": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:05:34.364Z"
+  },
+  "wiki-yagyag-festival-sibulan-negros-oriental": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:06:15.020Z"
+  },
+  "wiki-karosahan-festival-nueva-valencia-guimaras": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:07:16.134Z"
+  },
+  "wiki-araw-ng-sulop-sulop-davao-del-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:07:22.102Z"
+  },
+  "wiki-talabukon-festival-looc-romblon": {
+    "month": 4,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "during the 3rd week of April",
+    "wikipediaTitle": "Talabukon Festival",
+    "enrichedAt": "2026-06-30T07:08:02.659Z"
+  },
+  "wiki-panagsangal-festival-baggao-cagayan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:08:08.568Z"
+  },
+  "wiki-sinabalu-festival-rizal-cagayan": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:08:17.395Z"
+  },
+  "wiki-the-sabutan-festival-and-mini-trade-fair-mabitac-oriental-mindoro": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:09:18.599Z"
+  },
+  "wiki-imbayah-festtival-banaue-ifugao": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:09:24.522Z"
+  },
+  "wiki-baggak-summer-festival-bauang-la-union": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:10:07.978Z"
+  },
+  "wiki-pasalamat-festival-la-carlota-city": {
+    "month": 12,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 20",
+    "wikipediaTitle": "Victorias",
+    "enrichedAt": "2026-06-30T07:11:12.155Z"
+  },
+  "wiki-aklan-day-celebration-aklan": {
+    "month": 4,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the third Sunday of January to honor the Santo Niño (Infant Jesus)",
+    "wikipediaTitle": "Aklan",
+    "enrichedAt": "2026-06-30T07:11:18.140Z"
+  },
+  "wiki-panagat-fish-tival-estancia-iloilo": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:11:23.971Z"
+  },
+  "wiki-bahag-hari-festival-pinamalayan-oriental-mindoro": {
+    "month": 3,
+    "dayStart": 26,
+    "dayEnd": 26,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "March 26",
+    "wikipediaTitle": "Manuel Baldemor",
+    "enrichedAt": "2026-06-30T07:12:25.162Z"
+  },
+  "wiki-balingoan-festival-balingoan-misamis-oriental": {
+    "month": 10,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third weekend of October",
+    "wikipediaTitle": "Camiguin",
+    "enrichedAt": "2026-06-30T07:13:05.710Z"
+  },
+  "wiki-liliw-gat-tayaw-tsinelas-festival-liliw-laguna": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:13:14.570Z"
+  },
+  "wiki-kutsitsa-festival-molave-zamboanga-del-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:14:12.807Z"
+  },
+  "wiki-may-ilaoud-festival-milaor-camarines-sur": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:14:18.743Z"
+  },
+  "wiki-binirayan-festival-san-jose-de-buenavista-and-hamtic-antiqu": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Sunday of January in the town of Kalibo, the pr",
+    "wikipediaTitle": "Ati-Atihan",
+    "enrichedAt": "2026-06-30T07:15:19.924Z"
+  },
+  "wiki-saknungan-festival-san-jose-occidental-mindoro": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:15:25.866Z"
+  },
+  "wiki-kadaugan-sa-mactan-cebu-city-cebu": {
+    "month": 4,
+    "dayStart": 27,
+    "dayEnd": 27,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 27",
+    "wikipediaTitle": "Battle of Mactan",
+    "enrichedAt": "2026-06-30T07:15:31.801Z"
+  },
+  "wiki-dikit-festival-aurora-isabela": {
+    "month": 10,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 3",
+    "wikipediaTitle": "Allen Dizon",
+    "enrichedAt": "2026-06-30T07:16:12.378Z"
+  },
+  "wiki-indak-padurukan-festival-san-jose-occidental-mindoro": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:16:18.284Z"
+  },
+  "wiki-pandawan-festival-pantabangan-nueva-ecija": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "week of April every year",
+    "wikipediaTitle": "Pagibang Damara",
+    "enrichedAt": "2026-06-30T07:17:19.429Z"
+  },
+  "wiki-tinapahan-festival-lemery-batangas": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:17:25.358Z"
+  },
+  "wiki-dinaklisan-festival-currimao-ilocos-norte": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:18:05.964Z"
+  },
+  "wiki-antipolo-pilgrimage-antipolo-rizal": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T07:18:17.753Z"
+  },
+  "wiki-mungo-festival-san-mateo-isabela": {
+    "month": 9,
+    "dayStart": 26,
+    "dayEnd": 26,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 26",
+    "wikipediaTitle": "2025 New York Film Festival",
+    "enrichedAt": "2026-06-30T07:19:19.006Z"
+  },
+  "wiki-kalipayan-festival-san-agustin-romblon": {
+    "month": 4,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the third Sunday of January to honor the Santo Niño (Infant Jesus)",
+    "wikipediaTitle": "Aklan",
+    "enrichedAt": "2026-06-30T07:19:30.780Z"
+  },
+  "wiki-bambang-patronal-town-fiesta-saint-catherine-of-sienna-bambang-nueva-vizcaya": {
+    "month": 4,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:20:08.706Z"
+  },
+  "wiki-araquio-festival-general-tinio-nueva-ecija": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:20:17.559Z"
+  },
+  "wiki-higawa-festival-barracks-caloocan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:21:15.891Z"
+  },
+  "wiki-martipak-festival-calumpit-bulacan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:21:21.849Z"
+  },
+  "wiki-binallay-festival-ilagan-city-isabela": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:22:25.925Z"
+  },
+  "wiki-viva-vigan-binatbatan-festival-of-the-arts-vigan-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:22:31.932Z"
+  },
+  "wiki-sagalahang-bayan-navotas": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:23:09.593Z"
+  },
+  "wiki-pastulan-festival-san-pascual-batangas": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:23:15.514Z"
+  },
+  "wiki-pasayahan-sa-lucena-lucena-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:24:19.548Z"
+  },
+  "wiki-samahang-bulaklakan-festival-siniloan-laguna": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:24:25.527Z"
+  },
+  "wiki-bangkero-festival-pagsanjan-laguna": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "March",
+    "wikipediaTitle": "Pagsanjan",
+    "enrichedAt": "2026-06-30T07:25:26.679Z"
+  },
+  "wiki-tapusan-float-parade-festival-alitagtag-batangas": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:25:32.631Z"
+  },
+  "wiki-calauan-pinya-festival-calauan-laguna": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:26:16.032Z"
+  },
+  "wiki-mamang-os-festival-tuy-batangas": {
+    "month": 8,
+    "dayStart": 22,
+    "dayEnd": 22,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 22",
+    "wikipediaTitle": "Pilita Corrales",
+    "enrichedAt": "2026-06-30T07:27:20.114Z"
+  },
+  "wiki-davao-gulf-regatta-davao-oriental": {
+    "month": 11,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 8",
+    "wikipediaTitle": "Pagadian",
+    "enrichedAt": "2026-06-30T07:28:24.782Z"
+  },
+  "wiki-araquio-of-pe-aranda-penaranda-nueva-ecija": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:29:25.910Z"
+  },
+  "wiki-pangisraan-festival-calatrava-romblon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:29:31.873Z"
+  },
+  "wiki-abaca-festival-catanduanes": {
+    "month": 5,
+    "dayStart": 22,
+    "dayEnd": 28,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "in Virac, Catanduanes, Philippines during the fourth week of May",
+    "wikipediaTitle": "Abaca Festival",
+    "enrichedAt": "2026-06-30T07:30:12.420Z"
+  },
+  "wiki-pahinungod-festival-calape-bohol": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:31:14.429Z"
+  },
+  "wiki-gericho-laran-plantsa-plantsa-festival-laoag-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:31:20.422Z"
+  },
+  "wiki-bicol-loco-festival-legazpi-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:32:24.407Z"
+  },
+  "wiki-flores-de-tagume-o-festival-tagum-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:32:30.362Z"
+  },
+  "wiki-balangay-festival-balanghai-butuan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:33:13.811Z"
+  },
+  "wiki-balik-butuan-butuan": {
+    "month": 4,
+    "dayStart": 27,
+    "dayEnd": 27,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 27",
+    "wikipediaTitle": "Battle of Mactan",
+    "enrichedAt": "2026-06-30T07:34:15.039Z"
+  },
+  "wiki-pattaraday-festival-araw-ng-santiago-santiago-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:34:23.950Z"
+  },
+  "wiki-pasinggatan-festival-taytay-palawan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:35:22.199Z"
+  },
+  "wiki-tikanlu-festival-tagudin-ilocos-sur": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:35:28.129Z"
+  },
+  "wiki-100-islands-festival-alaminos-pangasinan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:36:12.028Z"
+  },
+  "wiki-madahom-festival-caramoan-camarines-sur": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:36:18.026Z"
+  },
+  "wiki-magayon-festival-albay": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:37:22.138Z"
+  },
+  "wiki-boa-boahan-alinsangan-festival-nabua-camarines-sur": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:38:02.641Z"
+  },
+  "wiki-sumakah-festival-antipolo-rizal": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:38:11.450Z"
+  },
+  "wiki-pista-ng-produktong-pilipino-subic-olongapo-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:39:10.565Z"
+  },
+  "wiki-tromba-festival-baras-rizal": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "from 6 to 16 August 2014 in Locarno, Switzerland",
+    "wikipediaTitle": "67th Locarno Film Festival",
+    "enrichedAt": "2026-06-30T07:39:19.406Z"
+  },
+  "wiki-sagalahan-malabon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:40:17.596Z"
+  },
+  "wiki-dinengdeng-festival-amp-town-fiesta-agoo-la-union": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:40:20.657Z"
+  },
+  "wiki-pastores-festival-gapan": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "week of the national tryouts",
+    "wikipediaTitle": "Sunshine (2024 film)",
+    "enrichedAt": "2026-06-30T07:40:29.560Z"
+  },
+  "wiki-salay-town-fiesta-salay-misamis-oriental": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:41:13.025Z"
+  },
+  "wiki-saint-joseph-the-worker-fiesta-montevista-davao-de-oro": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:42:17.173Z"
+  },
+  "wiki-duyog-panday-cotabato-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:42:23.134Z"
+  },
+  "wiki-dayaw-dalan-festival-ticao-island-san-jacinto-masbate": {
+    "month": 2,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 17",
+    "wikipediaTitle": "Whang-od",
+    "enrichedAt": "2026-06-30T07:43:24.258Z"
+  },
+  "wiki-panagat-festival-buruanga-aklan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:44:08.272Z"
+  },
+  "wiki-salubong-holy-cross-festival-alitagtag-and-bauan-batangas": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T07:44:17.186Z"
+  },
+  "wiki-sublian-festival-bauan-batangas": {
+    "month": 7,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 23",
+    "wikipediaTitle": "Sublian Festival",
+    "enrichedAt": "2026-06-30T07:45:18.365Z"
+  },
+  "wiki-luyang-dilaw-festival-marilao-bulacan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:46:22.564Z"
+  },
+  "wiki-katagman-festival-oton-iloilo": {
+    "month": 10,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third weekend of October",
+    "wikipediaTitle": "Camiguin",
+    "enrichedAt": "2026-06-30T07:46:31.432Z"
+  },
+  "wiki-domorokdok-festival-dumarokdok-botolan-zambales": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:47:09.107Z"
+  },
+  "wiki-rit-ritemong-cayong-festival-sarrat-ilocos-norte": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:47:15.046Z"
+  },
+  "wiki-virgen-milagrosa-festival-ilocos-norte": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:48:19.151Z"
+  },
+  "wiki-carabao-carozza-festival-pavia-iloilo": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:49:20.372Z"
+  },
+  "wiki-bawang-festival-sinait-ilocos-sur": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:49:32.060Z"
+  },
+  "wiki-feast-of-the-holy-cross-santa-cruz-marinduque": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T07:50:15.689Z"
+  },
+  "wiki-alubijid-town-fiesta-alubijid-misamis-oriental": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:51:20.186Z"
+  },
+  "wiki-santa-cruz-parochial-fiesta-samal-davao-del-norte": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Our Lady of Porta Vaga",
+    "enrichedAt": "2026-06-30T07:52:21.504Z"
+  },
+  "wiki-pamuhuan-festival-pinamungajan-cebu": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:52:30.365Z"
+  },
+  "wiki-dawa-festival-gonzaga-cagayan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:53:13.893Z"
+  },
+  "wiki-bacoor-marching-band-festival-bacoor-cavite": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:54:18.160Z"
+  },
+  "wiki-sas-alliwa-festival-natonin-mountain-province": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:54:24.122Z"
+  },
+  "wiki-feast-day-of-saint-michael-san-miguel-catanduanes": {
+    "month": 10,
+    "dayStart": 4,
+    "dayEnd": 4,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "4 October in Italy and other locations influenced by Christianity",
+    "wikipediaTitle": "Feast of Saints Francis and Catherine",
+    "enrichedAt": "2026-06-30T07:55:25.541Z"
+  },
+  "wiki-labig-festival-claveria-cagayan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:56:23.787Z"
+  },
+  "wiki-mantawi-festival-mandaue-city": {
+    "month": 5,
+    "dayStart": 7,
+    "dayEnd": 7,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 7",
+    "wikipediaTitle": "Mantawi Festival",
+    "enrichedAt": "2026-06-30T07:56:32.672Z"
+  },
+  "wiki-basi-festival-naguilian-la-union": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:57:16.210Z"
+  },
+  "wiki-jose-abad-santos-day-san-fernando-pampanga": {
+    "month": 5,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 30",
+    "wikipediaTitle": "San Fernando, Pampanga",
+    "enrichedAt": "2026-06-30T07:58:17.431Z"
+  },
+  "wiki-balsa-festival-lian-batangas": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T07:59:21.545Z"
+  },
+  "wiki-summer-sports-festival-tagum-city": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 15, 1989",
+    "wikipediaTitle": "Kaogma Festival",
+    "enrichedAt": "2026-06-30T07:59:30.530Z"
+  },
+  "wiki-agawan-sa-sariaya-san-isidro-festival-sariaya-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:00:14.838Z"
+  },
+  "wiki-mayohan-sa-tayabas-san-isidro-festival-tayabas-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:01:18.914Z"
+  },
+  "wiki-de-galera-festival-puerto-galera-oriental-mindoro": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:02:02.383Z"
+  },
+  "wiki-mayaw-mayaw-festival-pinabacdao-samar": {
+    "month": 5,
+    "dayStart": 10,
+    "dayEnd": 10,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 10 of each year",
+    "wikipediaTitle": "Pinabacdao",
+    "enrichedAt": "2026-06-30T08:02:11.264Z"
+  },
+  "wiki-aramang-festival-aparri-cagayan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:02:17.261Z"
+  },
+  "wiki-kayapa-town-fiesta-kayapa-nueva-vizcaya": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:03:21.477Z"
+  },
+  "wiki-kasadyawan-festival-magdiwang-romblon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:03:27.501Z"
+  },
+  "wiki-makalawan-pinya-festival-calauan-laguna": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:04:05.252Z"
+  },
+  "wiki-feast-of-our-lady-of-biglang-awa-boac-marinduque": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:04:17.087Z"
+  },
+  "wiki-saging-festival-lazi-siquijor": {
+    "month": 9,
+    "dayStart": 7,
+    "dayEnd": 7,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 7",
+    "wikipediaTitle": "2023 Toronto International Film Festival",
+    "enrichedAt": "2026-06-30T08:05:18.353Z"
+  },
+  "wiki-palong-festival-capalonga-camarines-norte": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:06:22.449Z"
+  },
+  "wiki-balwarte-sa-gumaca-gumaca-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:06:28.377Z"
+  },
+  "wiki-paukyaban-festival-butuan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:07:06.046Z"
+  },
+  "wiki-barangay-boat-festival-aparri-cagayan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:07:17.876Z"
+  },
+  "wiki-villaverde-town-fiesta-villaverde-nueva-vizcaya": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:08:21.951Z"
+  },
+  "wiki-mano-po-san-roque-festival-valenzuela-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:10:18.352Z"
+  },
+  "wiki-bariw-festival-nabas-aklan": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 15",
+    "wikipediaTitle": "Feast of Saint Isidore the Laborer",
+    "enrichedAt": "2026-06-30T08:10:27.235Z"
+  },
+  "wiki-malaybalay-city-fiesta-malaybalay-city": {
+    "month": 10,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 19",
+    "wikipediaTitle": "Malaybalay",
+    "enrichedAt": "2026-06-30T08:11:04.992Z"
+  },
+  "wiki-feast-of-san-isidro-labrador-carabao-festival-angono-rizal": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 15",
+    "wikipediaTitle": "Feast of Saint Isidore the Laborer",
+    "enrichedAt": "2026-06-30T08:11:11.021Z"
+  },
+  "wiki-arana-t-balwarte-sa-gumaca-san-isidro-festival-gumaca-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:11:17.065Z"
+  },
+  "wiki-medina-town-fiesta-medina-misamis-oriental": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Our Lady of Porta Vaga",
+    "enrichedAt": "2026-06-30T08:12:18.332Z"
+  },
+  "wiki-pulilan-carabao-festival-pulilan-bulacan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:13:22.335Z"
+  },
+  "wiki-balbagan-festival-binalbagan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:13:31.148Z"
+  },
+  "wiki-fiesta-bicolandia-cruise-pe-afrancia-pilgrimage-cebu-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:14:08.693Z"
+  },
+  "wiki-sarakat-festival-santa-praxedes-cagayan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:14:14.628Z"
+  },
+  "wiki-ara-a-t-baluarte-festival-gumaca-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:15:15.942Z"
+  },
+  "wiki-aringay-festival-lasam-cagayan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:16:19.965Z"
+  },
+  "wiki-sunduan-para-aque": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:16:31.673Z"
+  },
+  "wiki-san-isidro-festival-pandanan-luisiana-laguna": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:17:09.809Z"
+  },
+  "wiki-p-gsalabuk-festival-dipolog": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:18:13.821Z"
+  },
+  "wiki-onggoyan-festival-malimono-surigao-del-norte": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:18:19.723Z"
+  },
+  "wiki-sinagingan-festival-mendez-cavite": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:18:25.608Z"
+  },
+  "wiki-panalaminan-festival-roxas-palawan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:19:23.730Z"
+  },
+  "wiki-kagasangan-festival-moalboal-cebu": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:20:07.108Z"
+  },
+  "wiki-san-isidro-fiesta-digos": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "15 May",
+    "wikipediaTitle": "Isidore the Laborer",
+    "enrichedAt": "2026-06-30T08:20:16.007Z"
+  },
+  "wiki-tinapay-festival-cuenca-batangas": {
+    "month": 9,
+    "dayStart": 6,
+    "dayEnd": 6,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 6",
+    "wikipediaTitle": "Mylene Dizon",
+    "enrichedAt": "2026-06-30T08:21:17.123Z"
+  },
+  "wiki-maubanog-festival-mauban-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:21:25.958Z"
+  },
+  "wiki-harana-festival-karantahan-nin-pagranga-san-jose-camarines-sur": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:22:24.165Z"
+  },
+  "wiki-pahoy-pahoy-festival-calbiga-samar": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:23:25.548Z"
+  },
+  "wiki-iikalahan-kalanguya-festival-san-nicolas-pangasinan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:23:31.481Z"
+  },
+  "wiki-gakit-festival-angadanan-isabela": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:24:14.895Z"
+  },
+  "wiki-lapyahan-festival-san-remigio-cebu": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:25:18.886Z"
+  },
+  "wiki-obando-fertility-rites-obando-bulacan": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May in Obando, Bulacan, Philippines",
+    "wikipediaTitle": "Obando Fertility Rites",
+    "enrichedAt": "2026-06-30T08:25:24.891Z"
+  },
+  "wiki-sanggutan-festival-barugo-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T08:26:25.975Z"
+  },
+  "wiki-magdadaran-talip-festival-carasi-dumalneg-nueva-era-adams-ilocos-n": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:26:31.889Z"
+  },
+  "wiki-sarangani-bay-festival-glan-sarangani": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:27:15.330Z"
+  },
+  "wiki-ammungan-festival-nueva-vizcaya": {
+    "month": 2,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 20",
+    "wikipediaTitle": "2026 Philippine energy crisis",
+    "enrichedAt": "2026-06-30T08:28:19.301Z"
+  },
+  "wiki-sarung-banggi-festival-santo-domingo-albay": {
+    "month": 10,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 17",
+    "wikipediaTitle": "Sam Concepcion",
+    "enrichedAt": "2026-06-30T08:29:20.364Z"
+  },
+  "wiki-farmers-festival-bacarra-ilocos-norte": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on Holy Week on the island of Marinduque, Philippines",
+    "wikipediaTitle": "Moriones Festival",
+    "enrichedAt": "2026-06-30T08:29:29.248Z"
+  },
+  "wiki-araw-ng-sarangani-sarangani": {
+    "month": 4,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 23",
+    "wikipediaTitle": "Bobby Pacquiao",
+    "enrichedAt": "2026-06-30T08:30:12.664Z"
+  },
+  "wiki-banwahon-festival-surigao-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:30:18.582Z"
+  },
+  "wiki-malabon-foundation-day-malabon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:31:22.844Z"
+  },
+  "wiki-lubi-festival-maria-siquijor": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Languages of the Philippines",
+    "enrichedAt": "2026-06-30T08:32:23.915Z"
+  },
+  "wiki-layag-festival-rapu-rapu-albay": {
+    "month": 2,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third weekend of February in the Arevalo district of Iloilo City, Philippines, p",
+    "wikipediaTitle": "Paraw Regatta",
+    "enrichedAt": "2026-06-30T08:33:27.874Z"
+  },
+  "wiki-kabasan-festival-davao-de-oro": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:34:08.374Z"
+  },
+  "wiki-lubi-lubi-coconut-festival-gingoog": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Languages of the Philippines",
+    "enrichedAt": "2026-06-30T08:34:17.255Z"
+  },
+  "wiki-feast-of-saint-rita-de-cascia-city-fiesta-gingoog": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Our Lady of Porta Vaga",
+    "enrichedAt": "2026-06-30T08:35:21.471Z"
+  },
+  "wiki-tabanog-festival-araw-ng-balingasag-balingasag-misamis-oriental": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:36:19.676Z"
+  },
+  "wiki-panagyaman-festival-bayombong-nueva-vizcaya": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:36:31.400Z"
+  },
+  "wiki-bolibong-kingking-festival-loboc-bohol": {
+    "month": 10,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 19",
+    "wikipediaTitle": "Our Lady of Guadalupe in Extremadura",
+    "enrichedAt": "2026-06-30T08:37:14.866Z"
+  },
+  "wiki-kaogma-festival-pili-camarines-sur": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 15, 1989",
+    "wikipediaTitle": "Kaogma Festival",
+    "enrichedAt": "2026-06-30T08:38:13.150Z"
+  },
+  "wiki-guihulugan-festival-guihulngan-negros-oriental": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:38:22.171Z"
+  },
+  "wiki-katang-festival-calauag-quezon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:39:26.174Z"
+  },
+  "wiki-gabii-sa-kabilin-cebu-city": {
+    "month": 5,
+    "dayStart": 16,
+    "dayEnd": 16,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the third Saturday of May",
+    "wikipediaTitle": "Long Night of Museums",
+    "enrichedAt": "2026-06-30T08:40:09.619Z"
+  },
+  "wiki-sinugboan-festival-garcia-hernandez-bohol": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:41:10.730Z"
+  },
+  "wiki-binuyugan-festival-maitum-sarangani": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:41:19.555Z"
+  },
+  "wiki-pintos-festival-bogo-cebu": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:42:23.689Z"
+  },
+  "wiki-kalayaan-festival-cavite-provincewide": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:43:07.298Z"
+  },
+  "wiki-wagayway-festival-imus-cavite": {
+    "month": 6,
+    "dayStart": 11,
+    "dayEnd": 11,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 11",
+    "wikipediaTitle": "Imus",
+    "enrichedAt": "2026-06-30T08:43:16.126Z"
+  },
+  "wiki-province-of-tarlac-founding-anniversary-tarlac-city": {
+    "month": 10,
+    "dayStart": 13,
+    "dayEnd": 13,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 13",
+    "wikipediaTitle": "Tarlac State University",
+    "enrichedAt": "2026-06-30T08:44:17.466Z"
+  },
+  "wiki-national-flag-day-iligan-city": {
+    "month": 8,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 23",
+    "wikipediaTitle": "Flag Act (Philippines)",
+    "enrichedAt": "2026-06-30T08:45:21.637Z"
+  },
+  "wiki-dapugan-festival-mabini-davao-de-oro": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:45:27.611Z"
+  },
+  "wiki-sagawak-festival-malalag": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:45:33.502Z"
+  },
+  "wiki-rosquillos-festival-liloan-cebu": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:46:17.179Z"
+  },
+  "wiki-balingoan-town-fiesta-balingoan-misamis-oriental": {
+    "month": 10,
+    "dayStart": 6,
+    "dayEnd": 6,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 6",
+    "wikipediaTitle": "The Amazing Race Philippines 2",
+    "enrichedAt": "2026-06-30T08:47:21.983Z"
+  },
+  "wiki-mammangi-festival-ilagan-city": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:48:05.521Z"
+  },
+  "wiki-bagasbas-beach-international-eco-arts-festival-daet-camarines-norte": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:48:11.575Z"
+  },
+  "wiki-hudyaka-festival-zamboanga-del-norte": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:49:15.539Z"
+  },
+  "wiki-padaraw-festival-bulan-sorsogon": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:49:24.396Z"
+  },
+  "wiki-halamang-dilaw-festival-marilao-bulacan": {
+    "month": 5,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:50:28.397Z"
+  },
+  "wiki-rizal-arts-festival-angono-rizal": {
+    "month": 12,
+    "dayStart": 6,
+    "dayEnd": 6,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 6",
+    "wikipediaTitle": "Round Festival",
+    "enrichedAt": "2026-06-30T08:51:08.991Z"
+  },
+  "wiki-buklog-dipolog": {
+    "month": 8,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 20",
+    "wikipediaTitle": "Intangible Cultural Heritage of the Philippines",
+    "enrichedAt": "2026-06-30T08:51:17.886Z"
+  },
+  "wiki-linggo-ng-zamboanga-del-norte-amp-sardines-and-mango-festival-dipolog": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:52:13.114Z"
+  },
+  "wiki-sinukmani-festival-rosario-batangas": {
+    "month": 6,
+    "dayStart": 9,
+    "dayEnd": 9,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 9",
+    "wikipediaTitle": "Sinukmani Festival",
+    "enrichedAt": "2026-06-30T08:52:21.932Z"
+  },
+  "wiki-bilang-bilang-abayan-festival-surigao-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:53:20.101Z"
+  },
+  "wiki-sakay-sakay-abayan-surigao-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:54:18.324Z"
+  },
+  "wiki-pulang-angui-festival-polangui-albay": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:54:27.406Z"
+  },
+  "wiki-carrera-habagat-siargao-island-surigao-del-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:55:05.002Z"
+  },
+  "wiki-camotes-cassava-festival-tudela-cebu-camotes-island": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:55:16.785Z"
+  },
+  "wiki-baragatan-sa-palawan-foundation-day-puerto-princesa-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:56:15.652Z"
+  },
+  "wiki-lechonan-sa-baroy-baroy-lanao-del-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:56:21.611Z"
+  },
+  "wiki-kuron-festival-ferrol-romblon": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:57:25.611Z"
+  },
+  "wiki-pagdayao-festival-tacloban-leyte-masbate": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:58:09.053Z"
+  },
+  "wiki-rizal-province-foundation-day-rizal-no-definite-venue": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:59:13.254Z"
+  },
+  "wiki-araw-ng-agusan-del-sur-agusan-del-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T08:59:25.134Z"
+  },
+  "wiki-sugok-sugok-festival-bagamanoc-catanduanes": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:00:23.334Z"
+  },
+  "wiki-panagsasalug-fiesta-maddela-quirino": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:00:29.244Z"
+  },
+  "wiki-la-trinidad-foundation-day-la-trinidad-benguet": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:01:12.753Z"
+  },
+  "wiki-araw-ng-agusan-del-norte-agusan-del-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:02:16.775Z"
+  },
+  "wiki-naliyagan-festival-prosperidad-agusan-del-sur": {
+    "month": 6,
+    "dayStart": 18,
+    "dayEnd": 18,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 18",
+    "wikipediaTitle": "Prosperidad",
+    "enrichedAt": "2026-06-30T09:02:25.693Z"
+  },
+  "wiki-araw-ng-quezon-quezon-bukidnon": {
+    "month": 7,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 29",
+    "wikipediaTitle": "Pulang Araw",
+    "enrichedAt": "2026-06-30T09:03:03.366Z"
+  },
+  "wiki-araw-ng-cotabato-cotabato-city": {
+    "month": 12,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 30",
+    "wikipediaTitle": "Lav Diaz",
+    "enrichedAt": "2026-06-30T09:03:15.158Z"
+  },
+  "wiki-bonsai-festival-and-founding-anniversary-of-san-isidro-san-isidro-davao": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:03:24.106Z"
+  },
+  "wiki-pangapog-festival-samal-davao-del-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:04:22.291Z"
+  },
+  "wiki-dorong-festival-digos": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:05:05.922Z"
+  },
+  "wiki-gotad-ad-ifugao-lagawe-ifugao": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:05:11.866Z"
+  },
+  "wiki-battle-of-besang-pass-commemoration-cervantes-ilocos-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:05:17.865Z"
+  },
+  "wiki-pinyasan-pineapple-festival-camarines-norte": {
+    "month": 6,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "in 2013",
+    "wikipediaTitle": "Daet",
+    "enrichedAt": "2026-06-30T09:07:03.850Z"
+  },
+  "wiki-cagayan-de-oro-city-charter-day-cagayan-de-oro": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:07:15.720Z"
+  },
+  "wiki-iligan-city-charter-day-iligan-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:08:19.833Z"
+  },
+  "wiki-damsu-cultural-festival-kiblawan": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:09:18.015Z"
+  },
+  "wiki-baykat-festival-ambaguio-town-fiesta-ambaguio-nueva-vizcaya": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:09:24.006Z"
+  },
+  "wiki-quezon-town-fiesta-quezon-nueva-vizcaya": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:10:07.552Z"
+  },
+  "wiki-regada-festival-cavite-city": {
+    "month": 4,
+    "dayStart": 1,
+    "dayEnd": 7,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Water Festival",
+    "enrichedAt": "2026-06-30T09:10:16.451Z"
+  },
+  "wiki-san-juan-cityhood-anniversary-san-juan-city": {
+    "month": 7,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 8",
+    "wikipediaTitle": "List of cities in the Philippines",
+    "enrichedAt": "2026-06-30T09:11:14.724Z"
+  },
+  "wiki-tagnipan-on-festival-el-salvador-misamis-oriental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:11:20.606Z"
+  },
+  "wiki-kaimonan-festival-maco-davao-de-oro": {
+    "month": 6,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 17",
+    "wikipediaTitle": "Maco, Davao de Oro",
+    "enrichedAt": "2026-06-30T09:12:21.680Z"
+  },
+  "wiki-white-nights-festival-davao-del-norte": {
+    "month": 10,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 19",
+    "wikipediaTitle": "Coachella",
+    "enrichedAt": "2026-06-30T09:12:30.591Z"
+  },
+  "wiki-pabulig-festival-boston-davao-oriental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:13:08.276Z"
+  },
+  "wiki-lingganay-festival-alangalang-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T09:14:12.340Z"
+  },
+  "wiki-araw-ng-san-fernando-bukidnon-san-fernando-bukidnon": {
+    "month": 8,
+    "dayStart": 22,
+    "dayEnd": 22,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 22",
+    "wikipediaTitle": "Pilita Corrales",
+    "enrichedAt": "2026-06-30T09:14:21.652Z"
+  },
+  "wiki-cadang-cadang-festival-carmen-davao-del-norte": {
+    "month": 4,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 19",
+    "wikipediaTitle": "Radio Televisyen Malaysia",
+    "enrichedAt": "2026-06-30T09:15:22.717Z"
+  },
+  "wiki-dapitan-s-charter-dapitan": {
+    "month": 7,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 8",
+    "wikipediaTitle": "List of cities in the Philippines",
+    "enrichedAt": "2026-06-30T09:16:06.218Z"
+  },
+  "wiki-pujada-bay-festival-mati-davao-oriental": {
+    "month": 6,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "MDMA",
+    "enrichedAt": "2026-06-30T09:16:18.005Z"
+  },
+  "wiki-adlaw-nan-surigao-surigao-del-norte-and-surigao-del-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:17:19.479Z"
+  },
+  "wiki-buhayani-festival-calamba-laguna": {
+    "month": 6,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 20",
+    "wikipediaTitle": "List of Bini live performances",
+    "enrichedAt": "2026-06-30T09:17:28.335Z"
+  },
+  "wiki-pista-ng-kalikasan-palawan-provincewide": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:18:05.939Z"
+  },
+  "wiki-saint-peter-town-fiesta-sugbongcogon-misamis-oriental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:18:17.774Z"
+  },
+  "wiki-ginnamuluan-fiesta-cabarroguis-quirino": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:18:23.666Z"
+  },
+  "wiki-pista-y-ang-kagueban-puerto-princesa-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:19:24.835Z"
+  },
+  "wiki-oyange-kaugman-festival-polangui-albay": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:19:30.702Z"
+  },
+  "wiki-pili-festival-sorsogon-sorsogon": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 15, 1989",
+    "wikipediaTitle": "Kaogma Festival",
+    "enrichedAt": "2026-06-30T09:20:14.134Z"
+  },
+  "wiki-zambulawan-festival-pagadian-city-zamboanga-del-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:21:12.287Z"
+  },
+  "wiki-balyuan-rites-tacloban-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:21:18.183Z"
+  },
+  "wiki-mudpack-festival-murcia-negros-occidental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:22:19.266Z"
+  },
+  "wiki-payuhwan-festival-batanes-day-batanes": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:22:25.227Z"
+  },
+  "wiki-diwata-festival-san-francisco-agusan-del-sur": {
+    "month": 8,
+    "dayStart": 31,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 31",
+    "wikipediaTitle": "Diwata (entrepreneur)",
+    "enrichedAt": "2026-06-30T09:23:05.815Z"
+  },
+  "wiki-pagadian-city-charter-day-pagadian-city": {
+    "month": 11,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 8",
+    "wikipediaTitle": "Pagadian",
+    "enrichedAt": "2026-06-30T09:23:11.851Z"
+  },
+  "wiki-piat-sambali-festival-piat-cagayan": {
+    "month": 3,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "March 19",
+    "wikipediaTitle": "Basilica of Our Lady of Piat",
+    "enrichedAt": "2026-06-30T09:24:15.939Z"
+  },
+  "wiki-aggaw-nak-cagayan-cagayan-founding-anniversary-cagayan": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:24:21.893Z"
+  },
+  "wiki-calumpit-libad-festival-calumpit-bulacan": {
+    "month": 6,
+    "dayStart": 28,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 28–30; and for its blacksmithing",
+    "wikipediaTitle": "Apalit",
+    "enrichedAt": "2026-06-30T09:25:22.896Z"
+  },
+  "wiki-batac-charter-day-amp-empanada-festival-batac-ilocos-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:25:25.966Z"
+  },
+  "wiki-matagoan-festival-tabuk-city-kalinga": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:25:31.853Z"
+  },
+  "wiki-parada-ng-lechon-parade-of-roast-pigs-balayan-batangas": {
+    "month": 6,
+    "dayStart": 24,
+    "dayEnd": 24,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 24",
+    "wikipediaTitle": "Lechon Festival",
+    "enrichedAt": "2026-06-30T09:26:12.433Z"
+  },
+  "wiki-hibok-hibok-festival-camiguin-island": {
+    "month": 10,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third weekend of October",
+    "wikipediaTitle": "Camiguin",
+    "enrichedAt": "2026-06-30T09:27:13.550Z"
+  },
+  "wiki-kaliguan-fluvial-festival-cagwait-surigao-del-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:27:19.504Z"
+  },
+  "wiki-feast-of-san-antonio-de-padua-pila-laguna": {
+    "month": 8,
+    "dayStart": 11,
+    "dayEnd": 11,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 11",
+    "wikipediaTitle": "Anthony of Padua",
+    "enrichedAt": "2026-06-30T09:28:20.808Z"
+  },
+  "wiki-feast-of-saint-john-the-baptist-lechon-festival-mindoro-oriental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:28:32.613Z"
+  },
+  "wiki-araw-ng-maynila-manila-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:29:16.588Z"
+  },
+  "wiki-taong-putik-festival-aliaga-nueva-ecija": {
+    "month": 12,
+    "dayStart": 7,
+    "dayEnd": 7,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 7",
+    "wikipediaTitle": "Lastikman",
+    "enrichedAt": "2026-06-30T09:30:20.780Z"
+  },
+  "wiki-wattah-wattah-festival-san-juan-city": {
+    "month": 6,
+    "dayStart": 24,
+    "dayEnd": 24,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 24",
+    "wikipediaTitle": "Wattah Wattah Festival",
+    "enrichedAt": "2026-06-30T09:30:26.738Z"
+  },
+  "wiki-sab-uyan-festival-feast-of-saint-john-the-baptist-pola-oriental-mindoro": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:31:25.038Z"
+  },
+  "wiki-lubid-lubid-festival-and-cow-parade-tiaong-quezon": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:32:23.324Z"
+  },
+  "wiki-san-juan-sa-hibok-hibok-festival-camiguin-provincewide": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:33:06.768Z"
+  },
+  "wiki-feast-of-saint-john-the-baptist-san-juan-metro-manila": {
+    "month": 6,
+    "dayStart": 24,
+    "dayEnd": 24,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 24",
+    "wikipediaTitle": "Wattah Wattah Festival",
+    "enrichedAt": "2026-06-30T09:33:18.665Z"
+  },
+  "wiki-ikid-ikid-sa-hononganan-festival-hinunangan-southern-leyte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:34:16.909Z"
+  },
+  "wiki-bituon-han-leyte-kasadyaan-tacloban-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:34:23.125Z"
+  },
+  "wiki-palo-palo-festival-batanes": {
+    "month": 3,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "March 17",
+    "wikipediaTitle": "Palo, Leyte",
+    "enrichedAt": "2026-06-30T09:35:21.489Z"
+  },
+  "wiki-apung-iru-saint-peter-fluvial-festival-apalit-pampanga": {
+    "month": 6,
+    "dayStart": 28,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 28–30; and for its blacksmithing",
+    "wikipediaTitle": "Apalit",
+    "enrichedAt": "2026-06-30T09:35:30.433Z"
+  },
+  "wiki-sakay-sakay-festival-jimenez-misamis-occidental": {
+    "month": 2,
+    "dayStart": 12,
+    "dayEnd": 12,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 12",
+    "wikipediaTitle": "Lamberto V. Avellana",
+    "enrichedAt": "2026-06-30T09:36:13.896Z"
+  },
+  "wiki-taephag-festival-tagbina-surigao-del-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:37:12.149Z"
+  },
+  "wiki-araw-ng-el-salvador-el-salvador-misamis-oriental": {
+    "month": 10,
+    "dayStart": 6,
+    "dayEnd": 6,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 6",
+    "wikipediaTitle": "Charito Solis",
+    "enrichedAt": "2026-06-30T09:37:21.063Z"
+  },
+  "wiki-araw-ng-maramag-maramag-bukidnon": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:38:25.167Z"
+  },
+  "wiki-cacabyawan-festival-san-isidro-davao-del-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:38:31.055Z"
+  },
+  "wiki-saint-peter-and-paul-feast-ormoc-city-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "29 June",
+    "wikipediaTitle": "Feast of Saints Peter and Paul",
+    "enrichedAt": "2026-06-30T09:39:08.877Z"
+  },
+  "wiki-feast-of-saints-peter-and-paul-cagdianao-surigao-del-norte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "29 June",
+    "wikipediaTitle": "Feast of Saints Peter and Paul",
+    "enrichedAt": "2026-06-30T09:39:14.958Z"
+  },
+  "wiki-kalilang-sa-ranao-marawi-city-lanao-del-sur": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:40:16.064Z"
+  },
+  "wiki-subiran-regatta-tacloban-city": {
+    "month": 10,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 20",
+    "wikipediaTitle": "Tacloban",
+    "enrichedAt": "2026-06-30T09:40:24.903Z"
+  },
+  "wiki-kaniyog-n-festival-brooke-s-point-palawan": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:41:23.056Z"
+  },
+  "wiki-bailes-de-arcos-makati": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:42:06.564Z"
+  },
+  "wiki-biniray-festival-bulalacao-oriental-mindoro": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:42:18.274Z"
+  },
+  "wiki-sugbongcogontown-fiesta-sacred-heart-of-jesus-sugbongcogon-misamis-oriental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:43:16.589Z"
+  },
+  "wiki-sangyaw-festival-of-lights-street-dance-parade-of-lights-and-ritual-dance-competition-tacloban-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:43:25.495Z"
+  },
+  "wiki-feast-of-patron-saint-of-tacloban-the-sr-sto-ni-o-de-tacloban-el-capitan-tacloban-city": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:44:23.803Z"
+  },
+  "wiki-kahalawan-te-sebseb-spring-festival-maramag-bukidnon": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:45:21.890Z"
+  },
+  "wiki-naligayan-festival-agusan-del-norte": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:45:27.807Z"
+  },
+  "wiki-daet-pineapple-festival-daet-camarines-norte": {
+    "month": 6,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "in 2013",
+    "wikipediaTitle": "Daet",
+    "enrichedAt": "2026-06-30T09:46:05.870Z"
+  },
+  "wiki-feast-of-apung-iru-st-peter-the-apostle-apalit-pampanga": {
+    "month": 6,
+    "dayStart": 28,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 28–30; and for its blacksmithing",
+    "wikipediaTitle": "Apalit",
+    "enrichedAt": "2026-06-30T09:46:14.748Z"
+  },
+  "wiki-hugaw-silay-festival-silay-city-negros-occidental": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:47:12.960Z"
+  },
+  "wiki-lumalay-festival-tampakan-south-cotabato": {
+    "month": 6,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:47:18.885Z"
+  },
+  "wiki-simbalay-nabunturan-davao-de-oro": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:47:24.797Z"
+  },
+  "wiki-bocaue-river-festival-bocaue-bulacan": {
+    "month": 7,
+    "dayStart": 5,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the first Sunday of every July",
+    "wikipediaTitle": "Bocaue",
+    "enrichedAt": "2026-06-30T09:48:28.806Z"
+  },
+  "wiki-sagayan-festival-tubod-lanao-del-norte": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:49:12.241Z"
+  },
+  "wiki-kahimoan-abayan-festival-butuan": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:49:18.158Z"
+  },
+  "wiki-syensaya-los-ba-os-science-festival-los-ba-os-laguna": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:50:16.365Z"
+  },
+  "wiki-kalakal-festival-santa-maria-laguna": {
+    "month": 12,
+    "dayStart": 4,
+    "dayEnd": 4,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 4",
+    "wikipediaTitle": "Ruru Madrid",
+    "enrichedAt": "2026-06-30T09:50:25.187Z"
+  },
+  "wiki-sublian-sa-batangas-batangas-city": {
+    "month": 7,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 23",
+    "wikipediaTitle": "Sublian Festival",
+    "enrichedAt": "2026-06-30T09:51:23.417Z"
+  },
+  "wiki-banana-festival-tagum-davao-del-norte": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:52:06.871Z"
+  },
+  "wiki-feast-of-our-lady-of-guibang-gamu-isabela": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:52:18.612Z"
+  },
+  "wiki-festival-of-our-lady-of-piat-piat-cagayan": {
+    "month": 3,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "March 19",
+    "wikipediaTitle": "Basilica of Our Lady of Piat",
+    "enrichedAt": "2026-06-30T09:53:19.929Z"
+  },
+  "wiki-gatas-ng-kalabaw-festival-cabanatuan": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:54:24.465Z"
+  },
+  "wiki-san-carlos-charter-anniversary-san-carlos-negros-occidental": {
+    "month": 7,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 8",
+    "wikipediaTitle": "List of cities in the Philippines",
+    "enrichedAt": "2026-06-30T09:55:08.118Z"
+  },
+  "wiki-araw-ng-davao-del-sur-davao-del-norte-davao-oriental-digos-tagum-city-mati-city": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:55:19.974Z"
+  },
+  "wiki-sinugdan-festival-maasin-city-southern-leyte": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:56:24.023Z"
+  },
+  "wiki-tanggogoan-festival-digos": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:57:22.231Z"
+  },
+  "wiki-kadagayaan-festival-davao-del-norte": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:58:20.428Z"
+  },
+  "wiki-araw-ng-pasig-pasig": {
+    "month": 8,
+    "dayStart": 22,
+    "dayEnd": 22,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 22",
+    "wikipediaTitle": "Angelu de Leon",
+    "enrichedAt": "2026-06-30T09:58:32.196Z"
+  },
+  "wiki-banig-festival-badian-cebu": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T09:59:15.657Z"
+  },
+  "wiki-feast-of-the-holy-cross-of-wawa-pagoda-festival-bocaue-bulacan": {
+    "month": 7,
+    "dayStart": 5,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the first Sunday of every July",
+    "wikipediaTitle": "Bocaue",
+    "enrichedAt": "2026-06-30T10:00:16.901Z"
+  },
+  "wiki-kahumayan-festival-kapatagan-lanao-del-norte": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:00:22.845Z"
+  },
+  "wiki-araw-ng-hagonoy-hagonoy-davao-del-sur": {
+    "month": 9,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 8",
+    "wikipediaTitle": "Digos",
+    "enrichedAt": "2026-06-30T10:01:26.989Z"
+  },
+  "wiki-alegria-de-isabela-isabela-basilan": {
+    "month": 2,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "during the third week of February in Viña del Mar, Chile",
+    "wikipediaTitle": "Viña del Mar International Song Festival",
+    "enrichedAt": "2026-06-30T10:02:08.150Z"
+  },
+  "wiki-lubid-festival-malilipot-albay": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:02:19.967Z"
+  },
+  "wiki-hudyaka-festival-laguindingan-misamis-oriental": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:03:24.150Z"
+  },
+  "wiki-t-nalak-festival-koronadal-city": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:04:28.272Z"
+  },
+  "wiki-sinarapan-festival-buhi-camarines-sur": {
+    "month": 9,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September is a significant religious event attracting thousands of pilgrims",
+    "wikipediaTitle": "Camarines Sur",
+    "enrichedAt": "2026-06-30T10:05:09.008Z"
+  },
+  "wiki-perangat-ozamiz-festival-ozamiz-city-misamis-occidental": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:05:20.785Z"
+  },
+  "wiki-cordillera-day-baguio-car-provinces": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:06:24.874Z"
+  },
+  "wiki-s-lang-festival-malungon-sarangani": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:07:02.491Z"
+  },
+  "wiki-pahinungod-festival-carrascal-surigao-del-sur": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:07:11.311Z"
+  },
+  "wiki-binuhat-festival-tagum-city": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:08:09.519Z"
+  },
+  "wiki-kinis-festival-panganiban-catanduanes": {
+    "month": 4,
+    "dayStart": 11,
+    "dayEnd": 11,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 11",
+    "wikipediaTitle": "Love the Way U Lie",
+    "enrichedAt": "2026-06-30T10:08:21.295Z"
+  },
+  "wiki-padigosan-festival-digos": {
+    "month": 9,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 8",
+    "wikipediaTitle": "Digos",
+    "enrichedAt": "2026-06-30T10:09:22.456Z"
+  },
+  "wiki-busaingan-festival-santa-magdalena-sorsogon": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:10:02.999Z"
+  },
+  "wiki-libon-paroy-festival-libon-albay": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:10:11.850Z"
+  },
+  "wiki-kaliga-festival-gingoog": {
+    "month": 6,
+    "dayStart": 18,
+    "dayEnd": 18,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 18",
+    "wikipediaTitle": "Philippine Independence Day Parade",
+    "enrichedAt": "2026-06-30T10:11:12.991Z"
+  },
+  "wiki-birth-anniversary-of-apolinario-mabini-tanauan-batangas-batangas-city": {
+    "month": 9,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 29",
+    "wikipediaTitle": "Heneral Luna",
+    "enrichedAt": "2026-06-30T10:12:17.307Z"
+  },
+  "wiki-ibid-festival-caibiran-biliran": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:12:29.047Z"
+  },
+  "wiki-araw-ng-nabunturan-nabunturan-davao-de-oro": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:13:12.644Z"
+  },
+  "wiki-kinabayo-festival-battle-of-covadonga-dapitan": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:14:10.928Z"
+  },
+  "wiki-sinulog-de-tanjay-festival-tanjay-negros-oriental": {
+    "month": 7,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third Sunday of January (celebrated together with Cebu City), U",
+    "wikipediaTitle": "Kabankalan",
+    "enrichedAt": "2026-06-30T10:14:19.783Z"
+  },
+  "wiki-buganihan-festival-davao-de-oro": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:15:18.082Z"
+  },
+  "wiki-balikcarcanmadcarlan-celebration-cantilan-surigao-del-sur": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:15:23.994Z"
+  },
+  "wiki-kadagatan-festival-cortes-surigao-del-sur": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:16:07.476Z"
+  },
+  "wiki-panagsogod-festival-sogod-cebu": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:16:16.326Z"
+  },
+  "wiki-kutoo-festival-cateel-davao-oriental": {
+    "month": 4,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 20",
+    "wikipediaTitle": "High heel policy",
+    "enrichedAt": "2026-06-30T10:17:17.487Z"
+  },
+  "wiki-saint-james-the-apostle-fiesta-davao-de-oro": {
+    "month": 5,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 19",
+    "wikipediaTitle": "Our Lady of the Pillar",
+    "enrichedAt": "2026-06-30T10:18:21.631Z"
+  },
+  "wiki-tourism-consciousness-week-butuan": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:19:05.192Z"
+  },
+  "wiki-pakapya-agtike-socorro-oriental-mindoro": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:19:11.100Z"
+  },
+  "wiki-santa-anang-banak-taguig-river-festival-taguig": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:20:15.244Z"
+  },
+  "wiki-kaumahan-festival-barili-cebu": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:20:26.929Z"
+  },
+  "wiki-palaisdaan-festival-hagonoy-bulacan": {
+    "month": 5,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 19",
+    "wikipediaTitle": "Sylvia Sanchez",
+    "enrichedAt": "2026-06-30T10:21:28.036Z"
+  },
+  "wiki-anniversary-of-battle-of-paye-marinduque": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:22:11.537Z"
+  },
+  "wiki-abayan-festival-butuan": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:22:20.391Z"
+  },
+  "wiki-san-ignacio-de-loyola-fiesta-monkayo-davao-de-oro": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:23:24.506Z"
+  },
+  "wiki-salagaan-festival-kalamansig-sultan-kudarat": {
+    "month": 7,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:24:07.936Z"
+  },
+  "wiki-raja-baguinda-festival-jolo-sulu": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:24:19.622Z"
+  },
+  "wiki-aurora-festival-tanjay-negros-oriental": {
+    "month": 2,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 19",
+    "wikipediaTitle": "Aurora Quezon",
+    "enrichedAt": "2026-06-30T10:25:23.691Z"
+  },
+  "wiki-guiling-guiling-festival-siniloan-laguna": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:26:07.193Z"
+  },
+  "wiki-buwan-ng-wika-batangas-city-nationwide": {
+    "month": 11,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 20",
+    "wikipediaTitle": "Cup of Joe (band)",
+    "enrichedAt": "2026-06-30T10:27:11.350Z"
+  },
+  "wiki-durian-festival-tagum-city": {
+    "month": 8,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "in the third week of August every year which was highlighting the 11 tribes of D",
+    "wikipediaTitle": "Kadayawan Festival",
+    "enrichedAt": "2026-06-30T10:27:20.237Z"
+  },
+  "wiki-sal-lupongan-festival-new-bataan-davao-de-oro": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:28:18.450Z"
+  },
+  "wiki-city-of-valencia-festival-valencia-bukidnon": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:28:30.388Z"
+  },
+  "wiki-cabibi-festival-lal-lo-cagayan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:29:08.088Z"
+  },
+  "wiki-padagyaw-festival-dumarao-capiz": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:29:14.020Z"
+  },
+  "wiki-pangapog-festival-island-garden-city-of-samal": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:30:12.207Z"
+  },
+  "wiki-almasiga-festival-governor-generoso-davao-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:30:18.095Z"
+  },
+  "wiki-udyakan-sa-kabankalan-charter-anniversary-kabankalan-city-negros-occidental": {
+    "month": 8,
+    "dayStart": 16,
+    "dayEnd": 16,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third Sunday of January (celebrated together with Cebu City), U",
+    "wikipediaTitle": "Kabankalan",
+    "enrichedAt": "2026-06-30T10:30:24.089Z"
+  },
+  "wiki-adlaw-hong-butuan-butuan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:31:28.146Z"
+  },
+  "wiki-palagsing-festival-butuan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:32:11.617Z"
+  },
+  "wiki-santa-clara-festival-tigaon-camarines-sur": {
+    "month": 5,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May in Obando, Bulacan, Philippines",
+    "wikipediaTitle": "Obando Fertility Rites",
+    "enrichedAt": "2026-06-30T10:32:20.609Z"
+  },
+  "wiki-palu-palo-festival-basco-batanes": {
+    "month": 11,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 3",
+    "wikipediaTitle": "Vilma Santos",
+    "enrichedAt": "2026-06-30T10:33:23.337Z"
+  },
+  "wiki-bayombong-town-fiesta-bayombong-nueva-vizcaya": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:35:19.801Z"
+  },
+  "wiki-marang-festival-las-nieves-agusan-del-norte": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:35:31.901Z"
+  },
+  "wiki-el-salvador-fiesta-el-salvador-misamis-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:36:15.543Z"
+  },
+  "wiki-feast-of-our-lady-of-snows-himamaylan-city-negros-occidental": {
+    "month": 10,
+    "dayStart": 7,
+    "dayEnd": 7,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "7 October in the General Roman Calendar",
+    "wikipediaTitle": "Our Lady of the Rosary",
+    "enrichedAt": "2026-06-30T10:37:13.930Z"
+  },
+  "wiki-pagpasidungog-festival-panitan-capiz": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:37:25.753Z"
+  },
+  "wiki-mercedes-fishtival-mercedes-kadagatan-festival-mercedes-camarines-norte": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:38:24.010Z"
+  },
+  "wiki-nalupon-festival-lupon-davao-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:38:29.900Z"
+  },
+  "wiki-fruit-festival-kidapawan-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:39:13.410Z"
+  },
+  "wiki-niyogyugan-festival-quezon-province": {
+    "month": 5,
+    "dayStart": 25,
+    "dayEnd": 25,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 25",
+    "wikipediaTitle": "Ahtisa Manalo",
+    "enrichedAt": "2026-06-30T10:40:17.480Z"
+  },
+  "wiki-bonga-festival-sibonga-cebu": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:41:21.636Z"
+  },
+  "wiki-maliputo-festival-san-nicolas-batangas": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:41:33.483Z"
+  },
+  "wiki-ajonay-festival-maasin-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:42:11.226Z"
+  },
+  "wiki-cordova-dinagat-festival-cordova-cebu": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:43:15.239Z"
+  },
+  "wiki-pav-vurulun-afi-festival-tuguegarao-cagayan": {
+    "month": 5,
+    "dayStart": 11,
+    "dayEnd": 11,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 11",
+    "wikipediaTitle": "Tuguegarao",
+    "enrichedAt": "2026-06-30T10:43:24.081Z"
+  },
+  "wiki-araw-ng-cabanglasan-cabanglasan-bukidnon": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:44:22.310Z"
+  },
+  "wiki-kaahaan-festival-araw-ng-kinoguitan-kinoguitan-misamis-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:45:13.924Z"
+  },
+  "wiki-santones-festival-liliw-laguna": {
+    "month": 12,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 20",
+    "wikipediaTitle": "COVID-19 pandemic",
+    "enrichedAt": "2026-06-30T10:45:22.753Z"
+  },
+  "wiki-arandurugan-festival-guinobatan-albay": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:46:23.926Z"
+  },
+  "wiki-pangasinan-bamboo-festival-calasiao-and-santa-barbara-pangasinan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:47:28.083Z"
+  },
+  "wiki-paray-festival-viga-catanduanes": {
+    "month": 7,
+    "dayStart": 21,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 21",
+    "wikipediaTitle": "2020 in the Philippines",
+    "enrichedAt": "2026-06-30T10:48:08.713Z"
+  },
+  "wiki-araw-ng-tayabas-tayabas-quezon": {
+    "month": 9,
+    "dayStart": 16,
+    "dayEnd": 16,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 16",
+    "wikipediaTitle": "Tommy Abuel",
+    "enrichedAt": "2026-06-30T10:48:17.658Z"
+  },
+  "wiki-kalubihan-festival-jordan-guimaras": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:49:18.839Z"
+  },
+  "wiki-kalibongan-festival-horse-fight-amp-blood-compact-kidapawan-city-cotabato": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:49:21.894Z"
+  },
+  "wiki-pasaka-festival-tanauan-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T10:50:25.952Z"
+  },
+  "wiki-caro-tao-festival-mawab-davao-de-oro": {
+    "month": 4,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 19",
+    "wikipediaTitle": "Jackie Chan",
+    "enrichedAt": "2026-06-30T10:51:09.476Z"
+  },
+  "wiki-coron-festival-tiwi-albay": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:52:13.558Z"
+  },
+  "wiki-kaumahan-festival-opol-misamis-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:52:25.281Z"
+  },
+  "wiki-feast-of-our-lady-of-the-assumption-boac-marinduque": {
+    "month": 8,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "15 August",
+    "wikipediaTitle": "Assumption of Mary",
+    "enrichedAt": "2026-06-30T10:54:18.816Z"
+  },
+  "wiki-sirong-festival-cantilan-surigao-del-sur": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:54:30.492Z"
+  },
+  "wiki-sumayajaw-festival-jabonga-agusan-del-norte": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:55:11.149Z"
+  },
+  "wiki-lubi-lubi-coconut-festival-calubian-leyte": {
+    "month": 8,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Languages of the Philippines",
+    "enrichedAt": "2026-06-30T10:56:12.405Z"
+  },
+  "wiki-kumbira-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": 28,
+    "dayEnd": 28,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "each year in Cagayan de Oro, Philippines, every 28th day of August, celebrating",
+    "wikipediaTitle": "Higalaay Festival",
+    "enrichedAt": "2026-06-30T10:56:24.648Z"
+  },
+  "wiki-sundayag-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:57:22.857Z"
+  },
+  "wiki-lumin-awa-festival-lubuagan-kalinga": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:57:28.855Z"
+  },
+  "wiki-araw-ng-alubijid-diyandihan-festival-alubijid-misamis-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:58:06.546Z"
+  },
+  "wiki-gigantes-festival-lucban-quezon": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T10:58:18.371Z"
+  },
+  "wiki-buyogan-festival-abuyog-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T10:59:22.381Z"
+  },
+  "wiki-quezon-day-angono-day-angono-rizal": {
+    "month": 8,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T11:00:26.499Z"
+  },
+  "wiki-coco-sabutan-festival-baler-aurora": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:00:32.537Z"
+  },
+  "wiki-manuel-luis-quezon-birth-anniversary-quezon-city": {
+    "month": 2,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 19",
+    "wikipediaTitle": "Aurora Quezon",
+    "enrichedAt": "2026-06-30T11:01:10.378Z"
+  },
+  "wiki-kadayawan-sa-dabaw-davao-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:02:14.476Z"
+  },
+  "wiki-bankaton-lavezares-northern-samar": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:02:20.436Z"
+  },
+  "wiki-pilgrimage-to-joroan-tiwi-albay": {
+    "month": 1,
+    "dayStart": 9,
+    "dayEnd": 9,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "January 9",
+    "wikipediaTitle": "Black Nazarene",
+    "enrichedAt": "2026-06-30T11:03:24.549Z"
+  },
+  "wiki-sabutan-festival-san-luis-aurora": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:04:08.008Z"
+  },
+  "wiki-anniversary-of-cry-of-pugadlawin-quezon-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:04:16.853Z"
+  },
+  "wiki-manaragat-festival-catbalogan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:05:20.896Z"
+  },
+  "wiki-pasa-pasa-ikaw-festival-pasacao-camarines-sur": {
+    "month": 9,
+    "dayStart": 22,
+    "dayEnd": 22,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 22",
+    "wikipediaTitle": "Jericho Rosales",
+    "enrichedAt": "2026-06-30T11:06:22.074Z"
+  },
+  "wiki-tsinelas-festival-gapan-nueva-ecija": {
+    "month": 5,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 15",
+    "wikipediaTitle": "Maalaala Mo Kaya",
+    "enrichedAt": "2026-06-30T11:07:23.192Z"
+  },
+  "wiki-iloilo-city-charter-day-iloilo-city": {
+    "month": 8,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on the fourth Sunday of January in Iloilo City, Philippines, in honor o",
+    "wikipediaTitle": "Dinagyang",
+    "enrichedAt": "2026-06-30T11:08:06.738Z"
+  },
+  "wiki-kagayhaan-festival-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:08:12.635Z"
+  },
+  "wiki-daragang-magayon-festival-daraga-albay": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:09:16.702Z"
+  },
+  "wiki-alcala-town-fiesta-alcala-cagayan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:10:20.759Z"
+  },
+  "wiki-higa-onon-dance-festival-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:10:26.745Z"
+  },
+  "wiki-madyaw-hugyaw-samal-festival-davao-del-norte": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:10:32.751Z"
+  },
+  "wiki-jinawa-festival-gigaquit-surigao-del-norte": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:11:10.335Z"
+  },
+  "wiki-bahandi-festival-alcantara-cebu": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:12:15.423Z"
+  },
+  "wiki-cagayan-de-oro-golden-float-festival-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": 28,
+    "dayEnd": 28,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "each year in Cagayan de Oro, Philippines, every 28th day of August, celebrating",
+    "wikipediaTitle": "Higalaay Festival",
+    "enrichedAt": "2026-06-30T11:12:27.296Z"
+  },
+  "wiki-native-manok-festival-panabo-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:13:10.725Z"
+  },
+  "wiki-hudyaka-sa-panglao-municipality-of-panglao-bohol": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:13:22.531Z"
+  },
+  "wiki-lambagohan-festival-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:14:23.762Z"
+  },
+  "wiki-paladong-festival-hinatuan-surigao-del-sur": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:14:29.674Z"
+  },
+  "wiki-kalumunan-festival-san-agustin-surigao-del-sur": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:15:08.101Z"
+  },
+  "wiki-kagay-an-festival-cagayan-de-oro": {
+    "month": 8,
+    "dayStart": 28,
+    "dayEnd": 28,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "each year in Cagayan de Oro, Philippines, every 28th day of August, celebrating",
+    "wikipediaTitle": "Higalaay Festival",
+    "enrichedAt": "2026-06-30T11:15:17.936Z"
+  },
+  "wiki-kariyawan-festival-monkayo-davao-de-oro": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:16:19.149Z"
+  },
+  "wiki-tilaw-sa-pagkaong-nan-surigaonon-food-festival-surigao-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:16:25.129Z"
+  },
+  "wiki-nagsabado-festival-pasig": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:17:29.144Z"
+  },
+  "wiki-local-heroes-day-celebration-pateros": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:18:12.761Z"
+  },
+  "wiki-siloy-festival-alcoy-cebu": {
+    "month": 6,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 19",
+    "wikipediaTitle": "Joel Torre",
+    "enrichedAt": "2026-06-30T11:19:16.818Z"
+  },
+  "wiki-mandaue-charter-day-celebration-mandaue-cebu": {
+    "month": 8,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "3rd Sunday of October in Bacolod, Philippines",
+    "wikipediaTitle": "MassKara Festival",
+    "enrichedAt": "2026-06-30T11:20:20.913Z"
+  },
+  "wiki-turumba-teresa-rizal": {
+    "month": 10,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 3",
+    "wikipediaTitle": "Kidlat Tahimik",
+    "enrichedAt": "2026-06-30T11:21:24.982Z"
+  },
+  "wiki-battle-of-pinaglabanan-commemoration-pinaglabanan-shrine-city-of-san-juan": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:22:08.442Z"
+  },
+  "wiki-araw-ng-pinaglabanan-san-juan-city": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:23:13.144Z"
+  },
+  "wiki-karomata-festival-trinidad-bohol": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:23:24.728Z"
+  },
+  "wiki-luponan-festival-lupon-davao-oriental": {
+    "month": 8,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:24:25.262Z"
+  },
+  "wiki-birth-anniversary-of-pres-ramon-magsaysay-iba-zambales": {
+    "month": 8,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 19",
+    "wikipediaTitle": "Ramon Bagatsing",
+    "enrichedAt": "2026-06-30T11:25:10.084Z"
+  },
+  "wiki-hinirugyaw-festival-cabatuan-iloilo": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:25:16.239Z"
+  },
+  "wiki-hin-ay-festival-irosin-sorsogon": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:26:22.085Z"
+  },
+  "wiki-bicol-food-festival-naga-city-camarines-sur": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "Naga, Camarines Sur",
+    "enrichedAt": "2026-06-30T11:27:07.070Z"
+  },
+  "wiki-tinu-om-festival-cabatuan-iloilo": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:27:19.214Z"
+  },
+  "wiki-sarakiki-festival-calbayog": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:28:22.623Z"
+  },
+  "wiki-hadang-festival-calbayog": {
+    "month": 2,
+    "dayStart": 14,
+    "dayEnd": 14,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 14",
+    "wikipediaTitle": "Jeff de Luna",
+    "enrichedAt": "2026-06-30T11:29:07.356Z"
+  },
+  "wiki-feast-of-nuestra-se-ora-del-buensuceso-para-aque": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:29:13.327Z"
+  },
+  "wiki-handuraw-festival-leon-iloilo": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:30:19.374Z"
+  },
+  "wiki-baguio-charter-day-baguio-tourism-month-baguio": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:31:25.578Z"
+  },
+  "wiki-hinugyaw-festival-cotabato-province-foundation-anniversary-kidapawan-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:32:10.448Z"
+  },
+  "wiki-victory-day-kiangan-ifugao": {
+    "month": 4,
+    "dayStart": 26,
+    "dayEnd": 26,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 26",
+    "wikipediaTitle": "2025 Vancouver car attack",
+    "enrichedAt": "2026-06-30T11:32:22.706Z"
+  },
+  "wiki-unang-sigaw-ng-nueva-ecija-palayan-city": {
+    "month": 11,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 23",
+    "wikipediaTitle": "Robin Padilla",
+    "enrichedAt": "2026-06-30T11:33:28.317Z"
+  },
+  "wiki-tanglawan-festival-san-jose-del-monte-bulacan": {
+    "month": 10,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 30",
+    "wikipediaTitle": "2023 San Jose del Monte conversion plebiscite",
+    "enrichedAt": "2026-06-30T11:34:10.541Z"
+  },
+  "wiki-sinab-badan-tribal-festival-santa-cruz-davao-del-sur": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:34:16.457Z"
+  },
+  "wiki-buyloganay-festival-ivisan-capiz": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:35:16.719Z"
+  },
+  "wiki-am-among-festival-bontoc-mountain-province": {
+    "month": 9,
+    "dayStart": 4,
+    "dayEnd": 4,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 4",
+    "wikipediaTitle": "2025 Toronto International Film Festival",
+    "enrichedAt": "2026-06-30T11:35:25.926Z"
+  },
+  "wiki-busig-on-festival-labo-camarines-norte": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:36:10.904Z"
+  },
+  "wiki-sipong-festival-bais-negros-oriental": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T11:37:17.067Z"
+  },
+  "wiki-padul-ong-festival-borongan-eastern-samar": {
+    "month": 4,
+    "dayStart": 12,
+    "dayEnd": 12,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 12",
+    "wikipediaTitle": "Borongan",
+    "enrichedAt": "2026-06-30T11:37:26.217Z"
+  },
+  "wiki-kinaiyahan-festival-dauin-negros-oriental": {
+    "month": 12,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 30",
+    "wikipediaTitle": "Danao, Bohol",
+    "enrichedAt": "2026-06-30T20:19:45.477Z"
+  },
+  "wiki-karatong-festival-dulag-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T20:20:13.565Z"
+  },
+  "wiki-taal-lake-festival-taal-lake": {
+    "month": 4,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 20",
+    "wikipediaTitle": "2021–2022 Luzon sabungero disappearances",
+    "enrichedAt": "2026-06-30T20:21:18.885Z"
+  },
+  "wiki-tambobo-festival-ajuy-iloilo": {
+    "month": 5,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 29",
+    "wikipediaTitle": "Negros",
+    "enrichedAt": "2026-06-30T20:21:27.546Z"
+  },
+  "wiki-minuluan-festival-talisay-city-negros-occidental": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:22:12.192Z"
+  },
+  "wiki-panagdadapun-festival-araw-ng-quirino-cabarroguis-quirino": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:23:14.712Z"
+  },
+  "wiki-linggo-ng-bulakan-malolos-bulacan": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:23:23.747Z"
+  },
+  "wiki-singkaban-festival-malolos-bulacan": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:24:29.364Z"
+  },
+  "wiki-anniversary-of-the-canonical-coronation-of-the-virgen-de-los-remedios-angeles-city-and-san-fernando-pampanga": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:24:35.378Z"
+  },
+  "wiki-araw-ng-digos-digos": {
+    "month": 9,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 8",
+    "wikipediaTitle": "Digos",
+    "enrichedAt": "2026-06-30T20:25:14.502Z"
+  },
+  "wiki-pista-kadig-garan-digos": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:25:20.180Z"
+  },
+  "wiki-world-heritage-cities-solidarity-day-vigan-city": {
+    "month": 9,
+    "dayStart": 14,
+    "dayEnd": 14,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "the second Monday in October",
+    "wikipediaTitle": "Indigenous Peoples' Day (United States)",
+    "enrichedAt": "2026-06-30T20:26:25.730Z"
+  },
+  "wiki-sadawan-festival-banton-romblon": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:26:31.567Z"
+  },
+  "wiki-flomolok-festival-polomolok-south-cotabato": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:27:10.291Z"
+  },
+  "wiki-kasadyaan-festival-tupi-south-cotabato": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T20:27:19.107Z"
+  },
+  "wiki-bonok-bonok-festival-surigao-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:28:24.233Z"
+  },
+  "wiki-parada-ng-kakanin-festival-of-nuestra-se-ora-de-aranzazzu-san-mateo-rizal": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:29:02.954Z"
+  },
+  "wiki-tambanipa-cagayan-de-oro": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:29:08.774Z"
+  },
+  "wiki-sayaw-lahi-festival-naujan-oriental-mindoro": {
+    "month": 2,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 19",
+    "wikipediaTitle": "Anne Curtis",
+    "enrichedAt": "2026-06-30T20:29:17.951Z"
+  },
+  "wiki-surigao-city-fiesta-san-nicolas-de-tolentino-surigao-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:30:23.521Z"
+  },
+  "wiki-banhayan-festival-feast-of-san-nicolas-de-tolentino-muntinlupa": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:30:29.561Z"
+  },
+  "wiki-langaran-festival-plaridel-misamis-occidental": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:31:13.803Z"
+  },
+  "wiki-beachurero-festival-tacloban-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:31:19.762Z"
+  },
+  "wiki-bansaulog-festival-bansalan-davao-del-sur": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:32:22.446Z"
+  },
+  "wiki-anniversary-battle-of-pulang-lupa-torrijos-marinduque": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:33:06.839Z"
+  },
+  "wiki-kapakyanan-festival-victoria-oriental-mindoro": {
+    "month": 10,
+    "dayStart": 15,
+    "dayEnd": 15,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 15",
+    "wikipediaTitle": "Victoria, Oriental Mindoro",
+    "enrichedAt": "2026-06-30T20:33:15.424Z"
+  },
+  "wiki-golden-harvest-festival-valencia-bukidnon": {
+    "month": 9,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Sunday of January in the town of Kalibo, the pr",
+    "wikipediaTitle": "Ati-Atihan",
+    "enrichedAt": "2026-06-30T20:34:20.652Z"
+  },
+  "wiki-feast-of-the-triumph-of-the-cross-san-jose-tarlac": {
+    "month": 9,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "week of the solemn season of Lent, preced",
+    "wikipediaTitle": "Palm Sunday",
+    "enrichedAt": "2026-06-30T20:35:23.154Z"
+  },
+  "wiki-bansalan-festival-bansalan": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:36:07.623Z"
+  },
+  "wiki-bislig-city-charter-day-bislig": {
+    "month": 7,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 8",
+    "wikipediaTitle": "List of cities in the Philippines",
+    "enrichedAt": "2026-06-30T20:36:13.825Z"
+  },
+  "wiki-voyadores-festival-pilgrim-city-of-naga": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "Naga, Camarines Sur",
+    "enrichedAt": "2026-06-30T20:37:19.055Z"
+  },
+  "wiki-bungag-dagtabinal-festival-aloran-misamis-occidental": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:37:24.920Z"
+  },
+  "wiki-ba-amos-festival-los-ba-os-laguna": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:38:06.493Z"
+  },
+  "wiki-galaan-festival-don-victoriano": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:38:12.428Z"
+  },
+  "wiki-araw-ng-siquijor-with-solili-siquijor-siquijor": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:39:11.967Z"
+  },
+  "wiki-karansa-festival-danao-cebu": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:39:20.933Z"
+  },
+  "wiki-kabuhian-festival-ronda-cebu": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:40:20.638Z"
+  },
+  "wiki-talakudong-festival-tacurong-city": {
+    "month": 9,
+    "dayStart": 26,
+    "dayEnd": 26,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on the fourth Saturday of January in Iloilo City, Philippines",
+    "wikipediaTitle": "Kasadyahan",
+    "enrichedAt": "2026-06-30T20:40:30.136Z"
+  },
+  "wiki-araw-ng-bansalan-bansalan-davao-del-sur": {
+    "month": 9,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 8",
+    "wikipediaTitle": "Digos",
+    "enrichedAt": "2026-06-30T20:41:11.794Z"
+  },
+  "wiki-binulig-festival-panabo-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:41:17.643Z"
+  },
+  "wiki-sinawug-festival-asuncion-davao-del-norte": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:42:17.123Z"
+  },
+  "wiki-pasalamat-festival-dao-capiz": {
+    "month": 12,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 20",
+    "wikipediaTitle": "Victorias",
+    "enrichedAt": "2026-06-30T20:42:28.762Z"
+  },
+  "wiki-negros-occidental-provincial-tourism-week-negros-occidental": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:43:13.123Z"
+  },
+  "wiki-coco-festival-sanchez-mira-cagayan": {
+    "month": 11,
+    "dayStart": 1,
+    "dayEnd": 1,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 1",
+    "wikipediaTitle": "Coco Martin",
+    "enrichedAt": "2026-06-30T20:44:15.646Z"
+  },
+  "wiki-pagpakanaug-iligan-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:44:21.501Z"
+  },
+  "wiki-araw-ng-asuncion-asuncion-davao-del-norte": {
+    "month": 9,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Friday of Sorrows (exactly one week before Good",
+    "wikipediaTitle": "Holy Week in the Philippines",
+    "enrichedAt": "2026-06-30T20:45:23.807Z"
+  },
+  "wiki-semana-sang-turismo-silay-tourism-week-silay-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:45:29.706Z"
+  },
+  "wiki-patabang-festival-tapaz-capiz": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:46:11.048Z"
+  },
+  "wiki-burdang-lumban-festival-lumban-laguna": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:46:20.065Z"
+  },
+  "wiki-ma-tzu-festival-san-fernando-la-union": {
+    "month": 9,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 20",
+    "wikipediaTitle": "71st San Sebastián International Film Festival",
+    "enrichedAt": "2026-06-30T20:47:25.477Z"
+  },
+  "wiki-dumalondong-festival-esperanza-agusan-del-sur": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:48:09.653Z"
+  },
+  "wiki-kanlungan-festival-canlubang-calamba-laguna": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:49:14.672Z"
+  },
+  "wiki-sambuklod-festival-san-jose-del-monte-bulacan": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:49:20.387Z"
+  },
+  "wiki-anihan-festival-due-as-iloilo": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:50:26.035Z"
+  },
+  "wiki-drum-and-bugle-corp-competition-nasipit-agusan-del-norte": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:51:07.303Z"
+  },
+  "wiki-heritage-tour-lakbay-malabon-malabon": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:51:13.073Z"
+  },
+  "wiki-agal-agal-festival-tawi-tawi": {
+    "month": 3,
+    "dayStart": 29,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on Holy Week on the island of Marinduque, Philippines",
+    "wikipediaTitle": "Moriones Festival",
+    "enrichedAt": "2026-06-30T20:52:18.556Z"
+  },
+  "wiki-nuang-festival-san-agustin-isabela": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:52:30.525Z"
+  },
+  "wiki-megayon-festival-pagadian-city-zamboanga-del-sur": {
+    "month": 11,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 8",
+    "wikipediaTitle": "Pagadian",
+    "enrichedAt": "2026-06-30T20:52:39.283Z"
+  },
+  "wiki-birth-anniversary-of-general-miguel-malvar-santo-tomas-batangas-batangas-city": {
+    "month": 2,
+    "dayStart": 24,
+    "dayEnd": 24,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 24",
+    "wikipediaTitle": "Risa Hontiveros",
+    "enrichedAt": "2026-06-30T20:53:23.672Z"
+  },
+  "wiki-anihan-festival-lobo-batangas": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:53:36.416Z"
+  },
+  "wiki-ms-iligan-city-iligan-city": {
+    "month": 5,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 19",
+    "wikipediaTitle": "Julie Vega",
+    "enrichedAt": "2026-06-30T20:54:20.972Z"
+  },
+  "wiki-karabaw-festival-gandara-samar": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:54:32.546Z"
+  },
+  "wiki-bathan-festival-san-miguel-leyte": {
+    "month": 4,
+    "dayStart": 5,
+    "dayEnd": 5,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "April 5",
+    "wikipediaTitle": "Mandaue",
+    "enrichedAt": "2026-06-30T20:54:41.172Z"
+  },
+  "wiki-passini-kat-aborlan-aborlan-palawan": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:55:03.892Z"
+  },
+  "wiki-djanggo-festival-gattaran-cagayan": {
+    "month": 9,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 8",
+    "wikipediaTitle": "Ruel Vernal",
+    "enrichedAt": "2026-06-30T20:55:12.895Z"
+  },
+  "wiki-banigan-festival-basey-samar": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:55:24.576Z"
+  },
+  "wiki-balangiga-anniversary-balangiga-eastern-samar": {
+    "month": 8,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 15–21",
+    "wikipediaTitle": "Balangiga: Howling Wilderness",
+    "enrichedAt": "2026-06-30T20:56:06.046Z"
+  },
+  "wiki-pagay-festival-alicia-isabela": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:56:17.842Z"
+  },
+  "wiki-komedya-de-san-miguel-iligan-city": {
+    "month": 9,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Languages of the Philippines",
+    "enrichedAt": "2026-06-30T20:56:26.882Z"
+  },
+  "wiki-pitlagong-festival-argao-cebu": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:57:11.265Z"
+  },
+  "wiki-kaplag-festival-mahaplag-leyte": {
+    "month": 6,
+    "dayStart": 29,
+    "dayEnd": 29,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 29",
+    "wikipediaTitle": "Pintados-Kasadyaan",
+    "enrichedAt": "2026-06-30T20:57:19.923Z"
+  },
+  "wiki-kialegnon-festival-magsaysay-davao-del-sur": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:57:25.934Z"
+  },
+  "wiki-d-dalaylay-festival-jalajala-rizal": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:57:34.772Z"
+  },
+  "wiki-dalit-festival-tangub-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:58:19.156Z"
+  },
+  "wiki-banigan-kawayan-festival-basey-samar": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:58:27.832Z"
+  },
+  "wiki-angel-festival-san-rafael-bulacan": {
+    "month": 1,
+    "dayStart": 22,
+    "dayEnd": 22,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "January 22",
+    "wikipediaTitle": "2026 Sundance Film Festival",
+    "enrichedAt": "2026-06-30T20:58:36.598Z"
+  },
+  "wiki-pangalipay-festival-magsaysay-palawan": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:59:15.454Z"
+  },
+  "wiki-lapay-bantigue-dance-festival-masbate-city": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:59:27.103Z"
+  },
+  "wiki-sinu-og-estokada-festival-jagna-bohol": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T20:59:35.689Z"
+  },
+  "wiki-feast-of-nuestra-se-ora-de-pe-afrancia-naga-city-camarines-sur": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "Naga, Camarines Sur",
+    "enrichedAt": "2026-06-30T21:00:17.212Z"
+  },
+  "wiki-t-boli-tribal-festival-south-cotabato": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:00:28.842Z"
+  },
+  "wiki-tumandok-festival-iloilo-city": {
+    "month": 8,
+    "dayStart": 2,
+    "dayEnd": 2,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 2",
+    "wikipediaTitle": "2024 Cinemalaya",
+    "enrichedAt": "2026-06-30T21:00:37.411Z"
+  },
+  "wiki-kabankalan-city-tourism-week-kabankalan-city-negros-occidental": {
+    "month": 5,
+    "dayStart": 12,
+    "dayEnd": 12,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 12",
+    "wikipediaTitle": "Roxas City",
+    "enrichedAt": "2026-06-30T21:01:19.251Z"
+  },
+  "wiki-kalivungan-festival-cotabato": {
+    "month": 9,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:01:31.049Z"
+  },
+  "wiki-parau-festival-pilar-sorsogon": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:01:39.594Z"
+  },
+  "wiki-talulot-festival-pasay": {
+    "month": 12,
+    "dayStart": 24,
+    "dayEnd": 24,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 24",
+    "wikipediaTitle": "List of MNL48 live performances",
+    "enrichedAt": "2026-06-30T21:02:21.094Z"
+  },
+  "wiki-tuao-patronal-fiesta-tuao-cagayan": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:02:27.136Z"
+  },
+  "wiki-paruyan-festival-talisay-camarines-norte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:02:35.601Z"
+  },
+  "wiki-pasinayaan-festival-hagonoy-davao-del-sur": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:02:41.640Z"
+  },
+  "wiki-unod-festival-castilla-sorsogon": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:03:04.328Z"
+  },
+  "wiki-mambulawan-festival-jose-panganiban-camarines-norte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:03:13.008Z"
+  },
+  "wiki-hudyaka-sa-plaza-montevista-davao-de-oro": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:03:18.875Z"
+  },
+  "wiki-pista-ng-gubat-pandan-antique": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T21:03:30.713Z"
+  },
+  "wiki-dilaab-festival-siquijor": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:34:15.692Z"
+  },
+  "wiki-kariton-festival-tupi-south-cotabato": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:34:27.136Z"
+  },
+  "wiki-kinilaw-festival-surigao-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:34:38.881Z"
+  },
+  "wiki-feast-of-our-lady-of-la-naval-quezon-city": {
+    "month": 10,
+    "dayStart": 7,
+    "dayEnd": 7,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "7 October in the General Roman Calendar",
+    "wikipediaTitle": "Our Lady of the Rosary",
+    "enrichedAt": "2026-06-30T22:35:17.737Z"
+  },
+  "wiki-pista-ng-batampasig-pasig": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:35:23.804Z"
+  },
+  "wiki-sinanggiyaw-festival-dumanjug-cebu": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:35:29.781Z"
+  },
+  "wiki-pagoda-festival-cardona-rizal": {
+    "month": 7,
+    "dayStart": 2,
+    "dayEnd": 2,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 2",
+    "wikipediaTitle": "Bocaue pagoda tragedy",
+    "enrichedAt": "2026-06-30T22:35:41.447Z"
+  },
+  "wiki-kidapawan-city-fruit-festival-kidapawan-city": {
+    "month": 1,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "January 20",
+    "wikipediaTitle": "Kidapawan",
+    "enrichedAt": "2026-06-30T22:36:23.114Z"
+  },
+  "wiki-la-torre-festival-cardona-rizal": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "2026 Cannes Film Festival",
+    "enrichedAt": "2026-06-30T22:36:35.235Z"
+  },
+  "wiki-harana-sa-makati-makati": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:37:03.934Z"
+  },
+  "wiki-pagbiagan-festival-baggat-dekat-festival-and-solano-town-fiesta-solano-nueva-vizcaya": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:37:09.977Z"
+  },
+  "wiki-dahunog-festival-dipolog": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:37:18.714Z"
+  },
+  "wiki-bagabag-town-fiesta-bagabag-nueva-vizcaya": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:37:27.680Z"
+  },
+  "wiki-eggstravaganza-festival-san-jose-batangas": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:38:06.285Z"
+  },
+  "wiki-malampaya-festival-taytay-palawan": {
+    "month": 2,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 20",
+    "wikipediaTitle": "2026 Philippine energy crisis",
+    "enrichedAt": "2026-06-30T22:38:18.094Z"
+  },
+  "wiki-bagius-festival-angeles-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:38:26.689Z"
+  },
+  "wiki-catandungan-festival-catanduanes": {
+    "month": 10,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "each year in Virac, Catanduanes, Philippines, every third weekend of October nea",
+    "wikipediaTitle": "Catandungan Festival",
+    "enrichedAt": "2026-06-30T22:38:32.460Z"
+  },
+  "wiki-lubi-lubi-festival-glan-sarangani": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract-fallback",
+    "wikipediaTitle": "Languages of the Philippines",
+    "enrichedAt": "2026-06-30T22:39:15.783Z"
+  },
+  "wiki-charter-anniversary-of-koronadal-city-koronadal-city": {
+    "month": 7,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "July 8",
+    "wikipediaTitle": "List of cities in the Philippines",
+    "enrichedAt": "2026-06-30T22:39:24.508Z"
+  },
+  "wiki-zamboanga-hermosa-festival-zamboanga-city": {
+    "month": 10,
+    "dayStart": 12,
+    "dayEnd": 12,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 12",
+    "wikipediaTitle": "Hermosa Festival",
+    "enrichedAt": "2026-06-30T22:39:30.472Z"
+  },
+  "wiki-kasanggayahan-festival-sorsogon-sorsogon": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October in the province of Sorsogon, Philippines",
+    "wikipediaTitle": "Kasanggayahan Festival",
+    "enrichedAt": "2026-06-30T22:40:11.935Z"
+  },
+  "wiki-ting-udo-festival-makilala-cotabato": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:40:17.839Z"
+  },
+  "wiki-karakol-festival-mamburao-occidental-mindoro": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Our Lady of Porta Vaga",
+    "enrichedAt": "2026-06-30T22:40:26.695Z"
+  },
+  "wiki-kanduli-festival-lutayan-sultan-kudarat": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:40:40.657Z"
+  },
+  "wiki-kaimonan-festival-tagum-city": {
+    "month": 6,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 17",
+    "wikipediaTitle": "Maco, Davao de Oro",
+    "enrichedAt": "2026-06-30T22:41:22.107Z"
+  },
+  "wiki-feast-of-la-naval-quezon-city-and-angeles-city": {
+    "month": 5,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 3",
+    "wikipediaTitle": "Flores de Mayo",
+    "enrichedAt": "2026-06-30T22:41:30.832Z"
+  },
+  "wiki-kaaldawan-iraya-puerto-galera-oriental-mindoro": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:41:37.021Z"
+  },
+  "wiki-feast-of-nuestra-se-ora-del-pilar-mamburao-occidental-mindoro": {
+    "month": 5,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 19",
+    "wikipediaTitle": "Our Lady of the Pillar",
+    "enrichedAt": "2026-06-30T22:41:43.035Z"
+  },
+  "wiki-buglasan-festival-dumaguete": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:42:11.810Z"
+  },
+  "wiki-inug-og-festival-oroquieta-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:42:21.908Z"
+  },
+  "wiki-octubafest-tacloban-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:42:27.599Z"
+  },
+  "wiki-lisagan-festival-magallanes-agusan-del-norte": {
+    "month": 2,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 23",
+    "wikipediaTitle": "Caraga",
+    "enrichedAt": "2026-06-30T22:43:08.991Z"
+  },
+  "wiki-inasal-halad-festival-talisay-cebu": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:43:20.916Z"
+  },
+  "wiki-sagingan-festival-tubod-lanao-del-norte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:43:29.628Z"
+  },
+  "wiki-pamugu-an-festival-mansalay-oriental-mindoro": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:44:08.194Z"
+  },
+  "wiki-calbayog-grand-karakol-calbayog": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Our Lady of Porta Vaga",
+    "enrichedAt": "2026-06-30T22:44:17.224Z"
+  },
+  "wiki-rahugan-festival-basud-camarines-norte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:44:26.053Z"
+  },
+  "wiki-musa-festival-kapalong-davao-del-norte": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "from 28 August to 7 September 2024, at Venice Lido in Italy",
+    "wikipediaTitle": "81st Venice International Film Festival",
+    "enrichedAt": "2026-06-30T22:44:34.772Z"
+  },
+  "wiki-tugob-festival-ormoc-city": {
+    "month": 11,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 8",
+    "wikipediaTitle": "Ormoc",
+    "enrichedAt": "2026-06-30T22:45:16.562Z"
+  },
+  "wiki-enchanting-balete-festival-balete-aklan": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:45:25.141Z"
+  },
+  "wiki-leyte-gulf-landing-anniversary-dulag-and-palo-leyte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:45:36.800Z"
+  },
+  "wiki-cave-festival-laak-davao-de-oro": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:46:21.181Z"
+  },
+  "wiki-binalayan-binangonan-sa-lawa-at-kawayan-festival-binangonan-rizal": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:46:27.060Z"
+  },
+  "wiki-sunggod-to-kumanga-tribal-inter-community-solidarity-festival-panabo-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:46:32.820Z"
+  },
+  "wiki-coffee-festival-lipa-city-batangas": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:47:17.238Z"
+  },
+  "wiki-catadungan-festival-padayaw-virac-catanduanes": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:47:23.908Z"
+  },
+  "wiki-apo-iraya-festival-abra-de-ilog-occidental-mindoro": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:47:35.644Z"
+  },
+  "wiki-sambuokan-festival-mati-city-davao-oriental": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:48:17.226Z"
+  },
+  "wiki-pakaradjan-festival-tagum-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:48:23.112Z"
+  },
+  "wiki-haw-as-festival-dumangas-iloilo": {
+    "month": 2,
+    "dayStart": 22,
+    "dayEnd": 22,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 22",
+    "wikipediaTitle": "7107 International Music Festival",
+    "enrichedAt": "2026-06-30T22:48:32.098Z"
+  },
+  "wiki-battle-of-surigao-strait-commemoration-surigao-city-surigao-del-norte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:48:43.978Z"
+  },
+  "wiki-banayan-festival-banaybanay-davao-oriental": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:49:06.609Z"
+  },
+  "wiki-niyogan-festival-baganga-davao-oriental": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:49:18.343Z"
+  },
+  "wiki-kalibulongan-talaingod-davao-del-norte": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:49:24.055Z"
+  },
+  "wiki-aeta-festival-botolan-zambales": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Sunday of January in the town of Kalibo, the pr",
+    "wikipediaTitle": "Ati-Atihan",
+    "enrichedAt": "2026-06-30T22:50:05.389Z"
+  },
+  "wiki-kahimonan-festival-laak-davao-de-oro": {
+    "month": 8,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 20",
+    "wikipediaTitle": "Intangible Cultural Heritage of the Philippines",
+    "enrichedAt": "2026-06-30T22:50:14.381Z"
+  },
+  "wiki-aswang-festival-roxas-city": {
+    "month": 12,
+    "dayStart": 25,
+    "dayEnd": 25,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 25",
+    "wikipediaTitle": "1999 Metro Manila Film Festival",
+    "enrichedAt": "2026-06-30T22:50:25.707Z"
+  },
+  "wiki-hinugyaw-sa-anilao-anilao-iloilo": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:50:31.471Z"
+  },
+  "wiki-apo-fiesta-angeles-city": {
+    "month": 9,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "September 20",
+    "wikipediaTitle": "Ford Fiesta (sixth generation)",
+    "enrichedAt": "2026-06-30T22:51:15.826Z"
+  },
+  "wiki-halaran-festival-roxas-city": {
+    "month": 10,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Sunday of January in the town of Kalibo, the pr",
+    "wikipediaTitle": "Ati-Atihan",
+    "enrichedAt": "2026-06-30T22:51:24.346Z"
+  },
+  "wiki-universal-children-s-festival-dapitan": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Children's Day",
+    "enrichedAt": "2026-06-30T22:51:33.024Z"
+  },
+  "wiki-tingguian-festival-bangued-abra": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:52:17.571Z"
+  },
+  "wiki-pyestang-tugak-frog-festival-san-fernando-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:52:23.608Z"
+  },
+  "wiki-megayon-festival-tigbao-zamboanga-del-sur": {
+    "month": 11,
+    "dayStart": 8,
+    "dayEnd": 8,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 8",
+    "wikipediaTitle": "Pagadian",
+    "enrichedAt": "2026-06-30T22:52:32.185Z"
+  },
+  "wiki-fiestang-kuliat-tigtigan-terakan-keng-dalan-angeles-pampanga": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:53:10.551Z"
+  },
+  "wiki-calacatchara-festival-calaca-batangas": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:53:22.445Z"
+  },
+  "wiki-tinapa-festival-rosario-cavite": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:53:34.407Z"
+  },
+  "wiki-tamaraw-festival-occidental-mindoro-provincewide": {
+    "month": 6,
+    "dayStart": 28,
+    "dayEnd": 28,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 28",
+    "wikipediaTitle": "Murders of Eileen Sarmenta and Allan Gomez",
+    "enrichedAt": "2026-06-30T22:54:18.634Z"
+  },
+  "wiki-raniag-twilight-festival-vigan-city": {
+    "month": 10,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:54:24.539Z"
+  },
+  "wiki-festival-of-lights-sagada-mountain-province": {
+    "month": 11,
+    "dayStart": 3,
+    "dayEnd": 3,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "3rd Sunday of October in Bacolod, Philippines",
+    "wikipediaTitle": "MassKara Festival",
+    "enrichedAt": "2026-06-30T22:54:33.478Z"
+  },
+  "wiki-banaag-festival-anilao-iloilo": {
+    "month": 8,
+    "dayStart": 4,
+    "dayEnd": 13,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "August 4 – 13",
+    "wikipediaTitle": "2023 Cinemalaya",
+    "enrichedAt": "2026-06-30T22:55:14.936Z"
+  },
+  "wiki-grand-perangat-festival-oroquieta-city-misamis-occidental": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:55:23.985Z"
+  },
+  "wiki-tumba-festival-candle-festival-san-luis-batangas": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:55:35.411Z"
+  },
+  "wiki-pintaflores-festival-san-carlos-city-negros-occidental": {
+    "month": 11,
+    "dayStart": 28,
+    "dayEnd": 28,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on the fourth Saturday of January in Iloilo City, Philippines",
+    "wikipediaTitle": "Kasadyahan",
+    "enrichedAt": "2026-06-30T22:56:19.570Z"
+  },
+  "wiki-san-carlos-city-fiesta-san-carlos-city-negros-occidental": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:56:31.650Z"
+  },
+  "wiki-kansilay-festival-silay-city-negros-occidental": {
+    "month": 11,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "its 58th charter anniversary",
+    "wikipediaTitle": "Silay",
+    "enrichedAt": "2026-06-30T22:56:40.613Z"
+  },
+  "wiki-angono-arts-festival-angono-rizal": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:57:11.101Z"
+  },
+  "wiki-negros-day-negros-occidental": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:57:25.579Z"
+  },
+  "wiki-el-cinco-de-noviembre-kansilay-festival-bago-negros-occidental": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:57:31.648Z"
+  },
+  "wiki-bagat-festival-araw-ng-sibagat-sibagat-agusan-del-sur": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:58:10.398Z"
+  },
+  "wiki-helobong-festival-helubong-lake-sebu-south-cotabato": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:58:16.422Z"
+  },
+  "wiki-sandurot-festival-dumaguete": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:58:27.868Z"
+  },
+  "wiki-visayas-mindanao-drum-and-bugle-corps-mindanao-area-cagayan-de-oro": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:58:33.862Z"
+  },
+  "wiki-taw-anay-gugma-dumalag-capiz": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:59:12.346Z"
+  },
+  "wiki-kalag-kalag-festival-cebu-city": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:59:24.176Z"
+  },
+  "wiki-pandag-kitab-oriental-mindoro-calapan": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T22:59:29.923Z"
+  },
+  "wiki-founding-anniversary-of-occidental-mindoro-mamburao-occidental-mindoro": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:00:16.148Z"
+  },
+  "wiki-la-union-surfing-invitational-surfing-festival-san-juan-la-union": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:00:29.731Z"
+  },
+  "wiki-kahilwayan-festival-cry-of-santa-barbara-santa-barbara-iloilo": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:00:38.506Z"
+  },
+  "wiki-urukay-festival-anini-y-antique": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:01:04.083Z"
+  },
+  "wiki-baguio-arts-festival-baguio": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:01:15.938Z"
+  },
+  "wiki-inilusan-mambusao-capiz": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:01:25.394Z"
+  },
+  "wiki-pinnakan-festival-luna-la-union": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:02:06.641Z"
+  },
+  "wiki-kalimudan-festival-isulan-sultan-kudarat": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:02:18.410Z"
+  },
+  "wiki-guinakit-of-maguindanao-rio-grande-de-mindanao": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:02:30.166Z"
+  },
+  "wiki-cordillera-festival-baguio": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:03:14.746Z"
+  },
+  "wiki-kabkaban-festival-carcar-cebu": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:03:26.270Z"
+  },
+  "wiki-benguet-foundation-day-benguet": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:04:10.398Z"
+  },
+  "wiki-santa-ipon-festival-santa-ilocos-sur": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:04:19.200Z"
+  },
+  "wiki-feast-of-santa-catalina-mansalay-oriental-mindoro": {
+    "month": 1,
+    "dayStart": 9,
+    "dayEnd": 9,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "January 9 each year since its inception",
+    "wikipediaTitle": "Feast of the Black Nazarene",
+    "enrichedAt": "2026-06-30T23:04:27.842Z"
+  },
+  "wiki-paruparo-festival-dasmari-as-cavite": {
+    "month": 11,
+    "dayStart": 6,
+    "dayEnd": 6,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 6",
+    "wikipediaTitle": "Paruparo (song)",
+    "enrichedAt": "2026-06-30T23:04:36.749Z"
+  },
+  "wiki-panangedayew-dagupan": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:05:15.490Z"
+  },
+  "wiki-feast-of-the-immaculate-conception-puerto-princesa-city": {
+    "month": 12,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 17",
+    "wikipediaTitle": "Feast of the Immaculate Conception",
+    "enrichedAt": "2026-06-30T23:05:21.582Z"
+  },
+  "wiki-day-ang-di-onga-festival-baguio": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:05:27.302Z"
+  },
+  "wiki-annual-pinatubo-trek-a-march-to-peace-tranquility-capas-tarlac": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:05:33.102Z"
+  },
+  "wiki-adivay-la-trinidad-benguet": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:06:14.294Z"
+  },
+  "wiki-p-yagsawitan-festival-maragusan-davao-de-oro": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:06:19.985Z"
+  },
+  "wiki-kawayanan-festival-pagadian-zamboanga-del-sur": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:06:31.325Z"
+  },
+  "wiki-binabayani-festival-masinloc-zambales": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:07:15.571Z"
+  },
+  "wiki-crown-festival-taytay-rizal": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "2024 Cannes Film Festival",
+    "enrichedAt": "2026-06-30T23:07:27.355Z"
+  },
+  "wiki-tan-ok-ni-ilocano-festival-of-festivals-ilocos-norte": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:07:38.745Z"
+  },
+  "wiki-pas-ungko-s-g-mis-occ-misamis-occidental": {
+    "month": 11,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:08:17.042Z"
+  },
+  "wiki-sumbingtik-suman-bibingka-latik-festival-cainta-rizal": {
+    "month": 12,
+    "dayStart": 1,
+    "dayEnd": 1,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 1 in Cainta, Rizal",
+    "wikipediaTitle": "SumBingTik Festival",
+    "enrichedAt": "2026-06-30T23:08:23.197Z"
+  },
+  "wiki-luglugan-pancit-malabon-festival-malabon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:08:32.035Z"
+  },
+  "wiki-rimat-ti-amianan-san-fernando-city-la-union": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:08:37.979Z"
+  },
+  "wiki-kamundagan-festival-naga-city-camarines-sur": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "Naga, Camarines Sur",
+    "enrichedAt": "2026-06-30T23:09:03.456Z"
+  },
+  "wiki-sinukwan-festival-san-fernando-city": {
+    "month": 5,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 30",
+    "wikipediaTitle": "San Fernando, Pampanga",
+    "enrichedAt": "2026-06-30T23:09:15.050Z"
+  },
+  "wiki-hugyawan-dalansayaw-dumaguete": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:09:23.829Z"
+  },
+  "wiki-pasigahan-sa-balingasag-balingasag-misamis-oriental": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:09:29.697Z"
+  },
+  "wiki-galicayo-festival-manaoag-pangasinan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:10:08.376Z"
+  },
+  "wiki-kabakahan-festival-padre-garcia-batangas": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:10:21.032Z"
+  },
+  "wiki-kalamay-festival-san-enrique-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:10:32.514Z"
+  },
+  "wiki-fiesta-de-los-toros-nasugbu-batangas": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:11:16.703Z"
+  },
+  "wiki-yugyugan-festival-pagsanjan-laguna": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:11:28.117Z"
+  },
+  "wiki-sinadya-sa-halara-festival-roxas-city-capiz": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:11:33.860Z"
+  },
+  "wiki-paskuhan-sa-maraykit-san-juan-batangas": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:12:12.509Z"
+  },
+  "wiki-christmas-symbols-festival-tangub-city": {
+    "month": 12,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Sunday of January with the feast of the Santo N",
+    "wikipediaTitle": "Christmas in the Philippines",
+    "enrichedAt": "2026-06-30T23:12:24.064Z"
+  },
+  "wiki-pag-alad-festival-san-fernando-romblon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:12:29.750Z"
+  },
+  "wiki-pagoda-and-caracol-fluvial-parade-malabon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:12:35.512Z"
+  },
+  "wiki-rungawan-festival-concepcion-romblon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:13:14.166Z"
+  },
+  "wiki-hinugyawan-festival-santa-maria-romblon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:13:20.028Z"
+  },
+  "wiki-fluvial-procession-at-taal-taal-batangas": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "Naga, Camarines Sur",
+    "enrichedAt": "2026-06-30T23:13:28.943Z"
+  },
+  "wiki-tag-anitohan-tudela-cebu-camotes-island": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:13:34.827Z"
+  },
+  "wiki-rehiyon-rehiyon-marikina": {
+    "month": 2,
+    "dayStart": 23,
+    "dayEnd": 23,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "February 23",
+    "wikipediaTitle": "Caraga",
+    "enrichedAt": "2026-06-30T23:14:19.327Z"
+  },
+  "wiki-immaculate-conception-day-cotabato-city": {
+    "month": 12,
+    "dayStart": 17,
+    "dayEnd": 17,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 17",
+    "wikipediaTitle": "Feast of the Immaculate Conception",
+    "enrichedAt": "2026-06-30T23:14:25.447Z"
+  },
+  "wiki-feast-of-immaculate-conception-burunyugan-puerto-princesa-city": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:14:31.481Z"
+  },
+  "wiki-adyawan-festival-coco-festival-san-teodoro-day-and-immaculate-conception-feast-san-teodoro-oriental-mindoro": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:14:37.403Z"
+  },
+  "wiki-bonggahan-sa-valencia-valencia-city-bukidnon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:15:16.036Z"
+  },
+  "wiki-pampanga-day-san-fernando-pampanga": {
+    "month": 5,
+    "dayStart": 30,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 30",
+    "wikipediaTitle": "San Fernando, Pampanga",
+    "enrichedAt": "2026-06-30T23:15:24.868Z"
+  },
+  "wiki-kasadyaan-festival-mardi-gras-dumaguete": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:15:30.983Z"
+  },
+  "wiki-parayan-festival-pototan-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:15:37.189Z"
+  },
+  "wiki-festival-of-lights-amp-music-la-carlota-city": {
+    "month": 11,
+    "dayStart": 1,
+    "dayEnd": 30,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November mostly in the province of Cavite, in the Philippines",
+    "wikipediaTitle": "Kaguluhan Music Festival",
+    "enrichedAt": "2026-06-30T23:15:43.223Z"
+  },
+  "wiki-pastores-bicol-legazpi-city": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "Naga, Camarines Sur",
+    "enrichedAt": "2026-06-30T23:16:06.030Z"
+  },
+  "wiki-lambayok-festival-san-juan-batangas": {
+    "month": 6,
+    "dayStart": 18,
+    "dayEnd": 18,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 18",
+    "wikipediaTitle": "Philippine Independence Day Parade",
+    "enrichedAt": "2026-06-30T23:16:17.518Z"
+  },
+  "wiki-bod-bod-festival-tanjay-city-negros-oriental": {
+    "month": 10,
+    "dayStart": 15,
+    "dayEnd": 21,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "third weekend of October",
+    "wikipediaTitle": "Camiguin",
+    "enrichedAt": "2026-06-30T23:16:28.213Z"
+  },
+  "wiki-kanyong-kawayan-festival-kidapawan-city": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:17:09.745Z"
+  },
+  "wiki-shariff-kabunsuan-festival-cotabato-city-maguindanao-del-norte": {
+    "month": 10,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "October 20",
+    "wikipediaTitle": "Parang, Maguindanao del Norte",
+    "enrichedAt": "2026-06-30T23:17:21.496Z"
+  },
+  "wiki-pantatan-festival-zarraga-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:17:27.291Z"
+  },
+  "wiki-lantern-festival-bacolod": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:18:11.514Z"
+  },
+  "wiki-iwag-christmas-lights-festival-pototan-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:18:17.437Z"
+  },
+  "wiki-sorsogon-festival-sorsogon-city": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:18:31.464Z"
+  },
+  "wiki-palupok-bayong-festival-santa-barbara-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:18:37.266Z"
+  },
+  "wiki-tultugan-festival-maasin-iloilo": {
+    "month": 12,
+    "dayStart": 27,
+    "dayEnd": 27,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "annually on the fourth Sunday of January in Iloilo City, Philippines, in honor o",
+    "wikipediaTitle": "Dinagyang",
+    "enrichedAt": "2026-06-30T23:19:21.624Z"
+  },
+  "wiki-araw-ng-montalban-pamitinan-festival-rodriguez-rizal": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:19:27.317Z"
+  },
+  "wiki-christmas-food-street-festival-cebu-city": {
+    "month": 12,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "Sunday of January with the feast of the Santo N",
+    "wikipediaTitle": "Christmas in the Philippines",
+    "enrichedAt": "2026-06-30T23:19:36.536Z"
+  },
+  "wiki-maytinis-festival-kawit-cavite": {
+    "month": 11,
+    "dayStart": 19,
+    "dayEnd": 19,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "November 19",
+    "wikipediaTitle": "Our Lady of Porta Vaga",
+    "enrichedAt": "2026-06-30T23:20:17.887Z"
+  },
+  "wiki-kanyon-kanyon-festival-patunog-tunog-kanyon-sa-new-year-santa-barbara-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:20:23.803Z"
+  },
+  "wiki-pasidungog-san-miguel-iloilo": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:20:32.452Z"
+  },
+  "wiki-puto-festival-calasiao-pangasinan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:21:16.734Z"
+  },
+  "wiki-idioc-festival-cajidiocan-romblon": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:21:22.745Z"
+  },
+  "wiki-handuraw-festival-dapitan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:21:34.693Z"
+  },
+  "wiki-kaliugyon-festival-libacao-aklan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:21:40.636Z"
+  },
+  "wiki-pawil-dagupan-dagupan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:22:03.203Z"
+  },
+  "wiki-majigangga-festival-santa-ana-pampanga": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:22:09.269Z"
+  },
+  "wiki-ni-os-inosentes-day-yawa-yawa-festival-ibajay-aklan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:22:15.352Z"
+  },
+  "wiki-horse-festival-plaridel-bulacan": {
+    "month": 5,
+    "dayStart": 20,
+    "dayEnd": 20,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "May 20",
+    "wikipediaTitle": "2024 Cannes Film Festival",
+    "enrichedAt": "2026-06-30T23:22:27.103Z"
+  },
+  "wiki-rizal-s-death-anniversary-dapitan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:23:11.638Z"
+  },
+  "wiki-torotot-festival-davao-city": {
+    "month": 12,
+    "dayStart": 31,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "December 31",
+    "wikipediaTitle": "Davao City Torotot Festival",
+    "enrichedAt": "2026-06-30T23:23:20.489Z"
+  },
+  "wiki-pakalog-sa-pasig-pasig": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:23:32.194Z"
+  },
+  "wiki-kaluskos-bamboo-arch-festival-cardona-rizal": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:24:10.522Z"
+  },
+  "wiki-damili-festival-san-nicolas-ilocos-norte": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:24:22.394Z"
+  },
+  "wiki-sanghiyang-festival-alfonso-cavite": {
+    "month": 6,
+    "dayStart": 12,
+    "dayEnd": 12,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "June 12",
+    "wikipediaTitle": "Cavite",
+    "enrichedAt": "2026-06-30T23:24:33.923Z"
+  },
+  "wiki-world-costume-festival-vigan-city": {
+    "month": 12,
+    "dayStart": 1,
+    "dayEnd": 31,
+    "dateParseMethod": "wikipedia-extract",
+    "extractSnippet": "week of April in 2013",
+    "wikipediaTitle": "World Costume Festival",
+    "enrichedAt": "2026-06-30T23:25:12.648Z"
+  },
+  "wiki-buntal-hat-festival-baliuag-bulacan": {
+    "month": 12,
+    "dayStart": null,
+    "enrichedAt": "2026-06-30T23:25:24.291Z"
   }
 }
